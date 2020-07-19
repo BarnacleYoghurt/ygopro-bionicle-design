@@ -1,0 +1,1386 @@
+﻿mse version: 0.3.8
+game: yugioh
+stylesheet: series10
+set info:
+	title: Bionicle - Coming of the Toa
+	language: EN
+	edition: 1st Edition
+	copyright: © 2014 THE LEGO GROUP
+styling:
+	yugioh-standard-extra:
+		image frame: no
+		bold effect text: no
+		visible atk and def: yes
+		full art: no
+		text color: black
+card:
+	has styling: false
+	notes:
+		Already has overhaul effects.
+		
+		Further overhaul should do the following:
+		-) Feasible boss monster for Ta-Koro deck
+		-) Feasible part of a multi-Toa deck (Kaita or even all six)
+		-) Depict the process of being lost in the ocean for a long time before finally coming to rescue the Matoran somehow (e.g. SS condition that requires (FIRE) monsters in your GY and opponent to control monsters)
+		
+		General Toa Mata effect structure:
+		1) Allow Tributes from hand (maybe with some restriction like not attacking the turn it's summoned like that?)
+		2) Effect supporting the Koro's playstyle
+		3) Kanohi cycling
+		
+		For Tahu, 2) does ATK reduction to help with battle. Could also be a continuous effect, or only trigger on own summon (but be more powerful), or do burn damage when a FIRE monster destroys a monster by battle, or do something on attack declaration (could be safely activated in combination with Hau, since Tahu can then just attack whatever) ...
+		Maybe: "Once per turn, when a monster you control gains ATK: You can make all monsters your opponent controls lose the same amount of ATK." Downside: Doesn't activate on own summon.
+		
+		Alt 2): Once per turn, before damage calculation: ... (more flexible)
+		
+		
+		Problem with fancy new Kanohi equipping effect: Link Isolde, send 6 Kanohi, Special Summon Toa --> any 2 Warriors equal a nearly free Toa Mata able to cycle through the full ass of protection and buffs
+		=> too easy, especially since the key card is entirely unrelated to the archetype
+		=> on the other hand, running 6 different Kanohi is a gimmick deck anyway, so maybe Isolde enabling that isn't too bad
+		=> but Golden Kanohi should definitely be changed
+	time created: 2014-12-04 18:00:08
+	time modified: 2020-02-08 00:17:59
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: fire
+	card type: effect monster
+	name: Toa Mata Tahu
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image12
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	edition: Version 1.1
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 FIRE or "Toa Mata" monster in your hand, except "Toa Mata Tahu". Once per turn, before damage calculation: You can target 1 monster your opponent controls; its ATK becomes 0. Once per Chain (Quick Effect): You can banish all "Kanohi" Equip Spell Cards equipped to this card (if any), then equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card. During the End Phase, return all cards banished by this effect to your GY.<i></i-flavor>
+	attack: 2500
+	defense: 1500
+	rarity: common
+	copyright: © 2014 THE LEGO GROUP
+	gamecode: 10100001
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-04 18:35:41
+	time modified: 2015-06-02 09:28:29
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: water
+	name: Toa Mata Gali
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image2
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Kaukau" from your hand, Deck or Graveyard to it. If this card is Special Summoned: You can add 1 Level 4 or lower monster from your Graveyard to your hand.</i-flavor>
+	attack: 2300
+	defense: 1800
+	rarity: common
+	gamecode: 10100002
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-04 18:35:41
+	time modified: 2015-06-02 20:46:10
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: earth
+	name: Toa Mata Onua
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image1
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Pakari" from your hand, Deck or Graveyard to it. If this card is Special Summoned: You can negate the effect(s) of 1 face-up monster on the field (except this card).</i-flavor>
+	attack: 2100
+	defense: 2000
+	rarity: common
+	gamecode: 10100003
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-04 18:35:41
+	time modified: 2015-06-02 20:52:53
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: earth
+	name: Toa Mata Pohatu
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image4
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Kakama" from your hand, Deck or Graveyard to it. If this card is Special Summoned: You can target 1 Spell/Trap card your opponent controls; destroy that target.</i-flavor>
+	attack: 2400
+	defense: 1650
+	rarity: common
+	gamecode: 10100004
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-04 18:35:41
+	time modified: 2015-06-02 20:59:07
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: water
+	name: Toa Mata Kopaka
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image5
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Akaku" from your hand, Deck or Graveyard to it. If this card is Special Summoned: Activate this effect; monsters cannot be destroyed, until the End Phase.</i-flavor>
+	attack: 2000
+	defense: 2150
+	rarity: common
+	gamecode: 10100005
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-04 18:35:41
+	time modified: 2015-06-02 09:28:39
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: wind
+	name: Toa Mata Lewa
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image6
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Miru" from your hand, Deck or Graveyard to it. If this card is Special Summoned: You can draw 1 card.</i-flavor>
+	attack: 2500
+	defense: 1400
+	rarity: common
+	gamecode: 10100006
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2020-02-08 00:18:23
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Huna
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image46
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	edition: Version 1.1
+	rule text: Equip only to a monster that has no other "Kanohi" card equipped. If you control another monster, your opponent cannot target the equipped monster for attacks. If this card is sent to the GY: You can target 1 "Turaga Vakama" in your GY; return that target to the Extra Deck, and if you do, add this card to your hand. You can only use this effect of "Noble Kanohi Huna" once per turn.
+	rarity: common
+	gamecode: 10100040
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-03 09:33:02
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Kaukau
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image9
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" monster that has no "Kanohi" card equipped. The equipped monster is unaffected by the effects of other Spell/Trap Cards. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100008
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-05 12:47:09
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Ruru
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image43
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" or "Turaga" monster that has no "Kanohi" card equipped. Once per turn, if your opponent controls 2 or more Set cards: You can look at 1 Set card your opponent controls and then return it to its original position (Flip Effects are not activated at this time). During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip one "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100042
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-05 12:58:53
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Komau
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image10
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" or "Turaga" monster that has no "Kanohi" card equipped. Once per turn, while your opponent controls 2 or more monsters: You can target 1 monster your opponent controls; take control of that target until the End Phase. During either player's turn: You can py 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to.  
+	rarity: common
+	gamecode: 10100043
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-05 13:09:47
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Mahiki
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image40
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" or "Turaga" monster that has no "Kanohi" card equipped. Once per turn, if you control no monsters besides the equipped monster: You can Special Summon 1 "Illusion Token" (Beast-Type/WIND/ Level 1 /ATK 0/DEF 0). While you control a face-up "Illusion Token", other monsters you control cannot be selected as an attack target. During either player's turn: You can pay 800 LP;  send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100045
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2015-06-08 21:04:42
+	card type: xyz monster
+	name: Akamai, Toa Kaita of Valor
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image3
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 6 "Toa Mata" monsters
+		When this card is Xyz Summoned: Equip 1 "Great Kanohi Aki" from your hand, Deck or Graveyard to it. Once per turn: You can detach 1 Xyz Material from this card; destroy 1 face-down card your opponent controls. Monsters destroyed by this card (either by battle or by effect) cannot activate their effects.
+	attack: 3000
+	defense: 2000
+	rarity: common
+	gamecode: 10100013
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2015-06-04 16:02:26
+	card type: xyz monster
+	name: Wairuha, Toa Kaita of Wisdom
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image14
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 6 "Toa Mata" monsters
+		When this card is Xyz Summoned: Equip 1 "Great Kanohi Rua" from your hand, Deck or Graveyard to it. Once per turn: You can detach 1 Xyz Material from this card; send 1 random card from your opponent's hand and the top card of your opponent's deck to the Graveyard, then, if both cards are of the same card type (Monster,Spell or Trap), banish 1 card your opponent controls or in their Graveyard and draw 1 card.
+	attack: 2600
+	defense: 2600
+	rarity: common
+	gamecode: 10100014
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 18:22:38
+	time modified: 2015-06-07 09:57:56
+	card type: trap card
+	name: Coming of the Toa
+	attribute: trap
+	level: Trap Card
+	image: image13
+	rule text: Target up to 3 Level 4 or lower monsters in your Graveyard that were destroyed this turn; Special Summon 1 "Toa" monster with the same Attribute from your hand or Deck for each of these monsters. Monsters Special Summoned by this effect cannot attack during the turn they are Summoned. If this face-down card is destroyed by your opponent's card effect and sent to the Graveyard: You can destroy all monsters you control (min. 1); Special Summon 1 "Toa" monster from your hand or Deck. You can only activate 1 "Coming of the Toa" effect per turn, and only once that turn.
+	rarity: common
+	gamecode: 10100015
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 19:37:32
+	time modified: 2015-06-04 18:06:26
+	card type: spell card
+	name: Quest for the Masks
+	attribute: spell
+	level: Spell Card<sym-auto>|</sym-auto><sym-auto>%</sym-auto>
+	image: image15
+	rule text: When a monster your opponent controls is destroyed by battle: You can send 1 "Kanohi" Equip Spell Card from your Deck to your Graveyard. You can send this card from the field to the Graveyard; add 1 "Kanohi" Equip Spell Card from your Graveyard to your hand.
+	rarity: common
+	gamecode: 10100016
+card:
+	has styling: false
+	notes: Would be better as attribute support, since Turaga are the leaders of their villages, not the Toa's helpers
+	time created: 2014-12-08 21:30:21
+	time modified: 2015-06-04 18:25:17
+	card type: effect monster
+	name: Turaga Vakama
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image16
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Summoned: Equip 1 "Noble Kanohi Huna" from your hand, Deck or Graveyard to it. During the End Phase, if this card is in your Graveyard because it was sent there this turn: Target 1 face-up monster whose ATK is currently 0; banish that target.
+	attack: 1400
+	defense: 1150
+	rarity: common
+	gamecode: 10100017
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 21:30:21
+	time modified: 2015-06-04 18:34:20
+	card type: effect monster
+	name: Turaga Nokama
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image18
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Summoned,: Equip 1 "Noble Kanohi Rau" from your hand, Deck or Graveyard to it. If this card is sent to the Graveyard: You can send 1 Level 4 or lower monster from your Deck to the Graveyard. You can only use this effect of "Turaga Nokama" once per turn.
+	attack: 1200
+	defense: 1150
+	rarity: common
+	gamecode: 10100018
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-03 09:47:48
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Akaku
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image19
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" Monster that has no "Kanohi" card equipped. If the equipped monster attacks a Defense Position monster, inflict piercing battle damage to your opponent. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100011
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 21:30:21
+	time modified: 2016-02-11 12:07:52
+	card type: effect monster
+	name: Turaga Whenua
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image20
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Summoned: Equip 1 "Noble Kanohi Ruru" from your hand, Deck or Graveyard to it. During the End Phase, if this card is in the Graveyard because it was sent there this turn: Target 1 face-up monster whose effect(s) is currently negated; banish that target.
+	attack: 1450
+	defense: 1050
+	rarity: common
+	gamecode: 10100019
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 21:30:21
+	time modified: 2015-06-04 18:47:33
+	card type: effect monster
+	name: Turaga Onewa
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image21
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Summoned: Equip 1 "Noble Kanohi Komau" from your hand, Deck or Graveyard to it. If this card is sent to the Graveyard: Target 1 face-down Spell/Trap Card your opponent controls; that target cannot be activated until the End Phase. Your opponent cannot activate the targeted card in response to this card's activation.
+	attack: 1450
+	defense: 1000
+	rarity: common
+	gamecode: 10100020
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 21:30:21
+	time modified: 2015-06-04 19:18:18
+	card type: effect monster
+	name: Turaga Nuju
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image22
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Summoned: Equip 1 "Noble Kanohi Matatu" from your hand, Deck or Graveyard to it. If this card is sent to the Graveyard: Target 1 face-up monster you control; that target cannot be targeted by other card effects until the End Phase.
+	attack: 1100
+	defense: 1200
+	rarity: common
+	gamecode: 10100021
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 21:30:21
+	time modified: 2015-06-04 19:19:01
+	card type: effect monster
+	name: Turaga Matau
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image23
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Summoned: Equip 1 "Noble Kanohi Mahiki" from your hand, Deck or Graveyard to it. If this card is sent to the Graveyard: Draw 1 card. You can only use this effect of "Turaga Matau" once per turn.
+	attack: 1400
+	defense: 1100
+	rarity: common
+	gamecode: 10100022
+card:
+	has styling: false
+	notes:
+		On activate: Search Koro
+		When Koro/Field Spell in general destroyed: Add from GY to hand
+	time created: 2014-12-09 17:11:13
+	time modified: 2015-06-04 20:37:32
+	card type: spell card
+	name: The Island of Mata Nui
+	attribute: spell
+	level: Spell Card<sym-auto>&</sym-auto>
+	image: image17
+	rule text: When a Level 6 or higher monster is Normal Summoned: Neither player can Summon monsters with another Attribute than that monster until its controller's next Standby Phase. If a "Toa Mata" monster(s) you control would be destroyed: You can send this card to the Graveyard instead. When this card is sent from the field to the Graveyard: Add 1 "-Koro" Field Spell Card, "The Great Temple, Kini-Nui" or "Circle of Legends, Amaja-Nui" from your Deck to your hand. You can only use this effect of "The Island of Mata Nui" once per turn.
+	defense: 
+	rarity: common
+	gamecode: 10100023
+card:
+	has styling: false
+	notes: Would be better as support for decks that want to use all Toa Mata together.
+	time created: 2014-12-09 17:11:13
+	time modified: 2015-06-04 23:36:42
+	card type: spell card
+	name: The Great Temple, Kini-Nui
+	attribute: spell
+	level: Spell Card<sym-auto>&</sym-auto>
+	image: image25
+	rule text: Face-up Equip Spell Cards you control are unaffected by your opponent's card effects. You can discard 1 "Kanohi" Equip Spell Card, then draw 1 card.
+	rarity: common
+	gamecode: 10100024
+card:
+	has styling: false
+	notes:
+		Principle: Courage
+		"To be courageous is to place your responsibility and the safety of others above your own safety."
+		=> face stronger monsters in battle
+		=> shield allies (force opponent to attack a specific monster, e.g. "Your opponent cannot target FIRE monsters you control for attacks, except the FIRE monster with the highest ATK you control"?) 
+		=> better: protect from effects while controlling multiple FIRE, so opponent is forced into battle
+		
+		Courage grants Strength 
+		=> ATK manipulation
+		
+		The enemy of Courage is Fear
+		=> Fear prevents battles from taking place by making monsters "flee"
+		
+		Battle focus has good synergy with Hau's battle protection.
+		Huna forces attacks towards stronger targets, might be redundant with the possible "shield allies" effect listed above.
+		
+		ATK boost could also be before damage calculation, so you can chain block with this and Tahu, and the opponent gets a chance to add additional boosts afterwards (more courageous that way).
+	time created: 2014-12-09 17:11:13
+	time modified: 2020-02-08 00:18:17
+	card type: spell card
+	name: Ta-Koro, Village of Fire
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image26
+	edition: Version 1.1
+	rule text: While all monsters you control (min. 2) are FIRE, monsters you control cannot be targeted or destroyed by your opponent's card effects. During the Damage Step, when a FIRE monster you control battles an opponent's monster with higher original ATK: You can discard 1 card; that monster you control gains ATK equal to the highest original ATK on the field, until the end of this turn. You can only use this effect of "Ta-Koro, Village of Fire" once per turn.
+	rarity: common
+	gamecode: 10100025
+card:
+	has styling: false
+	notes:
+		Principle: Purity
+		"To be pure was to free your thoughts of corruption."
+		=> prevent your monsters from being negatively affected
+		=> negate targeting effects
+		
+		Purity grants Speed
+		=> evasion by dodging effects goes well with interpretation of purity
+		=> but could also be "speed" as a game term, with things like giving draws or making things quick effects
+		
+		The enemy of Purity is Poison
+		=> negative effect that somehow bypasses/overpowers Purity's protection?
+		
+		Kaukau protecting from Spells/Traps fits in, but might be redundant.
+		Rau currently has no relevance - possible changes?
+		=> maybe "translate" one type of effect into another so protection works?
+		
+		Alternate approach: Purity = having a group of cards be homogenous (e.g. only WATER monsters in GY)
+	time created: 2014-12-09 17:11:13
+	time modified: 2020-01-02 23:40:09
+	card type: spell card
+	name: Ga-Koro, Village of Water
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image27
+	rule text: When this card is activated while you control a WATER monster: Add 1 "Toa Mata Gali" from your Deck to your hand. WATER monsters can be Normal Summoned for 1 less tribute. Once per turn, during either player's turn, when your opponent activates a card effect: You can banish 1 "Kanohi" Equip Spell Card from your Graveyard; negate the activation and destroy that card.
+	rarity: common
+	gamecode: 10100026
+card:
+	has styling: false
+	notes:
+		Principle: Prosperity
+		"One was prosperous by attaining great wealth, often through hard work."
+		=> wealth = card advantage?
+		=> wealth = LP?
+		=> hard work = performing summons?
+		
+		Prosperity grants Stamina.
+		=> helps with executing more hard work
+		
+		The enemy of Prosperity is Hunger.
+		=> saps away whatever resource are needed for hard work
+		=> currently would just make opponent gain LP, so not really relevant
+		=> unless: hard work is reducing opponent's LP
+		
+		Pakari's ATK boost seems to fit in more with Ta-Koro's playstyle, though it would be redundant there.
+		=> if hard work is reducing opponent's LP, a bigger beatstick would have some synergy
+		Ruru currently has no relevance.
+		=> maybe inflict damage based on revealed card, like Aqua Dolphin
+	time created: 2014-12-09 17:11:13
+	time modified: 2020-01-02 23:45:06
+	card type: spell card
+	name: Onu-Koro, Village of Earth
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image28
+	rule text: When this card is activated while you control an EARTH monster: Add 1 "Toa Mata Onua" from your Deck to your hand.EARTH monsters can be Normal Summoned for 1 less tribute. Once per turn: You can banish 1 "Kanohi" Equip Spell Card from your Graveyard; draw 1 card for each face-up EARTH monster you control (max. 3).
+	rarity: common
+	gamecode: 10100027
+card:
+	has styling: false
+	notes:
+		Principle: Creation.
+		"Creation was the concept of making new things."
+		=> Extra Deck Summons
+		=> Possible overlap with C.C. Matoran
+		
+		Creation grants Strategy.
+		=> Some big brain stuff with ED monsters?
+		
+		The enemy of Creation is Disintegration.
+		=> some form of removal that hits harder against Extra Deck monsters (e.g. return to hand?)
+	time created: 2014-12-09 17:11:13
+	time modified: 2020-01-04 00:02:00
+	card type: spell card
+	name: Po-Koro, Village of Stone
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image7
+	rule text: When this card is activated while you control an EARTH monster: Add 1 "Toa Mata Pohatu" from your Deck to your hand. EARTH monsters can be Normal Summoned for 1 less tribute. If you control no monsters: You can banish 1 "Kanohi" Equip Spell Card from your Graveyard; Send up to 2 monsters from your hand to the Graveyard and Special Summon 1 monster whose Level or Rank is lower than the combined Level of those monsters from the Extra Deck. While you control that monster, you cannot Summon any monsters. When it leaves the field: Return it to the Extra Deck.
+	rarity: common
+	gamecode: 10100028
+card:
+	has styling: false
+	notes:
+		Principle: Peace.
+		"Those who were peaceful were focused and calm about all they did"
+		=> stall?
+		=> slow playstyle to contrast Ga-Koro's fast one (and also to discourage mixing Ga and Ko in WATER deck)
+		=> "On Mount Ihu, nothing grows and nothing changes" => lockdown?
+		
+		Peace grants Willpower.
+		=> "improve focus" and "gain more control"
+		=> ?
+		
+		The enemy of Peace is Anger.
+		=> forcing battle screws up Ko plays?
+	time created: 2014-12-09 17:11:13
+	time modified: 2015-06-04 22:41:59
+	card type: spell card
+	name: Ko-Koro, Village of Ice
+	attribute: spell
+	level: Spell Card<sym-auto>&</sym-auto>
+	image: image30
+	rule text: When this card is activated while you control a WATER monster: Add 1 "Toa Mata Kopaka" from your Deck to your hand. WATER monsters can be Normal Summoned for 1 less tribute. Once per turn, when you take damage: You can banish 1 "Kanohi" Equip Spell Card from your Graveyard; gain LP equal to the damage you took, then 1 face-up WATER monster you control gains that much ATK, until the End Phase.
+	rarity: common
+	gamecode: 10100029
+card:
+	has styling: false
+	notes:
+		Prinicple: Faith.
+		"Faith is trusting your allies, and trusting that all will end well"
+		=> leaving things to allies by downgrading monsters to bring out / upgrade another
+		
+		Faith grants Accuracy.
+		=> Direct attacks?
+		=> Spot removal?
+		=> maybe match Sanok?
+		
+		The enemy of Faith is Fragmentation.
+		=> somehow prevent cooperation between multiple cards
+	time created: 2014-12-09 17:11:13
+	time modified: 2015-06-04 23:47:29
+	card type: spell card
+	name: Le-Koro, Village of Air
+	attribute: spell
+	level: Spell Card<sym-auto>&</sym-auto>
+	image: image31
+	rule text: When this card is activated while you control a WIND monster: Add 1 "Toa Mata Lewa" from your Deck to your hand.WIND monsters can be Normal Summoned for 1 less tribute. Once per turn: You can banish 1 "Kanohi" Equip Spell Card from your Graveyard and target 1 face-up WIND monster you control; Special Summon 1 monster with the same or a lower Level from your hand.
+	rarity: common
+	gamecode: 10100030
+card:
+	has styling: false
+	notes:
+		Block effects on attack 
+		=> unexpectedly moving too fast to respond, opponent literally gets Kapura'd
+		=> combos well with ATK  boosting and battle focus of Ta-Koro
+		
+		
+		Interesting concept: stackable activations delayed to End Phase (Inflict damage on SS/draw when leave field) => can it somehow be included? Would be nice as a lore adaptation. Original wording:
+		"When this card is Special Summoned: Inflict damage equal to its current ATK to your opponent during the End Phase of this turn. When this card leaves the field: Draw 1 card during the End Phase of this turn."
+		
+		Maybe:
+		During the End Phase: Your opponent takes 200 damage for each FIRE monster you Special Summoned this turn.
+		
+		Or:
+		During the End Phase: Draw 1 card for each FIRE monster you Special Summoned this turn.
+		
+		Both could also activate from GY, only count some subset of FIRE monsters, count field leaves instead of summons, ...
+	time created: 2014-12-10 20:58:53
+	time modified: 2020-02-08 00:18:19
+	card type: effect monster
+	name: C.C. Matoran Kapura
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image62
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	edition: Version 1.1
+	rule text: If this card attacks, your opponent's cards and effects cannot be activated until the end of the Damage Step. During the End Phase, if this card is in your GY because it was sent there this turn: You can draw 1 card for each "C.C. Matoran" monster you Special Summoned this turn. You can only use this effect of "C.C. Matoran Kapura" once per turn.
+	attack: 600
+	defense: 200
+	rarity: common
+	gamecode: 10100031
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2017-03-30 13:20:05
+	card type: effect monster
+	name: C.C. Matoran Macku
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image29
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is added to your hand by a card effect: You can Special Summon it. During either player's Main Phase, you can discard this card and target 1 "Matoran" monster you control; that target is unaffected by your opponent's card effects, until the End Phase. You can only use each effect of "C.C. Matoran Macku" once per turn.
+	attack: 500
+	defense: 200
+	rarity: common
+	gamecode: 10100032
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2017-03-30 13:20:21
+	card type: effect monster
+	name: C.C. Matoran Taipu
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image33
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: During either player's turn: You can banish this card from your Graveyard and target 1 Warrior-Type monster you control; it gains 1000 ATK, until the End Phase. You can only use this effect of "C.C. Matoran Taipu" once per turn.
+	attack: 1000
+	defense: 500
+	rarity: common
+	gamecode: 10100033
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2017-03-30 13:20:32
+	card type: effect monster
+	name: C.C. Matoran Hafu
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image32
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		When this card is Special Summoned: You can Special Summon 1 Level 2 Warrior-Type monster from your hand or Graveyard. Its effects are negated, and it is banished when it leaves the field. An Xyz or Synchro monster Special Summoned by using this card as a material gains the following effect:
+		<sym-auto>*</sym-auto>While it is on the field, its name is treated as "C.C. Matoran Hafu".
+	attack: 700
+	defense: 400
+	rarity: common
+	gamecode: 10100034
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2017-03-30 13:20:43
+	card type: effect monster
+	name: C.C. Matoran Kopeke
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image35
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Special Summoned: Add 1 Level 2 Warrior-Type monster from your Deck to your hand. When this face-up Attack Position card would be destroyed: You can change it to Defense Position instead.
+	attack: 300
+	defense: 600
+	rarity: common
+	gamecode: 10100035
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2017-03-30 13:20:49
+	card type: effect monster
+	name: C.C. Matoran Tamaru
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image36
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is sent to the Graveyard, except by battle or a card effect: Special Summon it in face-up Defense Position. You can return this card to the hand; Special Summon 1 Level 2 Warrior-Type monster, except "C.C. Matoran Tamaru", from your hand. You can only use 1 "C.C. Matoran Tamaru" effect per turn, and only once that turn.
+	attack: 400
+	defense: 400
+	rarity: common
+	gamecode: 10100036
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2016-02-19 14:32:08
+	card type: effect monster
+	name: Matoran Chronicler Takua
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image38
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck or Graveyard on top of your Deck. Once per turn: You can discard 1 "C.C. Matoran" monster; Look at the top 3 cards of your deck, then Special Summon as many "C.C. Matoran" monsters among them as possible. "C.C. Matoran" monsters you control cannot be selected as an attack target.
+	attack: 350
+	defense: 350
+	rarity: common
+	gamecode: 10100037
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-13 23:24:36
+	time modified: 2017-01-27 11:42:29
+	card type: trap card
+	name: The Chronicler's Company
+	attribute: trap
+	level: Trap Card<sym-auto>%</sym-auto>
+	image: image34
+	rule text:
+		You must control this many face-up "C.C. Matoran" monsters to activate and resolve the following effects:
+		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand, Deck or Graveyard.
+		<sym-auto>*</sym-auto>2+: Once per turn: "C.C. Matoran" monsters you control cannot be destroyed by card effects.
+		<sym-auto>*</sym-auto>3+: If a "C.C Matoran" monster(s) you control is sent to the Graveyard: Draw 1 card.
+		<sym-auto>*</sym-auto>4+: Once per turn: You can target 1 "C.C. Matoran" monster you control and 1 card your opponent controls; return both targets to the hand.
+		<sym-auto>*</sym-auto></sym>5<sym>: You can send this card to the Graveyard; destroy all cards on the field, except "C.C. Matoran" cards. You can only activate this effect of "The Chronicler's Company" once per turn.
+	rarity: common
+	gamecode: 10100038
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-14 08:29:10
+	time modified: 2015-06-04 09:06:53
+	card type: effect monster
+	name: Turaga Nui
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image39
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more "Turaga" monsters with different names, except "Turaga Nui", in your Graveyard, and cannot be Special Summoned by other ways. Once per turn: You can declare a Level from 1 to 8; this card's Level becomes that Level, until the End Phase. When this card leaves the field: Special Summon 1  "Turaga" monster from your Graveyard, except "Turaga Nui".
+	attack: 2000
+	defense: 3000
+	rarity: common
+	gamecode: 10100039
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-05 13:03:47
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Matatu
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image11
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" or "Turaga" monster that has no "Kanohi" card equipped. Once per turn, while your opponent controls 1 or less monsters: You can destroy up to 3 Spell or Trap Cards you control; inflict 300 damage to your opponent for each destroyed card. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100044
+card:
+	has styling: false
+	notes:
+		Already has overhaul effects (or lack thereof).
+		
+		Bonus: Search Tahu when going to GY
+		=> no need for search from Tahu's side, since he can just equip the Hau from the GY once you bring him out
+		=> Synergy with Copper Kanohi, QftM, Isolde, ...
+		=> Can set as bait and plus if opponent takes it
+	time created: 2014-12-04 22:54:03
+	time modified: 2020-02-08 00:18:05
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Hau
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image41
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	edition: Version 1.1
+	rule text: Equip only to a Level 6 or higher monster that has no other "Kanohi" card equipped. The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving that monster. If this card is sent to the GY: Add 1 "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Great Kanohi Hau" once per turn.
+	attack: Equip only to a "Toa" monster that has no "Kanohi" card equipped. The equipped monster cannot be destroyed by battle, and you take no damage from battles involving that monster. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100007
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-08 21:00:48
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Kakama
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image42
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" monster that has no "Kanohi" card equipped. The equipped Monster can attack all monsters your opponent controls once each. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100010
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2016-02-11 12:08:30
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Rau
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image8
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" or "Turaga" monster that has no "Kanohi" card equipped. Once per turn, if your opponent has more cards in their hand than you: You can look at one random card in your opponent's hand. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip one "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100041
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-03 09:51:11
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Miru
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image44
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" monster that has no "Kanohi" card equipped. The equipped monster is unaffected by monster effects. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100012
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-03 09:38:10
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Pakari
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image45
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa" monster that has no "Kanohi" card equipped. The equipped monster gains 1000 ATK. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip 1 "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100009
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2016-02-11 12:08:46
+	card type: xyz monster
+	name: Diminished Matoran Kaita
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image47
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 2 "Matoran" monsters
+		While this card has Xyz Material: It cannot be destroyed by battle. Once per turn: You can detach 1 Xyz Material from this card; activate 1 of the following effects, depending on the Attribute of the detached material:
+		<sym-auto>*</sym-auto>FIRE: This card gains 600 ATK.
+		<sym-auto>*</sym-auto>WATER: Target 1 Spell/Trap card on the field; destroy that target.
+		<sym-auto>*</sym-auto>EARTH: Draw 1 card for each of this card's Xyz Materials (max. 2).
+		<sym-auto>*</sym-auto>WIND: Target 1 non-WIND monster in your Graveyard; attach it to this card as a Xyz Material.
+		● LIGHT/DARK: Target 1 Level 2 monster in your Graveyard; Special Summon that target.
+	attack: 1200
+	defense: 1500
+	rarity: common
+	gamecode: 10100046
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-14 08:29:10
+	time modified: 2015-06-05 15:08:00
+	card type: effect monster
+	name: Diminished Matoran Nui
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image48
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more Level 2 "Matoran" monsters with different names in your Graveyard, and cannot be Special Summoned by other ways.  During either player's turn: You can Tribute this card and 1 Level 2 monster, then target 2 cards on the field; destroy those targets. When this card leaves the field: Special Summon 1 Level 2 "Matoran" monster from your Graveyard.
+	attack: 2500
+	defense: 2500
+	rarity: common
+	gamecode: 10100047
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-08 21:01:25
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Aki
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image50
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa Kaita" monster that has no "Kanohi" card equipped. The equipped monster cannot be destroyed by battle, gains 1000 ATK and can attack all monsters your opponent controls once each, also you take no Battle Damage from battles involving that monster. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip one "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to. 
+	rarity: common
+	gamecode: 10100048
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-05 15:26:31
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Rua
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image24
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a "Toa Kaita" monster that has no "Kanohi" card equipped. The equipped monster is unaffected by all other card effects and if it attacks a Defense Position monster, inflict piercing battle damage to your opponent. During either player's turn: You can pay 800 LP; send this card to the Graveyard, then equip one "Kanohi" Equip Spell Card from your hand or Graveyard to the monster this card was equipped to.
+	rarity: common
+	gamecode: 10100049
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2015-06-07 09:59:49
+	card type: effect monster
+	name: Suva Kaita
+	attribute: light
+	level: <sym-auto>*</sym-auto>
+	image: image51
+	type 1: <word-list-ENrace>Rock</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Normal or Special Summoned while you control no "Toa" monsters: Target 1 "Toa" monster that has a Level in your Graveyard; Special Summon that target, then switch this card to Defense Position, and make its name and Level the same as that monster's. You can banish this card from your Graveyard; Special Summon 1 of your banished "Toa" monsters. You can only use 1 "Suva Kaita" effect per turn, and only once that turn.
+	attack: 0
+	defense: 0
+	rarity: common
+	gamecode: 10100050
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-02 09:35:25
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Gift of the Shrine
+	attribute: spell
+	level: Spell Card<sym-auto>$</sym-auto>
+	image: image52
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Target 1 "Toa" monster you control and 1 "Suva" you control or in your Graveyard; Banish the second target, then destroy all Equip Spell Cards equipped to the first target and equip 1 "Kanohi" Equip Spell Card from your hand, Deck or Graveyard to it, also you gain 800 LP for each "Kanohi" card in your Graveyard.
+	rarity: common
+	gamecode: 10100051
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2015-06-02 09:38:16
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Golden Great Kanohi
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image53
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Must be equipped to a "Toa" monster that has no "Kanohi" card equipped by banishing 6 "Kanohi" Equip Spell Cards with different names that could be equipped to that monster from your Graveyard. This card gains the effects of each card banished by its effect as long as they remain banished. During each of your End Phases: Shuffle 1 of your banished "Kanohi" Equip Spell Cards into the Deck.
+	rarity: common
+	gamecode: 10100052
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-13 23:24:36
+	time modified: 2016-02-11 12:09:02
+	card type: trap card
+	name: Call of the Toa Stones
+	attribute: trap
+	level: Trap Card
+	image: image54
+	rule text:
+		You take no Battle Damage this turn, also shuffle your entire hand into the Deck and draw the same number of cards, then you can activate any of the following effects in sequence, depending on the number of "Toa" monsters in your hand, and discard 1 card.
+		<sym-auto>*</sym-auto>0: Add 1 "Toa" monster from your Deck or Graveyard to your hand.
+		<sym-auto>*</sym-auto>1+: Special Summon this card as a Normal Monster (Rock-Type/LIGHT/Level 6/ATK 0/DEF 0). It cannot be destroyed by card effects.
+		<sym-auto>*</sym-auto>2+: Special Summon 1 "Toa" monster from your hand.
+		<sym-auto>*</sym-auto>3+: Add 1 "Kanohi" Equip Spell Card from your Deck to your hand. 
+	rarity: common
+	gamecode: 10100053
+card:
+	has styling: false
+	notes:
+		Updated:
+		When this card is activated, banish 1 card from your Deck, face-down. When the effect of a "Toa", "Matoran", or "Turaga" card is activated: Place 1 counter on this card. (Quick Effect): You can send this card with 6 or more counters to the Graveyard; Add the card banished by its effect to your hand, but you cannot activate cards with that name or their effects for the rest of this turn. You can only control 1 face-up "Makoki Stone".
+		=> Represents the idea of sealing away and then unsealing better
+	time created: 2014-12-13 23:24:36
+	time modified: 2016-02-19 14:44:50
+	card type: trap card
+	name: Makoki Stone
+	attribute: trap
+	level: Trap Card<sym-auto>%</sym-auto>
+	image: image55
+	rule text: When the effect of a "Toa", "Matoran", or "Turaga" card is activated: Place 1 counter on this card. During either player's turn: You can send this card with 6 or more counters to the Graveyard; Add 1 Spell/Trap Card from your Deck to your hand. You can only control 1 face-up "Makoki Stone".
+	rarity: common
+	gamecode: 10100054
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2015-06-02 14:35:52
+	card type: effect monster
+	name: Suva
+	attribute: light
+	level: <sym-auto>*</sym-auto>
+	image: image60
+	type 1: <word-list-ENrace>Rock</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: You can reveal 1 "Toa" monster in your hand; Special Summon this card (from your hand). You cannot Normal Summon or Set any monsters this turn, except the revealed monster. If this card is tributed for the Tribute Summon of a "Toa" monster: Your opponent cannot activate cards and effects in response to that monster's Summon or the activation of its effect(s) this turn.
+	attack: 0
+	defense: 0
+	rarity: common
+	gamecode: 10100055
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2016-02-11 12:09:12
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Copper Kanohi of Victory
+	attribute: spell
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image49
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		Cannot be destroyed by card effects. You can shuffle this card from your hand into the Deck, and if you do, draw 1 additional card for your next normal draw. If you draw this card during your Draw Phase: Discard it. If this card is banished: Place 1 "Copper Kanohi of Victory" from your Deck on top of your Deck. When this card is sent from the hand or field to the Graveyard, activate 1 of the following effects:
+		<sym-auto>*</sym-auto>Send 1 "Kanohi" Equip Spell card from your Deck to the Graveyard, except "Copper Kanohi of Victory".
+		<sym-auto>*</sym-auto>This turn, if a "Toa", "Matoran", or "Turaga" monster battles an opponent's monster, destroy that opponent's monster before Damage Calculation.
+		You can only activate 1 effect of "Copper Kanohi of Victory" per turn, and only once that turn.
+	rarity: common
+	gamecode: 10100056 
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2015-06-05 17:54:35
+	card type: xyz monster
+	name: Toa Mata Combination - Magma
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image56
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 6 "Toa Mata" monsters
+		You can detach 2 Xyz Materials from this card; send 1 "Toa Mata" monster from your Deck to the Graveyard, then add 1 Level 1 Rock-Type monster from your Deck or Graveyard to your hand. You can only use this effect of "Toa Mata Combination - Magma" once per turn.
+	attack: 2900
+	defense: 1200
+	rarity: common
+	gamecode: 10100057
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2016-02-19 14:45:17
+	card type: xyz monster
+	name: Toa Mata Combination -  Storm
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image59
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 6 "Toa Mata" monsters
+		This card gains 500 ATK for each Xyz Material attached to it. Once per turn, during either player's turn, except during the turn this card was Summoned: You can detach 1 Xyz Material from this card, and if it was a "Toa Mata" monster, Special Summon it.
+	attack: 1600
+	defense: 1900
+	rarity: common
+	gamecode: 10100058
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2015-06-08 21:03:45
+	card type: xyz monster
+	name: Toa Mata Combination -  Crystal
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image57
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 6 "Toa Mata" monsters
+		When a card or effect is activated that targets this card: You can detach 1 Xyz Material from this card; Negate the activation. During your Standby Phase, if this card has Xyz Material: You can tribute this card; Special Summon up to 3 Level 6 "Toa Mata" monsters from your Graveyard. They cannot activate their effects or attack.
+	attack: 1000
+	defense: 2700
+	rarity: common
+	gamecode: 10100059
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-09 17:11:13
+	time modified: 2015-06-05 20:07:59
+	card type: spell card
+	name: Circle of Legends, Amaja-Nui
+	attribute: spell
+	level: Spell Card<sym-auto>&</sym-auto>
+	image: image61
+	rule text: You can target 1 "Turaga" Tuner monster you control; until the End Phase, it is treated as a non-tuner monster. You can target 1 "Turaga" monster you control; increase or decrease its Level by 1. If you control no monsters: You can Special Summon 1 "Turaga" monster from your Graveyard. When this face-up card is desroyed by your opponent's card effect and sent to the Graveyard: Target 1 "Turaga" Tuner monster and 1 non-Tuner monster in your Graveyard; Special Summon them. Immediately after this effect resolves, Synchro Summon 1 monster using only those targets . You can only use each effect of "Circle of Legends, Amaja-Nui" once per turn.
+	rarity: common
+	gamecode: 10100060
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-11 11:47:28
+	time modified: 2016-02-11 12:09:57
+	card type: token monster
+	name: Illusion Token
+	attribute: wind
+	level: <sym-auto>*</sym-auto>
+	image: image58
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text: Your opponent cannot attack another monster.
+	attack: 0
+	defense: 0
+	gamecode: 10100061
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-10 20:58:53
+	time modified: 2019-05-17 18:50:09
+	card type: link monster
+	name: Suva Kaita
+	attribute: light
+	level: <sym-auto>*</sym-auto>
+	image: image37
+	type 1: <word-list-ENrace>Rock</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2+ monsters, including 1 "Toa" monster
+		Once per turn: You can target 1 "Toa" monster this card points to; this turn, it can be treated as 2 Xyz Materials for the Xyz Summon of a "Toa" monster, also send this card to the GY during the End Phase. You can banish this card from your GY; Special Summon 1 of your banished "Toa" monsters. You can only use 1 "Suva Kaita" effect per turn, and only once that turn.
+	Link Marker Down: yes
+	Link Marker Right: yes
+	attack: 0
+	defense: 0
+	link number: 2
+	rarity: common
+	gamecode: 10100050b
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 21:30:21
+	time modified: 2020-02-08 00:18:12
+	card type: link monster
+	name: Turaga Vakama
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image63
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	edition: Version 1.1
+	rule text:
+		1 FIRE Warrior monster
+		You can activate this effect; each player reveals the top card of their Deck, and if it is a FIRE Warrior monster, they Special Summon it. Otherwise, they Special Summon 1 "Vision Token" (Warrior/FIRE/Level 3/ATK 1500/DEF 0) in Attack Position, but it cannot be Tributed or used as material for a Synchro or Link Summon. You can only use this effect of "Turaga Vakama" once per turn.
+	Link Marker Down: yes
+	Link Marker Right: none
+	attack: 1400
+	defense: 1150
+	link number: 1
+	rarity: common
+	gamecode: 10100017
+version control:
+	type: none
+apprentice code: 
