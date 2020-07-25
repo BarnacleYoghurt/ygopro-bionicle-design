@@ -3,10 +3,13 @@ game: yugioh
 stylesheet: series10
 set info:
 	title: Bionicle - Coming of the Toa
+	code: BCOT
 	language: EN
-	edition: 1st Edition
+	edition: Version 3.12.10
 	copyright: © 2014 THE LEGO GROUP
 styling:
+	yugioh-series10:
+		small rule text: 
 	yugioh-standard-extra:
 		image frame: no
 		bold effect text: no
@@ -59,7 +62,7 @@ card:
 		=> Allows Ta-Koro to OTK more reliably without needing a bonus battle damage effect on Lhii
 		=> Full-on multiplicative might stack a bit too hard, so maybe change that to inflicting damage equal to original ATK if monster is destroyed by battle (a bit like Ghost Mourner) - also fits the "it's on fire and explodes" visual a bit better
 	time created: 2014-12-04 18:00:08
-	time modified: 2020-07-16 18:48:39
+	time modified: 2020-07-20 00:25:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -73,7 +76,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	edition: Version 1.3
+	edition: Version 3.12.10
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 FIRE or "Toa Mata" monster in your hand, except "Toa Mata Tahu", instead of a monster you control. Once per turn, if a monster battles, after damage calculation: You can target 1 monster your opponent controls; its ATK becomes 0, also if it is destroyed by battle this turn your opponent takes damage equal to its original ATK. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
 	attack: 2500
 	defense: 1500
@@ -88,7 +91,7 @@ card:
 		
 		Maybe instead of tributing do something like destroy or return to hand, so Vision Tokens can be used?
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-03-15 14:57:08
+	time modified: 2020-07-22 00:19:01
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -102,7 +105,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	edition: Version 1.2
+	edition: Version 3.11.3
 	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. If you control another monster, your opponent cannot target the equipped monster for attacks. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Vakama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Huna" once per turn.
 	rarity: common
 	gamecode: 10100040
@@ -151,13 +154,13 @@ card:
 		
 		Downgrade effect protection to only prevent destruction - covers basically all cases that occured during testing and is closer to appropriate for generic attribute-wide protection.Also, only count and protect face-ups.
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-07-16 18:51:17
+	time modified: 2020-07-22 00:12:52
 	card type: spell card
 	name: Ta-Koro, Village of Fire
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image26
-	edition: Version 1.2
+	edition: Version 3.12.10
 	rule text: While all face-up monsters you control (min. 2) are FIRE, face-up monsters you control cannot be destroyed by your opponent's card effects. If a FIRE monster you control battles an opponent's monster with higher original ATK, before damage calculation: You can discard 1 card; that monster you control gains ATK equal to the highest original ATK on the field, until the end of this turn. You can only use this effect of "Ta-Koro, Village of Fire" once per turn.
 	rarity: common
 	gamecode: 10100025
@@ -188,7 +191,7 @@ card:
 		=> or just a monster that was summoned in a previous turn
 		=> More attacks helps Ta-Koro a lot
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-02-27 13:33:52
+	time modified: 2020-07-22 00:18:52
 	card type: effect monster
 	name: C.C. Matoran Kapura
 	attribute: fire
@@ -198,7 +201,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	edition: Version 1.2
+	edition: Version 3.11.2
 	rule text: If a "C.C. Matoran" monster you control attacks, your opponent's cards and effects cannot be activated until the end of the Damage Step. At the start of your Battle Phase: You can banish this card from your GY, then target 1 face-up monster you control that was not Summoned this turn; it can make a second attack during this Battle Phase. You can only use this effect of "C.C. Matoran Kapura" once per turn.
 	attack: 600
 	defense: 200
@@ -225,7 +228,7 @@ card:
 		Battle protection feels super pointless on a Ta-Koro board ...
 		=> maybe "unaffected by effects that do not target it"? (completes the protection, but doesn't make much sense because Hau is weak to surprise attacks and non-targeting matches those better because you don't get advance warning which monster will be hit)
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-02-25 13:18:07
+	time modified: 2020-07-22 00:17:53
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -239,7 +242,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	edition: Version 1.2
+	edition: Version 3.11.3
 	rule text: Equip only to a Level 6 or higher monster. If another "Kanohi" card is equipped to the equipped monster: Destroy this card. The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving that monster. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Great Kanohi Hau" once per turn.
 	attack: 
 	rarity: common
@@ -247,6 +250,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Banish and discard to make unaffected}}
+		{{Add WATER monster to hand}}
+		
 		Dislike of compromise: Potentially fix Purity of GY, make monsters unaffected no matter what (without compromise).
 		
 		Arrow on upper end because Turaga could be designed to have their arrow placements align with the Toa Kaita (Vakama/Whenua/Onewa down, Nokama/Nuju/Matau up, or the other way around). But this actually doesn't make that much sense because Turaga have no Kaita following the same division.
@@ -277,7 +283,7 @@ card:
 		==> Maybe "except this card's" is better?
 		=> For comfort: Make recycling effect mandatory, so you don't misclick it away - want  to activate it pretty much always anyway, and in the cases where not the other effect makes it easy to get the card in question to GY/banished again 
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-07-12 17:29:57
+	time modified: 2020-07-22 00:13:09
 	card type: link monster
 	name: Turaga Nokama
 	attribute: water
@@ -289,7 +295,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	edition: Version 1.2
+	edition: Version 3.12.8
 	rule text:
 		2 monsters, including a WATER Warrior monster
 		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, Trap) than the card you banished, except this card's. If a monster(s) is Normal or Special Summoned to a zone this card points to: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
@@ -306,6 +312,8 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Special Summon Nokama and equip with Rau}}
+		
 		Double joke: "Translate" effect to other effect, and translate position on field, potentially allowing correct placement for Nokama protection.
 		
 		Potentially needed buffs:
@@ -313,7 +321,7 @@ card:
 		=> Maybe: "Each player who controls a monster(s) in the Main Monster Zone moves 1 of those monsters to another of their Main Monster Zones" => allows owner to adjust zones as well when protection takes effect, but may screw up placement relative to Nokama
 		=> Perhaps even better: "You can move 1 monster in the Main Monster Zone to another Main Monster Zone, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone" => that way the opponent of the one activating the effect (usually you) gets the last word
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-06-27 18:05:14
+	time modified: 2020-07-22 00:14:31
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -327,7 +335,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	edition: Version 1.2
+	edition: Version 3.12.6
 	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Each turn, the first activated effect that targets the equipped monster becomes "Each player who controls a monster(s) in the Main Monster Zone moves 1 of those monsters to another of their Main Monster Zones". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
 	rarity: common
 	gamecode: 10100041
@@ -335,6 +343,8 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Add Gali to hand}}
+		
 		Maybe rethink it for more Ga-Koro synergy?
 		=> on the other hand, the Rua having a complete unaffected effect through combination of Kaukau and Miru is also nice...
 	time created: 2014-12-04 22:54:03
@@ -359,6 +369,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Normal Summon by Tributing from hand}}
+		{{Negate effect and gain ATK}}
+		{{Equip Kanohi from hand or GY}}
+		
 		Problem with main eff: "When" misses timing too often, "if" instantly recycles materials & handtraps; Recycling of handtraps may not be safe either way
 		
 		Alt.: If a monster(s) is banished: You can target 1 of your banished monsters; add it to your hand.
@@ -397,7 +411,7 @@ card:
 		=> Might be a problem that the effect becomes impossible to activate unless your monster effect is in the last chain
 		==> See how it works in Toa Mata decks first, where Kanohi-switching can always be chained to serve as the trigger
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-07-10 11:26:30
+	time modified: 2020-07-22 21:59:44
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -411,7 +425,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	edition: Version 1.2
+	edition: Version 3.12.9
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if your monster's effect, except "Toa Mata Gali", is activated (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
 	attack: 2300
 	defense: 1800
@@ -436,7 +450,7 @@ card:
 		
 		Effect gets kinda long now :(
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-02-29 18:23:49
+	time modified: 2020-07-22 00:18:33
 	card type: link monster
 	name: Turaga Vakama
 	attribute: fire
@@ -448,7 +462,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	edition: Version 1.2
+	edition: Version 3.11.5
 	rule text:
 		2 monsters, including a FIRE Warrior monster
 		You can activate this effect; each player reveals the top card of their Deck, and if it is a FIRE Warrior monster, they Special Summon it. Otherwise, they Special Summon 1 "Vision Token" (Warrior/FIRE/Level 3/ATK 1500/DEF 0) in Attack Position, but it cannot be Tributed or used as material for a Synchro or Link Summon. When a monster is destroyed by battle: Draw 1 card. You can only use each effect of "Turaga Vakama" once per turn.
@@ -561,6 +575,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Discard to make target unaffected}}
+		{{Special Summon this card}}
+		
 		Handtrap eff: Protect any card from (usually) 1 effect, and Matoran (in particular Huki & stuff summoned with Hafu) from all in that turn. Basis: Boating, swimming lessons.
 		
 		GY eff: To get some use after summoning with Isolde, "sneak out" while nobody is watching, then get sent "home" to Deck.
@@ -579,7 +596,7 @@ card:
 		==> Maybe even give Huki an ATK boost effect to interact with this
 		=> instead of lowering ATK, change to defense position - fits the "getting comfy" interpretation better and more effectively neutralizes Huki
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-07-01 19:45:04
+	time modified: 2020-07-22 00:13:37
 	card type: effect monster
 	name: C.C. Matoran Maku
 	attribute: water
@@ -589,7 +606,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	edition: Version 1.2
+	edition: Version 3.12.7
 	rule text: (Quick Effect): You can send this card from your hand to the GY, then target 1 face-up card you control; for the rest of this Chain after this effect resolves, or until the end of this turn if it is a "Matoran" monster, it is unaffected by other card effects, except its own. When your opponent activates a card or effect on the field (Quick Effect): You can Special Summon this card from the GY to your Main Monster Zone in the same column, and if you do, change 1 face-up monster on the field to Defense Position. You can only use each effect of "C.C. Matoran Maku" once per turn.
 	attack: 500
 	defense: 200
