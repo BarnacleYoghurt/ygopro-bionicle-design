@@ -62,7 +62,7 @@ card:
 		=> Allows Ta-Koro to OTK more reliably without needing a bonus battle damage effect on Lhii
 		=> Full-on multiplicative might stack a bit too hard, so maybe change that to inflicting damage equal to original ATK if monster is destroyed by battle (a bit like Ghost Mourner) - also fits the "it's on fire and explodes" visual a bit better
 	time created: 2014-12-04 18:00:08
-	time modified: 2020-07-20 00:25:48
+	time modified: 2020-08-07 10:07:30
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -283,7 +283,7 @@ card:
 		==> Maybe "except this card's" is better?
 		=> For comfort: Make recycling effect mandatory, so you don't misclick it away - want  to activate it pretty much always anyway, and in the cases where not the other effect makes it easy to get the card in question to GY/banished again 
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-07-22 00:13:09
+	time modified: 2020-08-13 17:33:40
 	card type: link monster
 	name: Turaga Nokama
 	attribute: water
@@ -298,7 +298,7 @@ card:
 	edition: Version 3.12.8
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, Trap) than the card you banished, except this card's. If a monster(s) is Normal or Special Summoned to a zone this card points to: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
+		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, Trap) than the card you banished, except this card's. If a monster(s) is Normal or Special Summoned to the zone(s) this card points to: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
 	Link Marker Up: yes
 	Link Marker UR: none
 	Link Marker DL: yes
@@ -411,7 +411,7 @@ card:
 		=> Might be a problem that the effect becomes impossible to activate unless your monster effect is in the last chain
 		==> See how it works in Toa Mata decks first, where Kanohi-switching can always be chained to serve as the trigger
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-07-22 21:59:44
+	time modified: 2020-08-13 17:16:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -426,7 +426,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	edition: Version 3.12.9
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if your monster's effect, except "Toa Mata Gali", is activated (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if your monster effect, except "Toa Mata Gali", is activated (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
 	attack: 2300
 	defense: 1800
 	rarity: common
@@ -596,7 +596,7 @@ card:
 		==> Maybe even give Huki an ATK boost effect to interact with this
 		=> instead of lowering ATK, change to defense position - fits the "getting comfy" interpretation better and more effectively neutralizes Huki
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-07-22 00:13:37
+	time modified: 2020-08-13 17:44:45
 	card type: effect monster
 	name: C.C. Matoran Maku
 	attribute: water
@@ -607,7 +607,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	edition: Version 3.12.7
-	rule text: (Quick Effect): You can send this card from your hand to the GY, then target 1 face-up card you control; for the rest of this Chain after this effect resolves, or until the end of this turn if it is a "Matoran" monster, it is unaffected by other card effects, except its own. When your opponent activates a card or effect on the field (Quick Effect): You can Special Summon this card from the GY to your Main Monster Zone in the same column, and if you do, change 1 face-up monster on the field to Defense Position. You can only use each effect of "C.C. Matoran Maku" once per turn.
+	rule text: (Quick Effect): You can send this card from your hand to the GY, then target 1 face-up card you control; for the rest of this Chain after this effect resolves, or until the end of this turn if it is a "Matoran" monster, it is unaffected by other card effects, except its own. When your opponent activates a card or effect on the field (Quick Effect): You can Special Summon this card from the GY to your Main Monster Zone in the same column as that card, and if you do, change 1 face-up monster on the field to Defense Position. You can only use each effect of "C.C. Matoran Maku" once per turn.
 	attack: 500
 	defense: 200
 	rarity: common
@@ -705,14 +705,14 @@ card:
 		Note: ED restriction can be circumvented if you have two - just set one to replace the face-up one
 		=> Maybe make that a lingering effect when activating the summon or the card?
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-06-28 12:17:16
+	time modified: 2020-08-13 17:37:18
 	card type: spell card
 	name: Ga-Koro, Village of Water
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image14
 	edition: Version 1.2
-	rule text: During your opponent's turn, if all monsters in your GY (min. 1) are WATER, your opponent's cards and effects cannot be activated in response to the activation of your WATER monster's effects as Chain Link 2 or higher. You can banish 1 monster from your GY; Special Summon 1 Level 4 or lower WATER monster from your hand in Defense Position, but its effects are negated and its Type becomes the same as the banished monster's, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except WATER monsters. You can only use this effect of "Ga-Koro, Village of Water" once per turn.
+	rule text: During your opponent's turn, if all monsters in your GY (min. 1) are WATER, your opponent's cards and effects cannot be activated in response to the activation of your WATER monster effects as Chain Link 2 or higher. You can banish 1 monster from your GY; Special Summon 1 Level 4 or lower WATER monster from your hand in Defense Position, but its effects are negated and its Type becomes the same as the banished monster's, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except WATER monsters. You can only use this effect of "Ga-Koro, Village of Water" once per turn.
 	rarity: common
 	gamecode: 10100026
 card:
