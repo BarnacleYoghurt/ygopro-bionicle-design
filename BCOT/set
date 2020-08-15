@@ -277,7 +277,7 @@ card:
 		==> Maybe "except this card's" is better?
 		=> For comfort: Make recycling effect mandatory, so you don't misclick it away - want  to activate it pretty much always anyway, and in the cases where not the other effect makes it easy to get the card in question to GY/banished again 
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-08-13 17:33:40
+	time modified: 2020-08-15 17:38:14
 	card type: link monster
 	name: Turaga Nokama
 	attribute: water
@@ -291,7 +291,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, Trap) than the card you banished, except this card's. If a monster(s) is Normal or Special Summoned to the zone(s) this card points to: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
+		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, or Trap) than the card you banished, except this card's. If a monster(s) is Normal or Special Summoned to the zone(s) this card points to: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
 	Link Marker Up: yes
 	Link Marker UR: none
 	Link Marker DL: yes
