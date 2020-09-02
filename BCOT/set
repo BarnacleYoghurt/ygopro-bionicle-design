@@ -815,9 +815,17 @@ card:
 	gamecode: 10100027
 card:
 	has styling: false
-	notes: 
+	notes:
+		LP gain = overseeing the work (work here being the process of using up your monsters)
+		=> Potentially better to put this on Onu-Koro and the active LP gain effect from Onu-Koro on Whenua 
+		=> Something for the other kind of work (reducing opponent's LP) as well? Would bring immediate synergy with potential burn effect for Ruru...
+		Search something new = studying the past to avoid future problems
+		=> past = GY
+		=> avoiding future problems = getting some monster you haven't tried yet
+		=> very likely to generic (only EARTH? only EARTH Warrior?)
+		=> shuffling monsters from GY back conflicts with Onu-Koro a bit (might not have enough monsters for both)
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-04-08 18:02:12
+	time modified: 2020-09-02 23:39:18
 	card type: link monster
 	name: Turaga Whenua
 	attribute: earth
@@ -829,7 +837,9 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: 2 monsters, including an EARTH Warrior monster
+	rule text:
+		2 monsters, including an EARTH Warrior monster
+		Each time an EARTH monster is sent from your hand or field to the GY, gain 400 LP. If this card is destroyed by battle, or if this card in it's owner's possession is destroyed by an opponent's card effect: Target 3 monsters with different names in your GY; add 1 monster from your Deck to your hand with a different name than those targets, then shuffle the targets into the Deck. You can only use this effect of "Turaga Whenua" once per turn.
 	Link Marker UR: none
 	Link Marker Down: yes
 	Link Marker DL: none
