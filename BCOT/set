@@ -852,9 +852,16 @@ card:
 	gamecode: 10100019
 card:
 	has styling: false
-	notes: 
+	notes:
+		Relatively high ATK because stronk.
+		SS from hand = eager to help
+		=> restricting attacks to C.C. Matoran can be bypassed through Hafu Originals
+		=> maybe additionally require controling a monster (or no monsters)?
+		ATK boost: Protecting friends
+		=> particularly useful when used as material
+		=> or maybe use a different event as trigger?
 	time created: 2014-12-10 20:58:53
-	time modified: 2017-03-30 13:20:21
+	time modified: 2020-09-04 17:55:55
 	card type: effect monster
 	name: C.C. Matoran Taipu
 	attribute: earth
@@ -864,7 +871,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: During either player's turn: You can banish this card from your Graveyard and target 1 Warrior-Type monster you control; it gains 1000 ATK, until the End Phase. You can only use this effect of "C.C. Matoran Taipu" once per turn.
+	rule text: You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with "C.C. Matoran" monsters. You can only Special Summon "C.C. Matoran Taipu" once per turn this way. If this card is sent from the field to the GY: You can target 1 monster you control; it gains 1000 ATK until the end of the next turn.
 	attack: 1000
 	defense: 500
 	rarity: common
