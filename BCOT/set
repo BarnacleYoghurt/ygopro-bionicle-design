@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.12.10
+	edition: Version 3.13.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -115,7 +115,7 @@ card:
 		
 		Toa Mata protection, attribute lock?
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-02-19 18:01:12
+	time modified: 2020-09-07 12:56:29
 	card type: spell card
 	name: The Island of Mata Nui
 	attribute: spell
@@ -124,7 +124,7 @@ card:
 	rule text: When this card is activated: You can add 1 "-Koro" Field Spell Card from your Deck to your hand. If a card in your Field Zone is destroyed while this card is in your GY: You can add this card to your hand. You can only use each effect of "The Island of Mata Nui" once per turn.
 	defense: 
 	rarity: common
-	gamecode: 10100023
+	gamecode: DRAFT10100023
 card:
 	has styling: false
 	notes:
@@ -498,7 +498,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-02-22 19:38:51
+	time modified: 2020-09-07 12:55:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -512,16 +512,17 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	number: BCOT-EN010
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target. Once per Chain (Quick Effect): You can banish all "Kanohi" Equip Spell Cards equipped to this card (if any), then equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card. During the End Phase, return all cards banished by this effect to your GY.<i></i-flavor>
 	attack: 2400
 	defense: 1650
 	rarity: common
-	gamecode: 10100004
+	gamecode: DRAFT10100004
 card:
 	has styling: false
 	notes: 
 	time created: 2014-12-04 18:35:41
-	time modified: 2015-06-02 20:59:07
+	time modified: 2020-09-07 12:56:09
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -538,12 +539,12 @@ card:
 	attack: 2000
 	defense: 2150
 	rarity: common
-	gamecode: 10100005
+	gamecode: DRAFT10100005
 card:
 	has styling: false
 	notes: 
 	time created: 2014-12-04 18:35:41
-	time modified: 2015-06-02 09:28:39
+	time modified: 2020-09-07 12:56:15
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -560,7 +561,7 @@ card:
 	attack: 2500
 	defense: 1400
 	rarity: common
-	gamecode: 10100006
+	gamecode: DRAFT10100006
 card:
 	has styling: false
 	notes:
@@ -628,7 +629,7 @@ card:
 		Maybe just double damage for faster OTK instead?
 		=> now covered with new Tahu main effect
 	time created: 2020-03-02 07:53:28
-	time modified: 2020-03-02 07:59:26
+	time modified: 2020-09-07 12:58:06
 	card type: effect monster
 	name: Matoran Legend Lhii
 	attribute: fire
@@ -643,7 +644,7 @@ card:
 	rule text: If a FIRE monster you control battles an opponent's monster, at the start of the Damage Step: You can send this card from your hand to the GY; until the end of the Damage Step, negate that opponent's monster's effects, also it becomes unaffected by other cards' effects. You can banish this card from the GY; Special Summon 1 Level 4 or lower FIRE Warrior monster from your GY, except "Matoran Legend Lhii". You can only use each effect of "Matoran Legend Lhii" once per turn.
 	attack: 0
 	defense: 0
-	gamecode: 10100061
+	gamecode: DRAFT10100061
 card:
 	has styling: false
 	notes:
@@ -727,7 +728,7 @@ card:
 		=> To reach more Synchro levels with Lv2 Matoran, level manipulation might be an idea - would also fit with astrology because "stars"
 		=> Don't do ALL of the above because that would be way too many effects!
 	time created: 2020-03-02 07:53:28
-	time modified: 2020-03-27 00:03:06
+	time modified: 2020-09-07 12:58:10
 	card type: effect monster
 	name: Matoran Astrologer Nixie
 	attribute: water
@@ -742,12 +743,12 @@ card:
 	rule text: 
 	attack: 400
 	defense: 500
-	gamecode: 10100062
+	gamecode: DRAFT10100062
 card:
 	has styling: false
 	notes: Alternate approach to Kanohi-switching effect, so that doesn't have to repeated on every Toa.
 	time created: 2020-03-21 00:09:42
-	time modified: 2020-03-21 00:12:13
+	time modified: 2020-09-07 12:56:33
 	card type: spell card
 	name: The Great Temple, Kini-Nui
 	attribute: spell
@@ -756,14 +757,14 @@ card:
 	rule text:
 		Cannot be targeted by card effects while you control a "Toa Mata" monster. "Toa Mata" monsters you control gain this effect.
 		<sym-auto>*</sym-auto>Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.
-	gamecode: 10100024
+	gamecode: DRAFT10100024
 card:
 	has styling: false
 	notes:
 		Orig:
 		When this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck or Graveyard on top of your Deck. Once per turn: You can discard 1 "C.C. Matoran" monster; Look at the top 3 cards of your deck, then Special Summon as many "C.C. Matoran" monsters among them as possible. "C.C. Matoran" monsters you control cannot be selected as an attack target.
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-03-25 07:56:09
+	time modified: 2020-09-07 12:56:55
 	card type: effect monster
 	name: Matoran Chronicler Takua
 	attribute: light
@@ -777,7 +778,7 @@ card:
 	attack: 350
 	defense: 350
 	rarity: common
-	gamecode: 10100037
+	gamecode: DRAFT10100037
 card:
 	has styling: false
 	notes:
@@ -822,7 +823,7 @@ card:
 		Search something new = studying the past to avoid future problems
 		=> past = GY
 		=> avoiding future problems = getting some monster you haven't tried yet
-		=> very likely to generic (only EARTH? only EARTH Warrior?)
+		=> very likely too generic (only EARTH? only EARTH Warrior?)
 		=> shuffling monsters from GY back conflicts with Onu-Koro a bit (might not have enough monsters for both)
 	time created: 2014-12-08 21:30:21
 	time modified: 2020-09-02 23:39:18
@@ -857,11 +858,11 @@ card:
 		SS from hand = eager to help
 		=> restricting attacks to C.C. Matoran can be bypassed through Hafu Originals
 		=> maybe additionally require controling a monster (or no monsters)?
-		ATK boost: Protecting friends
+		ATK/DEF boost: Protecting friends
 		=> particularly useful when used as material
 		=> or maybe use a different event as trigger?
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-09-04 17:55:55
+	time modified: 2020-09-07 12:53:49
 	card type: effect monster
 	name: C.C. Matoran Taipu
 	attribute: earth
@@ -871,7 +872,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with "C.C. Matoran" monsters. You can only Special Summon "C.C. Matoran Taipu" once per turn this way. If this card is sent from the field to the GY: You can target 1 monster you control; it gains 1000 ATK until the end of the next turn.
+	rule text: You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with "C.C. Matoran" monsters. You can only Special Summon "C.C. Matoran Taipu" once per turn this way. If this card is sent from the field to the GY: You can target 1 face-up monster you control; it gains 1000 ATK/DEF until the end of the next turn.
 	attack: 1000
 	defense: 500
 	rarity: common
@@ -883,7 +884,7 @@ card:
 		Noble Ruru: Night Vision, but doesn't glow
 		=> illuminate a set card
 		=> potentially deals damage for Onu synergy
-		=> reliant on equippe monster's ATK because only the user actually sees anything
+		=> reliant on equipped monster's ATK because only the user actually sees anything
 	time created: 2014-12-04 22:54:03
 	time modified: 2020-09-04 23:55:58
 	extra data:
@@ -954,7 +955,7 @@ card:
 		=> Second effect keeps the literal "creation" of Tokens as a recovery mechanism that also recycles the Po-Matoran banished by effect 1.
 		=> Check legality of generic "material" clauses!
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-06-03 21:52:00
+	time modified: 2020-09-07 12:56:38
 	card type: spell card
 	name: Po-Koro, Village of Stone
 	attribute: spell
@@ -962,7 +963,7 @@ card:
 	image: image21
 	rule text: If all monsters you control (min. 1) are EARTH: You can Special Summon 1 "Sculpture Token" (Rock/EARTH/Level 1/ATK 0/DEF 0) in Defense Position. If a monster is Special Summoned from the Extra Deck, and all monsters you Special Summoned this turn were EARTH: You can target 1 Level 4 or lower EARTH monster in your GY; Special Summon that target, but its effects are negated, also shuffle it into the Deck when it leaves the field. You can only use each effect of "Po-Koro, Village of Stone" once per turn.
 	rarity: common
-	gamecode: 10100028
+	gamecode: DRAFT10100028
 card:
 	has styling: false
 	notes:
@@ -986,7 +987,7 @@ card:
 		The enemy of Peace is Anger.
 		=> forcing battle screws up Ko plays?
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-06-03 23:45:26
+	time modified: 2020-09-07 12:56:44
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -994,7 +995,7 @@ card:
 	image: image22
 	rule text: WATER monsters gain 800 DEF. When a monster effect is activated on the field: Change that monster to face-up Defense Position.
 	rarity: common
-	gamecode: 10100029
+	gamecode: DRAFT10100029
 card:
 	has styling: false
 	notes:
@@ -1016,7 +1017,7 @@ card:
 		The enemy of Faith is Fragmentation.
 		=> somehow prevent cooperation between multiple cards
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-06-04 23:52:55
+	time modified: 2020-09-07 12:56:48
 	card type: spell card
 	name: Le-Koro, Village of Air
 	attribute: spell
@@ -1024,7 +1025,7 @@ card:
 	image: image23
 	rule text: When you Normal or Special Summon a WIND monster that has a Level: You can negate that monster's effects (if any) and make its ATK become 0; add 1 WIND monster with the same Level, but a different name, from your Deck to your hand. If a WIND monster you control is destroyed by your opponent's card (by battle or card effect): You can Special Summon 1 WIND monster with a lower or equal Level from your hand. You can only use each effect of "Le-Koro, Village of Air" once per turn.
 	rarity: common
-	gamecode: 10100030
+	gamecode: DRAFT10100030
 card:
 	has styling: false
 	notes:
@@ -1038,7 +1039,7 @@ card:
 		Variant B:
 		Pictured
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-07-08 19:01:04
+	time modified: 2020-09-07 12:57:58
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1052,13 +1053,13 @@ card:
 	attack: 0
 	defense: 0
 	rarity: common
-	gamecode: 10100055
+	gamecode: DRAFT10100055
 card:
 	stylesheet: series10
 	has styling: false
 	notes: Increase Kanohi stockpile, recycle Suva.
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-06-18 09:52:03
+	time modified: 2020-09-07 12:57:05
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1074,7 +1075,7 @@ card:
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	rule text: Send 1 "Kanohi" Equip Spell Card from your Deck to the GY, then, if you control a face-up "-Koro" Field Spell Card, you can Special Summon 1 of your banished Rock monsters with 0 ATK. You can only activate 1 "Gift of the Shrine" per turn.
 	rarity: common
-	gamecode: 10100051
+	gamecode: DRAFT10100051
 version control:
 	type: none
 apprentice code: 
