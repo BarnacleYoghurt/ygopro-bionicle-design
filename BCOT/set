@@ -804,6 +804,11 @@ card:
 		=> if hard work is reducing opponent's LP, a bigger beatstick would have some synergy
 		Ruru currently has no relevance.
 		=> maybe inflict damage based on revealed card, like Aqua Dolphin
+		
+		Improvement for draw effect: Just pay up to 3000 LP to draw up to 3, rather than equalizing with opponent
+		=> doesn't become super inefficient when you're far ahead in LP
+		=> no need to account for possible difference between LP at activation and resolution in code
+		=> may or may not still require higher LP at activation
 	time created: 2014-12-09 17:11:13
 	time modified: 2020-06-02 16:40:36
 	card type: spell card
@@ -825,6 +830,8 @@ card:
 		=> avoiding future problems = getting some monster you haven't tried yet
 		=> very likely too generic (only EARTH? only EARTH Warrior?)
 		=> shuffling monsters from GY back conflicts with Onu-Koro a bit (might not have enough monsters for both)
+		=> More accessible version: On Link Summon, search an EARTH Warrior with a different name than everything in GY (makes up for the summon minus, so Onu-Koro wealth is not impacted)
+		==> no shuffling back, because that would be stealing resources Onu-Koro needs
 	time created: 2014-12-08 21:30:21
 	time modified: 2020-09-02 23:39:18
 	card type: link monster
@@ -905,7 +912,9 @@ card:
 	gamecode: 10100042
 card:
 	has styling: false
-	notes: 
+	notes:
+		Buffed version: 1000 ATK boost + piercing damage
+		=> so stronk you punch through walls
 	time created: 2014-12-04 22:54:03
 	time modified: 2020-04-08 18:05:00
 	extra data:
@@ -1039,7 +1048,7 @@ card:
 		Variant B:
 		Pictured
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-09-07 12:57:58
+	time modified: 2020-09-12 15:19:03
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1049,7 +1058,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control a Field Spell Card:, you can Special Summon this card (from your hand or GY). Cannot be used as Link Material. While you control a "Toa Mata" monster, your opponent cannot target this card with attacks or card effects.<i-flavor></i> Once per Chain (Quick Effect): You can target 1 face-up "Toa Mata" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
+	rule text: If you control a Field Spell Card:, you can Special Summon this card (from your hand or GY). If Special Summoned this way, this card is also FIRE, WATER, EARTH, and WIND-Attribute. Cannot be used as Link Material. While you control a "Toa Mata" monster, your opponent cannot target this card with attacks or card effects.<i-flavor></i> Once per Chain (Quick Effect): You can target 1 face-up "Toa Mata" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
 	attack: 0
 	defense: 0
 	rarity: common
