@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.13.0
+	edition: Version 3.13.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -810,13 +810,13 @@ card:
 		=> no need to account for possible difference between LP at activation and resolution in code
 		=> may or may not still require higher LP at activation
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-06-02 16:40:36
+	time modified: 2020-09-14 11:32:04
 	card type: spell card
 	name: Onu-Koro, Village of Earth
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image15
-	rule text: You can target up to 5 EARTH monsters in your GY; shuffle them into the Deck, then gain 600 LP for each card shuffled into the Main Deck this way. If your LP are higher than your opponent's: You can send 1 EARTH monster from your hand or field to the GY; draw 1 card for every 1000 points of difference (max. 3), also your LP become your opponent's LP. You cannot Normal or Special Summon monsters during the turn you activate this effect, except EARTH monsters. You can only use each effect of "Onu-Koro, Village of Earth" once per turn.
+	rule text: You can target up to 5 EARTH monsters in your GY; shuffle them into the Deck, then gain 600 LP for each card shuffled into the Main Deck this way. If your LP are higher than your opponent's: You can send 1 EARTH monster from your hand or field to the GY, then pay LP in increments of 1000 (max. 3000); draw 1 card for every 1000 LP paid. You cannot Normal or Special Summon monsters during the turn you activate this effect, except EARTH monsters. You can only use each effect of "Onu-Koro, Village of Earth" once per turn.
 	rarity: common
 	gamecode: 10100027
 card:
@@ -833,7 +833,7 @@ card:
 		=> More accessible version: On Link Summon, search an EARTH Warrior with a different name than everything in GY (makes up for the summon minus, so Onu-Koro wealth is not impacted)
 		==> no shuffling back, because that would be stealing resources Onu-Koro needs
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-09-02 23:39:18
+	time modified: 2020-09-14 11:30:19
 	card type: link monster
 	name: Turaga Whenua
 	attribute: earth
@@ -847,7 +847,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		Each time an EARTH monster is sent from your hand or field to the GY, gain 400 LP. If this card is destroyed by battle, or if this card in it's owner's possession is destroyed by an opponent's card effect: Target 3 monsters with different names in your GY; add 1 monster from your Deck to your hand with a different name than those targets, then shuffle the targets into the Deck. You can only use this effect of "Turaga Whenua" once per turn.
+		Each time an EARTH monster(s) is sent from your hand or field to the GY, gain 400 LP for each. If this card is Link Summoned: You can add 1 EARTH Warrior monster from your Deck to your hand with a different name than the monsters in your GY. You can only use this effect of "Turaga Whenua" once per turn.
 	Link Marker UR: none
 	Link Marker Down: yes
 	Link Marker DL: none
@@ -915,6 +915,7 @@ card:
 	notes:
 		Buffed version: 1000 ATK boost + piercing damage
 		=> so stronk you punch through walls
+		=> what does the Akaku get then?
 	time created: 2014-12-04 22:54:03
 	time modified: 2020-04-08 18:05:00
 	extra data:
