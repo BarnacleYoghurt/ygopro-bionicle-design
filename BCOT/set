@@ -782,6 +782,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Shuffle EARTH monsters into Deck to gain LP}}
+		{{Pay LP to draw}}
+		
 		
 		Mata Role: Resource Generation
 		
