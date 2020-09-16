@@ -812,14 +812,16 @@ card:
 		=> doesn't become super inefficient when you're far ahead in LP
 		=> no need to account for possible difference between LP at activation and resolution in code
 		=> may or may not still require higher LP at activation
+		=> use case where you can go +2 by being even just 100 LP ahead  may be problematic
+		==> "then, if your LP are lower than your opponent's, discard 1 card for every 1000 points difference" might fix that
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-09-14 11:32:04
+	time modified: 2020-09-16 09:42:06
 	card type: spell card
 	name: Onu-Koro, Village of Earth
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image15
-	rule text: You can target up to 5 EARTH monsters in your GY; shuffle them into the Deck, then gain 600 LP for each card shuffled into the Main Deck this way. If your LP are higher than your opponent's: You can send 1 EARTH monster from your hand or field to the GY, then pay LP in increments of 1000 (max. 3000); draw 1 card for every 1000 LP paid. You cannot Normal or Special Summon monsters during the turn you activate this effect, except EARTH monsters. You can only use each effect of "Onu-Koro, Village of Earth" once per turn.
+	rule text: You can target up to 5 EARTH monsters in your GY; shuffle them into the Deck, then gain 600 LP for each card shuffled into the Main Deck this way. If your LP are higher than your opponent's: You can send 1 EARTH monster from your hand or field to the GY, then pay LP in multiples of 1000 (max. 3000); draw 1 card for every 1000 LP paid. You cannot Normal or Special Summon monsters during the turn you activate this effect, except EARTH monsters. You can only use each effect of "Onu-Koro, Village of Earth" once per turn.
 	rarity: common
 	gamecode: 10100027
 card:
