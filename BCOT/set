@@ -897,6 +897,8 @@ card:
 		=> illuminate a set card
 		=> potentially deals damage for Onu synergy
 		=> reliant on equipped monster's ATK because only the user actually sees anything
+		=> Problem A: Doesn't do anything when opponent doesn't have any set cards, and very little without a set monster
+		=> Problem B: Even with a set monster, damage is minuscule
 	time created: 2014-12-04 22:54:03
 	time modified: 2020-09-04 23:55:58
 	extra data:
@@ -921,6 +923,7 @@ card:
 		Buffed version: 1000 ATK boost + piercing damage
 		=> so stronk you punch through walls
 		=> what does the Akaku get then?
+		==> new concept for that added as draft
 	time created: 2014-12-04 22:54:03
 	time modified: 2020-04-08 18:05:00
 	extra data:
@@ -1091,6 +1094,33 @@ card:
 	rule text: Send 1 "Kanohi" Equip Spell Card from your Deck to the GY, then, if you control a face-up "-Koro" Field Spell Card, you can Special Summon 1 of your banished Rock monsters with 0 ATK. You can only activate 1 "Gift of the Shrine" per turn.
 	rarity: common
 	gamecode: DRAFT10100051
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Piercing damage got added to the Pakari, so we need something else here. Suggestion: Hand reveal.
+		=> Existing cards commonly associate light with revealing set cards, while hand reveals are associated with mind reading and straight up cheating
+		=> X-Ray Vision "looking through" cards in hand is a straightforward imaginary cheating situation, so we can arguably apply that mechanic here
+		=> Making unaffected is a bonus to achieve a suitable powerlevel for a Great Kanohi and fits in with Kaukau/Miru for the Rua
+		==> Currently redundant with Kaukau and Miru because together they already make the monster fully unaffected, but if that changes to something like destruction and targeting protection this could be handy to deal with any remaining outs.
+	time created: 2014-12-04 22:54:03
+	time modified: 2020-09-16 10:42:22
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Akaku
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image27
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: Equip only to a Level 6 or higher monster. If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Once per turn, if this card is equipped to a monster you control and your opponent draws a card(s): You can look at those cards, and if you do, the equipped monster is unaffected by the effects of cards with the same name as cards you looked at, until the end of this turn. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. 
+	rarity: common
+	gamecode: DRAFT10100011
 version control:
 	type: none
 apprentice code: 
