@@ -898,9 +898,13 @@ card:
 		=> potentially deals damage for Onu synergy
 		=> reliant on equipped monster's ATK because only the user actually sees anything
 		=> Problem A: Doesn't do anything when opponent doesn't have any set cards, and very little without a set monster
+		==> Solution for second part: Base damage in the S/T case
+		==> Interacting with hand would not match usual light semantics and be possibly too powerful for a Noble Kanohi, so the case without any Set cards remains a weakness
 		=> Problem B: Even with a set monster, damage is minuscule
+		==> Damage equal to the difference may yield better results
+		=> Hard OPT to avoid degenerate burn loops (since the same Set card could theoretically be revealed over and over again)
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-09-04 23:55:58
+	time modified: 2020-09-16 19:05:03
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -914,7 +918,10 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Once per turn: You can look at 1 Set Card your opponent controls, and if it is a monster with less ATK than the equipped monster, inflict damage to your opponent equal to half its ATK. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Whenua" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Ruru" once per turn.
+	rule text:
+		If another "Kanohi" card is equipped to the equipped monster: Destroy this card. You can only use each of the following effects of "Noble Kanohi Ruru" once per turn.
+		<sym-auto>*</sym-auto>You can target 1 Set card your opponent controls; reveal it. If it is a Spell/Trap Card, inflict 500 damage to your opponent. If it is a monster with lower ATK than the equipped monster, inflict damage to your opponent equal to the difference.
+		<sym-auto>*</sym-auto>If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Whenua" in your GY; Special Summon it and equip it with this card.
 	rarity: common
 	gamecode: 10100042
 card:
