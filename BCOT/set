@@ -997,6 +997,10 @@ card:
 		
 		Needs a lot of work still ...
 		=> Automatic Defense Position is bad since it counters current Anger design (rather than being countered by it)
+		=> Updated passive effects: Grant protection via non-aggression
+		==> effective separation from Ga- because their focus on interaction on the opponent's turn would leave you vulnerable
+		==> effective weakness to Anger because being forced to attack turns off battle protection during the following turn
+		==> still lacking an active component
 		
 		Principle: Peace.
 		"Those who were peaceful were focused and calm about all they did"
@@ -1012,13 +1016,13 @@ card:
 		The enemy of Peace is Anger.
 		=> forcing battle screws up Ko plays?
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-09-07 12:56:44
+	time modified: 2020-09-17 20:48:13
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image22
-	rule text: WATER monsters gain 800 DEF. When a monster effect is activated on the field: Change that monster to face-up Defense Position.
+	rule text: If you did not activate any cards or effects this turn, monsters you control cannot be targeted or destroyed by your opponent's card effects. If you did not declare an attack during your last Battle Phase, monsters you control cannot be destroyed by battle.
 	rarity: common
 	gamecode: DRAFT10100029
 card:
