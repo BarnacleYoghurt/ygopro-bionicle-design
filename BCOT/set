@@ -814,6 +814,8 @@ card:
 		=> may or may not still require higher LP at activation
 		=> use case where you can go +2 by being even just 100 LP ahead  may be problematic
 		==> "then, if your LP are lower than your opponent's, discard 1 card for every 1000 points difference" might fix that
+		==> "then, if your LP are lower than your opponent's, discard the same number of cards you drew" may be more elegant and still seems to work in practice
+		==> also, maybe send to GY instead of discard in either case
 	time created: 2014-12-09 17:11:13
 	time modified: 2020-09-16 09:42:06
 	card type: spell card
