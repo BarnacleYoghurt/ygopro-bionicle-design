@@ -839,6 +839,10 @@ card:
 		=> shuffling monsters from GY back conflicts with Onu-Koro a bit (might not have enough monsters for both)
 		=> More accessible version: On Link Summon, search an EARTH Warrior with a different name than everything in GY (makes up for the summon minus, so Onu-Koro wealth is not impacted)
 		==> no shuffling back, because that would be stealing resources Onu-Koro needs
+		=> Searching may be too good since it's only slightly more limited in targets than Isolde while lacking the whole "not this turn" restriction
+		==> Instead, could send an EARTH Warrior with a different name from monsters in GY to GY, then shuffle back another (EARTH? Warrior?) monster from GY - literally learning from the mistakes of the past (not getting the right monster in GY to begin with) and providing the solution that lets you proceed in the present (by getting what you need into the GY)
+		==> Total GY count remains identical, so it does not hinder Onu-Koro and may avoid being useful to Po-Koro (though any deck with GY effects can make use of dumping a specific monster, so probably not)
+		==> Really good with Goukis since it lets you activate Rematch even if only 1 material was a Gouki, but does it actually synergize with the not yet existent Onu-Matoran?
 	time created: 2014-12-08 21:30:21
 	time modified: 2020-09-14 11:30:19
 	card type: link monster
