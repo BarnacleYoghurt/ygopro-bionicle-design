@@ -111,6 +111,9 @@ card:
 	has styling: false
 	notes:
 		On activate: Search Koro
+		=> Alternative approach: "You can reveal 1 monster in your hand, or target 1 face-up monster you control; add 1 "-Koro" Field Spell Card from your Deck to your hand that lists that monster's Attribute in its text."
+		==> Requires a monster and only searches the appropriate Koro for it
+		==> Strictly weaker than the basic search, so it makes sense to use this if we need a nerf for the effect or want to add additional functionality
 		When Koro/Field Spell in general destroyed: Add from GY to hand
 		
 		Toa Mata protection, attribute lock?
