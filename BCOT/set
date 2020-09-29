@@ -477,8 +477,14 @@ card:
 		=> Goes well with Tahu for Akamai.dek
 		=> Pakari increases ATK, therefore damage, therefore range of monsters that can be added
 		=> May clash with Onu-Koro removing monsters from GY
+		
+		Alternate effect: Once per turn, if/when a card(s)/monster(s) is sent to the GY (except during the Damage Step): You can target 1 card in either GY; if that target is a monster with less ATK than this card, gain LP equal to half its ATK, also place it on the top or the bottom of the Deck."
+		=> Complies with Onu-Koro strategy of recycling resources, and complements it by also being able to get S/T back into the Deck
+		=> Can potentially serve as GY disruption on the opponent's turn, meaning Onua reinforces to the Onu deck's somewhat lacking ability to put up interaction turn 1
+		=> Symbolism is basically the same as the other effect (i.e., just Drill Warrior)
+		=> Activation condition is more easily fullfilled outside BP
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-06-27 00:00:34
+	time modified: 2020-09-29 10:37:41
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -492,7 +498,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua". Once per turn, when your opponent takes damage: You can target 1 monster in your GY with ATK less than or equal to the damage; add it to your hand, but you cannot activate the effects of monsters with that name for the rest of this turn. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua", instead of a monster you control. Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place that target on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than or equal to this card's current ATK, gain LP equal to the difference. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.
 	attack: 2100
 	defense: 2000
 	rarity: common
