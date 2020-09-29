@@ -853,7 +853,7 @@ card:
 		==> Total GY count remains identical, so it does not hinder Onu-Koro and may avoid being useful to Po-Koro (though any deck with GY effects can make use of dumping a specific monster, so probably not)
 		==> Really good with Goukis since it lets you activate Rematch even if only 1 material was a Gouki, but does it actually synergize with the not yet existent Onu-Matoran?
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-09-21 11:53:47
+	time modified: 2020-09-29 11:43:32
 	card type: link monster
 	name: Turaga Whenua
 	attribute: earth
@@ -867,7 +867,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		Each time an EARTH monster(s) is sent from your hand or field to the GY, gain 400 LP for each. If this card is Link Summoned: You can add 1 Level 4 or lower EARTH Warrior monster from your Deck to your hand with a different name than the monsters in your GY. You can only use this effect of "Turaga Whenua" once per turn.
+		Each time an EARTH monster(s) is sent from your hand or field to the GY, gain 400 LP for each. If this card is Link Summoned: You can pay 1000 LP; add 1 Level 4 or lower EARTH Warrior monster from your Deck to your hand with a different name than the monsters in your GY. You can only use this effect of "Turaga Whenua" once per turn.
 	Link Marker UR: none
 	Link Marker Down: yes
 	Link Marker DL: none
