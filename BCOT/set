@@ -225,6 +225,13 @@ card:
 		
 		Battle protection feels super pointless on a Ta-Koro board ...
 		=> maybe "unaffected by effects that do not target it"? (completes the protection, but doesn't make much sense because Hau is weak to surprise attacks and non-targeting matches those better because you don't get advance warning which monster will be hit)
+		
+		Alternate approach to mental focus restriction: Allow equipping to any monster, but only give effects when equipped to an appropriate monster.
+		=> e.g. "If the equipped monster is a "Toa" or "Makuta" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving that monster."
+		=> makes it feasible to use Kanohi in hand for searches
+		=> leaves more room for stricter archetype restrictions, which in turn means I have more freedom with the effects
+		=> perhaps provides a good hook for any non-regular Kanohi users (Axonn, Brutaka) to just have an effect that states a Kanohi equipped to them gains its effects anyway => longer variant that might be even better for that (since it explicitly states the effect is gained): "While this card is equipped to a "Toa" or "Makuta" monster, it gains this effect.
+		* The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving that monster"
 	time created: 2014-12-04 22:54:03
 	time modified: 2020-07-22 00:17:53
 	extra data:
