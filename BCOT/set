@@ -276,6 +276,9 @@ card:
 		=> Recycle on each SS, not just Link?
 		==> Recycle when monster summoned to linked zone, that way it's reusable
 		==> Discourages opponent from summoning to linked zone on their side, so they can't benefit from protection (though you also lose the rare chance for big brain disruption)
+		==> Updated: Trigger is pointing to a monster during opponent's End Phase, so it isn't just a better WATER version of Sunlight Wolf
+		===> Matches the idea of protecting your own monster in the linked zone, and still derives benefit from opponent foolishly putting one of their monsters there
+		===> Explicitly triggering during opponent's turn fits with Ga-Koro
 		=> Send WATER from Deck instead of discard (only if precedent!)
 		==> There is none, at least not as a quick effect
 		==> But reusable recycle effect means previous discards can come back
@@ -287,7 +290,7 @@ card:
 		==> Maybe "except this card's" is better?
 		=> For comfort: Make recycling effect mandatory, so you don't misclick it away - want  to activate it pretty much always anyway, and in the cases where not the other effect makes it easy to get the card in question to GY/banished again 
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-08-15 17:38:14
+	time modified: 2020-10-02 15:07:23
 	card type: link monster
 	name: Turaga Nokama
 	attribute: water
@@ -301,7 +304,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, or Trap) than the card you banished, except this card's. If a monster(s) is Normal or Special Summoned to the zone(s) this card points to: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
+		This linked card cannot be destroyed by battle. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, or Trap) than the card you banished, except this card's. During your opponent's End Phase, if this card points to a monster: Target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
 	Link Marker Up: yes
 	Link Marker UR: none
 	Link Marker DL: yes
