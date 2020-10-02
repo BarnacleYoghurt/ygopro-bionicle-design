@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.13.4
+	edition: Version 3.13.5
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -327,7 +327,7 @@ card:
 		=> Maybe: "Each player who controls a monster(s) in the Main Monster Zone moves 1 of those monsters to another of their Main Monster Zones" => allows owner to adjust zones as well when protection takes effect, but may screw up placement relative to Nokama
 		=> Perhaps even better: "You can move 1 monster in the Main Monster Zone to another Main Monster Zone, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone" => that way the opponent of the one activating the effect (usually you) gets the last word
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-07-22 00:14:31
+	time modified: 2020-10-02 15:42:46
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -341,7 +341,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Each turn, the first activated effect that targets the equipped monster becomes "Each player who controls a monster(s) in the Main Monster Zone moves 1 of those monsters to another of their Main Monster Zones". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Each turn, the first activated effect that targets the equipped monster becomes "You can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
 	rarity: common
 	gamecode: 10100041
 card:
