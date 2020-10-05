@@ -479,6 +479,12 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Normal Summon by Tributing from hand}}
+		{{Return card from GY to Deck}}
+		{{Equip Kanohi from hand or GY}}
+		{{Place on the top}}
+		{{Place on the bottom}}
+		
 		Originally effect negation, but when should that trigger and how does it fit into Onu-Koro.dek?
 		
 		Effect: Add monster from GY
@@ -803,7 +809,7 @@ card:
 	notes:
 		{{Shuffle EARTH monsters into Deck to gain LP}}
 		{{Pay LP to draw}}
-		
+		{{Select LP cost}}
 		
 		Mata Role: Resource Generation
 		
@@ -848,6 +854,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Pay 1000 LP to add EARTH Warrior to hand}}
+		
 		LP gain = overseeing the work (work here being the process of using up your monsters)
 		=> Potentially better to put this on Onu-Koro and the active LP gain effect from Onu-Koro on Whenua 
 		=> Something for the other kind of work (reducing opponent's LP) as well? Would bring immediate synergy with potential burn effect for Ruru...
@@ -891,6 +899,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Raise ATK/DEF}}
+		
 		Relatively high ATK because stronk.
 		SS from hand = eager to help
 		=> restricting attacks to C.C. Matoran can be bypassed through Hafu Originals
@@ -918,6 +928,9 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Reveal Set card and inflict damage}}
+		{{Special Summon Whenua and equip with Ruru}}
+		
 		Noble Ruru: Night Vision, but doesn't glow
 		=> illuminate a set card
 		=> potentially deals damage for Onu synergy
@@ -952,6 +965,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add Onua to hand}}
+		
 		Buffed version: 1000 ATK boost + piercing damage
 		=> so stronk you punch through walls
 		=> what does the Akaku get then?
