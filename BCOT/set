@@ -810,6 +810,7 @@ card:
 		{{Shuffle EARTH monsters into Deck to gain LP}}
 		{{Pay LP to draw}}
 		{{Select LP cost}}
+		{{Affected by "Onu-Koro, Village of Earth": Cannot Normal or Special Summon, except EARTH monsters}}
 		
 		Mata Role: Resource Generation
 		
@@ -900,6 +901,7 @@ card:
 	has styling: false
 	notes:
 		{{Raise ATK/DEF}}
+		{{Affected by "C.C. Matoran Taipu": Monsters cannot attack, except "C.C. Matoran" monsters}}
 		
 		Relatively high ATK because stronk.
 		SS from hand = eager to help
