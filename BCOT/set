@@ -1250,6 +1250,35 @@ card:
 	defense: 1200
 	rarity: common
 	gamecode: DRAFT10100057
+card:
+	has styling: false
+	notes: Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
+	time created: 2014-12-08 21:30:21
+	time modified: 2020-10-06 12:47:12
+	card type: link monster
+	name: Turaga Onewa
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image30
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 monsters, including an EARTH Warrior monster
+		If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it. You can only use this effect of "Turaga Onewa" once per turn.
+	Link Marker UR: none
+	Link Marker Down: none
+	Link Marker DL: yes
+	Link Marker DR: yes
+	Link Marker Right: none
+	attack: 1450
+	defense: 1150
+	link number: 2
+	rarity: common
+	gamecode: DRAFT10100020
 version control:
 	type: none
 apprentice code: 
