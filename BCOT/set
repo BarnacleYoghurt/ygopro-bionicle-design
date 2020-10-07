@@ -1279,6 +1279,24 @@ card:
 	link number: 2
 	rarity: common
 	gamecode: DRAFT10100020
+card:
+	has styling: false
+	notes:
+		Another idea for second effect:
+		"You can target 1 "Kanohi" Equip Spell Card in your GY, then reveal 1 "Toa Mata" monster in your hand whose name is specifically listed on the targeted card; Special Summon that monster, and if you do, send this card to the GY."
+		=> Upgrade Kanohi searches to straight up SS
+		=> target and reveal both in cost to avoid ambiguous situations where you activate this card targeting some Kanohi, but only get the appropriate monster into hand between activation and resolution - look up how that works (probably shouldn't be legal to activate in that case)
+		=> Maybe even equip Kanohi from GY (but in that case with stricter cost/condition)
+	time created: 2014-12-08 19:37:32
+	time modified: 2020-10-07 12:58:10
+	card type: spell card
+	name: Quest for the Masks
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image29
+	rule text: When a monster your opponent controls is destroyed by battle: You can send 1 "Kanohi" Equip Spell Card from your Deck to your Graveyard. You can send this card from the field to the Graveyard; add 1 "Kanohi" Equip Spell Card from your Graveyard to your hand.
+	rarity: common
+	gamecode: DRAFT10100016
 version control:
 	type: none
 apprentice code: 
