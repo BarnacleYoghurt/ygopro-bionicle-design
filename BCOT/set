@@ -538,7 +538,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOT-EN012
+	number: BCOT-EN013
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target. Once per Chain (Quick Effect): You can banish all "Kanohi" Equip Spell Cards equipped to this card (if any), then equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card. During the End Phase, return all cards banished by this effect to your GY.<i></i-flavor>
 	attack: 2400
 	defense: 1650
@@ -772,14 +772,20 @@ card:
 	gamecode: DRAFT10100062
 card:
 	has styling: false
-	notes: Alternate approach to Kanohi-switching effect, so that doesn't have to repeated on every Toa.
+	notes:
+		Alternate approach to Kanohi-switching effect, so that doesn't have to repeated on every Toa.
+		
+		Thematically having it on the Suva makes more sense, so the Kini-Nui can do something else as the designated Toa Mata field spell.
+		=> Extra NS for Toa Mata?
+		=> Trigger when tributing from hand / tributing a Toa Mata for a Toa Mata?
+		=> searching/recycling?
 	time created: 2020-03-21 00:09:42
-	time modified: 2020-09-07 12:56:33
+	time modified: 2020-11-22 12:40:54
 	card type: spell card
 	name: The Great Temple, Kini-Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
-	image: 
+	image: image32
 	rule text:
 		Cannot be targeted by card effects while you control a "Toa Mata" monster. "Toa Mata" monsters you control gain this effect.
 		<sym-auto>*</sym-auto>Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.
@@ -1297,6 +1303,77 @@ card:
 	rule text: When a monster your opponent controls is destroyed by battle: You can send 1 "Kanohi" Equip Spell Card from your Deck to your Graveyard. You can send this card from the field to the Graveyard; add 1 "Kanohi" Equip Spell Card from your Graveyard to your hand.
 	rarity: common
 	gamecode: DRAFT10100016
+card:
+	has styling: false
+	notes:
+		Original:
+		Target up to 3 Level 4 or lower monsters in your Graveyard that were destroyed this turn; Special Summon 1 "Toa" monster with the same Attribute from your hand or Deck for each of these monsters. Monsters Special Summoned by this effect cannot attack during the turn they are Summoned. If this face-down card is destroyed by your opponent's card effect and sent to the Graveyard: You can destroy all monsters you control (min. 1); Special Summon 1 "Toa" monster from your hand or Deck. You can only activate 1 "Coming of the Toa" effect per turn, and only once that turn
+		
+		Keep the on-destruction effect or can we live without that crutch now?
+		
+		Generic Toa support or only Toa Mata?
+		=> SS restriction needs to be generic because of Toa Kaita
+		
+		Temporary outcome up to +3 Toa on field, permanent outcome up to +3 Toa in hand
+		=> With Toa Mata, can set up appropriate triggers at the appropriate time
+		=> multiple Toa Mata in hand automatically means  at least one is summonable
+		=> too much plus or is it fine because it's a conditional trap?
+	time created: 2014-12-08 18:22:38
+	time modified: 2020-11-22 16:59:52
+	card type: trap card
+	name: Coming of the Toa
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: image31
+	rule text: Target up to 3 Level 4 or lower monsters with different names in you GY; Special Summon 1 "Toa" monster with same attribute from your hand or Deck for each of those monsters, but they cannot attack, also return them to the hand during the End Phase. You cannot Special Summon during the turn you activate this effect, except "Toa" monsters. You can only activate 1 "Coming of the Toa" per turn.
+	rarity: common
+	gamecode: DRAFT10100015
+card:
+	has styling: false
+	notes:
+		If other cards are sufficient to summon multiple Toa, maybe make this aid Kaita with something like letting a Toa Mata be treated as 2 materials?
+		<soft-line>
+		GY eff: Also replace with something relevant to Kaita?</soft-line>
+	time created: 2014-12-10 20:58:53
+	time modified: 2020-11-22 12:43:55
+	card type: effect monster
+	name: Suva Kaita
+	attribute: light
+	level: <sym-auto>*</sym-auto>
+	image: image33
+	type 1: <word-list-ENrace>Rock</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: When this card is Normal or Special Summoned while you control no "Toa" monsters: Target 1 "Toa" monster that has a Level in your Graveyard; Special Summon that target, then switch this card to Defense Position, and make its name and Level the same as that monster's. You can banish this card from your Graveyard; Special Summon 1 of your banished "Toa" monsters. You can only use 1 "Suva Kaita" effect per turn, and only once that turn.
+	attack: 0
+	defense: 0
+	rarity: common
+	gamecode: DRAFT10100050
+card:
+	has styling: false
+	notes:
+		Probably shouldn't be a battle trap, or was there a thematic reason for that?
+		
+		Toa searching makes sense, further details probably need to be overhauled.
+		=> might make sense to somehow have this combo with Coming of the Toa, e.g. this stacks Toa on the top of the deck and Coming excavates to find its summon targets
+		=> or sets up the GY to work with the non-excavating Coming
+		=> already did a trap card combo with If You Wake One ... You Wake Them All, so might be a bit repetitive
+	time created: 2014-12-13 23:24:36
+	time modified: 2020-11-22 16:57:30
+	card type: trap card
+	name: Call of the Toa Stones
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: image34
+	rule text:
+		You take no Battle Damage this turn, also shuffle your entire hand into the Deck and draw the same number of cards, then you can activate any of the following effects in sequence, depending on the number of "Toa" monsters in your hand, and discard 1 card.
+		<sym-auto>*</sym-auto>0: Add 1 "Toa" monster from your Deck or Graveyard to your hand.
+		<sym-auto>*</sym-auto>1+: Special Summon this card as a Normal Monster (Rock-Type/LIGHT/Level 6/ATK 0/DEF 0). It cannot be destroyed by card effects.
+		<sym-auto>*</sym-auto>2+: Special Summon 1 "Toa" monster from your hand.
+		<sym-auto>*</sym-auto>3+: Add 1 "Kanohi" Equip Spell Card from your Deck to your hand. 
+	rarity: common
+	gamecode: DRAFT10100053
 version control:
 	type: none
 apprentice code: 
