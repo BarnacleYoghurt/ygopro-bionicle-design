@@ -779,16 +779,20 @@ card:
 		=> Extra NS for Toa Mata?
 		=> Trigger when tributing from hand / tributing a Toa Mata for a Toa Mata?
 		=> searching/recycling?
+		
+		All specific features (Suva Kaita, Golden Kanohi, Amaja Nui, Toa Stones) are already separate cards, so all that's left here is basic utility for Toa Mata with no direct lore correspondence.
+		=> Extra NS - we can tribute from hand, so that allows doing a lot more
+		=> Recycle on tribute summon - to make up for cards lost in the process
+		==> Especially useful when tributing a Toa Mata for a Toa Mata
+		==> Recycles Toa in general, so it works on Kaita, Nuva, and theoretically later generations (practically the card has no place in non-Mata decks)
 	time created: 2020-03-21 00:09:42
-	time modified: 2020-11-22 12:40:54
+	time modified: 2020-11-23 12:34:08
 	card type: spell card
 	name: The Great Temple, Kini-Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image32
-	rule text:
-		Cannot be targeted by card effects while you control a "Toa Mata" monster. "Toa Mata" monsters you control gain this effect.
-		<sym-auto>*</sym-auto>Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.
+	rule text: During your Main Phase, you can Normal Summon 1 "Toa Mata" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) Once per turn, if you Tribute Summon a "Toa Mata" monster: You can target 1 "Toa" monster in your GY; add it to your hand.
 	gamecode: DRAFT10100024
 card:
 	has styling: false
