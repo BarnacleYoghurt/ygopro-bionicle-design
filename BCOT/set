@@ -1130,8 +1130,9 @@ card:
 		=> a card with more than 3 effects already feels like a bit of a clusterfuck, so an attempt was made to cut this down to the most important 3 by cutting the protection
 		==> Problem A: No protection, so you can easily lose your Suva, but your opponent also has to expend resources to achieve this and you can get it back during your turn if you have a Toa - experiment to see if this is sufficient
 		==> Problem B: No attribute adjustment on field, so it could interfere with Koro strategies - maybe make it so it takes the attribute of the targeted Toa when Kanohi swapping (but then you might be forced into an unnecessary swap just so your Koro isn't dead) or on summon
+		===> or just make the continuous adjustment work on field if you have a Koro - looks a bit weird in text, but perfectly and exactly solves the issue
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-11-24 10:05:25
+	time modified: 2020-11-25 12:52:40
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1141,7 +1142,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: While in your hand, this card is also FIRE, WATER, EARTH, and WIND-Attribute. </i><i-flavor>Once per Chain (Quick Effect): You can target 1 face-up "Toa" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
+	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell Card, this card is also FIRE, WATER, EARTH, and WIND-Attribute. </i><i-flavor>Once per Chain (Quick Effect): You can target 1 face-up "Toa" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
 	attack: 0
 	defense: 0
 	rarity: common
