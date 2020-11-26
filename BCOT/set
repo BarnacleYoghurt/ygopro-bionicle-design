@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.13.6
+	edition: Version 3.14.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -62,7 +62,7 @@ card:
 		=> Allows Ta-Koro to OTK more reliably without needing a bonus battle damage effect on Lhii
 		=> Full-on multiplicative might stack a bit too hard, so maybe change that to inflicting damage equal to original ATK if monster is destroyed by battle (a bit like Ghost Mourner) - also fits the "it's on fire and explodes" visual a bit better
 	time created: 2014-12-04 18:00:08
-	time modified: 2020-08-07 10:07:30
+	time modified: 2020-11-26 22:55:47
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -76,7 +76,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 FIRE or "Toa Mata" monster in your hand, except "Toa Mata Tahu", instead of a monster you control. Once per turn, if a monster battles, after damage calculation: You can target 1 monster your opponent controls; its ATK becomes 0, also if it is destroyed by battle this turn your opponent takes damage equal to its original ATK. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 FIRE or "Toa Mata" monster in your hand, except "Toa Mata Tahu", instead of a monster you control. Once per turn, if a monster battles, after damage calculation: You can target 1 monster your opponent controls; its ATK becomes 0, also if it is destroyed by battle this turn your opponent takes damage equal to its original ATK.<i></i-flavor>
 	attack: 2500
 	defense: 1500
 	rarity: common
@@ -90,7 +90,7 @@ card:
 		
 		Maybe instead of tributing do something like destroy or return to hand, so Vision Tokens can be used?
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-07-22 00:19:01
+	time modified: 2020-11-26 23:03:34
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -104,7 +104,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. If you control another monster, your opponent cannot target the equipped monster for attacks. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Vakama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Huna" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control another monster, your opponent cannot target the equipped monster for attacks. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Vakama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Huna" once per turn.
 	rarity: common
 	gamecode: 10100040
 card:
@@ -222,6 +222,7 @@ card:
 		=> Simplest solution: Equip Limit is just "Equip only to a Level 6 or higher monster", but there's a second continuous effect stating "If a "Kanohi" Equip Spell Card is equipped to the equipped monster, destroy this card".
 		=> Bonus side effect: You can swap with a Kanohi from hand during your turn without banishing the original one.
 		=> Self-destruct effect had to be made a trigger effect because YGOPro doesn't like continuous with EVENT_EQUIP :( Big difference: Now the Kanohi won't blow up until the end of the chain, and its attempt to blow up can also be chained to!
+		==> oh wait, that was just because trigger effects have implicit effect relation and continuous do not - fixed now
 		
 		Battle protection feels super pointless on a Ta-Koro board ...
 		=> maybe "unaffected by effects that do not target it"? (completes the protection, but doesn't make much sense because Hau is weak to surprise attacks and non-targeting matches those better because you don't get advance warning which monster will be hit)
@@ -233,7 +234,7 @@ card:
 		=> perhaps provides a good hook for any non-regular Kanohi users (Axonn, Brutaka) to just have an effect that states a Kanohi equipped to them gains its effects anyway => longer variant that might be even better for that (since it explicitly states the effect is gained): "While this card is equipped to a "Toa" or "Makuta" monster, it gains this effect.
 		* The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving that monster"
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-07-22 00:17:53
+	time modified: 2020-11-26 23:00:36
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -247,7 +248,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: Equip only to a Level 6 or higher monster. If another "Kanohi" card is equipped to the equipped monster: Destroy this card. The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving that monster. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Great Kanohi Hau" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving that monster. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Great Kanohi Hau" once per turn.
 	attack: 
 	rarity: common
 	gamecode: 10100007
@@ -328,7 +329,7 @@ card:
 		=> Maybe: "Each player who controls a monster(s) in the Main Monster Zone moves 1 of those monsters to another of their Main Monster Zones" => allows owner to adjust zones as well when protection takes effect, but may screw up placement relative to Nokama
 		=> Perhaps even better: "You can move 1 monster in the Main Monster Zone to another Main Monster Zone, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone" => that way the opponent of the one activating the effect (usually you) gets the last word
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-10-02 15:42:46
+	time modified: 2020-11-26 23:06:22
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -342,7 +343,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Each turn, the first activated effect that targets the equipped monster becomes "You can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Each turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster, the first activated effect that targets it becomes "You can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
 	rarity: common
 	gamecode: 10100041
 card:
@@ -353,8 +354,9 @@ card:
 		
 		Maybe rethink it for more Ga-Koro synergy?
 		=> on the other hand, the Rua having a complete unaffected effect through combination of Kaukau and Miru is also nice...
+		=> HOWEVER becoming unaffacted by Ga-Koro itself sucks quite hard
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-04-02 19:54:47
+	time modified: 2020-11-26 23:02:00
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -368,7 +370,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: Equip only to a Level 6 or higher monster. If another "Kanohi" card is equipped to the equipped monster: Destroy this card. The equipped monster is unaffected by other Spell/Trap effects. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Gali" from your Deck to your hand. You can only use this effect of "Great Kanohi Kaukau" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it is unaffected by other Spell/Trap effects. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Gali" from your Deck to your hand. You can only use this effect of "Great Kanohi Kaukau" once per turn.
 	rarity: common
 	gamecode: 10100008
 card:
@@ -416,7 +418,7 @@ card:
 		=> Might be a problem that the effect becomes impossible to activate unless your monster effect is in the last chain
 		==> See how it works in Toa Mata decks first, where Kanohi-switching can always be chained to serve as the trigger
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-08-13 17:16:16
+	time modified: 2020-11-26 22:55:55
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -430,7 +432,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if your monster effect, except "Toa Mata Gali", is activated (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if your monster effect, except "Toa Mata Gali", is activated (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK.<i></i-flavor>
 	attack: 2300
 	defense: 1800
 	rarity: common
@@ -501,7 +503,7 @@ card:
 		=> Symbolism is basically the same as the other effect (i.e., just Drill Warrior)
 		=> Activation condition is more easily fullfilled outside BP
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-09-29 10:37:41
+	time modified: 2020-11-26 22:56:00
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -515,7 +517,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua", instead of a monster you control. Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place that target on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than or equal to this card's current ATK, gain LP equal to the difference. Once per Chain (Quick Effect): You can equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua", instead of a monster you control. Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place that target on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than or equal to this card's current ATK, gain LP equal to the difference.
 	attack: 2100
 	defense: 2000
 	rarity: common
@@ -786,14 +788,14 @@ card:
 		==> Especially useful when tributing a Toa Mata for a Toa Mata
 		==> Recycles Toa in general, so it works on Kaita, Nuva, and theoretically later generations (practically the card has no place in non-Mata decks)
 	time created: 2020-03-21 00:09:42
-	time modified: 2020-11-23 12:34:08
+	time modified: 2020-11-26 22:54:47
 	card type: spell card
 	name: The Great Temple, Kini-Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image32
 	rule text: During your Main Phase, you can Normal Summon 1 "Toa Mata" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) Once per turn, if you Tribute Summon a "Toa Mata" monster: You can target 1 "Toa" monster in your GY; add it to your hand.
-	gamecode: DRAFT10100024
+	gamecode: 10100024
 card:
 	has styling: false
 	notes:
@@ -954,8 +956,9 @@ card:
 		=> Problem B: Even with a set monster, damage is minuscule
 		==> Damage equal to the difference may yield better results
 		=> Hard OPT to avoid degenerate burn loops (since the same Set card could theoretically be revealed over and over again)
+		==> The bullet points needed for this are actually the main reason the new mental focus restriction isn't worded as an explicitly gained effect, because we can't exactly nest bullet points and inconsistency would suck
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-09-16 19:05:03
+	time modified: 2020-11-26 23:07:32
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -970,8 +973,8 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		If another "Kanohi" card is equipped to the equipped monster: Destroy this card. You can only use each of the following effects of "Noble Kanohi Ruru" once per turn.
-		<sym-auto>*</sym-auto>You can target 1 Set card your opponent controls; reveal it. If it is a Spell/Trap Card, inflict 500 damage to your opponent. If it is a monster with lower ATK than the equipped monster, inflict damage to your opponent equal to the difference.
+		If another "Kanohi" card is equipped to the equipped monster, destroy this card. You can only use each of the following effects of "Noble Kanohi Ruru" once per turn.
+		<sym-auto>*</sym-auto>If the equipped monster is a "Turaga", "Toa", or "Makuta" monster: You can target 1 Set card your opponent controls; reveal it. If it is a Spell/Trap Card, inflict 500 damage to your opponent. If it is a monster with lower ATK than the equipped monster, inflict damage to your opponent equal to the difference.
 		<sym-auto>*</sym-auto>If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Whenua" in your GY; Special Summon it and equip it with this card.
 	rarity: common
 	gamecode: 10100042
@@ -985,7 +988,7 @@ card:
 		=> what does the Akaku get then?
 		==> new concept for that added as draft
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-09-16 19:16:15
+	time modified: 2020-11-26 23:02:37
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -999,7 +1002,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: Equip only to a Level 6 or higher monster. If another "Kanohi" card is equipped to the equipped monster: Destroy this card. The equipped monster gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage to your opponent. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Onua" from your Deck to your hand. You can only use this effect of "Great Kanohi Pakari" once per turn. 
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage to your opponent. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Onua" from your Deck to your hand. You can only use this effect of "Great Kanohi Pakari" once per turn. 
 	rarity: common
 	gamecode: 10100009
 card:
@@ -1132,7 +1135,7 @@ card:
 		==> Problem B: No attribute adjustment on field, so it could interfere with Koro strategies - maybe make it so it takes the attribute of the targeted Toa when Kanohi swapping (but then you might be forced into an unnecessary swap just so your Koro isn't dead) or on summon
 		===> or just make the continuous adjustment work on field if you have a Koro - looks a bit weird in text, but perfectly and exactly solves the issue
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-11-25 12:52:40
+	time modified: 2020-11-26 22:54:29
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1142,11 +1145,11 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell Card, this card is also FIRE, WATER, EARTH, and WIND-Attribute. </i><i-flavor>Once per Chain (Quick Effect): You can target 1 face-up "Toa" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
+	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell Card, this card is also WIND, WATER, FIRE, and EARTH-Attribute. </i><i-flavor>Once per Chain (Quick Effect): You can target 1 face-up "Toa" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
 	attack: 0
 	defense: 0
 	rarity: common
-	gamecode: DRAFT10100055
+	gamecode: 10100055
 card:
 	stylesheet: series10
 	has styling: false
