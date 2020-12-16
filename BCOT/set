@@ -792,6 +792,12 @@ card:
 		=>  allow targets outside of Toa so it's basically always live - e.g. "You can target 1 "Toa" monster or 1 monster with the same Attribute as the Summoned monster in your GY; add it to your hand"?
 		=> Special summon instead of adding to your hand, probably with discard cost (which could help ditching Kanohi for searches)?
 		=> Instead of triggering on Tribute Summon, make it an ignition effect with the condition of controlling a (Tribute Summoned) Toa Mata?
+		=> Maybe work specifically with the Tribute rather than a selected monster - "If a monster(s) is Tributed for the Tribute Summon of a "Toa Mata" monster and sent to the GY: You can target 1 of those monsters; if it is a "Toa" monster, Special Summon it in face-up Defense Position, otherwise add it to your hand."
+		==> Makes the effect (almost) always live by definition
+		==> Distinction between archetypal and other targets justifies Special Summoning instead of just adding
+		==> Similar trigger actually already exists on SHS Trumpeter
+		==> Bad synergy with Suva, since it needs to be in the GY for the SS effect
+
 	time created: 2020-03-21 00:09:42
 	time modified: 2020-11-26 22:54:47
 	card type: spell card
