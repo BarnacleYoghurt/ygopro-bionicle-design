@@ -798,13 +798,13 @@ card:
 		==> Similar trigger actually already exists on SHS Trumpeter
 		==> Bad synergy with Suva, since it needs to be in the GY for the SS effect
 	time created: 2020-03-21 00:09:42
-	time modified: 2020-12-16 23:28:15
+	time modified: 2020-12-17 08:41:36
 	card type: spell card
 	name: The Great Temple, Kini-Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image32
-	rule text: During your Main Phase, you can Normal Summon 1 "Toa Mata" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If a monster(s) is Tributed for the Tribute Summon of a "Toa Mata" monster and sent to the GY: You can target 1 of those monsters; if it is a "Toa" monster, Special Summon it in Defense Position, otherwise add it to your hand. You can only use this effect of "The Great Temple, Kini-Nui" once per turn.
+	rule text: During your Main Phase, you can Normal Summon 1 "Toa Mata" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If a monster(s) is Tributed for the Tribute Summon of a "Toa Mata" monster and sent to your GY: You can target 1 of those monsters; if it is a "Toa" monster, Special Summon it in Defense Position, otherwise add it to your hand. You can only use this effect of "The Great Temple, Kini-Nui" once per turn.
 	gamecode: 10100024
 card:
 	has styling: false
