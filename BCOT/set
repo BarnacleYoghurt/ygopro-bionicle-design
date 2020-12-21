@@ -1164,8 +1164,11 @@ card:
 		==> Problem A: No protection, so you can easily lose your Suva, but your opponent also has to expend resources to achieve this and you can get it back during your turn if you have a Toa - experiment to see if this is sufficient
 		==> Problem B: No attribute adjustment on field, so it could interfere with Koro strategies - maybe make it so it takes the attribute of the targeted Toa when Kanohi swapping (but then you might be forced into an unnecessary swap just so your Koro isn't dead) or on summon
 		===> or just make the continuous adjustment work on field if you have a Koro - looks a bit weird in text, but perfectly and exactly solves the issue
+		
+		The general idea is that a Suva in Defense Position should act like a continouous Spell/Trap that can also be destroyed by battle (the only real reason it's a monster is so you can tribute it for the Toa). This works without any special protection, except in the presence of piercing or battle position changing effects, where the card is instead a huge liability.
+		=> adding a small protection effect to negate battle damage would fix this
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-11-30 10:21:43
+	time modified: 2020-12-21 16:00:21
 	card type: effect monster
 	name: Suva
 	attribute: light
