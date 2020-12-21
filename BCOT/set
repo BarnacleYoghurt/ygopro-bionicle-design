@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.14.1
+	edition: Version 3.14.2
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -425,7 +425,7 @@ card:
 		====> This wording would make it easy to expand the scope of triggering effects to cover all cards (monster effect -> card or effect), but not sure if that's a good idea
 		====> Still breaks when stuff is chained to an applicable effect, but searching backwards in the chain looks so contrived...
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-11-26 22:55:55
+	time modified: 2020-12-21 12:57:57
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -439,7 +439,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if your monster effect, except "Toa Mata Gali", is activated (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if the turn player's opponent activates a monster effect, except "Toa Mata Gali" (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK.<i></i-flavor>
 	attack: 2300
 	defense: 1800
 	rarity: common
@@ -818,13 +818,13 @@ card:
 		==> Using it during your opponent's End Phase instead gives you an additional Suva/Suva Kaita during your next turn
 		==> Having it happen in the End Phase enhances the aforementioned lore connection as well
 	time created: 2020-03-21 00:09:42
-	time modified: 2020-12-21 11:01:00
+	time modified: 2020-12-21 12:57:23
 	card type: spell card
 	name: The Great Temple, Kini-Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image32
-	rule text: During your Main Phase, you can Normal Summon 1 "Toa Mata" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If a monster(s) is Tributed for the Tribute Summon of a "Toa Mata" monster and sent to your GY: You can target 1 of those monsters; if it is a "Toa" monster, Special Summon it in Defense Position, otherwise add it to your hand. You can only use this effect of "The Great Temple, Kini-Nui" once per turn.
+	rule text: During your Main Phase, you can Normal Summon 1 "Toa Mata" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If a monster(s) is Tributed for the Tribute Summon of a "Toa Mata" monster and sent to your GY: You can target 1 of those monsters; if it is a "Toa" monster, Special Summon it in Defense Position, otherwise add it to your hand. During the End Phase: You can destroy this card, and if you do, Special Summon 1 Level 1 Rock monster with 0 ATK/DEF from your Deck. You can only use each effect of "The Great Temple, Kini-Nui" once per turn.
 	gamecode: 10100024
 card:
 	has styling: false
