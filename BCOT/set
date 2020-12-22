@@ -531,9 +531,12 @@ card:
 	gamecode: 10100003
 card:
 	has styling: false
-	notes: 
+	notes:
+		Effect: Kick S/T to pieces, also gets a bonus if there's a Rock around as a sneaky reference to the rock kicking function - triggered by ED summon for Po-Koro synergy
+		=> The S/T reduction by itself could actually work without even the soft OPT restriction, the bonus burn on the other hand kind of warrants a hard one
+		=> Maybe instead of turn, make it so having a Rock prevents activation of the targeted card (because it's destroyed by kicking a rock at it from a distance and therefore the opponent is caught by surprise), then it could be unlimited
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-09-07 12:55:52
+	time modified: 2020-12-22 23:34:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -548,20 +551,21 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOT-EN013
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target. Once per Chain (Quick Effect): You can banish all "Kanohi" Equip Spell Cards equipped to this card (if any), then equip 1 "Kanohi" Equip Spell Card from your hand or GY to this card. During the End Phase, return all cards banished by this effect to your GY.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster(s) is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, inflict 800 damage to your opponent.<i></i-flavor>
 	attack: 2400
 	defense: 1650
 	rarity: common
 	gamecode: DRAFT10100004
 card:
 	has styling: false
-	notes: 
+	notes: No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-09-07 12:56:09
+	time modified: 2020-12-22 23:41:10
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: water
+	card type: effect monster
 	name: Toa Mata Kopaka
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
@@ -570,20 +574,23 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Akaku" from your hand, Deck or Graveyard to it. If this card is Special Summoned: Activate this effect; monsters cannot be destroyed, until the End Phase.</i-flavor>
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". <sym-auto>?</sym-auto><sym-auto>?</sym-auto><sym-auto>=</sym-auto><sym-auto>?</sym-auto>
 	attack: 2000
 	defense: 2150
 	rarity: common
 	gamecode: DRAFT10100005
 card:
 	has styling: false
-	notes: 
+	notes:
+		Effect: Removal option for Toa Mata with no particular lore correspondence, triggered by special summons because Le-Koro will presumably do something with swarming.
+		=> May want to expand possible targets to face-down monsters as well
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-09-07 12:56:15
+	time modified: 2020-12-22 23:46:42
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: wind
+	card type: effect monster
 	name: Toa Mata Lewa
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
@@ -592,7 +599,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor>When this card is successfully Normal Summoned: Equip 1 "Great Kanohi Miru" from your hand, Deck or Graveyard to it. If this card is Special Summoned: You can draw 1 card.</i-flavor>
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 WIND or "Toa Mata" monster in your hand, except "Toa Mata Lewa".  Once per turn, if a monster(s) is Special Summoned from the hand or Deck: You can target 1 face-up monster on the field; return it to the hand. 
 	attack: 2500
 	defense: 1400
 	rarity: common
