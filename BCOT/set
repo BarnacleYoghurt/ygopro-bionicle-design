@@ -1351,14 +1351,18 @@ card:
 		=> Upgrade Kanohi searches to straight up SS
 		=> target and reveal both in cost to avoid ambiguous situations where you activate this card targeting some Kanohi, but only get the appropriate monster into hand between activation and resolution - look up how that works (probably shouldn't be legal to activate in that case)
 		=> Maybe even equip Kanohi from GY (but in that case with stricter cost/condition)
+		
+		First effect: replicates NS equip effect of original Toa Mata, probably a more reliable way of searching than requiring battle destruction.
+		
+		Second effect could also be something that gives a reward (e.g. a draw) for completing the "quest" by having a certain number of Kanohi in the GY.
 	time created: 2014-12-08 19:37:32
-	time modified: 2020-10-07 12:58:10
+	time modified: 2020-12-23 18:15:40
 	card type: spell card
 	name: Quest for the Masks
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image29
-	rule text: When a monster your opponent controls is destroyed by battle: You can send 1 "Kanohi" Equip Spell Card from your Deck to your Graveyard. You can send this card from the field to the Graveyard; add 1 "Kanohi" Equip Spell Card from your Graveyard to your hand.
+	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell Card from your Deck to it. You can target 1 "Kanohi" Equip Spell Card in your GY, then reveal 1 "Toa Mata" monster in your hand whose name is specifically listed on the targeted card; Special Summon that monster, and if you do, send this card to the GY. You can only use this effect of <sym-auto>!</sym-auto>"Quest for the Masks" once per turn.
 	rarity: common
 	gamecode: DRAFT10100016
 card:
@@ -1368,12 +1372,14 @@ card:
 		Target up to 3 Level 4 or lower monsters in your Graveyard that were destroyed this turn; Special Summon 1 "Toa" monster with the same Attribute from your hand or Deck for each of these monsters. Monsters Special Summoned by this effect cannot attack during the turn they are Summoned. If this face-down card is destroyed by your opponent's card effect and sent to the Graveyard: You can destroy all monsters you control (min. 1); Special Summon 1 "Toa" monster from your hand or Deck. You can only activate 1 "Coming of the Toa" effect per turn, and only once that turn
 		
 		Keep the on-destruction effect or can we live without that crutch now?
+		=> Could search Quest for the Masks as a secondary effect (e.g. during End Phase after getting sent to the GY, whether activated or removed), so we get a little Call->Coming->Quest chain going
 		
 		Generic Toa support or only Toa Mata?
 		=> SS restriction needs to be generic because of Toa Kaita
+		=> Might actually be too good to have exceptions from the restriction, can be an instant Kaita on your turn just from having this card set and a few random monsters in the GY
 		
 		Temporary outcome up to +3 Toa on field, permanent outcome up to +3 Toa in hand
-		=> With Toa Mata, can set up appropriate triggers at the appropriate time
+		=>With Toa Mata, can set up appropriate triggers at the appropriate time
 		=> multiple Toa Mata in hand automatically means  at least one is summonable
 		=> too much plus or is it fine because it's a conditional trap?
 	time created: 2014-12-08 18:22:38
@@ -1432,6 +1438,32 @@ card:
 		<sym-auto>*</sym-auto>3+: Add 1 "Kanohi" Equip Spell Card from your Deck to your hand. 
 	rarity: common
 	gamecode: DRAFT10100053
+card:
+	has styling: false
+	notes:
+		Spell version because having a trap as a consistency booster probably wouldn't work very well for the deck
+		
+		Since it excavates (because the Toa being called are still in the future), the logic here is that a higher number of hits implies more Toa still in the Deck and therefore less in hand/GY. So:
+		=> 0 gives you a Suva/Suva Kaita to do something with the Toa you presumably already have
+		=> 3 gives you a Coming (maybe even "can be activated during this turn"?) so you can quickly fetch all those Toa in your Deck
+		=> 1 / 2 do something inbetween, but what?
+		=> Check if it's still a good idea to have the >0 effects cumulative once the new ones are all done
+		=> Also do some math on probabilities of getting each effect to figure out how to balance them
+	time created: 2014-12-13 23:24:36
+	time modified: 2020-12-23 18:23:01
+	card type: spell card
+	name: Call of the Toa Stones
+	attribute: spell
+	level: <sym-auto>^</sym-auto>
+	image: image35
+	rule text:
+		Discard 1 card; excavate the top 6 cards of your Deck, then apply these effects, in sequence, depending on  the number of "Toa Mata" monsters excavated.
+		<sym-auto>*</sym-auto>0: You can add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck or GY to your hand.
+		<sym-auto>*</sym-auto>1+: <sym-auto>?</sym-auto><sym-auto>?</sym-auto><sym-auto>?</sym-auto>
+		<sym-auto>*</sym-auto>2+: You can add 1 "Toa Mata" monster from your Deck to your hand.
+		<sym-auto>*</sym-auto>3+: You can Set 1 "Coming of the Toa" directly from your Deck.
+	rarity: common
+	gamecode: DRAFT10100053b
 version control:
 	type: none
 apprentice code: 
