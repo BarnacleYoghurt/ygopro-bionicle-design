@@ -1397,9 +1397,18 @@ card:
 	notes:
 		If other cards are sufficient to summon multiple Toa, maybe make this aid Kaita with something like letting a Toa Mata be treated as 2 materials?
 		<soft-line>
-		GY eff: Also replace with something relevant to Kaita?</soft-line>
+		GY eff: Also replace with something relevant to Kaita?
+		
+		Latest idea after testing Toa Mata deck with Suva and Kini-Nui: Recovery tool to bring back Toa from GY/banished.
+		=> tribute to SS from GY - no strong restrictions, targets readily available, requires summoning Suva Kaita first and only replaces it with a Toa
+		=> banish from GY to SS banished -  locks SS for the rest of the turn, targets need to set up with e.g. Kanohi, can be used whenever Suva Kaita is in GY (including right after using the first effect)
+		=> Both effects being usable in one turn is intentional, to offer the ability to go from just one Suva Kaita to a rank 6 provided GY and banished are set up properly - important for comebacks, may of course be overkill
+		=> SS restriction affecting only the Extra Deck and working for the whole turn (not just the rest) would also make sense, since that way it still doesn't prevent summoning Suva Kaita itself
+		=> May want it to only work on "Toa Mata" or Level 6 or lower "Toa" - reviving Nuva that easily probably isn't a good idea
+		=> Maybe also negate the effects of the summoned monsters, destroy/banish them at the end of the turn, ... to make it clear that making a Rank 6 (Kaita) is the main goal
+		=> Maybe add an activation condition (control no other monsters, control no "Toa" monsters (like in the old version)) to first effect</soft-line>
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-11-22 12:43:55
+	time modified: 2020-12-25 00:21:20
 	card type: effect monster
 	name: Suva Kaita
 	attribute: light
@@ -1409,7 +1418,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: When this card is Normal or Special Summoned while you control no "Toa" monsters: Target 1 "Toa" monster that has a Level in your Graveyard; Special Summon that target, then switch this card to Defense Position, and make its name and Level the same as that monster's. You can banish this card from your Graveyard; Special Summon 1 of your banished "Toa" monsters. You can only use 1 "Suva Kaita" effect per turn, and only once that turn.
+	rule text: You can Tribute this card, then target 1 "Toa" monster that has a Level in your GY; Special Summon that target. You can banish this card from your GY, then target 1 of your banished "Toa" monsters that has a Level; you cannot Special Summon monsters for the rest of this turn, except "Toa" monsters, also Special Summon that target. You can only use each effect of "Suva Kaita" once per turn.
 	attack: 0
 	defense: 0
 	rarity: common
