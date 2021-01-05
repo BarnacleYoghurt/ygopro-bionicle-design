@@ -189,6 +189,7 @@ card:
 		=> "Going fast by moving slowly" is implemented as giving a second attack to a monster that did not attack in your previous turn (or something like that)
 		=> or just a monster that was summoned in a previous turn
 		=> More attacks helps Ta-Koro a lot
+		==> Maybe just attacks on monsters? Possibly too powerful for the sole requirement of having any monster survive for a turn
 	time created: 2014-12-10 20:58:53
 	time modified: 2020-07-22 00:18:52
 	card type: effect monster
@@ -534,7 +535,8 @@ card:
 	notes:
 		Effect: Kick S/T to pieces, also gets a bonus if there's a Rock around as a sneaky reference to the rock kicking function - triggered by ED summon for Po-Koro synergy
 		=> The S/T reduction by itself could actually work without even the soft OPT restriction, the bonus burn on the other hand kind of warrants a hard one
-		=> Maybe instead of turn, make it so having a Rock prevents activation of the targeted card (because it's destroyed by kicking a rock at it from a distance and therefore the opponent is caught by surprise), then it could be unlimited
+		=> Maybe instead of burn, make it so having a Rock prevents activation of the targeted card (because it's destroyed by kicking a rock at it from a distance and therefore the opponent is caught by surprise), then it could be unlimited
+		=> Could also be triggered by Tribute Summons (in addition to ED summons), since it's also a form of the Po-Koro idea of "creating" something bigger out of materials and would have synergy with Toa Mata in general - whether that's justifiable or not depends on how Po-Koro turns out
 	time created: 2014-12-04 18:35:41
 	time modified: 2020-12-22 23:34:52
 	extra data:
@@ -789,6 +791,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Normal Summon (Kini-Nui)}}
+		{{Special Summon tributed "Toa" from GY}}
+		{{Destroy Kini-Nui to summon a Rock}}
+		
 		Alternate approach to Kanohi-switching effect, so that doesn't have to repeated on every Toa.
 		
 		Thematically having it on the Suva makes more sense, so the Kini-Nui can do something else as the designated Toa Mata field spell.
@@ -966,6 +972,8 @@ card:
 		ATK/DEF boost: Protecting friends
 		=> particularly useful when used as material
 		=> or maybe use a different event as trigger?
+		
+		Possible extra condition for SS, to make it a bit xenophobic: "If you control no monsters, or all monsters you control are EARTH, you can Special Summon ..."
 	time created: 2014-12-10 20:58:53
 	time modified: 2020-09-07 12:53:49
 	card type: effect monster
@@ -1302,6 +1310,10 @@ card:
 		=> help with qualities like consistency and recoverability, since main deck Toa Mata don't explicitly interact
 		=> ideally, abilities of the participants should have visible influence in the combination's effect
 		=> maybe also try to trigger the corresponding Toa Mata effects (e.g. Magma triggers Onua by sending a Toa to GY and has high ATK so it might trigger Tahu by battle)
+		=> Idea to encourage using the matching attributes of Toa Mata: "During the Standby Phase: You can tribute this card, then target 2 Level 6 "Toa Mata" monsters in your GY (1 FIRE monster and 1 EARTH monster); Special Summon those targets."
+		==> Or during End Phase, or as a floating effect on destroy/banish by opponent's card (would be a bit of a nerf)
+		==> Maybe put some restriction on those monsters like not being able to use them for an Xyz Summon until the end of X turn
+		==> Lets you use the Combination effect and then make the triggers of the Toa Mata used as material live again, but only if you used the right attributes (or already had them i
 	time created: 2014-12-08 15:30:26
 	time modified: 2020-09-29 23:25:01
 	card type: xyz monster
@@ -1359,8 +1371,10 @@ card:
 		=> Maybe even equip Kanohi from GY (but in that case with stricter cost/condition)
 		
 		First effect: replicates NS equip effect of original Toa Mata, probably a more reliable way of searching than requiring battle destruction.
+		=> could also be triggered "When a "Toa (Mata?)" monster is Normal Summoned, or Special Summoned by the effect of a "Toa" card"
 		
 		Second effect could also be something that gives a reward (e.g. a draw) for completing the "quest" by having a certain number of Kanohi in the GY.
+		=> Maybe summon a banished monster, since you're likely to have quite a few after fiddling around with so many Kanohi
 	time created: 2014-12-08 19:37:32
 	time modified: 2020-12-23 18:15:40
 	card type: spell card
@@ -1379,6 +1393,7 @@ card:
 		
 		Keep the on-destruction effect or can we live without that crutch now?
 		=> Could search Quest for the Masks as a secondary effect (e.g. during End Phase after getting sent to the GY, whether activated or removed), so we get a little Call->Coming->Quest chain going
+		=> Another approach would be to have the return to hand and the Quest search happen simultaneously, so you get it as a reward for actually having the Toa stay on the field that long and also have some summons to trigger Quest set up right away
 		
 		Generic Toa support or only Toa Mata?
 		=> SS restriction needs to be generic because of Toa Kaita
