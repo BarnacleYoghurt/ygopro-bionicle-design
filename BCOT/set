@@ -1475,10 +1475,17 @@ card:
 		
 		Since it excavates (because the Toa being called are still in the future), the logic here is that a higher number of hits implies more Toa still in the Deck and therefore less in hand/GY. So:
 		=> 0 gives you a Suva/Suva Kaita to do something with the Toa you presumably already have
+		==> could theoretically be abused as a generic searcher in an (not yet existing) archetype with appropriate targets, though it would still be a -1
 		=> 3 gives you a Coming (maybe even "can be activated during this turn"?) so you can quickly fetch all those Toa in your Deck
 		=> 1 / 2 do something inbetween, but what?
 		=> Check if it's still a good idea to have the >0 effects cumulative once the new ones are all done
 		=> Also do some math on probabilities of getting each effect to figure out how to balance them
+		
+		Alternative effects (with broader grouping):
+		* 0: Add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to your hand.
+		* 1+: Add 1 of those monsters to your hand.
+		* 3+: Special Summon 1 of those monsters.
+		* 6: You can set 1 "Coming of the Toa" directly from your Deck. It can be activated during this turn.
 	time created: 2014-12-13 23:24:36
 	time modified: 2020-12-23 18:23:01
 	card type: spell card
