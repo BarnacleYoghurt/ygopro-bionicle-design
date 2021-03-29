@@ -552,7 +552,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOT-EN013
+	number: BCOT-EN014
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster(s) is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, inflict 800 damage to your opponent.<i></i-flavor>
 	attack: 2400
 	defense: 1650
@@ -1086,6 +1086,8 @@ card:
 		=> Translates being used as material to crafting an Extra Deck monster (i.e., the crafters stay around after its finished)
 		=> Second effect keeps the literal "creation" of Tokens as a recovery mechanism that also recycles the Po-Matoran banished by effect 1.
 		=> Check legality of generic "material" clauses!
+		==> Gnomaterial has "used as material for [...]", but explicitly lists the summoning type - so "used as material for a Special Summon from the Extra Deck" is unprecedented, but still reasonably close
+		=> Maybe do "but they cannot be used as material for the same kind of Summon (sic)", to force diversification of ED types (as opposed to the Gouki Link Spam Onu-Koro does)
 	time created: 2014-12-09 17:11:13
 	time modified: 2020-09-07 12:56:38
 	card type: spell card
@@ -1334,7 +1336,9 @@ card:
 	gamecode: DRAFT10100057
 card:
 	has styling: false
-	notes: Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
+	notes:
+		Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
+		=> Negate effects of Summoned monster?
 	time created: 2014-12-08 21:30:21
 	time modified: 2020-10-06 12:47:12
 	card type: link monster
@@ -1501,6 +1505,31 @@ card:
 		<sym-auto>*</sym-auto>3+: You can Set 1 "Coming of the Toa" directly from your Deck.
 	rarity: common
 	gamecode: DRAFT10100053b
+card:
+	has styling: false
+	notes:
+		Alternate Eff1: If a Level 2 Warrior monster(s), except "C.C. Matoran Hafu" is (Normal or )Special Summoned to your field: You can Special Summon this card from your GY, but banish it if it leaves the field."
+		=> Trigger off your other summons, rather than needing to be summoned itself to get out more monsters
+		=> combos better with Onewa if we make him negate the effects of the monster he summons
+		=> only GY because hand or GY would require that whole "if it was there when ..." clause 
+	time created: 2014-12-10 20:58:53
+	time modified: 2021-03-29 11:48:11
+	card type: effect monster
+	name: C.C. Matoran Hafu
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image36
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		When this card is Special Summoned: You can Special Summon 1 Level 2 Warrior monster from your hand or GY, but its effects are negated, also banish it when it leaves the field. You can only use this effect of "C.C. Matoran Hafu" once per turn. A monster Special Summoned from the Extra Deck using this card as material gains this effect.
+		<sym-auto>*</sym-auto>While face-up on the field, its name is also treated as "C.C. Matoran Hafu".
+	attack: 700
+	defense: 400
+	rarity: common
+	gamecode: 10100034
 version control:
 	type: none
 apprentice code: 
