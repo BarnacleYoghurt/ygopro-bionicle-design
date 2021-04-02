@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.14.3
+	edition: Version 3.15.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -536,9 +536,10 @@ card:
 		Effect: Kick S/T to pieces, also gets a bonus if there's a Rock around as a sneaky reference to the rock kicking function - triggered by ED summon for Po-Koro synergy
 		=> The S/T reduction by itself could actually work without even the soft OPT restriction, the bonus burn on the other hand kind of warrants a hard one
 		=> Maybe instead of burn, make it so having a Rock prevents activation of the targeted card (because it's destroyed by kicking a rock at it from a distance and therefore the opponent is caught by surprise), then it could be unlimited
+		==> Also good idea for bonus: Destroy an additional card (think ricochet), if it's without targeting you kind of get the benefit of not being able to chain too
 		=> Could also be triggered by Tribute Summons (in addition to ED summons), since it's also a form of the Po-Koro idea of "creating" something bigger out of materials and would have synergy with Toa Mata in general - whether that's justifiable or not depends on how Po-Koro turns out
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-12-22 23:34:52
+	time modified: 2021-04-03 18:22:20
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -553,11 +554,11 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOT-EN014
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster(s) is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, inflict 800 damage to your opponent.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster(s) is Special Summoned from the Extra Deck: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1650
 	rarity: common
-	gamecode: DRAFT10100004
+	gamecode: 10100004
 card:
 	has styling: false
 	notes: No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
@@ -1088,16 +1089,25 @@ card:
 		=> Check legality of generic "material" clauses!
 		==> Gnomaterial has "used as material for [...]", but explicitly lists the summoning type - so "used as material for a Special Summon from the Extra Deck" is unprecedented, but still reasonably close
 		=> Maybe do "but they cannot be used as material for the same kind of Summon (sic)", to force diversification of ED types (as opposed to the Gouki Link Spam Onu-Koro does)
+		
+		Refined version of alternative idea, to keep with preexisting mechanics as much as possible:
+		"If an EARTH Warrior monster(s) ((and no other monsters)?) is sent to your GY as material for a Fusion, Synchro, or Link Summon, or by being detached from an Xyz Monster (to activate that monster's effect?): You can Special Summon that monster(s) in face-up Defense Position, but negate its effects, also banish it when it leaves the field. For the rest of this turn, you cannot Special Summon monsters from the Extra Deck with the same monster card type as the monsters you controlled when this effect was activated."
+		=> the concept of "summoning types" as a generic term seems entirely foreign to PSCT, so I probably can't make the variable material restriction work as originally intended - just a full-on summoning restriction, then
+		=> Plus the token summon effect because literal creation is nice and it's a good way to get to the point where you can summon something
+		=> might need some more restrictions to be fair, but if that's the case I'll probably rethink the idea because it's already wordy as hell as it is now
+		==> e.g. we could just have the token summon with the restriction against resummoning the same ED type - have other cards like Onewa handle the rest of the womboing and comboing
+		==> actually that sounds perfect. let's just try that first
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-09-07 12:56:38
+	time modified: 2021-04-02 15:42:18
 	card type: spell card
 	name: Po-Koro, Village of Stone
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image21
-	rule text: If all monsters you control (min. 1) are EARTH: You can Special Summon 1 "Sculpture Token" (Rock/EARTH/Level 1/ATK 0/DEF 0) in Defense Position. If a monster is Special Summoned from the Extra Deck, and all monsters you Special Summoned this turn were EARTH: You can target 1 Level 4 or lower EARTH monster in your GY; Special Summon that target, but its effects are negated, also shuffle it into the Deck when it leaves the field. You can only use each effect of "Po-Koro, Village of Stone" once per turn.
+	rule text: If you Fusion, Synchro, Xyz, or Link Summon a monster from your Extra Deck using only EARTH Warrior monsters as material: You can banish 1 EARTH Warrior monster from your GY; you cannot conduct the same type of Summon for the rest of this turn, also Special Summon 1 "Sculpture Token" (Rock/EARTH/Level 1/ATK 0/DEF 0). You can only use this effect of "Po-Koro, Village of Stone" once per turn.
+	attack: 
 	rarity: common
-	gamecode: DRAFT10100028
+	gamecode: 10100028
 card:
 	has styling: false
 	notes:
@@ -1340,7 +1350,7 @@ card:
 		Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
 		=> Negate effects of Summoned monster?
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-10-06 12:47:12
+	time modified: 2021-04-01 23:44:13
 	card type: link monster
 	name: Turaga Onewa
 	attribute: earth
@@ -1354,7 +1364,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it. You can only use this effect of "Turaga Onewa" once per turn.
+		If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position, but its effects are negated, also banish it when it leaves the field. You can only use this effect of "Turaga Onewa" once per turn.
 	Link Marker UR: none
 	Link Marker Down: none
 	Link Marker DL: yes
@@ -1364,7 +1374,7 @@ card:
 	defense: 1150
 	link number: 2
 	rarity: common
-	gamecode: DRAFT10100020
+	gamecode: 10100020
 card:
 	has styling: false
 	notes:
@@ -1530,6 +1540,59 @@ card:
 	defense: 400
 	rarity: common
 	gamecode: 10100034
+card:
+	stylesheet: series10
+	has styling: false
+	notes: 
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-04-01 23:48:35
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Kakama
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image37
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it can attack all monsters your opponent controls once each. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Pohatu" from your Deck to your hand. You can only use this effect of "Great Kanohi Kakama" once per turn. 
+	rarity: common
+	gamecode: 10100010
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Taking control is almost certainly OP, so come up with something better before undrafting this.
+		=> consider synergy with Onewa and Po-Koro!
+		=> mabye something continuous so we don't need the bullet points?
+		=> changing battle position of an opponent's monster would fittingly resemble Enemy Controller - but where's the synergy?
+		
+		First attempt: Block effects of low ATK monsters - basically Noble Komau stalling weak opponent's rather than outright controlling them.
+		=> requires 2 or more monsters so it doesn't automatically block everything when there's just one monster
+		=> no particular synergy right now, but let's just try this
+		=> does still lock effects of any monster opponent might want to summon if they happen to already control a big one, so maybe still more oppressive than it should be
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-04-02 16:09:18
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Komau
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image38
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and your opponent controls 2 or more monsters, the monster(s) with the lowest ATK your opponent controls cannot activate its effects. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Turaga Onewa" once per turn.
+	rarity: common
+	gamecode: 10100043
 version control:
 	type: none
 apprentice code: 
