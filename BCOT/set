@@ -1576,7 +1576,7 @@ card:
 		=> no particular synergy right now, but let's just try this
 		=> does still lock effects of any monster opponent might want to summon if they happen to already control a big one, so maybe still more oppressive than it should be
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-04-02 16:09:18
+	time modified: 2021-04-05 11:58:50
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1590,9 +1590,29 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and your opponent controls 2 or more monsters, the monster(s) with the lowest ATK your opponent controls cannot activate its effects. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Turaga Onewa" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and your opponent controls 2 or more monsters, the monster(s) with the lowest ATK your opponent controls cannot activate its effects. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Komau" once per turn.
 	rarity: common
 	gamecode: 10100043
+card:
+	has styling: false
+	notes: 
+	time created: 2020-02-25 22:47:28
+	time modified: 2021-04-05 12:11:05
+	card type: token monster
+	name: Sculpture Token
+	attribute: earth
+	level: <sym-auto>*</sym-auto>
+	image: image40
+	type 1: <word-list-ENrace>Rock</word-list-ENrace>
+	type 2: <word-list-ENeffect>Token</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Token</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: Summoned by the effect of "Po-Koro, Village of Stone".
+	attack: 0
+	defense: 0
+	gamecode: 10110028
 version control:
 	type: none
 apprentice code: 
