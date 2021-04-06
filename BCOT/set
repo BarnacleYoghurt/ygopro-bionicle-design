@@ -114,6 +114,9 @@ card:
 		=> Alternative approach: "You can reveal 1 monster in your hand, or target 1 face-up monster you control; add 1 "-Koro" Field Spell Card from your Deck to your hand that lists that monster's Attribute in its text."
 		==> Requires a monster and only searches the appropriate Koro for it
 		==> Strictly weaker than the basic search, so it makes sense to use this if we need a nerf for the effect or want to add additional functionality
+		=> Similar alternative, but as a buff: "You can shuffle 2 cards from your hand into the Deck, then add 2 cards (1 "-Koro" Field Spell Card and 1 Level 4 or lower Warrior monster whose Attribute is listed in that card's text) from your Deck to your hand."
+		==> technically no longer a plus like the original, but this way you can instantly fetch both pieces needed to get started with Koro strategies
+		=> Could also combine nerf and buff somehow, e.g. return a monster with X Attribute from hand or field to Deck to get Koro + Warrior of same Attribute
 		When Koro/Field Spell in general destroyed: Add from GY to hand
 		
 		Toa Mata protection, attribute lock?
@@ -533,6 +536,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Normal Summon by Tributing from hand}}
+		{{Destroy Spell/Trap}}
+		
 		Effect: Kick S/T to pieces, also gets a bonus if there's a Rock around as a sneaky reference to the rock kicking function - triggered by ED summon for Po-Koro synergy
 		=> The S/T reduction by itself could actually work without even the soft OPT restriction, the bonus burn on the other hand kind of warrants a hard one
 		=> Maybe instead of burn, make it so having a Rock prevents activation of the targeted card (because it's destroyed by kicking a rock at it from a distance and therefore the opponent is caught by surprise), then it could be unlimited
@@ -1060,6 +1066,11 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Summon Sculpture Token}}
+		{{Affected by "Po-Koro, Village of Stone": Cannot Fusion Summon}}
+		{{Affected by "Po-Koro, Village of Stone": Cannot Synchro Summon}}
+		{{Affected by "Po-Koro, Village of Stone": Cannot Xyz Summon}}
+		{{Affected by "Po-Koro, Village of Stone": Cannot Link Summon}}
 		
 		Mata Role: Extra Deck Summoning
 		
@@ -1347,6 +1358,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon banished EARTH Warrior}}
+		
 		Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
 		=> Negate effects of Summoned monster?
 	time created: 2014-12-08 21:30:21
@@ -1518,6 +1531,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon Level 2 Warrior}}
+		{{Another Hafu original! (also treated as "C.C. Matoran Hafu")}}
+		
 		Alternate Eff1: If a Level 2 Warrior monster(s), except "C.C. Matoran Hafu" is (Normal or )Special Summoned to your field: You can Special Summon this card from your GY, but banish it if it leaves the field."
 		=> Trigger off your other summons, rather than needing to be summoned itself to get out more monsters
 		=> combos better with Onewa if we make him negate the effects of the monster he summons
@@ -1543,7 +1559,7 @@ card:
 card:
 	stylesheet: series10
 	has styling: false
-	notes: 
+	notes: {{Add Pohatu to hand}}
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-04-01 23:48:35
 	extra data:
@@ -1566,6 +1582,8 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Special Summon Onewa and equip with Komau}}
+		
 		Taking control is almost certainly OP, so come up with something better before undrafting this.
 		=> consider synergy with Onewa and Po-Koro!
 		=> mabye something continuous so we don't need the bullet points?
