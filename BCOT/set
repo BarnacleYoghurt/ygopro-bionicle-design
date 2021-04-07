@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.15.0
+	edition: Version 3.15.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1108,14 +1108,29 @@ card:
 		=> might need some more restrictions to be fair, but if that's the case I'll probably rethink the idea because it's already wordy as hell as it is now
 		==> e.g. we could just have the token summon with the restriction against resummoning the same ED type - have other cards like Onewa handle the rest of the womboing and comboing
 		==> actually that sounds perfect. let's just try that first
+		=> for the combo with Onewa, demanding only EARTH Warriors is a bit restrictive (since his materials just need to include 1), so maybe lower that requirement to only EARTH 
+		
+		Banish Rock to protect EARTH monsters
+		=> works with Tokens (see Cherubini rulings), so a leftover Sculpture can work as protection
+		=> "trade" banishment and destruction like they do on the bazaar
+		=> not destruction/destruction trade since an effect like this for a whole attribute is pretty broad compared to what already exists - gotta be a bit more expensive, unless you use a token of course
+		
+		Token summon could probably get one of these two slight buffs:
+		A) Allows 1 more summon of the same type this turn
+		=> Onewa combo is an easy Link 4 this way, otherwise you don't really have any way to get rid of Onewa during your combo since Links can only be used for Links
+		==> could also just make sure to use Po-Koro on a different summoning type so that avenue stays open - "strategy"!
+		B) No once per turn, repetition is inherently limited by the summoning types becoming locked
+		=> you get more tokens the more different summons you can perform
+		=> could get weird if more summoning types are introduced, especially if we eventually do find some more generic wording that accomodates them too (maybe an argument against doing that?)
+		=> have to carefully chose the timing where you get a token and have to switch to another summoning type - "strategy!"
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-04-02 15:42:18
+	time modified: 2021-04-07 22:59:31
 	card type: spell card
 	name: Po-Koro, Village of Stone
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image21
-	rule text: If you Fusion, Synchro, Xyz, or Link Summon a monster from your Extra Deck using only EARTH Warrior monsters as material: You can banish 1 EARTH Warrior monster from your GY; you cannot conduct the same type of Summon for the rest of this turn, also Special Summon 1 "Sculpture Token" (Rock/EARTH/Level 1/ATK 0/DEF 0). You can only use this effect of "Po-Koro, Village of Stone" once per turn.
+	rule text: If an EARTH monster(s) you control would be destroyed by battle or card effect, you can banish 1 Rock monster you control instead of destroying 1 of those monsters. If you Fusion, Synchro, Xyz, or Link Summon a monster from your Extra Deck using only EARTH monsters as material: You can banish 1 EARTH Warrior monster from your GY; you cannot conduct the same type of Summon for the rest of this turn, also Special Summon 1 "Sculpture Token" (Rock/EARTH/Level 1/ATK 0/DEF 0). You can only use this effect of "Po-Koro, Village of Stone" once per turn.
 	attack: 
 	rarity: common
 	gamecode: 10100028
@@ -1362,8 +1377,12 @@ card:
 		
 		Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
 		=> Negate effects of Summoned monster?
+		==> Nah, we want to be able to trigger Hafu
+		
+		Draw + banish: Set up SS effect in absence of Po-Koro
+		=> "fairness" - both players do the same thing
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-04-01 23:44:13
+	time modified: 2021-04-07 20:40:12
 	card type: link monster
 	name: Turaga Onewa
 	attribute: earth
@@ -1377,7 +1396,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position, but its effects are negated, also banish it when it leaves the field. You can only use this effect of "Turaga Onewa" once per turn.
+		You can banish 1 EARTH monster from your GY; both players draw 1 card, then both players banish 1 card from their hand. If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
 	Link Marker UR: none
 	Link Marker Down: none
 	Link Marker DL: yes
