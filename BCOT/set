@@ -1125,13 +1125,13 @@ card:
 		=> could get weird if more summoning types are introduced, especially if we eventually do find some more generic wording that accomodates them too (maybe an argument against doing that?)
 		=> have to carefully chose the timing where you get a token and have to switch to another summoning type - "strategy!"
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-04-07 22:59:31
+	time modified: 2021-04-12 18:27:14
 	card type: spell card
 	name: Po-Koro, Village of Stone
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image21
-	rule text: If an EARTH monster(s) you control would be destroyed by battle or card effect, you can banish 1 Rock monster you control instead of destroying 1 of those monsters. If you Fusion, Synchro, Xyz, or Link Summon a monster from your Extra Deck using only EARTH monsters as material: You can banish 1 EARTH Warrior monster from your GY; you cannot conduct the same type of Summon for the rest of this turn, also Special Summon 1 "Sculpture Token" (Rock/EARTH/Level 1/ATK 0/DEF 0). You can only use this effect of "Po-Koro, Village of Stone" once per turn.
+	rule text: If a monster(s) you control would be destroyed by battle or card effect, you can banish 1 Rock monster you control instead of destroying 1 of those monsters. If you Fusion, Synchro, Xyz, or Link Summon using an EARTH monster as material: You can banish 1 EARTH Warrior monster from your GY; you cannot conduct the same type of Summon for the rest of this turn, also Special Summon "Sculpture Tokens" (Rock/EARTH/Level 1/ATK 0/DEF 0) equal to the number of EARTH monsters used as material. You can only use this effect of "Po-Koro, Village of Stone" once per turn.
 	attack: 
 	rarity: common
 	gamecode: 10100028
