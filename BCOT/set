@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.15.1
+	edition: Version 3.15.2
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -982,7 +982,7 @@ card:
 		
 		Possible extra condition for SS, to make it a bit xenophobic: "If you control no monsters, or all monsters you control are EARTH, you can Special Summon ..."
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-09-07 12:53:49
+	time modified: 2021-04-12 18:36:28
 	card type: effect monster
 	name: C.C. Matoran Taipu
 	attribute: earth
@@ -992,7 +992,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with "C.C. Matoran" monsters. You can only Special Summon "C.C. Matoran Taipu" once per turn this way. If this card is sent from the field to the GY: You can target 1 face-up monster you control; it gains 1000 ATK/DEF until the end of the next turn.
+	rule text: You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with "C.C. Matoran" monsters. You can only Special Summon "C.C. Matoran Taipu" once per turn this way. If this card is sent from the field to the GY: You can target 1 face-up monster you control with less than 2000 ATK; it gains 1000 ATK/DEF until the end of the next turn.
 	attack: 1000
 	defense: 500
 	rarity: common
