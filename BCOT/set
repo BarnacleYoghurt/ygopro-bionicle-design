@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.15.2
+	edition: Version 3.15.3
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -538,6 +538,7 @@ card:
 	notes:
 		{{Normal Summon by Tributing from hand}}
 		{{Destroy Spell/Trap}}
+		{{Destroy additional Spell/Trap?}}
 		
 		Effect: Kick S/T to pieces, also gets a bonus if there's a Rock around as a sneaky reference to the rock kicking function - triggered by ED summon for Po-Koro synergy
 		=> The S/T reduction by itself could actually work without even the soft OPT restriction, the bonus burn on the other hand kind of warrants a hard one
@@ -548,7 +549,7 @@ card:
 		=> Could also be triggered by Tribute Summons (in addition to ED summons), since it's also a form of the Po-Koro idea of "creating" something bigger out of materials and would have synergy with Toa Mata in general - whether that's justifiable or not depends on how Po-Koro turns out
 		==> Perhaps better: Also trigger on ED effect activations, so it works on/against an established board
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-04-16 09:23:37
+	time modified: 2021-04-16 09:35:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -563,7 +564,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOT-EN015
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, when a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1650
 	rarity: common
@@ -1563,7 +1564,7 @@ card:
 		=> combos better with Onewa if we make him negate the effects of the monster he summons
 		=> only GY because hand or GY would require that whole "if it was there when ..." clause 
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-03-29 11:48:11
+	time modified: 2021-04-16 09:38:14
 	card type: effect monster
 	name: C.C. Matoran Hafu
 	attribute: earth
@@ -1574,7 +1575,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
-		When this card is Special Summoned: You can Special Summon 1 Level 2 Warrior monster from your hand or GY, but its effects are negated, also banish it when it leaves the field. You can only use this effect of "C.C. Matoran Hafu" once per turn. A monster Special Summoned from the Extra Deck using this card as material gains this effect.
+		If this card is Special Summoned: You can Special Summon 1 Level 2 Warrior monster from your hand or GY, but its effects are negated, also banish it when it leaves the field. You can only use this effect of "C.C. Matoran Hafu" once per turn. A monster Special Summoned from the Extra Deck using this card as material gains this effect.
 		<sym-auto>*</sym-auto>While face-up on the field, its name is also treated as "C.C. Matoran Hafu".
 	attack: 700
 	defense: 400
