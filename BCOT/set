@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.15.3
+	edition: Version 3.15.4
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1387,8 +1387,23 @@ card:
 		
 		Draw + banish: Set up SS effect in absence of Po-Koro
 		=> "fairness" - both players do the same thing
+		=> proven to not be very good in practice, as the opponent potentially ends up with extra resources and your draw might not be something that lets you continue your plays
+		=> Alternative idea: "You can banish 1 EARTH monster from your GY, then target 1 EARTH monster in your GY; add that target to your hand, then banish 1 card from your hand, then, if your opponent has more total cards in their hand or field than you do, draw 1 card"
+		==> only you get resources, fairness lies in that it only lets you plus if you're behind
+		==> guaranteed to get back a monster which has a higher chance of getting something you can still SS than a fully random draw
+		==> Problem A: Might not always have two EARTH monsters in GY to banish and return to hand
+		===> Require one of them to be Rock/Warrior instead?
+		==> Problem B: Long and complicated texts with TWO thens, one of them conditional
+		===> Might want other conjunctions than then or other ordering, right now adding back an ED monster would execute neither the banishing nor the draw - may or may not be desirable
+		==> Next version: "You can banish 1 monster from your GY, then target 1 Level 4 or lower EARTH monster in your GY; the player who has fewer total cards in their hand and field draws 1 card, also, add that target to your hand, and if you do, banish 1 card from your hand."
+		===> first part could also be phrased "the player with the lowest total number of cards in their hand and field draws 1 card" - clearer in hypothetical formats with >2 players, but requires "number of cards"
+		===> Problem A is fixed by letting the cost banish be any monster, so now Link Summoning Onewa always gives you at least 1 shot of the effect (assuming you used a Level 4 or lower EARTH monster)
+		===> Problem B is fixed by putting the conditional part first and adjusting it so it's perfectly clear the rest is independent from the condition, also got rid of the "then" entirely since it just makes timing more complicated
+		===> Other improvements #1: Fairness condition now makes it so the effect is a +1 when you're behind (draw 1, add 1 from GY, banish 1 => +1+1-1=+1), a -1 when you're ahead (opponent draws 1, add 1 from GY, banish 1 => -1+1-1=-1), and neutral when both are equal (neither draws (see e.g. Chicken Game's no damage clause), add 1 from GY, banish 1 => +1-1=0). This way the potential draw every turn is balanced by the effect being potentially harmful in other situations, and it's still a good recovery tool (especiall with Komau revive).
+		===> Other improvements #2: New ordering and conjunctions make it so returning a monster to the Extra Deck still gets the draw, but doesn't need to banish - seems reasonable. Also, limiting the targets to Level 4 or lower makes it pretty unlikely it will be used on an ED monster anyway.
+		===> BUT IT'S STILL SO FUCKING LONG
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-04-07 20:40:12
+	time modified: 2021-04-20 08:08:06
 	card type: link monster
 	name: Turaga Onewa
 	attribute: earth
@@ -1402,7 +1417,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		You can banish 1 EARTH monster from your GY; both players draw 1 card, then both players banish 1 card from their hand. If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
+		You can banish 1 monster from your GY, then target 1 Level 4 or lower EARTH monster in your GY; the player who has fewer total cards in their hand and field draws 1 card, also add that target to your hand, and if you do, banish 1 card from your hand. If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
 	Link Marker UR: none
 	Link Marker Down: none
 	Link Marker DL: yes
@@ -1681,6 +1696,22 @@ card:
 	attack: 400
 	defense: 600
 	gamecode: DRAFT10100064
+card:
+	has styling: false
+	notes:
+		Old: "You can target 1 "Turaga" Tuner monster you control; until the End Phase, it is treated as a non-tuner monster. You can target 1 "Turaga" monster you control; increase or decrease its Level by 1. If you control no monsters: You can Special Summon 1 "Turaga" monster from your Graveyard. When this face-up card is desroyed by your opponent's card effect and sent to the Graveyard: Target 1 "Turaga" Tuner monster and 1 non-Tuner monster in your Graveyard; Special Summon them. Immediately after this effect resolves, Synchro Summon 1 monster using only those targets . You can only use each effect of "Circle of Legends, Amaja-Nui" once per turn."
+		
+		New: Swap out Turaga for other Turaga, to aid decks that run several of them - same goal as original
+	time created: 2014-12-09 17:11:13
+	time modified: 2021-04-20 00:21:21
+	card type: spell card
+	name: Circle of Legends, Amaja-Nui
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image39
+	rule text: You can target 1 "Turaga" Link Monster you control; immediately after this effect resolves, Link Summon 1 "Turaga" Link Monster with the same Link Rating, but a different name, from your Extra Deck by using that target as the entire material. You can only use this effect of "Circle of Legends, Amaja-Nui" once per turn.
+	rarity: common
+	gamecode: DRAFT10100060
 version control:
 	type: none
 apprentice code: 
