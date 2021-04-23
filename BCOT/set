@@ -1384,6 +1384,10 @@ card:
 		Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
 		=> Negate effects of Summoned monster?
 		==> Nah, we want to be able to trigger Hafu
+		=> Treat summoned monster as a Tuner? Then the combo with Po-Koro would work perfectly without requiring specific other cards.
+		==> would increase utility in most cases, but specifically when triggering off Halq going into Locusts on the opponent's turn you wouldn't be able to quick synch by getting some fitting non-tuner
+		==> maybe only if you control a Rock or specifically a Sculpture Token?
+		==> Balance: Precedent for making fairly arbitrary other monsters treated as Tuners with similarly accessible effects (e.g. Aromage Laurel), but none in the Extra Deck yet
 		
 		Draw + banish: Set up SS effect in absence of Po-Koro
 		=> "fairness" - both players do the same thing
@@ -1398,12 +1402,14 @@ card:
 		==> Next version: "You can banish 1 monster from your GY, then target 1 Level 4 or lower EARTH monster in your GY; the player who has fewer total cards in their hand and field draws 1 card, also, add that target to your hand, and if you do, banish 1 card from your hand."
 		===> first part could also be phrased "the player with the lowest total number of cards in their hand and field draws 1 card" - clearer in hypothetical formats with >2 players, but requires "number of cards"
 		===> Problem A is fixed by letting the cost banish be any monster, so now Link Summoning Onewa always gives you at least 1 shot of the effect (assuming you used a Level 4 or lower EARTH monster)
+		====> Banishing arbitrary monsters from GY is for some reason a very rare cost, so maybe a different approach would be better?
+		====> Double banish turns on Keystone, but turns off all revival-based SS methods assuming minimal grave setup - seems like a bad trade, so maybe cut the banish cost entirely?
 		===> Problem B is fixed by putting the conditional part first and adjusting it so it's perfectly clear the rest is independent from the condition, also got rid of the "then" entirely since it just makes timing more complicated
 		===> Other improvements #1: Fairness condition now makes it so the effect is a +1 when you're behind (draw 1, add 1 from GY, banish 1 => +1+1-1=+1), a -1 when you're ahead (opponent draws 1, add 1 from GY, banish 1 => -1+1-1=-1), and neutral when both are equal (neither draws (see e.g. Chicken Game's no damage clause), add 1 from GY, banish 1 => +1-1=0). This way the potential draw every turn is balanced by the effect being potentially harmful in other situations, and it's still a good recovery tool (especiall with Komau revive).
 		===> Other improvements #2: New ordering and conjunctions make it so returning a monster to the Extra Deck still gets the draw, but doesn't need to banish - seems reasonable. Also, limiting the targets to Level 4 or lower makes it pretty unlikely it will be used on an ED monster anyway.
 		===> BUT IT'S STILL SO FUCKING LONG
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-04-20 08:08:06
+	time modified: 2021-04-23 23:07:53
 	card type: link monster
 	name: Turaga Onewa
 	attribute: earth
