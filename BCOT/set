@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.15.4
+	edition: Version 3.15.5
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1404,12 +1404,13 @@ card:
 		===> Problem A is fixed by letting the cost banish be any monster, so now Link Summoning Onewa always gives you at least 1 shot of the effect (assuming you used a Level 4 or lower EARTH monster)
 		====> Banishing arbitrary monsters from GY is for some reason a very rare cost, so maybe a different approach would be better?
 		====> Double banish turns on Keystone, but turns off all revival-based SS methods assuming minimal grave setup - seems like a bad trade, so maybe cut the banish cost entirely?
+		=====> DB air testing makes this seem like a good move, so implemented
 		===> Problem B is fixed by putting the conditional part first and adjusting it so it's perfectly clear the rest is independent from the condition, also got rid of the "then" entirely since it just makes timing more complicated
 		===> Other improvements #1: Fairness condition now makes it so the effect is a +1 when you're behind (draw 1, add 1 from GY, banish 1 => +1+1-1=+1), a -1 when you're ahead (opponent draws 1, add 1 from GY, banish 1 => -1+1-1=-1), and neutral when both are equal (neither draws (see e.g. Chicken Game's no damage clause), add 1 from GY, banish 1 => +1-1=0). This way the potential draw every turn is balanced by the effect being potentially harmful in other situations, and it's still a good recovery tool (especiall with Komau revive).
 		===> Other improvements #2: New ordering and conjunctions make it so returning a monster to the Extra Deck still gets the draw, but doesn't need to banish - seems reasonable. Also, limiting the targets to Level 4 or lower makes it pretty unlikely it will be used on an ED monster anyway.
 		===> BUT IT'S STILL SO FUCKING LONG
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-04-23 23:07:53
+	time modified: 2021-04-25 10:24:22
 	card type: link monster
 	name: Turaga Onewa
 	attribute: earth
@@ -1423,7 +1424,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		You can banish 1 monster from your GY, then target 1 Level 4 or lower EARTH monster in your GY; the player who has fewer total cards in their hand and field draws 1 card, also add that target to your hand, and if you do, banish 1 card from your hand. If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
+		You can target 1 Level 4 or lower EARTH monster in your GY; the player who has fewer total cards in their hand and field draws 1 card, also add that target to your hand, and if you do, banish 1 card from your hand. If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
 	Link Marker UR: none
 	Link Marker Down: none
 	Link Marker DL: yes
