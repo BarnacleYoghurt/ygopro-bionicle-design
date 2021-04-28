@@ -1070,8 +1070,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Summon Sculpture Token}}
-		{{Banish Rock monster to avoid destruction of 1 EARTH monster?}}
+		{{Summon Sculpture Token(s)}}
+		{{Banish Rock monster to avoid destruction of 1 monster?}}
 		{{Affected by "Po-Koro, Village of Stone": Cannot Fusion Summon}}
 		{{Affected by "Po-Koro, Village of Stone": Cannot Synchro Summon}}
 		{{Affected by "Po-Koro, Village of Stone": Cannot Xyz Summon}}
@@ -1378,7 +1378,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Both players draw and then banish from hand}}
+		{{Add Level 4 or lower EARTH monster from GY}}
 		{{Special Summon banished EARTH Warrior}}
 		
 		Idea: Trigger on Token Summon from Po-Koro to bring back banished "sculptors", obviously has different uses as well.
