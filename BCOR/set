@@ -1674,11 +1674,11 @@ card:
 	has styling: false
 	notes:
 		{{Banish and draw again}}
-		{{Place 1 "Rahi" card from Deck on top of yoiur Deck}}
+		{{Place 1 "Rahi" card from Deck on top of your Deck}}
 		{{Draw 1 card}}
 		{{Select card to place on top of deck}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:03:38
+	time modified: 2021-06-02 23:39:51
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1693,7 +1693,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN007
-	rule text: If this card is sent to the Graveyard: You can place 1 "Rahi" card in your Deck on top of your Deck. If this card is banished: You can draw 1 card. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can place 1 "Rahi" card in your Deck on top of your Deck. If this card is banished: You can draw 1 card. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: Once per turn, if you draw a card(s), except during your Draw Phase: You can banish that card(s); draw 1 more card.
 	pendulum scale 1: 2
