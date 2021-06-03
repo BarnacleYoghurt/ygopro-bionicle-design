@@ -188,7 +188,7 @@ card:
 	has styling: false
 	notes: {{Reduce Level of "Rahi" monster and Summon another copy}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:04:22
+	time modified: 2021-06-03 15:57:28
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -203,7 +203,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN019
-	rule text: <i-flavor></i>You can banish this card from your Graveyard, then target 1 Level 3 or higher "Rahi" monster you control; reduce that target's Level by 1, then Special Summon 1 "Fikou, Spider Rahi" from your hand or Deck. You can only use this effect of "Fikou, Spider Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>You can banish this card from your GY, then target 1 Level 3 or higher "Rahi" monster you control; reduce that target's Level by 1, then Special Summon 1 "Fikou, Spider Rahi" from your hand or Deck. You can only use this effect of "Fikou, Spider Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 600
 	defense: 400
@@ -1151,7 +1151,7 @@ card:
 	has styling: false
 	notes: {{Banish card on the field}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:05:15
+	time modified: 2021-06-03 11:22:38
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1166,7 +1166,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN050
-	rule text: Destroy any number of other "Rahi" cards you control, and if you do, destroy the same number of cards your opponent controls. You can banish this card and 1 "Rahi" monster from your Graveyard, then target 1 card on the field; banish it. You can only use 1 "Devastation of the Rahi" effect per turn, and only once that turn.
+	rule text: Destroy any number of other "Rahi" cards you control, and if you do, destroy the same number of cards your opponent controls. You can banish this card and 1 "Rahi" monster from your GY, then target 1 card on the field; banish it. You can only use 1 "Devastation of the Rahi" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
@@ -1529,7 +1529,7 @@ card:
 	has styling: false
 	notes: {{Banish self and 1 "Rahi" monster in the Graveyard to make monster unaffected}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:03:46
+	time modified: 2021-06-03 10:17:28
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1544,7 +1544,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN018
-	rule text: <i-flavor></i>During either player's turn, when your opponent activates a card or effect: You can banish this card from your hand or field and 1 "Rahi" monster from your Graveyard, then target 1 card on the field; it is unaffected by the effects of cards with the same card type (Monster, Spell, or Trap) as the card your opponent activated, until the end of this turn. You can only use this effect of "Cliff Bug, Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>When your opponent activates a card or effect (Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY, then target 1 card on the field; it is unaffected by the effects of cards with the same card type (Monster, Spell, or Trap) as the card your opponent activated, until the end of this turn. You can only use this effect of "Cliff Bug, Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 500
 	defense: 500
@@ -1585,7 +1585,7 @@ card:
 		{{Add "Lightstone" from Graveyard to hand}}
 		{{Add 1 "Lightstone"?}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:05:20
+	time modified: 2021-06-03 10:09:11
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1600,7 +1600,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN049
-	rule text: When this card is activated: You can add 1 "Lightstone" from your Deck to your hand. You can return 1 EARTH or "Matoran" monster you control to the hand; add 1 "Lightstone" from your Graveyard to your hand. You can only use this effect of "Cavern of Light" once per turn.
+	rule text: When this card is activated: You can add 1 "Lightstone" from your Deck to your hand. You can return 1 EARTH or "Matoran" monster you control to the hand; add 1 "Lightstone" from your GY to your hand. You can only use this effect of "Cavern of Light" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
@@ -1613,7 +1613,7 @@ card:
 		{{Special Summon 1 Level 4 or lower WATER monster from your  Graveyard}}
 		{{Discard 1 "Rahi" monster to destroy 1 monster with 2000 or less ATK}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:03:59
+	time modified: 2021-06-03 11:04:02
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1628,9 +1628,9 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Plant</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN022
-	rule text: <i-flavor></i>If this card is sent to the Graveyard: You can Special Summon 1 Level 4 or lower WATER monster from your Graveyard, except this card. If this card is banished: You can discard 1 "Rahi" card, then target 1 monster with 2000 or less ATK on the field; destroy it. You can only use 1 "Daikau, Floral Rahi" effect per turn, and only once that turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is sent to the GY: You can Special Summon 1 Level 4 or lower WATER monster from your GY, except this card. If this card is banished: You can discard 1 "Rahi" card, then target 1 monster with 2000 or less ATK on the field; destroy it. You can only use 1 "Daikau, Floral Rahi" effect per turn, and only once that turn.<i></i-flavor>
 	pendulum: medium
-	pendulum text: You can send 1 "Rahi" Pendulum Monster from your Deck to the Graveyard; all monsters your opponent controls lose ATK equal to that monster's ATK, until the end of this turn. You can only use this effect of "Daikau, Floral Rahi" once per turn.
+	pendulum text: You can send 1 "Rahi" Pendulum Monster from your Deck to the GY; all monsters your opponent currently controls lose ATK equal to that monster's ATK, until the end of this turn. You can only use this effect of "Daikau, Floral Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1500
