@@ -968,7 +968,7 @@ card:
 		{{Add 1 Level 3 or lower "Rahi" monster from your Deck to your hand}}
 		{{Add 1 of your banished Level 3 or lower "Rahi" monsters to your hand}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:06:38
+	time modified: 2021-06-04 23:12:49
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -983,9 +983,9 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN009
-	rule text: <i-flavor></i>If this card is sent to the Graveyard: You can add 1 Level 3 or lower "Rahi" monster from your Deck to your hand. If this card is banished: You can add 1 of your banished Level 3 or lower "Rahi" monsters that was not banished this turn to your hand. You can only use 1 "Mahi, Goat Rahi" effect per turn, and only once that turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is sent to the GY: You can add 1 Level 3 or lower "Rahi" monster from your Deck to your hand. If this card is banished: You can add 1 of your banished Level 3 or lower "Rahi" monsters that was not banished this turn to your hand. You can only use 1 "Mahi, Goat Rahi" effect per turn, and only once that turn.<i></i-flavor>
 	pendulum: medium
-	pendulum text: During either player's turn: You can send 1 face-up "Rahi" Pendulum Monster from your Extra Deck to the Graveyard, then destroy this card. You can only use this effect of "Mahi, Goat Rahi" once per turn.
+	pendulum text: (Quick Effect): You can send 1 face-up "Rahi" Pendulum Monster from your Extra Deck to the GY, then destroy this card. You can only use this effect of "Mahi, Goat Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 700
