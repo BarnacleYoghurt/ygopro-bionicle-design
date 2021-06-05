@@ -167,7 +167,7 @@ card:
 		{{Gain 800 ATK}}
 		{{Return this card to your hand}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2017-03-16 11:38:15
+	time modified: 2021-06-05 13:45:22
 	extra data:
 		yugioh-standard-extra: card frame: effect monster
 	card type: effect monster
@@ -180,7 +180,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN003
-	rule text: Cannot be targeted or destroyed by your opponent's card effects. Once per turn, when a Spell or Trap card is activated: This card gains 800 ATK until the end of this turn. During your Standby Phase: Return this Special Summoned card to your hand.
+	rule text: Cannot be targeted or destroyed by your opponent's card effects. Once per turn, if a Spell/Trap Card is activated: This card gains 800 ATK until the end of this turn. During your Standby Phase: Return this Special Summoned card to your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3200
 	defense: 2600
@@ -512,7 +512,7 @@ card:
 		{{Destroy S/T to add to hand}}
 		{{Add Ritual Monster/Spell to hand?}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 23:41:16
+	time modified: 2021-06-05 14:25:26
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -529,7 +529,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN048
-	rule text: When this card is activated: You can add 1 "Makuta" Ritual Monster or 1 Ritual Spell Card from your Deck to your hand. Once per turn: You can send up to 4 cards from the top of your Deck to the Graveyard, and if you do, increase the Level/Rank of all Special Summoned monsters your opponent controls by 1 for each, until the end of this turn. You cannot Special Summon monsters the turn you activate this effect, except "Makuta" monsters.  Summons of "Makuta" monsters and the activation of their effects cannot be negated. If this card is in your Graveyard: You can destroy 1 Spell/Trap Card you control, and if you do, add this card to your hand, but it cannot be activated for the rest of this turn.
+	rule text: When this card is activated: You can add 1 "Makuta" Ritual Monster or 1 Ritual Spell Card from your Deck to your hand. Once per turn: You can send up to 4 cards from the top of your Deck to the GY, and if you do, increase the Level/Rank of all Special Summoned monsters your opponent controls by 1 for each, until the end of this turn. You cannot Special Summon monsters the turn you activate this effect, except "Makuta" monsters.  Summons of "Makuta" monsters and the activation of their effects cannot be negated. If this card is in your GY: You can destroy 1 Spell/Trap Card you control, and if you do, add this card to your hand, but it cannot be activated for the rest of this turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
@@ -998,7 +998,7 @@ card:
 		{{Destroy Spell/Trap cards}}
 		{{Add 1 Level 4 or lower "Rahi" monster from your Graveyard to your hand}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2017-03-07 17:25:17
+	time modified: 2021-06-05 14:47:09
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1014,8 +1014,8 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN038
 	rule text:
-		1 "Rahi" Tuner + 1 or more non-Tuner monsters
-		When this card is Synchro Summoned: You can destroy Spell/Trap cards on the field, up to the number of "Rahi" monsters you control. When this card is sent from the field to the Graveyard: Add 1 Level 4 or lower "Rahi" monster from your Graveyard to your hand.
+		1 "Rahi" Tuner + 1+ non-Tuner monsters
+		When this card is Synchro Summoned: You can destroy Spell/Trap Cards on the field, up to the number of "Rahi" monsters you control. If this card is sent from the field to the GY: Add 1 Level 4 or lower "Rahi" monster from your GY to your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1800
 	defense: 2400
@@ -1748,7 +1748,7 @@ card:
 	has styling: false
 	notes: {{Special Summon Material from hand or Graveyard}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2017-02-24 11:47:23
+	time modified: 2021-06-05 12:13:50
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1764,8 +1764,8 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN036
 	rule text:
-		1 "Rahi" Tuner + 1 or more non-Tuner "Rahi" monsters
-		Control of this card cannot switch. The ATK of all face-up monsters your opponent controls is halved during their Battle Phase only. When this card that was Synchro Summoned using exactly 1 non-Tuner monster as Material leaves the field: Special Summon that non-Tuner monster from your Graveyard. This card that was Synchro Summoned using 2 or more non-Tuner monsters as Material cannot be targeted or destroyed by your opponent's card effects.
+		1 "Rahi" Tuner + 1+ non-Tuner "Rahi" monsters
+		Control of this card cannot switch. The ATK of all face-up monsters your opponent controls is halved during their Battle Phase only. When this card that was Synchro Summoned using exactly 1 non-Tuner monster as material leaves the field: Special Summon that non-Tuner monster from your GY. This card that was Synchro Summoned using 2 or more non-Tuner monsters as material cannot be targeted or destroyed by your opponent's card effects.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3500
 	defense: 2800
