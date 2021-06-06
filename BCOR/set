@@ -1369,7 +1369,7 @@ card:
 	has styling: false
 	notes: {{Special Summon monster and increase ATK}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:08:26
+	time modified: 2021-06-06 15:27:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1384,7 +1384,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN029
-	rule text: <i-flavor></i>During your Main Phase: You can Special Summon 1 Level 4 or lower Beast or Winged-Beast-Type monster from your Deck in face-up Defense Position, and if you do, this card gains 800 ATK until the end of this turn. You can only use this effect of "Matoran Racer Onepu" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>During your Main Phase: You can Special Summon 1 Level 4 or lower Beast or Winged Beast monster from your Deck in face-up Defense Position, and if you do, this card gains 800 ATK until the end of this turn. You can only use this effect of "Matoran Racer Onepu" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 700
 	defense: 500
@@ -1431,7 +1431,7 @@ card:
 	has styling: false
 	notes: {{Tribute to Special Summon "Matoran" from Graveyard}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:08:31
+	time modified: 2021-06-06 16:29:07
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1447,7 +1447,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BCOR-EN030
-	rule text: <i-flavor></i>If this card was Normal Summoned this turn: You can Tribute this card; Special Summon up to 2 Level 2 "Matoran" monsters from your Graveyard, except "Matoran Translator Matoro". You can only use this effect of "Matoran Translator Matoro" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card was Normal Summoned this turn: You can Tribute this card; Special Summon up to 2 Level 2 "Matoran" monsters from your GY, except "Matoran Translator Matoro". You can only use this effect of "Matoran Translator Matoro" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 300
 	defense: 900
@@ -1460,7 +1460,7 @@ card:
 		{{Destroy monster opponent controls}}
 		{{Special Summon equipped monster}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:08:22
+	time modified: 2021-06-06 15:18:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1475,7 +1475,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN028
-	rule text: <i-flavor></i>Once per turn: You can target 1 Beast or Winged-Beast-Type monster you control; equip that target to this card. (You can only equip 1 monster at a time to this card with this effect.) While equipped with a monster by this effect, this card can attack your opponent directly. When this card inflicts battle damage to your opponent: You can target 1 monster your opponent controls with DEF less than or equal to the ATK of the monster equipped to this card; destroy it. When this card is destroyed while equipped with a monster by its effect and sent to the Graveyard: Special Summon that monster from the Graveyard.<i></i-flavor>
+	rule text: <i-flavor></i>Once per turn: You can target 1 Beast or Winged Beast monster you control; equip that target to this card. (You can only equip 1 monster at a time to this card with this effect.) While equipped with a monster by this effect, this card can attack your opponent directly. When this card inflicts battle damage to your opponent: You can target 1 monster your opponent controls with DEF less than or equal to the ATK of the monster equipped to this card; destroy it. When this card is destroyed while equipped with a monster by its effect and sent to the GY: Special Summon that monster from the GY.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 800
 	defense: 400
