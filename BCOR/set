@@ -860,7 +860,7 @@ card:
 		{{Can increase ATK when battling by drawing a "Rahi" monster}}
 		{{Discard drawn monster to raise ATK?}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:11:03
+	time modified: 2021-06-09 15:44:27
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -877,9 +877,9 @@ card:
 	number: BCOR-EN014
 	rule text:
 		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>When this card attacks or is attacked: Draw 1 card and reveal it, then if it was a "Rahi" monster, you can discard it, and if you do, this card gains ATK equal to half the discarded monster's ATK until the end of this turn.
+		<sym-auto>*</sym-auto>If this card attacks or is attacked: Draw 1 card and reveal it, then if it was a "Rahi" monster, you can discard it, and if you do, this card gains ATK equal to half the discarded monster's ATK until the end of this turn.
 	pendulum: medium
-	pendulum text: Once per turn, if a "Rahi" monster you control destroys an opponent's monster by battle: You can add 1 "Rahi" Pendulum Monster from your Graveyard to your hand. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: Once per turn, if a "Rahi" monster you control destroys an opponent's monster by battle: You can add 1 "Rahi" Pendulum Monster from your GY to your hand. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1900
@@ -1093,7 +1093,7 @@ card:
 	has styling: false
 	notes: {{Special Summon 1 EARTH monster from Graveyard}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:11:07
+	time modified: 2021-06-09 15:56:57
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1109,7 +1109,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN059
-	rule text: When an EARTH monster you control is targeted for an attack: Special Summon this card in Defense Position as an Effect Monster (Rock-Type/EARTH/Level 4/ATK 1300/DEF 2000). (This card is NOT treated as a Trap Card.) During the turn this card was Summoned this way, while it is face-up on the field, your opponent cannot target EARTH monsters you control for attacks, except this one. When this card is sent from the field to the Graveyard: Special Summon 1 EARTH monster from your Graveyard in face-up Defense Position. If you control a face-up Field Spell Card, you can activate this card from your hand.
+	rule text: When an EARTH monster you control is targeted for an attack: Special Summon this card in Defense Position as an Effect Monster (Rock/EARTH/Level 4/ATK 1300/DEF 2000). (This card is NOT treated as a Trap Card.) During the turn this card was Summoned this way, while it is face-up on the field, your opponent cannot target EARTH monsters you control for attacks, except this one. If this card is sent from the field to the GY: Special Summon 1 EARTH monster from your GY in face-up Defense Position. If you control a face-up Field Spell Card, you can activate this card from your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
@@ -1668,7 +1668,7 @@ card:
 		{{Add to hand}}
 		{{Add another card?}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:11:13
+	time modified: 2021-06-09 16:21:47
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1684,8 +1684,8 @@ card:
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN057
 	rule text:
-		During your End Phase, if you do not control a face-up Field Spell Card: Destroy this card. During your Main Phase: You can excavate cards from the top of your Deck until you excavate a monster, then activate 1 of these effects. You can only use this effect of "Vuata Maca Tree" once per turn.
-		<sym-auto>*</sym-auto> Special Summon "Matoran", "Turaga", and/or "Toa" monsters from your hand and/or Graveyard whose total Levels are less than or equal to that monster's Level and shuffle all excavated cards into the Deck.
+		During your End Phase, if you do not control a face-up Field Spell Card: Destroy this card. During your Main Phase: You can excavate cards from the top of your Deck until you excavate a monster, then apply 1 of these effects. You can only use this effect of "Vuata Maca Tree" once per turn.
+		<sym-auto>*</sym-auto> Special Summon "Matoran", "Turaga", and/or "Toa" monsters from your hand and/or GY whose total Levels are less than or equal to that monster's Level and shuffle all excavated cards into the Deck.
 		<sym-auto>*</sym-auto> Add that monster to your hand if it is a "Matoran", "Toa", or "Turaga" monster and shuffle the remaining cards into the Deck.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
