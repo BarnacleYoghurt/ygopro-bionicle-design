@@ -3,8 +3,9 @@ game: yugioh
 stylesheet: series10
 set info:
 	title: Bionicle - Beware the Swarm 
+	code: BBTS
 	language: EN
-	edition: Version 1.0
+	edition: Version 3.15.5
 	author: 
 	copyright: © 2014 THE LEGO GROUP
 card:
@@ -13,7 +14,7 @@ card:
 		{{Special Summon another Bohrok from Deck}}
 		{{Destroy 1 face-up monster}}
 	time created: 2015-02-10 19:06:17
-	time modified: 2019-12-08 16:44:47
+	time modified: 2021-06-10 10:44:00
 	card type: effect monster
 	name: Bohrok Tahnok
 	attribute: fire
@@ -24,8 +25,8 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Flip</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN001
-	edition: Version 1.0
+	number: BBTS-EN011
+	edition: Version 3.15.5
 	rule text:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Tahnok".
 		(Quick Effect): You can shuffle this card into the Deck, then target 1 face-up monster your opponent controls; destroy that target.
@@ -48,7 +49,7 @@ card:
 	type 2: <word-list-ENeffect>Flip</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Flip</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN002
+	number: BBTS-EN006
 	rule text:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Gahlok".
 		Once per turn: You can apply this effect, depending on the type of card on top of your opponent's GY. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.
@@ -64,7 +65,7 @@ card:
 		{{Special Summon another Bohrok from Deck}}
 		{{Destroy 1 Spell/Trap card and disable Zone}}
 	time created: 2015-02-10 19:06:17
-	time modified: 2019-12-08 17:07:29
+	time modified: 2021-06-10 10:46:38
 	card type: effect monster
 	name: Bohrok Nuhvok
 	attribute: earth
@@ -75,7 +76,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Flip</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN003
+	number: BBTS-EN009
 	rule text:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Nuhvok".
 		Once per turn: You can target 1 Spell/Trap Card on the field; destroy that target, and if you do, its Spell <sym-auto>&</sym-auto> Trap Zone cannot be used until your next Standby Phase. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.
@@ -99,7 +100,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Flip</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN004
+	number: BBTS-EN010
 	rule text:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Pahrak".
 		If this card battles, it cannot be targeted or destroyed by your opponent's card effects until the end of the Damage Step. At the end of the Battle Phase, if this card battled: You can target 1 card your opponent controls; destroy that target. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.
@@ -123,7 +124,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Flip</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN005
+	number: BBTS-EN007
 	rule text:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Kohrak".
 		If this card did not declare an attack this turn: You can shuffle this card into the Deck, then target 1 face-up card your opponent controls; banish that target.
@@ -147,7 +148,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Flip</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN006
+	number: BBTS-EN008
 	rule text:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Lehvak".
 		During your Main Phase 1: You can shuffle this card into the Deck; destroy 1 card on the field.
@@ -171,7 +172,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN007
+	number: BBTS-EN033
 	rule text: If a "Bohrok" monster effect was activated in this Chain, except as the last Chain Link (Quick Effect): You can send this card from your hand to the GY; negate the effects of all face-up cards on the field that were activated or activated their effects before this effect in this Chain, except "Bohrok" cards, until the end of this turn. You can only use this effect of "Krana Xa, Swarm Commander" once per turn. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
 	attack: 0
 	defense: 0
@@ -193,7 +194,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN008
+	number: BBTS-EN032
 	rule text: When a card or effect is activated that targets a "Bohrok" monster(s) you control (Quick Effect): You can send this card from your hand to the GY; negate the activation, and if you do, destroy that card. You can only use this effect of "Krana Vu, Surveyor" once per turn. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a "Bohrok" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.
 	attack: 0
 	defense: 0
@@ -219,7 +220,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN009
+	number: BBTS-EN034
 	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. A "Bohrok" monster equipped with this card can attack directly, but when it does so using this effect, the battle damage inflicted to your opponent is halved. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
 	attack: 0
 	defense: 0
@@ -241,7 +242,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN010
+	number: BBTS-EN031
 	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. A "Bohrok" monster equipped with this card gains 600 ATK/DEF. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a "Bohrok" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.
 	attack: 0
 	defense: 0
@@ -264,7 +265,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN011
+	number: BBTS-EN035
 	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. Once per turn, if the equipped "Bohrok" monster would be destroyed, you can shuffle 1 other monster you control into the Deck instead, then draw 1 card. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a "Bohrok" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.
 	attack: 0
 	defense: 0
@@ -286,7 +287,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN012
+	number: BBTS-EN029
 	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. While this card is equipped to a "Bohrok" monster, the first time a "Bohrok" monster you control would be destroyed by battle each turn, it is not destroyed. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
 	attack: 0
 	defense: 0
@@ -308,7 +309,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN013
+	number: BBTS-EN030
 	rule text: If you control a "Bohrok" monster (Quick Effect): You can send this card from your hand to the GY; during the next turn, negate the effects of cards on the field with the same name as face-up cards your opponent currently controls. You can only use this effect of "Krana Ja, Scout" once per turn. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
 	attack: 0
 	defense: 0
@@ -330,7 +331,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN014
+	number: BBTS-EN028
 	rule text: When exactly 1 card (and no other cards) is destroyed or banished by the effect of a "Bohrok" monster: You can send this card from your hand to the GY; look at your opponent's hand and banish all cards with the same name as that card, face-down. You can only use this effect of "Krana Bo, Sentinel" once per turn. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a "Bohrok" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.
 	attack: 0
 	defense: 0
@@ -345,7 +346,7 @@ card:
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image17
-	number: BBTS-EN015
+	number: BBTS-EN044
 	rule text: <i-flavor></i>Add 1 "Bohrok" card from your Deck to your hand, and if you do, and it was a monster, you can add 1 "Bohrok" monster with a different Level than that monster from your GY to your hand, then shuffle 1 card from your hand into the Deck. You can only activate 1 "Beware the Swarm" per turn.<i></i-flavor>
 	rarity: common
 	gamecode: 10100215
@@ -365,7 +366,7 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN016
+	number: BBTS-EN017
 	rule text: If you control "Bohrok Tahnok", you can Special Summon this card (from your hand). You can only Special Summon "Bohrok Tahnok Va" once per turn this way. Once per turn: You can excavate the top 3 cards of your Deck, and if you do, banish 1 of them, and if it was a "Bohrok" monster, increase this card's Level by the Level of the banished monster, until the end of this turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Add 1 of your banished "Krana" monsters to your hand.
 	attack: 800
 	defense: 900
@@ -386,7 +387,7 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN017
+	number: BBTS-EN012
 	rule text: <i-flavor></i>If you control"Bohrok Gahlok", you can Special Summon this card (from your hand). You can only Special Summon "Bohrok Gahlok Va" once per turn this way. During your Main Phase: You can excavate the top card of your Deck, and if it is a "Bohrok" card, add it to your hand. You can only use this effect of "Bohrok Gahlok Va" once per turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Shuffle 2 "Bohrok" monsters, except "Bohrok Gahlok Va", from your GY into the Deck, then draw 1 card.<i></i-flavor>
 	attack: 900
 	defense: 800
@@ -407,7 +408,7 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN018
+	number: BBTS-EN015
 	rule text: If you control "Bohrok Nuhvok", you can Special Summon this card (from your hand). You can only Special Summon "Bohrok Nuhvok Va" once per turn this way. You can send 1 card from your hand to the GY; draw 1 card. You can only use this effect of "Bohrok Nuhvok Va" once per turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Shuffle 2 "Bohrok" monsters, except "Bohrok Nuhvok Va", from your GY into the Deck, then draw 1 card.
 	attack: 700
 	defense: 1000
@@ -428,7 +429,7 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN019
+	number: BBTS-EN016
 	rule text: <i-flavor></i>If you control "Bohrok Pahrak", you can Special Summon this card (from your hand). You can only Special Summon "Bohrok Pahrak Va" once per turn this way. Once per turn: You can place 1 "Bohrok" card from your GY on the top of the Deck. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Add 1 of your banished "Krana" monsters to your hand.<i></i-flavor>
 	attack: 600
 	defense: 1100
@@ -449,7 +450,7 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN020
+	number: BBTS-EN013
 	rule text: If you control "Bohrok Kohrak", you can Special Summon this card (from your hand). You can only Special Summon "Bohrok Kohrak Va" once per turn this way. When an opponent's monster declares an attack: You can Tribute this card; negate the attack, then end the Battle Phase. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Shuffle 2 "Bohrok" monsters, except "Bohrok Kohrak Va", from your GY into the Deck, then draw 1 card.
 	attack: 1000
 	defense: 700
@@ -470,7 +471,7 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN021
+	number: BBTS-EN014
 	rule text: If you control "Bohrok Lehvak", you can Special Summon this card (from your hand). You can only Special Summon "Bohrok Lehvak Va" once per turn this way. When your opponent activates a Spell/Trap Card while you control another "Bohrok" monster (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy that card. You can only use this effect of "Bohrok Lehvak Va" once per turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Add 1 of your banished "Krana" monsters to your hand.
 	attack: 1100
 	defense: 600
@@ -481,7 +482,7 @@ card:
 		{{Add Krana}}
 		{{Banish Bohrok to gain ATK}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2019-12-08 23:16:55
+	time modified: 2021-06-11 11:34:25
 	card type: fusion monster
 	name: Bohrok Kaita Za
 	attribute: light
@@ -493,10 +494,10 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN028
+	number: BBTS-EN037
 	rule text:
 		"Bohrok Tahnok" + "Bohrok Nuhvok" + "Bohrok Pahrak"
-		When this card is Fusion Summoned: Reveal up to 3 "Krana" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY. Once per turn (Quick Effect): You can banish up to 3 "Bohrok" monsters from your GY; this card gains 1000 ATK for each, also, if you banished 2 or more monsters, it is unaffected by card effects, except its own. These effects last until the end of this turn.
+		If this card is Fusion Summoned: Reveal up to 3 "Krana" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY. Once per turn (Quick Effect): You can banish up to 3 "Bohrok" monsters from your GY; this card gains 1000 ATK for each, also, if you banished 2 or more monsters, it is unaffected by card effects, except its own. These effects last until the end of this turn.
 	attack: 2500
 	defense: 2000
 	rarity: common
@@ -507,7 +508,7 @@ card:
 		{{Add Krana}}
 		{{Banish Bohrok to banish from opponent's GY}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2019-12-08 23:17:10
+	time modified: 2021-06-11 11:35:26
 	card type: fusion monster
 	name: Bohrok Kaita Ja
 	attribute: light
@@ -517,10 +518,10 @@ card:
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN029
+	number: BBTS-EN036
 	rule text:
 		"Bohrok Gahlok" + "Bohrok Kohrak" + "Bohrok Lehvak"
-		When this card is Fusion Summoned: Reveal up to 3 "Krana" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY. Once per turn (Quick Effect): You can banish up to 3 "Bohrok" monsters from your GY; banish cards from your opponent's GY, up to the number of monsters you banished +1.
+		If this card is Fusion Summoned: Reveal up to 3 "Krana" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY. Once per turn (Quick Effect): You can banish up to 3 "Bohrok" monsters from your GY; banish cards from your opponent's GY, up to the number of monsters you banished +1.
 	attack: 2500
 	defense: 2000
 	rarity: common
@@ -547,7 +548,7 @@ card:
 	type 3: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN033
+	number: BBTS-EN041
 	rule text:
 		1 "Bohrok" Tuner + 1+ non-Tuner "Bohrok" monsters
 		Once per turn, if you control no other face-up monsters: You can Special Summon 1 Level 2 "Bohrok" monster from your GY, but banish it during the End Phase. If you control "Bahrag Gahdok, Queen of the Bohrok", "Bahrag" monsters you control cannot be targeted or destroyed by your opponent's card effects. During your Standby Phase, if this card is face-up in your Extra Deck: You can place it in your Pendulum Zone.
@@ -566,7 +567,7 @@ card:
 		{{Special Summon Level 4 Bohrok from GY}}
 		{{Place Gahdok in Pendulum Zone}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2019-12-08 23:17:58
+	time modified: 2021-06-11 11:41:01
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -581,12 +582,12 @@ card:
 	type 3: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN032
+	number: BBTS-EN042
 	rule text:
 		1 "Bohrok" Tuner + 1+ non-Tuner "Bohrok" monsters
 		Once per turn, if you control no other face-up monsters: You can Special Summon 1 Level 4 "Bohrok" monster from your GY, but banish it during the End Phase. If you control "Bahrag Cahdok, Queen of the Bohrok", "Bahrag" monsters you control cannot be destroyed by battle. During your Standby Phase, if this card is face-up in your Extra Deck: You can place it in your Pendulum Zone.
 	pendulum: medium
-	pendulum text: When a "Bohrok" monster(s) is sent from the field to your GY: Add 1 of those monsters to your hand. You can only use this effect of "Bahrag Gahdok, Queen of the Bohrok" once per turn.
+	pendulum text: If a "Bohrok" monster(s) is sent from the field to your GY: Add 1 of those monsters to your hand. You can only use this effect of "Bahrag Gahdok, Queen of the Bohrok" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 2600
@@ -605,7 +606,7 @@ card:
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image30
-	number: BBTS-EN025
+	number: BBTS-EN054
 	rule text:
 		(This card is always treated as a "Bohrok" card.)
 		When a monster(s) is Special Summoned to your side of the field in face-down Defense Position, even during the Damage Step: You can Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, and if you do, send this card to the GY at the end of this turn. If this face-up card on the field is sent to the GY: You can Set 1 "Bohrok" Trap Card directly from your Deck, except "If You Wake One...". You can only use each effect of "If You Wake One..." once per turn.
@@ -620,7 +621,7 @@ card:
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image29
-	number: BBTS-EN026
+	number: BBTS-EN051
 	rule text:
 		(This card is always treated as a "Bohrok" card.)
 		Target 1 "Bohrok" monster you control; return that target to the hand, then change all face-down monsters you control to face-up Attack Position. You can only activate 1 "...You Wake Them All" per turn.
@@ -637,7 +638,7 @@ card:
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image37
-	number: BBTS-EN034
+	number: BBTS-EN043
 	rule text:
 		Activate 1 of these effects;
 		<sym-auto>*</sym-auto>Target any number of "Bahrag" cards you control; destroy them, then draw 1 card for each card destroyed.
@@ -659,7 +660,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN047
+	number: BBTS-EN021
 	rule text: You can banish 1 Machine monster from either GY; Special Summon 1 Machine monster with the same Level from your hand in Defense Position. When a "Matoran" monster you control destroys an opponent's monster by battle: You can activate this effect; that monster can make a second attack in a row. This card cannot attack the turn you activate this effect. You can only use 1 "Matoran Engineer Nuparu" effect per turn, and only once that turn.
 	attack: 600
 	defense: 500
@@ -680,7 +681,7 @@ card:
 	type 2: <word-list-ENeffect>Union</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Union</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN049
+	number: BBTS-EN019
 	rule text: Once per turn, you can either: Target 1 Level 2 Warrior monster you control; equip this card to that target, OR: Unequip this card and Special Summon it. The original ATK of a monster equipped with this card becomes 2000, if it attacks, your opponent cannot activate monster effects until the end of the Damage Step, also if the equipped monster would be destroyed by battle or card effect, destroy this card instead.
 	attack: 1600
 	defense: 0
@@ -702,7 +703,7 @@ card:
 	type 2: <word-list-ENeffect>Union</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Union</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN050
+	number: BBTS-EN018
 	rule text:
 		(This card is not treated as a "Toa" card.)
 		If all monsters you control are Normal Summoned "Toa" monsters (min. 1), you can Special Summon this card (from your hand). Once per turn, you can either: Target 1 "Toa" monster you control; equip this card to that target, OR: Unequip this card and Special Summon it. A monster equipped with this card gains 2000 ATK, also its effects are negated and its name becomes "Exo-Toa". If the equipped monster would be destroyed by battle or card effect, destroy this card instead. During the End Phase, if this card is in the GY because it was sent there this turn: Set 1 "Exo Armaments" directly from your Deck. You can only use this effect of "Exo-Toa" once per turn.
@@ -726,7 +727,7 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN041
+	number: BBTS-EN002
 	rule text: If this card is sent to the GY: You can target 1 Level 4 or lower monster on the field; that target is unaffected by Spell/Trap effects until the end of this turn. If this card is banished: You can target 1 Set card on the field; destroy it. You can only use 1 "Keras, Crab Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: At the start of the Damage Step, if a monster you control with 1000 or less ATK battles an opponent's monster: You can destroy this card, and if you do, that monster you control gains 1400 ATK until the end of this turn. You can only use this effect of "Keras, Crab Rahi" once per turn.
@@ -753,7 +754,7 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN037
+	number: BBTS-EN003
 	rule text:
 		<i-flavor></i>A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
 		<sym-auto>*</sym-auto>Once per turn (Quick Effect): You can change the battle position of up to 2 face-up monsters on the field that have the same battle position.<i></i-flavor>
@@ -775,7 +776,7 @@ card:
 		{{Add Rahi from Deck or GY}}
 		{{Heals and redeals effect damage once per turn}}
 	time created: 2016-03-01 14:00:26
-	time modified: 2019-12-25 09:32:23
+	time modified: 2021-06-11 11:48:01
 	card type: effect monster
 	name: Ghekula, Amphibious Rahi
 	attribute: water
@@ -785,10 +786,10 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN038
+	number: BBTS-EN001
 	rule text:
 		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn, when you take effect damage: Gain LP equal to the damage you took, and if you do, inflict the same amount of damage to your opponent.
+		<sym-auto>*</sym-auto>Once per turn, if you take effect damage: Gain LP equal to the damage you took, and if you do, inflict the same amount of damage to your opponent.
 	pendulum: medium
 	pendulum text: During your Main Phase: You can add 1 "Rahi" Pendulum Monster from your Deck or GY to your hand, except "Ghekula, Amphibious Rahi", and if you do, take damage equal to its original ATK. You can only use this effect of "Ghekula, Amphibious Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone. 
 	pendulum scale 1: 5
@@ -806,7 +807,7 @@ card:
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image38
-	number: BBTS-EN027
+	number: BBTS-EN047
 	rule text: Fusion Summon 1 "Bohrok" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Materials. If a "Bohrok" card(s) is banished from your GY while this card is in your GY: You can banish this card; shuffle that card(s) into the Deck, then draw 1 card. You can only use this effect of "Bohrok Swarm Fusion" once per turn.
 	gamecode: 10100227
 card:
@@ -832,7 +833,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN035
+	number: BBTS-EN025
 	rule text: If this card is sent to the GY: You can Special Summon 1 Level 4 or lower FIRE monster from your GY, except this card. If this card is banished: You can banish the top card of your Deck; add this card to your Extra Deck face-up. You can only use 1 "Infernavika, Lava Bird Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: Once per turn, at the start of the Battle Phase: You can target 1 face-up monster you control; this turn, when that target battles an opponent's monster, destroy both monsters at the start of the Damage Step, except FIRE monsters.
@@ -862,7 +863,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN036
+	number: BBTS-EN027
 	rule text: (Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY; monsters your opponent controls lose 500 ATK for each of your banished "Rahi" monsters, until the end of this turn.
 	pendulum: none
 	pendulum text: Once per turn, during either player's turn, when a "Rahi" monster you control is destroyed by a card effect: You can add 1 monster with the same name as the destroyed monster from your Deck to your hand.
@@ -885,7 +886,7 @@ card:
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image56
-	number: BBTS-EN054
+	number: BBTS-EN050
 	rule text: Target 6 "Toa" monsters with different names you control, in your hand, and/or in your GY, including at least 1 on the field; banish the targets in your hand and GY (if any), and if you do, banish up to 6 cards from your opponent's hand (at random), field, and/or GY, but the number of cards banished from the hand must be less than or equal to the number of Normal Summoned monsters you control among the targets. You can only activate 1 "Toa Seal" per turn.
 	gamecode: 10100254
 card:
@@ -906,7 +907,7 @@ card:
 	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN030
+	number: BBTS-EN038
 	rule text:
 		"Bohrok Gahlok Va" + "Bohrok Kohrak Va" + "Bohrok Lehvak Va"
 		If this card is used as Synchro Material, all other Synchro Materials must be "Bohrok" monsters. During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 "Bohrok" Fusion Monster from your Extra Deck. During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can add 1 "Bohrok" or "Krana" card from your Deck to your hand. You can only use this effect of "Bohrok Va Kaita Ja" once per turn.
@@ -932,7 +933,7 @@ card:
 	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN031
+	number: BBTS-EN039
 	rule text:
 		"Bohrok Tahnok Va" + "Bohrok Nuhvok Va" + "Bohrok Pahrak Va"
 		If this card is used as Synchro Material, all other Synchro Materials must be "Bohrok" monsters. During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 "Bohrok" Fusion Monster from your Extra Deck. During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Special Summon 1 "Bohrok" monster from your GY in face-down Defense Position, except "Bohrok Va Kaita Za". You can only use this effect of "Bohrok Va Kaita Za" once per turn.
@@ -952,7 +953,7 @@ card:
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image27
-	number: BBTS-EN024
+	number: BBTS-EN046
 	rule text: <i-flavor></i>Face-down monsters you control cannot be targeted or destroyed by your opponent's card effects. If a "Bohrok" card(s) is shuffled into your Deck: You can draw 1 card. If this card in the Field Zone is destroyed by a card effect: You can target 1 card your opponent controls; destroy it. You can only use  1 "Bohrok Nest" effect per turn, and only once that turn.<i></i-flavor>
 	gamecode: 10100224
 card:
@@ -969,7 +970,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN045
+	number: BBTS-EN023
 	rule text: You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 Level 5 or higher monster they control and sending 1 "Krana" monster from your Deck to the GY. If this card battles a "Bohrok" monster, its ATK/DEF become 0 during the Damage Step only.
 	attack: 2500
 	defense: 1400
@@ -984,7 +985,7 @@ card:
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image47
-	number: BBTS-EN057
+	number: BBTS-EN055
 	rule text: Target 1 face-down Defense Position monster you control; change that target to face-up Attack Position. If there are no face-up monsters on the field, you can activate this card from your hand. During your Main Phase, except the turn this card was sent to the GY: You can Special Summon this card from your GY as an Effect Monster (Machine/DARK/Level 4/ATK 1400/DEF 1400), but banish it when it leaves the field.  (This card is NOT treated as a Trap.) If Summoned this way, this card can be used as a substitute for any 1 Fusion Material whose name is specifically listed on a "Bohrok" Fusion Monster, but the other Fusion Material(s) must be correct. You can only use this effect of "Premature Bohrok Beacon" once per turn.
 	gamecode: 10100257
 card:
@@ -999,7 +1000,7 @@ card:
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image55
-	number: BBTS-EN056
+	number: BBTS-EN048
 	rule text: Once per turn, if a card(s) you control would be destroyed by a card effect, you can banish 1 "Krana" monster from either GY instead of destroying 1 of those cards. If there are 2 or more banished "Krana" monsters: You can send this card to the GY; add 1 of your banished monsters to your hand. You can only use this effect of "Krana Pit" once per turn.
 	gamecode: 10100256
 card:
@@ -1015,7 +1016,7 @@ card:
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image19
-	number: BBTS-EN023
+	number: BBTS-EN052
 	rule text: When this card is activated: You can Special Summon 1 Level 4 "Bohrok" monster from your GY in face-down Defense Position. When a card(s) your opponent controls is destroyed by a "Bohrok" card (by battle or card effect): "Bohrok" monsters you control gain 400 ATK until the end of this turn. You can send this card to the GY; "Bohrok" monsters you control gain 800 DEF until the end of this turn.
 	gamecode: 10100223
 card:
@@ -1025,7 +1026,7 @@ card:
 		{{Take control of Summoned monster}}
 		{{Clean it all. It must be cleaned.}}
 	time created: 2015-02-10 19:06:17
-	time modified: 2019-12-08 23:25:42
+	time modified: 2021-06-11 11:52:49
 	card type: effect monster
 	name: Turaga of the Swarm
 	attribute: wind
@@ -1036,9 +1037,9 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN044
+	number: BBTS-EN020
 	rule text:
-		(Quick Effect): You can send 1 "Krana" monster from your Deck to the GY, then target 1 Tuner monster your opponent controls; banish that target, then Special Summon this card from your hand to your opponent's side of the field, then, immediately after this effect resolves, this card's controller Synchro Summons 1 Synchro Monster, using materials including this card they control. If this card is sent to the GY as Synchro Material: Take control of the Synchro Monster that used this card as material until the End Phase, also it gains this effect.
+		(Quick Effect): You can send 1 "Krana" monster from your Deck to the GY, then target 1 Tuner your opponent controls; banish that target, then Special Summon this card from your hand to your opponent's side of the field, then, immediately after this effect resolves, this card's controller Synchro Summons 1 Synchro Monster, using materials including this card they control. If this card is sent to the GY as Synchro Material: Take control of the Synchro Monster that used this card as material until the End Phase, also it gains this effect.
 		<sym-auto>*</sym-auto>If this card battles a "Bohrok" monster, its ATK/DEF become 0 during the Damage Step only.
 	attack: 1400
 	defense: 1100
@@ -1057,7 +1058,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BBTS-EN046
+	number: BBTS-EN022
 	rule text: The monster(s) your opponent controls with the highest original ATK loses 800 ATK during the Battle Phase only. If this card is Normal Summoned: You can target 1 monster on the field; its owner draws 1 card, and if they do, return that target to the hand. You can only use this effect of "Matoran Tender Kotu" once per turn.
 	attack: 300
 	defense: 800
@@ -1080,7 +1081,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN043
+	number: BBTS-EN024
 	rule text:
 		If an Xyz Monster you control is flipped face-up: You can attach this card from your GY to it as material. (Quick Effect): You can send 1 "Krana" monster from your Deck to the GY, then target 1 Xyz Monster your opponent controls; attach this card from your hand to that target as material, and if you do, it gains this effect.
 		<sym-auto>*</sym-auto>If this card battles a "Bohrok" monster, its ATK/DEF become 0 during the Damage Step only. This card cannot activate its effects.
@@ -1104,7 +1105,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BBTS-EN039
+	number: BBTS-EN004
 	rule text: If you do not control "Hapaka, Shepherd Rahi", you can Special Summon this card (from your hand or GY) by changing 1 Level 4 or lower "Rahi" monster you control to Defense Position. If Summoned this way, banish this card when it leaves the field. If this card is banished: You can return 1 of your banished "Rahi" monsters to your GY, except "Hapaka, Shepherd Rahi". You can only use this effect of "Hapaka, Shepherd Rahi" once per turn.
 	pendulum: medium
 	pendulum text: "Rahi" monsters you control gain 700 DEF. If a "Rahi" monster(s) you control would be destroyed, you can destroy this card instead.
@@ -1129,7 +1130,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN040
+	number: BBTS-EN026
 	rule text: <i-flavor></i>(Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY, then target 1 card your opponent controls; banish it until the End Phase, and if it was a face-up monster with 2000 or more ATK on the field, banish 1 random card from your opponent's hand face-down. You can only use this effect of "Mata Nui Fishing Bird, Rahi" once per turn.<i></i-flavor>
 	pendulum: none
 	pendulum text: During either player's turn: You can banish 1 monster from either player's Graveyard, and if you do, destroy this card. You can only use this effect of "Mata Nui Fishing Bird, Rahi" once per turn.
@@ -1148,7 +1149,7 @@ card:
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image26
-	number: BBTS-EN022
+	number: BBTS-EN045
 	rule text: Send 1 "Krana" monster from your Deck to the GY, then target 1 "Bohrok" monster you control; that target gains 700 ATK/DEF until the end of this turn.
 	gamecode: 10100222
 card:
@@ -1167,7 +1168,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN042
+	number: BBTS-EN040
 	rule text:
 		1 "Krana" monster + 1 monster owned by your opponent
 		Must be Special Summoned (from your Extra Deck) by banishing the above cards from your hand, field, and/or GY, and cannot be Special Summoned by other ways. (You do not use "Polymerization".) The original ATK/DEF of this card become equal to the original ATK/DEF of the monster owned by your opponent used for its Special Summon.
@@ -1193,7 +1194,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BBTS-EN048
+	number: BBTS-EN005
 	rule text: You can send this card from your hand or field to the GY; add 1 EARTH "Matoran" monster from your Deck to your hand. If this card is banished from your GY: You can target 1 card your opponent controls; destroy that target. You can only use 1 "Empty Bohrok Shell" effect per turn, and only once that turn.
 	attack: 0
 	defense: 1600
@@ -1211,7 +1212,7 @@ card:
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image58
-	number: BBTS-EN055
+	number: BBTS-EN049
 	rule text:
 		If you control a "Toa" monster: Activate 1 of these effects;
 		<sym-auto>*</sym-auto>Target 1 Level 8 or higher monster you control; banish that target. During the End Phase of this turn, return that banished monster to the field, and if you do, you can add 1 Continuous Spell Card from your GY to your hand.
@@ -1230,7 +1231,7 @@ card:
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image52
-	number: BBTS-EN051
+	number: BBTS-EN053
 	rule text:
 		Special Summon 1 "Toa" monster from your hand, then equip 1 "Exo-Toa" from your Deck or GY to it, also you cannot Special Summon for the rest of this turn. If you control a face-up "Exo-Toa", except the turn this card was sent to the GY: You can banish this card from your GY, then activate 1 of these effects;
 		<sym-auto>*</sym-auto>This turn, if an "Exo-Toa" you control battles, your opponent cannot activate cards or effects until the end of the Damage Step.
@@ -1248,7 +1249,7 @@ card:
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image54
-	number: BBTS-EN052
+	number: BBTS-EN056
 	rule text: If you have no cards in your Pendulum Zones: Reveal 1 face-down "Bahrag" Pendulum Monster in your Extra Deck and shuffle "Bohrok" monsters from your hand, field, and/or GY into the Deck, whose total Levels exactly equal the Level of the revealed monster; for the rest of this turn, monsters you control with less ATK than the revealed monster cannot be targeted for attacks and monsters your opponent controls whose ATK is lower than the revealed monster's DEF cannot attack, also place the revealed monster in your Pendulum Zone, but shuffle it into the Extra Deck during your next End Phase.
 	gamecode: 10100252
 card:
@@ -1261,7 +1262,7 @@ card:
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image53
-	number: BBTS-EN053
+	number: BBTS-EN057
 	rule text: At the start of the Battle Phase, if only your opponent controls a monster: You can Special Summon 1 Level 2 Warrior monster from your hand or GY. The first time each Level 2 Warrior monster you control would be destroyed by battle each turn, it is not destroyed.
 	gamecode: 10100253
 version control:
