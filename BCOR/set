@@ -397,7 +397,7 @@ card:
 	has styling: false
 	notes:
 		{{Change own level}}
-		{{Use 1 monster in your Extra Deck as Synchro Material?}}
+		{{Synchro Summon with material from face-up Extra Deck}}
 	time created: 2015-02-01 11:32:26
 	time modified: 2021-06-03 22:40:07
 	extra data:
@@ -892,6 +892,7 @@ card:
 		{{Allow Pendulum Summon from Graveyard}}
 		{{Special Summon 1 Level 4 or lower EARTH monster from your Graveyard}}
 		{{Special Summon 1 Level 3 or lower "Rahi" monster from your Graveyard}}
+		{{Pendulum Summon including GY}}
 	time created: 2015-02-01 11:32:26
 	time modified: 2021-06-08 10:19:55
 	extra data:
