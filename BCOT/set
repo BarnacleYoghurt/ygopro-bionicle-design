@@ -571,9 +571,11 @@ card:
 	gamecode: 10100004
 card:
 	has styling: false
-	notes: No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
+	notes:
+		No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
+		=> Activated (to mesh with e.g. Gali), but intended specifically for the case where Ko-Koro is removed from the field - in that case, retaliate by banishing (freezing) and set up your own protection
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-12-22 23:41:10
+	time modified: 2021-07-29 00:02:50
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -587,7 +589,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". <sym-auto>?</sym-auto><sym-auto>?</sym-auto><sym-auto>=</sym-auto><sym-auto>?</sym-auto>
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". Once per turn, if another card(s) leaves your field because of an opponent's card: You can change this card to Defense Position, and if you do, banish 1 card your opponent controls, also other cards you control cannot be destroyed this turn while you control this face-up Defense Position card.
 	attack: 2000
 	defense: 2150
 	rarity: common
@@ -861,8 +863,11 @@ card:
 	notes:
 		Orig:
 		When this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck or Graveyard on top of your Deck. Once per turn: You can discard 1 "C.C. Matoran" monster; Look at the top 3 cards of your deck, then Special Summon as many "C.C. Matoran" monsters among them as possible. "C.C. Matoran" monsters you control cannot be selected as an attack target.
+		
+		Excavate just like Call of the Toa Stones, because that's a Takua thing - also represents searching for the Chronicler's Company
+		Normal Summon + eff is a 1-card combo into a Turaga for any Koro deck that runs its respective C.C. Matoran
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-09-07 12:56:55
+	time modified: 2021-07-11 23:46:45
 	card type: effect monster
 	name: Matoran Chronicler Takua
 	attribute: light
@@ -872,7 +877,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Once per turn: You can target 1 other face-up monster you control; this card's Attribute becomes that target's Attribute.
+	rule text: If all monsters you control, except DARK and LIGHT monsters, have the same Attribute, this card is also treated as that Attribute. If this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck on top of your Deck. You can discard 1 card; excavate the top 6 cards of your Deck, and if you do, Special Summon 1 excavated "C.C. Matoran" monster, also for every 3 excavated "C.C. Matoran" monsters, you can add 1 excavated "C.C. Matoran" monster to your hand. You can only use this effect of "Matoran Chronicler Takua" once per turn.
 	attack: 350
 	defense: 350
 	rarity: common
@@ -1166,13 +1171,17 @@ card:
 		The enemy of Peace is Anger.
 		=> forcing battle screws up Ko plays?
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-09-17 20:48:13
+	time modified: 2021-08-02 00:01:15
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image22
-	rule text: If you did not activate any cards or effects this turn, monsters you control cannot be targeted or destroyed by your opponent's card effects. If you did not declare an attack during your last Battle Phase, monsters you control cannot be destroyed by battle.
+	rule text:
+		While all face-up monsters you control (min. 1) are WATER, apply these effects.
+		<sym-auto>*</sym-auto>If you did not declare an attack during your last Battle Phase, your opponent cannot declare an attack.
+		<sym-auto>*</sym-auto>If none of your opponent's cards left the field because of your card effects and your opponent did not take effect damage since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
+		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of monsters your opponent controls that were Special Summoned this turn.
 	rarity: common
 	gamecode: DRAFT10100029
 card:
