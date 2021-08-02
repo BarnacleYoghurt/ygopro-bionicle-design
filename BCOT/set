@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.15.5
+	edition: Version 3.16.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -563,7 +563,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOT-EN015
+	number: BCOT-EN016
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1650
@@ -575,7 +575,7 @@ card:
 		No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
 		=> Activated (to mesh with e.g. Gali), but intended specifically for the case where Ko-Koro is removed from the field - in that case, retaliate by banishing (freezing) and set up your own protection
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-07-29 00:02:50
+	time modified: 2021-08-02 10:03:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -589,11 +589,11 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". Once per turn, if another card(s) leaves your field because of an opponent's card: You can change this card to Defense Position, and if you do, banish 1 card your opponent controls, also other cards you control cannot be destroyed this turn while you control this face-up Defense Position card.
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". Once per turn, if another card(s) you control leaves the field because of an opponent's card effect: You can change this card to Defense Position, and if you do, banish 1 card your opponent controls, also other cards you control cannot be destroyed this turn while you control this face-up Defense Position card.
 	attack: 2000
 	defense: 2150
 	rarity: common
-	gamecode: DRAFT10100005
+	gamecode: 10100005
 card:
 	has styling: false
 	notes:
@@ -1171,7 +1171,7 @@ card:
 		The enemy of Peace is Anger.
 		=> forcing battle screws up Ko plays?
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-02 00:01:15
+	time modified: 2021-08-02 11:13:03
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1183,7 +1183,7 @@ card:
 		<sym-auto>*</sym-auto>If none of your opponent's cards left the field because of your card effects and your opponent did not take effect damage since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
 		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of monsters your opponent controls that were Special Summoned this turn.
 	rarity: common
-	gamecode: DRAFT10100029
+	gamecode: 10100029
 card:
 	has styling: false
 	notes:
@@ -1288,7 +1288,7 @@ card:
 		=> Making unaffected is a bonus to achieve a suitable powerlevel for a Great Kanohi and fits in with Kaukau/Miru for the Rua
 		==> Currently redundant with Kaukau and Miru because together they already make the monster fully unaffected, but if that changes to something like destruction and targeting protection this could be handy to deal with any remaining outs.
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-09-16 10:42:22
+	time modified: 2021-08-02 11:12:21
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1302,9 +1302,9 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: Equip only to a Level 6 or higher monster. If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Once per turn, if this card is equipped to a monster you control and your opponent draws a card(s): You can look at those cards, and if you do, the equipped monster is unaffected by the effects of cards with the same name as cards you looked at, until the end of this turn. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. 
+	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster you control and your opponent draws a card(s): You can activate this effect; your opponent reveals that card(s) (until your next End Phase). Spells/Traps revealed by this effect cannot be activated or Set while you control this face-up card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. 
 	rarity: common
-	gamecode: DRAFT10100011
+	gamecode: 10100011
 card:
 	has styling: false
 	notes:
@@ -1728,6 +1728,90 @@ card:
 	rule text: You can target 1 "Turaga" Link Monster you control; immediately after this effect resolves, Link Summon 1 "Turaga" Link Monster with the same Link Rating, but a different name, from your Extra Deck by using that target as the entire material. You can only use this effect of "Circle of Legends, Amaja-Nui" once per turn.
 	rarity: common
 	gamecode: DRAFT10100060
+card:
+	has styling: false
+	notes:
+		Quasi-remove stuff without impacting Ko-Koro's protection
+		=> Unwilling to talk to anyone who isn't patient, so monsters have to wait a turn before coming face-to-face with him again
+		=> Flip your own monsters face-down too because bird language = penguin synergy har har
+		=> Might not even need soft OPT, but just to be safe?
+		
+		Plus some kind of WATER (Warrior) support?
+		=> Maybe something similar to Vakama since he also has visions as a Turaga?
+	time created: 2014-12-08 21:30:21
+	time modified: 2021-08-02 11:27:27
+	card type: link monster
+	name: Turaga Nuju
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image42
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 monsters, including a WATER Warrior monster
+		Once per turn: You can change 1 monster you control and 1 monster your opponent controls to face-down Defense Position. Until the end of your opponent's turn, monsters changed to face-down Defense Position by this effect cannot change their battle positions.
+	Link Marker Left: yes
+	Link Marker Right: yes
+	attack: 1100
+	defense: 1200
+	link number: 2
+	rarity: common
+	gamecode: 10100021
+card:
+	has styling: false
+	notes:
+		Search a Level 2 Warrior in exchange for a card in hand = delicate ice carving ("shaping" the hand)
+		=> Works on NS and flip so Nuju can potentially let you reuse it
+		=> Placing the card from hand on the top synergizes directly with Takua, as expected of the future chronicler
+		
+		Flip self face-down because he's shy, but do it to protect others because he's not antisocial
+		=> Also sets up search reuse
+	time created: 2014-12-10 20:58:53
+	time modified: 2021-08-02 12:34:08
+	card type: effect monster
+	name: C.C. Matoran Kopeke
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image43
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If this card is Normal Summoned or flipped face-up: You can add 1 Level 2 Warrior monster from your Deck to your hand, except "C.C. Matoran Kopeke", then place 1 card from your hand on the top of the Deck. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
+	attack: 300
+	defense: 600
+	rarity: common
+	gamecode: 10100035
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Same idea of throwing stuff to inflict damage, but tuned to synergize with Nuju and Ko-Koro
+		=> Condition is no face-up monsters, Nuju flips your own monsters face-down
+		=> Doing battle damage instead of effect damage will preserve Ko-Koro protection, as will attacking directly instead of getting monsters out of the way
+		=> Could maybe also include some element of returning something to the hand, as in telekinetically retrieving it?
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-08-02 12:44:45
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Matatu
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image44
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other face-up monsters, it can attack your opponent directly, but when it does so using this effect, the battle damage inflicted to your opponent is 800. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Komau" once per turn.
+	rarity: common
+	gamecode: 10100044
 version control:
 	type: none
 apprentice code: 
