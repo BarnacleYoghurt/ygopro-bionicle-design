@@ -572,6 +572,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Change to defense, banish, and protect}}
+		
 		No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
 		=> Activated (to mesh with e.g. Gali), but intended specifically for the case where Ko-Koro is removed from the field - in that case, retaliate by banishing (freezing) and set up your own protection
 	time created: 2014-12-04 18:35:41
@@ -1282,11 +1284,15 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Reveal drawn card(s)}}
+		{{Revealed by "Great Kanohi Akaku"}}
+		
 		Piercing damage got added to the Pakari, so we need something else here. Suggestion: Hand reveal.
 		=> Existing cards commonly associate light with revealing set cards, while hand reveals are associated with mind reading and straight up cheating
 		=> X-Ray Vision "looking through" cards in hand is a straightforward imaginary cheating situation, so we can arguably apply that mechanic here
 		=> Making unaffected is a bonus to achieve a suitable powerlevel for a Great Kanohi and fits in with Kaukau/Miru for the Rua
 		==> Currently redundant with Kaukau and Miru because together they already make the monster fully unaffected, but if that changes to something like destruction and targeting protection this could be handy to deal with any remaining outs.
+
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-08-02 11:12:21
 	extra data:
@@ -1731,6 +1737,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Flip monsters face-down}}
+		
 		Quasi-remove stuff without impacting Ko-Koro's protection
 		=> Unwilling to talk to anyone who isn't patient, so monsters have to wait a turn before coming face-to-face with him again
 		=> Flip your own monsters face-down too because bird language = penguin synergy har har
@@ -1764,6 +1772,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add Level 2 Warrior}}
+		{{Change "C.C. Matoran Kopeke" to face-down Defense Position to avoid destruction?}}
+		
 		Search a Level 2 Warrior in exchange for a card in hand = delicate ice carving ("shaping" the hand)
 		=> Works on NS and flip so Nuju can potentially let you reuse it
 		=> Placing the card from hand on the top synergizes directly with Takua, as expected of the future chronicler
@@ -1790,12 +1801,14 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Special Summon Nuju and equip with Matatu}}
+		
 		Same idea of throwing stuff to inflict damage, but tuned to synergize with Nuju and Ko-Koro
 		=> Condition is no face-up monsters, Nuju flips your own monsters face-down
 		=> Doing battle damage instead of effect damage will preserve Ko-Koro protection, as will attacking directly instead of getting monsters out of the way
 		=> Could maybe also include some element of returning something to the hand, as in telekinetically retrieving it?
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-08-02 12:44:45
+	time modified: 2021-08-04 22:15:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1809,7 +1822,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other face-up monsters, it can attack your opponent directly, but when it does so using this effect, the battle damage inflicted to your opponent is 800. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Komau" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other face-up monsters, it can attack your opponent directly, but when it does so using this effect, the battle damage inflicted to your opponent is 800. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn.
 	rarity: common
 	gamecode: 10100044
 version control:
