@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.0
+	edition: Version 3.16.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -644,8 +644,10 @@ card:
 		==> sneaking out to see Huki on the "other" team (Po-Koro), getting comfy with him so combat-readiness drops
 		==> Maybe even give Huki an ATK boost effect to interact with this
 		=> instead of lowering ATK, change to defense position - fits the "getting comfy" interpretation better and more effectively neutralizes Huki
+		
+		3.16.1: Move handtrap effect to field to suit Warrior design policies better, in exchange allow SS effect to also trigger from hand
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-08-13 17:44:45
+	time modified: 2021-08-06 00:09:38
 	card type: effect monster
 	name: C.C. Matoran Maku
 	attribute: water
@@ -655,7 +657,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: (Quick Effect): You can send this card from your hand to the GY, then target 1 face-up card you control; for the rest of this Chain after this effect resolves, or until the end of this turn if it is a "Matoran" monster, it is unaffected by other card effects, except its own. When your opponent activates a card or effect on the field (Quick Effect): You can Special Summon this card from the GY to your Main Monster Zone in the same column as that card, and if you do, change 1 face-up monster on the field to Defense Position. You can only use each effect of "C.C. Matoran Maku" once per turn.
+	rule text: When your opponent activates a card or effect on the field (Quick Effect): You can Special Summon this card from your hand or GY to your Main Monster Zone in the same column as that card, and if you do, change 1 face-up monster on the field to Defense Position. (Quick Effect): You can target 1 other face-up card you control; for the rest of this Chain after this effect resolves, or until the end of this turn if it is a "Matoran" monster, it is unaffected by other card effects, except its own. You can only use each effect of "C.C. Matoran Maku" once per turn.
 	attack: 500
 	defense: 200
 	rarity: common
@@ -1292,7 +1294,6 @@ card:
 		=> X-Ray Vision "looking through" cards in hand is a straightforward imaginary cheating situation, so we can arguably apply that mechanic here
 		=> Making unaffected is a bonus to achieve a suitable powerlevel for a Great Kanohi and fits in with Kaukau/Miru for the Rua
 		==> Currently redundant with Kaukau and Miru because together they already make the monster fully unaffected, but if that changes to something like destruction and targeting protection this could be handy to deal with any remaining outs.
-
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-08-02 11:12:21
 	extra data:
@@ -1746,8 +1747,13 @@ card:
 		
 		Plus some kind of WATER (Warrior) support?
 		=> Maybe something similar to Vakama since he also has visions as a Turaga?
+		
+		Lingering protection effect on another card = looking towards the future
+		=> Makes a mean lock with Ko-Koro since you can't remove Ko-Koro without removing Nuju who you can't remove without removing Ko-Koro
+		=> Even better would be to target both a WATER monster (possibly Nuju himself) and another card you control so that the first target protects the second (attribute support + future planning also involves deciding which of your monsters will survive best), but the phrasing for that is hella tricky - should avoid picking the same card for both targets
+		==>  Limiting to face-up S/T solves that nicely, suits the primary use case, and keeps the risk of unwanted generic usefulness fairly low
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-08-02 11:27:27
+	time modified: 2021-08-06 16:12:11
 	card type: link monster
 	name: Turaga Nuju
 	attribute: water
@@ -1761,7 +1767,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		Once per turn: You can change 1 monster you control and 1 monster your opponent controls to face-down Defense Position. Until the end of your opponent's turn, monsters changed to face-down Defense Position by this effect cannot change their battle positions.
+		Once per turn: You can change 1 monster you control and 1 monster your opponent controls to face-down Defense Position. Until the end of your opponent's turn, monsters changed to face-down Defense Position by this effect cannot change their battle positions. Once per turn, during the End Phase: You can target 1 WATER monster and 1 face-up Spell/Trap you control; until the end of the next turn, while you control the first target, the second target cannot be destroyed by card effects (even if this card leaves the field).
 	Link Marker Left: yes
 	Link Marker Right: yes
 	attack: 1100
