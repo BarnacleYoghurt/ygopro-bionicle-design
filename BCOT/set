@@ -587,8 +587,6 @@ card:
 		=> Problem C: Battle damage might not be a strong enough condition to justify non-targeting banish, no precedent in that regard
 		
 		v3.16.2: Converging both ideas, we now have the defense position attack protection plus a Dante effect to enable it (which doesn't activate!), with the trigger effect being the same as the original one, but without any position-changing (gives us at least theoretical access to non-targeting removal)
-		
-
 	time created: 2014-12-04 18:35:41
 	time modified: 2021-08-07 20:39:14
 	extra data:
@@ -1193,7 +1191,7 @@ card:
 		=> Protection is now a weaker effect, so it can have an easier condition that still allows you to bounce and spin stuff (basically "peaceful" removal), so you're more able to clear the field and full-on stall situations are less likely
 		=> Drop the artificial condition to discourage effect damage, because with Wave-Motion Cannon you can make a stall/burn strategy without ever needing to deal damage before you've won anyway
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-07 18:15:01
+	time modified: 2021-08-07 23:31:43
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1201,7 +1199,7 @@ card:
 	image: image22
 	rule text:
 		While all face-up monsters you control (min. 1) are WATER, apply these effects.
-		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, your opponent cannot target monsters you control for attacks or with card effects.
+		<sym-auto>*</sym-auto>If you did not declare an attack during the last turn, your opponent cannot target monsters you control for attacks or with card effects.
 		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since the last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects.
 		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, the effects of monsters your opponent controls that were Special Summoned this turn are negated while they are on the field.
 	rarity: common
