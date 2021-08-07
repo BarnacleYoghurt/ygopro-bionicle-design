@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.1
+	edition: Version 3.16.2
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -576,8 +576,21 @@ card:
 		
 		No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
 		=> Activated (to mesh with e.g. Gali), but intended specifically for the case where Ko-Koro is removed from the field - in that case, retaliate by banishing (freezing) and set up your own protection
+		
+		Or:
+		"If this Attack Position card battles an opponent's monster, that monster loses 500 ATK and its effects are negated, during the Damage Step only. If this card is in face-up Defense Position, your opponent cannot  target monsters for attacks, except "Toa Mata Kopaka". Once per turn, if this card inflicts battle damage to your opponent: You can change its battle position, and if you do, banish 1 card your opponent controls."
+		=> Nerf opponent's monsters with "cold", so he's effectively 2500 ATK and you can get over stuff to help Ko-Koro with the game-winning push
+		=> In defense, provides a decent substitute for Ko-Koro's attack prevention in case that's turned off
+		=> Changing position on damage enables the sequence "turn Ko-Koro off by attacking => switch Kopaka to fill the gap", banishing (freezing) a card provides a non-targeting removal option
+		=> Problem A: Too long!
+		=> Problem B: Activated effect triggers during damage step, so doesn't actually interact with Gali (neither does Tahu's, though)
+		=> Problem C: Battle damage might not be a strong enough condition to justify non-targeting banish, no precedent in that regard
+		
+		v3.16.2: Converging both ideas, we now have the defense position attack protection plus a Dante effect to enable it (which doesn't activate!), with the trigger effect being the same as the original one, but without any position-changing (gives us at least theoretical access to non-targeting removal)
+		
+
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-08-02 10:03:48
+	time modified: 2021-08-07 20:39:14
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -591,9 +604,9 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". Once per turn, if another card(s) you control leaves the field because of an opponent's card effect: You can change this card to Defense Position, and if you do, banish 1 card your opponent controls, also other cards you control cannot be destroyed this turn while you control this face-up Defense Position card.
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". If this card attacks, it is changed to Defense Position at the end of the Battle Phase. If this card is in face-up Defense Position, your opponent cannot target monsters for attacks, except "Toa Mata Kopaka". Once per turn, if another card(s) you control leaves the field because of an opponent's card effect: You can banish 1 card your opponent controls.
 	attack: 2000
-	defense: 2150
+	defense: 2500
 	rarity: common
 	gamecode: 10100005
 card:
@@ -1174,8 +1187,13 @@ card:
 		
 		The enemy of Peace is Anger.
 		=> forcing battle screws up Ko plays?
+		
+		v3.16.2: Slightly tweaked conditions, possibly a bit better.
+		=> Moving targeting protection to the attack condition makes the wording shorter
+		=> Protection is now a weaker effect, so it can have an easier condition that still allows you to bounce and spin stuff (basically "peaceful" removal), so you're more able to clear the field and full-on stall situations are less likely
+		=> Drop the artificial condition to discourage effect damage, because with Wave-Motion Cannon you can make a stall/burn strategy without ever needing to deal damage before you've won anyway
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-02 11:13:03
+	time modified: 2021-08-07 18:15:01
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1183,9 +1201,9 @@ card:
 	image: image22
 	rule text:
 		While all face-up monsters you control (min. 1) are WATER, apply these effects.
-		<sym-auto>*</sym-auto>If you did not declare an attack during your last Battle Phase, your opponent cannot declare an attack.
-		<sym-auto>*</sym-auto>If none of your opponent's cards left the field because of your card effects and your opponent did not take effect damage since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
-		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of monsters your opponent controls that were Special Summoned this turn.
+		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, your opponent cannot target monsters you control for attacks or with card effects.
+		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since the last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects.
+		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, the effects of monsters your opponent controls that were Special Summoned this turn are negated while they are on the field.
 	rarity: common
 	gamecode: 10100029
 card:
@@ -1744,6 +1762,11 @@ card:
 		=> Unwilling to talk to anyone who isn't patient, so monsters have to wait a turn before coming face-to-face with him again
 		=> Flip your own monsters face-down too because bird language = penguin synergy har har
 		=> Might not even need soft OPT, but just to be safe?
+		=> If Ko-Koro allows bouncing, could be improved to "Once per turn: You can target 1 monster your opponent controls; change 1 monster you control to face-down Defense Position, and if you do, return that target to the hand."
+		==> shorter, actually gets stuff off the field and works on links
+		==> even more penguin-like because it simultaenously sets them up and does the bouncing they're known for
+		=> opponent's monster is targeted because it is removal, after all
+		=> Optional: "This card cannot attack during the turn you activate this effect." - as a further restriction that is mostly irrelevant in proper Ko-Koro decks, just in case this is too strong
 		
 		Plus some kind of WATER (Warrior) support?
 		=> Maybe something similar to Vakama since he also has visions as a Turaga?
@@ -1753,7 +1776,7 @@ card:
 		=> Even better would be to target both a WATER monster (possibly Nuju himself) and another card you control so that the first target protects the second (attribute support + future planning also involves deciding which of your monsters will survive best), but the phrasing for that is hella tricky - should avoid picking the same card for both targets
 		==>  Limiting to face-up S/T solves that nicely, suits the primary use case, and keeps the risk of unwanted generic usefulness fairly low
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-08-06 16:12:11
+	time modified: 2021-08-07 17:56:51
 	card type: link monster
 	name: Turaga Nuju
 	attribute: water
@@ -1767,7 +1790,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		Once per turn: You can change 1 monster you control and 1 monster your opponent controls to face-down Defense Position. Until the end of your opponent's turn, monsters changed to face-down Defense Position by this effect cannot change their battle positions. Once per turn, during the End Phase: You can target 1 WATER monster and 1 face-up Spell/Trap you control; until the end of the next turn, while you control the first target, the second target cannot be destroyed by card effects (even if this card leaves the field).
+		Once per turn: You can target 1 monster your opponent controls; change 1 monster you control to face-down Defense Position, and if you do, return that target to the hand. Once per turn, during the End Phase: You can target 1 WATER monster and 1 face-up Spell/Trap you control; until the end of the next turn, while you control the first target, the second target cannot be destroyed by card effects (even if this card leaves the field).
 	Link Marker Left: yes
 	Link Marker Right: yes
 	attack: 1100
@@ -1784,11 +1807,13 @@ card:
 		Search a Level 2 Warrior in exchange for a card in hand = delicate ice carving ("shaping" the hand)
 		=> Works on NS and flip so Nuju can potentially let you reuse it
 		=> Placing the card from hand on the top synergizes directly with Takua, as expected of the future chronicler
+		==> this doesn't fucking work, the deck is shuffled after a search effect resolves and so the card doesn't stay on top
+		==> Guess we'll discard instead, the future chronicler reference will have to remain limited to both him and Takua being searchers
 		
 		Flip self face-down because he's shy, but do it to protect others because he's not antisocial
 		=> Also sets up search reuse
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-08-02 12:34:08
+	time modified: 2021-08-07 17:39:53
 	card type: effect monster
 	name: C.C. Matoran Kopeke
 	attribute: water
@@ -1798,7 +1823,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal Summoned or flipped face-up: You can add 1 Level 2 Warrior monster from your Deck to your hand, except "C.C. Matoran Kopeke", then place 1 card from your hand on the top of the Deck. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
+	rule text: If this card is Normal Summoned or flipped face-up: You can add 1 Level 2 Warrior monster from your Deck or GY to your hand, except "C.C. Matoran Kopeke", then discard 1 card. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
 	attack: 300
 	defense: 600
 	rarity: common
