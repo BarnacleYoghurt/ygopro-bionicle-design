@@ -1190,6 +1190,11 @@ card:
 		=> Moving targeting protection to the attack condition makes the wording shorter
 		=> Protection is now a weaker effect, so it can have an easier condition that still allows you to bounce and spin stuff (basically "peaceful" removal), so you're more able to clear the field and full-on stall situations are less likely
 		=> Drop the artificial condition to discourage effect damage, because with Wave-Motion Cannon you can make a stall/burn strategy without ever needing to deal damage before you've won anyway
+		
+		AI really can't deal with attack prevention, so as a further anti-stall tweak, maybe change that part to something like "If you did not declare an attack during the last turn, monsters your opponent controls that were not face-up on the field during your last Standby Phase cannot attack"
+		=> does targeting protection still make sense in this branch then?
+		=> "If you did not declare an attack during the last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase"
+		==> Allows you to stall for just a single turn in emergencies even against an established board
 	time created: 2014-12-09 17:11:13
 	time modified: 2021-08-07 23:31:43
 	card type: spell card
@@ -1741,14 +1746,17 @@ card:
 		Old: "You can target 1 "Turaga" Tuner monster you control; until the End Phase, it is treated as a non-tuner monster. You can target 1 "Turaga" monster you control; increase or decrease its Level by 1. If you control no monsters: You can Special Summon 1 "Turaga" monster from your Graveyard. When this face-up card is desroyed by your opponent's card effect and sent to the Graveyard: Target 1 "Turaga" Tuner monster and 1 non-Tuner monster in your Graveyard; Special Summon them. Immediately after this effect resolves, Synchro Summon 1 monster using only those targets . You can only use each effect of "Circle of Legends, Amaja-Nui" once per turn."
 		
 		New: Swap out Turaga for other Turaga, to aid decks that run several of them - same goal as original
+		
+		Float into a Token while sending an Equip Spell to the GY - setup for reviving any Turaga with their Noble Kanohi
+		=> if you have a monster in GY you can also send a Great Kanohi and use the Token as the tribute for its Normal Summon
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-04-20 00:21:21
+	time modified: 2021-08-08 15:50:12
 	card type: spell card
 	name: Circle of Legends, Amaja-Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image39
-	rule text: You can target 1 "Turaga" Link Monster you control; immediately after this effect resolves, Link Summon 1 "Turaga" Link Monster with the same Link Rating, but a different name, from your Extra Deck by using that target as the entire material. You can only use this effect of "Circle of Legends, Amaja-Nui" once per turn.
+	rule text: You can target 1 "Turaga" Link Monster you control; send that target to the GY, then Special Summon 1 "Turaga" Link Monster with the same Link Rating, but a different name, from your Extra Deck. If this face-up card in the Field Zone is destroyed and sent to the GY: You can send 1 Equip Spell Card from your deck to the GY; Special Summon 1 "Legend Stone Token" (Rock/LIGHT/Level 6/ATK 0/DEF 0). You can only use each effect of "Circle of Legends, Amaja-Nui" once per turn.
 	rarity: common
 	gamecode: DRAFT10100060
 card:
@@ -1835,7 +1843,9 @@ card:
 		Same idea of throwing stuff to inflict damage, but tuned to synergize with Nuju and Ko-Koro
 		=> Condition is no face-up monsters, Nuju flips your own monsters face-down
 		=> Doing battle damage instead of effect damage will preserve Ko-Koro protection, as will attacking directly instead of getting monsters out of the way
+		==> With the effect damage condition now gone, do we want to go back to burn?
 		=> Could maybe also include some element of returning something to the hand, as in telekinetically retrieving it?
+		==> Would potentially be a way to get an on-demand non-targeting removal within the Ko-Koro theme, but that seems a bit beyond Noble Kanohi powerlevel
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-08-04 22:15:16
 	extra data:
