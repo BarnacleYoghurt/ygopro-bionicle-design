@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.2
+	edition: Version 3.16.3
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1196,7 +1196,7 @@ card:
 		=> "If you did not declare an attack during the last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase"
 		==> Allows you to stall for just a single turn in emergencies even against an established board
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-07 23:31:43
+	time modified: 2021-08-09 11:19:25
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1204,8 +1204,8 @@ card:
 	image: image22
 	rule text:
 		While all face-up monsters you control (min. 1) are WATER, apply these effects.
-		<sym-auto>*</sym-auto>If you did not declare an attack during the last turn, your opponent cannot target monsters you control for attacks or with card effects.
-		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since the last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects.
+		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase.
+		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
 		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, the effects of monsters your opponent controls that were Special Summoned this turn are negated while they are on the field.
 	rarity: common
 	gamecode: 10100029
@@ -1781,8 +1781,10 @@ card:
 		=> Makes a mean lock with Ko-Koro since you can't remove Ko-Koro without removing Nuju who you can't remove without removing Ko-Koro
 		=> Even better would be to target both a WATER monster (possibly Nuju himself) and another card you control so that the first target protects the second (attribute support + future planning also involves deciding which of your monsters will survive best), but the phrasing for that is hella tricky - should avoid picking the same card for both targets
 		==>  Limiting to face-up S/T solves that nicely, suits the primary use case, and keeps the risk of unwanted generic usefulness fairly low
+		=> v3.16.3: Rather than re-enabling protection every EP, apply it once per Special Summon - we want to discourage long stall situations anyway and activating the effect all the time gets annoying
+		==> As a little buff in exchange, protection condition now just requires any WATER monster, which conveniently also simplifies the text a lot
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-08-07 17:56:51
+	time modified: 2021-08-09 12:42:20
 	card type: link monster
 	name: Turaga Nuju
 	attribute: water
@@ -1796,7 +1798,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		Once per turn: You can target 1 monster your opponent controls; change 1 monster you control to face-down Defense Position, and if you do, return that target to the hand. Once per turn, during the End Phase: You can target 1 WATER monster and 1 face-up Spell/Trap you control; until the end of the next turn, while you control the first target, the second target cannot be destroyed by card effects (even if this card leaves the field).
+		If this card is Special Summoned: You can target 1 face-up Spell/Trap you control; until the end of the next turn, while you control a WATER monster, that target cannot be destroyed by card effects (even if this card leaves the field). Once per turn: You can target 1 card your opponent controls; change 1 monster you control to face-down Defense Position, and if you do, return that target to the hand. 
 	Link Marker Left: yes
 	Link Marker Right: yes
 	attack: 1100
