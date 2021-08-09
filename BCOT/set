@@ -1840,6 +1840,7 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Change 1 monster to face-up Attack or Defense Position}}
 		{{Special Summon Nuju and equip with Matatu}}
 		
 		Same idea of throwing stuff to inflict damage, but tuned to synergize with Nuju and Ko-Koro
@@ -1848,8 +1849,12 @@ card:
 		==> With the effect damage condition now gone, do we want to go back to burn?
 		=> Could maybe also include some element of returning something to the hand, as in telekinetically retrieving it?
 		==> Would potentially be a way to get an on-demand non-targeting removal within the Ko-Koro theme, but that seems a bit beyond Noble Kanohi powerlevel
+		=> v3.16.3: Redesigned in a different direction from inflicting damage, instead "telekinetically" changing battle positions (without targeting)
+		==> Cannot flip monsters face-down because that's too close to non-targeting removal to be allowed on a Noble Kanohi
+		==> Can flip your own monsters face-up, so enjoy your mad plusses from Nuju + Penguing Soldier combos
+		==> Equipped monster cannot attack because telekinesis takes focus
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-08-04 22:15:16
+	time modified: 2021-08-09 16:25:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1863,7 +1868,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other face-up monsters, it can attack your opponent directly, but when it does so using this effect, the battle damage inflicted to your opponent is 800. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster: You can change 1 monster on the field to face-up Attack or Defense Position. The equipped monster cannot attack the turn you activate this effect. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn. 
 	rarity: common
 	gamecode: 10100044
 version control:
