@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.3
+	edition: Version 3.16.4
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1196,7 +1196,7 @@ card:
 		=> "If you did not declare an attack during the last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase"
 		==> Allows you to stall for just a single turn in emergencies even against an established board
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-09 11:19:25
+	time modified: 2021-08-10 19:22:30
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1204,9 +1204,9 @@ card:
 	image: image22
 	rule text:
 		While all face-up monsters you control (min. 1) are WATER, apply these effects.
-		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase.
+		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, monsters your opponent controls cannot attack the turn they are Summoned.
 		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
-		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, the effects of monsters your opponent controls that were Special Summoned this turn are negated while they are on the field.
+		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, the effects of monsters your opponent controls that were Special Summoned this turn are negated while they are face-up on the field.
 	rarity: common
 	gamecode: 10100029
 card:
