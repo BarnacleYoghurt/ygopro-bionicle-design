@@ -572,7 +572,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Change to defense, banish, and protect}}
+		{{Normal Summon by Tributing from hand}}
+		{{Banish 1 card your opponent controls}}
 		
 		No idea what the effect should be yet, but maybe something continuous so it works with Ko-Koro better?
 		=> Activated (to mesh with e.g. Gali), but intended specifically for the case where Ko-Koro is removed from the field - in that case, retaliate by banishing (freezing) and set up your own protection
@@ -1810,6 +1811,7 @@ card:
 	has styling: false
 	notes:
 		{{Add Level 2 Warrior}}
+		{{Place the card on top of the Deck}}
 		{{Change "C.C. Matoran Kopeke" to face-down Defense Position to avoid destruction?}}
 		
 		Search a Level 2 Warrior in exchange for a card in hand = delicate ice carving ("shaping" the hand)
