@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.4
+	edition: Version 3.16.5
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1196,7 +1196,7 @@ card:
 		=> "If you did not declare an attack during the last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase"
 		==> Allows you to stall for just a single turn in emergencies even against an established board
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-10 19:22:30
+	time modified: 2021-08-12 15:42:18
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1206,7 +1206,7 @@ card:
 		While all face-up monsters you control (min. 1) are WATER, apply these effects.
 		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, monsters your opponent controls cannot attack the turn they are Summoned.
 		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
-		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, the effects of monsters your opponent controls that were Special Summoned this turn are negated while they are face-up on the field.
+		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of face-up monsters that were Special Summoned this turn while your opponent controls them.
 	rarity: common
 	gamecode: 10100029
 card:
@@ -1817,11 +1817,12 @@ card:
 		=> Placing the card from hand on the top synergizes directly with Takua, as expected of the future chronicler
 		==> this doesn't fucking work, the deck is shuffled after a search effect resolves and so the card doesn't stay on top
 		==> Guess we'll discard instead, the future chronicler reference will have to remain limited to both him and Takua being searchers
+		=> Level 2 Warrior pool isn't nearly good enough to justify the downside here, so let's just make putting the searched card on top of the deck an option in order to potentially enable that combo with Takua
 		
 		Flip self face-down because he's shy, but do it to protect others because he's not antisocial
 		=> Also sets up search reuse
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-08-07 17:39:53
+	time modified: 2021-08-12 15:29:30
 	card type: effect monster
 	name: C.C. Matoran Kopeke
 	attribute: water
@@ -1831,7 +1832,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal Summoned or flipped face-up: You can add 1 Level 2 Warrior monster from your Deck or GY to your hand, except "C.C. Matoran Kopeke", then discard 1 card. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
+	rule text: If this card is Normal Summoned or flipped face-up: You can take 1 Level 2 Warrior monster from your Deck or GY, except "C.C. Matoran Kopeke", and either add it to your hand or place it on top of your Deck. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
 	attack: 300
 	defense: 600
 	rarity: common
