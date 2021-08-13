@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.5
+	edition: Version 3.16.6
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1857,7 +1857,7 @@ card:
 		==> Can flip your own monsters face-up, so enjoy your mad plusses from Nuju + Penguing Soldier combos
 		==> Equipped monster cannot attack because telekinesis takes focus
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-08-09 16:25:48
+	time modified: 2021-08-13 16:17:36
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1871,7 +1871,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster: You can change 1 monster on the field to face-up Attack or Defense Position. The equipped monster cannot attack the turn you activate this effect. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn. 
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster: You can change the battle position of 1 monster on the field. The equipped monster cannot attack the turn you activate this effect. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn. 
 	rarity: common
 	gamecode: 10100044
 card:
