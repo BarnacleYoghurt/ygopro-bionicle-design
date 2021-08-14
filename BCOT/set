@@ -1394,7 +1394,13 @@ card:
 		=> Idea to encourage using the matching attributes of Toa Mata: "During the Standby Phase: You can tribute this card, then target 2 Level 6 "Toa Mata" monsters in your GY (1 FIRE monster and 1 EARTH monster); Special Summon those targets."
 		==> Or during End Phase, or as a floating effect on destroy/banish by opponent's card (would be a bit of a nerf)
 		==> Maybe put some restriction on those monsters like not being able to use them for an Xyz Summon until the end of X turn
-		==> Lets you use the Combination effect and then make the triggers of the Toa Mata used as material live again, but only if you used the right attributes (or already had them i
+		==> Lets you use the Combination effect and then make the triggers of the Toa Mata used as material live again, but only if you used the right attributes (or already had them in the GY)
+		==> A more powerful approach: "(Quick Effect): You can Tribute this card with no Xyz Materials, then target ..."
+		===> Use up combination, then tag out into the appropriate materials
+		===> Can be used to dodge some disruptions after activating the main effect by detaching the last material
+		===> Lets you fetch the triggers you need after your opponent performs an action
+		===> Helps make the Kaita with Kini-Nui: Tribute a Combination, bring it back with no materials, tag out into 2 Toa Mata, and you have 3 materials ready to go
+		===> Avoids the confusing case where the only appropriate targets to revive are the attached materials and you thus can't activate the effect unless there are already other targets in the GY
 	time created: 2014-12-08 15:30:26
 	time modified: 2020-09-29 23:25:01
 	card type: xyz monster
