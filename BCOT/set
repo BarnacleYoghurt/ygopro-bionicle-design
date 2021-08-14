@@ -1309,6 +1309,7 @@ card:
 	has styling: false
 	notes:
 		{{Reveal drawn card(s)}}
+		{{Add Kopaka to hand}}
 		{{Revealed by "Great Kanohi Akaku"}}
 		
 		Piercing damage got added to the Pakari, so we need something else here. Suggestion: Hand reveal.
