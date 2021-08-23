@@ -1318,7 +1318,7 @@ card:
 		=> Making unaffected is a bonus to achieve a suitable powerlevel for a Great Kanohi and fits in with Kaukau/Miru for the Rua
 		==> Currently redundant with Kaukau and Miru because together they already make the monster fully unaffected, but if that changes to something like destruction and targeting protection this could be handy to deal with any remaining outs.
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-08-02 11:12:21
+	time modified: 2021-08-23 11:59:43
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1332,7 +1332,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster: Destroy this card. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster you control and your opponent draws a card(s): You can activate this effect; your opponent reveals that card(s) (until your next End Phase). Spells/Traps revealed by this effect cannot be activated or Set while you control this face-up card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. 
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster you control and your opponent draws a card(s): You can activate this effect; your opponent reveals that card(s) (until your next End Phase). Spells/Traps revealed by this effect cannot be activated or Set while you control this face-up card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. 
 	rarity: common
 	gamecode: 10100011
 card:
