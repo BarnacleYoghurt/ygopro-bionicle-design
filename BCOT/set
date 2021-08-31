@@ -120,14 +120,23 @@ card:
 		When Koro/Field Spell in general destroyed: Add from GY to hand
 		
 		Toa Mata protection, attribute lock?
+		
+		Writing up the envisioned effect in its latest state reveals that it's way too long (139W/726C)...
+		=> sacrifice some part of the Kini-Nui synergy?
+		=> do not allow searching a -Koro when revealing Toa Mata (would allow a more compact phrasing for the search)?
+		=> somehow use less words to describe the Attribute matching with the Koro?
+
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-09-07 12:56:29
+	time modified: 2021-08-31 18:35:35
 	card type: spell card
 	name: The Island of Mata Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image17
-	rule text: When this card is activated: You can add 1 "-Koro" Field Spell Card from your Deck to your hand. If a card in your Field Zone is destroyed while this card is in your GY: You can add this card to your hand. You can only use each effect of "The Island of Mata Nui" once per turn.
+	rule text:
+		"Toa Mata" monsters gain 600 ATK/DEF. You can only use each of the following effects of "The Island of Mata Nui" once per turn. If a card in your Field Zone, except "The Island of Mata Nui", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can send this card to the GY; apply 1 of these effects.
+		<sym-auto>*</sym-auto>Reveal 1 "Toa Mata" monster in your hand, then add 1 "The Great Temple, Kini-Nui" from your Deck to your hand.
+		<sym-auto>*</sym-auto>Reveal 1 monster in your hand, then add from your Deck to your hand 1 "-Koro" Field Spell Card whose text lists the revealed monster's Attribute and 1 "Matoran" monster with the same Attribute, then place the revealed monster on the bottom of the Deck.
 	defense: 
 	rarity: common
 	gamecode: DRAFT10100023
