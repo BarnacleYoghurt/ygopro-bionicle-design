@@ -1322,6 +1322,11 @@ card:
 		=> X-Ray Vision "looking through" cards in hand is a straightforward imaginary cheating situation, so we can arguably apply that mechanic here
 		=> Making unaffected is a bonus to achieve a suitable powerlevel for a Great Kanohi and fits in with Kaukau/Miru for the Rua
 		==> Currently redundant with Kaukau and Miru because together they already make the monster fully unaffected, but if that changes to something like destruction and targeting protection this could be handy to deal with any remaining outs.
+		=> Problem with locking drawn card: Doesn't necessarily do anything, Kanohi swapping undoes the lock
+		==> Alt.: "Once per turn, if your opponent draws a card(s): You can activate this effect; for the rest of this turn while you control this face-up card, your opponent plays with their hand revealed, also banish 1 card from their hand until the End Phase."
+		===> Banishing has definite impact even after Kanohi is swapped, hand reveal is secondary but still represents the ongoing X-Ray vision ability
+		===> Card to banish is choosable so you can go after Ko-Koro threates - maybe random would be more fair?
+		===> Requires opponent drawing as trigger, so can't just easily do hand check turn 1
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-08-23 11:59:43
 	extra data:
