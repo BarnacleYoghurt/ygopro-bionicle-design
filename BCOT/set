@@ -1920,6 +1920,34 @@ card:
 	attack: 300
 	defense: 700
 	gamecode: DRAFT10100065
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Orig.:
+		Must be equipped to a "Toa" monster that has no "Kanohi" card equipped by banishing 6 "Kanohi" Equip Spell Cards with different names that could be equipped to that monster from your Graveyard. This card gains the effects of each card banished by its effect as long as they remain banished. During each of your End Phases: Shuffle 1 of your banished "Kanohi" Equip Spell Cards into the Deck.
+		
+		Same thing, but with a GY effect that helps set it up and no decay over time
+		=> Wording for effect copying very WIP, now trickier since it needs to account for non-equip effects
+		=> Effect is meant to trigger at the moment of equipping, maybe there's a clearer way to state that
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-09-04 07:37:53
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Golden Great Kanohi
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image45
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If this card is equipped to a "Toa" monster: Banish 6 "Kanohi" Equip Spell Cards with different names from your GY, and if you do, this card gains the effects those cards would have if equipped to the equipped monster. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell Card from your Deck to the GY; add this card to your hand. You can only use this effect of "Golden Great Kanohi" once per turn.
+	rarity: common
+	gamecode: DRAFT10100052
 version control:
 	type: none
 apprentice code: 
