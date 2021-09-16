@@ -568,7 +568,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOT-EN017
+	number: BCOT-EN018
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1650
@@ -1984,6 +1984,60 @@ card:
 	defense: 1900
 	rarity: common
 	gamecode: DRAFT10100058
+card:
+	has styling: false
+	notes:
+		Le-Koro concept is about being able to make a comeback with minimal resources (as opposed to Onu-Koro ensuring you always have ample resources), so Matau helps that by giving you an extra summon on an empty field and floating into recyclign a WIND
+		=> Adjust targets for these depending on what other cards are available
+	time created: 2014-12-08 21:30:21
+	time modified: 2021-09-16 19:29:55
+	card type: link monster
+	name: Turaga Matau
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image48
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 monsters, including a WIND Warrior monster
+		If you control no other monsters: You can Special Summon 1 Level 4 or lower WIND monster from your hand. If this card is sent from the field to the GY: You can add 1 WIND monster from your GY to your hand. You can only use each effect of "Turaga Matau" once per turn.
+	Link Marker DL: yes
+	Link Marker Right: yes
+	attack: 1400
+	defense: 1100
+	link number: 2
+	rarity: common
+	gamecode: Draft10100022
+card:
+	has styling: false
+	notes:
+		Instead of floating when used as any material, revive self on "C.C. Matoran" summon
+		=> works as before if you're using Hafu
+		=> also helps the recovery aspect of Le-Koro since you get an extra body as long as you have another Tamaru to summon
+		==> maybe trigger on "Matoran" summon in general to increase future utility?
+		=> some kind of penalty for revive?
+		
+		Self-bounce to summon and maybe trigger another "C.C. Matoran", pretty much unchanged
+	time created: 2014-12-10 20:58:53
+	time modified: 2021-09-16 19:34:54
+	card type: effect monster
+	name: C.C. Matoran Tamaru
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image49
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If you Normal or Special Summon a "C.C. Matoran" monster(s) while this card is in your GY: You can Special Summon this card in Defense Position. You can return this card to the hand; Special Summon 1 Level 2 Warrior-Type monster, except "C.C. Matoran Tamaru", from your hand. You can only use each "C.C. Matoran Tamaru" effect once per turn.
+	attack: 400
+	defense: 400
+	rarity: common
+	gamecode: DRAFT10100036
 version control:
 	type: none
 apprentice code: 
