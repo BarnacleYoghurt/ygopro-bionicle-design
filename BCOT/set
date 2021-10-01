@@ -126,13 +126,13 @@ card:
 		=> do not allow searching a -Koro when revealing Toa Mata (would allow a more compact phrasing for the search)?
 		=> somehow use less words to describe the At
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-09-01 20:33:23
+	time modified: 2021-10-01 08:48:06
 	card type: spell card
 	name: The Island of Mata Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image17
-	rule text: All Normal Summoned "Toa Mata" monsters gain 600 ATK/DEF. You can send this card to the GY, then reveal 1 monster in your hand; add 1 "-Koro" Field Spell card that lists the revealed monster's Attribute in its text from your Deck to your hand. If you revealed a "Toa Mata" monster, you can add 1 "The Great Temple, Kini-Nui" instead. If a card in your Field Zone, except "The Island of Mata Nui", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of "The Island of Mata Nui" once per turn.
+	rule text: All Normal Summoned "Toa Mata" monsters gain 600 ATK/DEF. You can send this card to the GY; reveal 1 monster in your hand and add 1 "-Koro" Field Spell card that lists that monster's Attribute in its text from your Deck to your hand. If you revealed a "Toa Mata" monster, you can add 1 "The Great Temple, Kini-Nui" instead. If a card in your Field Zone, except "The Island of Mata Nui", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of "The Island of Mata Nui" once per turn.
 	defense: 
 	rarity: common
 	gamecode: DRAFT10100023
@@ -1619,8 +1619,17 @@ card:
 		* 1+: Add 1 of those monsters to your hand.
 		* 3+: Special Summon 1 of those monsters.
 		* 6: You can set 1 "Coming of the Toa" directly from your Deck. It can be activated during this turn.
+		
+		Or add directly from the excavated cards (maybe more straightforward):
+		"Discard 1 card; excavate the top 6 cards of your Deck,  and if you do, you can add up to 2 excavated "Toa Mata" monsters with different names to your hand, also shuffle the rest into the Deck. Also, apply this effect, depending on the number of cards added. You can only activate 1 "Call of the Toa Stones" per turn.
+		*0: Set 1 "Coming of the Toa" directly from your Deck. It can be activated this turn.
+		*1: Add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to your hand.
+		*2: Gain 2000 LP."
+		=> 0 means they're probably deeper in the Deck, so get Coming to make up for the -2 if you can just get something in the GY (e.g. with the discard cost)
+		=> adding 1 means you might not have a second, so get a Suva as guaranteed tribute fodder (=> +0)
+		=> adding 2 means you're ready to summon at least 1, so just give an LP boost as a reward, kinda callback to the old damage protection effect (and it's still +0)
 	time created: 2014-12-13 23:24:36
-	time modified: 2020-12-23 18:23:01
+	time modified: 2021-09-24 21:17:57
 	card type: spell card
 	name: Call of the Toa Stones
 	attribute: spell
