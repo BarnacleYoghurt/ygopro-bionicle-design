@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.16.6
+	edition: Version 3.17.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -126,7 +126,7 @@ card:
 		=> do not allow searching a -Koro when revealing Toa Mata (would allow a more compact phrasing for the search)?
 		=> somehow use less words to describe the At
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-10-01 08:48:06
+	time modified: 2021-10-01 09:04:48
 	card type: spell card
 	name: The Island of Mata Nui
 	attribute: spell
@@ -135,7 +135,7 @@ card:
 	rule text: All Normal Summoned "Toa Mata" monsters gain 600 ATK/DEF. You can send this card to the GY; reveal 1 monster in your hand and add 1 "-Koro" Field Spell card that lists that monster's Attribute in its text from your Deck to your hand. If you revealed a "Toa Mata" monster, you can add 1 "The Great Temple, Kini-Nui" instead. If a card in your Field Zone, except "The Island of Mata Nui", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of "The Island of Mata Nui" once per turn.
 	defense: 
 	rarity: common
-	gamecode: DRAFT10100023
+	gamecode: 10100023
 card:
 	has styling: false
 	notes:
@@ -623,7 +623,7 @@ card:
 		==> "then" conjunction means failing to bounce your target (maybe because of some protection like Miru?) fucks the whole effect up, more resilient phrasing would be "[...]; if you control that target, you can return 1 other monster on the field to the hand, also return that target to the hand."
 		===> Kinda awkward, so lets only do that if it's really needed for some kind of neat combo
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-09-14 18:16:50
+	time modified: 2021-10-01 10:19:25
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -637,11 +637,11 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 WIND or "Toa Mata" monster in your hand, except "Toa Mata Lewa".  Once per turn, if a monster(s) is Special Summoned from the hand, Main Deck, or GY: You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled while on the field, you can return 1 additional monster on the field to the hand. 
+	rule text: To Tribute Summon this card face-up, you can Tribute 1 WIND or "Toa Mata" monster in your hand, except "Toa Mata Lewa".  Once per turn, if a monster(s) is Special Summoned from the hand, Main Deck, or GY while you control this card: You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled while on the field, you can return 1 additional monster on the field to the hand. 
 	attack: 2500
 	defense: 1400
 	rarity: common
-	gamecode: DRAFT10100006
+	gamecode: 10100006
 card:
 	has styling: false
 	notes:
@@ -1240,15 +1240,15 @@ card:
 		The enemy of Faith is Fragmentation.
 		=> somehow prevent cooperation between multiple cards
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-09-07 12:56:48
+	time modified: 2021-10-01 10:26:09
 	card type: spell card
 	name: Le-Koro, Village of Air
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image23
-	rule text: When you Normal or Special Summon a WIND monster that has a Level: You can negate that monster's effects (if any) and make its ATK become 0; add 1 WIND monster with the same Level, but a different name, from your Deck to your hand. If a WIND monster you control is destroyed by your opponent's card (by battle or card effect): You can Special Summon 1 WIND monster with a lower or equal Level from your hand. You can only use each effect of "Le-Koro, Village of Air" once per turn.
+	rule text: Your opponent's monsters cannot target WIND monsters you control for attacks, except the WIND monster you control with the highest ATK (either, if tied). When you Normal or Special Summon a monster that has a Level: You can negate that monster's effects (if any) and make its ATK 0, and if you do, add 1 WIND Warrior monster with a different name and an equal or lower Level from your Deck to your hand, also you cannot Special Summon for the rest of this turn, except WIND monsters. You can only use this effect of "Le-Koro, Village of Air" once per turn.
 	rarity: common
-	gamecode: DRAFT10100030
+	gamecode: 10100030
 card:
 	has styling: false
 	notes:
@@ -1999,7 +1999,7 @@ card:
 		Le-Koro concept is about being able to make a comeback with minimal resources (as opposed to Onu-Koro ensuring you always have ample resources), so Matau helps that by giving you an extra summon on an empty field and floating into recyclign a WIND
 		=> Adjust targets for these depending on what other cards are available
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-09-16 19:29:55
+	time modified: 2021-10-01 10:32:26
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2013,14 +2013,14 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WIND Warrior monster
-		If you control no other monsters: You can Special Summon 1 Level 4 or lower WIND monster from your hand. If this card is sent from the field to the GY: You can add 1 WIND monster from your GY to your hand. You can only use each effect of "Turaga Matau" once per turn.
+		If you control no other Effect Monsters: You can Special Summon 1 Level 4 or lower WIND monster from your hand. If this card is sent from the field to the GY: You can add 1 WIND monster from your GY to your hand. You can only use each effect of "Turaga Matau" once per turn.
 	Link Marker DL: yes
 	Link Marker Right: yes
 	attack: 1400
 	defense: 1100
 	link number: 2
 	rarity: common
-	gamecode: Draft10100022
+	gamecode: 10100022
 card:
 	has styling: false
 	notes:
@@ -2032,7 +2032,7 @@ card:
 		
 		Self-bounce to summon and maybe trigger another "C.C. Matoran", pretty much unchanged
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-09-16 19:34:54
+	time modified: 2021-10-01 11:07:04
 	card type: effect monster
 	name: C.C. Matoran Tamaru
 	attribute: wind
@@ -2042,11 +2042,74 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you Normal or Special Summon a "C.C. Matoran" monster(s) while this card is in your GY: You can Special Summon this card in Defense Position. You can return this card to the hand; Special Summon 1 Level 2 Warrior-Type monster, except "C.C. Matoran Tamaru", from your hand. You can only use each "C.C. Matoran Tamaru" effect once per turn.
+	rule text: If you Normal or Special Summon a "Matoran" monster(s) while this card is in your GY: You can Special Summon this card in Defense Position. You can return this card to the hand; Special Summon 1 Level 2 Warrior-Type monster, except "C.C. Matoran Tamaru", from your hand. You can only use each "C.C. Matoran Tamaru" effect once per turn.
 	attack: 400
 	defense: 400
 	rarity: common
-	gamecode: DRAFT10100036
+	gamecode: 10100036
+card:
+	stylesheet: series10
+	has styling: false
+	notes: We'd also like "While you control "Illusion Token", your opponent's monsters cannot target monsters you control for attacks, except "Illusion Token"." because L O R E, but then it becomes the longest Spell Card text in the game :/
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-10-01 10:36:05
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Noble Kanohi Mahiki
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image50
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other monsters: You can Special Summon 1 "Illusion Token" (Beast/WIND/Level 1/ATK 0/DEF 0), but destroy it when this card leaves the field. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Matau" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Mahiki" once per turn. 
+	rarity: common
+	gamecode: 10100045
+card:
+	stylesheet: series10
+	has styling: false
+	notes: Phrasing (c) Pendulum Impenetrable
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-10-01 10:44:27
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Miru
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image51
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Lewa" from your Deck to your hand. You can only use this effect of "Great Kanohi Miru" once per turn.
+	rarity: common
+	gamecode: 10100012
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-11 11:47:28
+	time modified: 2021-10-01 11:03:23
+	card type: token monster
+	name: Illusion Token
+	attribute: wind
+	level: <sym-auto>*</sym-auto>
+	image: image52
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text: Summoned by the effect of "Noble Kanohi Mahiki".
+	attack: 0
+	defense: 0
+	gamecode: 10110045
 version control:
 	type: none
 apprentice code: 
