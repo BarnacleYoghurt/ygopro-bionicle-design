@@ -710,6 +710,11 @@ card:
 		
 		Maybe just double damage for faster OTK instead?
 		=> now covered with new Tahu main effect
+		
+		Another idea: "If a FIRE monster you control battles an opponent's monster, at the start of the Damage Step: You can send this card from your hand to the GY; until the end of the Damage Step, negate that opponent's monster's effects. If a FIRE Warrior monster you control destroys an opponent's monster by battle while this card is in your GY: You can Special Summon this card, and if you do, it gains ATK equal to the destroyed monster's original ATK in the GY, until the end of this turn. You can only use 1 "Matoran Legend Lhii" effect per turn, and only once that turn."
+		=> only keep the negation part of the hand effect to avoid fucking up other things, the rest was a bit niche in application anyway
+		=> GY effect gives you an additional big attacker if e.g. Lhii is discarded for Ta-Koro's ATK boost to get over a beater
+		=> only 1 per turn so you can't discard for a battle and then summon off that same battle's destruction
 	time created: 2020-03-02 07:53:28
 	time modified: 2020-09-07 12:58:06
 	card type: effect monster
