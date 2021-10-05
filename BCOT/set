@@ -632,7 +632,7 @@ card:
 		==> "then" conjunction means failing to bounce your target (maybe because of some protection like Miru?) fucks the whole effect up, more resilient phrasing would be "[...]; if you control that target, you can return 1 other monster on the field to the hand, also return that target to the hand."
 		===> Kinda awkward, so lets only do that if it's really needed for some kind of neat combo
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-10-01 10:19:25
+	time modified: 2021-10-05 23:56:25
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -647,8 +647,8 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text: To Tribute Summon this card face-up, you can Tribute 1 WIND or "Toa Mata" monster in your hand, except "Toa Mata Lewa".  Once per turn, if a monster(s) is Special Summoned from the hand, Main Deck, or GY while you control this card: You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled while on the field, you can return 1 additional monster on the field to the hand. 
-	attack: 2500
-	defense: 1400
+	attack: 2200
+	defense: 1900
 	rarity: common
 	gamecode: 10100006
 card:
