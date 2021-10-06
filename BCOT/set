@@ -2043,10 +2043,17 @@ card:
 		=> also helps the recovery aspect of Le-Koro since you get an extra body as long as you have another Tamaru to summon
 		==> maybe trigger on "Matoran" summon in general to increase future utility?
 		=> some kind of penalty for revive?
+		==> go to bottom of Deck, as Tamaru is a bottom-dwelling type of Le-Matoran :)
+		=> turns out triggering off summons has negative synergy with Le-Koro (even if it worked from the hand, you'd miss the trigger if you get Tamaru off the search)
+		==> Activates at your own convenience instead whenever you control a small Warrior, which is automatically given by Le-Koro reducing ATK to 0
+		===> doing that for free seems risky even with the penalty, so lets include an arbitrary discard cost for now and hope the strategy accomodates that
 		
 		Self-bounce to summon and maybe trigger another "C.C. Matoran", pretty much unchanged
+		=> only Hafu has an SS trigger in the new version, so this probably isn't really needed anymore
+		=> instead, go with the theme of buffing C.C. Matoran by self-bouncing to allow direct attacks (= conquering the fear of heights to make a path for them)
+		==> weird phrasing with "also" so it still works even if we have the leave field redirect active
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-10-01 11:07:04
+	time modified: 2021-10-06 09:37:53
 	card type: effect monster
 	name: C.C. Matoran Tamaru
 	attribute: wind
@@ -2056,7 +2063,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you Normal or Special Summon a "Matoran" monster(s) while this card is in your GY: You can Special Summon this card in Defense Position. You can return this card to the hand; Special Summon 1 Level 2 Warrior-Type monster, except "C.C. Matoran Tamaru", from your hand. You can only use each "C.C. Matoran Tamaru" effect once per turn.
+	rule text: If you control a Warrior monster with 1000 or less ATK: You can discard 1 card; Special Summon this card from your hand or GY, but place it on the bottom of the Deck when it leaves the field. During your Main Phase: You can activate this effect; your "C.C. Matoran" monsters can attack directly this turn, also return this card to the hand. You can only use each effect of "C.C. Matoran Tamaru" once per turn.
 	attack: 400
 	defense: 400
 	rarity: common
