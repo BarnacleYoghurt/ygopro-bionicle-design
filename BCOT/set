@@ -110,6 +110,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Reveal a monster and add a matching Field Spell}}
+		{{Activate "The Island of Mata Nui"}}
+		
 		On activate: Search Koro
 		=> Alternative approach: "You can reveal 1 monster in your hand, or target 1 face-up monster you control; add 1 "-Koro" Field Spell Card from your Deck to your hand that lists that monster's Attribute in its text."
 		==> Requires a monster and only searches the appropriate Koro for it
@@ -625,6 +628,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Normal Summon by Tributing from hand}}
+		{{Return monster to hand}}
+		{{Return additional monster to hand?}}
+		
 		Effect: Removal option for Toa Mata with no particular lore correspondence, triggered by special summons because Le-Koro will presumably do something with swarming.
 		=> May want to expand possible targets to face-down monsters as well
 		=> Updated to function similar to Pohatu's effect, where you get an additional non-targeting bounce under a condition (in this case, spending the first bounce on your own monster)
@@ -1236,6 +1243,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Negate summoned monster and make its ATK 0 to add WIND Warrior from Deck}}
+		{{Affected by "Le-Koro, Village of Air": Cannot Special Summon, except WIND monsters}}
+		
 		
 		Mata Role: Swarming (Recovery?)
 		
@@ -2010,6 +2020,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon Level 4 or lower WIND monster from hand}}
+		{{Add WIND monster from GY to hand during Standby Phase of your next turn}}
+		
 		Le-Koro concept is about being able to make a comeback with minimal resources (as opposed to Onu-Koro ensuring you always have ample resources), so Matau helps that by giving you an extra summon on an empty field and floating into recyclign a WIND
 		=> Adjust targets for these depending on what other cards are available
 		=> Testing suggests that requiring an empty field for the summon fucks up a lot of good plays (including using Matau's summon to trigger Lewa's bounce), so the drawback is now instead making the ATK 0, which fits with Le-Koro
@@ -2045,6 +2058,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card from your hand or GY}}
+		{{Make "C.C. Matoran" able to attack directly and return to hand}}
+		
 		Instead of floating when used as any material, revive self on "C.C. Matoran" summon
 		=> works as before if you're using Hafu
 		=> also helps the recovery aspect of Le-Koro since you get an extra body as long as you have another Tamaru to summon
@@ -2078,7 +2094,11 @@ card:
 card:
 	stylesheet: series10
 	has styling: false
-	notes: We'd also like "While you control "Illusion Token", your opponent's monsters cannot target monsters you control for attacks, except "Illusion Token"." because L O R E, but then it becomes the longest Spell Card text in the game :/
+	notes:
+		{{Special Summon Illusion Token}}
+		{{Special Summon Matau and equip with Mahiki}}
+		
+		We'd also like "While you control "Illusion Token", your opponent's monsters cannot target monsters you control for attacks, except "Illusion Token"." because L O R E, but then it becomes the longest Spell Card text in the game :/
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-10-01 10:36:05
 	extra data:
@@ -2100,7 +2120,10 @@ card:
 card:
 	stylesheet: series10
 	has styling: false
-	notes: Phrasing (c) Pendulum Impenetrable
+	notes:
+		{{Add Lewa to hand}}
+		
+		Phrasing (c) Pendulum Impenetrable
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-10-01 10:44:27
 	extra data:
