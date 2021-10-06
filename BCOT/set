@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.17.1
+	edition: Version 3.17.2
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2012,8 +2012,15 @@ card:
 	notes:
 		Le-Koro concept is about being able to make a comeback with minimal resources (as opposed to Onu-Koro ensuring you always have ample resources), so Matau helps that by giving you an extra summon on an empty field and floating into recyclign a WIND
 		=> Adjust targets for these depending on what other cards are available
+		=> Testing suggests that requiring an empty field for the summon fucks up a lot of good plays (including using Matau's summon to trigger Lewa's bounce), so the drawback is now instead making the ATK 0, which fits with Le-Koro
+		==> summon it "as a joke" because prankster (is this a stretch?)
+		=> floating effect shouldn't be used for immediate combo payoffs, so delay it until the own next SP, right before the potential comeback it's meant for
+		==> also get a bonus draw if your back's against the wall, because Turaga Matau shines in times of crisis
+		===> maybe "if you control no monsters" would be the more fitting condition?
+		===> could also be something like negating an opponent's monsters effects to easily take care of disruption (which could be seen as a "prank"), but that may be OP in this kind of delayed non-targeting fashion
+		==> should we target the monster to add to hand on activation?
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-10-01 10:32:26
+	time modified: 2021-10-06 18:37:11
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2027,7 +2034,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WIND Warrior monster
-		If you control no other Effect Monsters: You can Special Summon 1 Level 4 or lower WIND monster from your hand. If this card is sent from the field to the GY: You can add 1 WIND monster from your GY to your hand. You can only use each effect of "Turaga Matau" once per turn.
+		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand, but its ATK becomes 0. If this card is sent from the field to the GY: You can activate this effect; during the Standby Phase of your next turn, add 1 WIND monster from your GY to your hand, then, if your opponent controls more monsters than you do, draw 1 card. You can only use each effect of "Turaga Matau" once per turn.
 	Link Marker DL: yes
 	Link Marker Right: yes
 	attack: 1400
