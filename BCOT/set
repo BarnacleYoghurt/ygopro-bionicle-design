@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.17.2
+	edition: Version 3.17.3
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1263,14 +1263,16 @@ card:
 		
 		The enemy of Faith is Fragmentation.
 		=> somehow prevent cooperation between multiple cards
+		
+		3.17.3: Target 1 of the summoned monsters to make the case of multiple summons work more nicely (also the "with a different name" didn't make it into the implementation so let's just pretend that only showed up now as well)
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-10-01 10:26:09
+	time modified: 2021-10-08 16:40:41
 	card type: spell card
 	name: Le-Koro, Village of Air
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image23
-	rule text: Your opponent's monsters cannot target WIND monsters you control for attacks, except the WIND monster you control with the highest ATK (either, if tied). When you Normal or Special Summon a monster that has a Level: You can negate that monster's effects (if any) and make its ATK 0, and if you do, add 1 WIND Warrior monster with a different name and an equal or lower Level from your Deck to your hand, also you cannot Special Summon for the rest of this turn, except WIND monsters. You can only use this effect of "Le-Koro, Village of Air" once per turn.
+	rule text: Your opponent's monsters cannot target WIND monsters you control for attacks, except the WIND monster you control with the highest ATK (either, if tied). When you Normal or Special Summon a monster(s) that has a Level: You can target 1 of those monsters; negate its effects (if any) and make its ATK 0, and if you do, add 1 WIND Warrior monster with a different name and an equal or lower Level from your Deck to your hand, also you cannot Special Summon for the rest of this turn, except WIND monsters. You can only use this effect of "Le-Koro, Village of Air" once per turn.
 	rarity: common
 	gamecode: 10100030
 card:
@@ -2032,8 +2034,9 @@ card:
 		===> maybe "if you control no monsters" would be the more fitting condition?
 		===> could also be something like negating an opponent's monsters effects to easily take care of disruption (which could be seen as a "prank"), but that may be OP in this kind of delayed non-targeting fashion
 		==> should we target the monster to add to hand on activation?
+		===> kinda seems more correct, also you could say we have "Faith" that it's still going to be there next SP
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-10-06 18:37:11
+	time modified: 2021-10-08 16:34:28
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2047,7 +2050,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WIND Warrior monster
-		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand, but its ATK becomes 0. If this card is sent from the field to the GY: You can activate this effect; during the Standby Phase of your next turn, add 1 WIND monster from your GY to your hand, then, if your opponent controls more monsters than you do, draw 1 card. You can only use each effect of "Turaga Matau" once per turn.
+		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand, but its ATK becomes 0. If this card is sent from the field to the GY: You can target 1 other WIND monster in your GY; during the Standby Phase of your next turn, add that target to your hand, then, if your opponent controls more monsters than you do, draw 1 card. You can only use each effect of "Turaga Matau" once per turn.
 	Link Marker DL: yes
 	Link Marker Right: yes
 	attack: 1400
