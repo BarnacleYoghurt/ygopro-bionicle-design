@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.17.3
+	edition: Version 3.17.4
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2036,7 +2036,7 @@ card:
 		==> should we target the monster to add to hand on activation?
 		===> kinda seems more correct, also you could say we have "Faith" that it's still going to be there next SP
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-10-08 16:34:28
+	time modified: 2021-10-10 18:16:38
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2050,7 +2050,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WIND Warrior monster
-		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand, but its ATK becomes 0. If this card is sent from the field to the GY: You can target 1 other WIND monster in your GY; during the Standby Phase of your next turn, add that target to your hand, then, if your opponent controls more monsters than you do, draw 1 card. You can only use each effect of "Turaga Matau" once per turn.
+		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand in Attack Position, but its ATK becomes 0. If this card is sent from the field to the GY: You can target 1 other WIND monster in your GY; during the Standby Phase of your next turn, add that target to your hand, then, if your opponent controls more monsters than you do, draw 1 card. You can only use each effect of "Turaga Matau" once per turn.
 	Link Marker DL: yes
 	Link Marker Right: yes
 	attack: 1400
@@ -2102,8 +2102,11 @@ card:
 		{{Special Summon Matau and equip with Mahiki}}
 		
 		We'd also like "While you control "Illusion Token", your opponent's monsters cannot target monsters you control for attacks, except "Illusion Token"." because L O R E, but then it becomes the longest Spell Card text in the game :/
+		
+		Token being a Level 1 makes it usable for Linkuriboh, which isn't really all that well positioned in Le-Koro.dek
+		=> 3.17.4: So let's make it a Level 3 Spellcaster as a reference to old Turaga, then it instead becomes better for Synchro plays
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-10-01 10:36:05
+	time modified: 2021-10-10 18:19:39
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2117,7 +2120,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other monsters: You can Special Summon 1 "Illusion Token" (Beast/WIND/Level 1/ATK 0/DEF 0), but destroy it when this card leaves the field. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Matau" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Mahiki" once per turn. 
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other monsters: You can Special Summon 1 "Illusion Token" (Spellcaster/WIND/Level 3/ATK 0/DEF 0), but destroy it when this card leaves the field. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Matau" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Mahiki" once per turn. 
 	rarity: common
 	gamecode: 10100045
 card:
@@ -2149,17 +2152,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-02-11 11:47:28
-	time modified: 2021-10-01 11:03:23
+	time modified: 2021-10-10 18:22:46
 	card type: token monster
 	name: Illusion Token
 	attribute: wind
-	level: <sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image52
-	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
-	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text: Summoned by the effect of "Noble Kanohi Mahiki".
 	attack: 0
 	defense: 0
