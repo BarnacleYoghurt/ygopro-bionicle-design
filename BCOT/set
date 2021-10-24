@@ -1936,14 +1936,23 @@ card:
 		Could also give one of the Sanctum Guards the slot, but that conceptually overlaps with Nuju's own effect a bit (also would be weird to leave the other one out, they're equally irrelevant)
 		
 		Scribe = copies Nuju's translations of the Wall of Prophecy
-		=> interact with Nuju somehow?<soft-line>
-		=> learn something about the future?</soft-line>
+		=> interact with Nuju somehow?
+		==> Special Summon another Matoran from the GY (e.g. Kopeke or Matoro) after being used to make Nuju so he has something to flip for his effect
+		=> negation is reset upon being flipped face-down, so we get a nice fake downside that way<soft-line>
+		=> learn something about the future?
+		==> put a card on top of the Deck ("future" symbolism, see Vakama) as condition for GY effect
+		==> recycling any Spell/Trap (assuming you have some way to draw) and summoning a monster in the same effect might be too much, maybe think about that one again
+		===> What if we also put a special summoning restriction on the summoned monster (that conveniently gets turned off by flipping)?
+		
+		Can SS self after being searched by Kopeke, would essentially take Taipu's place in the current decklist
+		=> having an extra Spell/Trap around to send should be doable, and if not, the hand probably has Frog combos and you don't need the extra body
+		=> cost directly sets up GY effect, so you can NS Kopeke, search Jaa, SS Jaa, Kopeke + Jaa -> Nuju, trigger Jaa, put back the card sent to summon Jaa and revive Kopeke, flip Kopeke with Nuju to bounce something</soft-line>
 		
 		Sent Takua to the drifts to search for Matoro
 		=> interact with Takua somehow?
 		=> set up Matoro somehow?
 	time created: 2020-03-02 07:53:28
-	time modified: 2021-08-10 23:56:27
+	time modified: 2021-10-24 23:33:11
 	card type: effect monster
 	name: Matoran Scribe Jaa
 	attribute: water
@@ -1955,7 +1964,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: 
+	rule text: You can send 1 Spell/Trap from your hand or field to the GY; Special Summon this card from your hand. If this card is sent to the GY: You can target 1 Spell/Trap in your GY; place it on top of the Deck, and if you do, you can Special Summon 1 WATER "Matoran" monster from your GY, except "Matoran Scribe Jaa", but negate its effects, also you cannot Special Summon while you control that face-up monster. You can only use each effect of "Matoran Scribe Jaa" once per turn.
 	attack: 300
 	defense: 700
 	gamecode: DRAFT10100065
@@ -2037,7 +2046,7 @@ card:
 		==> should we target the monster to add to hand on activation?
 		===> kinda seems more correct, also you could say we have "Faith" that it's still going to be there next SP
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-10-10 18:16:38
+	time modified: 2021-10-24 17:26:23
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2169,6 +2178,41 @@ card:
 	attack: 0
 	defense: 0
 	gamecode: 10110045
+card:
+	has styling: false
+	notes:
+		The options for the Le-Koro bonus slot are Kumo (Disk Maker), and Makani and Sanso (Musicians)
+		=> preferably one of the Musicians since they're so iconic to Le-Koro's appearance in MNOG
+		=> Sanso is relevant for the principles in MNOG2, so let's save him for that
+		
+		Fun Fact: Makani is the Hawaiian word for "Wind" and also the name of one of the Elementsabers
+		
+		Tuner because Music?
+		
+		Plays music to welcome guests in Le-Koro, so on summon SS a Matoran of any attribute from hand
+		=> on summon so it can be chained to Le-Koro search and resolve before the negate hits
+		=> a possible combo for this would be NS Makani, SS Takua, Takua SS Tamaru, Takua + Tamaru -> Isolde, Isolde SS second Tamaru/Makani, Tamaru/Makani + Makani -> Matau or a Synchro, can also get Tamaru from GY as a 3rd monster at the cost of a discard
+		=> with Le-Koro active as well, another Tamaru can be searched from Makani's summon and SS itself, which comes out to 4 monsters or a Level 8 Synchro (though with a WIND lock from Le-Koro)
+		
+		GY effect to replenish resources on subsequent turn just goes along with general Le-Koro theme.
+		=> if Matau stays on the ploos route, maybe this one could be something that helps breaking boards instead?
+	time created: 2020-03-02 07:53:28
+	time modified: 2021-10-24 19:29:36
+	card type: effect monster
+	name: Matoran Musician Makani
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If this card is Normal or Special Summoned: You can Special Summon 1 Level 4 or lower "Matoran" monster from your hand. If this card is in your GY, except during the turn it was sent there: You can banish this card, then target 1 WIND "Matoran" monster in your GY, except "Matoran Musician Makani"; add it to your hand. You can only use each effect of "Matoran Musician Makani" once per turn.
+	attack: 500
+	defense: 400
+	gamecode: DRAFT10100066
 version control:
 	type: none
 apprentice code: 
