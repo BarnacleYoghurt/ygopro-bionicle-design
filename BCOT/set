@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.17.4
+	edition: Version 3.18.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1442,8 +1442,22 @@ card:
 		===> Lets you fetch the triggers you need after your opponent performs an action
 		===> Helps make the Kaita with Kini-Nui: Tribute a Combination, bring it back with no materials, tag out into 2 Toa Mata, and you have 3 materials ready to go
 		===> Avoids the confusing case where the only appropriate targets to revive are the attached materials and you thus can't activate the effect unless there are already other targets in the GY
+		
+		Detach effect: Detach 2 materials to set up a Suva (Kaita) in the GY and search a Spell/Trap
+		=> archetypal ones (Call, Coming) or Kanohi (only Great so we don't get access to legendaries this way)
+		=> The Suva part I'm sure about, but the search is still kinda random...
+		==> maybe something to harm the opponent so it fits the "explosive power of a volcano"?
+		===> But unless it's just boring old burn, that would be a problem to use turn 1, and we do want the Suva setup (though the second part could be optional I guess)
+		===> something like ATK reduction or changing to face-down Defense would go well with Tahu, but does that have enough impact to justify the 2 material cost?
+		==> or just something basic like a draw as the second payoff? (boooring)
+		
+		Tag-out effect is usable on the next turn after detaching the materials due to shared OPT
+		=> does it still need to summon in Defense or at least prevent the monsters from attacking?
+		=> Fastest combination to make the tagout available to the double detach on the ignition effect
+		==> If we replace the shared OPT with something like "can*t special summon magma for the rest of the turn" or just a general "can only special summon Magma once per turn", it could even show up, fire its effect, and then tag out, so that would let us get away with a relatively weak detach effect
+		===> also goes with the "explosive power" thing....
 	time created: 2014-12-08 15:30:26
-	time modified: 2020-09-29 23:25:01
+	time modified: 2021-12-02 09:23:14
 	card type: xyz monster
 	name: Toa Mata Combination - Magma
 	attribute: fire
@@ -1455,11 +1469,11 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		You can detach 2 Xyz Materials from this card; send 1 "Toa Mata" monster from your Deck to the Graveyard, then add 1 Level 1 Rock-Type monster from your Deck or Graveyard to your hand. You can only use this effect of "Toa Mata Combination - Magma" once per turn.
+		You can detach 2 Xyz Materials from this card; send 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to the GY, then add 1 "Great Kanohi" or "Toa" Spell/Trap from your Deck to your hand. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 FIRE and 1 EARTH monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Magma" effect per turn, and only once that turn.
 	attack: 2900
 	defense: 1200
 	rarity: common
-	gamecode: DRAFT10100057
+	gamecode: 10100057
 card:
 	has styling: false
 	notes:
@@ -1581,14 +1595,22 @@ card:
 		
 		Latest idea after testing Toa Mata deck with Suva and Kini-Nui: Recovery tool to bring back Toa from GY/banished.
 		=> tribute to SS from GY - no strong restrictions, targets readily available, requires summoning Suva Kaita first and only replaces it with a Toa
+		==> make it a quick effect so it can be used to set up a Toa Mata's trigger effect exactly when needed, and provides an immediate play when summoned via Kini-Nui in your End Phase
 		=> banish from GY to SS banished -  locks SS for the rest of the turn, targets need to set up with e.g. Kanohi, can be used whenever Suva Kaita is in GY (including right after using the first effect)
+		==> allow Toa in general here, so you can bring back a Combination and use its tagout to assemble Kaita materials
 		=> Both effects being usable in one turn is intentional, to offer the ability to go from just one Suva Kaita to a rank 6 provided GY and banished are set up properly - important for comebacks, may of course be overkill
 		=> SS restriction affecting only the Extra Deck and working for the whole turn (not just the rest) would also make sense, since that way it still doesn't prevent summoning Suva Kaita itself
+		==> ended up going with Extra Deck only for the rest of the turn only - anything else would probably be overkill when you only get a single monster and need setup
 		=> May want it to only work on "Toa Mata" or Level 6 or lower "Toa" - reviving Nuva that easily probably isn't a good idea
 		=> Maybe also negate the effects of the summoned monsters, destroy/banish them at the end of the turn, ... to make it clear that making a Rank 6 (Kaita) is the main goal
-		=> Maybe add an activation condition (control no other monsters, control no "Toa" monsters (like in the old version)) to first effect</soft-line>
+		==> Negating effects would be stupid fo the GY revive since you want to take advantage of trigger timings, and banish revive is probably already sufficiently restricted
+		==> Could make GY revive banish at the end of your/the next turn so you definitely get an opportunity to overlay still, but text seems long enough already, so let's only do that if really needed
+		=> Maybe add an activation condition (control no other monsters, control no "Toa" monsters (like in the old version)) to first effect
+		
+		Follow the Suva's lead in being treated as all non-DARK attributes in the hand (for Toa Mata summons) and GY (for Coming)
+		=> no need for on-field since you're not meant to use this in a Koro deck anyway (Suva Kaita is at Kini-Nui!)</soft-line>
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-12-25 00:21:20
+	time modified: 2021-12-02 08:54:42
 	card type: effect monster
 	name: Suva Kaita
 	attribute: light
@@ -1598,11 +1620,11 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: You can Tribute this card, then target 1 "Toa" monster that has a Level in your GY; Special Summon that target. You can banish this card from your GY, then target 1 of your banished "Toa" monsters that has a Level; you cannot Special Summon monsters for the rest of this turn, except "Toa" monsters, also Special Summon that target. You can only use each effect of "Suva Kaita" once per turn.
+	rule text: While in your hand or GY, this card is also WIND, WATER, FIRE, and EARTH-Attribute. (Quick Effect): You can Tribute this card, then target 1 Level 6 "Toa" monster in your GY; Special Summon that target. You can banish this card from your GY, then target 1 of your banished "Toa" monsters; you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except "Toa" monsters, also Special Summon that target. You can only use each effect of "Suva Kaita" once per turn.
 	attack: 0
 	defense: 0
 	rarity: common
-	gamecode: DRAFT10100050
+	gamecode: 10100050
 card:
 	has styling: false
 	notes:
@@ -1654,6 +1676,7 @@ card:
 		=> 0 means they're probably deeper in the Deck, so get Coming to make up for the -2 if you can just get something in the GY (e.g. with the discard cost)
 		=> adding 1 means you might not have a second, so get a Suva as guaranteed tribute fodder (=> +0)
 		=> adding 2 means you're ready to summon at least 1, so just give an LP boost as a reward, kinda callback to the old damage protection effect (and it's still +0)
+		=> could also have "Discard 1 card, then roll a six-sided die; excavate cards from the top of your Deck equal to the result" if we want a bit of gambling
 	time created: 2014-12-13 23:24:36
 	time modified: 2021-09-24 21:17:57
 	card type: spell card
@@ -2003,15 +2026,17 @@ card:
 		=> attack and ED summon restrictions hopefully cancel out any benefits of summoning from the deck beyond gaining the effect
 		==> Fusion is still allowed, just to make Toa Nuva even better
 		=> low stats are now no longer boosted by materials, this effect alone should be worth the downgrade
+		==> but change to different low stats, 2000+ ATK is useful as a sneaky way to mark Toa
 		=> summoning Toa Mata from Deck and bouncing them during EP kinda overlaps with what Coming of the Toa does (just on a smaller scale), so maybe adjust one of these two
 		=> maybe banish in EP instead of bounce (sets up Suva Kaita)
+		==> banish during EP of NEXT turn, so you can summon one during your turn and have its trigger available during your opponent's
 		=> being a QE lines up with Gali's trigger, summoning from Deck lines up with Lewa's
 		
 		Tag-out effect might still need some extra restrictions (no non-Toa SS? can't SS with just those two? banish self instead of tributing? can't special summon "Storm" for the rest of the turn? shared OPT so you need to wait a turn after using last material?)
 		=> SS lock on "Storm" seems clever, but text becomes dangerously long with that
 		=> banish or shared OPT don't need much more words, so those might be the most elegant options
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-09-14 18:44:06
+	time modified: 2021-12-02 09:54:54
 	card type: xyz monster
 	name: Toa Mata Combination -  Storm
 	attribute: wind
@@ -2023,11 +2048,11 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		During the Main or Battle Phase (Quick Effect): You can detach 1 material from this card; Special Summon 1 "Toa Mata" monster from your Deck, but it cannot attack or be used as material for a Synchro, Xyz, or Link Summon, also return it to the hand during the End Phase. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 WATER and 1 WIND monster) in your GY; Special Summon them in Defense Position. You can only use each effect of "Toa Mata Combination - Storm" once per turn.
-	attack: 1600
-	defense: 1900
+		During the Main or Battle Phase (Quick Effect): You can detach 1 material from this card; Special Summon 1 "Toa Mata" monster from your Deck, but its ATK becomes 0 and it cannot be used as material for a Synchro, Xyz, or Link Summon, also banish it during the End Phase of the next turn. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 WIND and 1 WATER monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Storm" effect per turn, and only once that turn.
+	attack: 2000
+	defense: 0
 	rarity: common
-	gamecode: DRAFT10100058
+	gamecode: 10100058
 card:
 	has styling: false
 	notes:
@@ -2213,6 +2238,155 @@ card:
 	attack: 500
 	defense: 400
 	gamecode: DRAFT10100066
+card:
+	has styling: false
+	notes:
+		Since the other combinations mostly help set up the main deck Toa Mata, maybe this one should provide an actual payoff to keep on the field - such as a S/T negate
+		=> anything an ED monster does satisfies Pohatu's trigger condition while Kopaka literally cannot be triggered by our own cards unless we get super fancy, so let's instead merge aspects of their respective effects here (Pohatu: S/T hate; Kopaka: banish)
+		=> effect can be used with 1 or 2 materials for extra flexibility with Kaita Kanohi's double material effect
+		==> first material to banish (but card still resolves, so only good against continuous cards and those with GY effects)
+		==> second material to also negate
+		
+		ATK buffed to 2000 for same reason as Storm
+		==> maybe bump DEF to 2800 as well so it can wall as good as Beatrice
+		
+		Maybe also add some kind of blanket protection for your other monsters/cards, just like Kopaka sucks up attacks?
+	time created: 2014-12-08 15:30:26
+	time modified: 2021-12-02 21:24:39
+	card type: xyz monster
+	name: Toa Mata Combination -  Crystal
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image53
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 6 "Toa Mata" monsters
+		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 1 or 2 materials from this card; if you detached 2 materials, negate that effect, also banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 EARTH and 1 WATER monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
+	attack: 2000
+	defense: 2700
+	rarity: common
+	gamecode: 10100059
+card:
+	has styling: false
+	notes:
+		The Toa Kaita for going 2nd
+		
+		VALOR IS THE COURAGE TO UNGA BUNGA
+		=> no effects during the BP
+		=> I SAID NO EFFECTS, GET THAT "CANNOT BE DESTROYED BY BATTLE" SHIT OUT OF HERE AS WELL
+		=> If you destroy something by battle (you probably will), detach 1 to burn
+		=> combine that with Kanohi Aki (+1000 ATK, piercing, attack all monsters, battle protection) and the OTK machine is complete
+		
+		May also need some defense against attempts to stop it before entering BP
+		=> but only if it's absolutely indispensable, as not having that and focusing purely on unga bunga is V A L O R 
+	time created: 2014-12-08 15:30:26
+	time modified: 2021-12-02 10:13:37
+	card type: xyz monster
+	name: Akamai, Toa Kaita of Valor
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image54
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 6 "Toa Mata" monsters
+		Your opponent cannot activate cards or effects during the Battle Phase. If this card battles an opponent's monster, that monster has its effects negated until the end of the Damage Step. Once per turn, if this card destroys an opponent's monster by battle: You can detach 1 material from this card; inflict damage to your opponent equal to the destroyed monster's original ATK.
+	attack: 3000
+	defense: 2000
+	rarity: common
+	gamecode: 10100013
+card:
+	has styling: false
+	notes:
+		Old:
+		"Once per turn: You can detach 1 Xyz Material from this card; send 1 random card from your opponent's hand and the top card of your opponent's deck to the Graveyard, then, if both cards are of the same card type (Monster,Spell or Trap), banish 1 card your opponent controls or in their Graveyard and draw 1 card."
+		
+		The Kaita for going 1st
+		
+		Omni-negate so you get something for your 3 mats + bonus effects based on the wisdom aspect
+		=> Potential problem: Can only negate if opponent has a hand - or not? (that it's ambiguous is a problem in and of itself...)
+		==> Maybe the negate and the wisdom game could be split into multiple effects that link together somehow?
+	time created: 2014-12-08 15:30:26
+	time modified: 2021-12-02 21:21:57
+	card type: xyz monster
+	name: Wairuha, Toa Kaita of Wisdom
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image55
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 6 "Toa Mata" monsters
+		Once per turn, when your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card, then declare 1 card type (Monster, Spell, or Trap); negate the activation, and if you do, your opponent reveals 1 random card in their hand and the top card of their Deck. Then, apply these effects, in sequence, depending on how many cards of the declared type were revealed.
+		<sym-auto>*</sym-auto>1+: Draw 1 card.
+		<sym-auto>*</sym-auto>2: Banish 1 card your opponent controls or in their GY.
+	attack: 2600
+	defense: 2600
+	rarity: common
+	gamecode: 10100014
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Basic idea is to have 3 effects (after the standard Kanohi self-destruct)
+		=> make Toa usable as 2 Xyz Materials for easier Kaita/Combination access
+		==> Big Problem: Only precedent is anime cards which are currently scripted with a fixed effect code, so it would be very inelegant
+		==> Could do something like Exorsisters where an activated effect lets you fake an Xyz Summon, but that means more text, especially if we need to distinguish between Kaita and combinations (we absolutely do)
+		==> Text is already a bit too long as is, so this might end up being cut, which would have implications for the Xyz designs as well...
+		===> For now, cut it and see how the whole thing works in testing
+		===> maybe there's some other way to make these not bricks?
+		=> grant Toa Kaita the combined mask powers
+		==> leave out the no battle damage part to save some words without losing anything super relevant (you're trying to OTK with Akamai anyway)
+		=> equip to the appopriate Kaita from GY when its SS'd
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-12-02 16:52:22
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Aki
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image56
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage to your opponent. If "Toa Kaita Akamai" is Special Summoned to your field while this card is in your GY: You can equip this card to that monster. You can only use this effect of "Great Kanohi Aki" once per turn.
+	rarity: common
+	gamecode: 10100048
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Just represent the Akaku with a continuous hand reveal so we don't have to shove an activated effect in there somehow
+		=> Akaku might itself change to something like that anyway
+	time created: 2014-12-04 22:54:03
+	time modified: 2021-12-02 17:00:39
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Great Kanohi Rua
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image57
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must play with their hand revealed. If "Toa Kaita Wairuha" is Special Summoned to your field while this card is in your GY: You can equip this card to that monster. You can only use this effect of "Great Kanohi Rua" once per turn.
+	rarity: common
+	gamecode: 10100049
 version control:
 	type: none
 apprentice code: 
