@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.18.0
+	edition: Version 3.18.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2246,13 +2246,14 @@ card:
 		=> effect can be used with 1 or 2 materials for extra flexibility with Kaita Kanohi's double material effect
 		==> first material to banish (but card still resolves, so only good against continuous cards and those with GY effects)
 		==> second material to also negate
+		==> since the Kaita Kanohi can't actually do double materials and as of 3.18.1 instead cheat out an extra material, we can just simplify this and always do the 2-mat negate+banish
 		
 		ATK buffed to 2000 for same reason as Storm
 		==> maybe bump DEF to 2800 as well so it can wall as good as Beatrice
 		
 		Maybe also add some kind of blanket protection for your other monsters/cards, just like Kopaka sucks up attacks?
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-02 21:24:39
+	time modified: 2021-12-05 10:26:06
 	card type: xyz monster
 	name: Toa Mata Combination -  Crystal
 	attribute: earth
@@ -2264,7 +2265,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 1 or 2 materials from this card; if you detached 2 materials, negate that effect, also banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 EARTH and 1 WATER monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
+		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 2 materials from this card; negate that effect, and if you do, banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 EARTH and 1 WATER monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
 	attack: 2000
 	defense: 2700
 	rarity: common
@@ -2342,11 +2343,15 @@ card:
 		==> Text is already a bit too long as is, so this might end up being cut, which would have implications for the Xyz designs as well...
 		===> For now, cut it and see how the whole thing works in testing
 		===> maybe there's some other way to make these not bricks?
+		====> could do what has been done to adapt the anime cards for the real game and make it SS a Toa from hand or GY and then force an Xyz Summon so it's actually used as intended
+		====> just from hand, then we can save on words by leaving out the HOPT and still not have a huge risk of loops
 		=> grant Toa Kaita the combined mask powers
 		==> leave out the no battle damage part to save some words without losing anything super relevant (you're trying to OTK with Akamai anyway)
 		=> equip to the appopriate Kaita from GY when its SS'd
+		==> probably redundant since we have an easily searchable Suva (and eventually also Gift of the Shrine)
+		==> cut this one if we want an anti-brick effect instead
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-02 16:52:22
+	time modified: 2021-12-05 10:41:22
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2360,7 +2365,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage to your opponent. If "Toa Kaita Akamai" is Special Summoned to your field while this card is in your GY: You can equip this card to that monster. You can only use this effect of "Great Kanohi Aki" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage. If this card is equipped to a "Toa" monster you control: You can Special Summon 1 "Toa" monster with the same Level from your hand, but negate its effects, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control.
 	rarity: common
 	gamecode: 10100048
 card:
@@ -2370,7 +2375,7 @@ card:
 		Just represent the Akaku with a continuous hand reveal so we don't have to shove an activated effect in there somehow
 		=> Akaku might itself change to something like that anyway
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-02 17:00:39
+	time modified: 2021-12-05 10:38:27
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2384,7 +2389,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must play with their hand revealed. If "Toa Kaita Wairuha" is Special Summoned to your field while this card is in your GY: You can equip this card to that monster. You can only use this effect of "Great Kanohi Rua" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must play with their hand revealed. If this card is equipped to a "Toa" monster you control: You can Special Summon 1 "Toa" monster with the same Level from your hand, but negate its effects, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control.
 	rarity: common
 	gamecode: 10100049
 version control:
