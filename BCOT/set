@@ -1457,7 +1457,7 @@ card:
 		==> If we replace the shared OPT with something like "can*t special summon magma for the rest of the turn" or just a general "can only special summon Magma once per turn", it could even show up, fire its effect, and then tag out, so that would let us get away with a relatively weak detach effect
 		===> also goes with the "explosive power" thing....
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-02 09:23:14
+	time modified: 2021-12-05 21:21:32
 	card type: xyz monster
 	name: Toa Mata Combination - Magma
 	attribute: fire
@@ -1469,7 +1469,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		You can detach 2 Xyz Materials from this card; send 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to the GY, then add 1 "Great Kanohi" or "Toa" Spell/Trap from your Deck to your hand. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 FIRE and 1 EARTH monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Magma" effect per turn, and only once that turn.
+		You can detach 2 Xyz Materials from this card; send 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to the GY, and if you do, you can halve the ATK/DEF of 1 monster your opponent controls. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 FIRE and 1 EARTH monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Magma" effect per turn, and only once that turn.
 	attack: 2900
 	defense: 1200
 	rarity: common
