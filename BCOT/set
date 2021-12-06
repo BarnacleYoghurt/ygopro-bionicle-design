@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.18.1
+	edition: Version 3.18.2
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2312,8 +2312,11 @@ card:
 		Omni-negate so you get something for your 3 mats + bonus effects based on the wisdom aspect
 		=> Potential problem: Can only negate if opponent has a hand - or not? (that it's ambiguous is a problem in and of itself...)
 		==> Maybe the negate and the wisdom game could be split into multiple effects that link together somehow?
+		===> This is also a good idea because then the negate can't be stopped by Ash
+		===> In terms of text length, the only thing that works is triggering straight off the material detach, that even leaves us enough room for a HOPT just in case
+		===> Make the negate work on your own cards as well so you can proactively trigger Wisdom
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-02 21:21:57
+	time modified: 2021-12-06 11:06:33
 	card type: xyz monster
 	name: Wairuha, Toa Kaita of Wisdom
 	attribute: wind
@@ -2325,7 +2328,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 6 "Toa Mata" monsters
-		Once per turn, when your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card, then declare 1 card type (Monster, Spell, or Trap); negate the activation, and if you do, your opponent reveals 1 random card in their hand and the top card of their Deck. Then, apply these effects, in sequence, depending on how many cards of the declared type were revealed.
+		Once per turn, when a card or effect is activated (Quick Effect): You can detach 1 material from this card; negate the activation. If a material(s) is detached from this card (except during the Damage Step): You can declare 1 card type (Monster, Spell, or Trap); your opponent reveals 1 random card in their hand and the top card of their Deck. Then, apply these effects, in sequence, based on the number of cards of the declared type revealed. You can only use this effect of "Wairuha, Toa Kaita of Wisdom" once per turn.
 		<sym-auto>*</sym-auto>1+: Draw 1 card.
 		<sym-auto>*</sym-auto>2: Banish 1 card your opponent controls or in their GY.
 	attack: 2600
@@ -2351,7 +2354,7 @@ card:
 		==> probably redundant since we have an easily searchable Suva (and eventually also Gift of the Shrine)
 		==> cut this one if we want an anti-brick effect instead
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-05 10:41:22
+	time modified: 2021-12-06 11:01:29
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
