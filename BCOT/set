@@ -1357,8 +1357,16 @@ card:
 		===> Banishing has definite impact even after Kanohi is swapped, hand reveal is secondary but still represents the ongoing X-Ray vision ability
 		===> Card to banish is choosable so you can go after Ko-Koro threates - maybe random would be more fair?
 		===> Requires opponent drawing as trigger, so can't just easily do hand check turn 1
+		==> Or: "If another "Kanohi" card is equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. While equipped to a "Toa" or "Makuta" monster you control, this card gains these effects.
+		*Your opponent must play with their hand revealed.
+		*Once per turn, if a Spell/Trap is added to your opponent's hand (except during the Damage Step): You can make the equipped monster lose 500 ATK, and if you do, banish that Spell/Trap until the End Phase."
+		==> Similar payoff, but with continuous hand reveal because if Mind on Air isn't broken, an equip spell that only works with certain Level 6 and/or Ritual monsters probably won't be either
+		==> "Sniping" a Spell/Trap (because Ko-Koro synergy) out of the opponent's hand could be said to represent the other vision enhancements like zooming provided by the additional lenses, and reduces ATK because due to the focus it takes
+		==> Really pushing the length boundaries again (ATK reduction is actually permanent because I cut the "until the end of this turn" there), would be nice if that can be shortened
+		
+
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-08-23 11:59:43
+	time modified: 2021-12-07 09:46:55
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
