@@ -1363,7 +1363,6 @@ card:
 		==> Similar payoff, but with continuous hand reveal because if Mind on Air isn't broken, an equip spell that only works with certain Level 6 and/or Ritual monsters probably won't be either
 		==> "Sniping" a Spell/Trap (because Ko-Koro synergy) out of the opponent's hand could be said to represent the other vision enhancements like zooming provided by the additional lenses, and reduces ATK because due to the focus it takes
 		==> Really pushing the length boundaries again (ATK reduction is actually permanent because I cut the "until the end of this turn" there), would be nice if that can be shortened
-		
 
 	time created: 2014-12-04 22:54:03
 	time modified: 2021-12-07 09:46:55
@@ -2365,7 +2364,7 @@ card:
 		==> probably redundant since we have an easily searchable Suva (and eventually also Gift of the Shrine)
 		==> cut this one if we want an anti-brick effect instead
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-06 11:01:29
+	time modified: 2021-12-08 16:38:53
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2379,7 +2378,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage. If this card is equipped to a "Toa" monster you control: You can Special Summon 1 "Toa" monster with the same Level from your hand, but negate its effects, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage. Once per turn, if this card is equipped to a "Toa Mata" monster you control: You can Special Summon 1 "Toa Mata" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
 	rarity: common
 	gamecode: 10100048
 card:
@@ -2389,7 +2388,7 @@ card:
 		Just represent the Akaku with a continuous hand reveal so we don't have to shove an activated effect in there somehow
 		=> Akaku might itself change to something like that anyway
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-05 10:38:27
+	time modified: 2021-12-08 16:40:06
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2403,7 +2402,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must play with their hand revealed. If this card is equipped to a "Toa" monster you control: You can Special Summon 1 "Toa" monster with the same Level from your hand, but negate its effects, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must play with their hand revealed. Once per turn, if this card is equipped to a "Toa Mata" monster you control: You can Special Summon 1 "Toa Mata" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
 	rarity: common
 	gamecode: 10100049
 version control:
