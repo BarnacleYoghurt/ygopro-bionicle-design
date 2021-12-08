@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.18.2
+	edition: Version 3.18.3
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1464,7 +1464,7 @@ card:
 		==> If we replace the shared OPT with something like "can*t special summon magma for the rest of the turn" or just a general "can only special summon Magma once per turn", it could even show up, fire its effect, and then tag out, so that would let us get away with a relatively weak detach effect
 		===> also goes with the "explosive power" thing....
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-05 21:21:32
+	time modified: 2021-12-08 17:05:29
 	card type: xyz monster
 	name: Toa Mata Combination - Magma
 	attribute: fire
@@ -1476,7 +1476,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		You can detach 2 Xyz Materials from this card; send 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to the GY, and if you do, you can halve the ATK/DEF of 1 monster your opponent controls. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 FIRE and 1 EARTH monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Magma" effect per turn, and only once that turn.
+		You can detach 2 Xyz Materials from this card; send 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to the GY, and if you do, you can halve the ATK/DEF of 1 monster your opponent controls. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 FIRE and 1 EARTH monster) in your GY; Special Summon them, but they cannot attack this turn. You can only use 1 "Toa Mata Combination - Magma" effect per turn, and only once that turn.
 	attack: 2900
 	defense: 1200
 	rarity: common
@@ -2043,7 +2043,7 @@ card:
 		=> SS lock on "Storm" seems clever, but text becomes dangerously long with that
 		=> banish or shared OPT don't need much more words, so those might be the most elegant options
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-02 09:54:54
+	time modified: 2021-12-08 17:03:50
 	card type: xyz monster
 	name: Toa Mata Combination -  Storm
 	attribute: wind
@@ -2055,7 +2055,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		During the Main or Battle Phase (Quick Effect): You can detach 1 material from this card; Special Summon 1 "Toa Mata" monster from your Deck, but its ATK becomes 0 and it cannot be used as material for a Synchro, Xyz, or Link Summon, also banish it during the End Phase of the next turn. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 WIND and 1 WATER monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Storm" effect per turn, and only once that turn.
+		During the Main or Battle Phase (Quick Effect): You can detach 1 material from this card; Special Summon 1 "Toa Mata" monster from your Deck, but its ATK becomes 0 and it cannot be used as material for a Synchro, Xyz, or Link Summon, also banish it during the End Phase of the next turn. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 WIND and 1 WATER monster) in your GY; Special Summon them, but they cannot attack this turn. You can only use 1 "Toa Mata Combination - Storm" effect per turn, and only once that turn.
 	attack: 2000
 	defense: 0
 	rarity: common
@@ -2260,7 +2260,7 @@ card:
 		
 		Maybe also add some kind of blanket protection for your other monsters/cards, just like Kopaka sucks up attacks?
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-05 10:26:06
+	time modified: 2021-12-08 17:05:18
 	card type: xyz monster
 	name: Toa Mata Combination -  Crystal
 	attribute: earth
@@ -2272,7 +2272,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 2 materials from this card; negate that effect, and if you do, banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 EARTH and 1 WATER monster) in your GY; Special Summon them. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
+		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 2 materials from this card; negate that effect, and if you do, banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 EARTH and 1 WATER monster) in your GY; Special Summon them, but they cannot attack this turn. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
 	attack: 2000
 	defense: 2700
 	rarity: common
