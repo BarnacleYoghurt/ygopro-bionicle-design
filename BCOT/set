@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.18.3
+	edition: Version 3.18.4
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1363,8 +1363,9 @@ card:
 		==> Similar payoff, but with continuous hand reveal because if Mind on Air isn't broken, an equip spell that only works with certain Level 6 and/or Ritual monsters probably won't be either
 		==> "Sniping" a Spell/Trap (because Ko-Koro synergy) out of the opponent's hand could be said to represent the other vision enhancements like zooming provided by the additional lenses, and reduces ATK because due to the focus it takes
 		==> Really pushing the length boundaries again (ATK reduction is actually permanent because I cut the "until the end of this turn" there), would be nice if that can be shortened
+		===> An ATK reduction as cost is basically just symbolic anyway, so might as well leave out all those words and just banish, short and crisp
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-09 23:06:21
+	time modified: 2021-12-09 23:54:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1378,7 +1379,10 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster you control and your opponent draws a card(s): You can activate this effect; your opponent reveals that card(s) (until your next End Phase). Spells/Traps revealed by this effect cannot be activated or Set while you control this face-up card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. 
+	rule text:
+		If another "Kanohi" card is equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. While equipped to a "Toa" or "Makuta" monster you control, this card gains these effects.
+		<sym-auto>*</sym-auto>Your opponent must keep their hand revealed.
+		<sym-auto>*</sym-auto>Once per turn, if your opponent adds a Spell/Trap(s) to their hand (except during the Damage Step): You can banish that Spell/Trap(s) until the End Phase.
 	rarity: common
 	gamecode: 10100011
 card:
