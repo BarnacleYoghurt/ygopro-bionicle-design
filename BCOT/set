@@ -2391,7 +2391,7 @@ card:
 		Just represent the Akaku with a continuous hand reveal so we don't have to shove an activated effect in there somehow
 		=> Akaku might itself change to something like that anyway
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-08 16:40:06
+	time modified: 2021-12-09 23:57:57
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2405,7 +2405,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must play with their hand revealed. Once per turn, if this card is equipped to a "Toa Mata" monster you control: You can Special Summon 1 "Toa Mata" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must keep their hand revealed. Once per turn, if this card is equipped to a "Toa Mata" monster you control: You can Special Summon 1 "Toa Mata" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
 	rarity: common
 	gamecode: 10100049
 version control:
