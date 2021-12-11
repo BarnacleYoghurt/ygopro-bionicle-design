@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.18.4
+	edition: Version 3.18.5
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2046,7 +2046,7 @@ card:
 		=> SS lock on "Storm" seems clever, but text becomes dangerously long with that
 		=> banish or shared OPT don't need much more words, so those might be the most elegant options
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-08 17:03:50
+	time modified: 2021-12-11 23:47:37
 	card type: xyz monster
 	name: Toa Mata Combination -  Storm
 	attribute: wind
@@ -2059,7 +2059,7 @@ card:
 	rule text:
 		2 Level 6 "Toa Mata" monsters
 		During the Main or Battle Phase (Quick Effect): You can detach 1 material from this card; Special Summon 1 "Toa Mata" monster from your Deck, but its ATK becomes 0 and it cannot be used as material for a Synchro, Xyz, or Link Summon, also banish it during the End Phase of the next turn. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 WIND and 1 WATER monster) in your GY; Special Summon them, but they cannot attack this turn. You can only use 1 "Toa Mata Combination - Storm" effect per turn, and only once that turn.
-	attack: 2000
+	attack: 2200
 	defense: 0
 	rarity: common
 	gamecode: 10100058
