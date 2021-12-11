@@ -531,7 +531,7 @@ card:
 		=> Symbolism is basically the same as the other effect (i.e., just Drill Warrior)
 		=> Activation condition is more easily fullfilled outside BP
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-11-26 22:56:00
+	time modified: 2021-12-11 23:43:22
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -547,7 +547,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text: To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua", instead of a monster you control. Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place that target on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than or equal to this card's current ATK, gain LP equal to the difference.
 	attack: 2100
-	defense: 2000
+	defense: 2100
 	rarity: common
 	gamecode: 10100003
 card:
@@ -566,7 +566,7 @@ card:
 		=> Could also be triggered by Tribute Summons (in addition to ED summons), since it's also a form of the Po-Koro idea of "creating" something bigger out of materials and would have synergy with Toa Mata in general - whether that's justifiable or not depends on how Po-Koro turns out
 		==> Perhaps better: Also trigger on ED effect activations, so it works on/against an established board
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-04-16 09:35:16
+	time modified: 2021-12-11 23:45:07
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -583,7 +583,7 @@ card:
 	number: BCOT-EN018
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
-	defense: 1650
+	defense: 1700
 	rarity: common
 	gamecode: 10100004
 card:
