@@ -1302,7 +1302,7 @@ card:
 		The general idea is that a Suva in Defense Position should act like a continouous Spell/Trap that can also be destroyed by battle (the only real reason it's a monster is so you can tribute it for the Toa). This works without any special protection, except in the presence of piercing or battle position changing effects, where the card is instead a huge liability.
 		=> adding a small protection effect to negate battle damage would fix this
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-12-21 16:00:21
+	time modified: 2021-12-11 23:14:21
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1312,7 +1312,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell Card, this card is also WIND, WATER, FIRE, and EARTH-Attribute. <i-flavor></i>Once per Chain (Quick Effect): You can target 1 face-up "Toa" monster you control; equip 1 "Kanohi" Equip Spell Card from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
+	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell Card, this card is also WIND, WATER, FIRE, and EARTH-Attribute. <i-flavor></i>Once per Chain (Quick Effect): You can pay 500 LP, then target 1 "Toa" monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
 	attack: 0
 	defense: 0
 	rarity: common
