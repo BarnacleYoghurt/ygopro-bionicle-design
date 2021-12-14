@@ -2408,6 +2408,75 @@ card:
 	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Kaita" monster, it is unaffected by your opponent's card effects, also your opponent must keep their hand revealed. Once per turn, if this card is equipped to a "Toa Mata" monster you control: You can Special Summon 1 "Toa Mata" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
 	rarity: common
 	gamecode: 10100049
+card:
+	has styling: false
+	notes:
+		Basically the same idea, but on a Link-3 instead of a Field Spell to give Turaga a dedicated link climbing option
+		=> no need to support Amaja-Nui on Mata Nui or such this way
+		=> Problem: Le-Koro would be one of the biggest beneficiaries here, except the village itself prevents summoning this even if its effect would make it WIND once on the field...
+		==> Maybe make Le-Koro lock you into WIND monster effects instead, that also has precedent
+		
+		Takes on the Attribute of Turaga in use, so in a Koro deck it's always the correct attribute (unless the material gets banished or something) and in a multi-attribute deck it potentially covers everything, also enhancing its effects
+		
+		Summoning a Warrior is the equivalent to the Field Spell's Turaga-Swapping - since being able to add a warrior of the correct attribute effectively makes anything else on your field a 1-mat Turaga
+		=> original swap wouldn't have worked because you have to use your Turaga as material for this Amaja-Nui
+		=> what this doesn't help you do is make a Turaga of an entirely new Attribute, so maybe rethink that once more
+		
+		Floats into a Noble Kanohi in GY and a Token to Tribute off for it, just like the Field Spell
+		=> could effectively be merged with the main ignition effect by simply giving that the Noble Kanohi cost
+		
+
+	time created: 2014-12-09 17:11:13
+	time modified: 2021-12-14 23:52:50
+	card type: link monster
+	name: Circle of Legends, Amaja-Nui
+	attribute: light
+	level: <sym-auto>&</sym-auto>
+	image: image58
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2+ monsters, including a "Turaga" monster
+		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can only use each of the following effects of "Circle of Legends, Amaja-Nui" once per turn. During your Main Phase: You can Special Summon 1 Level 4 or lower  Warrior monster with the same Attribute as this card from your hand or GY to your zone this card points to. If this card is destroyed or banished: You can send 1 "Noble Kanohi" Equip Spell from your Deck to the GY; Special Summon 1 "Legend Stone Token" (Rock/LIGHT/Level 6/ATK 0/DEF 0). 
+	Link Marker Down: yes
+	Link Marker DL: yes
+	Link Marker Right: yes
+	attack: 1900
+	link number: 3
+	rarity: common
+	gamecode: DRAFT10100060b
+card:
+	has styling: false
+	notes: Or some kind of effect like that where you get a strong payoff for playing many Attributes of Turaga
+	time created: 2014-12-14 08:29:10
+	time modified: 2021-12-15 00:07:56
+	card type: link monster
+	name: Turaga Nui
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image59
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2+ "Turaga" monsters
+		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY, except "Turaga Nui". Your opponent cannot activate the effects of monsters with the same Attribute as this card.
+	Link Marker Up: yes
+	Link Marker Down: yes
+	Link Marker DL: yes
+	Link Marker DR: none
+	Link Marker Left: none
+	Link Marker Right: yes
+	attack: 2500
+	defense: 3000
+	link number: 4
+	rarity: common
+	gamecode: DRAFT10100039
 version control:
 	type: none
 apprentice code: 
