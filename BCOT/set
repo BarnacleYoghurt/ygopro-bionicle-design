@@ -913,7 +913,7 @@ card:
 		Excavate just like Call of the Toa Stones, because that's a Takua thing - also represents searching for the Chronicler's Company
 		Normal Summon + eff is a 1-card combo into a Turaga for any Koro deck that runs its respective C.C. Matoran
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-07-11 23:46:45
+	time modified: 2021-12-13 23:28:42
 	card type: effect monster
 	name: Matoran Chronicler Takua
 	attribute: light
@@ -923,7 +923,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If all monsters you control, except DARK and LIGHT monsters, have the same Attribute, this card is also treated as that Attribute. If this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck on top of your Deck. You can discard 1 card; excavate the top 6 cards of your Deck, and if you do, Special Summon 1 excavated "C.C. Matoran" monster, also for every 3 excavated "C.C. Matoran" monsters, you can add 1 excavated "C.C. Matoran" monster to your hand. You can only use this effect of "Matoran Chronicler Takua" once per turn.
+	rule text: If this card is Normal or Special Summoned: You can place 1 "C.C. Matoran" monster from your hand, Deck or GY on top of your Deck, and if you do, this card's Attribute becomes that monster's original Attribute. You can discard 1 card; excavate the top 6 cards of your Deck, and if you do, you can Special Summon 1 excavated "C.C. Matoran" monster, also shuffle the rest into your Deck. You can only use this effect of "Matoran Chronicler Takua" once per turn.
 	attack: 350
 	defense: 350
 	rarity: common
