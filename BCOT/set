@@ -1441,8 +1441,8 @@ card:
 	has styling: false
 	notes:
 		{{Send Level 1 Rock from Deck to GY}}
-		{{Halve the ATK/DEF of 1 monster your opponent controls?}}
 		{{Tribute to Special Summon 1 FIRE and 1 EARTH "Toa Mata"}}
+		{{Halve the ATK/DEF of 1 monster your opponent controls?}}
 		
 		Considerations for overhaul of Toa Mata combinations:
 		=> help with qualities like consistency and recoverability, since main deck Toa Mata don't explicitly interact
