@@ -1278,6 +1278,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Pay 500 LP to equip a Kanohi to a Toa}}
+		{{Special Summon "Suva"}}
+		
 		Another alternative way to not have the requip effect on every single Toa.
 		
 		Hole in strategy: How to get on field after tributing?
@@ -1343,9 +1346,8 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
-		{{Reveal drawn card(s)}}
+		{{Banish added Spell/Trap(s)}}
 		{{Add Kopaka to hand}}
-		{{Revealed by "Great Kanohi Akaku"}}
 		
 		Piercing damage got added to the Pakari, so we need something else here. Suggestion: Hand reveal.
 		=> Existing cards commonly associate light with revealing set cards, while hand reveals are associated with mind reading and straight up cheating
@@ -1438,6 +1440,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send Level 1 Rock from Deck to GY}}
+		{{Halve the ATK/DEF of 1 monster your opponent controls?}}
+		{{Tribute to Special Summon 1 FIRE and 1 EARTH "Toa Mata"}}
+		
 		Considerations for overhaul of Toa Mata combinations:
 		=> help with qualities like consistency and recoverability, since main deck Toa Mata don't explicitly interact
 		=> ideally, abilities of the participants should have visible influence in the combination's effect
@@ -1599,6 +1605,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Tribute to Special Summon a Level 6 "Toa" from GY}}
+		{{Banish to Special Summon a banished "Toa"}}
+		
 		If other cards are sufficient to summon multiple Toa, maybe make this aid Kaita with something like letting a Toa Mata be treated as 2 materials?
 		<soft-line>
 		GY eff: Also replace with something relevant to Kaita?
@@ -1852,7 +1861,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Flip monsters face-down}}
+		{{Flip monsters face-down to bounce}}
 		
 		Quasi-remove stuff without impacting Ko-Koro's protection
 		=> Unwilling to talk to anyone who isn't patient, so monsters have to wait a turn before coming face-to-face with him again
@@ -2032,6 +2041,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon a "Toa Mata" from Deck}}
+		{{Tribute to Special Summon 1 WIND and 1 WATER "Toa Mata"}}
+		
 		Sticking with the original "storm of summons/effects" concept, but now it straight up fetches any Toa Mata from deck since we need the extra flexibility to exploit the correct triggers
 		=> attack and ED summon restrictions hopefully cancel out any benefits of summoning from the deck beyond gaining the effect
 		==> Fusion is still allowed, just to make Toa Nuva even better
@@ -2251,6 +2263,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Negate Spell/Trap effect}}
+		{{Tribute to Special Summon 1 WATER and 1 EARTH "Toa Mata"}}
+		
 		Since the other combinations mostly help set up the main deck Toa Mata, maybe this one should provide an actual payoff to keep on the field - such as a S/T negate
 		=> anything an ED monster does satisfies Pohatu's trigger condition while Kopaka literally cannot be triggered by our own cards unless we get super fancy, so let's instead merge aspects of their respective effects here (Pohatu: S/T hate; Kopaka: banish)
 		=> effect can be used with 1 or 2 materials for extra flexibility with Kaita Kanohi's double material effect
@@ -2263,7 +2278,7 @@ card:
 		
 		Maybe also add some kind of blanket protection for your other monsters/cards, just like Kopaka sucks up attacks?
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-08 17:05:18
+	time modified: 2021-12-15 20:24:27
 	card type: xyz monster
 	name: Toa Mata Combination -  Crystal
 	attribute: earth
@@ -2275,7 +2290,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 6 "Toa Mata" monsters
-		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 2 materials from this card; negate that effect, and if you do, banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 EARTH and 1 WATER monster) in your GY; Special Summon them, but they cannot attack this turn. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
+		When a Spell/Trap Card or effect is activated (Quick Effect): You can detach 2 materials from this card; negate that effect, and if you do, banish that card. (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 "Toa Mata" monsters (1 WATER and 1 EARTH monster) in your GY; Special Summon them, but they cannot attack this turn. You can only use 1 "Toa Mata Combination - Crystal" effect per turn, and only once that turn.
 	attack: 2000
 	defense: 2700
 	rarity: common
@@ -2283,6 +2298,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Inflict damage}}
+		
 		The Toa Kaita for going 2nd
 		
 		VALOR IS THE COURAGE TO UNGA BUNGA
@@ -2314,6 +2331,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Negate the activation}}
+		{{Declare a card type}}
+		
 		Old:
 		"Once per turn: You can detach 1 Xyz Material from this card; send 1 random card from your opponent's hand and the top card of your opponent's deck to the Graveyard, then, if both cards are of the same card type (Monster,Spell or Trap), banish 1 card your opponent controls or in their Graveyard and draw 1 card."
 		
@@ -2349,6 +2369,8 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Special Summon from hand, then Xyz Summon}}
+		
 		Basic idea is to have 3 effects (after the standard Kanohi self-destruct)
 		=> make Toa usable as 2 Xyz Materials for easier Kaita/Combination access
 		==> Big Problem: Only precedent is anime cards which are currently scripted with a fixed effect code, so it would be very inelegant
@@ -2388,6 +2410,8 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Special Summon from hand, then Xyz Summon}}
+		
 		Just represent the Akaku with a continuous hand reveal so we don't have to shove an activated effect in there somehow
 		=> Akaku might itself change to something like that anyway
 	time created: 2014-12-04 22:54:03
@@ -2424,7 +2448,6 @@ card:
 		
 		Floats into a Noble Kanohi in GY and a Token to Tribute off for it, just like the Field Spell
 		=> could effectively be merged with the main ignition effect by simply giving that the Noble Kanohi cost
-		
 
 	time created: 2014-12-09 17:11:13
 	time modified: 2021-12-14 23:52:50
