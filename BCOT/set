@@ -580,7 +580,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOT-EN019
+	number: BCOT-EN020
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1700
@@ -2552,7 +2552,7 @@ card:
 		==> maybe banish (temporarily) instead of bouncing?
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-18 17:30:12
+	time modified: 2021-12-18 20:40:28
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
@@ -2565,6 +2565,70 @@ card:
 		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards.
 	rarity: common
 	gamecode: DRAFT10100038
+card:
+	has styling: false
+	notes:
+		Old:
+		"3 Level 2 "Matoran" monsters
+		While this card has Xyz Material: It cannot be destroyed by battle. Once per turn: You can detach 1 Xyz Material from this card; activate 1 of the following effects, depending on the Attribute of the detached material:
+		*FIRE: This card gains 600 ATK.
+		*WATER: Target 1 Spell/Trap card on the field; destroy that target.
+		*EARTH: Draw 1 card for each of this card's Xyz Materials (max. 2).
+		*WIND: Target 1 non-WIND monster in your Graveyard; attach it to this card as a Xyz Material.
+		● LIGHT/DARK: Target 1 Level 2 monster in your Graveyard; Special Summon that target."
+		
+		Updated version should probably make this a QE for extra flexibility since the payoffs aren't that great, but do we even want to use the same approach?
+		=> individual effects adjusted to somehow align with their Koro's playstyle
+		==> though you probably wouldn't make this in a Koro deck since it's off-Attribute and can't use its full potential without materials of varied Attributes
+		=> could be further buffed by letting you detach multiple (up to 3?) at once to get all the effects
+		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
+	time created: 2014-12-08 15:30:26
+	time modified: 2021-12-18 23:42:29
+	card type: xyz monster
+	name: Diminished Matoran Kaita
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image63
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 2 "Matoran" monsters
+		Cannot be destroyed by battle while it has material. Once per turn (Quick Effect): You can detach 1 material from this card; apply this effect, depending on the original Attribute of the detached material.
+		<sym-auto>*</sym-auto>FIRE: This card gains 600 ATK.
+		<sym-auto>*</sym-auto>WATER: "Matoran" monsters you control cannot be destroyed by card effects this turn.
+		<sym-auto>*</sym-auto>EARTH: Draw 1 card.
+		<sym-auto>*</sym-auto>WIND: Shuffle up to 3 of your monsters that are banished or in the GY into the Deck.
+		<sym-auto>*</sym-auto>LIGHT/DARK: Special Summon 1 Level 2 "Matoran" monster from your hand or GY.
+	attack: 1200
+	defense: 1500
+	rarity: common
+	gamecode: DRAFT10100046
+card:
+	has styling: false
+	notes:
+		Old:
+		"Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more Level 2 "Matoran" monsters with different names in your Graveyard, and cannot be Special Summoned by other ways.  During either player's turn: You can Tribute this card and 1 Level 2 monster, then target 2 cards on the field; destroy those targets. When this card leaves the field: Special Summon 1 Level 2 "Matoran" monster from your Graveyard."
+		
+		Same idea as Turaga Nui - provide a bit of utiltiy while assembling the necessary pieces, and then reward completing that with some kind of great payoff
+		=> payoff rather TODO in this case, right now it's just the 2.5k bdy
+	time created: 2014-12-14 08:29:10
+	time modified: 2021-12-18 23:56:48
+	card type: effect monster
+	name: Diminished Matoran Nui
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image64
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more Level 2 "Matoran" monsters with different names in your GY, and cannot be Special Summoned by other ways. During your Main Phase: You can send both this card from your hand and 1 Level 2 "Matoran" monster from your Deck to the GY. 
+	attack: 2500
+	defense: 2500
+	rarity: common
+	gamecode: DRAFT10100047
 version control:
 	type: none
 apprentice code: 
