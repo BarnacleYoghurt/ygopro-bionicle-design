@@ -580,7 +580,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOT-EN018
+	number: BCOT-EN019
 	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1700
@@ -2500,6 +2500,41 @@ card:
 	link number: 4
 	rarity: common
 	gamecode: DRAFT10100039
+card:
+	has styling: false
+	notes:
+		Climbing into a Link-4 with only Turaga seems kind of tricky since they're not really meant to be used together (and using the Link-3 Amaja-Nui breaks the archetype chain) and also doesn't reflect it being a combination of 6 Turaga, so here's another approach similar to the old idea.
+		
+		Effect 1 helps with making Turaga, especially for Attributes that lack Warriors
+		=> Could also make it cheaper by just revealing (maybe also from the ED so you can directly go for the Turaga you're trying to make?) rather than Tributing, but in that case it would lock you into only Turaga at least while it's on the field when Special Summoned this way
+		=> Even simpler alternative would be just discarding itself to get a Warrior of a certain Attribute, but that might be better on the Matoran Nui
+		
+		Effect 2 is the payoff for actually going through the whole Turaga lineup, just a full field negate that triggers from the GY
+		=> Summons the Turaga Nui because now it has officially been made (and gives your opponent a window to banish it from the field, for fairness)
+		=> Can be reused every damn turn because you sure deserve it once you get that far
+	time created: 2014-12-14 08:29:10
+	time modified: 2021-12-18 16:27:23
+	card type: effect monster
+	name: Turaga Nui
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image60
+	type 1: <word-list-ENrace>Spellcaster</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can Tribute 1 other monster from your hand or field; Special Summon this card from your hand, and if you do, it becomes a Warrior monster with the same Attribute as the Tributed monster. If your opponent activates a card or effect while there are 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from the GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
+	Link Marker Up: yes
+	Link Marker Down: yes
+	Link Marker DL: yes
+	Link Marker DR: none
+	Link Marker Left: none
+	Link Marker Right: yes
+	attack: 2000
+	defense: 2000
+	link number: 4
+	rarity: common
+	gamecode: DRAFT10100039b
 version control:
 	type: none
 apprentice code: 
