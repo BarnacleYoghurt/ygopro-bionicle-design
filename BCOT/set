@@ -1325,7 +1325,7 @@ card:
 	has styling: false
 	notes: Increase Kanohi stockpile, recycle Suva.
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-09-07 12:57:05
+	time modified: 2021-12-19 21:01:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2449,8 +2449,9 @@ card:
 		
 		Floats into a Noble Kanohi in GY and a Token to Tribute off for it, just like the Field Spell
 		=> could effectively be merged with the main ignition effect by simply giving that the Noble Kanohi cost
+		==> did that, so no secondary effect for now, maybe there's something reasonably short that becomes apparent as a useful addition in testing
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-12-14 23:52:50
+	time modified: 2021-12-20 00:23:33
 	card type: link monster
 	name: Circle of Legends, Amaja-Nui
 	attribute: light
@@ -2464,7 +2465,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2+ monsters, including a "Turaga" monster
-		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can only use each of the following effects of "Circle of Legends, Amaja-Nui" once per turn. During your Main Phase: You can Special Summon 1 Level 4 or lower  Warrior monster with the same Attribute as this card from your hand or GY to your zone this card points to. If this card is destroyed or banished: You can send 1 "Noble Kanohi" Equip Spell from your Deck to the GY; Special Summon 1 "Legend Stone Token" (Rock/LIGHT/Level 6/ATK 0/DEF 0). 
+		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can send 1 "Noble Kanohi" Equip Spell from your hand or Deck to the GY; Special Summon 1 Level 4 or lower Warrior monster with the same Attribute as this card from your hand or GY to your zone this card points to. You can only use this effect of "Circle of Legends, Amaja-Nui" once per turn. 
 	Link Marker Down: yes
 	Link Marker DL: yes
 	Link Marker Right: yes
