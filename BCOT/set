@@ -2583,7 +2583,7 @@ card:
 		=> could be further buffed by letting you detach multiple (up to 3?) at once to get all the effects
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-18 23:42:29
+	time modified: 2021-12-19 19:26:39
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
@@ -2596,10 +2596,9 @@ card:
 	rule text:
 		3 Level 2 "Matoran" monsters
 		Cannot be destroyed by battle while it has material. Once per turn (Quick Effect): You can detach 1 material from this card; apply this effect, depending on the original Attribute of the detached material.
-		<sym-auto>*</sym-auto>FIRE: This card gains 600 ATK.
+		<sym-auto>*</sym-auto>WIND: Add 1 Level 2 "Matoran" monster from your Deck to your hand.
 		<sym-auto>*</sym-auto>WATER: "Matoran" monsters you control cannot be destroyed by card effects this turn.
-		<sym-auto>*</sym-auto>EARTH: Draw 1 card.
-		<sym-auto>*</sym-auto>WIND: Shuffle up to 3 of your monsters that are banished or in the GY into the Deck.
+		<sym-auto>*</sym-auto>FIRE: This card gains 600 ATK. <sym-auto>*</sym-auto>EARTH: Draw 1 card, then discard 1 card.
 		<sym-auto>*</sym-auto>LIGHT/DARK: Special Summon 1 Level 2 "Matoran" monster from your hand or GY.
 	attack: 1200
 	defense: 1500
