@@ -2612,9 +2612,11 @@ card:
 		"Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more Level 2 "Matoran" monsters with different names in your Graveyard, and cannot be Special Summoned by other ways.  During either player's turn: You can Tribute this card and 1 Level 2 monster, then target 2 cards on the field; destroy those targets. When this card leaves the field: Special Summon 1 Level 2 "Matoran" monster from your Graveyard."
 		
 		Same idea as Turaga Nui - provide a bit of utiltiy while assembling the necessary pieces, and then reward completing that with some kind of great payoff
-		=> payoff rather TODO in this case, right now it's just the 2.5k bdy
+		=> payoff rather TODO in this case, right now it's just the 2.5k body
+		=> Updated: Now the utility effect helps you quickly find a lot of your Matoran, but only in a multi-Attribute deck (which is the only place the Matoran Nui canonically makes sense anyway); the payoff was improved with a pop as part of the summon because when a Matoran Nui is made it's usually to smash something
+		==> pop is limited to monsters so there's an easy way to make an upgrade for full-power Matoran Nui, stats reduced for the same reason
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-18 23:56:48
+	time modified: 2021-12-20 19:30:40
 	card type: effect monster
 	name: Diminished Matoran Nui
 	attribute: light
@@ -2624,9 +2626,9 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more Level 2 "Matoran" monsters with different names in your GY, and cannot be Special Summoned by other ways. During your Main Phase: You can send both this card from your hand and 1 Level 2 "Matoran" monster from your Deck to the GY. 
-	attack: 2500
-	defense: 2500
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can discard this card; reveal 3 Level 2 "Matoran" monsters with different Attributes from your Deck, your opponent randomly picks 1 for you to add to your hand, and you send the rest to the GY. If you have 6 or more Level 2 "Matoran" monsters with different names in your GY: You can target 1 monster your opponent controls; Special Summon this card from your GY, and if you do, destroy that target. You can only use each effect of "Diminished Matoran Nui" once per turn.
+	attack: 2300
+	defense: 1000
 	rarity: common
 	gamecode: DRAFT10100047
 version control:
