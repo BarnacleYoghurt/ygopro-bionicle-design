@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.18.5
+	edition: Version 3.19.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -913,7 +913,7 @@ card:
 		Excavate just like Call of the Toa Stones, because that's a Takua thing - also represents searching for the Chronicler's Company
 		Normal Summon + eff is a 1-card combo into a Turaga for any Koro deck that runs its respective C.C. Matoran
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-12-13 23:28:42
+	time modified: 2021-12-21 08:22:28
 	card type: effect monster
 	name: Matoran Chronicler Takua
 	attribute: light
@@ -927,7 +927,7 @@ card:
 	attack: 350
 	defense: 350
 	rarity: common
-	gamecode: DRAFT10100037
+	gamecode: 10100037
 card:
 	has styling: false
 	notes:
@@ -2451,7 +2451,7 @@ card:
 		=> could effectively be merged with the main ignition effect by simply giving that the Noble Kanohi cost
 		==> did that, so no secondary effect for now, maybe there's something reasonably short that becomes apparent as a useful addition in testing
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-12-20 00:23:33
+	time modified: 2021-12-21 08:30:05
 	card type: link monster
 	name: Circle of Legends, Amaja-Nui
 	attribute: light
@@ -2472,7 +2472,7 @@ card:
 	attack: 1900
 	link number: 3
 	rarity: common
-	gamecode: DRAFT10100060b
+	gamecode: 10100060
 card:
 	has styling: false
 	notes: Or some kind of effect like that where you get a strong payoff for playing many Attributes of Turaga
@@ -2514,7 +2514,7 @@ card:
 		=> Summons the Turaga Nui because now it has officially been made (and gives your opponent a window to banish it from the field, for fairness)
 		=> Can be reused every damn turn because you sure deserve it once you get that far
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-18 16:27:23
+	time modified: 2021-12-21 08:30:15
 	card type: effect monster
 	name: Turaga Nui
 	attribute: light
@@ -2535,7 +2535,7 @@ card:
 	defense: 2000
 	link number: 4
 	rarity: common
-	gamecode: DRAFT10100039b
+	gamecode: 10100039
 card:
 	has styling: false
 	notes:
@@ -2553,7 +2553,7 @@ card:
 		==> maybe banish (temporarily) instead of bouncing?
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-18 20:40:28
+	time modified: 2021-12-21 08:25:47
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
@@ -2565,7 +2565,7 @@ card:
 		<sym-auto>*</sym-auto>3+: You can target 1 "C.C. Matoran" monster you control and 1 card your opponent controls; return both targets to the hand.
 		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards.
 	rarity: common
-	gamecode: DRAFT10100038
+	gamecode: 10100038
 card:
 	has styling: false
 	notes:
@@ -2584,7 +2584,7 @@ card:
 		=> could be further buffed by letting you detach multiple (up to 3?) at once to get all the effects
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-19 19:26:39
+	time modified: 2021-12-21 08:27:13
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
@@ -2604,7 +2604,7 @@ card:
 	attack: 1200
 	defense: 1500
 	rarity: common
-	gamecode: DRAFT10100046
+	gamecode: 10100046
 card:
 	has styling: false
 	notes:
@@ -2616,7 +2616,7 @@ card:
 		=> Updated: Now the utility effect helps you quickly find a lot of your Matoran, but only in a multi-Attribute deck (which is the only place the Matoran Nui canonically makes sense anyway); the payoff was improved with a pop as part of the summon because when a Matoran Nui is made it's usually to smash something
 		==> pop is limited to monsters so there's an easy way to make an upgrade for full-power Matoran Nui, stats reduced for the same reason
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-20 19:30:40
+	time modified: 2021-12-21 08:28:09
 	card type: effect monster
 	name: Diminished Matoran Nui
 	attribute: light
@@ -2626,11 +2626,11 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can discard this card; reveal 3 Level 2 "Matoran" monsters with different Attributes from your Deck, your opponent randomly picks 1 for you to add to your hand, and you send the rest to the GY. If you have 6 or more Level 2 "Matoran" monsters with different names in your GY: You can target 1 monster your opponent controls; Special Summon this card from your GY, and if you do, destroy that target. You can only use each effect of "Diminished Matoran Nui" once per turn.
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can discard this card; reveal 3 Level 2 "Matoran" monsters with different Attributes from your Deck, your opponent randomly picks 1 for you to add to your hand, and you send the rest to the GY. If you have 6 or more Level 2 "Matoran" monsters with different names in your GY: You can target 1 monster your opponent controls; Special Summon this card from the GY, and if you do, destroy that target. You can only use each effect of "Diminished Matoran Nui" once per turn.
 	attack: 2300
 	defense: 1000
 	rarity: common
-	gamecode: DRAFT10100047
+	gamecode: 10100047
 version control:
 	type: none
 apprentice code: 
