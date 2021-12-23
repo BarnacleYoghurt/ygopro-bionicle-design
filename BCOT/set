@@ -911,9 +911,15 @@ card:
 		When this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck or Graveyard on top of your Deck. Once per turn: You can discard 1 "C.C. Matoran" monster; Look at the top 3 cards of your deck, then Special Summon as many "C.C. Matoran" monsters among them as possible. "C.C. Matoran" monsters you control cannot be selected as an attack target.
 		
 		Excavate just like Call of the Toa Stones, because that's a Takua thing - also represents searching for the Chronicler's Company
-		Normal Summon + eff is a 1-card combo into a Turaga for any Koro deck that runs its respective C.C. Matoran
+		=> Updated: Add the possibility of adding The Chronicler's Company to hand so a) that card is somewhat searchable b) running it gives you a chance of offseting the discard and c) there's actually some excitement when excavating with a stacked topdeck
+		
+		Normal Summon + eff is a 1-card combo into a Turaga for any Koro deck that runs its respective C.C. Matoran (= stacks a C.C. Matoran on Summon)
+		=> takes on the Attribute because Av-Matoran
+		=> Updated: Don't stack from hand because you usually have a way to get stuff out of the hand before even summoning Takua, instead stack from banished so we can recycle Hafu's targets
+		==> Overly verbose wording from Denier, but without the comma before "and" so it flows better with "and if you do" (precedent?)
+		==> may be too good as recycling since it's also not once per turn, so might revert later
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-12-21 08:22:28
+	time modified: 2021-12-23 16:53:49
 	card type: effect monster
 	name: Matoran Chronicler Takua
 	attribute: light
@@ -923,7 +929,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal or Special Summoned: You can place 1 "C.C. Matoran" monster from your hand, Deck or GY on top of your Deck, and if you do, this card's Attribute becomes that monster's original Attribute. You can discard 1 card; excavate the top 6 cards of your Deck, and if you do, you can Special Summon 1 excavated "C.C. Matoran" monster, also shuffle the rest into your Deck. You can only use this effect of "Matoran Chronicler Takua" once per turn.
+	rule text: If this card is Normal or Special Summoned: You can take 1 of your "C.C. Matoran" monsters from your Deck, GY, or that is banished and place it on top of your Deck, and if you do, this card's Attribute becomes that monster's original Attribute. You can discard 1 card; excavate the top 6 cards of your Deck, and if you do, you can Special Summon 1 excavated "C.C. Matoran" monster, also you can add 1 excavated "The Chronicler's Company" to your hand, also shuffle the rest into your Deck. You can only use this effect of "Matoran Chronicler Takua" once per turn.
 	attack: 350
 	defense: 350
 	rarity: common
