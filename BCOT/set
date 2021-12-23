@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.19.0
+	edition: Version 3.19.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2567,9 +2567,12 @@ card:
 		=> 1+ effect lets you easily set up additional company members like Kapura or Kopeke for their continuous buffs to the ED monsters made via Hafu
 		=> 3+ is simple, straightforward disruption
 		==> maybe banish (temporarily) instead of bouncing?
+		==> Updated: Once per turn added, return "them" rather than "those targets" to simplify resolution checks
+		===> the missing OPT was an accidental oversight that might actually have been cool to leave in, except the card being chainable to itself sucks, and adding some kind of activation condition to elegantly prevent that probably loses more utility than being able to use it multiple times per turn gains
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
+		==> Updated: Now unrespondable so you get a real big payoff for assembling a full board of 6
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-21 08:25:47
+	time modified: 2021-12-23 17:33:06
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
@@ -2578,8 +2581,8 @@ card:
 	rule text:
 		This card gains these effects based on the number of "C.C. Matoran" monsters you control.
 		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand or GY.
-		<sym-auto>*</sym-auto>3+: You can target 1 "C.C. Matoran" monster you control and 1 card your opponent controls; return both targets to the hand.
-		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards.
+		<sym-auto>*</sym-auto>3+: Once per turn: You can target 1 "C.C. Matoran" monster you control and 1 card your opponent controls; return them to the hand.
+		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards. Neither player can activate cards or effects in response to this effect's activation.
 	rarity: common
 	gamecode: 10100038
 card:
