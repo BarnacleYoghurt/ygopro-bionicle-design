@@ -2446,12 +2446,20 @@ card:
 		Summoning a Warrior is the equivalent to the Field Spell's Turaga-Swapping - since being able to add a warrior of the correct attribute effectively makes anything else on your field a 1-mat Turaga
 		=> original swap wouldn't have worked because you have to use your Turaga as material for this Amaja-Nui
 		=> what this doesn't help you do is make a Turaga of an entirely new Attribute, so maybe rethink that once more
+		=> Updated: The Noble Kanohi cost meant that the card was useless after making Isolde in a Koro deck where you usually only have 1 Noble Kanohi, so that's gone now. Also, Special Summon from banished instead of hand for better utility (which means it now targets).
+		==> Noble Kanohi cost moved to Turaga Nui instead, so a deck focused on that still has a reason to run them other than the revival and a way to get rid of them other than Isolde
+		==> To counterbalance these improvements, you can now only SS Matoran, not Warriors in general
+		==> Other options: Negate the summoned monster's effects (bad because it prevents things like the sick Takua/Kapura/Vakama combo in a Turaga spam deck), add a different real cost like discarding or tributing (do we usually have the resources to spare?), lock special summons to Turaga in some way (a bit longer in text than I would like, also what level of lock would be appropriate?) 
 		
 		Floats into a Noble Kanohi in GY and a Token to Tribute off for it, just like the Field Spell
 		=> could effectively be merged with the main ignition effect by simply giving that the Noble Kanohi cost
 		==> did that, so no secondary effect for now, maybe there's something reasonably short that becomes apparent as a useful addition in testing
+		
+		Alternate secondary effect tailor-made for Turaga Nui turbo: Dump a Turaga from Deck or Extra Deck on summon
+		=> sets up Turaga Nui from Main Deck
+		=> can also be used to give itself an additional attribute by dumping a not yet summoned Turaga from the Extra ("gathering" the Turaga at Amaja-Nui)
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-12-21 08:30:05
+	time modified: 2021-12-23 13:03:43
 	card type: link monster
 	name: Circle of Legends, Amaja-Nui
 	attribute: light
@@ -2465,7 +2473,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2+ monsters, including a "Turaga" monster
-		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can send 1 "Noble Kanohi" Equip Spell from your hand or Deck to the GY; Special Summon 1 Level 4 or lower Warrior monster with the same Attribute as this card from your hand or GY to your zone this card points to. You can only use this effect of "Circle of Legends, Amaja-Nui" once per turn. 
+		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can only use each of the following effects of "Circle of Legends, Amaja-Nui" once per turn. If this card is Link Summoned: You can send 1 "Turaga" monster from your Deck or Extra Deck to the GY. You can target 1 of your Level 4 or lower "Matoran" monsters with the same Attribute as this card that is banished or in your GY; Special Summon it to your zone this card points to.
 	Link Marker Down: yes
 	Link Marker DL: yes
 	Link Marker Right: yes
@@ -2509,12 +2517,14 @@ card:
 		Effect 1 helps with making Turaga, especially for Attributes that lack Warriors
 		=> Could also make it cheaper by just revealing (maybe also from the ED so you can directly go for the Turaga you're trying to make?) rather than Tributing, but in that case it would lock you into only Turaga at least while it's on the field when Special Summoned this way
 		=> Even simpler alternative would be just discarding itself to get a Warrior of a certain Attribute, but that might be better on the Matoran Nui
+		=> Updated: In moving over functionality from Amaja-Nui, this effect has been changed to instead send itself from hand and a Noble Kanohi from Deck to GY as cost to summon a Warrior from hand
+		==> not having an easy way to SS Turaga Nui means we can get away with the original beefy DEF and don't need any SS lock to prevent Rank 9 plays or whatever
 		
 		Effect 2 is the payoff for actually going through the whole Turaga lineup, just a full field negate that triggers from the GY
 		=> Summons the Turaga Nui because now it has officially been made (and gives your opponent a window to banish it from the field, for fairness)
 		=> Can be reused every damn turn because you sure deserve it once you get that far
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-21 08:30:15
+	time modified: 2021-12-23 13:25:21
 	card type: effect monster
 	name: Turaga Nui
 	attribute: light
@@ -2524,7 +2534,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can Tribute 1 other monster from your hand or field; Special Summon this card from your hand, and if you do, it becomes a Warrior monster with the same Attribute as the Tributed monster. If your opponent activates a card or effect while there are 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from the GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can send this card from your hand and 1 "Noble Kanohi" Equip Spell from your Deck to the GY; reveal 1 "Turaga" Link monster in your Extra Deck, and if you do, Special Summon 1 Level 4 or lower Warrior monster with the same Attribute from your hand. If your opponent activates a card or effect while there are 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from the GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
 	Link Marker Up: yes
 	Link Marker Down: yes
 	Link Marker DL: yes
@@ -2532,7 +2542,7 @@ card:
 	Link Marker Left: none
 	Link Marker Right: yes
 	attack: 2000
-	defense: 2000
+	defense: 3000
 	link number: 4
 	rarity: common
 	gamecode: 10100039
