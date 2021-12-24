@@ -1925,11 +1925,13 @@ card:
 		==> this doesn't fucking work, the deck is shuffled after a search effect resolves and so the card doesn't stay on top
 		==> Guess we'll discard instead, the future chronicler reference will have to remain limited to both him and Takua being searchers
 		=> Level 2 Warrior pool isn't nearly good enough to justify the downside here, so let's just make putting the searched card on top of the deck an option in order to potentially enable that combo with Takua
+		==> happy medium: put card on top of deck iff you searched a non-WATER monster, so Ko-Koro (once it has enough Matoran) gets its easy Nuju route and C.C.dek can set up Takua and maybe put back a garnet for Isolde
+		===> also represents shyness in a way - less effective when interacting with people from outside his village (though he's apparently fine with the Ga- ladies, what a chad)
 		
 		Flip self face-down because he's shy, but do it to protect others because he's not antisocial
 		=> Also sets up search reuse
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-08-12 15:29:30
+	time modified: 2021-12-25 00:28:08
 	card type: effect monster
 	name: C.C. Matoran Kopeke
 	attribute: water
@@ -1939,7 +1941,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal Summoned or flipped face-up: You can take 1 Level 2 Warrior monster from your Deck or GY, except "C.C. Matoran Kopeke", and either add it to your hand or place it on top of your Deck. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
+	rule text: If this card is Normal Summoned or flipped face-up: You can add 1 Level 2 Warrior monster from your Deck or GY to your hand, except "C.C. Matoran Kopeke", then, if it is not a WATER monster, place 1 card from your hand on top of your Deck. You can only use this effect of "C.C. Matoran Kopeke" once per turn. If another "C.C. Matoran" monster you control would be destroyed, you can change this card to face-down Defense Position instead.
 	attack: 300
 	defense: 600
 	rarity: common
@@ -2603,7 +2605,7 @@ card:
 		=> could be further buffed by letting you detach multiple (up to 3?) at once to get all the effects
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-21 08:27:13
+	time modified: 2021-12-24 21:18:07
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
