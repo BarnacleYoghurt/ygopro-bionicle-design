@@ -907,6 +907,11 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Place "C.C. Matoran" monster on top of Deck}}
+		{{Excavate and Special Summon/add to hand}}
+		{{Special Summon 1 excavated "C.C. Matoran" monster?}}
+		{{Add 1 excavated "The Chronicler's Company" to your hand?}}
+		
 		Orig:
 		When this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck or Graveyard on top of your Deck. Once per turn: You can discard 1 "C.C. Matoran" monster; Look at the top 3 cards of your deck, then Special Summon as many "C.C. Matoran" monsters among them as possible. "C.C. Matoran" monsters you control cannot be selected as an attack target.
 		
@@ -2444,6 +2449,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send 1 "Turaga" moster from your Deck or Extra Deck to the GY}}
+		{{Special Summon 1 Level 4 or lower "Matoran" monster}}
+		
 		Basically the same idea, but on a Link-3 instead of a Field Spell to give Turaga a dedicated link climbing option
 		=> no need to support Amaja-Nui on Mata Nui or such this way
 		=> Problem: Le-Koro would be one of the biggest beneficiaries here, except the village itself prevents summoning this even if its effect would make it WIND once on the field...
@@ -2520,6 +2528,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon Level 4 or lower Warrior from hand}}
+		{{Special Summon and negate opponent's field}}
+		
 		Climbing into a Link-4 with only Turaga seems kind of tricky since they're not really meant to be used together (and using the Link-3 Amaja-Nui breaks the archetype chain) and also doesn't reflect it being a combination of 6 Turaga, so here's another approach similar to the old idea.
 		
 		Effect 1 helps with making Turaga, especially for Attributes that lack Warriors
@@ -2557,6 +2568,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 "C.C. Matoran" monster}}
+		{{Return 2 cards to the hand}}
+		{{Shuffle all cards on the field into the Deck, except "C.C. Matoran" cards}}
+		
 		Old:
 		"You must control this many face-up "C.C. Matoran" monsters to activate and resolve the following effects:
 		*1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand, Deck or Graveyard.
@@ -2590,6 +2605,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Detach material(s) for Attribute-based effects}}
+		
 		Old:
 		"3 Level 2 "Matoran" monsters
 		While this card has Xyz Material: It cannot be destroyed by battle. Once per turn: You can detach 1 Xyz Material from this card; activate 1 of the following effects, depending on the Attribute of the detached material:
@@ -2631,6 +2648,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Reveal 3 Level 2 "Matoran" monsters, add 1 at random}}
+		{{Special Summon and destroy}}
+		
 		Old:
 		"Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by having 6 or more Level 2 "Matoran" monsters with different names in your Graveyard, and cannot be Special Summoned by other ways.  During either player's turn: You can Tribute this card and 1 Level 2 monster, then target 2 cards on the field; destroy those targets. When this card leaves the field: Special Summon 1 Level 2 "Matoran" monster from your Graveyard."
 		
