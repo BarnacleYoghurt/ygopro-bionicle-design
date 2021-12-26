@@ -2589,7 +2589,7 @@ card:
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
 		==> Updated: Now unrespondable so you get a real big payoff for assembling a full board of 6
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-26 09:19:40
+	time modified: 2021-12-26 20:59:25
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
@@ -2657,7 +2657,7 @@ card:
 		=> Updated: Now the utility effect helps you quickly find a lot of your Matoran, but only in a multi-Attribute deck (which is the only place the Matoran Nui canonically makes sense anyway); the payoff was improved with a pop as part of the summon because when a Matoran Nui is made it's usually to smash something
 		==> pop is limited to monsters so there's an easy way to make an upgrade for full-power Matoran Nui, stats reduced for the same reason
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-21 08:28:09
+	time modified: 2021-12-26 21:06:32
 	card type: effect monster
 	name: Diminished Matoran Nui
 	attribute: light
@@ -2667,9 +2667,9 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can discard this card; reveal 3 Level 2 "Matoran" monsters with different Attributes from your Deck, your opponent randomly picks 1 for you to add to your hand, and you send the rest to the GY. If you have 6 or more Level 2 "Matoran" monsters with different names in your GY: You can target 1 monster your opponent controls; Special Summon this card from the GY, and if you do, destroy that target. You can only use each effect of "Diminished Matoran Nui" once per turn.
-	attack: 2300
-	defense: 1000
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can discard this card; reveal 3 Level 2 "Matoran" monsters with different Attributes from your Deck, your opponent randomly picks 1 for you to add to your hand, and you send the rest to the GY. You can shuffle 6 Level 2 "Matoran" monsters with different names from your GY into the Deck, then target 1 monster your opponent controls; Special Summon this card from the GY, and if you do, destroy that target. You can only use each effect of "Diminished Matoran Nui" once per turn.
+	attack: 2100
+	defense: 1500
 	rarity: common
 	gamecode: 10100047
 version control:
