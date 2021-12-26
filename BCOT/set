@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.19.3
+	edition: Version 3.19.4
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2582,6 +2582,7 @@ card:
 		
 		Trimmed down to the most relevant effects at the 1, 3, and 6 steps (which is actually possible in MR4+ :D), with some buffs where needed
 		=> 1+ effect lets you easily set up additional company members like Kapura or Kopeke for their continuous buffs to the ED monsters made via Hafu
+		==> Updated: Can only summon monsters you don't control yet, since we want to set up ADDITIONAL members, and the synergy of making something with Hafu and then getting him back plus another monster (for 3 total) is a bit over the top
 		=> 3+ is simple, straightforward disruption
 		==> maybe banish (temporarily) instead of bouncing?
 		==> Updated: Once per turn added, return "them" rather than "those targets" to simplify resolution checks
@@ -2589,7 +2590,7 @@ card:
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
 		==> Updated: Now unrespondable so you get a real big payoff for assembling a full board of 6
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-26 20:59:25
+	time modified: 2021-12-26 21:30:15
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
@@ -2597,7 +2598,7 @@ card:
 	image: image61
 	rule text:
 		You can only control 1 "The Chronicler's Company". This card gains these effects based on the number of "C.C. Matoran" monsters you control.
-		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand or GY.
+		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand or GY with a different name from the monsters you control.
 		<sym-auto>*</sym-auto>3+: Once per turn: You can target 2 "C.C. Matoran" monsters you control and 1 card your opponent controls; return them to the hand.
 		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards. Neither player can activate cards or effects in response to this effect's activation.
 	rarity: common
