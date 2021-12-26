@@ -2569,7 +2569,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon 1 "C.C. Matoran" monster}}
-		{{Return 2 cards to the hand}}
+		{{Return 2 "C.C. Matoran" monsters and 1 opponent's card to the hand}}
 		{{Shuffle all cards on the field into the Deck, except "C.C. Matoran" cards}}
 		
 		Old:
@@ -2623,7 +2623,7 @@ card:
 		==> doing that on summon introduces the interesting dynamic where you really only get the full payoff when using 3 different attributes, and you can also intentionally keep one around for the battle protection
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-25 13:17:03
+	time modified: 2021-12-26 10:28:52
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
@@ -2635,8 +2635,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 2 "Matoran" monsters
-		Cannot be destroyed by battle while it has material. If this card is Xyz Summoned: You can detach up to 3 materials with different Attributes from this card, then apply the following effect(s) depending on their Attributes, in sequence. 
-		You can only use this effect of "Diminished Matoran Kaita" once per turn.
+		Cannot be destroyed by battle while it has material. If this card is Xyz Summoned: You can detach up to 3 materials with different Attributes from this card, then apply the following effect(s) depending on their Attributes, in sequence. You can only use this effect of "Diminished Matoran Kaita" once per turn.
 		•WIND: Add 1 Level 2 "Matoran" monster from your Deck to your hand.
 		•WATER: This face-up card cannot be destroyed by card effects. •FIRE: This card gains 1200 ATK.
 		•EARTH: Draw 1 card.  •LIGHT/DARK: Special Summon 1 Level 2 "Matoran" monster from your hand or GY.
