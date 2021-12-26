@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.19.2
+	edition: Version 3.19.3
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2589,16 +2589,16 @@ card:
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
 		==> Updated: Now unrespondable so you get a real big payoff for assembling a full board of 6
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-23 17:33:06
+	time modified: 2021-12-26 09:19:40
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image61
 	rule text:
-		This card gains these effects based on the number of "C.C. Matoran" monsters you control.
+		You can only control 1 "The Chronicler's Company". This card gains these effects based on the number of "C.C. Matoran" monsters you control.
 		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand or GY.
-		<sym-auto>*</sym-auto>3+: Once per turn: You can target 1 "C.C. Matoran" monster you control and 1 card your opponent controls; return them to the hand.
+		<sym-auto>*</sym-auto>3+: Once per turn: You can target 2 "C.C. Matoran" monsters you control and 1 card your opponent controls; return them to the hand.
 		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards. Neither player can activate cards or effects in response to this effect's activation.
 	rarity: common
 	gamecode: 10100038
@@ -2623,7 +2623,7 @@ card:
 		==> doing that on summon introduces the interesting dynamic where you really only get the full payoff when using 3 different attributes, and you can also intentionally keep one around for the battle protection
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-25 11:24:58
+	time modified: 2021-12-25 13:17:03
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
@@ -2640,7 +2640,6 @@ card:
 		•WIND: Add 1 Level 2 "Matoran" monster from your Deck to your hand.
 		•WATER: This face-up card cannot be destroyed by card effects. •FIRE: This card gains 1200 ATK.
 		•EARTH: Draw 1 card.  •LIGHT/DARK: Special Summon 1 Level 2 "Matoran" monster from your hand or GY.
-
 	attack: 1200
 	defense: 1500
 	rarity: common
