@@ -2543,7 +2543,7 @@ card:
 		=> Summons the Turaga Nui because now it has officially been made (and gives your opponent a window to banish it from the field, for fairness)
 		=> Can be reused every damn turn because you sure deserve it once you get that far
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-23 13:25:21
+	time modified: 2021-12-29 16:55:02
 	card type: effect monster
 	name: Turaga Nui
 	attribute: light
@@ -2553,7 +2553,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can send this card from your hand and 1 "Noble Kanohi" Equip Spell from your Deck to the GY; reveal 1 "Turaga" Link monster in your Extra Deck, and if you do, Special Summon 1 Level 4 or lower Warrior monster with the same Attribute from your hand. If your opponent activates a card or effect while there are 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from the GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can send this card from your hand and 1 "Noble Kanohi" Equip Spell from your Deck to the GY; reveal 1 "Turaga" Link monster in your Extra Deck, and if you do, Special Summon 1 Level 4 or lower Warrior monster with the same Attribute from your hand. When your opponent activates a card or effect while there are 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from the GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
 	Link Marker Up: yes
 	Link Marker Down: yes
 	Link Marker DL: yes
