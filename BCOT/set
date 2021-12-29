@@ -1036,7 +1036,7 @@ card:
 	has styling: false
 	notes:
 		{{Raise ATK/DEF}}
-		{{Affected by "C.C. Matoran Taipu": Monsters cannot attack, except "C.C. Matoran" monsters}}
+		{{Affected by "C.C. Matoran Taipu": Cannot declare an attack, except with "C.C. Matoran" monsters}}
 		
 		Relatively high ATK because stronk.
 		SS from hand = eager to help
