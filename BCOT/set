@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.19.4
+	edition: Version 3.20.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -731,23 +731,26 @@ card:
 		=> only keep the negation part of the hand effect to avoid fucking up other things, the rest was a bit niche in application anyway
 		=> GY effect gives you an additional big attacker if e.g. Lhii is discarded for Ta-Koro's ATK boost to get over a beater
 		=> only 1 per turn so you can't discard for a battle and then summon off that same battle's destruction
+		=> v3.20.0: Adopted & adapted for latest PSCT
+		==> hand effect is now a QE during the Damage Step (like Honest) and includes stat modulation so it's clear that it can be activated up to damage calculation
+		==> also works when attacked and lasts until the end of the turn instead of damage step, so you can potentially fuck with something in MP2 when your monster gets hit over
 	time created: 2020-03-02 07:53:28
-	time modified: 2020-09-07 12:58:06
+	time modified: 2022-02-03 16:41:28
 	card type: effect monster
 	name: Matoran Legend Lhii
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image66
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If a FIRE monster you control battles an opponent's monster, at the start of the Damage Step: You can send this card from your hand to the GY; until the end of the Damage Step, negate that opponent's monster's effects, also it becomes unaffected by other cards' effects. You can banish this card from the GY; Special Summon 1 Level 4 or lower FIRE Warrior monster from your GY, except "Matoran Legend Lhii". You can only use each effect of "Matoran Legend Lhii" once per turn.
+	rule text: Cannot be Normal Summoned/Set. During the Damage Step, when your FIRE monster battles an opponent's monster (Quick Effect): You can send this card from your hand to the GY; until the end of this turn, that opponent's monster loses 500 ATK/DEF, also negate its effects. If your FIRE Warrior monster destroys an opponent's monster by battle, while this card is in your GY: You can Special Summon this card, and if you do, it gains ATK equal to the destroyed monster's original ATK in the GY, until the end of this turn. You can only use 1 "Matoran Legend Lhii" effect per turn, and only once that turn.
 	attack: 0
 	defense: 0
-	gamecode: DRAFT10100061
+	gamecode: 10100061
 card:
 	has styling: false
 	notes:
@@ -830,23 +833,34 @@ card:
 		=> Noodle may be banned at some point, so don't rely too hard on the summon from deck
 		=> To reach more Synchro levels with Lv2 Matoran, level manipulation might be an idea - would also fit with astrology because "stars"
 		=> Don't do ALL of the above because that would be way too many effects!
+		
+		v3.20.0: Settled for a different approach incorporating ideas from above, may still need some significant tweaks
+		=> Does stuff with Level "stars" as part of a self-SS from hand when you NS a WATER monster
+		==> No Warrior or "Matoran" requirement, since WATER is one of the Attributes that needs more mixing with other Types
+		==> When summoning another Lv2 Matoran, this ends you up with Lv1+Lv2 = Tatsunoko access
+		===> Or just Nokama, or Isolde, or Halq - lots of possibilities
+		==> Cannot be activated right after being searched with Kopeke since it wasn't in the hand on NS (see Stick/Chair rulings), so that nicely limits the Ga-/Ko- synergy
+		=> Now mills when going from hand or field to GY, so she can trigger off Nokama's cost
+		==> milling as cost for some secondary benefit (draw 1 to instantly replenish Nokama fodder?) would be even better and trigger Atlanteans, but would need to find precedent for costs with different modes
+		==> or we just mill always and make the S/T send part of the effect, that's also a bit more balanced
+		=> Maybe a problem: Special Summon from hand, then do something convenient when sent to the GY is the same structure as Jaa, and there's also some unwanted synergy with one milling a S/T and the other needing to put one back for a SS
 	time created: 2020-03-02 07:53:28
-	time modified: 2020-09-07 12:58:10
+	time modified: 2022-02-03 16:41:36
 	card type: effect monster
 	name: Matoran Astrologer Nixie
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image67
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: 
+	rule text: If you Normal Summon a Level 2 or higher WATER monster: You can reduce that monster's Level by 1, and if you do, Special Summon this card from your hand. If this card is sent from the hand or field to the GY: You can send the top card of your Deck to the GY; draw 1 card, also, if there are no Spells/Traps in your GY, send 1 Spell/Trap from your Deck to the GY. You can only use each effect of "Matoran Astrologer Nixie" once per turn.
 	attack: 400
 	defense: 500
-	gamecode: DRAFT10100062
+	gamecode: 10100062
 card:
 	has styling: false
 	notes:
@@ -1407,6 +1421,7 @@ card:
 		
 		Idea 1: "When this card is Normal or Special Summoned: You can excavate the top 5 cards of your Deck, and if you do, gain 400 LP for each excavated EARTH monster, also place the excavated cards on the top of your Deck in any order."
 		=> setup for Onu-Koro draws
+		=> could also do something similar on Midak to represent "safely guiding travelers to Onu-Koro"
 	time created: 2020-03-02 07:53:28
 	time modified: 2020-09-29 23:16:19
 	card type: effect monster
@@ -1430,24 +1445,34 @@ card:
 		Who gets the Onu bonus slot? Mamru or Midak?
 		
 		Guides travelers to Onu-Koro => searcher?
+		=> There's also the part about lending out Ussals to travelers
+		=> Ussal synergy without explicitly mentioning Rahi yet (still in BCOT!): Discard self to mill an EARTH, balanced by the need to control a Matoran (the traveler)
+		==> sending an Ussal can revive Midak himself or another EARTH here, could also have a more balanced Onepu work with this by summoning EARTH Rahi from GY
+		==> also gains 400 LP to set up Onu-Koro (guiding the traveler there)
+		===> the number 400 is because that's what Whenua would gain if the monster was sent from hand or field, but since Midak does his work away from Onu-Koro he has to take care of his own reward
+		==> working directly from the hand makes Midak + Onu-Koro an easy recursive engine, especially because Onu-Koro can always shuffle back the Ussal as well
+		
 		How to adapt preference for bright light?
+		=> "If this card would be returned to the Deck by a card effect, you can add it to your hand instead" - wants to stay outside instead of going back into the dark deck
+		==> Should even be implementable with EFFECT_SEND_REPLACE
+		==> only from GY so we don't get any weird edge cases when outside the original owner's possession
 	time created: 2020-03-02 07:53:28
-	time modified: 2020-09-29 23:21:31
+	time modified: 2022-02-03 16:41:31
 	card type: effect monster
 	name: Matoran Tender Midak
 	attribute: earth
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image65
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: 
+	rule text: If you control a "Matoran" monster, except "Matoran Tender Midak": You can send this card from your hand to the GY; send 1 EARTH monster from your Deck to the GY, and if you do, gain 400 LP. If this card would be returned from the GY to the Deck by a card effect, you can add it to your hand instead. You can only use each effect of "Matoran Tender Midak" once per turn.
 	attack: 500
 	defense: 500
-	gamecode: DRAFT10100063
+	gamecode: 10100063
 card:
 	has styling: false
 	notes:
@@ -1834,23 +1859,24 @@ card:
 		=> SS from hand can trigger effects like Hafu
 		=> control change acts as handtrap insurance - even if opponent uses Ash/Veiler/etc, you end up with an extra monster through the switch
 		=> make changing control once per turn? As it is, you need to use Ahkmou immediately for a summon or somethign before he betrays you again, which is kind of fitting
+		==> that's fine and also gives you a way to set up the insurance again if you have other extenders, but to ensure it doesn't lead to any weird chain situations, it needs to be a trigger effect rather than a quick one - as per Yuki-Onna rulings, you're only allowed to activate it once after a chain with multiple triggers resolves
 	time created: 2020-03-02 07:53:28
-	time modified: 2021-04-12 08:00:15
+	time modified: 2022-02-03 16:41:43
 	card type: effect monster
 	name: Matoran Trader Ahkmou
 	attribute: earth
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image69
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: You can reveal this card 1 other Level 4 or lower "Matoran" monster in your hand; Special Summon this card to your opponent's field, then Special Summon that other monster. You can only use this effect of "Matoran Trader Ahkmou" once per turn. If you activate another monster's effect (Quick Effect): Give control of this card to your opponent.
+	rule text: During your Main Phase: You can Special Summon this card from your hand to your opponent's field, and if you do, Special Summon 1 Level 4 or lower "Matoran" monster from your hand. You can only use this effect of "Matoran Trader Ahkmou" once per turn. If you activate a monster effect, except "Matoran Trader Ahkmou" (and except during the Damage Step): Give control of this card to your opponent.
 	attack: 400
 	defense: 600
-	gamecode: DRAFT10100064
+	gamecode: 10100064
 card:
 	has styling: false
 	notes:
@@ -2008,12 +2034,12 @@ card:
 		=> interact with Takua somehow?
 		=> set up Matoro somehow?
 	time created: 2020-03-02 07:53:28
-	time modified: 2021-10-24 23:33:11
+	time modified: 2022-02-03 16:41:45
 	card type: effect monster
 	name: Matoran Scribe Jaa
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image68
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -2023,7 +2049,7 @@ card:
 	rule text: You can send 1 Spell/Trap from your hand or field to the GY; Special Summon this card from your hand. If this card is sent to the GY: You can target 1 Spell/Trap in your GY; place it on top of the Deck, and if you do, you can Special Summon 1 WATER "Matoran" monster from your GY, except "Matoran Scribe Jaa", but negate its effects, also you cannot Special Summon while you control that face-up monster. You can only use each effect of "Matoran Scribe Jaa" once per turn.
 	attack: 300
 	defense: 700
-	gamecode: DRAFT10100065
+	gamecode: 10100065
 card:
 	stylesheet: series10
 	has styling: false
@@ -2258,22 +2284,22 @@ card:
 		GY effect to replenish resources on subsequent turn just goes along with general Le-Koro theme.
 		=> if Matau stays on the ploos route, maybe this one could be something that helps breaking boards instead?
 	time created: 2020-03-02 07:53:28
-	time modified: 2021-10-24 19:29:36
+	time modified: 2022-02-03 16:41:48
 	card type: effect monster
 	name: Matoran Musician Makani
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image70
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card is Normal or Special Summoned: You can Special Summon 1 Level 4 or lower "Matoran" monster from your hand. If this card is in your GY, except during the turn it was sent there: You can banish this card, then target 1 WIND "Matoran" monster in your GY, except "Matoran Musician Makani"; add it to your hand. You can only use each effect of "Matoran Musician Makani" once per turn.
+	rule text: If this card is Normal or Special Summoned: You can Special Summon 1 Level 4 or lower "Matoran" monster from your hand. If this card is in your GY, except during the turn it was sent there: You can banish this card, then target 1 WIND Warrior monster in your GY, except "Matoran Musician Makani"; add it to your hand. You can only use each effect of "Matoran Musician Makani" once per turn.
 	attack: 500
 	defense: 400
-	gamecode: DRAFT10100066
+	gamecode: 10100066
 card:
 	has styling: false
 	notes:
