@@ -799,13 +799,13 @@ card:
 		Note: ED restriction can be circumvented if you have two - just set one to replace the face-up one
 		=> Maybe make that a lingering effect when activating the summon or the card?
 	time created: 2014-12-09 17:11:13
-	time modified: 2020-08-13 17:37:18
+	time modified: 2022-02-09 19:55:27
 	card type: spell card
 	name: Ga-Koro, Village of Water
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image14
-	rule text: During your opponent's turn, if all monsters in your GY (min. 1) are WATER, your opponent's cards and effects cannot be activated in response to the activation of your WATER monster effects as Chain Link 2 or higher. You can banish 1 monster from your GY; Special Summon 1 Level 4 or lower WATER monster from your hand in Defense Position, but its effects are negated and its Type becomes the same as the banished monster's, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except WATER monsters. You can only use this effect of "Ga-Koro, Village of Water" once per turn.
+	rule text: During your opponent's turn, if all monsters in your GY (min. 1) are WATER, your opponent's cards and effects cannot be activated in response to the activation of your WATER monster effects as Chain Link 2 or higher. You can banish 1 monster from your GY; Special Summon 1 WATER monster from your hand in Defense Position, but its effects are negated and its Type becomes the same as the banished monster's, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except WATER monsters. You can only use this effect of "Ga-Koro, Village of Water" once per turn.
 	rarity: common
 	gamecode: 10100026
 card:
