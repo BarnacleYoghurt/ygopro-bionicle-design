@@ -845,7 +845,7 @@ card:
 		==> or we just mill always and make the S/T send part of the effect, that's also a bit more balanced
 		=> Maybe a problem: Special Summon from hand, then do something convenient when sent to the GY is the same structure as Jaa, and there's also some unwanted synergy with one milling a S/T and the other needing to put one back for a SS
 	time created: 2020-03-02 07:53:28
-	time modified: 2022-02-03 16:41:36
+	time modified: 2022-02-09 23:51:47
 	card type: effect monster
 	name: Matoran Astrologer Nixie
 	attribute: water
@@ -2028,13 +2028,16 @@ card:
 		
 		Can SS self after being searched by Kopeke, would essentially take Taipu's place in the current decklist
 		=> having an extra Spell/Trap around to send should be doable, and if not, the hand probably has Frog combos and you don't need the extra body
-		=> cost directly sets up GY effect, so you can NS Kopeke, search Jaa, SS Jaa, Kopeke + Jaa -> Nuju, trigger Jaa, put back the card sent to summon Jaa and revive Kopeke, flip Kopeke with Nuju to bounce something</soft-line>
+		=> cost directly sets up GY effect, so you can NS Kopeke, search Jaa, SS Jaa, Kopeke + Jaa -> Nuju, trigger Jaa, put back the card sent to summon Jaa and revive Kopeke, flip Kopeke with Nuju to bounce something
+		
+		v3.20.1: To avoid unintended synergy with Nixie, the S/T is now banished as cost and recycled from banished as well (could be useful with Paleos too)
+		=> summoning another Matoran is now a mandatory part of the second effect, just to ensure it can't be used as a generic recycler of banished S/T</soft-line>
 		
 		Sent Takua to the drifts to search for Matoro
 		=> interact with Takua somehow?
 		=> set up Matoro somehow?
 	time created: 2020-03-02 07:53:28
-	time modified: 2022-02-03 16:41:45
+	time modified: 2022-02-09 23:53:27
 	card type: effect monster
 	name: Matoran Scribe Jaa
 	attribute: water
@@ -2046,7 +2049,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: You can send 1 Spell/Trap from your hand or field to the GY; Special Summon this card from your hand. If this card is sent to the GY: You can target 1 Spell/Trap in your GY; place it on top of the Deck, and if you do, you can Special Summon 1 WATER "Matoran" monster from your GY, except "Matoran Scribe Jaa", but negate its effects, also you cannot Special Summon while you control that face-up monster. You can only use each effect of "Matoran Scribe Jaa" once per turn.
+	rule text: You can banish 1 Spell/Trap from your hand or field; Special Summon this card from your hand. If this card is sent to the GY: You can target 1 of your banished Spells/Traps; place it on top of the Deck, and if you do, Special Summon 1 WATER "Matoran" monster from your GY, except "Matoran Scribe Jaa", but negate its effects, also you cannot Special Summon while you control that face-up monster. You can only use each effect of "Matoran Scribe Jaa" once per turn.
 	attack: 300
 	defense: 700
 	gamecode: 10100065
