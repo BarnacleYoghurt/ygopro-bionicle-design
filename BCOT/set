@@ -1861,7 +1861,7 @@ card:
 		=> make changing control once per turn? As it is, you need to use Ahkmou immediately for a summon or somethign before he betrays you again, which is kind of fitting
 		==> that's fine and also gives you a way to set up the insurance again if you have other extenders, but to ensure it doesn't lead to any weird chain situations, it needs to be a trigger effect rather than a quick one - as per Yuki-Onna rulings, you're only allowed to activate it once after a chain with multiple triggers resolves
 	time created: 2020-03-02 07:53:28
-	time modified: 2022-02-03 16:41:43
+	time modified: 2022-02-09 19:51:39
 	card type: effect monster
 	name: Matoran Trader Ahkmou
 	attribute: earth
@@ -1873,7 +1873,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: During your Main Phase: You can Special Summon this card from your hand to your opponent's field, and if you do, Special Summon 1 Level 4 or lower "Matoran" monster from your hand. You can only use this effect of "Matoran Trader Ahkmou" once per turn. If you activate a monster effect, except "Matoran Trader Ahkmou" (and except during the Damage Step): Give control of this card to your opponent.
+	rule text: During your Main Phase: You can Special Summon this card from your hand to your opponent's field, and if you do, Special Summon 1 Level 4 or lower "Matoran" monster from your hand. You can only use this effect of "Matoran Trader Ahkmou" once per turn. If you activate a monster effect, except "Matoran Trader Ahkmou": Give control of this card to your opponent.
 	attack: 400
 	defense: 600
 	gamecode: 10100064
