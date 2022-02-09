@@ -735,19 +735,19 @@ card:
 		==> hand effect is now a QE during the Damage Step (like Honest) and includes stat modulation so it's clear that it can be activated up to damage calculation
 		==> also works when attacked and lasts until the end of the turn instead of damage step, so you can potentially fuck with something in MP2 when your monster gets hit over
 	time created: 2020-03-02 07:53:28
-	time modified: 2022-02-03 16:41:28
+	time modified: 2022-02-09 19:44:53
 	card type: effect monster
 	name: Matoran Legend Lhii
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image66
+	image: image71
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: Cannot be Normal Summoned/Set. During the Damage Step, when your FIRE monster battles an opponent's monster (Quick Effect): You can send this card from your hand to the GY; until the end of this turn, that opponent's monster loses 500 ATK/DEF, also negate its effects. If your FIRE Warrior monster destroys an opponent's monster by battle, while this card is in your GY: You can Special Summon this card, and if you do, it gains ATK equal to the destroyed monster's original ATK in the GY, until the end of this turn. You can only use 1 "Matoran Legend Lhii" effect per turn, and only once that turn.
+	rule text: During the Damage Step, when your FIRE monster battles an opponent's monster (Quick Effect): You can send this card from your hand to the GY; until the end of this turn, that opponent's monster loses 500 ATK/DEF, also negate its effects. If your FIRE Warrior monster destroys an opponent's monster by battle, while this card is in your GY: You can Special Summon this card, and if you do, it gains ATK equal to the destroyed monster's original ATK, until the end of this turn. You can only use 1 "Matoran Legend Lhii" effect per turn, and only once that turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100061
