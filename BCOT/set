@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.20.0
+	edition: Version 3.20.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -844,8 +844,18 @@ card:
 		==> milling as cost for some secondary benefit (draw 1 to instantly replenish Nokama fodder?) would be even better and trigger Atlanteans, but would need to find precedent for costs with different modes
 		==> or we just mill always and make the S/T send part of the effect, that's also a bit more balanced
 		=> Maybe a problem: Special Summon from hand, then do something convenient when sent to the GY is the same structure as Jaa, and there's also some unwanted synergy with one milling a S/T and the other needing to put one back for a SS
+		
+		v3.20.1: Realizing there should probably be a QE somewhere for Ga-Koro synergy, the effect components were once again shuffled around a bit
+		=> the draw from the previous GY effect (which refills the hand for Nokama) is now part of the quick SS condition
+		==> Works in response to any monster effect while you have a WATER, so should be live most of the time
+		==> If you're unlucky you still get to keep the draw, but discard Nixie so it's not always a +1 (though that does trigger the second effect!)
+		==> lore idea is that she looks at "stars" (levels) in the "future" (next draw)
+		==> gameplay idea is that you get a potentially high-level Tuner to more easily make a boss monster under Nokama
+		=> second effect is now just sending a Spell/Trap into a GY that has none
+		==> no cost because milling to mill feels super redundant and discarding to mill would be terribly inefficient off a Nokama discard
+		=> what we don't have here is a way to send a monster to the GY as cost for the Atlantean synergy, but that probably shouldn't be forced too hard if we ever want to get to something like a pure Ga-Koro deck
 	time created: 2020-03-02 07:53:28
-	time modified: 2022-02-09 23:51:47
+	time modified: 2022-02-10 15:40:36
 	card type: effect monster
 	name: Matoran Astrologer Nixie
 	attribute: water
@@ -857,7 +867,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If you Normal Summon a Level 2 or higher WATER monster: You can reduce that monster's Level by 1, and if you do, Special Summon this card from your hand. If this card is sent from the hand or field to the GY: You can send the top card of your Deck to the GY; draw 1 card, also, if there are no Spells/Traps in your GY, send 1 Spell/Trap from your Deck to the GY. You can only use each effect of "Matoran Astrologer Nixie" once per turn.
+	rule text: When a monster effect is activated while you control a WATER monster and this card is in your hand (Quick Effect): You can draw 1 card and show it, then if it is a monster, Special Summon this card, and if you do, its Level becomes that shown monster's Level. Otherwise, discard this card. If this card is sent from the hand or field to the GY and you have no Spells/Traps in your GY: You can send 1 Spell/Trap from your Deck to the GY. You can only use each effect of "Matoran Astrologer Nixie" once per turn.
 	attack: 400
 	defense: 500
 	gamecode: 10100062
