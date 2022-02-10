@@ -1050,9 +1050,11 @@ card:
 	gamecode: 10100244
 card:
 	has styling: false
-	notes: {{Return monster to hand in exchange for draw}}
+	notes:
+		{{Make opponent's monster with highest ATK lose 800 ATK}}
+		{{Return monster to hand in exchange for draw}}
 	time created: 2016-02-26 08:53:39
-	time modified: 2019-12-20 12:20:00
+	time modified: 2022-02-10 17:05:52
 	card type: effect monster
 	name: Matoran Tender Kotu
 	attribute: water
@@ -1063,7 +1065,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BBTS-EN022
-	rule text: The monster(s) your opponent controls with the highest original ATK loses 800 ATK during the Battle Phase only. If this card is Normal Summoned: You can target 1 monster on the field; its owner draws 1 card, and if they do, return that target to the hand. You can only use this effect of "Matoran Tender Kotu" once per turn.
+	rule text: During the Main or Battle Phase (Quick Effect): You can make the monster(s) your opponent currently controls with the highest ATK lose 800 ATK, until the end of this turn. If this card is Normal Summoned: You can target 1 monster on the field; its owner draws 1 card, and if they do, return that target to the hand. You can only use each effect of "Matoran Tender Kotu" once per turn.
 	attack: 300
 	defense: 800
 	gamecode: 10100246
