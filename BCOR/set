@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Challenge of the Rahi
 	code: BCOR
 	language: EN
-	edition: Version 3.15.5
+	edition: Version 3.20.1
 	copyright: © 2016 THE LEGO GROUP
 styling:
 	yugioh-series9:
@@ -1330,13 +1330,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:08:18
+	time modified: 2022-02-10 16:15:41
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: effect monster
-	name: Matoran Guard Captain Jaller
+	name: Matoran Guard Captain Jala
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image47
@@ -1345,7 +1345,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN027
-	rule text: <i-flavor></i>While your opponent controls a face-up monster, "Matoran" monsters you control gain 400 ATK for each "Matoran" monster you control. During your Main Phase, you can Normal Summon 1 "Matoran" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn) You can only control 1 face-up "Matoran Guard Captain Jaller".<i></i-flavor>
+	rule text: W<i-flavor></i>hile your opponent controls a face-up monster, Level 4 or lower FIRE Warrior monsters you control gain 400 ATK for each "Matoran" monster you control. During your Main Phase, you can Normal Summon 1 "Matoran" or FIRE "Toa" monster in addition to your Normal Summon/Set. (You can only gain this effect once per turn) You can only control 1 face-up "Matoran Guard Captain Jala".<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 800
 	defense: 500
