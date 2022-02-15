@@ -1416,14 +1416,18 @@ card:
 		=> actually Maku making all monsters lose ATK already matches with v2 Eff. Scenario: Activate Huki to gain x1+x2+x3+x4 ATK -> Chain Maku -> Maku is summoned, makes all opponent's monsters lose 500 ATK -> ATK change for Huki is now (x1-500+x2-500+x3-500+x4-500)-500=(x1+x2+x3+x4)-2500 (assuming, of course, all x>=500)
 		=> only works if Maku can activate in Damage Step!
 		=> now Maku switches to Defense Position, so ATK gain can be however high and still be effectively neutralized
+		=> v3.20.2: Split up - 1) SS to empty column sets up the Maku counter and helps Po-Koro combos by potentially triggering Onewa 2) buff arbitrarily high depening on an opponent's monster, but in the same column as a Matoran so you can't generically use the SS and buff together
+		==> 1) might still be too universally good as an extender, maybe give it another requirement
+		==> if it only counts monsters it's definitely safe since there's precedent (Abyss Actor Extras), also rephrased as a summoning procedure like Red Hared Hasty Horse
+		===> also specifies attack position now because that goes well with the Koli roleplay
 	time created: 2015-02-01 11:32:26
-	time modified: 2019-06-12 23:24:26
+	time modified: 2022-02-15 18:28:22
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: effect monster
-	name: Matoran Champion Hewkii
+	name: Matoran Champion Huki
 	attribute: earth
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image50
@@ -1432,7 +1436,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN026
-	rule text: <i-flavor></i>Your opponent cannot target "Matoran" monsters for attacks, except "Matoran Champion Hewkii". Once per turn, if you control another "Matoran" monster, this card cannot be destroyed by battle. At the end of the Damage Step, if this card battled a monster with 2000 or more ATK: Destroy that monster and inflict damage to your opponent equal to its ATK.<i> </i-flavor>
+	rule text: If your opponent controls a monster, you can Special Summon this card (from your hand) in Attack Position to your zone in a column with no monsters. You can only Special Summon "Matoran Champion Huki" once per turn this way. Once per turn: You can target 1 face-up monster your opponent controls in the same column as a "Matoran" monster you control; until the end of this turn, this card gains ATK equal to that target's current ATK, but it cannot attack directly.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 800
 	defense: 300
