@@ -1353,9 +1353,18 @@ card:
 	gamecode: 10100145
 card:
 	has styling: false
-	notes: {{Add "Matoran" monster  from Deck to hand}}
+	notes:
+		{{Inflict 400 damage}}
+		{{Special Summon}}
+		
+		v3.20.2: Updated to not just be a crazy spammable searcher
+		=> Destruction protection for other Matoran is still there since it goes well with the assistant role
+		=> QE burn represents doing mundane chores (i.e., contributing just slightly to the process of getting the opponent to 0) and basically gives an easy +1 chain link in any situation while serving as an easy way to trigger Nixie
+		=> Trigger effect from GY when another Ga-Matoran is sent there again follows the assistant concept, and in practical terms lets us chain block or Ga-Koro protect any effects that trigger off Nokama's discard
+		==> current payoff is self-SS since the original effect had that too, but maybe it would be better to adapt the search part with a self-banish cost instead?
+		==> Banishing during EP (or self-banish as cost) is to set up recovery by Nokama, referencing Hahli being personally selected by her in MNOG2
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:06:58
+	time modified: 2022-02-15 23:14:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1370,7 +1379,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN025
-	rule text: <i-flavor></i>If you control a "Matoran" monster other than "Matoran Assistant Hahli", you can Special Summon this card (from your hand). Other "Matoran" monsters you control cannot be destroyed by card effects. Once per turn, if you control another "Matoran" monster: You can add 1 "Matoran" monster from your Deck to your hand, except "Matoran Assistant Hahli".<i></i-flavor>
+	rule text: <i-flavor></i>Other "Matoran" monsters you control cannot be destroyed by card effects. You can only use each of the following effects of "Matoran Assistant Hahli" once per turn. During the Main Phase (Quick Effect): You can inflict 400 damage to your opponent. If a WATER "Matoran" monster(s), except "Matoran Assistant Hahli", is sent to your GY, while this card is in your GY (except during the Damage Step): You can Special Summon this card, but banish it during the End Phase.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 400
 	defense: 700
