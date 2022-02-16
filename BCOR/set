@@ -1453,9 +1453,13 @@ card:
 	gamecode: 10100148
 card:
 	has styling: false
-	notes: {{Tribute to Special Summon "Matoran" from Graveyard}}
+	notes:
+		{{Tribute to Special Summon "Matoran" from Graveyard}}
+		{{Banish to change monsters to face-up Defense Position}}
+		
+		New GY effect: Translates for Nuju, therefore reverses the "effects" of Nuju's unclear communication by putting the monsters flipped face-down for his bounce face-up again
 	time created: 2015-02-01 11:32:26
-	time modified: 2022-02-10 16:38:19
+	time modified: 2022-02-16 20:05:01
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1466,12 +1470,13 @@ card:
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image51
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
-	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
-	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
-	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN030
-	rule text: <i-flavor></i>If this card was Normal Summoned or flipped face-up this turn: You can Tribute this card; Special Summon up to 2 Level 2 "Matoran" monsters from your GY, except "Matoran Translator Matoro". You can only use this effect of "Matoran Translator Matoro" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card was Normal Summoned or flipped face-up this turn: You can Tribute this card; Special Summon up to 2 Level 2 "Matoran" monsters from your GY, except "Matoran Translator Matoro". When a monster(s) you control is flipped face-down, while this card is in your GY: You can banish this card; change those face-down monsters to face-up Defense Position. You can only use each effect of "Matoran Translator Matoro" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 300
 	defense: 900
