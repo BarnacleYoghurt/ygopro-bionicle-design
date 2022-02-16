@@ -1387,9 +1387,19 @@ card:
 	gamecode: 10100146
 card:
 	has styling: false
-	notes: {{Special Summon monster and increase ATK}}
+	notes:
+		{{Return banished EARTH monster to Deck, then draw and maybe gain LP}}
+		{{Special Summon 1 Level 4 or lower Beast "Rahi" monster from your hand or GY}}
+		
+		v3.20.2: Finetuned and extended to make a bit of a recursive combo with Onu-Koro, Midak, and Ussal
+		=> Putting Onepu on the field fulfills the condition for Midak in hand
+		=> Midak discards himself to send Ussal, Ussal brings back Midak, Onepu brings back Ussal
+		=> Use the 3 monsters for whatever, shuffle the two Matoran in GY back with Onu-Koro (Midak goes to hand!)
+		=> next turn if we can find Onepu again, we can NS him and put Ussal back in Deck with Midak already in hand, thus resetting the combo
+		=> draw with potential LP gain is a bonus that basically roleplays Onepu bragging about his accomplishments of the previous turn to whatever fellow Matoran happens to be around, giving himself a big "reward" (in Onu-Koro terms) while doing so
+		==> a bit unfortunate to have the rare draw & show mechanic overlap with Nixie, but eh
 	time created: 2015-02-01 11:32:26
-	time modified: 2022-02-10 16:24:07
+	time modified: 2022-02-17 00:03:45
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1404,7 +1414,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN029
-	rule text: <i-flavor></i>During your Main Phase: You can Special Summon 1 Level 4 or lower Beast "Rahi" monster from your hand or GY, but banish it when it leaves the field. You can only use this effect of "Matoran Racer Onepu" once per turn.<i></i-flavor>
+	rule text: When this card is Normal Summoned: You can target 1 of your banished EARTH monsters; place it on the bottom of the Deck, then draw 1 card and show it, and if it is a "Matoran" monster, gain 1000 LP. <i-flavor></i>During your Main Phase: You can Special Summon 1 Level 4 or lower Beast "Rahi" monster from your hand or GY, but banish it when it leaves the field. You can only use each effect of "Matoran Racer Onepu" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 700
 	defense: 500
