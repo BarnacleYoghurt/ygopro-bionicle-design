@@ -2492,7 +2492,9 @@ card:
 	has styling: false
 	notes:
 		{{Send 1 "Turaga" moster from your Deck or Extra Deck to the GY}}
-		{{Special Summon 1 Level 4 or lower "Matoran" monster}}
+		{{Special Summon "Legend Stone Token" and return a Warrior to Deck}}
+		{{Place on the top}}
+		{{Place on the bottom}}
 		
 		Basically the same idea, but on a Link-3 instead of a Field Spell to give Turaga a dedicated link climbing option
 		=> no need to support Amaja-Nui on Mata Nui or such this way
