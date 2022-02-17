@@ -932,9 +932,8 @@ card:
 	has styling: false
 	notes:
 		{{Place "C.C. Matoran" monster on top of Deck}}
-		{{Excavate and Special Summon/add to hand}}
-		{{Special Summon 1 excavated "C.C. Matoran" monster?}}
-		{{Add 1 excavated "The Chronicler's Company" to your hand?}}
+		{{Excavate and Special Summon / add to hand}}
+		{{Special Summon / add to hand?}}
 		
 		Orig:
 		When this card is Normal Summoned: You can place 1 "C.C. Matoran" monster from your Deck or Graveyard on top of your Deck. Once per turn: You can discard 1 "C.C. Matoran" monster; Look at the top 3 cards of your deck, then Special Summon as many "C.C. Matoran" monsters among them as possible. "C.C. Matoran" monsters you control cannot be selected as an attack target.
