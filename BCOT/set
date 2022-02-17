@@ -2727,7 +2727,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-02-11 11:47:28
-	time modified: 2022-02-17 15:18:03
+	time modified: 2022-02-17 15:36:32
 	card type: token monster
 	name: Legend Stone Token
 	attribute: none
@@ -2742,7 +2742,7 @@ card:
 	rule text: Summoned by the effect of "Circle of Legends, Amaja-Nui".
 	attack: 0
 	defense: 0
-	gamecode: 10110045
+	gamecode: 10110060
 version control:
 	type: none
 apprentice code: 
