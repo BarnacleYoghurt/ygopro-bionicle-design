@@ -1423,7 +1423,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Destroy opponent's monster and inflict damage}}
+		{{Gain ATK}}
+		
 		v2 Eff (to replace current 2nd and 3rd):
 		Once per turn, at the start of the Damage Step: You can have this card gain ATK equal to the combined ATK of all other "Matoran" monsters you control, until the end of this turn.
 		Alt. (to match Maku):
