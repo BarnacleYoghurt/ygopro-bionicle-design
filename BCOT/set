@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.20.2
+	edition: Version 3.20.3
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1264,8 +1264,10 @@ card:
 		=> does targeting protection still make sense in this branch then?
 		=> "If you did not declare an attack during the last turn, monsters your opponent controls cannot attack, unless they were face-up on the field and did not declare an attack during your opponent's last Battle Phase"
 		==> Allows you to stall for just a single turn in emergencies even against an established board
+		
+		v3.20.3: Remove turn limit on negation for Special Summoned monsters' effects, since otherwise the card does practically nothing going second and folds to anything that Special Summons during your turn
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-08-12 15:42:18
+	time modified: 2022-02-21 12:02:38
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1275,7 +1277,7 @@ card:
 		While all face-up monsters you control (min. 1) are WATER, apply these effects.
 		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, monsters your opponent controls cannot attack the turn they are Summoned.
 		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
-		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of face-up monsters that were Special Summoned this turn while your opponent controls them.
+		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of face-up Special Summoned monsters while your opponent controls them.
 	rarity: common
 	gamecode: 10100029
 card:
@@ -2529,7 +2531,7 @@ card:
 		=> sets up Turaga Nui from Main Deck
 		=> can also be used to give itself an additional attribute by dumping a not yet summoned Turaga from the Extra ("gathering" the Turaga at Amaja-Nui)
 	time created: 2014-12-09 17:11:13
-	time modified: 2022-02-21 11:45:42
+	time modified: 2022-02-21 11:57:10
 	card type: link monster
 	name: Circle of Legends, Amaja-Nui
 	attribute: light
@@ -2541,7 +2543,6 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	edition: Version 3.20.3
 	rule text:
 		2+ monsters, including a "Turaga" monster
 		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can only use each of the following effects of "Circle of Legends, Amaja-Nui" once per turn. If this card is Link Summoned: You can send 1 "Turaga" monster from your Deck or Extra Deck to the GY. You can target 1 of your Warrior monsters that is banished or in your GY; Special Summon 1 "Legend Stone Token" (Warrior/ATK 0/DEF 0) with the same Level and Attribute to your zone this card points to, then place that target on the top or bottom of the Deck.
