@@ -2513,6 +2513,9 @@ card:
 		=> Another approach altogether: "You can target 1 of your Warrior monsters with the same Attribute as this card that is banished or in your GY; Special Summon 1 "Legend Stone Token" (Warrior / ATK 0 / DEF 0) with the same Level and Attribute as that target to your zone this card points to, then place that target on the top or bottom of the Deck." 
 		==> by summoning only a Token, the uses of making and reviving Turaga remain intact while other shenanigans such as Accesscode are prevented
 		==> actually allows the Takua/Kapura/Vakama combo to still work even with Takua only stacking on NS, assuming Kapura was in GY or banished (you simply stack Kapura directly and make Vakama with the FIRE Warrior Token)
+		===> Error: Brainfart detected - the same Attribute requirement means you can't target Kapura here unless you already have Vakama in GY ...
+		===> Maybe we need to drop the multi-Attribute stuff as a whole after all, that would also take a lot of words out of the text
+		===> v3.20.3: Continuous multi-Attribute is still needed for synergy with (some) Koro decks, but removing the same Attribute requirement for the Warrior target still resolves the issue, and leaves enough room to put the neat zone limitation back in
 		==> no need to worry about it being too generic since all you get is a non-effect body with the right Level and Attribute, and we can fittingly make Legend Stones of Toa as well
 		==> Problem: Hella long (though not even a record)
 		===> Simplifications: Remove zone specification, only mention "that target" once (precedent for "same X" without explicit "as Y" e.g. Garbage Collector)
@@ -2526,7 +2529,7 @@ card:
 		=> sets up Turaga Nui from Main Deck
 		=> can also be used to give itself an additional attribute by dumping a not yet summoned Turaga from the Extra ("gathering" the Turaga at Amaja-Nui)
 	time created: 2014-12-09 17:11:13
-	time modified: 2022-02-17 15:01:31
+	time modified: 2022-02-21 11:45:42
 	card type: link monster
 	name: Circle of Legends, Amaja-Nui
 	attribute: light
@@ -2538,9 +2541,10 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	edition: Version 3.20.3
 	rule text:
 		2+ monsters, including a "Turaga" monster
-		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can only use each of the following effects of "Circle of Legends, Amaja-Nui" once per turn. If this card is Link Summoned: You can send 1 "Turaga" monster from your Deck or Extra Deck to the GY. You can target 1 of your Warrior monsters with the same Attribute as this card that is banished or in your GY; Special Summon 1 "Legend Stone Token" (Warrior/ATK 0/DEF 0) with the same Level and Attribute, then place that target on the top or bottom of the Deck.
+		This card's Attribute is also treated as the original Attributes of all "Turaga" Link Monsters you control or in your GY. You can only use each of the following effects of "Circle of Legends, Amaja-Nui" once per turn. If this card is Link Summoned: You can send 1 "Turaga" monster from your Deck or Extra Deck to the GY. You can target 1 of your Warrior monsters that is banished or in your GY; Special Summon 1 "Legend Stone Token" (Warrior/ATK 0/DEF 0) with the same Level and Attribute to your zone this card points to, then place that target on the top or bottom of the Deck.
 	Link Marker Down: yes
 	Link Marker DL: yes
 	Link Marker Right: yes
