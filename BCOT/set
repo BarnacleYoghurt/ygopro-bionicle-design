@@ -722,6 +722,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Make opponent's monster lose ATK/DEF and effect}}
+		{{Special Summon this card}}
+		
 		Problem with Forbidden Lance on Steroids: Would also keep Tahu's ATK reduction from taking effect (would it?), so that's a bit conflicting.
 		
 		Maybe just double damage for faster OTK instead?
@@ -811,6 +814,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Draw 1 card and show it, then Special Summon or discard}}
+		{{Send 1 Spell/Trap from your Deck to the GY}}
+		
 		Tuner because Hal synergy
 		
 		Maybe some effect to get more S/T in the GY so Nokama can immunize more against monsters - sort of feels right for the Astrologer profession as well. Example:
@@ -1457,6 +1463,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send 1 EARTH monster from your Deck to the GY, and if you do, gain 400 LP}}
+		{{Add "Matoran Tender Midak" to hand instead?}}
+		
 		Who gets the Onu bonus slot? Mamru or Midak?
 		
 		Guides travelers to Onu-Koro => searcher?
@@ -1869,6 +1878,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card to opponent's field and a Level 4 or lower "Matoran" monster to yours}}
+		{{Give control of this card to your opponent}}
+		
 		Trader and Traitor - coincidence? Yeah, probably
 		Takes your opponent's side through an even exchange of Special Summons, but will easily betray his current controller
 		=> SS from hand can trigger effects like Hafu
@@ -2030,6 +2042,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card from your hand}}
+		{{Place Spell/Trap on top of the Deck and Special Summon 1 WATER "Matoran"}}
+		
 		Could also give one of the Sanctum Guards the slot, but that conceptually overlaps with Nuju's own effect a bit (also would be weird to leave the other one out, they're equally irrelevant)
 		
 		Scribe = copies Nuju's translations of the Wall of Prophecy
@@ -2154,7 +2169,7 @@ card:
 		===> kinda seems more correct, also you could say we have "Faith" that it's still going to be there next SP
 		===> v3.20.4: Since this is a real pain in the ass to track in the simulator and also gets you into annoying places where you don't have the monster you'd really want to get back in the GY when Matau goes there, we're now back to doing it untargeted
 	time created: 2014-12-08 21:30:21
-	time modified: 2022-02-26 19:09:51
+	time modified: 2022-02-27 20:15:10
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2168,7 +2183,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WIND Warrior monster
-		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand in Attack Position, but its ATK becomes 0. If this card is sent from the field to the GY: You can activate this effect; during the Standby Phase of your next turn, add 1 other WIND monster from your GY to your hand, then, if your opponent controls more monsters than you do, you can make all monsters your opponent currently controls lose 700 ATK/DEF until the end of this turn. You can only use each effect of "Turaga Matau" once per turn.
+		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand in Attack Position, but its ATK becomes 0. If this card is sent from the field to the GY: You can activate this effect; during the Standby Phase of your next turn, add 1 other WIND monster from your GY to your hand, then, if your opponent controls more monsters than you do, you can make all monsters they currently control lose 700 ATK/DEF until the end of this turn. You can only use each effect of "Turaga Matau" once per turn.
 	Link Marker DL: yes
 	Link Marker Right: yes
 	attack: 1400
@@ -2289,6 +2304,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 Level 4 or lower "Matoran" monster from your hand}}
+		{{Add 1 WIND Warrior monster from GY to hand}}
+		
 		The options for the Le-Koro bonus slot are Kumo (Disk Maker), and Makani and Sanso (Musicians)
 		=> preferably one of the Musicians since they're so iconic to Le-Koro's appearance in MNOG
 		=> Sanso is relevant for the principles in MNOG2, so let's save him for that
@@ -2534,7 +2552,7 @@ card:
 		=> sets up Turaga Nui from Main Deck
 		=> can also be used to give itself an additional attribute by dumping a not yet summoned Turaga from the Extra ("gathering" the Turaga at Amaja-Nui)
 	time created: 2014-12-09 17:11:13
-	time modified: 2022-02-21 11:57:10
+	time modified: 2022-02-27 20:20:36
 	card type: link monster
 	name: Circle of Legends, Amaja-Nui
 	attribute: light
