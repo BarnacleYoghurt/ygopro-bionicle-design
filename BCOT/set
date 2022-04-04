@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.20.4
+	edition: Version 3.21.0
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1369,9 +1369,12 @@ card:
 card:
 	stylesheet: series10
 	has styling: false
-	notes: Increase Kanohi stockpile, recycle Suva.
+	notes:
+		Increase Kanohi stockpile, recycle Suva.
+		=> but in a different way from the original: directly equip a new Kanohi to any monster, bring back the Suva (or also Suva Kaita) if that was a Toa
+		=> do we even need the option to equip from Deck, or is an alternate way to swap Kanohi valuable enough by itself?
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-19 21:01:48
+	time modified: 2022-04-04 16:22:12
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1385,9 +1388,9 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: Send 1 "Kanohi" Equip Spell Card from your Deck to the GY, then, if you control a face-up "-Koro" Field Spell Card, you can Special Summon 1 of your banished Rock monsters with 0 ATK. You can only activate 1 "Gift of the Shrine" per turn.
+	rule text: Target 1 face-up monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, then, if it is a "Toa" monster, you can Special Summon 1 of your Level 1 Rock monsters with 0 ATK/DEF that is banished or in the GY.
 	rarity: common
-	gamecode: DRAFT10100051
+	gamecode: 10100051
 card:
 	stylesheet: series10
 	has styling: false
@@ -1624,16 +1627,21 @@ card:
 		
 		Second effect could also be something that gives a reward (e.g. a draw) for completing the "quest" by having a certain number of Kanohi in the GY.
 		=> Maybe summon a banished monster, since you're likely to have quite a few after fiddling around with so many Kanohi
+		=> send Kanohi from hand/field, then draw 1 per 3 different Kanohi in GY
+		==> Reaches the fabled "draw 2" level when six Kanohi are gathered, e.g., the quest is complete
+		===> Though technically it would be 12 because there's also the Nobles...
+		==> Could potentially go even higher if you're willing to run more Kanohi that have not yet been made (up to "draw 14" in a 60 card deck running 42 Kanohi, but no higher because at that point you wouldn't have enough left in deck), but good luck building a usable deck like that
+		==> Needing to have some Kanohi in hand or field to trigger the effect and destroying the card on resolution limits repeatability and thus the amount of advantage you can get in the long term with a reasonable number of Kanohi 
 	time created: 2014-12-08 19:37:32
-	time modified: 2020-12-23 18:15:40
+	time modified: 2022-04-04 18:21:18
 	card type: spell card
 	name: Quest for the Masks
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image29
-	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell Card from your Deck to it. You can target 1 "Kanohi" Equip Spell Card in your GY, then reveal 1 "Toa Mata" monster in your hand whose name is specifically listed on the targeted card; Special Summon that monster, and if you do, send this card to the GY. You can only use this effect of <sym-auto>!</sym-auto>"Quest for the Masks" once per turn.
+	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to it. During your Main Phase: You can send any number of "Kanohi" Equip Spells from your hand or field to the GY, then draw 1 card for every 3 "Kanohi" Equip Spells with different names in your GY, then destroy this card. You can only use this effect of <sym-auto>!</sym-auto>"Quest for the Masks" once per turn.
 	rarity: common
-	gamecode: DRAFT10100016
+	gamecode: 10100016
 card:
 	has styling: false
 	notes:
@@ -1642,26 +1650,30 @@ card:
 		
 		Keep the on-destruction effect or can we live without that crutch now?
 		=> Could search Quest for the Masks as a secondary effect (e.g. during End Phase after getting sent to the GY, whether activated or removed), so we get a little Call->Coming->Quest chain going
+		==> bonus for only targeting monsters sent to the GY that same turn, as a callback to the old target condition
 		=> Another approach would be to have the return to hand and the Quest search happen simultaneously, so you get it as a reward for actually having the Toa stay on the field that long and also have some summons to trigger Quest set up right away
 		
 		Generic Toa support or only Toa Mata?
 		=> SS restriction needs to be generic because of Toa Kaita
+		==> Special Summon restriction only over 2000 ATK makes thematic sense (can't have any other powerful fighters if you need the Toa to come to your rescue) and lets you still access the Suva or maybe use a Link-1 to put something in the GY
 		=> Might actually be too good to have exceptions from the restriction, can be an instant Kaita on your turn just from having this card set and a few random monsters in the GY
+		==> fuck it, if your opponent doesn't have any way to stop this after letting you get so much setup, they deserve to be Kaita'd on
 		
 		Temporary outcome up to +3 Toa on field, permanent outcome up to +3 Toa in hand
 		=>With Toa Mata, can set up appropriate triggers at the appropriate time
 		=> multiple Toa Mata in hand automatically means  at least one is summonable
 		=> too much plus or is it fine because it's a conditional trap?
+		==> getting Quest for the Masks allows even more plusses under even more conditions ...
 	time created: 2014-12-08 18:22:38
-	time modified: 2020-11-22 16:59:52
+	time modified: 2022-04-04 11:14:04
 	card type: trap card
 	name: Coming of the Toa
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image31
-	rule text: Target up to 3 Level 4 or lower monsters with different names in you GY; Special Summon 1 "Toa" monster with same attribute from your hand or Deck for each of those monsters, but they cannot attack, also return them to the hand during the End Phase. You cannot Special Summon during the turn you activate this effect, except "Toa" monsters. You can only activate 1 "Coming of the Toa" per turn.
+	rule text: Target up to 3 monsters with different names in your GY; Special Summon 1 "Toa" monster from your Deck with the same Attribute as each target, but they cannot attack, also return them to the hand during the End Phase. Then, if all targets are in the GY because they were sent there this turn, you can place 1 "Quest for the Masks" from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You cannot Special Summon monsters with 2000 or more ATK the turn you activate this card, except "Toa" monsters. You can only activate 1 "Coming of the Toa" per turn.
 	rarity: common
-	gamecode: DRAFT10100015
+	gamecode: 10100015
 card:
 	has styling: false
 	notes:
@@ -1758,20 +1770,19 @@ card:
 		=> adding 2 means you're ready to summon at least 1, so just give an LP boost as a reward, kinda callback to the old damage protection effect (and it's still +0)
 		=> could also have "Discard 1 card, then roll a six-sided die; excavate cards from the top of your Deck equal to the result" if we want a bit of gambling
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-09-24 21:17:57
+	time modified: 2022-04-04 10:50:04
 	card type: spell card
 	name: Call of the Toa Stones
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image35
 	rule text:
-		Discard 1 card; excavate the top 6 cards of your Deck, then apply these effects, in sequence, depending on  the number of "Toa Mata" monsters excavated.
-		<sym-auto>*</sym-auto>0: You can add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck or GY to your hand.
-		<sym-auto>*</sym-auto>1+: <sym-auto>?</sym-auto><sym-auto>?</sym-auto><sym-auto>?</sym-auto>
-		<sym-auto>*</sym-auto>2+: You can add 1 "Toa Mata" monster from your Deck to your hand.
-		<sym-auto>*</sym-auto>3+: You can Set 1 "Coming of the Toa" directly from your Deck.
+		Discard 1 card; roll a six-sided die and excavate cards from the top of your Deck equal to the result, and if you do, you can add up to 2 excavated "Toa Mata" monsters with different names to your hand, also shuffle the rest into the Deck. Then, apply this effect, based on the number of cards added to your hand this way. You can only activate 1 "Call of the Toa Stones" per turn.
+		<sym-auto>*</sym-auto>0: Set 1 "Coming of the Toa" directly from your Deck. It can be activated this turn.
+		<sym-auto>*</sym-auto>1: Add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to your hand.
+		<sym-auto>*</sym-auto>2: Gain 2000 LP.
 	rarity: common
-	gamecode: DRAFT10100053b
+	gamecode: 10100053
 card:
 	has styling: false
 	notes:
@@ -2093,8 +2104,9 @@ card:
 		Same thing, but with a GY effect that helps set it up and no decay over time
 		=> Wording for effect copying very WIP, now trickier since it needs to account for non-equip effects
 		=> Effect is meant to trigger at the moment of equipping, maybe there's a clearer way to state that
+		==> "becomes"!
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-09-04 07:37:53
+	time modified: 2022-04-04 23:26:34
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2108,9 +2120,9 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If this card is equipped to a "Toa" monster: Banish 6 "Kanohi" Equip Spell Cards with different names from your GY, and if you do, this card gains the effects those cards would have if equipped to the equipped monster. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell Card from your Deck to the GY; add this card to your hand. You can only use this effect of "Golden Great Kanohi" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Must be equipped to a "Toa" monster, by banishing 6 "Great Kanohi" or "Noble Kanohi" Equip Spells with different names from your GY. This card gains the effects those banished cards would have if equipped to the equipped monster. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Golden Great Kanohi" once per turn.
 	rarity: common
-	gamecode: DRAFT10100052
+	gamecode: 10100052
 card:
 	has styling: false
 	notes:
@@ -2770,6 +2782,57 @@ card:
 	attack: 0
 	defense: 0
 	gamecode: 10110060
+card:
+	has styling: false
+	notes:
+		Old:
+		When the effect of a "Toa", "Matoran", or "Turaga" card is activated: Place 1 counter on this card. During either player's turn: You can send this card with 6 or more counters to the Graveyard; Add 1 Spell/Trap Card from your Deck to your hand. You can only control 1 face-up "Makoki Stone".
+		
+		Updated to do the same thing in a way that represents the idea of sealing away and then unsealing better
+		=> considering the inherent slowness of being a trap and the archetype lock on how you gain counters, this would probably be ok even without the 1-turn delay for the added card
+	time created: 2014-12-13 23:24:36
+	time modified: 2022-04-04 23:29:30
+	card type: trap card
+	name: Makoki Stone
+	attribute: trap
+	level: <sym-auto>%</sym-auto>
+	image: image66
+	rule text: When this card is activated: Banish 1 card from your Deck, face-down. Each time an effect of a "Matoran", "Turaga", or "Toa" card is activated, place 1 counter on this card when that effect resolves. You can send this card with 6 or more counters to the GY; add the card banished by this card's effect to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only control 1 face-up "Makoki Stone".
+	rarity: common
+	gamecode: 10100054
+card:
+	stylesheet: series10
+	has styling: false
+	notes:
+		Old:
+		Cannot be destroyed by card effects. You can shuffle this card from your hand into the Deck, and if you do, draw 1 additional card for your next normal draw. If you draw this card during your Draw Phase: Discard it. If this card is banished: Place 1 "Copper Kanohi of Victory" from your Deck on top of your Deck. When this card is sent from the hand or field to the Graveyard, activate 1 of the following effects:
+		*Send 1 "Kanohi" Equip Spell card from your Deck to the Graveyard, except "Copper Kanohi of Victory".
+		*This turn, if a "Toa", "Matoran", or "Turaga" monster battles an opponent's monster, destroy that opponent's monster before Damage Calculation.
+		You can only activate 1 effect of "Copper Kanohi of Victory" per turn, and only once that turn.
+		
+		Massively simplified new version only retains the Catastor effect, because that really sums up the "Victory" idea quite perfectly
+		
+		This clearly still has room for a second effect ...
+		=> maybe some way to benefit from it being destroyed?
+		==> automatically equipping to the monster on the field with the highest ATK would fit the flavour, but isn't all that beneficial in realistic situations
+	time created: 2014-12-04 22:54:03
+	time modified: 2022-04-04 23:36:03
+	extra data:
+		yugioh-standard-extra:
+			card frame: spell card
+			attribute: spell
+	card type: spell card
+	name: Copper Kanohi of Victory
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image73
+	type 1: <word-list-ENrace></word-list-ENrace>
+	type 2: <word-list-ENeffect></word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster.
+	rarity: common
+	gamecode: 10100056 
 version control:
 	type: none
 apprentice code: 
