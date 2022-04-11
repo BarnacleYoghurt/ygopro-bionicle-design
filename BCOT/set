@@ -1627,19 +1627,21 @@ card:
 		
 		Second effect could also be something that gives a reward (e.g. a draw) for completing the "quest" by having a certain number of Kanohi in the GY.
 		=> Maybe summon a banished monster, since you're likely to have quite a few after fiddling around with so many Kanohi
+		==> v3.21.1: Yeah let's go with that, there's better precedent for the text and having some recovery for those doesn't hurt
 		=> send Kanohi from hand/field, then draw 1 per 3 different Kanohi in GY
 		==> Reaches the fabled "draw 2" level when six Kanohi are gathered, e.g., the quest is complete
 		===> Though technically it would be 12 because there's also the Nobles...
+		====> This is nicely accounted for by making the number of Kanohi the level limit for the banished monster to bring back instead, because at 6 you can get a Toa and at 12 you can get anything!
 		==> Could potentially go even higher if you're willing to run more Kanohi that have not yet been made (up to "draw 14" in a 60 card deck running 42 Kanohi, but no higher because at that point you wouldn't have enough left in deck), but good luck building a usable deck like that
 		==> Needing to have some Kanohi in hand or field to trigger the effect and destroying the card on resolution limits repeatability and thus the amount of advantage you can get in the long term with a reasonable number of Kanohi 
 	time created: 2014-12-08 19:37:32
-	time modified: 2022-04-08 15:13:29
+	time modified: 2022-04-11 12:07:29
 	card type: spell card
 	name: Quest for the Masks
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image29
-	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to it. During your Main Phase: You can send any number of "Kanohi" Equip Spells from your hand or field to the GY, then draw 1 card for every 3 "Kanohi" Equip Spells with different names in your GY, then destroy this card. You can only use this effect of "Quest for the Masks" once per turn.
+	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to it. During your Main Phase: You can send any number of "Kanohi" Equip Spells from your hand or field to the GY, and if you do, Special Summon 1 of your banished monsters whose Level is less than or equal to the number of "Kanohi" Equip Spells with different names in your GY, then destroy this card. You can only use this effect of "Quest for the Masks" once per turn.
 	rarity: common
 	gamecode: 10100016
 card:
