@@ -1633,13 +1633,13 @@ card:
 		==> Could potentially go even higher if you're willing to run more Kanohi that have not yet been made (up to "draw 14" in a 60 card deck running 42 Kanohi, but no higher because at that point you wouldn't have enough left in deck), but good luck building a usable deck like that
 		==> Needing to have some Kanohi in hand or field to trigger the effect and destroying the card on resolution limits repeatability and thus the amount of advantage you can get in the long term with a reasonable number of Kanohi 
 	time created: 2014-12-08 19:37:32
-	time modified: 2022-04-04 18:21:18
+	time modified: 2022-04-08 15:13:29
 	card type: spell card
 	name: Quest for the Masks
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image29
-	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to it. During your Main Phase: You can send any number of "Kanohi" Equip Spells from your hand or field to the GY, then draw 1 card for every 3 "Kanohi" Equip Spells with different names in your GY, then destroy this card. You can only use this effect of <sym-auto>!</sym-auto>"Quest for the Masks" once per turn.
+	rule text: When a "Toa" monster is Normal Summoned: You can equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to it. During your Main Phase: You can send any number of "Kanohi" Equip Spells from your hand or field to the GY, then draw 1 card for every 3 "Kanohi" Equip Spells with different names in your GY, then destroy this card. You can only use this effect of "Quest for the Masks" once per turn.
 	rarity: common
 	gamecode: 10100016
 card:
@@ -2816,7 +2816,7 @@ card:
 		=> maybe some way to benefit from it being destroyed?
 		==> automatically equipping to the monster on the field with the highest ATK would fit the flavour, but isn't all that beneficial in realistic situations
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-04 23:36:03
+	time modified: 2022-04-11 10:54:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2832,7 +2832,7 @@ card:
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster.
 	rarity: common
-	gamecode: 10100056 
+	gamecode: 10100056
 version control:
 	type: none
 apprentice code: 
