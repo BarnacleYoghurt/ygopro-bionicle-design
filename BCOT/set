@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.21.0
+	edition: Version 3.21.1
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1370,11 +1370,18 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Equip 1 "Kanohi" Equip Spell from your hand or GY to that target}}
+		{{Banish 1 Level 1 Rock Monster with 0 ATK/DEF you control or in your GY, and if you do, equip 1 "Noble Kanohi" or "Great Kanohi" Equip Spell from your Deck to that target}}
+		
 		Increase Kanohi stockpile, recycle Suva.
 		=> but in a different way from the original: directly equip a new Kanohi to any monster, bring back the Suva (or also Suva Kaita) if that was a Toa
 		=> do we even need the option to equip from Deck, or is an alternate way to swap Kanohi valuable enough by itself?
+		==> we do need it because we generally need more ways to fetch Kanohi if we want to be less reliant on Isolde
+		==> bringing back a used-up Suva is also kinda crazy and redundant with the new QftM effect, so maybe we could instead reference the Suva by using its presence as the requirement to also equip from Deck
+		===> In fact, banish it so we still use up a resource to get a new Kanohi and can justify not wasting space on a HOPT clause here
+		===> Can only get Nobles and Greats from Deck, to keep some options open for how Legendary Kanohi will be designed
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-04 16:22:12
+	time modified: 2022-04-11 12:16:40
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1388,7 +1395,10 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: Target 1 face-up monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, then, if it is a "Toa" monster, you can Special Summon 1 of your Level 1 Rock monsters with 0 ATK/DEF that is banished or in the GY.
+	rule text:
+		Target 1 face-up monster you control, then activate 1 of these effects;
+		<sym-auto>*</sym-auto>Equip 1 "Kanohi" Equip Spell from your hand or GY to that target.
+		<sym-auto>*</sym-auto>Banish 1 Level 1 Rock Monster with 0 ATK/DEF you control or in your GY, and if you do, equip 1 "Noble Kanohi" or "Great Kanohi" Equip Spell from your Deck to that target.
 	rarity: common
 	gamecode: 10100051
 card:
