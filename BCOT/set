@@ -2816,7 +2816,7 @@ card:
 		=> maybe some way to benefit from it being destroyed?
 		==> automatically equipping to the monster on the field with the highest ATK would fit the flavour, but isn't all that beneficial in realistic situations
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-11 10:54:48
+	time modified: 2022-04-11 10:56:36
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2830,7 +2830,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster. If this card is destroyed and sent to the GY: You can equip this card to the monster you control with the highest ATK, but banish it when it leaves the field.
 	rarity: common
 	gamecode: 10100056
 version control:
