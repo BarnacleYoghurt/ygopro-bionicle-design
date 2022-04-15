@@ -2813,13 +2813,13 @@ card:
 		Updated to do the same thing in a way that represents the idea of sealing away and then unsealing better
 		=> considering the inherent slowness of being a trap and the archetype lock on how you gain counters, this would probably be ok even without the 1-turn delay for the added card
 	time created: 2014-12-13 23:24:36
-	time modified: 2022-04-04 23:29:30
+	time modified: 2022-04-15 16:56:49
 	card type: trap card
 	name: Makoki Stone
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image66
-	rule text: When this card is activated: Banish 1 card from your Deck, face-down. Each time an effect of a "Matoran", "Turaga", or "Toa" card is activated, place 1 counter on this card when that effect resolves. You can send this card with 6 or more counters to the GY; add the card banished by this card's effect to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only control 1 face-up "Makoki Stone".
+	rule text: When this card is activated: Banish 1 card from your Deck, face-down. Each time an effect of a "Matoran", "Turaga", or "Toa" card is activated, place 1 Key Counter on this card when that effect resolves (max. 6). You can send this card with 6 Key Counters to the GY; add the card banished by this card's effect to your hand. You can only control 1 face-up "Makoki Stone".
 	rarity: common
 	gamecode: 10100054
 card:
