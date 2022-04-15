@@ -1677,13 +1677,13 @@ card:
 		=> too much plus or is it fine because it's a conditional trap?
 		==> getting Quest for the Masks allows even more plusses under even more conditions ...
 	time created: 2014-12-08 18:22:38
-	time modified: 2022-04-04 11:14:04
+	time modified: 2022-04-15 09:08:33
 	card type: trap card
 	name: Coming of the Toa
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image31
-	rule text: Target up to 3 monsters with different names in your GY; Special Summon 1 "Toa" monster from your Deck with the same Attribute as each target, but they cannot attack, also return them to the hand during the End Phase. Then, if all targets are in the GY because they were sent there this turn, you can place 1 "Quest for the Masks" from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You cannot Special Summon monsters with 2000 or more ATK the turn you activate this card, except "Toa" monsters. You can only activate 1 "Coming of the Toa" per turn.
+	rule text: Target up to 3 monsters with different names in your GY; Special Summon 1 "Toa Mata" monster from your Deck with the same Attribute as each target, but they cannot attack, also return them to the hand during the End Phase. Then, if all targets are in the GY because they were sent there this turn, you can place 1 "Quest for the Masks" from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You cannot Special Summon monsters with 2000 or more ATK the turn you activate this card, except "Toa" monsters. You can only activate 1 "Coming of the Toa" per turn.
 	rarity: common
 	gamecode: 10100015
 card:
