@@ -1662,6 +1662,7 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Affected by "Coming of the Toa": Cannot Special Summon monsters with 2000 or more ATK, except "Toa" monsters}}
 		{{Place "Quest for the Masks" in Spell & Trap Zone?}}
 		
 		Original:
