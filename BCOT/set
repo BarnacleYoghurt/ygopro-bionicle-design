@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.21.1
+	edition: Version 3.21.2
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2125,13 +2125,13 @@ card:
 		=> Effect is meant to trigger at the moment of equipping, maybe there's a clearer way to state that
 		==> "becomes"!
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-04 23:26:34
+	time modified: 2022-04-15 09:31:03
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
 			attribute: spell
 	card type: spell card
-	name: Golden Great Kanohi
+	name: Great Golden Kanohi
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image45
@@ -2139,7 +2139,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Must be equipped to a "Toa" monster, by banishing 6 "Great Kanohi" or "Noble Kanohi" Equip Spells with different names from your GY. This card gains the effects those banished cards would have if equipped to the equipped monster. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Golden Great Kanohi" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Must be equipped to a "Toa" monster, by banishing 6 "Great Kanohi" or "Noble Kanohi" Equip Spells with different names from your GY. This card gains the effects those banished cards would have if equipped to the equipped monster. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Great Golden Kanohi" once per turn.
 	rarity: common
 	gamecode: 10100052
 card:
