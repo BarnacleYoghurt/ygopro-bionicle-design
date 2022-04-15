@@ -1626,6 +1626,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Equip "Great Kanohi" or "Noble Kanohi" Equip Spell}}
+		{{Send "Kanohi" Equip Spells to GY}}
+		
+		
 		Another idea for second effect:
 		"You can target 1 "Kanohi" Equip Spell Card in your GY, then reveal 1 "Toa Mata" monster in your hand whose name is specifically listed on the targeted card; Special Summon that monster, and if you do, send this card to the GY."
 		=> Upgrade Kanohi searches to straight up SS
@@ -1645,7 +1649,7 @@ card:
 		==> Could potentially go even higher if you're willing to run more Kanohi that have not yet been made (up to "draw 14" in a 60 card deck running 42 Kanohi, but no higher because at that point you wouldn't have enough left in deck), but good luck building a usable deck like that
 		==> Needing to have some Kanohi in hand or field to trigger the effect and destroying the card on resolution limits repeatability and thus the amount of advantage you can get in the long term with a reasonable number of Kanohi 
 	time created: 2014-12-08 19:37:32
-	time modified: 2022-04-11 12:07:29
+	time modified: 2022-04-15 09:14:08
 	card type: spell card
 	name: Quest for the Masks
 	attribute: spell
@@ -1657,6 +1661,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Place "Quest for the Masks" in Spell & Trap Zone?}}
+		
 		Original:
 		Target up to 3 Level 4 or lower monsters in your Graveyard that were destroyed this turn; Special Summon 1 "Toa" monster with the same Attribute from your hand or Deck for each of these monsters. Monsters Special Summoned by this effect cannot attack during the turn they are Summoned. If this face-down card is destroyed by your opponent's card effect and sent to the Graveyard: You can destroy all monsters you control (min. 1); Special Summon 1 "Toa" monster from your hand or Deck. You can only activate 1 "Coming of the Toa" effect per turn, and only once that turn
 		
