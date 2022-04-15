@@ -1764,6 +1764,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add excavated "Toa Mata" monsters?}}
+		
 		Spell version because having a trap as a consistency booster probably wouldn't work very well for the deck
 		
 		Since it excavates (because the Toa being called are still in the future), the logic here is that a higher number of hits implies more Toa still in the Deck and therefore less in hand/GY. So:
