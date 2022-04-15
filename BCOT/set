@@ -2354,7 +2354,7 @@ card:
 		GY effect to replenish resources on subsequent turn just goes along with general Le-Koro theme.
 		=> if Matau stays on the ploos route, maybe this one could be something that helps breaking boards instead?
 	time created: 2020-03-02 07:53:28
-	time modified: 2022-02-03 16:41:48
+	time modified: 2022-04-15 09:27:20
 	card type: effect monster
 	name: Matoran Musician Makani
 	attribute: wind
@@ -2366,7 +2366,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card is Normal or Special Summoned: You can Special Summon 1 Level 4 or lower "Matoran" monster from your hand. If this card is in your GY, except during the turn it was sent there: You can banish this card, then target 1 WIND Warrior monster in your GY, except "Matoran Musician Makani"; add it to your hand. You can only use each effect of "Matoran Musician Makani" once per turn.
+	rule text: If this card is Normal or Special Summoned from the hand: You can Special Summon 1 Level 4 or lower "Matoran" monster from your hand. If this card is in your GY, except during the turn it was sent there: You can banish this card, then target 1 WIND Warrior monster in your GY, except "Matoran Musician Makani"; add it to your hand. You can only use each effect of "Matoran Musician Makani" once per turn.
 	attack: 500
 	defense: 400
 	gamecode: 10100066
