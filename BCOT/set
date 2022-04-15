@@ -209,7 +209,7 @@ card:
 		=> More attacks helps Ta-Koro a lot
 		==> Maybe just attacks on monsters? Possibly too powerful for the sole requirement of having any monster survive for a turn
 	time created: 2014-12-10 20:58:53
-	time modified: 2020-07-22 00:18:52
+	time modified: 2022-04-15 09:24:17
 	card type: effect monster
 	name: C.C. Matoran Kapura
 	attribute: fire
@@ -219,7 +219,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If a "C.C. Matoran" monster you control attacks, your opponent's cards and effects cannot be activated until the end of the Damage Step. At the start of your Battle Phase: You can banish this card from your GY, then target 1 face-up monster you control that was not Summoned this turn; it can make a second attack during this Battle Phase. You can only use this effect of "C.C. Matoran Kapura" once per turn.
+	rule text: If a "C.C. Matoran" monster you control attacks, your opponent's cards and effects cannot be activated until the end of the Damage Step. At the start of your Battle Phase: You can banish this card from your GY, then target 1 face-up monster you control that was not Summoned this turn; it can make up to 2 attacks on monsters during this Battle Phase. You can only use this effect of "C.C. Matoran Kapura" once per turn.
 	attack: 600
 	defense: 200
 	rarity: common
