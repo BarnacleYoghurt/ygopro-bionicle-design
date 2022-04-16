@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.21.3
+	edition: Version 3.21.4
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2209,7 +2209,7 @@ card:
 		===> kinda seems more correct, also you could say we have "Faith" that it's still going to be there next SP
 		===> v3.20.4: Since this is a real pain in the ass to track in the simulator and also gets you into annoying places where you don't have the monster you'd really want to get back in the GY when Matau goes there, we're now back to doing it untargeted
 	time created: 2014-12-08 21:30:21
-	time modified: 2022-02-27 20:15:10
+	time modified: 2022-04-16 17:34:16
 	card type: link monster
 	name: Turaga Matau
 	attribute: wind
@@ -2223,7 +2223,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WIND Warrior monster
-		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand in Attack Position, but its ATK becomes 0. If this card is sent from the field to the GY: You can activate this effect; during the Standby Phase of your next turn, add 1 other WIND monster from your GY to your hand, then, if your opponent controls more monsters than you do, you can make all monsters they currently control lose 700 ATK/DEF until the end of this turn. You can only use each effect of "Turaga Matau" once per turn.
+		During your Main Phase: You can Special Summon 1 Level 4 or lower WIND monster from your hand in Attack Position, but its ATK becomes 0. If this card is sent from the field to the GY: You can activate this effect; during the Standby Phase of your next turn, add 1 WIND monster from your GY to your hand, then, if your opponent controls more monsters than you do, you can make all monsters they currently control lose 700 ATK/DEF until the end of this turn. You can only use each effect of "Turaga Matau" once per turn.
 	Link Marker DL: yes
 	Link Marker Right: yes
 	attack: 1400
