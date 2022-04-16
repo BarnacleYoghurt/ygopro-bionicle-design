@@ -2837,8 +2837,11 @@ card:
 		This clearly still has room for a second effect ...
 		=> maybe some way to benefit from it being destroyed?
 		==> automatically equipping to the monster on the field with the highest ATK would fit the flavour, but isn't all that beneficial in realistic situations
+		==> v3.21.4: Equip from GY on attack declaration, so you can still reuse it if there's another attack happening and can also use it from the GY somewhat if it was milled
+		===> Banish afterwards so it only needs to be dealt with twice at most
+		===> HOPT just to ensure no other cards that trigger when something is equipped (e.g. Charles) can get too easy plusses off it 
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-11 10:56:36
+	time modified: 2022-04-16 17:01:08
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2852,7 +2855,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster. If this card is destroyed and sent to the GY: You can equip this card to the monster you control with the highest ATK, but banish it when it leaves the field.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster. When a monster declares an attack while this card is in your GY: You can equip this card to the monster you control with the highest ATK, but banish it when it leaves the field. You can only use this effect of "Copper Kanohi of Victory" once per turn.
 	rarity: common
 	gamecode: 10100056
 version control:
