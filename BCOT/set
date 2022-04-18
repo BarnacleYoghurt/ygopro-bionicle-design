@@ -1798,12 +1798,12 @@ card:
 		=> adding 2 means you're ready to summon at least 1, so just give an LP boost as a reward, kinda callback to the old damage protection effect (and it's still +0)
 		=> could also have "Discard 1 card, then roll a six-sided die; excavate cards from the top of your Deck equal to the result" if we want a bit of gambling
 	time created: 2014-12-13 23:24:36
-	time modified: 2022-04-04 10:50:04
+	time modified: 2022-04-18 09:31:17
 	card type: spell card
 	name: Call of the Toa Stones
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
-	image: image35
+	image: image74
 	rule text:
 		Discard 1 card; roll a six-sided die and excavate cards from the top of your Deck equal to the result, and if you do, you can add up to 2 excavated "Toa Mata" monsters with different names to your hand, also shuffle the rest into the Deck. Then, apply this effect, based on the number of cards added to your hand this way. You can only activate 1 "Call of the Toa Stones" per turn.
 		<sym-auto>*</sym-auto>0: Set 1 "Coming of the Toa" directly from your Deck. It can be activated this turn.
