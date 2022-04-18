@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.21.4
+	edition: Version 3.21.5
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -2134,7 +2134,7 @@ card:
 		=> Effect is meant to trigger at the moment of equipping, maybe there's a clearer way to state that
 		==> "becomes"!
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-15 17:08:47
+	time modified: 2022-04-18 11:40:20
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2148,7 +2148,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. While this card is equipped to a "Toa" monster: You can banish 6 "Great Kanohi" and/or "Noble Kanohi" Equip Spells from your GY, and if you do, replace this effect with those banished cards' original effects. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Great Golden Kanohi" once per turn.
+	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. While this card is equipped to a "Toa" monster: You can banish 6 "Great Kanohi" Equip Spells with different names from your GY, and if you do, replace this effect with those banished cards' original effects. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Great Golden Kanohi" once per turn.
 	rarity: common
 	gamecode: 10100052
 card:
