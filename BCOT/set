@@ -1381,7 +1381,7 @@ card:
 		===> In fact, banish it so we still use up a resource to get a new Kanohi and can justify not wasting space on a HOPT clause here
 		===> Can only get Nobles and Greats from Deck, to keep some options open for how Legendary Kanohi will be designed
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-11 12:16:40
+	time modified: 2022-04-25 11:25:05
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1398,7 +1398,7 @@ card:
 	rule text:
 		Target 1 face-up monster you control, then activate 1 of these effects;
 		<sym-auto>*</sym-auto>Equip 1 "Kanohi" Equip Spell from your hand or GY to that target.
-		<sym-auto>*</sym-auto>Banish 1 Level 1 Rock Monster with 0 ATK/DEF you control or in your GY, and if you do, equip 1 "Noble Kanohi" or "Great Kanohi" Equip Spell from your Deck to that target.
+		<sym-auto>*</sym-auto>Banish 1 Level 1 Rock monster with 0 ATK/DEF you control or in your GY, and if you do, equip 1 "Noble Kanohi" or "Great Kanohi" Equip Spell from your Deck to that target.
 	rarity: common
 	gamecode: 10100051
 card:
