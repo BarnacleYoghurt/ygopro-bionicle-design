@@ -252,7 +252,7 @@ card:
 		=> perhaps provides a good hook for any non-regular Kanohi users (Axonn, Brutaka) to just have an effect that states a Kanohi equipped to them gains its effects anyway => longer variant that might be even better for that (since it explicitly states the effect is gained): "While this card is equipped to a "Toa" or "Makuta" monster, it gains this effect.
 		* The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving that monster"
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-11-26 23:00:36
+	time modified: 2022-06-02 14:39:46
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -266,7 +266,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving that monster. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Great Kanohi Hau" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Great Kanohi Hau" once per turn.
 	attack: 
 	rarity: common
 	gamecode: 10100007
@@ -376,7 +376,7 @@ card:
 		
 		New approach: Unaffected by non-targeting effects (environmental conditions) - still sums up to totally unaffected together with the new Miru
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-10-03 19:10:44
+	time modified: 2022-06-02 14:46:15
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -390,7 +390,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Gali" from your Deck to your hand. You can only use this effect of "Great Kanohi Kaukau" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Gali" from your Deck to your hand. You can only use this effect of "Great Kanohi Kaukau" once per turn.
 	rarity: common
 	gamecode: 10100008
 card:
@@ -1142,7 +1142,7 @@ card:
 		=> what does the Akaku get then?
 		==> new concept for that added as draft
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-11-26 23:02:37
+	time modified: 2022-06-02 20:14:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1156,7 +1156,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage to your opponent. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Onua" from your Deck to your hand. You can only use this effect of "Great Kanohi Pakari" once per turn. 
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Onua" from your Deck to your hand. You can only use this effect of "Great Kanohi Pakari" once per turn.
 	rarity: common
 	gamecode: 10100009
 card:
@@ -1423,7 +1423,7 @@ card:
 		==> Really pushing the length boundaries again (ATK reduction is actually permanent because I cut the "until the end of this turn" there), would be nice if that can be shortened
 		===> An ATK reduction as cost is basically just symbolic anyway, so might as well leave out all those words and just banish, short and crisp
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-09 23:54:52
+	time modified: 2022-06-02 19:55:09
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1438,7 +1438,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		If another "Kanohi" card is equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. While equipped to a "Toa" or "Makuta" monster you control, this card gains these effects.
+		If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Kopaka" from your Deck to your hand. You can only use this effect of "Great Kanohi Akaku" once per turn. While equipped to a "Toa" or "Makuta" monster you control, this card gains these effects.
 		<sym-auto>*</sym-auto>Your opponent must keep their hand revealed.
 		<sym-auto>*</sym-auto>Once per turn, if your opponent adds a Spell/Trap(s) to their hand (except during the Damage Step): You can banish that Spell/Trap(s) until the End Phase.
 	rarity: common
@@ -1790,7 +1790,7 @@ card:
 	has styling: false
 	notes: {{Add Pohatu to hand}}
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-04-01 23:48:35
+	time modified: 2022-06-02 20:15:08
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1804,7 +1804,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it can attack all monsters your opponent controls once each. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Pohatu" from your Deck to your hand. You can only use this effect of "Great Kanohi Kakama" once per turn. 
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, it can attack all monsters your opponent controls, once each. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Pohatu" from your Deck to your hand. You can only use this effect of "Great Kanohi Kakama" once per turn.
 	rarity: common
 	gamecode: 10100010
 card:
@@ -2231,7 +2231,7 @@ card:
 		
 		Phrasing (c) Pendulum Impenetrable
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-12-09 23:07:05
+	time modified: 2022-06-02 20:10:31
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2245,7 +2245,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Lewa" from your Deck to your hand. You can only use this effect of "Great Kanohi Miru" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa" or "Makuta" monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 "Toa Mata Lewa" from your Deck to your hand. You can only use this effect of "Great Kanohi Miru" once per turn.
 	rarity: common
 	gamecode: 10100012
 card:
