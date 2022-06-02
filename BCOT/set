@@ -20,8 +20,7 @@ card:
 	has styling: false
 	notes:
 		{{Normal Summon by Tributing from hand}}
-		{{Reduce ATK to 0}}
-		{{Equip Kanohi from hand or GY}}
+		{{Reduce ATK of a face-up monster to 0}}
 		{{FAIYAAAAAAAAAAAH!}}
 		
 		Already has overhaul effects.
@@ -62,7 +61,7 @@ card:
 		=> Allows Ta-Koro to OTK more reliably without needing a bonus battle damage effect on Lhii
 		=> Full-on multiplicative might stack a bit too hard, so maybe change that to inflicting damage equal to original ATK if monster is destroyed by battle (a bit like Ghost Mourner) - also fits the "it's on fire and explodes" visual a bit better
 	time created: 2014-12-04 18:00:08
-	time modified: 2020-11-26 22:55:47
+	time modified: 2022-06-01 23:21:58
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -76,7 +75,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 FIRE or "Toa Mata" monster in your hand, except "Toa Mata Tahu", instead of a monster you control. Once per turn, if a monster battles, after damage calculation: You can target 1 monster your opponent controls; its ATK becomes 0, also if it is destroyed by battle this turn your opponent takes damage equal to its original ATK.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute a FIRE or "Toa Mata" monster in your hand, except "Toa Mata Tahu", instead of a monster you control. Once per turn, if a monster battles, after damage calculation: You can target 1 face-up monster your opponent controls; its ATK becomes 0, also if it is destroyed by battle this turn, your opponent takes damage equal to its original ATK.<i></i-flavor>
 	attack: 2500
 	defense: 1500
 	rarity: common
@@ -398,8 +397,7 @@ card:
 	has styling: false
 	notes:
 		{{Normal Summon by Tributing from hand}}
-		{{Negate effect and gain ATK}}
-		{{Equip Kanohi from hand or GY}}
+		{{Negate effects of a face-up monster and gain ATK}}
 		
 		Problem with main eff: "When" misses timing too often, "if" instantly recycles materials & handtraps; Recycling of handtraps may not be safe either way
 		
@@ -446,7 +444,7 @@ card:
 		====> This wording would make it easy to expand the scope of triggering effects to cover all cards (monster effect -> card or effect), but not sure if that's a good idea
 		====> Still breaks when stuff is chained to an applicable effect, but searching backwards in the chain looks so contrived...
 	time created: 2014-12-04 18:35:41
-	time modified: 2020-12-21 12:57:57
+	time modified: 2022-06-02 07:59:25
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -460,7 +458,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, if the turn player's opponent activates a monster effect, except "Toa Mata Gali" (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute a WATER or "Toa Mata" monster in your hand, except "Toa Mata Gali", instead of a monster you control. Once per turn, when the turn player's opponent activates a monster effect, except "Toa Mata Gali" (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK.<i></i-flavor>
 	attack: 2300
 	defense: 1800
 	rarity: common
@@ -511,8 +509,7 @@ card:
 	has styling: false
 	notes:
 		{{Normal Summon by Tributing from hand}}
-		{{Return card from GY to Deck}}
-		{{Equip Kanohi from hand or GY}}
+		{{Return card from GY to Deck, gain LP if monster with lower ATK}}
 		{{Place on the top}}
 		{{Place on the bottom}}
 		
@@ -531,7 +528,7 @@ card:
 		=> Symbolism is basically the same as the other effect (i.e., just Drill Warrior)
 		=> Activation condition is more easily fullfilled outside BP
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-12-11 23:43:22
+	time modified: 2022-06-02 08:25:45
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -545,7 +542,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua", instead of a monster you control. Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place that target on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than or equal to this card's current ATK, gain LP equal to the difference.
+	rule text: To Tribute Summon this card face-up, you can Tribute an EARTH or "Toa Mata" monster in your hand, except "Toa Mata Onua", instead of a monster you control. Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place it on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than this card's current ATK, gain LP equal to the difference.
 	attack: 2100
 	defense: 2100
 	rarity: common
@@ -566,7 +563,7 @@ card:
 		=> Could also be triggered by Tribute Summons (in addition to ED summons), since it's also a form of the Po-Koro idea of "creating" something bigger out of materials and would have synergy with Toa Mata in general - whether that's justifiable or not depends on how Po-Koro turns out
 		==> Perhaps better: Also trigger on ED effect activations, so it works on/against an established board
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-12-11 23:45:07
+	time modified: 2022-06-02 08:58:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -581,7 +578,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOT-EN019
-	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute 1 EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu". Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster that was Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy that target, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
+	rule text: <i-flavor></i>To Tribute Summon this card face-up, you can Tribute an EARTH or "Toa Mata" monster in your hand, except "Toa Mata Pohatu", instead of a monster you control. Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster Special Summoned from the Extra Deck activates its effect: You can target 1 Spell/Trap on the field; destroy it, also, if you control a Rock monster, you can destroy 1 additional Spell/Trap on the field.<i></i-flavor>
 	attack: 2400
 	defense: 1700
 	rarity: common
@@ -606,7 +603,7 @@ card:
 		
 		v3.16.2: Converging both ideas, we now have the defense position attack protection plus a Dante effect to enable it (which doesn't activate!), with the trigger effect being the same as the original one, but without any position-changing (gives us at least theoretical access to non-targeting removal)
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-08-09 16:48:36
+	time modified: 2022-06-02 09:22:49
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -620,7 +617,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka". If this card attacks, it is changed to Defense Position at the end of the Battle Phase. If this card is in face-up Defense Position, your opponent's monsters cannot target monsters for attacks, except "Toa Mata Kopaka". Once per turn, if another card(s) you control leaves the field because of an opponent's card effect: You can banish 1 card your opponent controls.
+	rule text: To Tribute Summon this card face-up, you can Tribute a WATER or "Toa Mata" monster in your hand, except "Toa Mata Kopaka", instead of a monster you control. If this card attacks, it is changed to Defense Position at the end of the Battle Phase. While this card is in face-up Defense Position, your opponent's monsters cannot target monsters for attacks, except "Toa Mata Kopaka". Once per turn, if another card(s) you control leaves the field by an opponent's card effect: You can banish 1 card your opponent controls.
 	attack: 2000
 	defense: 2500
 	rarity: common
@@ -639,7 +636,7 @@ card:
 		==> "then" conjunction means failing to bounce your target (maybe because of some protection like Miru?) fucks the whole effect up, more resilient phrasing would be "[...]; if you control that target, you can return 1 other monster on the field to the hand, also return that target to the hand."
 		===> Kinda awkward, so lets only do that if it's really needed for some kind of neat combo
 	time created: 2014-12-04 18:35:41
-	time modified: 2021-10-05 23:56:25
+	time modified: 2022-06-02 09:56:00
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -653,7 +650,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: To Tribute Summon this card face-up, you can Tribute 1 WIND or "Toa Mata" monster in your hand, except "Toa Mata Lewa".  Once per turn, if a monster(s) is Special Summoned from the hand, Main Deck, or GY while you control this card: You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled while on the field, you can return 1 additional monster on the field to the hand. 
+	rule text: To Tribute Summon this card face-up, you can Tribute a WIND or "Toa Mata" monster in your hand, except "Toa Mata Lewa", instead of a monster you control. Once per turn, if a monster(s) is Special Summoned from the hand, Main Deck, and/or GY while you control this card: You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand.
 	attack: 2200
 	defense: 1900
 	rarity: common
