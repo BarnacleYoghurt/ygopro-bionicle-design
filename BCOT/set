@@ -1596,10 +1596,9 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Equip "Great Kanohi" or "Noble Kanohi" Equip Spell}}
-		{{Send "Kanohi" Equip Spells to GY}}
-		{{Special Summon banished monster?}}
-		
+		{{Equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell}}
+		{{Send "Kanohi" Equip Spells to GY, draw that many cards}}
+		{{Special Summon a banished monster, then destroy this card}}
 		
 		Another idea for second effect:
 		"You can target 1 "Kanohi" Equip Spell Card in your GY, then reveal 1 "Toa Mata" monster in your hand whose name is specifically listed on the targeted card; Special Summon that monster, and if you do, send this card to the GY."
@@ -1661,13 +1660,13 @@ card:
 		=> too much plus or is it fine because it's a conditional trap?
 		==> getting Quest for the Masks allows even more plusses under even more conditions ...
 	time created: 2014-12-08 18:22:38
-	time modified: 2022-04-15 09:08:33
+	time modified: 2022-06-03 17:35:43
 	card type: trap card
 	name: Coming of the Toa
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image31
-	rule text: Target up to 3 monsters with different names in your GY; Special Summon 1 "Toa Mata" monster from your Deck with the same Attribute as each target, but they cannot attack, also return them to the hand during the End Phase. Then, if all targets are in the GY because they were sent there this turn, you can place 1 "Quest for the Masks" from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You cannot Special Summon monsters with 2000 or more ATK the turn you activate this card, except "Toa" monsters. You can only activate 1 "Coming of the Toa" per turn.
+	rule text: Target up to 3 monsters with different names in your GY; Special Summon 1 "Toa Mata" monster from your Deck with the same Attribute as each target, but they cannot attack, also return them to the hand during the End Phase. Then, if all targets are in the GY because they were sent there this turn, you can place 1 "Quest for the Masks" from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You cannot Special Summon monsters with 2000 or more ATK, except "Toa" monsters, the turn you activate this card. You can only activate 1 "Coming of the Toa" per turn.
 	rarity: common
 	gamecode: 10100015
 card:
@@ -2357,7 +2356,7 @@ card:
 		May also need some defense against attempts to stop it before entering BP
 		=> but only if it's absolutely indispensable, as not having that and focusing purely on unga bunga is V A L O R 
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-02 10:13:37
+	time modified: 2022-06-02 23:46:35
 	card type: xyz monster
 	name: Akamai, Toa Kaita of Valor
 	attribute: fire
@@ -2369,7 +2368,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 6 "Toa Mata" monsters
-		Your opponent cannot activate cards or effects during the Battle Phase. If this card battles an opponent's monster, that monster has its effects negated until the end of the Damage Step. Once per turn, if this card destroys an opponent's monster by battle: You can detach 1 material from this card; inflict damage to your opponent equal to the destroyed monster's original ATK.
+		Your opponent cannot activate cards or effects during the Battle Phase. If this card battles an opponent's monster, that monster has its effects negated until the end of the Damage Step. Once per turn, when this card destroys an opponent's monster by battle: You can detach 1 material from this card; inflict damage to your opponent equal to the destroyed monster's original ATK.
 	attack: 3000
 	defense: 2000
 	rarity: common
