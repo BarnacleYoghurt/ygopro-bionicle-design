@@ -135,13 +135,13 @@ card:
 		=> Maybe the better move would be too drop the self-pop entirely, you're activating the new field spell over Mata Nui anyway
 		==> that leaves us with enough room to include the stat boost as well :D
 	time created: 2014-12-09 17:11:13
-	time modified: 2021-10-05 22:41:11
+	time modified: 2022-06-04 22:42:22
 	card type: spell card
 	name: The Island of Mata Nui
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image17
-	rule text: All Normal Summoned "Toa Mata" monsters gain 600 ATK/DEF. During your Main Phase: You can reveal 1 monster in your hand and add 1 "-Koro" Field Spell card that lists that monster's Attribute in its text from your Deck to your hand. If you revealed a "Toa Mata" monster, you can add 1 "The Great Temple, Kini-Nui" instead. If a card in your Field Zone, except "The Island of Mata Nui", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of "The Island of Mata Nui" once per turn.
+	rule text: All Normal Summoned "Toa Mata" monsters gain 600 ATK/DEF. During your Main Phase: You can reveal 1 monster in your hand and add 1 "-Koro" Field Spell that mentions that monster's Attribute from your Deck to your hand. If you revealed a "Toa Mata" monster, you can add 1 "The Great Temple, Kini-Nui" instead. If a card in your Field Zone, except "The Island of Mata Nui", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of "The Island of Mata Nui" once per turn.
 	defense: 
 	rarity: common
 	gamecode: 10100023
@@ -309,7 +309,7 @@ card:
 		==> Maybe "except this card's" is better?
 		=> For comfort: Make recycling effect mandatory, so you don't misclick it away - want  to activate it pretty much always anyway, and in the cases where not the other effect makes it easy to get the card in question to GY/banished again 
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-10-06 00:21:38
+	time modified: 2022-06-04 17:08:26
 	card type: link monster
 	name: Turaga Nokama
 	attribute: water
@@ -323,7 +323,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		Cannot be destroyed by battle while it points to a monster. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, or Trap) than the card you banished, except this card's. During your opponent's End Phase, if this card points to a monster (Quick Effect): You can target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
+		Cannot be destroyed by battle while it points to a monster. (Quick Effect): You can banish 1 card from your GY, then discard 1 card; until the end of this turn, this card and monsters it points to are unaffected by the effects of cards with a different card type (Monster, Spell, and/or Trap) than the card banished to activate this effect, except this card's. During your opponent's End Phase, if this card points to a monster (Quick Effect): You can target 1 of your WATER monsters that is banished or in your GY; add it to your hand. You can only use each effect of "Turaga Nokama" once per turn.
 	Link Marker Up: yes
 	Link Marker UR: none
 	Link Marker DL: yes
@@ -466,7 +466,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Reveal top card of both Decks and Special Summon}}
+		{Each player reveals the top card of their Deck and Special Summons}}
 		{{Draw 1 card}}
 		
 		Idea: Make Turaga Link 2 because using a lone Absolute Zero as material for Nokama/Nuju is kinda degenerate, and just attribute+type is a weaker requirement than most other Link 1 monsters. Sneak advantage: Monsters with inappropriate attributes can be linked away as a Turaga's second material.
@@ -482,7 +482,7 @@ card:
 		
 		Effect gets kinda long now :(
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-07-22 00:18:33
+	time modified: 2022-06-04 16:46:53
 	card type: link monster
 	name: Turaga Vakama
 	attribute: fire
@@ -496,7 +496,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a FIRE Warrior monster
-		You can activate this effect; each player reveals the top card of their Deck, and if it is a FIRE Warrior monster, they Special Summon it. Otherwise, they Special Summon 1 "Vision Token" (Warrior/FIRE/Level 3/ATK 1500/DEF 0) in Attack Position, but it cannot be Tributed or used as material for a Synchro or Link Summon. When a monster is destroyed by battle: Draw 1 card. You can only use each effect of "Turaga Vakama" once per turn.
+		During your Main Phase: You can activate this effect; each player reveals the top card of their Deck, and if a player revealed a FIRE Warrior monster, they Special Summon that monster. Otherwise, they Special Summon 1 "Vision Token" (Warrior/FIRE/Level 3/ATK 1500/DEF 0) in Attack Position, but it cannot be Tributed or used as material for a Synchro or Link Summon. If a monster is destroyed by battle: Draw 1 card. You can only use each effect of "Turaga Vakama" once per turn.
 	Link Marker Down: yes
 	Link Marker Left: yes
 	Link Marker Right: none
@@ -1037,7 +1037,7 @@ card:
 		==> Total GY count remains identical, so it does not hinder Onu-Koro and may avoid being useful to Po-Koro (though any deck with GY effects can make use of dumping a specific monster, so probably not)
 		==> Really good with Goukis since it lets you activate Rematch even if only 1 material was a Gouki, but does it actually synergize with the not yet existent Onu-Matoran?
 	time created: 2014-12-08 21:30:21
-	time modified: 2020-09-29 11:43:32
+	time modified: 2022-06-04 17:31:31
 	card type: link monster
 	name: Turaga Whenua
 	attribute: earth
@@ -1051,7 +1051,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		Each time an EARTH monster(s) is sent from your hand or field to the GY, gain 400 LP for each. If this card is Link Summoned: You can pay 1000 LP; add 1 Level 4 or lower EARTH Warrior monster from your Deck to your hand with a different name than the monsters in your GY. You can only use this effect of "Turaga Whenua" once per turn.
+		Each time an EARTH monster(s) is sent from your hand or field to the GY, gain 400 LP for each. If this card is Link Summoned: You can pay 1000 LP; add 1 Level 4 or lower EARTH Warrior monster from your Deck to your hand, with a different name from the cards in your GY. You can only use this effect of "Turaga Whenua" once per turn.
 	Link Marker UR: none
 	Link Marker Down: yes
 	Link Marker DL: none
@@ -1568,7 +1568,7 @@ card:
 		===> Other improvements #2: New ordering and conjunctions make it so returning a monster to the Extra Deck still gets the draw, but doesn't need to banish - seems reasonable. Also, limiting the targets to Level 4 or lower makes it pretty unlikely it will be used on an ED monster anyway.
 		===> BUT IT'S STILL SO FUCKING LONG
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-04-25 10:24:22
+	time modified: 2022-06-04 17:45:32
 	card type: link monster
 	name: Turaga Onewa
 	attribute: earth
@@ -1582,7 +1582,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including an EARTH Warrior monster
-		You can target 1 Level 4 or lower EARTH monster in your GY; the player who has fewer total cards in their hand and field draws 1 card, also add that target to your hand, and if you do, banish 1 card from your hand. If an EARTH monster(s) is Special Summoned to your zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
+		You can target 1 Level 4 or lower EARTH monster in your GY; the player with the fewest total cards in their hand and field draws 1 card, also add that target to your hand, and if you do, banish 1 card from your hand. If an EARTH monster(s) is Special Summoned to a zone(s) this card points to: You can target 1 of your banished EARTH Warrior monsters; Special Summon it in Defense Position. You can only use each effect of "Turaga Onewa" once per turn.
 	Link Marker UR: none
 	Link Marker Down: none
 	Link Marker DL: yes
@@ -1891,6 +1891,7 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Protect face-up Spell/Trap until end of next turn}}
 		{{Flip monsters face-down to bounce}}
 		
 		Quasi-remove stuff without impacting Ko-Koro's protection
@@ -1913,7 +1914,7 @@ card:
 		=> v3.16.3: Rather than re-enabling protection every EP, apply it once per Special Summon - we want to discourage long stall situations anyway and activating the effect all the time gets annoying
 		==> As a little buff in exchange, protection condition now just requires any WATER monster, which conveniently also simplifies the text a lot
 	time created: 2014-12-08 21:30:21
-	time modified: 2021-12-11 23:36:44
+	time modified: 2022-06-04 18:10:22
 	card type: link monster
 	name: Turaga Nuju
 	attribute: water
@@ -1927,7 +1928,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters, including a WATER Warrior monster
-		If this card is Special Summoned: You can target 1 face-up Spell/Trap you control; until the end of the next turn, while you control a WATER monster, that target cannot be destroyed by card effects (even if this card leaves the field). Once per turn: You can target any number of cards your opponent controls; change that many monsters you control to face-down Defense Position, and if you do, return the targeted cards to the hand.
+		If this card is Special Summoned: You can target 1 face-up Spell/Trap you control; until the end of the next turn, while you control a WATER monster, that target cannot be destroyed by card effects (even if this card leaves the field). Once per turn: You can target any number of cards your opponent controls; change face-up monsters you control to face-down Defense Position, equal to the number of targeted cards, and if you do, return those targeted cards to the hand.
 	Link Marker Left: yes
 	Link Marker Right: yes
 	attack: 1100
