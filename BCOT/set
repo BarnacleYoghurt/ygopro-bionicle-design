@@ -110,7 +110,7 @@ card:
 	has styling: false
 	notes:
 		{{Reveal a monster and add a matching Field Spell}}
-		{{Activate "The Island of Mata Nui"}}
+		{{Activate "The Island of Mata Nui" from GY}}
 		
 		On activate: Search Koro
 		=> Alternative approach: "You can reveal 1 monster in your hand, or target 1 face-up monster you control; add 1 "-Koro" Field Spell Card from your Deck to your hand that lists that monster's Attribute in its text."
@@ -878,8 +878,8 @@ card:
 	has styling: false
 	notes:
 		{{Normal Summon (Kini-Nui)}}
-		{{Special Summon tributed "Toa" from GY}}
-		{{Destroy Kini-Nui to summon a Rock}}
+		{{Special Summon Tributed "Toa" from GY}}
+		{{Destroy Kini-Nui to Special Summon a Rock}}
 		
 		Alternate approach to Kanohi-switching effect, so that doesn't have to repeated on every Toa.
 		
