@@ -954,7 +954,7 @@ card:
 		=> Only stack on NS so we leave some room for surprises
 		=> Excavate without discard cost so it's not too costly to do when you SS Takua and thus don't have the guaranteed setup, but adding the Trap is now an alternative rather than a free bonus because otherwise it would be too much of a plus
 	time created: 2014-12-10 20:58:53
-	time modified: 2022-02-15 17:50:58
+	time modified: 2022-06-08 22:57:01
 	card type: effect monster
 	name: Matoran Chronicler Takua
 	attribute: light
@@ -964,7 +964,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal Summoned: You can take 1 of your "C.C. Matoran" monsters from your Deck, GY, or that is banished and place it on top of your Deck, and if you do, this card's Attribute becomes that monster's original Attribute. During your Main Phase: You can excavate the top 6 cards of your Deck, and if you do, you can Special Summon 1 excavated "C.C. Matoran" monster or add 1 excavated "The Chronicler's Company" to your hand, also shuffle the rest into your Deck. You can only use this effect of "Matoran Chronicler Takua" once per turn.
+	rule text: If this card is Normal Summoned: You can take 1 of your "C.C. Matoran" monsters from your Deck, GY, or that is banished and place it on top of your Deck, and if you do, this card's Attribute becomes the same as that monster's original Attribute. During your Main Phase: You can excavate the top 6 cards of your Deck, and if you do, you can Special Summon 1 excavated "C.C. Matoran" monster or add 1 excavated "The Chronicler's Company" to your hand, also shuffle the rest into your Deck. You can only use this effect of "Matoran Chronicler Takua" once per turn.
 	attack: 350
 	defense: 350
 	rarity: common
@@ -2558,7 +2558,7 @@ card:
 		=> Summons the Turaga Nui because now it has officially been made (and gives your opponent a window to banish it from the field, for fairness)
 		=> Can be reused every damn turn because you sure deserve it once you get that far
 	time created: 2014-12-14 08:29:10
-	time modified: 2021-12-29 16:55:02
+	time modified: 2022-06-08 23:52:36
 	card type: effect monster
 	name: Turaga Nui
 	attribute: light
@@ -2568,7 +2568,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Spellcaster</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can send this card from your hand and 1 "Noble Kanohi" Equip Spell from your Deck to the GY; reveal 1 "Turaga" Link monster in your Extra Deck, and if you do, Special Summon 1 Level 4 or lower Warrior monster with the same Attribute from your hand. When your opponent activates a card or effect while there are 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from the GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned by its own effect. You can send this card from your hand and 1 "Noble Kanohi" Equip Spell from your Deck to the GY; reveal 1 "Turaga" Link monster in your Extra Deck, and if you do, Special Summon 1 Level 4 or lower Warrior monster with the same Attribute from your hand. When your opponent activates a card or effect, while you have 6 or more "Turaga" Link Monsters with different names in your GY (Quick Effect): You can Special Summon this card from your GY, and if you do, negate the effects of all face-up cards your opponent currently controls. You can only use each effect of "Turaga Nui" once per turn.
 	Link Marker Up: yes
 	Link Marker Down: yes
 	Link Marker DL: yes
@@ -2605,7 +2605,7 @@ card:
 		=> 6 is a total field nuke that now shuffles instead of destroying, and is no longer HOPT because you send the card to the GY anyway
 		==> Updated: Now unrespondable so you get a real big payoff for assembling a full board of 6
 	time created: 2014-12-13 23:24:36
-	time modified: 2021-12-26 21:30:15
+	time modified: 2022-06-08 23:15:26
 	card type: trap card
 	name: The Chronicler's Company
 	attribute: trap
@@ -2613,7 +2613,7 @@ card:
 	image: image61
 	rule text:
 		You can only control 1 "The Chronicler's Company". This card gains these effects based on the number of "C.C. Matoran" monsters you control.
-		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand or GY with a different name from the monsters you control.
+		<sym-auto>*</sym-auto>1+: Once per turn: You can Special Summon 1 "C.C. Matoran" monster from your hand or GY with a different name than the cards you control.
 		<sym-auto>*</sym-auto>3+: Once per turn: You can target 2 "C.C. Matoran" monsters you control and 1 card your opponent controls; return them to the hand.
 		<sym-auto>*</sym-auto>6: You can send this face-up card to the GY; shuffle all cards on the field into the Deck, except "C.C. Matoran" cards. Neither player can activate cards or effects in response to this effect's activation.
 	rarity: common
