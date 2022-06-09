@@ -89,7 +89,7 @@ card:
 		
 		Maybe instead of tributing do something like destroy or return to hand, so Vision Tokens can be used?
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-11-26 23:03:34
+	time modified: 2022-06-09 14:27:55
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -103,7 +103,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control another monster, your opponent cannot target the equipped monster for attacks. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Vakama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Huna" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster, your opponent's monsters cannot target it for attacks while you control another monster. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Vakama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Huna" once per turn.
 	rarity: common
 	gamecode: 10100040
 card:
@@ -347,7 +347,7 @@ card:
 		=> Maybe: "Each player who controls a monster(s) in the Main Monster Zone moves 1 of those monsters to another of their Main Monster Zones" => allows owner to adjust zones as well when protection takes effect, but may screw up placement relative to Nokama
 		=> Perhaps even better: "You can move 1 monster in the Main Monster Zone to another Main Monster Zone, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone" => that way the opponent of the one activating the effect (usually you) gets the last word
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-11-26 23:06:22
+	time modified: 2022-06-09 14:52:05
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -361,7 +361,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Each turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster, the first activated effect that targets it becomes "You can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster, the first activated effect that targets it becomes "You can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field, then your opponent can move 1 monster in the Main Monster Zone to another Main Monster Zone on its controller's field". If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nokama" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Rau" once per turn.
 	rarity: common
 	gamecode: 10100041
 card:
@@ -1112,7 +1112,7 @@ card:
 		=> Hard OPT to avoid degenerate burn loops (since the same Set card could theoretically be revealed over and over again)
 		==> The bullet points needed for this are actually the main reason the new mental focus restriction isn't worded as an explicitly gained effect, because we can't exactly nest bullet points and inconsistency would suck
 	time created: 2014-12-04 22:54:03
-	time modified: 2020-11-26 23:07:32
+	time modified: 2022-06-09 15:57:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1127,8 +1127,8 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		If another "Kanohi" card is equipped to the equipped monster, destroy this card. You can only use each of the following effects of "Noble Kanohi Ruru" once per turn.
-		<sym-auto>*</sym-auto>If the equipped monster is a "Turaga", "Toa", or "Makuta" monster: You can target 1 Set card your opponent controls; reveal it. If it is a Spell/Trap Card, inflict 500 damage to your opponent. If it is a monster with lower ATK than the equipped monster, inflict damage to your opponent equal to the difference.
+		If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. You can only use each of the following effects of "Noble Kanohi Ruru" once per turn.
+		<sym-auto>*</sym-auto>While this card is equipped to a "Turaga", "Toa", or "Makuta" monster: You can target 1 Set card your opponent controls; reveal it. If it is a Spell/Trap, inflict 500 damage to your opponent. If it is a monster with less ATK than the equipped monster, inflict damage to your opponent equal to the difference.
 		<sym-auto>*</sym-auto>If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Whenua" in your GY; Special Summon it and equip it with this card.
 	rarity: common
 	gamecode: 10100042
@@ -1822,7 +1822,7 @@ card:
 		=> no particular synergy right now, but let's just try this
 		=> does still lock effects of any monster opponent might want to summon if they happen to already control a big one, so maybe still more oppressive than it should be
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-04-05 11:58:50
+	time modified: 2022-06-09 15:43:41
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1836,7 +1836,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and your opponent controls 2 or more monsters, the monster(s) with the lowest ATK your opponent controls cannot activate its effects. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Komau" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Turaga", "Toa", or "Makuta" monster and your opponent controls 2 or more monsters, the monster(s) your opponent controls with the lowest ATK cannot activate its effects. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Onewa" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Komau" once per turn.
 	rarity: common
 	gamecode: 10100043
 card:
@@ -1973,7 +1973,7 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
-		{{Change 1 monster to face-up Attack or Defense Position}}
+		{{Change the battle position of 1 monster on the field}}
 		{{Special Summon Nuju and equip with Matatu}}
 		
 		Same idea of throwing stuff to inflict damage, but tuned to synergize with Nuju and Ko-Koro
@@ -1987,7 +1987,7 @@ card:
 		==> Can flip your own monsters face-up, so enjoy your mad plusses from Nuju + Penguing Soldier combos
 		==> Equipped monster cannot attack because telekinesis takes focus
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-08-13 16:17:36
+	time modified: 2022-06-09 16:24:35
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2001,7 +2001,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster: You can change the battle position of 1 monster on the field. The equipped monster cannot attack the turn you activate this effect. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn. 
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. Once per turn, while this card is equipped to a "Turaga", "Toa", or "Makuta" monster: You can change the battle position of 1 monster on the field. The equipped monster cannot attack the turn you activate this effect. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Nuju" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Matatu" once per turn.
 	rarity: common
 	gamecode: 10100044
 card:
@@ -2205,7 +2205,7 @@ card:
 		Token being a Level 1 makes it usable for Linkuriboh, which isn't really all that well positioned in Le-Koro.dek
 		=> 3.17.4: So let's make it a Level 3 Spellcaster as a reference to old Turaga, then it instead becomes better for Synchro plays
 	time created: 2014-12-04 22:54:03
-	time modified: 2021-10-10 18:19:39
+	time modified: 2022-06-09 16:24:29
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2219,7 +2219,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. Once per turn, if the equipped monster is a "Turaga", "Toa", or "Makuta" monster and you control no other monsters: You can Special Summon 1 "Illusion Token" (Spellcaster/WIND/Level 3/ATK 0/DEF 0), but destroy it when this card leaves the field. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Matau" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Mahiki" once per turn. 
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. Once per turn, while this card is equipped to a "Turaga", "Toa", or "Makuta" monster and you control no other monsters: You can Special Summon 1 "Illusion Token" (Spellcaster/WIND/Level 3/ATK 0/DEF 0), but destroy it when this card leaves the field. If this card is in your GY: You can Tribute 1 monster, then target 1 "Turaga Matau" in your GY; Special Summon it and equip it with this card. You can only use this effect of "Noble Kanohi Mahiki" once per turn.
 	rarity: common
 	gamecode: 10100045
 card:
