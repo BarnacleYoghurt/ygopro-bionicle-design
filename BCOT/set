@@ -1368,7 +1368,7 @@ card:
 	has styling: false
 	notes:
 		{{Equip 1 "Kanohi" Equip Spell from your hand or GY to that target}}
-		{{Banish 1 Level 1 Rock Monster with 0 ATK/DEF you control or in your GY, and if you do, equip 1 "Noble Kanohi" or "Great Kanohi" Equip Spell from your Deck to that target}}
+		{{Banish 1 Level 1 Rock monster you control or in your GY with 0 ATK/DEF, and if you do, equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to that target}}
 		
 		Increase Kanohi stockpile, recycle Suva.
 		=> but in a different way from the original: directly equip a new Kanohi to any monster, bring back the Suva (or also Suva Kaita) if that was a Toa
@@ -1378,7 +1378,7 @@ card:
 		===> In fact, banish it so we still use up a resource to get a new Kanohi and can justify not wasting space on a HOPT clause here
 		===> Can only get Nobles and Greats from Deck, to keep some options open for how Legendary Kanohi will be designed
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-25 11:25:05
+	time modified: 2022-06-10 18:30:18
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -1395,7 +1395,7 @@ card:
 	rule text:
 		Target 1 face-up monster you control, then activate 1 of these effects;
 		<sym-auto>*</sym-auto>Equip 1 "Kanohi" Equip Spell from your hand or GY to that target.
-		<sym-auto>*</sym-auto>Banish 1 Level 1 Rock monster with 0 ATK/DEF you control or in your GY, and if you do, equip 1 "Noble Kanohi" or "Great Kanohi" Equip Spell from your Deck to that target.
+		<sym-auto>*</sym-auto>Banish 1 Level 1 Rock monster you control or in your GY with 0 ATK/DEF, and if you do, equip 1 "Great Kanohi" or "Noble Kanohi" Equip Spell from your Deck to that target.
 	rarity: common
 	gamecode: 10100051
 card:
@@ -1697,7 +1697,7 @@ card:
 		Follow the Suva's lead in being treated as all non-DARK attributes in the hand (for Toa Mata summons) and GY (for Coming)
 		=> no need for on-field since you're not meant to use this in a Koro deck anyway (Suva Kaita is at Kini-Nui!)</soft-line>
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-12-09 23:09:01
+	time modified: 2022-06-10 18:11:21
 	card type: effect monster
 	name: Suva Kaita
 	attribute: light
@@ -1707,7 +1707,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: While in your hand or GY, this card is also WIND, WATER, FIRE, and EARTH-Attribute. (Quick Effect): You can Tribute this card, then target 1 Level 6 "Toa" monster in your GY; Special Summon that target. You can banish this card from your GY, then target 1 of your banished "Toa" monsters; you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except "Toa" monsters, also Special Summon that target in Defense Position. You can only use each effect of "Suva Kaita" once per turn.
+	rule text: While in your hand or GY, this card is also EARTH, WATER, FIRE, and WIND-Attribute. (Quick Effect): You can Tribute this card, then target 1 Level 6 "Toa" monster in your GY; Special Summon that target. You can banish this card from your GY, then target 1 of your banished "Toa" monsters; Special Summon it in Defense Position, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except "Toa" monsters. You can only use each effect of "Suva Kaita" once per turn.
 	attack: 0
 	defense: 0
 	rarity: common
@@ -1743,14 +1743,14 @@ card:
 		=> adding 2 means you're ready to summon at least 1, so just give an LP boost as a reward, kinda callback to the old damage protection effect (and it's still +0)
 		=> could also have "Discard 1 card, then roll a six-sided die; excavate cards from the top of your Deck equal to the result" if we want a bit of gambling
 	time created: 2014-12-13 23:24:36
-	time modified: 2022-04-18 09:31:17
+	time modified: 2022-06-10 23:13:10
 	card type: spell card
 	name: Call of the Toa Stones
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image74
 	rule text:
-		Discard 1 card; roll a six-sided die and excavate cards from the top of your Deck equal to the result, and if you do, you can add up to 2 excavated "Toa Mata" monsters with different names to your hand, also shuffle the rest into the Deck. Then, apply this effect, based on the number of cards added to your hand this way. You can only activate 1 "Call of the Toa Stones" per turn.
+		Discard 1 card; roll a six-sided die and excavate cards from the top of your Deck equal to the result, and if you do, you can add up to 2 excavated "Toa Mata" monsters with different names to your hand, also shuffle the rest into your Deck. Then, apply the following effect, based on the number of cards added to your hand this way. You can only activate 1 "Call of the Toa Stones" per turn.
 		<sym-auto>*</sym-auto>0: Set 1 "Coming of the Toa" directly from your Deck. It can be activated this turn.
 		<sym-auto>*</sym-auto>1: Add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to your hand.
 		<sym-auto>*</sym-auto>2: Gain 2000 LP.
@@ -2052,6 +2052,9 @@ card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Banish 6 "Great Kanohi" and copy their effects}}
+		{{Send a "Kanohi" to GY to add back "Great Golden Kanohi"}}
+		
 		Orig.:
 		Must be equipped to a "Toa" monster that has no "Kanohi" card equipped by banishing 6 "Kanohi" Equip Spell Cards with different names that could be equipped to that monster from your Graveyard. This card gains the effects of each card banished by its effect as long as they remain banished. During each of your End Phases: Shuffle 1 of your banished "Kanohi" Equip Spell Cards into the Deck.
 		
@@ -2060,7 +2063,7 @@ card:
 		=> Effect is meant to trigger at the moment of equipping, maybe there's a clearer way to state that
 		==> "becomes"!
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-18 11:40:20
+	time modified: 2022-06-10 20:12:38
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2074,7 +2077,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. While this card is equipped to a "Toa" monster: You can banish 6 "Great Kanohi" Equip Spells with different names from your GY, and if you do, replace this effect with those banished cards' original effects. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Great Golden Kanohi" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. While this card is equipped to a "Toa" monster: You can banish 6 "Great Kanohi" Equip Spells with different names from your GY, and if you do, replace this effect with those cards' original effects. If this card is sent to the GY: You can send 1 "Kanohi" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Great Golden Kanohi" once per turn.
 	rarity: common
 	gamecode: 10100052
 card:
