@@ -1348,7 +1348,7 @@ card:
 		The general idea is that a Suva in Defense Position should act like a continouous Spell/Trap that can also be destroyed by battle (the only real reason it's a monster is so you can tribute it for the Toa). This works without any special protection, except in the presence of piercing or battle position changing effects, where the card is instead a huge liability.
 		=> adding a small protection effect to negate battle damage would fix this
 	time created: 2014-12-10 20:58:53
-	time modified: 2021-12-11 23:14:21
+	time modified: 2022-06-11 16:39:02
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1358,7 +1358,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell Card, this card is also WIND, WATER, FIRE, and EARTH-Attribute. <i-flavor></i>Once per Chain (Quick Effect): You can pay 500 LP, then target 1 "Toa" monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
+	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell, this card is also EARTH, WATER, FIRE, and WIND-Attribute. <i-flavor></i>Once per Chain (Quick Effect): You can pay 500 LP, then target 1 "Toa" monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
 	attack: 0
 	defense: 0
 	rarity: common
@@ -2714,25 +2714,30 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send this card to the GY to add the banished card to your hand}}
+		
 		Old:
 		When the effect of a "Toa", "Matoran", or "Turaga" card is activated: Place 1 counter on this card. During either player's turn: You can send this card with 6 or more counters to the Graveyard; Add 1 Spell/Trap Card from your Deck to your hand. You can only control 1 face-up "Makoki Stone".
 		
 		Updated to do the same thing in a way that represents the idea of sealing away and then unsealing better
 		=> considering the inherent slowness of being a trap and the archetype lock on how you gain counters, this would probably be ok even without the 1-turn delay for the added card
 	time created: 2014-12-13 23:24:36
-	time modified: 2022-04-15 16:56:49
+	time modified: 2022-06-11 09:17:41
 	card type: trap card
 	name: Makoki Stone
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image66
-	rule text: When this card is activated: Banish 1 card from your Deck, face-down. Each time an effect of a "Matoran", "Turaga", or "Toa" card is activated, place 1 Key Counter on this card when that effect resolves (max. 6). You can send this card with 6 Key Counters to the GY; add the card banished by this card's effect to your hand. You can only control 1 face-up "Makoki Stone".
+	rule text: When this card is activated: Banish 1 card from your Deck, face-down. Each time an effect of a "Matoran", "Turaga", or "Toa" card is activated, place 1 Key Counter on this card when that effect resolves (max. 6). You can send this card with 6 Key Counters to the GY; add the card banished by this card's effect to your hand. You can only control 1 "Makoki Stone".
 	rarity: common
 	gamecode: 10100054
 card:
 	stylesheet: series10
 	has styling: false
 	notes:
+		{{Destroy opponent's monster and "Copper Kanohi of Victory"}}
+		{{Equip "Copper Kanohi of Victory" to your monster with the highest ATK}}
+		
 		Old:
 		Cannot be destroyed by card effects. You can shuffle this card from your hand into the Deck, and if you do, draw 1 additional card for your next normal draw. If you draw this card during your Draw Phase: Discard it. If this card is banished: Place 1 "Copper Kanohi of Victory" from your Deck on top of your Deck. When this card is sent from the hand or field to the Graveyard, activate 1 of the following effects:
 		*Send 1 "Kanohi" Equip Spell card from your Deck to the Graveyard, except "Copper Kanohi of Victory".
@@ -2748,7 +2753,7 @@ card:
 		===> Banish afterwards so it only needs to be dealt with twice at most
 		===> HOPT just to ensure no other cards that trigger when something is equipped (e.g. Charles) can get too easy plusses off it 
 	time created: 2014-12-04 22:54:03
-	time modified: 2022-04-16 17:01:08
+	time modified: 2022-06-11 16:34:33
 	extra data:
 		yugioh-standard-extra:
 			card frame: spell card
@@ -2762,7 +2767,7 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	rule text: If another "Kanohi" card is equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster. When a monster declares an attack while this card is in your GY: You can equip this card to the monster you control with the highest ATK, but banish it when it leaves the field. You can only use this effect of "Copper Kanohi of Victory" once per turn.
+	rule text: If another "Kanohi" card becomes equipped to the equipped monster, destroy this card. At the start of the Damage Step, if a "Matoran", "Turaga", or "Toa" monster equipped with this card battles an opponent's monster: You can destroy both this card and that opponent's monster. When a monster declares an attack, while this card is in your GY: You can equip this card to 1 monster you control with the highest ATK (your choice, if tied), but banish this card when it leaves the field. You can only use this effect of "Copper Kanohi of Victory" once per turn.
 	rarity: common
 	gamecode: 10100056
 version control:
