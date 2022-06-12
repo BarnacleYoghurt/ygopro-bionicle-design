@@ -1270,7 +1270,7 @@ card:
 		
 		v3.20.3: Remove turn limit on negation for Special Summoned monsters' effects, since otherwise the card does practically nothing going second and folds to anything that Special Summons during your turn
 	time created: 2014-12-09 17:11:13
-	time modified: 2022-06-05 13:56:01
+	time modified: 2022-06-12 21:13:31
 	card type: spell card
 	name: Ko-Koro, Village of Ice
 	attribute: spell
@@ -1278,7 +1278,7 @@ card:
 	image: image22
 	rule text:
 		While all face-up monsters you control are WATER (min. 1), apply these effects.
-		<sym-auto>*</sym-auto>If your monster did not declare an attack during your last turn, monsters your opponent controls cannot attack the turn they are Summoned.
+		<sym-auto>*</sym-auto>If you did not declare an attack during your last turn, monsters your opponent controls cannot attack the turn they are Summoned.
 		<sym-auto>*</sym-auto>If none of your opponent's cards where destroyed or banished by your card effects since your last Standby Phase, monsters you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
 		<sym-auto>*</sym-auto>If you did not activate any monster effects this turn, negate the effects of face-up Special Summoned monsters while your opponent controls them.
 	rarity: common
