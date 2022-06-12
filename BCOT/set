@@ -2395,7 +2395,7 @@ card:
 		===> In terms of text length, the only thing that works is triggering straight off the material detach, that even leaves us enough room for a HOPT just in case
 		===> Make the negate work on your own cards as well so you can proactively trigger Wisdom
 	time created: 2014-12-08 15:30:26
-	time modified: 2021-12-06 11:06:33
+	time modified: 2022-06-12 22:08:37
 	card type: xyz monster
 	name: Wairuha, Toa Kaita of Wisdom
 	attribute: wind
@@ -2407,7 +2407,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 6 "Toa Mata" monsters
-		Once per turn, when a card or effect is activated (Quick Effect): You can detach 1 material from this card; negate the activation. If a material(s) is detached from this card (except during the Damage Step): You can declare 1 card type (Monster, Spell, or Trap); your opponent reveals 1 random card in their hand and the top card of their Deck. Then, apply these effects, in sequence, based on the number of cards of the declared type revealed. You can only use this effect of "Wairuha, Toa Kaita of Wisdom" once per turn.
+		Once per turn, when a card or effect is activated (Quick Effect): You can detach 1 material from this card; negate the activation. If a material(s) is detached from this card (except during the Damage Step): You can declare 1 card type (Monster, Spell, or Trap); your opponent reveals 1 random card in their hand and the top card of their Deck. Then, apply the following effect(s) in sequence, based on the number of cards of the declared type revealed. You can only use this effect of "Wairuha, Toa Kaita of Wisdom" once per turn.
 		<sym-auto>*</sym-auto>1+: Draw 1 card.
 		<sym-auto>*</sym-auto>2: Banish 1 card your opponent controls or in their GY.
 	attack: 2600
@@ -2643,7 +2643,7 @@ card:
 		==> doing that on summon introduces the interesting dynamic where you really only get the full payoff when using 3 different attributes, and you can also intentionally keep one around for the battle protection
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2022-06-09 20:21:53
+	time modified: 2022-06-12 21:30:42
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
@@ -2655,7 +2655,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 2 "Matoran" monsters
-		Cannot be destroyed by battle while it has material. If this card is Xyz Summoned: You can detach up to 3 materials with different Attributes from this card, then apply the following effect(s) depending on their Attributes, in sequence. You can only use this effect of "Diminished Matoran Kaita" once per turn.
+		Cannot be destroyed by battle while it has material. If this card is Xyz Summoned: You can detach up to 3 materials with different Attributes from this card, then apply the following effect(s) based on their Attributes, in sequence. You can only use this effect of "Diminished Matoran Kaita" once per turn.
 		•WIND: Add 1 Level 2 "Matoran" monster from your Deck to your hand.
 		•WATER: This card cannot be destroyed by card effects. •FIRE: This card gains 1200 ATK.
 		•EARTH: Draw 1 card.  •LIGHT/DARK: Special Summon 1 Level 2 "Matoran" monster from your hand or GY.
