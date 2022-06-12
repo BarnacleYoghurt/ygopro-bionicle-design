@@ -701,7 +701,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2020-02-25 22:47:28
-	time modified: 2020-03-15 16:21:50
+	time modified: 2022-06-12 19:30:55
 	card type: token monster
 	name: Vision Token
 	attribute: fire
@@ -713,7 +713,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Token</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: <i-flavor></i>Cannot be Tributed or used as material for a Synchro or Link Summon.<i></i-flavor>
+	rule text: Summoned by the effect of "Turaga Vakama". <i-flavor></i>Cannot be Tributed or used as material for a Synchro or Link Summon.<i></i-flavor>
 	attack: 1500
 	defense: 0
 	gamecode: 10110017
