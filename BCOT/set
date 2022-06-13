@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Coming of the Toa
 	code: BCOT
 	language: EN
-	edition: Version 3.21.5
+	edition: Version 3.21.6
 	copyright: © 2014 THE LEGO GROUP
 styling:
 	yugioh-series10:
@@ -1321,7 +1321,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Pay 500 LP to equip a Kanohi to a Toa}}
+		{{Pay LP to equip a Kanohi to a Toa}}
 		{{Special Summon "Suva"}}
 		
 		Another alternative way to not have the requip effect on every single Toa.
