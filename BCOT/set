@@ -1348,7 +1348,7 @@ card:
 		The general idea is that a Suva in Defense Position should act like a continouous Spell/Trap that can also be destroyed by battle (the only real reason it's a monster is so you can tribute it for the Toa). This works without any special protection, except in the presence of piercing or battle position changing effects, where the card is instead a huge liability.
 		=> adding a small protection effect to negate battle damage would fix this
 	time created: 2014-12-10 20:58:53
-	time modified: 2022-06-11 16:39:02
+	time modified: 2022-06-13 09:49:24
 	card type: effect monster
 	name: Suva
 	attribute: light
@@ -1358,7 +1358,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell, this card is also EARTH, WATER, FIRE, and WIND-Attribute. <i-flavor></i>Once per Chain (Quick Effect): You can pay 500 LP, then target 1 "Toa" monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
+	rule text: While in your hand, and while face-up on the field if you control a "-Koro" Field Spell, this card is also EARTH, WATER, FIRE, and WIND-Attribute. <i-flavor></i>Once per Chain (Quick Effect): You can pay 600 LP, then target 1 "Toa" monster you control; equip 1 "Kanohi" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn. If you control a "Toa" monster: You can Special Summon this card from your GY. You can only use this effect of "Suva" once per turn.<i></i-flavor>
 	attack: 0
 	defense: 0
 	rarity: common
@@ -1743,8 +1743,13 @@ card:
 		=> adding 1 means you might not have a second, so get a Suva as guaranteed tribute fodder (=> +0)
 		=> adding 2 means you're ready to summon at least 1, so just give an LP boost as a reward, kinda callback to the old damage protection effect (and it's still +0)
 		=> could also have "Discard 1 card, then roll a six-sided die; excavate cards from the top of your Deck equal to the result" if we want a bit of gambling
+		
+		Possible restriciton on same-turn activation: " while the total ATK of all monsters you control is less than 2000"
+		=> wouldn't actually affect how we've used the card in testing, and shuts off degenerate winmore scenarios
+		=> unfortunately it's enough extra characters to earn a firm place in longest Spells, and this one is already convoluted enough anyway
+		=> Verdict: Keep the idea in reserve, maybe we can use it if this card ever gets a simplified remake
 	time created: 2014-12-13 23:24:36
-	time modified: 2022-06-10 23:13:10
+	time modified: 2022-06-13 09:49:47
 	card type: spell card
 	name: Call of the Toa Stones
 	attribute: spell
@@ -1754,7 +1759,7 @@ card:
 		Discard 1 card; roll a six-sided die and excavate cards from the top of your Deck equal to the result, and if you do, you can add up to 2 excavated "Toa Mata" monsters with different names to your hand, also shuffle the rest into your Deck. Then, apply the following effect, based on the number of cards added to your hand this way. You can only activate 1 "Call of the Toa Stones" per turn.
 		<sym-auto>*</sym-auto>0: Set 1 "Coming of the Toa" directly from your Deck. It can be activated this turn.
 		<sym-auto>*</sym-auto>1: Add 1 Level 1 Rock monster with 0 ATK/DEF from your Deck to your hand.
-		<sym-auto>*</sym-auto>2: Gain 2000 LP.
+		<sym-auto>*</sym-auto>2: Gain 1800 LP.
 	rarity: common
 	gamecode: 10100053
 card:
