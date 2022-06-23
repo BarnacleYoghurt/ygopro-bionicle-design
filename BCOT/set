@@ -466,7 +466,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{Each player reveals the top card of their Deck and Special Summons}}
+		{{Each player reveals the top card of their Deck and Special Summons}}
 		{{Draw 1 card}}
 		
 		Idea: Make Turaga Link 2 because using a lone Absolute Zero as material for Nokama/Nuju is kinda degenerate, and just attribute+type is a weaker requirement than most other Link 1 monsters. Sneak advantage: Monsters with inappropriate attributes can be linked away as a Turaga's second material.
@@ -2648,7 +2648,7 @@ card:
 		==> doing that on summon introduces the interesting dynamic where you really only get the full payoff when using 3 different attributes, and you can also intentionally keep one around for the battle protection
 		=> alternative approach may include taking on the materials' attributes (plus maybe some continuous effects depending on what is attached), but then it becomes very similar to Numer 76 ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2022-06-12 21:30:42
+	time modified: 2022-06-23 09:28:53
 	card type: xyz monster
 	name: Diminished Matoran Kaita
 	attribute: light
