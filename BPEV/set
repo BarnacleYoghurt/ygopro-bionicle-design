@@ -39,7 +39,7 @@ card:
 		=> Technically, going by the novel version, the tubes do lead into a pool ... but in the comic, the EP is directly inside the tubes instead, and this is still during the Hapka books so the comics might actually be more canon in this case
 		==> Comic uses the word "chamber" at one point, we can probably go with that
 	time created: 2015-02-09 21:42:05
-	time modified: 2022-07-24 17:44:44
+	time modified: 2022-08-04 16:38:56
 	card type: effect monster
 	name: Energized Protodermis Chamber
 	attribute: light
@@ -49,7 +49,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If only your opponent controls a monster, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck using this card and 1 monster in your hand as material. If this card is used as material for a Fusion Summon, except by its own effect: Target 1 monster on the field; send it to the GY. You can only use this effect of "Energized Protodermis Pool" once per turn.
+	rule text: If only your opponent controls a monster, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck using this card and 1 monster in your hand as material. If this card is used as material for a Fusion Summon, except by its own effect: Target 1 monster on the field; send it to the GY. You can only use this effect of "Energized Protodermis Chamber" once per turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100301
