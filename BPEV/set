@@ -1,0 +1,152 @@
+﻿mse version: 0.3.8
+game: yugioh
+stylesheet: series10
+set info:
+	title: Bionicle - Protodermic Evolution
+	code: BPEV
+	edition: Version 4.0.0
+	copyright: 
+card:
+	has styling: false
+	notes: 
+	time created: 2015-02-09 20:57:11
+	time modified: 2022-08-02 23:51:40
+	card type: fusion monster
+	name: Toa Nuva Onua
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image8
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		"Toa Mata Onua" + 1 "Energized Protodermis" monster
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card.  During the Main Phase (Quick Effect): You can target 1 card in either GY; place it on the top or bottom of the Deck. You can only use each effect of "Toa Nuva Onua" once per turn.
+	attack: 2500
+	defense: 2500
+	rarity: common
+	gamecode: 10100308
+card:
+	has styling: false
+	notes:
+		SS from hand going 2nd so the NS remains usable for something else
+		Fuse by dumping a monster from your hand into the Pool
+		If forcibly used as material by another fusion effect, that transformation goes against Destiny, and so the Energized Protodermis will exhibit destructive properties (but not necessarily aimed at the summoned monster)
+		
+		Has to be a Tube (TODO: Better word?) because the monster "descends" into it like the Toa Mata after the Bahrag (and it happens suddenly on summon, too)
+		=> Would Pool then be something involving multiple monsters at once (i.e. Takutanuva)?
+		=> Technically, going by the novel version, the tubes do lead into a pool ... but in the comic, the EP is directly inside the tubes instead, and this is still during the Hapka books so the comics might actually be more canon in this case
+		==> Comic uses the word "chamber" at one point, we can probably go with that
+	time created: 2015-02-09 21:42:05
+	time modified: 2022-07-24 17:44:44
+	card type: effect monster
+	name: Energized Protodermis Chamber
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image3
+	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If only your opponent controls a monster, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck using this card and 1 monster in your hand as material. If this card is used as material for a Fusion Summon, except by its own effect: Target 1 monster on the field; send it to the GY. You can only use this effect of "Energized Protodermis Pool" once per turn.
+	attack: 0
+	defense: 0
+	gamecode: 10100301
+card:
+	has styling: false
+	notes:
+		Magnetize target monster to prevent it from attacking (see: Gahlok-Kal vs Lewa), can also take out another monster by making it "stick" to the target (see: Pohatu and the Mahi)
+		=> stealthy non-targeting removal, befitting of Gahlok-Kal's ability to solve all kinds of problems
+		==> would kinda like it to work on S/T too, but the mechanics of turning those into equips seem a bit problematic
+		=> may be too strong for 1 mat, but is 2 mat worth it when it's not even quick (and quick would be a bit OP...)?
+		==> limiting the timing to start of BP may be a reasonable extra condition
+	time created: 2014-12-08 15:30:26
+	time modified: 2022-08-04 12:39:53
+	card type: xyz monster
+	name: Bohrok Gahlok-Kal
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image4
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 4 "Bohrok" monsters
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. At the start of the Battle Phase: You can detach 1 material from this card, then target 1 face-up monster on the field; that target cannot attack until the end of the next turn, also you can equip 1 other monster on the field to it. You can only use this effect of "Bohrok Gahlok-Kal" once per turn.
+	attack: 2200
+	defense: 2100
+	rarity: common
+	gamecode: 10100332
+card:
+	has styling: false
+	notes:
+		Effect structure for Nuva Symbols:
+		=> Can only control 1 each
+		==> mostly so soft OPT won't get too out of control
+		=> HOPT place self on bottom of Deck to search matching Toa Mata
+		==> Lets the Nuva Symbol act as additional copies
+		==> Returning to deck offsets the plus, avoids triggering "leaves the field"
+		==> Maybe there's some other reasonable target rather than just the one Toa specifically (which also overlaps with Mata Kanohi)?
+		=> Soft OPT granting some significant bonus to all Toa Nuva while you control the matching one
+		=> Mandatory "leaves the field" trigger that negates the matching Toa Nuva and inflicts some drawback opposed to the bonus from the previous effect
+	time created: 2015-04-13 11:25:06
+	time modified: 2022-08-02 22:05:57
+	card type: spell card
+	name: Nuva Symbol of Deep Wisdom
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image6
+	rule text: You can only control 1 "Nuva Symbol of Deep Wisdom". You can place this card you control on the bottom of the Deck; add 1 "Toa Mata Onua" from your Deck or GY to your hand. You can only use this effect of "Nuva Symbol of Deep Wisdom" once per turn. Once per turn, if a "Toa Nuva" monster you control activates its effect while you control "Toa Nuva Onua": Gain LP equal to the ATK of the monster whose effect was activated. If this card leaves the field: Target 1 "Toa Nuva Onua" you control; negate its effects, and if you do, take damage equal to its ATK.
+	gamecode: 10100320
+card:
+	has styling: false
+	notes:
+		Effect structure for Nuva Kanohi:
+		=> If sent to GY, search an EP card (HOPT)
+		==> this way, even bricking on Nuva Symbols and Kanohi will net you the fusion materials for a Toa Nuva
+		==> this is the first thing we'd drop if we need to save words
+		=> Two effects while equipped to a Toa Nuva
+		==> one that (usually passively) affects the wearer only
+		==> one that can be (SOPT) activated to grant a lesser version of the power to your whole field for a time
+	time created: 2017-03-24 11:14:28
+	time modified: 2022-08-01 19:27:26
+	card type: spell card
+	name: Nuva Kanohi Pakari
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image2
+	rule text:
+		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can send 1 card from your hand to the GY; add 1 "Energized Protodermis" card from your Deck to your hand. You can only use this effect of "Nuva Kanohi Pakari" once per turn. While equipped to a "Toa Nuva" monster, this card gains these effects. 
+		<sym-auto>*</sym-auto>The equipped monster gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage.
+		<sym-auto>*</sym-auto>Once per turn: You can make all monsters you currently control gain 1000 ATK, until the end of your opponent's turn.
+	gamecode: 10100314
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-08 14:41:42
+	time modified: 2022-08-02 23:29:34
+	card type: link monster
+	name: Krana Ja-Kal, Tracker
+	attribute: dark
+	level: Spell Card<sym-auto>+</sym-auto>
+	image: image5
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 Bohrok monster from your hand or GY, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>Once per turn: You can banish the top card of your opponent's Deck, face-up, and if you do, negate the effects of cards in your opponent's possession with the same name as that banished card, until the end of your opponent's turn.
+	Link Marker Down: none
+	Link Marker Left: yes
+	attack: 0
+	link number: 1
+	gamecode: 10100342
+version control:
+	type: none
+apprentice code: 
