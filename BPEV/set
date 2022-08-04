@@ -8,7 +8,11 @@ set info:
 	copyright: 
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Add "Nuva" Spell/Trap to hand}}
+		{{Return card from GY to Deck}}
+		{{Top of Deck}}
+		{{Bottom of Deck}}
 	time created: 2015-02-09 20:57:11
 	time modified: 2022-08-02 23:51:40
 	card type: fusion monster
