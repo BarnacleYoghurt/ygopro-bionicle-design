@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.0.0
+	edition: Version 4.0.1
 	copyright: 
 card:
 	has styling: false
@@ -34,6 +34,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Fusion Summon}}
+		{{Send 1 monster on the field to the GY}}
+		
 		SS from hand going 2nd so the NS remains usable for something else
 		Fuse by dumping a monster from your hand into the Pool
 		If forcibly used as material by another fusion effect, that transformation goes against Destiny, and so the Energized Protodermis will exhibit destructive properties (but not necessarily aimed at the summoned monster)
@@ -60,6 +63,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Attach "Krana" monster as material}}
+		{{Make a monster unable to attack}}
+		{{Equip a monster to the target?}}
+		
 		Magnetize target monster to prevent it from attacking (see: Gahlok-Kal vs Lewa), can also take out another monster by making it "stick" to the target (see: Pohatu and the Mahi)
 		=> stealthy non-targeting removal, befitting of Gahlok-Kal's ability to solve all kinds of problems
 		==> would kinda like it to work on S/T too, but the mechanics of turning those into equips seem a bit problematic
@@ -86,6 +93,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add a card to hand}}
+		{{Gain LP}}
+		{{Negate "Toa Nuva Onua" and take damage}}
+		
 		Effect structure for Nuva Symbols:
 		=> Can only control 1 each
 		==> mostly so soft OPT won't get too out of control
@@ -93,42 +104,52 @@ card:
 		==> Lets the Nuva Symbol act as additional copies
 		==> Returning to deck offsets the plus, avoids triggering "leaves the field"
 		==> Maybe there's some other reasonable target rather than just the one Toa specifically (which also overlaps with Mata Kanohi)?
+		===> 4.0.1: We now search both the matching Toa Mata and EP cards, so we can always grab the missing component
 		=> Soft OPT granting some significant bonus to all Toa Nuva while you control the matching one
 		=> Mandatory "leaves the field" trigger that negates the matching Toa Nuva and inflicts some drawback opposed to the bonus from the previous effect
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-08-02 22:05:57
+	time modified: 2022-08-13 22:57:21
 	card type: spell card
 	name: Nuva Symbol of Deep Wisdom
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image6
-	rule text: You can only control 1 "Nuva Symbol of Deep Wisdom". You can place this card you control on the bottom of the Deck; add 1 "Toa Mata Onua" from your Deck or GY to your hand. You can only use this effect of "Nuva Symbol of Deep Wisdom" once per turn. Once per turn, if a "Toa Nuva" monster you control activates its effect while you control "Toa Nuva Onua": Gain LP equal to the ATK of the monster whose effect was activated. If this card leaves the field: Target 1 "Toa Nuva Onua" you control; negate its effects, and if you do, take damage equal to its ATK.
+	rule text: You can only control 1 "Nuva Symbol of Deep Wisdom". You can place this card you control on the bottom of the Deck; add 1 "Energized Protodermis" card or "Toa Mata Onua" from your Deck to your hand. You can only use this effect of "Nuva Symbol of Deep Wisdom" once per turn. Once per turn, if a "Nuva" Fusion Monster you control activates its effect while you control "Toa Nuva Onua": Gain LP equal to the ATK of the monster whose effect was activated. If this card leaves the field: Target 1 "Toa Nuva Onua" you control; negate its effects, and if you do, take damage equal to its ATK.
 	gamecode: 10100320
 card:
 	has styling: false
 	notes:
+		{{Place "Nuva" Continuous Spell from Deck}}
+		{{Make all monsters you control gain 1000 ATK}}
+		
 		Effect structure for Nuva Kanohi:
 		=> If sent to GY, search an EP card (HOPT)
 		==> this way, even bricking on Nuva Symbols and Kanohi will net you the fusion materials for a Toa Nuva
 		==> this is the first thing we'd drop if we need to save words
+		==> 4.0.1: instead keep the original banish cost (to show the connection between the two Pakaris), but as payoff place a Nuva Symbol - that can then do the searching
+		===> allows using a Toa Nuva's search and discard to get a Nuva Symbol on the field even with an empty hand, so that's a nice benefit of running both Symbols and Kanohi
 		=> Two effects while equipped to a Toa Nuva
 		==> one that (usually passively) affects the wearer only
 		==> one that can be (SOPT) activated to grant a lesser version of the power to your whole field for a time
+		
+		Due to technical limitations, we can't support "Toa Nuva", so let's go for "Nuva" Fusions instead
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-08-01 19:27:26
+	time modified: 2022-08-13 23:45:54
 	card type: spell card
 	name: Nuva Kanohi Pakari
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image2
 	rule text:
-		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can send 1 card from your hand to the GY; add 1 "Energized Protodermis" card from your Deck to your hand. You can only use this effect of "Nuva Kanohi Pakari" once per turn. While equipped to a "Toa Nuva" monster, this card gains these effects. 
+		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Nuva Kanohi Pakari" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
 		<sym-auto>*</sym-auto>The equipped monster gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage.
 		<sym-auto>*</sym-auto>Once per turn: You can make all monsters you currently control gain 1000 ATK, until the end of your opponent's turn.
 	gamecode: 10100314
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Special Summon Level 4 "Bohrok" monster from hand or GY}}
+		{{Banish top card of opponent's Deck}}
 	time created: 2016-02-08 14:41:42
 	time modified: 2022-08-02 23:29:34
 	card type: link monster
