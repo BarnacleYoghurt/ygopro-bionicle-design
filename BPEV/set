@@ -150,8 +150,10 @@ card:
 	notes:
 		{{Special Summon Level 4 "Bohrok" monster from hand or GY}}
 		{{Banish top card of opponent's Deck}}
+		
+		Regular Ja stopped effects of everything currently visible during the next turn - this one is more targeted (because it "tracks"), but takes effect immediately and can also stop threats that are not currently visible (by "sniffing them out")
 	time created: 2016-02-08 14:41:42
-	time modified: 2022-08-02 23:29:34
+	time modified: 2022-08-14 17:20:15
 	card type: link monster
 	name: Krana Ja-Kal, Tracker
 	attribute: dark
@@ -166,7 +168,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 Bohrok monster from your hand or GY, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn: You can banish the top card of your opponent's Deck, face-up, and if you do, negate the effects of cards in your opponent's possession with the same name as that banished card, until the end of your opponent's turn.
+		<sym-auto>*</sym-auto>Once per turn: You can detach 1 material from this card, then declare 1 card name; your opponent cannot activate cards, or the effects of cards, with that original name, until the end of their turn.
 	Link Marker Down: none
 	Link Marker Left: yes
 	attack: 0
