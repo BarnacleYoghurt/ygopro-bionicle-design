@@ -95,7 +95,7 @@ card:
 	notes:
 		{{Add a card to hand}}
 		{{Gain LP}}
-		{{Negate "Toa Nuva Onua" and take damage}}
+		{{Negate "Toa Nuva Onua" and banish card from hand}}
 		
 		Effect structure for Nuva Symbols:
 		=> Can only control 1 each
@@ -152,7 +152,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon Level 4 "Bohrok" monster from hand or GY}}
-		{{Banish top card of opponent's Deck}}
+		{{Declare 1 card name}}
 		
 		Regular Ja stopped effects of everything currently visible during the next turn - this one is more targeted (because it "tracks"), but takes effect immediately and can also stop threats that are not currently visible (by "sniffing them out")
 	time created: 2016-02-08 14:41:42
