@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.0.2
+	edition: Version 4.0.3
 	copyright: 
 card:
 	has styling: false
@@ -123,30 +123,34 @@ card:
 	has styling: false
 	notes:
 		{{Place "Nuva" Continuous Spell from Deck}}
-		{{Make all monsters you control gain 1000 ATK}}
+		{{Make all monsters you control gain 500 ATK}}
 		
 		Effect structure for Nuva Kanohi:
 		=> If sent to GY, search an EP card (HOPT)
 		==> this way, even bricking on Nuva Symbols and Kanohi will net you the fusion materials for a Toa Nuva
 		==> this is the first thing we'd drop if we need to save words
 		==> 4.0.1: instead keep the original banish cost (to show the connection between the two Pakaris), but as payoff place a Nuva Symbol - that can then do the searching
+		===> maybe it should be Deep Wisdom specifically, to keep the connection between Onua and his mask?
 		===> allows using a Toa Nuva's search and discard to get a Nuva Symbol on the field even with an empty hand, so that's a nice benefit of running both Symbols and Kanohi
 		=> Two effects while equipped to a Toa Nuva
 		==> one that (usually passively) affects the wearer only
 		==> one that can be (SOPT) activated to grant a lesser version of the power to your whole field for a time
 		
 		Due to technical limitations, we can't support "Toa Nuva", so let's go for "Nuva" Fusions instead
+		=> might become a problem with the Nuva Kaita (and later Phantoka/Mistika), though...
+		==> if we just demand "Nuva" monsters in general, it would also work with Takanuva, so that's wrong (also "Nuva" Fusion Monsters might be a problem in its own right regarding Takutanuva)
+		=> perhaps the only future-proof solution is making "Toa Nuva" a separate archetype after all, and then just never make support for "Nuva" monsters to keep things simple
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-08-13 23:45:54
+	time modified: 2022-08-17 17:50:55
 	card type: spell card
-	name: Nuva Kanohi Pakari
+	name: Great Kanohi Pakari Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image2
 	rule text:
-		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Nuva Kanohi Pakari" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
+		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Great Kanohi Pakari Nuva" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
 		<sym-auto>*</sym-auto>The equipped monster gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage.
-		<sym-auto>*</sym-auto>Once per turn: You can make all monsters you currently control gain 1000 ATK, until the end of your opponent's turn.
+		<sym-auto>*</sym-auto>Once per turn: You can make all monsters you currently control gain 500 ATK, until the end of your opponent's turn.
 	gamecode: 10100314
 card:
 	has styling: false
