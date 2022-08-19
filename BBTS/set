@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Beware the Swarm 
 	code: BBTS
 	language: EN
-	edition: Version 3.20.4
+	edition: Version 4.0.4
 	author: 
 	copyright: © 2014 THE LEGO GROUP
 card:
@@ -159,14 +159,14 @@ card:
 	has styling: false
 	notes:
 		{{Negate non-Bohrok effects in this chain}}
-		{{Special Summon Bohrok from Deck and end turn}}
+		{{Special Summon Bohrok from Deck}}
 		
 		Ending the turn after SS from Deck is too punishing, but since this effect is a +1 we do need to have fairly strict restrictions
 		=> definitely lock down summoned monster to not attack or use its effects that turn, summon material should be ok since that's one of the main reasons to use this
 		=> extend HOPT to summon effect?
 		=> only work when Normal Summoned/Set, so you can't turn 5 Krana you got by some way into 5 Bohrok?
 	time created: 2016-02-08 14:41:42
-	time modified: 2022-08-19 08:06:23
+	time modified: 2022-08-19 08:15:13
 	card type: effect monster
 	name: Krana Xa, Swarm Commander
 	attribute: dark
@@ -178,7 +178,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN033
-	rule text: If a "Bohrok" monster effect was activated in this Chain, except as the last Chain Link (Quick Effect): You can send this card from your hand to the GY; negate the effects of all face-up cards on the field that were activated or activated their effects before this effect in this Chain, except "Bohrok" cards, until the end of this turn. You can only use this effect of "Krana Xa, Swarm Commander" once per turn. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
+	rule text: If a "Bohrok" monster effect was activated in this Chain, except as the last Chain Link (Quick Effect): You can send this card from your hand to the GY; negate the effects of all face-up cards on the field that were activated or activated their effects before this effect in this Chain, except "Bohrok" cards, until the end of this turn. You can only use this effect of "Krana Xa, Swarm Commander" once per turn. You can return this Normal Summoned/Set card to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100207
@@ -209,13 +209,13 @@ card:
 	has styling: false
 	notes:
 		{{Equip to Bohrok}}
-		{{Special Summon Bohrok from Deck and end turn}}
+		{{Special Summon Bohrok from Deck}}
 		
 		V2?:
 		At the start of the Battle Phase(?), inflict damage to your opponent equal to half the equipped "Bohrok" monster's ATK.
 		=> doesn't take up actual attack, still equivalent to direct attack with half damage
 	time created: 2016-02-08 14:41:42
-	time modified: 2019-12-17 20:00:52
+	time modified: 2022-08-19 08:27:23
 	card type: effect monster
 	name: Krana Yo, Mole
 	attribute: dark
@@ -227,7 +227,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN034
-	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. A "Bohrok" monster equipped with this card can attack directly, but when it does so using this effect, the battle damage inflicted to your opponent is halved. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
+	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. A "Bohrok" monster equipped with this card can attack directly, but when it does so using this effect, the battle damage inflicted to your opponent is halved. You can return this Normal Summoned/Set card to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100209
@@ -282,9 +282,9 @@ card:
 	has styling: false
 	notes:
 		{{Equip to Bohrok}}
-		{{Special Summon Bohrok from Deck and end turn}}
+		{{Special Summon Bohrok from Deck}}
 	time created: 2016-02-08 14:41:42
-	time modified: 2019-12-17 20:01:29
+	time modified: 2022-08-19 08:29:06
 	card type: effect monster
 	name: Krana Ca, Clearance Worker
 	attribute: dark
@@ -296,7 +296,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN029
-	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. While this card is equipped to a "Bohrok" monster, the first time a "Bohrok" monster you control would be destroyed by battle each turn, it is not destroyed. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
+	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. While this card is equipped to a "Bohrok" monster, the first time a "Bohrok" monster you control would be destroyed by battle each turn, it is not destroyed. You can return this Normal Summoned/Set card to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100212
@@ -304,9 +304,9 @@ card:
 	has styling: false
 	notes:
 		{{Negate effects of currently face-up cards next turn}}
-		{{Special Summon Bohrok from Deck and end turn}}
+		{{Special Summon Bohrok from Deck}}
 	time created: 2016-02-08 14:41:42
-	time modified: 2019-12-08 17:12:42
+	time modified: 2022-08-19 08:29:31
 	card type: effect monster
 	name: Krana Ja, Scout
 	attribute: dark
@@ -318,7 +318,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN030
-	rule text: If you control a "Bohrok" monster (Quick Effect): You can send this card from your hand to the GY; during the next turn, negate the effects of cards on the field with the same name as face-up cards your opponent currently controls. You can only use this effect of "Krana Ja, Scout" once per turn. During your Main Phase 1: You can return this card you control to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, then it becomes the End Phase of this turn.
+	rule text: If you control a "Bohrok" monster (Quick Effect): You can send this card from your hand to the GY; during the next turn, negate the effects of cards on the field with the same name as face-up cards your opponent currently controls. You can only use this effect of "Krana Ja, Scout" once per turn. You can return this Normal Summoned/Set card to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100213
