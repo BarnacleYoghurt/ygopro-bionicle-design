@@ -72,6 +72,7 @@ card:
 		==> would kinda like it to work on S/T too, but the mechanics of turning those into equips seem a bit problematic
 		=> may be too strong for 1 mat, but is 2 mat worth it when it's not even quick (and quick would be a bit OP...)?
 		==> limiting the timing to start of BP may be a reasonable extra condition
+		==> if equipping anything from the field is too powerful after all, a stylish way to nerf it would be only equipping monsters in the same or an adjacent column (see Scareclaws for wording) - limiting the range of the magnets
 	time created: 2014-12-08 15:30:26
 	time modified: 2022-08-04 12:39:53
 	card type: xyz monster
@@ -141,12 +142,12 @@ card:
 		==> if we just demand "Nuva" monsters in general, it would also work with Takanuva, so that's wrong (also "Nuva" Fusion Monsters might be a problem in its own right regarding Takutanuva)
 		=> perhaps the only future-proof solution is making "Toa Nuva" a separate archetype after all, and then just never make support for "Nuva" monsters to keep things simple
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-08-17 17:50:55
+	time modified: 2022-08-19 10:53:35
 	card type: spell card
 	name: Great Kanohi Pakari Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image2
+	image: image1
 	rule text:
 		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Great Kanohi Pakari Nuva" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
 		<sym-auto>*</sym-auto>The equipped monster gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage.
@@ -160,7 +161,7 @@ card:
 		
 		Regular Ja stopped effects of everything currently visible during the next turn - this one is more targeted (because it "tracks"), but takes effect immediately and can also stop threats that are not currently visible (by "sniffing them out")
 	time created: 2016-02-08 14:41:42
-	time modified: 2022-08-14 17:20:15
+	time modified: 2022-08-20 17:06:22
 	card type: link monster
 	name: Krana Ja-Kal, Tracker
 	attribute: dark
@@ -174,7 +175,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 Bohrok monster from your hand or GY, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
 		<sym-auto>*</sym-auto>Once per turn: You can detach 1 material from this card, then declare 1 card name; your opponent cannot activate cards, or the effects of cards, with that original name, until the end of their turn.
 	Link Marker Down: none
 	Link Marker Left: yes
