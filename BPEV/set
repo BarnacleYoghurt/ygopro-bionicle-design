@@ -182,6 +182,24 @@ card:
 	attack: 0
 	link number: 1
 	gamecode: 10100342
+card:
+	has styling: false
+	notes:
+		Maybe also "Reveal 1 Fusion Monster from your Extra Deck that mentions that target as material", so it's restricted to those Fusions that specifically name their non-EP material?
+		=> does kinda fit with the whole "Destiny" vibe
+	time created: 2022-08-30 21:10:36
+	time modified: 2022-08-31 18:35:48
+	card type: spell card
+	name: Energized Protodermis Destiny
+	attribute: spell
+	level: <sym-auto>$</sym-auto>
+	image: 
+	rule text:
+		Target 1 face-up monster you control, then activate 1 of these effects;
+		<sym-auto>*</sym-auto>Send it to the GY, and if you do, Special Summon 1 "Energized Protodermis" monster from your Deck.
+		<sym-auto>*</sym-auto>Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then Fusion Summon 1 Fusion Monster from your Extra Deck in Defense Position using only that Token and the targeted monster.
+		You can only activate 1 "Energized Protodermis Destiny" per turn.
+	gamecode: DRAFT10100302
 version control:
 	type: none
 apprentice code: 
