@@ -200,6 +200,35 @@ card:
 		<sym-auto>*</sym-auto>Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then Fusion Summon 1 Fusion Monster from your Extra Deck in Defense Position using only that Token and the targeted monster.
 		You can only activate 1 "Energized Protodermis Destiny" per turn.
 	gamecode: DRAFT10100302
+card:
+	has styling: false
+	notes:
+		Is being usable off Instant Fusion a problem?
+		=> Presumably not, -1 ED is only a huge deal against specific decks, and IF alone doesn't get you any more than that in the End Phase
+		
+		Should the summonable Fusion Monsters be restricted beyond requiring exactly 2 materials?
+		=> Necro Slime does only D/D/D
+		=> Albion/Lubellion do only certain Level ranges
+		=> Could explicitly require it to list an EP monster as material, Legacy of a HERO does the same thing where it just needs to be the archetype, not a specific card
+	time created: 2022-08-31 18:37:28
+	time modified: 2022-08-31 18:45:33
+	card type: fusion monster
+	name: Energized Protodermis Flow
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image2
+	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 "Energized Protodermis" monsters
+		If this Fusion Summoned card is sent to the GY by a card effect: Look at your opponent's Extra Deck, and if you do, send 1 monster from it to the GY. You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 materials including this card from your GY. You can only use each effect of "Energized Protodermis Flow" once per turn.
+	attack: 0
+	defense: 0
+	gamecode: DRAFT10100303
 version control:
 	type: none
 apprentice code: 
