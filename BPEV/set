@@ -188,18 +188,18 @@ card:
 		Maybe also "Reveal 1 Fusion Monster from your Extra Deck that mentions that target as material", so it's restricted to those Fusions that specifically name their non-EP material?
 		=> does kinda fit with the whole "Destiny" vibe
 	time created: 2022-08-30 21:10:36
-	time modified: 2022-08-31 18:35:48
+	time modified: 2022-10-03 17:59:16
 	card type: spell card
 	name: Energized Protodermis Destiny
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
-	image: 
+	image: image7
 	rule text:
 		Target 1 face-up monster you control, then activate 1 of these effects;
 		<sym-auto>*</sym-auto>Send it to the GY, and if you do, Special Summon 1 "Energized Protodermis" monster from your Deck.
-		<sym-auto>*</sym-auto>Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then Fusion Summon 1 Fusion Monster from your Extra Deck in Defense Position using only that Token and the targeted monster.
+		<sym-auto>*</sym-auto>Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then Fusion Summon 1 Fusion Monster that mentions an "Energized Protodermis" monster as material from your Extra Deck in Defense Position using only that Token and the targeted monster.
 		You can only activate 1 "Energized Protodermis Destiny" per turn.
-	gamecode: DRAFT10100302
+	gamecode: 10100302
 card:
 	has styling: false
 	notes:
@@ -211,12 +211,12 @@ card:
 		=> Albion/Lubellion do only certain Level ranges
 		=> Could explicitly require it to list an EP monster as material, Legacy of a HERO does the same thing where it just needs to be the archetype, not a specific card
 	time created: 2022-08-31 18:37:28
-	time modified: 2022-08-31 18:45:33
+	time modified: 2022-10-03 17:59:20
 	card type: fusion monster
 	name: Energized Protodermis Flow
 	attribute: light
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image2
+	image: image9
 	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -225,10 +225,75 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 "Energized Protodermis" monsters
-		If this Fusion Summoned card is sent to the GY by a card effect: Look at your opponent's Extra Deck, and if you do, send 1 monster from it to the GY. You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 materials including this card from your GY. You can only use each effect of "Energized Protodermis Flow" once per turn.
+		If this Fusion Summoned card is sent to the GY by a card effect: Look at your opponent's Extra Deck and send 1 monster from it to the GY. During your Main Phase: You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 Fusion Materials mentioned on it from your GY, including this card. You can only use each effect of "Energized Protodermis Flow" once per turn.
 	attack: 0
 	defense: 0
-	gamecode: DRAFT10100303
+	gamecode: 10100303
+card:
+	has styling: false
+	notes:
+		{{Add "Nuva" Spell/Trap to hand}}
+		{{Change a monster's ATK to 0}}
+		
+		Effect becomes a quickie and gains power, but loses the burn and some potential use cases by only working on attack position monsters and only during the main phase
+		=> should still be sufficient for defensive purposes unless opponent can remove Tahu before the BP anyway
+		=> for offensive purposes, main phase lock ensures you can't drain ATK from your other monster after it has attacked, which is good
+	time created: 2015-02-09 20:57:11
+	time modified: 2022-10-03 17:59:23
+	card type: fusion monster
+	name: Toa Nuva Tahu
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image10
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		"Toa Mata Tahu" + 1 "Energized Protodermis" monster
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use each effect of "Toa Nuva Tahu" once per turn.
+	attack: 2900
+	defense: 1900
+	rarity: common
+	gamecode: 10100306
+card:
+	has styling: false
+	notes:
+		{{Add a card to hand}}
+		{{Negate "Toa Nuva Tahu" and skip Battle Phase}}
+		
+		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
+		=> same drawback would even make sense in that case
+		
+
+	time created: 2015-04-13 11:25:06
+	time modified: 2022-10-03 17:59:32
+	card type: spell card
+	name: Nuva Symbol of Burning Courage
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image13
+	rule text: You can only control 1 "Nuva Symbol of Burning Courage". You can place this card you control on the bottom of the Deck; add 1 "Energized Protodermis" card or "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. While you control "Toa Nuva Tahu", if your "Nuva" Fusion Monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this card leaves the field: Target 1 "Toa Nuva Tahu" you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
+	gamecode: 10100318
+card:
+	has styling: false
+	notes:
+		{{Place "Nuva" Continuous Spell from Deck}}
+		{{Protect all face-up monsters you control from battle}}
+		
+		Should battle protection also extend to face-down monsters?
+	time created: 2017-03-24 11:14:28
+	time modified: 2022-10-03 17:59:28
+	card type: spell card
+	name: Great Kanohi Hau Nuva
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image12
+	rule text:
+		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Great Kanohi Hau Nuva" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
+		<sym-auto>*</sym-auto>The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving it.
+		<sym-auto>*</sym-auto>Once per turn: You can activate this effect; face-up monsters you currently control cannot be destroyed by battle, until the end of your opponent's turn.
+	gamecode: 10100312
 version control:
 	type: none
 apprentice code: 
