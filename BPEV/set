@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.0.3
+	edition: Version 4.1.1
 	copyright: 
 card:
 	has styling: false
@@ -40,6 +40,7 @@ card:
 		SS from hand going 2nd so the NS remains usable for something else
 		Fuse by dumping a monster from your hand into the Pool
 		If forcibly used as material by another fusion effect, that transformation goes against Destiny, and so the Energized Protodermis will exhibit destructive properties (but not necessarily aimed at the summoned monster)
+		=> might be good to restrict this to Special Summoned monsters only, so it's a bit more of a drawback
 		
 		Has to be a Tube (TODO: Better word?) because the monster "descends" into it like the Toa Mata after the Bahrag (and it happens suddenly on summon, too)
 		=> Would Pool then be something involving multiple monsters at once (i.e. Takutanuva)?
@@ -185,19 +186,47 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send target to GY}}
+		{{Fusion Summon}}
+		{{Special Summon from Deck?}}
+		
 		Maybe also "Reveal 1 Fusion Monster from your Extra Deck that mentions that target as material", so it's restricted to those Fusions that specifically name their non-EP material?
 		=> does kinda fit with the whole "Destiny" vibe
+		
+		Unfortunately, effect #2 might be completely unimplementable due to the need of checking which fusions are summonable with materials that include a hypothetical token that does not exist until the effect resolves ...
+		=> Alternative A: Special Summon the Token and allow an optional Fusion Summon afterwards, so no checks need to be done until the Token actually exists on the field
+		==> Downside 1: Can just leave the Token around to use it for other stuff
+		==> Downside 2: The target not interacting with the EP at all is against the card's theme
+		==> Downside 3: An effect like Branded in Red would be hard to include logicstically in something that already is a bullet point of its own
+		=> Alternative B: Reveal a Fusion Monster, Special Summon an EP monster from Deck, then either use the target as material for the revealed monster or send it to the GY
+		==> Perhaps an even better representation of Destiny because you find out at resolution whether the target will be transformed or destroyed
+		==> Downside 1: We don't get to use the Token :(
+		==> Downside 2: Triggering the on-fusion effect of EP Chamber this easily is probably broken
+		===> Solution 1: Make EP Chamber only fire when used as material by a non-EP effect, not just anything but itself
+		===> Solution 2: Put the summoned monster back into the deck or banish it face-down or something when it leaves the field (again, tricky to include in wording)
+		==> Downside 3: Always vulnerable to Ash Blossom this way
+		==> Alternative C: Special Summon the Token, then either send both Token and target to SS EP monster from Deck, or fuse Token and target.
+		===> Extremely on-theme - what cannot be fused dies simply because those are the only two options
+		===> Sort of combines A and B, you still get to use the Token, but the ability to fuse with it must not be checked before it exists
+		====> ... except we would need to check for activation legality in case no EP monster is in Deck
+		====> could just make the SS from Deck optional, then activation is legal as long as we can make the Token
+		===> Downside 1: Pretty convoluted, we're basically making a Token that serves no purpose in the non-fusing case.
+		===> Downside 2: Tokens can't be sent to the GY successfully, so non-fusing case would need to either do something else (e.g. tribute) or use some kind of "also" conjuction/change the order of operations
+		===> Downside 3: If there is no EP monster that can be summoned from Deck, the effect is only legal to activate if we are able to fuse, which brings us back to the original issue.
+		====> Solution 1: Make the SS from Deck optional (awkward!)
+		====> Solution 2: Using an "also" conjunction might make it so we don't need to SS for a legal activation
+		====> Actually, it seems like Springans Interluder works as long as the "preliminary" action of returning an Xyz is possible, so maybe the options don't need to be fully resolvable anyway?
 	time created: 2022-08-30 21:10:36
-	time modified: 2022-10-03 17:59:16
+	time modified: 2022-10-06 23:45:37
 	card type: spell card
 	name: Energized Protodermis Destiny
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image7
 	rule text:
-		Target 1 face-up monster you control, then activate 1 of these effects;
-		<sym-auto>*</sym-auto>Send it to the GY, and if you do, Special Summon 1 "Energized Protodermis" monster from your Deck.
-		<sym-auto>*</sym-auto>Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then Fusion Summon 1 Fusion Monster that mentions an "Energized Protodermis" monster as material from your Extra Deck in Defense Position using only that Token and the targeted monster.
+		Target 1 face-up monster you control; Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then apply 1 of these effects.
+		<sym-auto>*</sym-auto>Send the targeted monster to the GY, and if you do, you can destroy that Token and Special Summon 1 "Energized Protodermis" monster from your Deck.
+		<sym-auto>*</sym-auto>Fusion Summon 1 Fusion Monster that mentions an "Energized Protodermis" monster as material from your Extra Deck in Defense Position, using only that Token and the targeted monster as Fusion Material.
 		You can only activate 1 "Energized Protodermis Destiny" per turn.
 	gamecode: 10100302
 card:
@@ -264,8 +293,6 @@ card:
 		
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
 		=> same drawback would even make sense in that case
-		
-
 	time created: 2015-04-13 11:25:06
 	time modified: 2022-10-03 17:59:32
 	card type: spell card
@@ -283,17 +310,37 @@ card:
 		
 		Should battle protection also extend to face-down monsters?
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-10-03 17:59:28
+	time modified: 2022-10-04 10:58:04
 	card type: spell card
 	name: Great Kanohi Hau Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image12
+	image: image2
 	rule text:
 		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Great Kanohi Hau Nuva" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
 		<sym-auto>*</sym-auto>The equipped monster cannot be destroyed by battle, also you take no battle damage from battles involving it.
 		<sym-auto>*</sym-auto>Once per turn: You can activate this effect; face-up monsters you currently control cannot be destroyed by battle, until the end of your opponent's turn.
 	gamecode: 10100312
+card:
+	has styling: false
+	notes: 
+	time created: 2022-10-03 18:25:37
+	time modified: 2022-10-06 23:41:25
+	card type: token monster
+	name: Energized Protodermis Token
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image11
+	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
+	type 2: <word-list-ENeffect>Token</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Token</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: Summoned by the effect of "Energized Protodermis Destiny".
+	attack: 0
+	defense: 0
+	gamecode: 10110302
 version control:
 	type: none
 apprentice code: 
