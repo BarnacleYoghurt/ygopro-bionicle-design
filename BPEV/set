@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.1.1
+	edition: Version 4.1.2
 	copyright: 
 card:
 	has styling: false
@@ -113,13 +113,13 @@ card:
 		=> Mandatory "leaves the field" trigger that negates the matching Toa Nuva and inflicts some drawback opposed to the bonus from the previous effect
 		==> 4.0.2: Let's see if a mandatory -1 is too much of a drawback, would be the logical opposition to draw 1 after all
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-08-14 18:57:48
+	time modified: 2022-10-10 23:18:35
 	card type: spell card
 	name: Nuva Symbol of Deep Wisdom
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image6
-	rule text: You can only control 1 "Nuva Symbol of Deep Wisdom". You can place this card you control on the bottom of the Deck; add 1 "Energized Protodermis" card or "Toa Mata Onua" from your Deck to your hand. You can only use this effect of "Nuva Symbol of Deep Wisdom" once per turn. Once per turn, if a "Nuva" Fusion Monster you control activates its effect while you control "Toa Nuva Onua": You can pay 1000 LP; draw 1 card. If this card leaves the field: Target 1 "Toa Nuva Onua" you control; negate its effects, and if you do, banish 1 card from your hand face-down.
+	rule text: You can only control 1 "Nuva Symbol of Deep Wisdom". You can shuffle this card you control into the Deck; add 1 "Toa Mata Onua" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Deep Wisdom" once per turn. Once per turn, if a "Nuva" Fusion Monster you control activates its effect while you control "Toa Nuva Onua": You can pay 1000 LP; draw 1 card. If this card leaves the field: Target 1 "Toa Nuva Onua" you control; negate its effects, and if you do, banish 1 card from your hand face-down.
 	gamecode: 10100320
 card:
 	has styling: false
@@ -294,13 +294,13 @@ card:
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
 		=> same drawback would even make sense in that case
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-10-10 23:10:51
+	time modified: 2022-10-10 23:16:01
 	card type: spell card
 	name: Nuva Symbol of Burning Courage
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image13
-	rule text: You can only control 1 "Nuva Symbol of Burning Courage". You can place this card you control on the bottom of the Deck; add 1 "Energized Protodermis" card or "Toa Mata Tahu" from your Deck to your hand. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. While you control "Toa Nuva Tahu", if your "Nuva" Fusion Monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this card leaves the field: Target 1 "Toa Nuva Tahu" you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
+	rule text: You can only control 1 "Nuva Symbol of Burning Courage". You can shuffle this card you control into the Deck; add 1 "Toa Mata Tahu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. While you control "Toa Nuva Tahu", if your "Nuva" Fusion Monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this card leaves the field: Target 1 "Toa Nuva Tahu" you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
 	gamecode: 10100318
 card:
 	has styling: false
