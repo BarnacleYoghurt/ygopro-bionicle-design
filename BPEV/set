@@ -96,8 +96,9 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Gain LP}}
+		{{Draw 1 card}}
 		{{Negate "Toa Nuva Onua" and banish card from hand}}
+		{{Reveal "Toa Mata Onua"?}}
 		
 		Effect structure for Nuva Symbols:
 		=> Can only control 1 each
@@ -290,6 +291,7 @@ card:
 	notes:
 		{{Add a card to hand}}
 		{{Negate "Toa Nuva Tahu" and skip Battle Phase}}
+		{{Reveal "Toa Mata Tahu"?}}
 		
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
 		=> same drawback would even make sense in that case
