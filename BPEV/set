@@ -103,6 +103,7 @@ card:
 		Effect structure for Nuva Symbols:
 		=> Can only control 1 each
 		==> mostly so soft OPT won't get too out of control
+		==> 4.1.3: We need to simplify, so let's drop this and use HOPT instead
 		=> HOPT place self on bottom of Deck to search matching Toa Mata
 		==> Lets the Nuva Symbol act as additional copies
 		==> Returning to deck offsets the plus, avoids triggering "leaves the field"
@@ -111,16 +112,18 @@ card:
 		=> Soft OPT granting some significant bonus to all Toa Nuva while you control the matching one
 		==> 4.0.2: LP gain didn't seem significant enough, so now we instead have basically Heatsoul, which is free (and can potentially add any card from GY) if combined with Onua's effect
 		===> arguably we could drop the OPT since we have a LP cost and all the Nuva effects are HOPT (so it wouldn't be crazier than, say, Hyper Librarian), but that seems a bit too much and also gets weird with triggers off multiple effects in the same chain
+		==> 4.1.3: Well, now it's HOPT (thanks, "preceding"!) since the control-1 limit was streamlined away - also you no longer need to control exactly the matching Toa Nuva, basically sacrificing a little lore accuracy for more deckbuilding and gameplay options
 		=> Mandatory "leaves the field" trigger that negates the matching Toa Nuva and inflicts some drawback opposed to the bonus from the previous effect
 		==> 4.0.2: Let's see if a mandatory -1 is too much of a drawback, would be the logical opposition to draw 1 after all
+		==> 4.1.3: No longer need the exact Toa Nuva to gain the benefit, so therefore the punish can now hit all of them as well (also this way there's no edge case with Toa Nuva in the S/T zone)
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-10-10 23:18:35
+	time modified: 2022-10-14 23:04:27
 	card type: spell card
 	name: Nuva Symbol of Deep Wisdom
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image6
-	rule text: You can only control 1 "Nuva Symbol of Deep Wisdom". You can shuffle this card you control into the Deck; add 1 "Toa Mata Onua" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Deep Wisdom" once per turn. Once per turn, if a "Nuva" Fusion Monster you control activates its effect while you control "Toa Nuva Onua": You can pay 1000 LP; draw 1 card. If this card leaves the field: Target 1 "Toa Nuva Onua" you control; negate its effects, and if you do, banish 1 card from your hand face-down.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Onua" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control activates its effect: You can pay 1000 LP; draw 1 card. You can only use each of the preceding effects of "Nuva Symbol of Deep Wisdom" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, banish 1 card from your hand face-down.
 	gamecode: 10100320
 card:
 	has styling: false
@@ -296,13 +299,13 @@ card:
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
 		=> same drawback would even make sense in that case
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-10-10 23:16:01
+	time modified: 2022-10-14 20:37:42
 	card type: spell card
 	name: Nuva Symbol of Burning Courage
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image13
-	rule text: You can only control 1 "Nuva Symbol of Burning Courage". You can shuffle this card you control into the Deck; add 1 "Toa Mata Tahu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. While you control "Toa Nuva Tahu", if your "Nuva" Fusion Monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this card leaves the field: Target 1 "Toa Nuva Tahu" you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Tahu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. If your "Nuva" Fusion Monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
 	gamecode: 10100318
 card:
 	has styling: false
