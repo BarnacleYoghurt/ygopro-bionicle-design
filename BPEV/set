@@ -97,7 +97,7 @@ card:
 	notes:
 		{{Add a card to hand}}
 		{{Draw 1 card}}
-		{{Negate "Toa Nuva Onua" and banish card from hand}}
+		{{Negate a "Nuva" Fusion Monster and banish card from hand}}
 		{{Reveal "Toa Mata Onua"?}}
 		
 		Effect structure for Nuva Symbols:
@@ -236,6 +236,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Look at your opponent's Extra Deck and send 1 monster from it to the GY}}
+		{{Fusion Summon}}
+		
 		Is being usable off Instant Fusion a problem?
 		=> Presumably not, -1 ED is only a huge deal against specific decks, and IF alone doesn't get you any more than that in the End Phase
 		
@@ -293,7 +296,7 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Negate "Toa Nuva Tahu" and skip Battle Phase}}
+		{{Negate a "Nuva" Fusion Monster and skip Battle Phase}}
 		{{Reveal "Toa Mata Tahu"?}}
 		
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
