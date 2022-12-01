@@ -381,19 +381,25 @@ card:
 		{{Negate a "Nuva" Fusion Monster and lock yourself}}
 		{{Reveal "Toa Mata Kopaka"?}}
 		
-		The idea here is to act as a floating effect for the Toa Nuva, allowing you to either set up a Toa Mata with EP as followup in hand, or SS EP Chamber to fuse again with the same (or another) material
+		Variant A:
+		"If a "Nuva" Fusion Monster you control leaves the field: You can target 2 of your monsters that are banished or in the GY (1 "Toa Mata" monster and 1 "Energized Protodermis" monster); Special Summon 1 and add the other to your hand."
+		=> The idea here is to act as a floating effect for the Toa Nuva, allowing you to either set up a Toa Mata with EP as followup in hand, or SS EP Chamber to fuse again with the same (or another) material
 		=> unfortunately it's too long right now
 		=> should it only work when removed by opponent?
 		
+		Variant B:
+		"If a "Nuva" Fusion Monster you control leaves the field because of your opponent's card: You can banish 1 card your opponent controls."
+		=> also a floating effect, but this one reimplements Kopaka Mata's banish, for the case where Kopaka Nuva gets removed to get rid of his massive protection
+		
 
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-01 16:36:34
+	time modified: 2022-12-01 20:27:23
 	card type: spell card
 	name: Nuva Symbol of Frigid Serenity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image12
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field: You can target 2 of your monsters that are banished or in the GY (1 "Toa Mata" monster and 1 "Energized Protodermis" monster); Special Summon 1 and add the other to your hand. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field because of your opponent's card: You can banish 1 card your opponent controls. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, your opponent can add 1 of their banished cards to their hand.
 	gamecode: DRAFT10100322
 card:
 	has styling: false
@@ -402,17 +408,15 @@ card:
 		{{Make all monsters you control gain 500 ATK}}
 		
 		This one is really tricky because a) it already had two effects originally and b) how do you AoE a hand reveal???
+		=> perhaps by making it a lingering reveal as long as anyone is there to see, but that feels like it lacks impact
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-01 16:34:24
+	time modified: 2022-12-01 20:47:02
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image15
-	rule text:
-		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Great Kanohi Akaku Nuva" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
-		<sym-auto>*</sym-auto>Your opponent must keep their hand revealed.
-		<sym-auto>*</sym-auto>Once per turn: You can discard 1 card; look at Set cards your opponent controls, up to the number of monsters you control.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent must keep their hand revealed this turn while you control a monster. You can only use this effect of "Great Kanohi Akaku Nuva" once per turn.
 	gamecode: DRAFT10100316
 card:
 	has styling: false
@@ -444,17 +448,18 @@ card:
 	notes:
 		{{Place "Nuva" Continuous Spell from Deck}}
 		{{Make all monsters untargetable}}
+		
+		More streamlined Kanohi Nuva concept:
+		=> Grant standard Kanohi effect (maybe with some extra benefits?), but only to the Nuva
+		=> Merge AoE with floating effect, as a bonus you get while you have a Toa Nuva
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-01 17:09:52
+	time modified: 2022-12-01 20:40:46
 	card type: spell card
 	name: Great Kanohi Miru Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image17
-	rule text:
-		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone. You can only use this effect of "Great Kanohi Miru Nuva" once per turn. While equipped to a "Nuva" Fusion Monster, this card gains these effects.
-		<sym-auto>*</sym-auto>Negate any effect activated by your opponent that targeted the equipped monster.
-		<sym-auto>*</sym-auto>Once per turn: You can discard 1 card; your opponent cannot target the monsters you currently control with card effects, until the end of their turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn. You can only use this effect of "Great Kanohi Miru Nuva" once per turn.
 	gamecode: DRAFT10100317
 card:
 	has styling: false
@@ -464,17 +469,25 @@ card:
 		{{Negate a "Nuva" Fusion Monster and let opponent Special Summon}}
 		{{Reveal "Toa Mata Lewa"?}}
 		
-		Unrestricted, non-targeting bound to supplement Lewa
+		Variant A:
+		"If a "Nuva" Fusion Monster you control activates its effect: You can return 1 card your opponent controls to the hand."
+		=> Unrestricted, non-targeting bounce to supplement Lewa
 		=> unfortunately only really doable in a boring way because the effect won't trigger until after the Toa Nuva effect has resolved
 		=> If Lewa bounced 1 card on each side of the field, the floating thing from Frigid Serenity would actually fit really well here because it would work even if Lewa goes back to ED
+		
+		Variant B:
+		" If a "Nuva" Fusion Monster you control leaves the field: You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it."
+		=> the floating effect to match double-bounce Lewa
+		=> being able to get any monster up to Lv8 means you can summon back a Toa Nuva or Toa Mata, but also an EP Chamber to make a new fusion
+		==> but could also get something like Scythe, which sounds a bit cancerous when you can trigger it yourself (but if you couldn't, the Lewa play wouldn't work ...)
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-01 17:10:09
+	time modified: 2022-12-01 20:27:55
 	card type: spell card
 	name: Nuva Symbol of Soaring Vitality
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image18
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control activates its effect: You can return 1 card your opponent controls to the hand. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, your opponent can Special Summon 1 monster from their hand or GY.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field: You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it.  You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
 	gamecode: DRAFT10100323
 card:
 	has styling: false
