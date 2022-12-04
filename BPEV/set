@@ -486,16 +486,18 @@ card:
 		==> we could be super cute here and make it "your field or your opponent's GY", so the only way to get 6 symbols is in a mirror match or by using the Nuva Cube alone against a Toa Nuva deck - very lore appropriate
 		===> careful - 1+ can only resolve if a Nuva Symbol is in your own deck ... unless it's optional like Wavering Eyes
 		===> in general, having mandatory effects that can't always resolve would likely mean you may not freely be able to shuffle back a certain number and thus fail to protect your symbols in some cases, so try to design around that
+		====> can be avoided by making it like Kowloon and having all the effects be optional by default, but that means the shuffle must be part of the effect or else it would be possible to "do nothing"
+		=> Also watch out for Ashable effect components in the optional things, wouldn't want a life-saving shuffle to be negated just because it could theoretically add something to hand
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-04 14:44:09
+	time modified: 2022-12-04 23:43:53
 	card type: trap card
 	name: Nuva Cube
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image18
 	rule text:
-		While you control a face-up "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can shuffle up to 6 "Nuva" Continuous Spells with different names, that are on your field or in your opponent's GY into the Deck; apply these effects, in sequence, depending on the number shuffled.
-		<sym-auto>*</sym-auto>1+: You can take 1 "Nuva" Continuous Spell from your Deck, and either add it to your hand or place it face-up in your Spell <sym-auto>&</sym-auto> Trap Zone.
+		While you control a face-up "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can target up to 6 "Nuva" Continuous Spells with different names, that are on your field or in your opponent's GY; shuffle them into the Deck, then you can apply any of these effect(s), in sequence, based on the number shuffled.
+		<sym-auto>*</sym-auto>1+: Place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone.
 		<sym-auto>*</sym-auto>3+: Shuffle 1 face-up monster your opponent controls into the Deck.
 		<sym-auto>*</sym-auto>6: Special Summon up to 2 of your banished monsters. 
 	gamecode: DRAFT10100324
