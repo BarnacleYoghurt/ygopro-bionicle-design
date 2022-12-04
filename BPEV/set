@@ -408,7 +408,7 @@ card:
 		Simplified quickie: bounce anything, but only targeting
 		=> or should it be only non-targeting? Also depends on what the Nuva Symbol does
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-01 16:42:48
+	time modified: 2022-12-04 16:21:34
 	card type: fusion monster
 	name: Toa Nuva Lewa
 	attribute: wind
@@ -420,7 +420,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Kopaka" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand. You can only use each effect of "Toa Nuva Lewa" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand. You can only use each effect of "Toa Nuva Lewa" once per turn.
 	attack: 2400
 	defense: 2900
 	rarity: common
