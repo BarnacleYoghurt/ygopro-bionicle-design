@@ -353,7 +353,7 @@ card:
 	has styling: false
 	notes: {{Add "Nuva" Spell/Trap to hand}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-03 08:42:21
+	time modified: 2022-12-04 19:47:43
 	card type: fusion monster
 	name: Toa Nuva Gali
 	attribute: water
@@ -366,8 +366,8 @@ card:
 	rule text:
 		"Toa Mata Gali" + 1 "Energized Protodermis" monster
 		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (<sym-auto>!</sym-auto>Quick Effect): You can target 1 other monster on the field; negate its effects until the end of this turn. You can only use each effect of "Toa Nuva Gali" once per turn.
-	attack: 2400
-	defense: 2900
+	attack: 2700
+	defense: 2200
 	rarity: common
 	gamecode: DRAFT10100307
 card:
@@ -408,7 +408,7 @@ card:
 		Simplified quickie: bounce anything, but only targeting
 		=> or should it be only non-targeting? Also depends on what the Nuva Symbol does
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-04 16:21:34
+	time modified: 2022-12-04 19:48:13
 	card type: fusion monster
 	name: Toa Nuva Lewa
 	attribute: wind
@@ -421,8 +421,8 @@ card:
 	rule text:
 		"Toa Mata Kopaka" + 1 "Energized Protodermis" monster
 		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand. You can only use each effect of "Toa Nuva Lewa" once per turn.
-	attack: 2400
-	defense: 2900
+	attack: 2600
+	defense: 2300
 	rarity: common
 	gamecode: DRAFT10100311
 card:
@@ -435,12 +435,12 @@ card:
 		=> Grant standard Kanohi effect (maybe with some extra benefits?), but only to the Nuva
 		=> Merge AoE with floating effect, as a bonus you get while you have a Toa Nuva
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-04 18:42:00
+	time modified: 2022-12-04 18:50:56
 	card type: spell card
 	name: Great Kanohi Miru Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image21
+	image: image17
 	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn. You can only use this effect of "Great Kanohi Miru Nuva" once per turn.
 	gamecode: DRAFT10100317
 card:
@@ -570,7 +570,7 @@ card:
 	has styling: false
 	notes: {{Add "Nuva" Spell/Trap to hand}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-03 19:16:29
+	time modified: 2022-12-04 19:47:35
 	card type: fusion monster
 	name: Toa Nuva Pohatu
 	attribute: earth
@@ -583,8 +583,8 @@ card:
 	rule text:
 		"Toa Mata Pohatu" + 1 "Energized Protodermis" monster
 		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can destroy Spells/Traps your opponent controls, up to the number of Rock monsters you control +1. You can only use each effect of "Toa Nuva Pohatu" once per turn.
-	attack: 2400
-	defense: 2900
+	attack: 2800
+	defense: 2100
 	rarity: common
 	gamecode: DRAFT10100309
 card:
