@@ -378,12 +378,12 @@ card:
 		{{Negate a "Nuva" Fusion Monster and lock yourself}}
 		{{Reveal "Toa Mata Kopaka"?}}
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-03 08:37:15
+	time modified: 2022-12-04 15:14:58
 	card type: spell card
 	name: Nuva Symbol of Flowing Harmony
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
-	image: image12
+	image: image23
 	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Gali" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. When a card or effect activated by your opponent in response to your "Nuva" Fusion Monster's effect resolves, you can negate that effect, and if you do, destroy that card. You can only use each of the preceding effects of "Nuva Symbol of Flowing Harmony" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects. You cannot activate monster effects in response to this effect's activation.
 	gamecode: DRAFT10100319
 card:
@@ -463,12 +463,12 @@ card:
 		=> being able to get any monster up to Lv8 means you can summon back a Toa Nuva or Toa Mata, but also an EP Chamber to make a new fusion
 		==> but could also get something like Scythe, which sounds a bit cancerous when you can trigger it yourself (but if you couldn't, the Lewa play wouldn't work ...)
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-01 20:27:55
+	time modified: 2022-12-04 15:21:21
 	card type: spell card
 	name: Nuva Symbol of Soaring Vitality
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
-	image: image18
+	image: image16
 	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field: You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it.  You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
 	gamecode: DRAFT10100323
 card:
@@ -487,12 +487,12 @@ card:
 		===> careful - 1+ can only resolve if a Nuva Symbol is in your own deck ... unless it's optional like Wavering Eyes
 		===> in general, having mandatory effects that can't always resolve would likely mean you may not freely be able to shuffle back a certain number and thus fail to protect your symbols in some cases, so try to design around that
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-01 23:47:41
+	time modified: 2022-12-04 14:44:09
 	card type: trap card
 	name: Nuva Cube
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
-	image: image16
+	image: image18
 	rule text:
 		While you control a face-up "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can shuffle up to 6 "Nuva" Continuous Spells with different names, that are on your field or in your opponent's GY into the Deck; apply these effects, in sequence, depending on the number shuffled.
 		<sym-auto>*</sym-auto>1+: You can take 1 "Nuva" Continuous Spell from your Deck, and either add it to your hand or place it face-up in your Spell <sym-auto>&</sym-auto> Trap Zone.
@@ -558,12 +558,12 @@ card:
 		"If a "Nuva" Fusion Monster you control leaves the field because of your opponent's card: You can banish 1 card your opponent controls."
 		=> also a floating effect, but this one reimplements Kopaka Mata's banish, for the case where Kopaka Nuva gets removed to get rid of his massive protection
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-01 23:25:26
+	time modified: 2022-12-04 15:17:37
 	card type: spell card
 	name: Nuva Symbol of Frigid Serenity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
-	image: image22
+	image: image14
 	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field because of an opponent's card: You can banish 1 card your opponent controls. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, your opponent can add 1 of their banished cards to their hand.
 	gamecode: DRAFT10100322
 card:
@@ -609,12 +609,12 @@ card:
 		{{Negate a "Nuva" Fusion Monster and lock yourself}}
 		{{Reveal "Toa Mata Kopaka"?}}
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-03 19:33:17
+	time modified: 2022-12-04 15:14:50
 	card type: spell card
 	name: Nuva Symbol of Granite Tenacity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
-	image: image25
+	image: image12
 	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. During the Standby Phase, if you control a "Nuva" Fusion Monster: You can Special Summon 1 Level 4 or lower monster from your hand or GY. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
 	gamecode: DRAFT10100321
 version control:
