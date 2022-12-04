@@ -392,12 +392,12 @@ card:
 		{{Place "Nuva" Continuous Spell from Deck}}
 		{{Make all monsters you control gain 500 ATK}}
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-03 00:03:45
+	time modified: 2022-12-04 16:39:57
 	card type: spell card
 	name: Great Kanohi Kaukau Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image15
+	image: image22
 	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the monsters you currently control cannot be destroyed by card effects this turn. You can only use this effect of "Great Kanohi Kaukau Nuva" once per turn.
 	gamecode: DRAFT10100313
 card:
@@ -435,12 +435,12 @@ card:
 		=> Grant standard Kanohi effect (maybe with some extra benefits?), but only to the Nuva
 		=> Merge AoE with floating effect, as a bonus you get while you have a Toa Nuva
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-01 20:40:46
+	time modified: 2022-12-04 18:42:00
 	card type: spell card
 	name: Great Kanohi Miru Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image17
+	image: image21
 	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn. You can only use this effect of "Great Kanohi Miru Nuva" once per turn.
 	gamecode: DRAFT10100317
 card:
@@ -532,12 +532,12 @@ card:
 		This one is really tricky because a) it already had two effects originally and b) how do you AoE a hand reveal???
 		=> perhaps by making it a lingering reveal as long as anyone is there to see, 
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-01 20:47:02
+	time modified: 2022-12-04 18:26:59
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image21
+	image: image24
 	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent must keep their hand revealed this turn while you control a monster. You can only use this effect of "Great Kanohi Akaku Nuva" once per turn.
 	gamecode: DRAFT10100316
 card:
@@ -593,12 +593,12 @@ card:
 		{{Place "Nuva" Continuous Spell from Deck}}
 		{{Make all monsters you control gain 500 ATK}}
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-03 00:10:08
+	time modified: 2022-12-04 17:36:20
 	card type: spell card
 	name: Great Kanohi Kakama Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image24
+	image: image15
 	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn. You can only use this effect of "Great Kanohi Kakama Nuva" once per turn.
 	gamecode: DRAFT10100315
 card:
