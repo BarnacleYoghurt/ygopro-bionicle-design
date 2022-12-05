@@ -372,13 +372,13 @@ card:
 		{{Reveal "Toa Mata Gali"?}}
 		{{Negate the effect with "Nuva Symbol of Flowing Harmony"?}}
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-05 16:46:45
+	time modified: 2022-12-05 23:58:36
 	card type: spell card
 	name: Nuva Symbol of Flowing Harmony
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image23
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Gali" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. When a card or effect activated by your opponent in response to your "Nuva" Fusion Monster's effect resolves, you can negate that effect, and if you do, destroy that card. You can only use each of the preceding effects of "Nuva Symbol of Flowing Harmony" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects. You cannot activate monster effects in response to this effect's activation.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Gali" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. When a card or effect activated by your opponent in response to your "Nuva" Fusion Monster's effect activation resolves, you can negate that effect, and if you do, destroy that card. You can only use each of the preceding effects of "Nuva Symbol of Flowing Harmony" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects. You cannot activate monster effects in response to this effect's activation.
 	gamecode: 10100319
 card:
 	has styling: false
