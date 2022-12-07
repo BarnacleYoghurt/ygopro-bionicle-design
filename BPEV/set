@@ -618,6 +618,26 @@ card:
 	image: image12
 	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. During the Standby Phase, if you control a "Nuva" Fusion Monster: You can Special Summon 1 Level 4 or lower monster from your hand or GY. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
 	gamecode: DRAFT10100321
+card:
+	has styling: false
+	notes:
+		Idea is to have a Nuva-searchable card that lets you bridge a single Nuva into a Mata Combination (hence enabling all kinds of plays), while also acting as a rankup for a reasonable way to make Toa Nuva Kaita
+		=> attach extra card from hand/field so you can even enable 2-mat effects at cost of advantage
+		=> Can it/should it really be a RUM?
+		=> Actually it might be thematically fitting to just have this kind of thing on the Kanohi Nuva Kaita ...
+	time created: 2015-04-13 11:25:06
+	time modified: 2022-12-06 23:29:11
+	card type: spell card
+	name: Rank-Up-Magic Protodermic Evolution
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image21
+	rule text:
+		(This card is always treated as a "Nuva" card.)
+		Activate 1 of these effects;
+		<sym-auto>*</sym-auto>Target 1 "Nuva" Fusion Monster you control; Special Summon, from your Extra Deck, 1 Rank 6 "Toa Mata" Xyz Monster, by using that target  as material, then you can attach 1 card from your hand or face-up field to the Summoned monster as material.. (This is treated as an Xyz Summon.)
+		<sym-auto>*</sym-auto>Target 1 Rank 6 "Toa" Xyz Monster you control; Special Summon, from your Extra Deck, 1 Rank 8 "Nuva" Xyz Monster, by using that target as material. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
+	gamecode: DRAFT10100329
 version control:
 	type: none
 apprentice code: 
