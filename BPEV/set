@@ -347,7 +347,7 @@ card:
 		{{Add "Nuva" Spell/Trap to hand}}
 		{{Negate effects of face-up monster}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-05 16:44:14
+	time modified: 2022-12-07 09:15:31
 	card type: fusion monster
 	name: Toa Nuva Gali
 	attribute: water
@@ -359,7 +359,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Gali" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (<sym-auto>!</sym-auto>Quick Effect): You can target 1 other face-up monster on the field; negate its effects until the end of this turn. You can only use each effect of "Toa Nuva Gali" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up monster on the field; negate its effects until the end of this turn. You can only use each effect of "Toa Nuva Gali" once per turn.
 	attack: 2700
 	defense: 2200
 	rarity: common
@@ -370,7 +370,6 @@ card:
 		{{Add a card to hand}}
 		{{Negate a "Nuva" Fusion Monster}}
 		{{Reveal "Toa Mata Gali"?}}
-		{{Negate the effect with "Nuva Symbol of Flowing Harmony"?}}
 	time created: 2015-04-13 11:25:06
 	time modified: 2022-12-05 23:58:36
 	card type: spell card
@@ -403,7 +402,7 @@ card:
 		=> or should it be only non-targeting? Also depends on what the Nuva Symbol does
 		=> Actually let's keep the Mata setup, that shit was rad
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-05 16:42:58
+	time modified: 2022-12-07 20:55:51
 	card type: fusion monster
 	name: Toa Nuva Lewa
 	attribute: wind
@@ -414,7 +413,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
-		"Toa Mata Kopaka" + 1 "Energized Protodermis" monster
+		"Toa Mata Lewa" + 1 "Energized Protodermis" monster
 		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand. You can only use each effect of "Toa Nuva Lewa" once per turn.
 	attack: 2600
 	defense: 2300
@@ -444,6 +443,7 @@ card:
 		{{Special Summon 1 of your Level 8 or lower monsters that is banished or in the GY}}
 		{{Negate a "Nuva" Fusion Monster and lock yourself}}
 		{{Reveal "Toa Mata Lewa"?}}
+		{{Affected by "Nuva Symbol of Soaring Vitality": Cannot Special Summon}}
 		
 		Variant A:
 		"If a "Nuva" Fusion Monster you control activates its effect: You can return 1 card your opponent controls to the hand."
@@ -457,13 +457,13 @@ card:
 		=> being able to get any monster up to Lv8 means you can summon back a Toa Nuva or Toa Mata, but also an EP Chamber to make a new fusion
 		==> but could also get something like Scythe, which sounds a bit cancerous when you can trigger it yourself (but if you couldn't, the Lewa play wouldn't work ...)
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-05 16:47:36
+	time modified: 2022-12-07 23:01:34
 	card type: spell card
 	name: Nuva Symbol of Soaring Vitality
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image16
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field: You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it.  You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field: You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
 	gamecode: 10100323
 card:
 	has styling: false
