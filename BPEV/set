@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.2.1
+	edition: Version 4.2.2
 	copyright: 
 card:
 	has styling: false
@@ -457,13 +457,13 @@ card:
 		=> being able to get any monster up to Lv8 means you can summon back a Toa Nuva or Toa Mata, but also an EP Chamber to make a new fusion
 		==> but could also get something like Scythe, which sounds a bit cancerous when you can trigger it yourself (but if you couldn't, the Lewa play wouldn't work ...)
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-10 21:21:46
+	time modified: 2022-12-12 21:22:29
 	card type: spell card
 	name: Nuva Symbol of Soaring Vitality
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image16
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field by card effect (except during the Damage Step): You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a face-up "Nuva" Fusion Monster you control leaves the field by card effect (except during the Damage Step): You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
 	gamecode: 10100323
 card:
 	has styling: false
@@ -561,13 +561,13 @@ card:
 		"If a "Nuva" Fusion Monster you control leaves the field because of your opponent's card: You can banish 1 card your opponent controls."
 		=> also a floating effect, but this one reimplements Kopaka Mata's banish, for the case where Kopaka Nuva gets removed to get rid of his massive protection
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-10 21:29:29
+	time modified: 2022-12-12 21:24:10
 	card type: spell card
 	name: Nuva Symbol of Frigid Serenity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image14
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field because of an opponent's card (except during the Damage Step): You can banish 1 card your opponent controls. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, your opponent can add 1 of their banished cards to their hand.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field because of an opponent's card: You can banish 1 card your opponent controls. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, your opponent can add 1 of their banished cards to their hand.
 	gamecode: DRAFT10100322
 card:
 	has styling: false
