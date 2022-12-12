@@ -470,7 +470,7 @@ card:
 	notes:
 		{{Shuffle back "Nuva" Continuous Spells}}
 		{{Place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell & Trap Zone?}}
-		{{Shuffle 1 face-up monster your opponent controls into the Deck?}}
+		{{Negate the effects of 1 other face-up Spell/Trap on the field?}}
 		{{Special Summon up to 2 of your banished monsters?}}
 		
 		Helps your Nuva Symbols dodge removal effects without triggering their drawbacks
@@ -486,18 +486,20 @@ card:
 		===> careful - 1+ can only resolve if a Nuva Symbol is in your own deck ... unless it's optional like Wavering Eyes
 		===> in general, having mandatory effects that can't always resolve would likely mean you may not freely be able to shuffle back a certain number and thus fail to protect your symbols in some cases, so try to design around that
 		====> can be avoided by making it like Kowloon and having all the effects be optional by default, but that means the shuffle must be part of the effect or else it would be possible to "do nothing"
+		==> upon further reflection, getting Nuva Symbols into your own GY is generally so bad for you that a way to turn that into a benefit doesn't sound totally unfair, so why not go with "either GY" after all?
 		=> Also watch out for Ashable effect components in the optional things, wouldn't want a life-saving shuffle to be negated just because it could theoretically add something to hand
+
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-05 21:54:19
+	time modified: 2022-12-12 19:14:32
 	card type: trap card
 	name: Nuva Cube
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image18
 	rule text:
-		While you control a "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can target up to 6 "Nuva" Continuous Spells with different names, that are on your field or in your opponent's GY; shuffle them into the Deck, then you can apply any of these effect(s), in sequence, based on the number shuffled.
+		While you control a "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can target up to 6 "Nuva" Continuous Spells with different names on your field and/or in any GY(s); shuffle them into the Deck, then you can apply any of these effect(s), in sequence, based on the number shuffled.
 		<sym-auto>*</sym-auto>1+: Place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone.
-		<sym-auto>*</sym-auto>3+: Shuffle 1 face-up monster your opponent controls into the Deck.
+		<sym-auto>*</sym-auto>3+: Negate the effects of 1 other face-up Spell/Trap on the field until the end of this turn.
 		<sym-auto>*</sym-auto>6: Special Summon up to 2 of your banished monsters.
 	gamecode: 10100324
 card:
