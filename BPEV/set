@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.2.0
+	edition: Version 4.2.1
 	copyright: 
 card:
 	has styling: false
@@ -146,13 +146,13 @@ card:
 		==> if we just demand "Nuva" monsters in general, it would also work with Takanuva, so that's wrong (also "Nuva" Fusion Monsters might be a problem in its own right regarding Takutanuva)
 		=> perhaps the only future-proof solution is making "Toa Nuva" a separate archetype after all, and then just never make support for "Nuva" monsters to keep things simple
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-05 23:54:15
+	time modified: 2022-12-12 06:56:35
 	card type: spell card
 	name: Great Kanohi Pakari Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image1
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, all monsters you currently control gain 500 ATK, until the end of this turn. You can only use this effect of "Great Kanohi Pakari Nuva" once per turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY: place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, all monsters you currently control gain 500 ATK, until the end of this turn.
 	gamecode: 10100314
 card:
 	has styling: false
@@ -313,13 +313,13 @@ card:
 		
 		Should battle protection also extend to face-down monsters?
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-05 23:51:13
+	time modified: 2022-12-12 06:53:05
 	card type: spell card
 	name: Great Kanohi Hau Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image2
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it cannot be destroyed by battle, also you take no battle damage from battles involving it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the face-up monsters you currently control cannot be destroyed by battle this turn. You can only use this effect of "Great Kanohi Hau Nuva" once per turn. 
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it cannot be destroyed by battle, also you take no battle damage from battles involving it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the face-up monsters you currently control cannot be destroyed by battle this turn.
 	gamecode: 10100312
 card:
 	has styling: false
@@ -383,13 +383,13 @@ card:
 	has styling: false
 	notes: {{Place "Nuva" Continuous Spell from Deck}}
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-05 23:51:33
+	time modified: 2022-12-12 06:53:57
 	card type: spell card
 	name: Great Kanohi Kaukau Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image22
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the face-up monsters you currently control cannot be destroyed by card effects this turn. You can only use this effect of "Great Kanohi Kaukau Nuva" once per turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the face-up monsters you currently control cannot be destroyed by card effects this turn.
 	gamecode: 10100313
 card:
 	has styling: false
@@ -428,13 +428,13 @@ card:
 		=> Grant standard Kanohi effect (maybe with some extra benefits?), but only to the Nuva
 		=> Merge AoE with floating effect, as a bonus you get while you have a Toa Nuva
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-05 16:46:12
+	time modified: 2022-12-12 06:57:04
 	card type: spell card
 	name: Great Kanohi Miru Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image17
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn. You can only use this effect of "Great Kanohi Miru Nuva" once per turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn.
 	gamecode: 10100317
 card:
 	has styling: false
