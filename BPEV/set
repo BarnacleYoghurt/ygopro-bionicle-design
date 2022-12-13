@@ -270,8 +270,9 @@ card:
 		Effect becomes a quickie and gains power, but loses the burn and some potential use cases by only working on attack position monsters and only during the main phase
 		=> should still be sufficient for defensive purposes unless opponent can remove Tahu before the BP anyway
 		=> for offensive purposes, main phase lock ensures you can't drain ATK from your other monster after it has attacked, which is good
+		==> but on the other hand, being able to do that sounds kinda neat ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-10-03 17:59:23
+	time modified: 2022-12-13 19:18:18
 	card type: fusion monster
 	name: Toa Nuva Tahu
 	attribute: fire
@@ -283,7 +284,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Tahu" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use each effect of "Toa Nuva Tahu" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use each effect of "Toa Nuva Tahu" once per turn.
 	attack: 2900
 	defense: 1900
 	rarity: common
@@ -488,9 +489,8 @@ card:
 		====> can be avoided by making it like Kowloon and having all the effects be optional by default, but that means the shuffle must be part of the effect or else it would be possible to "do nothing"
 		==> upon further reflection, getting Nuva Symbols into your own GY is generally so bad for you that a way to turn that into a benefit doesn't sound totally unfair, so why not go with "either GY" after all?
 		=> Also watch out for Ashable effect components in the optional things, wouldn't want a life-saving shuffle to be negated just because it could theoretically add something to hand
-
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-12 19:14:32
+	time modified: 2022-12-12 22:42:54
 	card type: trap card
 	name: Nuva Cube
 	attribute: trap
