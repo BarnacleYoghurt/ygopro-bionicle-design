@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.2.2
+	edition: Version 4.2.3
 	copyright: 
 card:
 	has styling: false
@@ -243,7 +243,7 @@ card:
 		=> Albion/Lubellion do only certain Level ranges
 		=> Could explicitly require it to list an EP monster as material, Legacy of a HERO does the same thing where it just needs to be the archetype, not a specific card
 	time created: 2022-08-31 18:37:28
-	time modified: 2022-10-03 17:59:20
+	time modified: 2022-12-13 23:07:11
 	card type: fusion monster
 	name: Energized Protodermis Flow
 	attribute: light
@@ -257,7 +257,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 "Energized Protodermis" monsters
-		If this Fusion Summoned card is sent to the GY by a card effect: Look at your opponent's Extra Deck and send 1 monster from it to the GY. During your Main Phase: You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 Fusion Materials mentioned on it from your GY, including this card. You can only use each effect of "Energized Protodermis Flow" once per turn.
+		If this Fusion Summoned card is sent to the GY: Look at your opponent's Extra Deck and send 1 monster from it to the GY. During your Main Phase: You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 Fusion Materials mentioned on it from your GY, including this card. You can only use each effect of "Energized Protodermis Flow" once per turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100303
