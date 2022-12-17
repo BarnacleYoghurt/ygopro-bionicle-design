@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.2.3
+	edition: Version 4.2.4
 	copyright: 
 card:
 	has styling: false
@@ -441,7 +441,7 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Special Summon 1 of your Level 8 or lower monsters that is banished or in the GY}}
+		{{Special Summon 1 Level 8 or lower monster from your GY}}
 		{{Negate a "Nuva" Fusion Monster and lock yourself}}
 		{{Reveal "Toa Mata Lewa"?}}
 		{{Affected by "Nuva Symbol of Soaring Vitality": Cannot Special Summon}}
@@ -457,14 +457,16 @@ card:
 		=> the floating effect to match double-bounce Lewa
 		=> being able to get any monster up to Lv8 means you can summon back a Toa Nuva or Toa Mata, but also an EP Chamber to make a new fusion
 		==> but could also get something like Scythe, which sounds a bit cancerous when you can trigger it yourself (but if you couldn't, the Lewa play wouldn't work ...)
+		=> v4.2.4: Being able to freely bring back banished monsters as well makes it a bit too easy to play fast and loose with Kanohi costs, and if we absolutely needed to summon from banished, Quest for the Masks and Nuva Cube (the later more in theory) do provide ways to do that
+		==> also it hasn't come up in testing and it probably won't hurt to cut this text down a bit
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-12 21:22:29
+	time modified: 2022-12-17 20:15:26
 	card type: spell card
 	name: Nuva Symbol of Soaring Vitality
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image16
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a face-up "Nuva" Fusion Monster you control leaves the field by card effect (except during the Damage Step): You can target 1 of your Level 8 or lower monsters that is banished or in the GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a face-up "Nuva" Fusion Monster you control leaves the field by card effect (except during the Damage Step): You can target 1 Level 8 or lower monster in your GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
 	gamecode: 10100323
 card:
 	has styling: false
