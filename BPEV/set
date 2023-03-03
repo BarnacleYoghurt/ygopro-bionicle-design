@@ -642,6 +642,18 @@ card:
 		<sym-auto>*</sym-auto>Target 1 "Nuva" Fusion Monster you control; Special Summon, from your Extra Deck, 1 Rank 6 "Toa Mata" Xyz Monster, by using that target  as material, then you can attach 1 card from your hand or face-up field to the Summoned monster as material.. (This is treated as an Xyz Summon.)
 		<sym-auto>*</sym-auto>Target 1 Rank 6 "Toa" Xyz Monster you control; Special Summon, from your Extra Deck, 1 Rank 8 "Nuva" Xyz Monster, by using that target as material. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
 	gamecode: DRAFT10100329
+card:
+	has styling: false
+	notes: Probably need something like this for recursion now that Elf got banned ...
+	time created: 2023-02-07 09:23:59
+	time modified: 2023-02-07 09:28:03
+	card type: trap card
+	name: Nuva Emergence
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: 
+	rule text: During your opponent's turn: Fusion Summon 1 "Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your cards on the field, in your GY, and/or your face-up banished cards. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
+	gamecode: DRAFT10100330
 version control:
 	type: none
 apprentice code: 
