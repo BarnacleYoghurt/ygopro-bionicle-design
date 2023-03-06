@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.2.5
+	edition: Version 4.3.0
 	copyright: 
 card:
 	has styling: false
@@ -665,7 +665,7 @@ card:
 		=> require second material detach for boardwipe so it's not as easily reusable
 		=> a mere 500 reduction doesn't seem hindering enough to represent a Tahnok-Kal forcefield ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-03-03 20:50:39
+	time modified: 2023-03-06 20:40:51
 	card type: xyz monster
 	name: Bohrok Tahnok-Kal
 	attribute: fire
@@ -681,7 +681,7 @@ card:
 	attack: 2100
 	defense: 2200
 	rarity: common
-	gamecode: DRAFT10100331
+	gamecode: 10100331
 card:
 	has styling: false
 	notes:
@@ -697,7 +697,7 @@ card:
 		=> phrasing: should make the zones unusable even if it didn't bounce anything, but only those that actually do end up empty
 		=> unfortunately we don't really have any representation of the scene with Matoro getting supergravity'd this way
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-03-06 19:21:31
+	time modified: 2023-03-06 20:40:55
 	card type: xyz monster
 	name: Bohrok Nuhvok-Kal
 	attribute: earth
@@ -713,31 +713,31 @@ card:
 	attack: 2000
 	defense: 2300
 	rarity: common
-	gamecode: DRAFT10100333
+	gamecode: 10100333
 card:
 	has styling: false
 	notes: 
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-03-03 23:13:13
+	time modified: 2023-03-06 20:42:14
 	card type: spell card
 	name: Bohrok-Kal Strategy
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image25
 	rule text: When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. Once per turn, if you Special Summon a "Bohrok" monster(s): You can target 1 Spell/Trap on the field; destroy it. If you control a "Bohrok" Xyz Monster, your opponent's cards and effects cannot be activated in response to this effects activation. You can only activate 1 "Bohrok-Kal Strategy" per turn.
-	gamecode: DRAFT10100347
+	gamecode: 10100347
 card:
 	has styling: false
 	notes: 
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-03-06 19:19:18
+	time modified: 2023-03-06 20:42:09
 	card type: trap card
 	name: Bohrok Counterattack
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
 	image: image40
 	rule text: When your opponent activates a card or effect while you control a monster, but no face-up non-"Bohrok" monsters: Send 1 "Krana" monster from your Deck or Extra Deck to the GY; negate the activation, and if you do, you can attach that card to 1 "Bohrok" Xyz Monster you control as material.
-	gamecode: DRAFT10100346
+	gamecode: 10100346
 card:
 	has styling: false
 	notes:
@@ -853,7 +853,7 @@ card:
 		=> okay it's a little weird but the normal Za does something similar
 		=> could even say it incorporates the emotion-sensing because the Bohrok-Kal senses hostile intent and braces itself in advance to survive the attack
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 11:32:42
+	time modified: 2023-03-06 20:41:20
 	card type: link monster
 	name: Krana Za-Kal, Overseer
 	attribute: dark
@@ -874,7 +874,7 @@ card:
 	Link Marker Left: none
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100338
+	gamecode: 10100338
 card:
 	has styling: false
 	notes:
@@ -884,7 +884,7 @@ card:
 		=> add isn't targeted so you can theoretically add a card that was attached to the Bohrok-Kal at activation
 		==> should it maybe be optional?
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 11:41:03
+	time modified: 2023-03-06 20:41:23
 	card type: link monster
 	name: Krana Vu-Kal, Transporter
 	attribute: dark
@@ -905,7 +905,7 @@ card:
 	Link Marker Left: none
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100339
+	gamecode: 10100339
 card:
 	has styling: false
 	notes:
@@ -977,7 +977,7 @@ card:
 		Even stronger stat boost than base Su + destruction protection (heat/cold resistance)
 		=> the latter unfortunately overalps with Za-Kal
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 12:13:02
+	time modified: 2023-03-06 20:41:35
 	card type: link monster
 	name: Krana Su-Kal, Demolisher
 	attribute: dark
@@ -1000,7 +1000,7 @@ card:
 	Link Marker Left: none
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100343
+	gamecode: 10100343
 card:
 	has styling: false
 	notes:
