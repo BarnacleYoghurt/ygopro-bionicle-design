@@ -654,6 +654,170 @@ card:
 	image: 
 	rule text: During your opponent's turn: Fusion Summon 1 "Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your cards on the field, in your GY, and/or your face-up banished cards. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
 	gamecode: DRAFT10100330
+card:
+	has styling: false
+	notes:
+		{{Attach "Krana" monster as material}}
+		
+		First just disable opponent's monsters (ATK reduction) with a stasis field, then blow up the weaker ones
+		=> affects the whole field as a Raigeki reference
+		=> quick effect and only face-up as a Tahnok reference
+		=> require second material detach for boardwipe so it's not as easily reusable
+		=> a mere 500 reduction doesn't seem hindering enough to represent a Tahnok-Kal forcefield ...
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-03-03 20:50:39
+	card type: xyz monster
+	name: Bohrok Tahnok-Kal
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image28
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 4 "Bohrok" monsters
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 1 material from this card; face-up monsters your opponent controls lose 500 ATK, then you can detach 1 more material from this card, and if you do, destroy all monsters your opponent controls with 2100 or less ATK. You can only use this effect of "Bohrok Tahnok-Kal" once per turn.
+	attack: 2100
+	defense: 2200
+	rarity: common
+	gamecode: DRAFT10100331
+card:
+	has styling: false
+	notes:
+		{{Attach "Krana" monster as material}}
+		
+		Increase (= flip face-down) or decrease (= return to hand) gravity on opponent's monsters
+		=> Multiple targets at once possible since it isn't that impressive otherwise
+		=> But does this kind of modularity even let it work on face-downs? What about mixed selections?
+		=> Would be nice to have some kind of relation to the original Nuhvok - right now this doesn't even work on backrow
+		
+		Alternatively: ..., then choose that many Main Monster Zones and/or Spell & Trap Zones on the field; return as many cards in those zones to the hand as possible, also those unused zones cannot be used until your next Standby Phase.
+		=> float stuff in selected zones back to hand, and also Ground Collapse them into unusability (like base Nuhvok)
+		=> phrasing: should make the zones unusable even if it didn't bounce anything, but only those that actually do end up empty
+		=> unfortunately we don't really have any representation of the scene with Matoro getting supergravity'd this way
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-03-03 21:05:06
+	card type: xyz monster
+	name: Bohrok Nuhvok-Kal
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image29
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 4 "Bohrok" monsters
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. You can detach 1 or more materials from this card, then target that many monsters on the field; either change them to face-down Defense Position or return them to the hand. You can only use this effect of "Bohrok Nuhvok-Kal" once per turn.
+	attack: 2000
+	defense: 2300
+	rarity: common
+	gamecode: DRAFT10100333
+card:
+	has styling: false
+	notes: 
+	time created: 2015-04-13 11:25:06
+	time modified: 2023-03-03 23:13:13
+	card type: spell card
+	name: Bohrok-Kal Strategy
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image25
+	rule text: When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. Once per turn, if you Special Summon a "Bohrok" monster(s): You can target 1 Spell/Trap on the field; destroy it. If you control a "Bohrok" Xyz Monster, your opponent's cards and effects cannot be activated in response to this effects activation. You can only activate 1 "Bohrok-Kal Strategy" per turn.
+	gamecode: DRAFT10100347
+card:
+	has styling: false
+	notes: 
+	time created: 2023-02-07 09:23:59
+	time modified: 2023-03-06 00:14:00
+	card type: trap card
+	name: Bohrok Counterattack
+	attribute: trap
+	level: <sym-auto>!</sym-auto>
+	image: 
+	rule text: When your opponent activates a card or effect while you control a monster, but no face-up non-"Bohrok" monsters: Send 1 "Krana" monster from your Deck or Extra Deck to the GY; negate the activation, and if you do, you can attach that card to 1 "Bohrok" Xyz Monster you control as material.
+	gamecode: DRAFT10100346
+card:
+	has styling: false
+	notes:
+		{{Attach "Krana" monster as material}}
+		
+		Plasma monster into oblivion and burn straight through it into the opponent's LP
+		=> happens in battle to match base Pahrak
+		=> does this even need a HOPT?
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-03-05 21:20:04
+	card type: xyz monster
+	name: Bohrok Pahrak-Kal
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image31
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 4 "Bohrok" monsters
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. If this card battles an opponent's monster, at the start of the Damage Step: You can detach 1 material from this card; banish that monster, and if you do, inflict damage to your opponent equal to its original ATK. You can only use this effect of "Bohrok Pahrak-Kal" once per turn.
+	attack: 2400
+	defense: 1900
+	rarity: common
+	gamecode: DRAFT10100334
+card:
+	has styling: false
+	notes:
+		{{Attach "Krana" monster as material}}
+		
+		Stun opponent's entire field with a massive sound blast
+		=> but what about the solid sound objects?
+		=> should this maybe affect your field as well (since that is a canon downside of Kohrak-Kal's powers)?
+		==> why yes it should
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-03-06 00:20:06
+	card type: xyz monster
+	name: Bohrok Kohrak-Kal
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image32
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 4 "Bohrok" monsters
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (<sym-auto>!</sym-auto>Quick Effect): You can detach 2 materials from this card; all other monsters currently face-up on the field cannot attack or activate their effects, until the end of this turn. You can only use this effect of "Bohrok Kohrak-Kal" once per turn.
+	attack: 2300
+	defense: 2000
+	rarity: common
+	gamecode: DRAFT10100335
+card:
+	has styling: false
+	notes:
+		{{Attach "Krana" monster as material}}
+		
+		Wipe backrow with an air blast (see also: HFD) and suck up a card to set up the next one
+		=> lets you dodge Waking the Dragon by attaching it mid-resolution before it triggers
+		=> technically doing this in the wrong order, but the Krana succ kind of is already the prior setup in that sense
+		=> too better than Tornado Dragon?
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-03-06 08:25:01
+	card type: xyz monster
+	name: Bohrok Lehvak-Kal
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image33
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text:
+		2 Level 4 "Bohrok" monsters
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 2 materials from this card; destroy as many Spells/Traps your opponent controls as possible, and if you do, attach 1 of  those destroyed cards to this card as material. You can only use this effect of "Bohrok Lehvak-Kal" once per turn.
+	attack: 1900
+	defense: 2400
+	rarity: common
+	gamecode: DRAFT10100336
 version control:
 	type: none
 apprentice code: 
