@@ -1032,6 +1032,22 @@ card:
 	attack: 0
 	link number: 1
 	gamecode: DRAFT10100344
+card:
+	has styling: false
+	notes:
+		Launch the Kal while simultaneously setting up the banished Bahrag situation so they actually have a mission to fulfill
+		=> currently overlaps with south-pointing Krana-Kal, but maybe if those need to do something less verbose anyway, this can fill the gap
+		
+		Not so sure about this name
+	time created: 2023-02-07 09:23:59
+	time modified: 2023-03-06 16:55:18
+	card type: trap card
+	name: Bohrok Kalifornication
+	attribute: trap
+	level: <sym-auto>%</sym-auto>
+	image: 
+	rule text: If only your opponent controls a monster, you can activate this card from your hand by banishing 2 "Bahrag" monsters with different names from your Extra Deck. You can target 1 Level 4 "Bohrok" monster you control; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck using it as material. (This is treated as an Xyz Summon.) You can only use this effect of "Bohrok Kalifornication" once per turn.
+	gamecode: DRAFT10100345
 version control:
 	type: none
 apprentice code: 
