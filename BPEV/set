@@ -162,11 +162,11 @@ card:
 		
 		Regular Ja stopped effects of everything currently visible during the next turn - this one is more targeted (because it "tracks"), but takes effect immediately and can also stop threats that are not currently visible (by "sniffing them out")
 	time created: 2016-02-08 14:41:42
-	time modified: 2022-08-20 17:06:22
+	time modified: 2023-03-06 11:29:56
 	card type: link monster
 	name: Krana Ja-Kal, Tracker
 	attribute: dark
-	level: Spell Card<sym-auto>+</sym-auto>
+	level: 
 	image: image5
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
@@ -818,6 +818,220 @@ card:
 	defense: 2400
 	rarity: common
 	gamecode: DRAFT10100336
+card:
+	has styling: false
+	notes:
+		
+		Oof, long text ...
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 11:30:00
+	card type: link monster
+	name: Krana Xa-Kal, Liberator
+	attribute: dark
+	level: 
+	image: image30
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>If this card inflicts battle damage to your opponent: You can place up to 2 of your banished "Bahrag" Pendulum Monsters with different names in your Pendulum Zones, then, if you placed 2 monsters, you can add 1 "As It Was in the Before-Time" from your Deck to your hand.
+	Link Marker Down: yes
+	Link Marker Left: none
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100337
+card:
+	has styling: false
+	notes:
+		
+		Telepathy + sensing emotions => continuous destruction replacement
+		=> okay it's a little weird but the normal Za does something similar
+		=> could even say it incorporates the emotion-sensing because the Bohrok-Kal senses hostile intent and braces itself in advance to survive the attack
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 11:32:42
+	card type: link monster
+	name: Krana Za-Kal, Overseer
+	attribute: dark
+	level: 
+	image: image34
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. If an opponent's monster this card points to battles a "Bohrok" monster, that opponent's monster's ATK/DEF become 0 during the Damage Step only. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>If this card would be destroyed by battle or card effect, you can detach 1 material from it instead.
+	Link Marker UR: yes
+	Link Marker Down: none
+	Link Marker Left: none
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100338
+card:
+	has styling: false
+	notes:
+		
+		Speed off the field and "transport" a card from the GY back to hand in the process
+		=> one of the few ways you can actually get stuff from under a Bohrok-Kal into the GY if you need to
+		=> add isn't targeted so you can theoretically add a card that was attached to the Bohrok-Kal at activation
+		==> should it maybe be optional?
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 11:41:03
+	card type: link monster
+	name: Krana Vu-Kal, Transporter
+	attribute: dark
+	level: 
+	image: image35
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>(Quick Effect): You can banish this card until the End Phase, and if you do, add 1 "Bohrok" card from your GY to your hand.
+	Link Marker Down: none
+	Link Marker DR: yes
+	Link Marker Left: none
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100339
+card:
+	has styling: false
+	notes:
+		
+		Oof, long text again ...
+		
+		Mental link with the Bahrag represented by essentially copying their activated on-field effects after locating them in the banished pile
+		=> by pure coincidence, Scale - 1 works out to exactly the Level of Bohrok the respective Bahrag would be able to summon
+		=> probably too convoluted and limited in its current incarnation
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 12:04:49
+	card type: link monster
+	name: Krana Ca-Kal, Seeker
+	attribute: dark
+	level: 
+	image: image36
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>Once per turn: You can detach 1 material from this card, then target 1 of your banished "Bahrag" Pendulum Monsters; Special Summon 1 "Bohrok" monster from your GY whose Level is exactly 1 lower than that target's Pendulum Scale, but banish it during the End Phase.
+	Link Marker Down: none
+	Link Marker DL: yes
+	Link Marker DR: none
+	Link Marker Left: none
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100340
+card:
+	has styling: false
+	notes:
+		
+		Plain and simple, just dig through the ground for direct attacks
+		=> not damage-limited like base Yo because that limitation was maybe always too strict
+		=> what about sensing stress points and underground movement?
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 12:04:32
+	card type: link monster
+	name: Krana Yo-Kal, Excavator
+	attribute: dark
+	level: 
+	image: image37
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. If an opponent's monster this card points to battles a "Bohrok" monster, that opponent's monster's ATK/DEF become 0 during the Damage Step only. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>This card can attack directly.
+	Link Marker UL: yes
+	Link Marker UR: none
+	Link Marker Down: none
+	Link Marker Left: none
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100341
+card:
+	has styling: false
+	notes:
+		
+		Even stronger stat boost than base Su + destruction protection (heat/cold resistance)
+		=> the latter unfortunately overalps with Za-Kal
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 12:13:02
+	card type: link monster
+	name: Krana Su-Kal, Demolisher
+	attribute: dark
+	level: 
+	image: image38
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. If an opponent's monster this card points to battles a "Bohrok" monster, that opponent's monster's ATK/DEF become 0 during the Damage Step only. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>This card gains 800 ATK/DEF and cannot be destroyed by card effects.
+	Link Marker Up: yes
+	Link Marker UL: none
+	Link Marker UR: none
+	Link Marker Down: none
+	Link Marker Left: none
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100343
+card:
+	has styling: false
+	notes:
+		{{Special Summon Level 4 "Bohrok" monster from hand or GY}}
+		
+		See in dark + through walls must be something to reveal face-downs or hand/deck
+		=> given that we can't really HOPT this, you can't do much hand fuckery, so is looking at face-downs (for free) really the best we can do?
+
+	time created: 2016-02-08 14:41:42
+	time modified: 2023-03-06 12:22:04
+	card type: link monster
+	name: Krana Bo-Kal, Visionary
+	attribute: dark
+	level: 
+	image: image39
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Bohrok" or "Krana" monster
+		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		<sym-auto>*</sym-auto>Once per turn: You can look at all Set cards your opponent controls.
+	Link Marker Down: none
+	Link Marker Left: none
+	Link Marker Right: yes
+	attack: 0
+	link number: 1
+	gamecode: DRAFT10100344
 version control:
 	type: none
 apprentice code: 
