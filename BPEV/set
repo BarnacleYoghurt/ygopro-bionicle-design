@@ -716,15 +716,23 @@ card:
 	gamecode: 10100333
 card:
 	has styling: false
-	notes: 
+	notes:
+		Extended for more turn 1 utility:
+		"[...] Once per turn, if a "Bohrok" monster(s) is Special Summoned to your field: You can activate 1 of these effects, or, if you control a "Bohrok" Xyz Monster, you can activate both, in sequence;
+		*Target 1 Spell/Trap on the field; destroy it.
+		*Add 1 "Bohrok" Spell/Trap from your Deck to your hand."
+		=> Basically makes all your Bohrok Stratos on SS
+		=> Targeting on only 1 effect should work since you choose at activation
+		=> Checks for control rather thab among the summoned monsters because phrasing the latter is a pain in the ass
+		=> Shame this needs bullet points, but the effect is still relatively short
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-03-06 20:42:14
+	time modified: 2023-03-08 19:15:16
 	card type: spell card
 	name: Bohrok-Kal Strategy
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image25
-	rule text: When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. Once per turn, if you Special Summon a "Bohrok" monster(s): You can target 1 Spell/Trap on the field; destroy it. If you control a "Bohrok" Xyz Monster, your opponent's cards and effects cannot be activated in response to this effects activation. You can only activate 1 "Bohrok-Kal Strategy" per turn.
+	rule text: Once per turn, if you Special Summon a "Bohrok" monster(s): You can target 1 Spell/Trap on the field; destroy it. If you control a "Bohrok" Xyz Monster, your opponent's cards and effects cannot be activated in response to this effects activation. You can only activate 1 "Bohrok-Kal Strategy" per turn.
 	gamecode: 10100347
 card:
 	has styling: false
@@ -853,12 +861,12 @@ card:
 		=> okay it's a little weird but the normal Za does something similar
 		=> could even say it incorporates the emotion-sensing because the Bohrok-Kal senses hostile intent and braces itself in advance to survive the attack
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 20:41:20
+	time modified: 2023-03-11 20:53:14
 	card type: link monster
 	name: Krana Za-Kal, Overseer
 	attribute: dark
 	level: 
-	image: image34
+	image: image41
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -884,12 +892,12 @@ card:
 		=> add isn't targeted so you can theoretically add a card that was attached to the Bohrok-Kal at activation
 		==> should it maybe be optional?
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 20:41:23
+	time modified: 2023-03-11 23:29:59
 	card type: link monster
 	name: Krana Vu-Kal, Transporter
 	attribute: dark
 	level: 
-	image: image35
+	image: image42
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -977,7 +985,7 @@ card:
 		Even stronger stat boost than base Su + destruction protection (heat/cold resistance)
 		=> the latter unfortunately overalps with Za-Kal
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 20:41:35
+	time modified: 2023-03-11 20:07:32
 	card type: link monster
 	name: Krana Su-Kal, Demolisher
 	attribute: dark
@@ -1008,7 +1016,6 @@ card:
 		
 		See in dark + through walls must be something to reveal face-downs or hand/deck
 		=> given that we can't really HOPT this, you can't do much hand fuckery, so is looking at face-downs (for free) really the best we can do?
-
 	time created: 2016-02-08 14:41:42
 	time modified: 2023-03-06 12:22:04
 	card type: link monster
