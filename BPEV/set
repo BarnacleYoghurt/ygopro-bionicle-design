@@ -736,15 +736,19 @@ card:
 	gamecode: 10100347
 card:
 	has styling: false
-	notes: 
+	notes:
+		v4.3.1:
+		=> Only S/T Card or monster effect to match general omninegate counter trap paradigm
+		=> Make condition either all face-down or anything as long as you have a (face-up) Bohrok, so making Krana-Kal won't turn off your negate
+		==> use of "only" ok?
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-03-06 20:42:09
+	time modified: 2023-04-01 23:37:11
 	card type: trap card
 	name: Bohrok Counterattack
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
 	image: image40
-	rule text: When your opponent activates a card or effect while you control a monster, but no face-up non-"Bohrok" monsters: Send 1 "Krana" monster from your Deck or Extra Deck to the GY; negate the activation, and if you do, you can attach that card to 1 "Bohrok" Xyz Monster you control as material.
+	rule text: When your opponent activates a Spell/Trap Card, or monster effect, while you control a "Bohrok" monster or only face-down monsters (min. 1): Send 1 "Krana" monster from your Deck or Extra Deck to the GY; negate the activation, and if you do, you can attach that card to 1 "Bohrok" Xyz Monster you control as material.
 	gamecode: 10100346
 card:
 	has styling: false
