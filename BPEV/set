@@ -886,13 +886,17 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon "Bohrok" Xyz Monster}}
+		{{Banish this card}}
+		{{Add 1 "Bohrok" card to your hand?}}
 		
 		Speed off the field and "transport" a card from the GY back to hand in the process
 		=> one of the few ways you can actually get stuff from under a Bohrok-Kal into the GY if you need to
 		=> add isn't targeted so you can theoretically add a card that was attached to the Bohrok-Kal at activation
 		==> should it maybe be optional?
+		===> yeah, and also once per turn
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-11 23:29:59
+	time modified: 2023-04-01 23:33:52
 	card type: link monster
 	name: Krana Vu-Kal, Transporter
 	attribute: dark
@@ -907,7 +911,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>(Quick Effect): You can banish this card until the End Phase, and if you do, add 1 "Bohrok" card from your GY to your hand.
+		<sym-auto>*</sym-auto>Once per turn (Quick Effect): You can banish this card until the End Phase, and if you do, you can add 1 "Bohrok" card from your GY to your hand.
 	Link Marker Down: none
 	Link Marker DR: yes
 	Link Marker Left: none
