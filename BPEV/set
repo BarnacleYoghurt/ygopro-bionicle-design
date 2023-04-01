@@ -726,13 +726,17 @@ card:
 		=> Checks for control rather thab among the summoned monsters because phrasing the latter is a pain in the ass
 		=> Shame this needs bullet points, but the effect is still relatively short
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-03-08 19:15:16
+	time modified: 2023-04-01 23:44:05
 	card type: spell card
 	name: Bohrok-Kal Strategy
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image25
-	rule text: Once per turn, if you Special Summon a "Bohrok" monster(s): You can target 1 Spell/Trap on the field; destroy it. If you control a "Bohrok" Xyz Monster, your opponent's cards and effects cannot be activated in response to this effects activation. You can only activate 1 "Bohrok-Kal Strategy" per turn.
+	rule text:
+		When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. Once per turn, if a "Bohrok" monster(s) is Special Summoned to your field:  You can activate 1 of these effects, or, if you control a "Bohrok" Xyz Monster, you can activate both, in sequence;
+		<sym-auto>*</sym-auto>Target 1 other Spell/Trap on the field; destroy it.
+		<sym-auto>*</sym-auto>Add 1 "Bohrok" Spell/Trap from your Deck to your hand, except "Bohrok-Kal Strategy".
+		You can only activate 1 "Bohrok-Kal Strategy" per turn.
 	gamecode: 10100347
 card:
 	has styling: false
