@@ -659,6 +659,8 @@ card:
 	has styling: false
 	notes:
 		{{Attach "Krana" monster as material}}
+		{{Reduce ATK}}
+		{{Destroy all monsters your opponent controls with 2100 or less ATK?}}
 		
 		First just disable opponent's monsters (ATK reduction) with a stasis field, then blow up the weaker ones
 		=> affects the whole field as a Raigeki reference
@@ -687,6 +689,7 @@ card:
 	has styling: false
 	notes:
 		{{Attach "Krana" monster as material}}
+		{{Return cards to hand and/or lock zones}}
 		
 		Increase (= flip face-down) or decrease (= return to hand) gravity on opponent's monsters
 		=> Multiple targets at once possible since it isn't that impressive otherwise
@@ -719,6 +722,11 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 "Bohrok" monster from your hand}}
+		{{Destroy Spell/Trap}}
+		{{Add "Bohrok" Spell/Trap to hand}}
+		{{Both}}
+		
 		Extended for more turn 1 utility:
 		"[...] Once per turn, if a "Bohrok" monster(s) is Special Summoned to your field: You can activate 1 of these effects, or, if you control a "Bohrok" Xyz Monster, you can activate both, in sequence;
 		*Target 1 Spell/Trap on the field; destroy it.
@@ -743,6 +751,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Attach as material?}}
+		
 		v4.3.1:
 		=> Only S/T Card or monster effect to match general omninegate counter trap paradigm
 		=> Make condition either all face-down or anything as long as you have a (face-up) Bohrok, so making Krana-Kal won't turn off your negate
