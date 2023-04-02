@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.3.0
+	edition: Version 4.3.1
 	copyright: 
 card:
 	has styling: false
@@ -697,8 +697,9 @@ card:
 		=> float stuff in selected zones back to hand, and also Ground Collapse them into unusability (like base Nuhvok)
 		=> phrasing: should make the zones unusable even if it didn't bounce anything, but only those that actually do end up empty
 		=> unfortunately we don't really have any representation of the scene with Matoro getting supergravity'd this way
+		=> v4.3.1: Upon further inspection, this is kind of better non-targeting removal than Gahlok-Kal, so some downside is warranted - let's see if requiring a detach of 2+ is enough (since that way the Krana-Kal attaching can't keep up)
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-03-06 20:40:55
+	time modified: 2023-04-02 09:23:35
 	card type: xyz monster
 	name: Bohrok Nuhvok-Kal
 	attribute: earth
@@ -710,7 +711,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. You can detach any number of materials from this card, then choose that many Main Monster Zones and/or Spell <sym-auto>&</sym-auto> Trap Zones on the field; return as many cards in those zones to the hand as possible, also those unused zones cannot be used until your next Standby Phase. You can only use this effect of "Bohrok Nuhvok-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. You can detach 2 or more materials from this card, then choose that many Main Monster Zones and/or Spell <sym-auto>&</sym-auto> Trap Zones on the field; return as many cards in those zones to the hand as possible, also those unused zones cannot be used until your next Standby Phase. You can only use this effect of "Bohrok Nuhvok-Kal" once per turn.
 	attack: 2000
 	defense: 2300
 	rarity: common
