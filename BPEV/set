@@ -659,16 +659,18 @@ card:
 	has styling: false
 	notes:
 		{{Attach "Krana" monster as material}}
-		{{Reduce ATK}}
-		{{Destroy all monsters your opponent controls with 2100 or less ATK?}}
+		{{Stun a monster / destroy}}
+		{{Destroy all face-up monsters your opponent controls?}}
 		
 		First just disable opponent's monsters (ATK reduction) with a stasis field, then blow up the weaker ones
 		=> affects the whole field as a Raigeki reference
 		=> quick effect and only face-up as a Tahnok reference
 		=> require second material detach for boardwipe so it's not as easily reusable
 		=> a mere 500 reduction doesn't seem hindering enough to represent a Tahnok-Kal forcefield ...
+		==> v4.3.2: Just lock down the whole monster for the turn, Kohrak-Kal can do something slightly different instead
+		===> it would be nice to have some kind of filter for the destruction like only the monsters weaker than the initial target (or "not stronger", for more range), but that extra clause might add too much length ...
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-03-06 20:40:51
+	time modified: 2023-04-06 00:44:51
 	card type: xyz monster
 	name: Bohrok Tahnok-Kal
 	attribute: fire
@@ -680,7 +682,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 1 material from this card; face-up monsters your opponent controls lose 500 ATK, then you can detach 1 more material from this card, and if you do, destroy all monsters your opponent controls with 2100 or less ATK. You can only use this effect of "Bohrok Tahnok-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 1 material from this card, then target 1 face-up monster your opponent controls; it cannot attack or activate its effects this turn, also you can detach 1 more material from this card, and if you do, destroy all face-up monsters your opponent controls. You can only use this effect of "Bohrok Tahnok-Kal" once per turn.
 	attack: 2100
 	defense: 2200
 	rarity: common
