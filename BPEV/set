@@ -162,11 +162,12 @@ card:
 		{{Declare 1 card name}}
 		
 		Regular Ja stopped effects of everything currently visible during the next turn - this one is more targeted (because it "tracks"), but takes effect immediately and can also stop threats that are not currently visible (by "sniffing them out")
+		=> v4.3.2: Detaching for bonus effect cost is kinda confusing and annoying, so to fix that and bring this more in line with base Ja it's now been nerfed to protection rather than a lingering floodgate - more healthy anyway
 		
 		v4.3.2: Also allow SS face-down, so you can e.g. get a Strategy search and still try to turn on the flip engine
 		=> what's the ruling for leave-field redirects on face-downs?
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-06 00:55:41
+	time modified: 2023-04-06 01:07:20
 	card type: link monster
 	name: Krana Ja-Kal, Tracker
 	attribute: dark
@@ -181,7 +182,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn: You can detach 1 material from this card, then declare 1 card name; your opponent cannot activate cards, or the effects of cards, with that original name, until the end of their turn.
+		<sym-auto>*</sym-auto>Once per turn: You can declare 1 card name; until the end of your opponent's turn, "Bohrok" cards and Set cards you control are unaffected by the effects of cards with that original name.
 	Link Marker Down: none
 	Link Marker Left: yes
 	attack: 0
