@@ -804,7 +804,7 @@ card:
 		=> should this maybe affect your field as well (since that is a canon downside of Kohrak-Kal's powers)?
 		==> why yes it should
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-03-06 00:20:06
+	time modified: 2023-04-06 00:54:34
 	card type: xyz monster
 	name: Bohrok Kohrak-Kal
 	attribute: water
@@ -816,7 +816,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (<sym-auto>!</sym-auto>Quick Effect): You can detach 2 materials from this card; all other monsters currently face-up on the field cannot attack or activate their effects, until the end of this turn. You can only use this effect of "Bohrok Kohrak-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (Quick Effect): You can detach 2 materials from this card; change all other monsters on the field to Defense Position, also negate their effects until the end of this turn. You can only use this effect of "Bohrok Kohrak-Kal" once per turn.
 	attack: 2300
 	defense: 2000
 	rarity: common
