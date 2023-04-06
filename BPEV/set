@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.3.1
+	edition: Version 4.3.2
 	copyright: 
 card:
 	has styling: false
@@ -166,6 +166,7 @@ card:
 		
 		v4.3.2: Also allow SS face-down, so you can e.g. get a Strategy search and still try to turn on the flip engine
 		=> what's the ruling for leave-field redirects on face-downs?
+		==> Galaxy Mirror Sage offers precedent, but has no explicit ruling - guess we just follow that script and assume whatever RESETS_REDIRECT does is right
 	time created: 2016-02-08 14:41:42
 	time modified: 2023-04-06 01:07:20
 	card type: link monster
@@ -673,8 +674,10 @@ card:
 		=> a mere 500 reduction doesn't seem hindering enough to represent a Tahnok-Kal forcefield ...
 		==> v4.3.2: Just lock down the whole monster for the turn, Kohrak-Kal can do something slightly different instead
 		===> it would be nice to have some kind of filter for the destruction like only the monsters weaker than the initial target (or "not stronger", for more range), but that extra clause might add too much length ...
+		===> Quick Raigeki still feels kinda busted compared to what's available IRL, so maybe we should hard limit it to 2000 ATK (i.e. the sub-Toa range)
+		===> having an attack lock also feels a bit redundant with Gahlok, but the overall effects are different enough, so let's keep it for now
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-04-06 00:44:51
+	time modified: 2023-04-06 20:05:48
 	card type: xyz monster
 	name: Bohrok Tahnok-Kal
 	attribute: fire
@@ -686,7 +689,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 1 material from this card, then target 1 face-up monster your opponent controls; it cannot attack or activate its effects this turn, also you can detach 1 more material from this card, and if you do, destroy all face-up monsters your opponent controls. You can only use this effect of "Bohrok Tahnok-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 1 material from this card, then target 1 face-up monster your opponent controls; it cannot attack or activate its effects this turn, also you can detach 1 more material from this card, and if you do, destroy all face-up monsters your opponent controls with less than 2000 ATK. You can only use this effect of "Bohrok Tahnok-Kal" once per turn.
 	attack: 2100
 	defense: 2200
 	rarity: common
