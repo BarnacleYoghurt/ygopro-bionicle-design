@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.3.2
+	edition: Version 4.3.3
 	copyright: 
 card:
 	has styling: false
@@ -889,8 +889,16 @@ card:
 		Telepathy + sensing emotions => continuous destruction replacement
 		=> okay it's a little weird but the normal Za does something similar
 		=> could even say it incorporates the emotion-sensing because the Bohrok-Kal senses hostile intent and braces itself in advance to survive the attack
+		
+		Doesn't feel quite good enough, especially with Su-Kal being a thing ...
+		=> maybe focus more on the emotion-sensing and give it something like a Stardust Dragon negate for effects that would destroy a Bohrok?
+		==> protects others as well because they're telepathically linked
+		==> this kind of effect limited to an archetype is actually without precedent for some reason, but we do have it for individual card types and the target groups for destruction are always set nicely, so should be fine
+		=> Or break from the Za destruction protection and instead negate effects activated in response to Bohrok?
+		==> kinda sucks because all the other Krana-Kal that resemble their original incarnations so far have managed to keep clearly related effects
+		=> Could also add the draw from base Za in there somewhere, but it's questionable because detaching isn't a minus that needs to be balanced like shuffling back a monster was
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-11 20:53:14
+	time modified: 2023-04-10 09:03:37
 	card type: link monster
 	name: Krana Za-Kal, Overseer
 	attribute: dark
@@ -905,7 +913,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. If an opponent's monster this card points to battles a "Bohrok" monster, that opponent's monster's ATK/DEF become 0 during the Damage Step only. A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>If this card would be destroyed by battle or card effect, you can detach 1 material from it instead.
+		<sym-auto>*</sym-auto>Once per turn, when a card or effect is activated that would destroy a "Bohrok" card(s) you control (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, destroy that card.
 	Link Marker UR: yes
 	Link Marker Down: none
 	Link Marker Left: none
