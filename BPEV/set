@@ -734,6 +734,7 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Activate 1 of these effects}}
 		{{Special Summon 1 "Bohrok" monster from your hand?}}
 		{{Destroy Spell/Trap}}
 		{{Add "Bohrok" Spell/Trap to hand}}
