@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.3.3
+	edition: Version 4.4.0
 	copyright: 
 card:
 	has styling: false
@@ -517,7 +517,7 @@ card:
 		
 		Defensive effect enhanced to also include effect targeting protection and allow a complete lock with multiple copies, but also adding the offensive effect would probably take up too much space ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-01 16:16:29
+	time modified: 2023-07-01 08:28:08
 	card type: fusion monster
 	name: Toa Nuva Kopaka
 	attribute: water
@@ -533,30 +533,30 @@ card:
 	attack: 2400
 	defense: 2900
 	rarity: common
-	gamecode: DRAFT10100310
+	gamecode: 10100310
 card:
 	has styling: false
 	notes:
 		{{Place "Nuva" Continuous Spell from Deck}}
-		{{Make all monsters you control gain 500 ATK}}
 		
 		This one is really tricky because a) it already had two effects originally and b) how do you AoE a hand reveal???
-		=> perhaps by making it a lingering reveal as long as anyone is there to see, 
+		=> perhaps by making it a lingering reveal as long as anyone is there to see
+		=> could also disregard the AoE theming a bit and instead put the banish from base Akaku here (presumably for a random card, but still only until end of turn)
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-04 18:26:59
+	time modified: 2023-07-01 08:38:59
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image24
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent must keep their hand revealed this turn while you control a monster. You can only use this effect of "Great Kanohi Akaku Nuva" once per turn.
-	gamecode: DRAFT10100316
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent must keep their hand revealed this turn while you control a monster.
+	gamecode: 10100316
 card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Special Summon and add to hand}}
-		{{Negate a "Nuva" Fusion Monster and lock yourself}}
+		{{Banish 1 card your opponent controls}}
+		{{Negate a "Nuva" Fusion Monster and let opponent add banished card}}
 		{{Reveal "Toa Mata Kopaka"?}}
 		
 		Variant A:
@@ -569,19 +569,21 @@ card:
 		"If a "Nuva" Fusion Monster you control leaves the field because of your opponent's card: You can banish 1 card your opponent controls."
 		=> also a floating effect, but this one reimplements Kopaka Mata's banish, for the case where Kopaka Nuva gets removed to get rid of his massive protection
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-12 21:24:10
+	time modified: 2023-07-01 08:46:44
 	card type: spell card
 	name: Nuva Symbol of Frigid Serenity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image14
 	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Nuva" Fusion Monster you control leaves the field because of an opponent's card: You can banish 1 card your opponent controls. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, and if you do, your opponent can add 1 of their banished cards to their hand.
-	gamecode: DRAFT10100322
+	gamecode: 10100322
 card:
 	has styling: false
-	notes: {{Add "Nuva" Spell/Trap to hand}}
+	notes:
+		{{Add "Nuva" Spell/Trap to hand}}
+		{{Destroy Spells/Traps}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-04 19:47:35
+	time modified: 2023-07-01 08:26:16
 	card type: fusion monster
 	name: Toa Nuva Pohatu
 	attribute: earth
@@ -597,37 +599,38 @@ card:
 	attack: 2800
 	defense: 2100
 	rarity: common
-	gamecode: DRAFT10100309
+	gamecode: 10100309
 card:
 	has styling: false
-	notes:
-		{{Place "Nuva" Continuous Spell from Deck}}
-		{{Make all monsters you control gain 500 ATK}}
+	notes: {{Place "Nuva" Continuous Spell from Deck}}
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-04 17:36:20
+	time modified: 2023-07-01 08:34:31
 	card type: spell card
 	name: Great Kanohi Kakama Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image15
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. If this card is sent to the GY: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn. You can only use this effect of "Great Kanohi Kakama Nuva" once per turn.
-	gamecode: DRAFT10100315
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn.
+	gamecode: 10100315
 card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Special Summon and add to hand}}
-		{{Negate a "Nuva" Fusion Monster and lock yourself}}
-		{{Reveal "Toa Mata Kopaka"?}}
+		{{Special Summon}}
+		{{Negate a "Nuva" Fusion Monster and Tribute}}
+		{{Reveal "Toa Mata Pohatu"?}}
+		
+		Instead of SP, could also be triggered e.g. by a Summon happening
+		=> worked well enough for Tearlaments Scream
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-04 15:14:50
+	time modified: 2023-07-01 08:44:33
 	card type: spell card
 	name: Nuva Symbol of Granite Tenacity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image12
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. During the Standby Phase, if you control a "Nuva" Fusion Monster: You can Special Summon 1 Level 4 or lower monster from your hand or GY. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
-	gamecode: DRAFT10100321
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Granite Tenacity" once per turn. Once per turn, during the Standby Phase, if you control a "Nuva" Fusion Monster: You can Special Summon 1 Level 4 or lower monster from your hand or GY. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
+	gamecode: 10100321
 card:
 	has styling: false
 	notes:
@@ -651,18 +654,20 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add "Nuva" Spell/Trap to hand}}
+		
 		Probably need something like this for recursion now that Elf got banned ...
 		
 		Might actually want to shuffle from hand instead of field, so Nuva Symbols searching Toa Mata can still set up the second Fusion Summon easily
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-02-07 09:28:03
+	time modified: 2023-07-01 16:55:15
 	card type: trap card
 	name: Nuva Emergence
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
-	image: 
-	rule text: During your opponent's turn: Fusion Summon 1 "Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your cards on the field, in your GY, and/or your face-up banished cards. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
-	gamecode: DRAFT10100330
+	image: image34
+	rule text: During your opponent's turn: Fusion Summon 1 "Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your hand, GY and/or face-up banished cards. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
+	gamecode: 10100330
 card:
 	has styling: false
 	notes:
@@ -1128,6 +1133,36 @@ card:
 	image: 
 	rule text: You can activate this card from your hand by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material. You can only use this effect of "Bohrok Kalifornication" once per turn.
 	gamecode: DRAFT10100345
+card:
+	has styling: false
+	notes:
+		Usage A (Lore): Make the Bohrok-Kal impervious to outside harm in "the final moments" before their triumph
+		=> implied condition #1: Must be in the said final moments
+		==> Timing at start of BP, since Xa-Kal also triggers in battle?
+		===> Could also be in your SP if you control a monster that qualifies, since that still means you're about to make your move 
+		==> Require banished Bahrag, to have the scene set properly?
+		=> implied condition #2: Bohrok-Kal with Krana-Kal, as the Krana-Kal is what turns silver
+		=> How far should the protection go? Just effects or also tributing, fusing, etc?
+		==> Should Silver Shield itself be SS4?
+		=> If Silver Krana-Kal ends up being a monster of its own, that would also need to be involved in this effect somehow
+		
+		Usage B (Utility): Additional way to attach Krana, in case the OPT on each Bohrok-Kal isn't enough
+		=> Also lets you do it without running into monster negates
+		
+		Which one of these should be the main and which one the GY effect?
+		=> Advantage of Lore as GY effect: Not reliant on having the card Set at just the moment when it can actually be used
+		==> Since that effect is most likely a trigger effect, this version could also realistically be done as a Spell (Quick-Play or Normal), allowing more immediate access to the utility part
+		=> Advantage of Utiltiy as GY effect: Can do it without a turn of setup, which is useful w.r. to the aforementioned avoiding of monster negates
+		==> Also would be the proper priority considering the protections from Silver is what the card is about
+	time created: 2017-02-24 18:20:02
+	time modified: 2023-04-27 23:54:57
+	card type: trap card
+	name: Bohrok Silver Shield
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: 
+	rule text: Target 1 "Bohrok" Xyz Monster you control; attach 1 "Krana" monster from your hand, field, or GY to it as material. At the start of the Battle Phase, if you control a "Bohrok" Xyz Monster(s) that has a "Krana" Link Monster as material: You can banish this card from your GY; until the end of this turn, that monster(s) you control is unaffected by card effects, except its own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
+	gamecode: DRAFT10100355
 version control:
 	type: none
 apprentice code: 
