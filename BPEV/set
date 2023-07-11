@@ -543,7 +543,7 @@ card:
 		=> perhaps by making it a lingering reveal as long as anyone is there to see
 		=> could also disregard the AoE theming a bit and instead put the banish from base Akaku here (presumably for a random card, but still only until end of turn)
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-07-01 08:38:59
+	time modified: 2023-07-09 23:30:05
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
@@ -622,8 +622,10 @@ card:
 		
 		Instead of SP, could also be triggered e.g. by a Summon happening
 		=> worked well enough for Tearlaments Scream
+		=> would have to be HOPT though, so again, more words ...
+		=> notably, this would also let you make a second Toa Nuva immediately on summon of the first if the right material is in hand, which actually is kind of a waste with the shared HOPT on the Kanohi Nuva
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-07-01 08:44:33
+	time modified: 2023-07-11 23:21:03
 	card type: spell card
 	name: Nuva Symbol of Granite Tenacity
 	attribute: spell
@@ -659,14 +661,21 @@ card:
 		Probably need something like this for recursion now that Elf got banned ...
 		
 		Might actually want to shuffle from hand instead of field, so Nuva Symbols searching Toa Mata can still set up the second Fusion Summon easily
+		=> the math on that doesn't quite work, because we have to spend a search that would have been used for a Nuva Symbol on this already ...
+		=> maybe conditionally using 1 material from deck would be a fine solution, that way you can in fact use the Energized Protodermis S E N D if you already have the Toa Mata you need
+		
+		Maybe beef up the GY effect a bit, since it's so delayed
+		=> e.g. add or send rather than add and discard, so it can actually help you on an empty hand without using up your Kanohi Nuva activation
+		=> Downside 1: Can't logically add from GY with this approach
+		=> Downside 2: Actually takes more words in PSCT ...
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-07-01 16:55:15
+	time modified: 2023-07-11 23:19:32
 	card type: trap card
 	name: Nuva Emergence
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image34
-	rule text: During your opponent's turn: Fusion Summon 1 "Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your hand, GY and/or face-up banished cards. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
+	rule text: Fusion Summon 1 "Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your hand, GY and/or face-up banished cards. If your opponent controls a monster, you can also banish 1 monster from your Deck as Fusion Material. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
 	gamecode: 10100330
 card:
 	has styling: false
