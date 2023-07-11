@@ -625,13 +625,13 @@ card:
 		=> would have to be HOPT though, so again, more words ...
 		=> notably, this would also let you make a second Toa Nuva immediately on summon of the first if the right material is in hand, which actually is kind of a waste with the shared HOPT on the Kanohi Nuva
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-07-11 23:21:03
+	time modified: 2023-07-09 23:27:24
 	card type: spell card
 	name: Nuva Symbol of Granite Tenacity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image12
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Granite Tenacity" once per turn. Once per turn, during the Standby Phase, if you control a "Nuva" Fusion Monster: You can Special Summon 1 Level 4 or lower monster from your hand or GY. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a monster(s) is Normal or Special Summoned, and you control a "Nuva" Fusion Monster (except during the Damage Step): You can Special Summon 1 Level 4 or lower monster from your hand or GY. You can only use each of the preceding effects of "Nuva Symbol of Granite Tenacity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
 	gamecode: 10100321
 card:
 	has styling: false
