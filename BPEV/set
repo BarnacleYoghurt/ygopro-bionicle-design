@@ -429,19 +429,19 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Place "Nuva" Continuous Spell from Deck}}
+		{{Set "Nuva" Trap from Deck}}
 		
 		More streamlined Kanohi Nuva concept:
 		=> Grant standard Kanohi effect (maybe with some extra benefits?), but only to the Nuva
 		=> Merge AoE with floating effect, as a bonus you get while you have a Toa Nuva
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-12 06:57:04
+	time modified: 2023-07-16 23:37:26
 	card type: spell card
 	name: Great Kanohi Miru Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image17
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Nuva" Fusion Monster, your opponent cannot target the monsters you currently control with card effects this turn.
 	gamecode: 10100317
 card:
 	has styling: false
@@ -537,20 +537,20 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Place "Nuva" Continuous Spell from Deck}}
+		{{Set "Nuva" Trap from Deck}}
 		
 		This one is really tricky because a) it already had two effects originally and b) how do you AoE a hand reveal???
 		=> perhaps by making it a lingering reveal as long as anyone is there to see
 		==> or just look once, effectively the same and much easier to understad
 		=> could also disregard the AoE theming a bit and instead put the banish from base Akaku here (presumably for a random card, but still only until end of turn)
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-07-16 23:24:09
+	time modified: 2023-07-16 23:37:18
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image24
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, look at your opponent's hand.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Nuva" Fusion Monster, look at your opponent's hand.
 	gamecode: 10100316
 card:
 	has styling: false
@@ -603,15 +603,22 @@ card:
 	gamecode: 10100309
 card:
 	has styling: false
-	notes: {{Place "Nuva" Continuous Spell from Deck}}
+	notes:
+		{{Set "Nuva" Trap from Deck}}
+		
+		Letting everything attack directly feels way too busted ...
+		=> but also something like a half-damage clause takes up too much space
+		=> maybe "the monster(s) you currently control with the lowest ATK"?
+		==> bit arbitrary though
+		=> some fixed burn per monster could be representative, but feels a bit FTK-ish
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-07-01 08:34:31
+	time modified: 2023-07-16 23:33:32
 	card type: spell card
 	name: Great Kanohi Kakama Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image15
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn.
 	gamecode: 10100315
 card:
 	has styling: false
