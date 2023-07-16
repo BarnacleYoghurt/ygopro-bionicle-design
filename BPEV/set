@@ -541,15 +541,16 @@ card:
 		
 		This one is really tricky because a) it already had two effects originally and b) how do you AoE a hand reveal???
 		=> perhaps by making it a lingering reveal as long as anyone is there to see
+		==> or just look once, effectively the same and much easier to understad
 		=> could also disregard the AoE theming a bit and instead put the banish from base Akaku here (presumably for a random card, but still only until end of turn)
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-07-09 23:30:05
+	time modified: 2023-07-16 23:24:09
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image24
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, your opponent must keep their hand revealed this turn while you control a monster.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Nuva" Fusion Monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, look at your opponent's hand.
 	gamecode: 10100316
 card:
 	has styling: false
