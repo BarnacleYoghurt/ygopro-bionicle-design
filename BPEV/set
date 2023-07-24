@@ -588,7 +588,7 @@ card:
 		=> "if your opponent controls more monsters than you do" - simple, limits it to a catchup mechanic in terms of monster count, but somewhat infringes on Matau's copyright
 		=> "if you destroyed a face-up card(s)" - makes some sense with how the continuous ones would be the ones to leave fragments, rewards popping cards that were already chained in response, but it's a bit weird how you also get the bonus for randomly popping Normal S/T while they resolve
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-07-01 08:26:16
+	time modified: 2023-07-24 19:12:25
 	card type: fusion monster
 	name: Toa Nuva Pohatu
 	attribute: earth
@@ -640,13 +640,13 @@ card:
 		=> feels like only Special Summon is enough, especially if Pohatu gains native token-making
 		==> in exchange for that nerf we could also downgrade the punish a bit and make it "Tribute 1 other monster" or "1 non-Fusion monster", since lorewise the negated Toa Nuva kind of has to stay around
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-07-09 23:27:24
+	time modified: 2023-07-24 19:14:09
 	card type: spell card
 	name: Nuva Symbol of Granite Tenacity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image12
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a monster(s) is Normal or Special Summoned, and you control a "Nuva" Fusion Monster (except during the Damage Step): You can Special Summon 1 Level 4 or lower monster from your hand or GY. You can only use each of the preceding effects of "Nuva Symbol of Granite Tenacity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 monster.
+	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a monster(s) is Special Summoned, and you control a "Nuva" Fusion Monster (except during the Damage Step): You can Special Summon 1 Level 4 or lower monster from your hand or GY. You can only use each of the preceding effects of "Nuva Symbol of Granite Tenacity" once per turn. If this card leaves the field: Target 1 "Nuva" Fusion Monster you control; negate its effects, then Tribute 1 non-Fusion Monster.
 	gamecode: 10100321
 card:
 	has styling: false
