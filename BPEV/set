@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.4.1
+	edition: Version 4.4.2
 	copyright: 
 card:
 	has styling: false
@@ -616,14 +616,17 @@ card:
 		==> bit arbitrary though
 		=> some fixed burn per monster could be representative, but feels a bit FTK-ish
 		=> could do an actual ATK reduction (optional!), that's shorter and also does the trick
+		==> if the ATK reduction is during damage calculation when attacking directly, it's still shorter and still optional without additional hoops to jump through
+		==> even has precedent in the form of Cyberdark Edge (and Dark Artist lmao)
+		==> probably the most fitting way to have the monsters "phase" through and hit while not entirely solid
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-07-16 23:33:32
+	time modified: 2023-07-24 23:37:53
 	card type: spell card
 	name: Great Kanohi Kakama Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image15
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn, but if they do so using this effect, their ATK is halved during damage calculation only.
 	gamecode: 10100315
 card:
 	has styling: false
