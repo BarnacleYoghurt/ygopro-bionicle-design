@@ -556,9 +556,12 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Banish 1 card your opponent controls}}
+		{{Banish 1 card}}
 		{{Negate a "Nuva" Fusion Monster and let opponent add banished card}}
 		{{Reveal "Toa Mata Kopaka"?}}
+		{{Banish 1 card your opponent controls}}
+		{{Banish 1 random card from your opponent's hand}}
+		{{Add 1 of your banished cards to your hand?}}
 		
 		Variant A:
 		"If a "Nuva" Fusion Monster you control leaves the field: You can target 2 of your monsters that are banished or in the GY (1 "Toa Mata" monster and 1 "Energized Protodermis" monster); Special Summon 1 and add the other to your hand."
