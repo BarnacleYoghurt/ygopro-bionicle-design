@@ -514,10 +514,20 @@ card:
 	has styling: false
 	notes:
 		{{Add "Nuva" Spell/Trap to hand}}
+		{{Banish 1 monster}}
 		
 		Defensive effect enhanced to also include effect targeting protection and allow a complete lock with multiple copies, but also adding the offensive effect would probably take up too much space ...
+		=> couple issues with this design: only having protection in defense makes it feel annoyingly risky to switch to attack on your turn, and the lack of a repeatable activated effect limits synergy with Nuva Symbols like Harmony and Wisdom
+		==> arguably the former is fair considering how broad the protection is, and the latter is just a tradeoff for having the Nuva Symbols themselves protected
+		==> maybe having effect protection in attack pos and attack protection in defense pos would help? But then you'd have unprotected Nuva Symbols during your opponent's MP1 usually ... (also we don't want to make this any more wordy)
+		==> different idea: generic protection in defense, and offensive (banishing) quick effect regardless of position while you control no other monsters
+		===> lets Kopaka do something while working alone as he prefers
+		===> proactive retrain of Kopaka Mata's banishing (freezing) effect fits Nuva design pattern
+		===> "no other monsters" restriction means you still have some tradeoff of Nuva Symbol synergy vs protection
+		===> not too long assuming we sacrifice the battle position change, which you probably don't need when you can summon in defense anyway
+		====> now if we also tossed the HOPT on the search effect, we could even cut that entire clause here as well by just making the banish soft once per turn/once while face-up ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-07-01 08:28:08
+	time modified: 2023-08-02 19:32:56
 	card type: fusion monster
 	name: Toa Nuva Kopaka
 	attribute: water
@@ -529,7 +539,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Kopaka" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. You can only use this effect of "Toa Nuva Kopaka" once per turn. If this card attacks, it is changed to Defense Position at the end of the Battle Phase. While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters for attacks, also your opponent cannot target other cards you control with card effects.
+		While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters for attacks, also your opponent cannot target other cards you control with card effects. You can only use each of the following effects of "Toa Nuva Kopaka" once per turn. If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. If you control no other monsters (Quick Effect): You can target 1 monster your opponent controls; banish it.
 	attack: 2400
 	defense: 2900
 	rarity: common
