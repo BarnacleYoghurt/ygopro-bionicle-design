@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.4.2
+	edition: Version 4.4.3
 	copyright: 
 card:
 	has styling: false
@@ -147,13 +147,13 @@ card:
 		==> if we just demand "Nuva" monsters in general, it would also work with Takanuva, so that's wrong (also "Nuva" Fusion Monsters might be a problem in its own right regarding Takutanuva)
 		=> perhaps the only future-proof solution is making "Toa Nuva" a separate archetype after all, and then just never make support for "Nuva" monsters to keep things simple
 	time created: 2017-03-24 11:14:28
-	time modified: 2022-12-21 19:59:08
+	time modified: 2023-08-05 09:29:32
 	card type: spell card
 	name: Great Kanohi Pakari Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image1
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY: place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, all monsters you currently control gain 600 ATK, until the end of this turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, all monsters you currently control gain 600 ATK until the end of your opponent's turn.
 	gamecode: 10100314
 card:
 	has styling: false
