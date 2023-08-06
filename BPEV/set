@@ -14,7 +14,7 @@ card:
 		{{Top of Deck}}
 		{{Bottom of Deck}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-08-14 18:55:15
+	time modified: 2023-08-06 21:56:25
 	card type: fusion monster
 	name: Toa Nuva Onua
 	attribute: earth
@@ -26,7 +26,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Onua" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card.  During the Main Phase (Quick Effect): You can target 1 card in either GY; place it on the top or bottom of the Deck, then gain 1000 LP. You can only use each effect of "Toa Nuva Onua" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card.  During the Main Phase (Quick Effect): You can target 1 card in either GY; place it on the top or bottom of the Deck, then gain 1000 LP. You can only use this effect of "Toa Nuva Onua" once per turn.
 	attack: 2500
 	defense: 2500
 	rarity: common
@@ -278,7 +278,7 @@ card:
 		=> for offensive purposes, main phase lock ensures you can't drain ATK from your other monster after it has attacked, which is good
 		==> but on the other hand, being able to do that sounds kinda neat ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-13 19:18:18
+	time modified: 2023-08-06 21:56:12
 	card type: fusion monster
 	name: Toa Nuva Tahu
 	attribute: fire
@@ -290,7 +290,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Tahu" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use each effect of "Toa Nuva Tahu" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use this effect of "Toa Nuva Tahu" once per turn.
 	attack: 2900
 	defense: 1900
 	rarity: common
@@ -354,7 +354,7 @@ card:
 		{{Add "Nuva" Spell/Trap to hand}}
 		{{Negate effects of face-up monster}}
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-07 09:15:31
+	time modified: 2023-08-06 21:56:18
 	card type: fusion monster
 	name: Toa Nuva Gali
 	attribute: water
@@ -366,7 +366,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Gali" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up monster on the field; negate its effects until the end of this turn. You can only use each effect of "Toa Nuva Gali" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up monster on the field; negate its effects until the end of this turn. You can only use this effect of "Toa Nuva Gali" once per turn.
 	attack: 2700
 	defense: 2200
 	rarity: common
@@ -409,7 +409,7 @@ card:
 		=> or should it be only non-targeting? Also depends on what the Nuva Symbol does
 		=> Actually let's keep the Mata setup, that shit was rad
 	time created: 2015-02-09 20:57:11
-	time modified: 2022-12-07 20:55:51
+	time modified: 2023-08-06 21:56:52
 	card type: fusion monster
 	name: Toa Nuva Lewa
 	attribute: wind
@@ -421,7 +421,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Lewa" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand. You can only use each effect of "Toa Nuva Lewa" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand. You can only use this effect of "Toa Nuva Lewa" once per turn.
 	attack: 2600
 	defense: 2300
 	rarity: common
@@ -527,7 +527,7 @@ card:
 		===> not too long assuming we sacrifice the battle position change, which you probably don't need when you can summon in defense anyway
 		====> now if we also tossed the HOPT on the search effect, we could even cut that entire clause here as well by just making the banish soft once per turn/once while face-up ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-08-02 19:32:56
+	time modified: 2023-08-06 21:58:51
 	card type: fusion monster
 	name: Toa Nuva Kopaka
 	attribute: water
@@ -539,7 +539,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Kopaka" + 1 "Energized Protodermis" monster
-		While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters for attacks, also your opponent cannot target other cards you control with card effects. You can only use each of the following effects of "Toa Nuva Kopaka" once per turn. If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. If you control no other monsters (Quick Effect): You can target 1 monster your opponent controls; banish it.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. Once per turn, if you control no other monsters (Quick Effect): You can target 1 monster your opponent controls; banish it. While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters for attacks, also your opponent cannot target other cards you control with card effects.
 	attack: 2400
 	defense: 2900
 	rarity: common
@@ -601,7 +601,7 @@ card:
 		=> "if your opponent controls more monsters than you do" - simple, limits it to a catchup mechanic in terms of monster count, but somewhat infringes on Matau's copyright
 		=> "if you destroyed a face-up card(s)" - makes some sense with how the continuous ones would be the ones to leave fragments, rewards popping cards that were already chained in response, but it's a bit weird how you also get the bonus for randomly popping Normal S/T while they resolve
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-07-24 19:12:25
+	time modified: 2023-08-06 21:56:40
 	card type: fusion monster
 	name: Toa Nuva Pohatu
 	attribute: earth
@@ -613,7 +613,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Pohatu" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can destroy Spells/Traps your opponent controls, up to the number of Rock monsters you control +1. You can only use each effect of "Toa Nuva Pohatu" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can destroy Spells/Traps your opponent controls, up to the number of Rock monsters you control +1. You can only use this effect of "Toa Nuva Pohatu" once per turn.
 	attack: 2800
 	defense: 2100
 	rarity: common
