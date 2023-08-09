@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.4.3
+	edition: Version 4.4.4
 	copyright: 
 card:
 	has styling: false
@@ -278,7 +278,7 @@ card:
 		=> for offensive purposes, main phase lock ensures you can't drain ATK from your other monster after it has attacked, which is good
 		==> but on the other hand, being able to do that sounds kinda neat ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-08-06 21:56:12
+	time modified: 2023-08-10 00:07:10
 	card type: fusion monster
 	name: Toa Nuva Tahu
 	attribute: fire
@@ -290,7 +290,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Tahu" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use this effect of "Toa Nuva Tahu" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. If your opponent controls a monster (Quick Effect): You can target 1 other face-up Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use this effect of "Toa Nuva Tahu" once per turn.
 	attack: 2900
 	defense: 1900
 	rarity: common
