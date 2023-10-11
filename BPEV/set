@@ -147,13 +147,13 @@ card:
 		==> if we just demand "Nuva" monsters in general, it would also work with Takanuva, so that's wrong (also "Nuva" Fusion Monsters might be a problem in its own right regarding Takutanuva)
 		=> perhaps the only future-proof solution is making "Toa Nuva" a separate archetype after all, and then just never make support for "Nuva" monsters to keep things simple
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-08-05 09:29:32
+	time modified: 2023-08-31 18:00:08
 	card type: spell card
 	name: Great Kanohi Pakari Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image1
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, all monsters you currently control gain 600 ATK until the end of your opponent's turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Nuva" Fusion Monster, all monsters you currently control gain 600 ATK until the end of your opponent's turn.
 	gamecode: 10100314
 card:
 	has styling: false
@@ -633,12 +633,12 @@ card:
 		==> even has precedent in the form of Cyberdark Edge (and Dark Artist lmao)
 		==> probably the most fitting way to have the monsters "phase" through and hit while not entirely solid
 	time created: 2017-03-24 11:14:28
-	time modified: 2023-07-24 23:37:53
+	time modified: 2023-08-19 08:11:43
 	card type: spell card
 	name: Great Kanohi Kakama Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image15
+	image: image35
 	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Nuva" Fusion Monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Nuva" Fusion Monster, the monsters you currently control can attack directly this turn, but if they do so using this effect, their ATK is halved during damage calculation only.
 	gamecode: 10100315
 card:
