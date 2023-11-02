@@ -834,7 +834,7 @@ card:
 		=> does this even need a HOPT?
 		=> honestly banishing face-down doesn't sound totally unreasonable either
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-03-05 21:20:04
+	time modified: 2023-11-02 23:00:38
 	card type: xyz monster
 	name: Bohrok Pahrak-Kal
 	attribute: earth
@@ -920,10 +920,10 @@ card:
 card:
 	has styling: false
 	notes:
-		
 		Oof, long text ...
+		=> Oh well, LORE
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-03-06 11:30:00
+	time modified: 2023-11-02 23:21:59
 	card type: link monster
 	name: Krana Xa-Kal, Liberator
 	attribute: dark
@@ -938,7 +938,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>If this card inflicts battle damage to your opponent: You can place up to 2 of your banished "Bahrag" Pendulum Monsters with different names in your Pendulum Zones, then, if you placed 2 monsters, you can add 1 "As It Was in the Before-Time" from your Deck to your hand.
+		<sym-auto>*</sym-auto>If this card inflicts battle damage to your opponent: You can place up to 2 of your banished "Bahrag" Pendulum Monsters in your Pendulum Zone(s), then you can add 1 "As It Was in the Before-Time" from your Deck or GY to your hand.
 	Link Marker Down: yes
 	Link Marker Left: none
 	attack: 0
@@ -1031,10 +1031,15 @@ card:
 		
 		Alternative approach: Instead of copying effects, have some very simple benefits enabled by contact with Bahrag
 		=> Battle protection based on original Ca-Kal
+		==> fieldwide because that was what made that card s ogood
 		=> Extra draw per turn as ultimate payoff of having both queens
 		==> Problem: Soft OPT means it's stackable, might get out of hand
+		===> Prolly fine if it's not a quickie
+		
+		Yet another option: Literally "seek out" the Bahrag by providing another way to banish them from ED or GY as setup for Xa-Kal
+		=> it's just that the lore implications don't line up when the banishing is supposed to be their defeat
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-20 20:24:25
+	time modified: 2023-11-02 23:50:21
 	card type: link monster
 	name: Krana Ca-Kal, Seeker
 	attribute: dark
@@ -1048,8 +1053,8 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains these effects depending on the number of your "Bahrag" monsters with different names that are banished or on the field.
-		<sym-auto>*</sym-auto>1+; Cannot be destroyed by batte. <sym-auto>*</sym-auto>2+: Once per turn (Quick Effect): You can draw 1 card.
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains these effects depending on the number of your "Bahrag" Monster Cards with different names that are banished or on the field.
+		<sym-auto>*</sym-auto>1+: "Bohrok" monsters you control cannot be destroyed by battle. <sym-auto>*</sym-auto>2+: Once per turn: You can draw 1 card.
 	Link Marker Down: none
 	Link Marker DL: yes
 	Link Marker DR: none
@@ -1128,8 +1133,13 @@ card:
 		
 		See in dark + through walls must be something to reveal face-downs or hand/deck
 		=> given that we can't really HOPT this, you can't do much hand fuckery, so is looking at face-downs (for free) really the best we can do?
+		=> definitely should have a hand reveal component as well because X-Ray needs to match Akaku, but given the ease of access it can't be too easy
+		==> Option A: Just look at 1 random card
+		===> or maybe as many random cards as you control Bohrok (Xyz)?
+		==> Option B: Look at hand with more restrictive timing, e.g. Standby Phase
+		==> Let's try A first, because it works in one bullet point and thus looks nicer in the text box
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-06 00:56:45
+	time modified: 2023-11-02 23:38:52
 	card type: link monster
 	name: Krana Bo-Kal, Visionary
 	attribute: dark
@@ -1144,7 +1154,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn: You can look at all Set cards your opponent controls.
+		<sym-auto>*</sym-auto>Once per turn: You can look at all Set cards your opponent controls, also you can look at random cards in their hand, up to the number of "Bohrok" monsters you control.
 	Link Marker Down: none
 	Link Marker Left: none
 	Link Marker Right: yes
@@ -1167,13 +1177,13 @@ card:
 		
 		Not so sure about this name
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-03-15 18:15:36
+	time modified: 2023-11-02 23:56:48
 	card type: trap card
 	name: Bohrok Kalifornication
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
-	image: 
-	rule text: You can activate this card from your hand by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material. You can only use this effect of "Bohrok Kalifornication" once per turn.
+	image: image15
+	rule text: You can activate this card the turn it was Set, by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material. You can only use this effect of "Bohrok Kalifornication" once per turn.
 	gamecode: DRAFT10100345
 card:
 	has styling: false
