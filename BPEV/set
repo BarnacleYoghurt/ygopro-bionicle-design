@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.4.4
+	edition: Version 4.5.0
 	copyright: 
 card:
 	has styling: false
@@ -834,7 +834,7 @@ card:
 		=> does this even need a HOPT?
 		=> honestly banishing face-down doesn't sound totally unreasonable either
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-11-02 23:00:38
+	time modified: 2023-11-05 10:21:52
 	card type: xyz monster
 	name: Bohrok Pahrak-Kal
 	attribute: earth
@@ -850,7 +850,7 @@ card:
 	attack: 2400
 	defense: 1900
 	rarity: common
-	gamecode: DRAFT10100334
+	gamecode: 10100334
 card:
 	has styling: false
 	notes:
@@ -861,7 +861,7 @@ card:
 		=> should this maybe affect your field as well (since that is a canon downside of Kohrak-Kal's powers)?
 		==> why yes it should
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-04-06 00:54:34
+	time modified: 2023-11-05 10:21:55
 	card type: xyz monster
 	name: Bohrok Kohrak-Kal
 	attribute: water
@@ -877,7 +877,7 @@ card:
 	attack: 2300
 	defense: 2000
 	rarity: common
-	gamecode: DRAFT10100335
+	gamecode: 10100335
 card:
 	has styling: false
 	notes:
@@ -900,7 +900,7 @@ card:
 		=> Using that room, we have reintroduced the idea of sucking up a destroyed card, made it a detach all (but only at resolution so Za-Kal remains just long enough to negate a negate), and traded out quick effect status for the ability to hit any card.
 		==> That last point is nice because it was the base Lehvak's whole thing! 
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-10-11 17:36:10
+	time modified: 2023-11-05 10:22:05
 	card type: xyz monster
 	name: Bohrok Lehvak-Kal
 	attribute: wind
@@ -916,19 +916,19 @@ card:
 	attack: 1900
 	defense: 2400
 	rarity: common
-	gamecode: DRAFT10100336
+	gamecode: 10100336
 card:
 	has styling: false
 	notes:
 		Oof, long text ...
 		=> Oh well, LORE
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-02 23:21:59
+	time modified: 2023-11-05 10:21:57
 	card type: link monster
 	name: Krana Xa-Kal, Liberator
 	attribute: dark
 	level: 
-	image: image30
+	image: image36
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -943,7 +943,7 @@ card:
 	Link Marker Left: none
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100337
+	gamecode: 10100337
 card:
 	has styling: false
 	notes:
@@ -1039,12 +1039,12 @@ card:
 		Yet another option: Literally "seek out" the Bahrag by providing another way to banish them from ED or GY as setup for Xa-Kal
 		=> it's just that the lore implications don't line up when the banishing is supposed to be their defeat
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-02 23:50:21
+	time modified: 2023-11-05 10:22:01
 	card type: link monster
 	name: Krana Ca-Kal, Seeker
 	attribute: dark
 	level: 
-	image: image36
+	image: image37
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1061,7 +1061,7 @@ card:
 	Link Marker Left: none
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100340
+	gamecode: 10100340
 card:
 	has styling: false
 	notes:
@@ -1071,12 +1071,12 @@ card:
 		=> what about sensing stress points and underground movement?
 		==> the latter is nicely represented by blocking responses in battle, which also has convenient synergy with Pahrak-Kal
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-20 20:27:38
+	time modified: 2023-11-05 10:22:09
 	card type: link monster
 	name: Krana Yo-Kal, Excavator
 	attribute: dark
 	level: 
-	image: image37
+	image: image44
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1093,7 +1093,7 @@ card:
 	Link Marker Left: none
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100341
+	gamecode: 10100341
 card:
 	has styling: false
 	notes:
@@ -1139,7 +1139,7 @@ card:
 		==> Option B: Look at hand with more restrictive timing, e.g. Standby Phase
 		==> Let's try A first, because it works in one bullet point and thus looks nicer in the text box
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-02 23:38:52
+	time modified: 2023-11-05 10:22:12
 	card type: link monster
 	name: Krana Bo-Kal, Visionary
 	attribute: dark
@@ -1160,7 +1160,7 @@ card:
 	Link Marker Right: yes
 	attack: 0
 	link number: 1
-	gamecode: DRAFT10100344
+	gamecode: 10100344
 card:
 	has styling: false
 	notes:
@@ -1177,14 +1177,14 @@ card:
 		
 		Not so sure about this name
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-11-02 23:56:48
+	time modified: 2023-11-05 10:28:29
 	card type: trap card
 	name: Bohrok Kalifornication
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image15
 	rule text: You can activate this card the turn it was Set, by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material. You can only use this effect of "Bohrok Kalifornication" once per turn.
-	gamecode: DRAFT10100345
+	gamecode: 10100345
 card:
 	has styling: false
 	notes:
