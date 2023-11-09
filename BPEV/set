@@ -828,6 +828,7 @@ card:
 	has styling: false
 	notes:
 		{{Attach "Krana" monster as material}}
+		{{Banish}}
 		
 		Plasma monster into oblivion and burn straight through it into the opponent's LP
 		=> happens in battle to match base Pahrak
@@ -855,6 +856,7 @@ card:
 	has styling: false
 	notes:
 		{{Attach "Krana" monster as material}}
+		{{Change positions and negate effects}}
 		
 		Stun opponent's entire field with a massive sound blast
 		=> but what about the solid sound objects?
@@ -881,7 +883,9 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Attach "Krana" monster as material}}
+		{{Attach a card as material}}
+		{{Destroy and attach}}
+		{{Attach 1 of those destroyed cards?}}
 		
 		Wipe backrow with an air blast (see also: HFD) and suck up a card to set up the next one
 		=> lets you dodge Waking the Dragon by attaching it mid-resolution before it triggers
@@ -920,6 +924,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon "Bohrok" Xyz Monster}}
+		{{Awaken the Bahrag}}
+		{{Add "As It Was in the Before-Time"?}}
+		
 		Oof, long text ...
 		=> Oh well, LORE
 	time created: 2016-02-08 14:41:42
@@ -1022,6 +1030,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon "Bohrok" Xyz Monster}}
+		{{Draw 1 card}}
 		
 		Oof, long text again ...
 		
@@ -1065,6 +1075,7 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Clean it all. It must be cleaned.}}
 		
 		Plain and simple, just dig through the ground for direct attacks
 		=> not damage-limited like base Yo because that limitation was maybe always too strict
@@ -1130,6 +1141,8 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon Level 4 "Bohrok" monster from hand or GY}}
+		{{Look at opponent's cards}}
+		{{Look at cards in the hand?}}
 		
 		See in dark + through walls must be something to reveal face-downs or hand/deck
 		=> given that we can't really HOPT this, you can't do much hand fuckery, so is looking at face-downs (for free) really the best we can do?
@@ -1164,6 +1177,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Activate by banishing Bahrag}}
+		{{Special Summon 1 "Bohrok" Xyz Monster}}
+		
 		Launch the Kal while simultaneously setting up the banished Bahrag situation so they actually have a mission to fulfill
 		=> currently overlaps with south-pointing Krana-Kal, but maybe if those need to do something less verbose anyway, this can fill the gap
 		=> revised approach: completely cheat out the Kal (but not as an Xyz Summon) with materials from GY, at the cost of sending another archetypal card so it doesn't plus as hard
