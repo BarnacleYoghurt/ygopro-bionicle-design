@@ -793,6 +793,9 @@ card:
 		=> Targeting on only 1 effect should work since you choose at activation
 		=> Checks for control rather thab among the summoned monsters because phrasing the latter is a pain in the ass
 		=> Shame this needs bullet points, but the effect is still relatively short
+		
+		Soft OPT might be a bit gross now that Kalifornication exists as a good search target, even with the hard limit on activations
+		=> just give the effect a hard OPT and allow summoning from hand multiple times?
 	time created: 2015-04-13 11:25:06
 	time modified: 2023-04-24 09:24:47
 	card type: spell card
@@ -862,6 +865,14 @@ card:
 		=> but what about the solid sound objects?
 		=> should this maybe affect your field as well (since that is a canon downside of Kohrak-Kal's powers)?
 		==> why yes it should
+		
+		It might make sense to also have a "monsters on the field cannot activate their effects in response to this effect's activation"
+		=> makes it proactively usable vs quick effects (such as the Toa Nuva) and also strong going second into a board of monsters
+		==> however, the Bohrok-Kal don't really need to have an advantage against Toa Nuva with their effects intact, they fight them "negated" anyway
+		=> also enhances the drawback since you can't just chain your own quickies before they get negated
+		=> still not totally oppressive because anything that's not a monster effect on the field can beat it anyway
+		=> would need to be coupled with something like "this card cannot attack for the rest of this turn", otherwise you can just go and make Zeus from that position
+		==> note the parallel to regular Kohrak
 	time created: 2014-12-08 15:30:26
 	time modified: 2023-11-05 10:21:55
 	card type: xyz monster
@@ -903,6 +914,10 @@ card:
 		Updated for better streamlining: By letting the S U C C effect work on your field or either GY, it can also replace the Krana-attaching effect and leave more room for the air blast part of the effect.
 		=> Using that room, we have reintroduced the idea of sucking up a destroyed card, made it a detach all (but only at resolution so Za-Kal remains just long enough to negate a negate), and traded out quick effect status for the ability to hit any card.
 		==> That last point is nice because it was the base Lehvak's whole thing! 
+		=> maybe too much versatility here, so we could restrict the detach effect a bit by only letting it work from e.g. 4+ materials
+		==> Enough that you usually can't do it the turn you summon Lehvak-Kal, but if it lives for a turn you get there
+		==> By not being able to just detach 1 or 2, the refill from immediately attaching 1 again doesn't make this such a constanct menace
+		==> Could even upgrade to hit more than 1 card per material, but Number 91's 5 materials to destroy all cards (with no native attach effect) should remain unpowercreeped
 	time created: 2014-12-08 15:30:26
 	time modified: 2023-11-05 10:22:05
 	card type: xyz monster
@@ -1041,10 +1056,13 @@ card:
 		
 		Alternative approach: Instead of copying effects, have some very simple benefits enabled by contact with Bahrag
 		=> Battle protection based on original Ca-Kal
-		==> fieldwide because that was what made that card s ogood
+		==> fieldwide because that was what made that card so good
+		===> or maybe that's too good in this case?
 		=> Extra draw per turn as ultimate payoff of having both queens
 		==> Problem: Soft OPT means it's stackable, might get out of hand
 		===> Prolly fine if it's not a quickie
+		==> still seems like too much plussing, maybe it needs a discard 1 tacked on
+		===> also makes it more of a "seeker", since it just helps find the card you need rather than stockpile
 		
 		Yet another option: Literally "seek out" the Bahrag by providing another way to banish them from ED or GY as setup for Xa-Kal
 		=> it's just that the lore implications don't line up when the banishing is supposed to be their defeat
@@ -1149,6 +1167,7 @@ card:
 		=> definitely should have a hand reveal component as well because X-Ray needs to match Akaku, but given the ease of access it can't be too easy
 		==> Option A: Just look at 1 random card
 		===> or maybe as many random cards as you control Bohrok (Xyz)?
+		===> or make it dependent on the number of materials
 		==> Option B: Look at hand with more restrictive timing, e.g. Standby Phase
 		==> Let's try A first, because it works in one bullet point and thus looks nicer in the text box
 	time created: 2016-02-08 14:41:42
