@@ -797,17 +797,17 @@ card:
 		Soft OPT might be a bit gross now that Kalifornication exists as a good search target, even with the hard limit on activations
 		=> just give the effect a hard OPT and allow summoning from hand multiple times?
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-04-24 09:24:47
+	time modified: 2023-11-13 23:42:08
 	card type: spell card
 	name: Bohrok-Kal Strategy
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image25
 	rule text:
-		When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. Once per turn, if a "Bohrok" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if you control a "Bohrok" Xyz Monster, you can activate both, in sequence;
+		When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. If a "Bohrok" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if you control a "Bohrok" Xyz Monster, you can activate both, in sequence;
 		<sym-auto>*</sym-auto>Target 1 other Spell/Trap on the field; destroy it.
 		<sym-auto>*</sym-auto>Add 1 "Bohrok" Spell/Trap from your Deck to your hand, except "Bohrok-Kal Strategy".
-		You can only activate 1 "Bohrok-Kal Strategy" per turn.
+		You can only use this effect of "Bohrok-Kal Strategy" once per turn.
 	gamecode: 10100347
 card:
 	has styling: false
