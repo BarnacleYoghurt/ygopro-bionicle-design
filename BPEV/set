@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.5.0
+	edition: Version 4.5.1
 	copyright: 
 card:
 	has styling: false
@@ -837,8 +837,21 @@ card:
 		=> happens in battle to match base Pahrak
 		=> does this even need a HOPT?
 		=> honestly banishing face-down doesn't sound totally unreasonable either
+		
+		Okay this has some issues:
+		=> there isn't really anything it outs that the other Bohrok-Kal can't deal with either, negates work just fine in the damage step
+		=> if you banish the monster you're battling at the start of the damage step, the attack won't count for Zeus
+		=> detaching during the damage step means this is the only Kal that can't get a draw from Nest
+		=> an improved version would therefore need to
+		==> uniquely deal with certain boardstates
+		==> be able to use the effect and still go through a full battle
+		==> be activatable outside the damage step
+		==> maybe a timing like "during the battle phase, if an attack was declared involving this card this turn (quick effect):"
+		=> "at the end of the Damage Step, if this card battled" is standard and keeps the Zeusability and response limitation, we just sacrifice the Nest draw
+		==> but careful: can't detach while destroyed by battle!!!
+		==> maybe keep it at the start of the damage step and instead permit a full battle by not having to banish the monster you're battling
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-11-05 10:21:52
+	time modified: 2023-11-23 20:36:27
 	card type: xyz monster
 	name: Bohrok Pahrak-Kal
 	attribute: earth
@@ -850,7 +863,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. If this card battles an opponent's monster, at the start of the Damage Step: You can detach 1 material from this card; banish that monster, and if you do, inflict damage to your opponent equal to its original ATK. You can only use this effect of "Bohrok Pahrak-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. At the start of the Damage Step, if this card battles: You can detach 1 material from this card; choose 1 monster your opponent controls and banish all cards they control in its column, face-down. Then, if this effect banished exactly 1 card, inflict 1200 damage to your opponent. You can only use this effect of "Bohrok Pahrak-Kal" once per turn.
 	attack: 2400
 	defense: 1900
 	rarity: common
@@ -1101,12 +1114,12 @@ card:
 		=> what about sensing stress points and underground movement?
 		==> the latter is nicely represented by blocking responses in battle, which also has convenient synergy with Pahrak-Kal
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-05 10:22:09
+	time modified: 2023-11-20 20:29:27
 	card type: link monster
 	name: Krana Yo-Kal, Excavator
 	attribute: dark
 	level: 
-	image: image44
+	image: image30
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1210,6 +1223,11 @@ card:
 		==> could also have another component ", then, if a "Bohrok" monster left the field by your opponent's card this turn, you can destroy 1 card your opponent controls" so it acts as disruption by itself (with a thematic condition) but 
 		===> a) I can't actually find any precedent for "left the field ... this turn" and 
 		===> b) that would be cutting it really close with the word count
+		=> just banishing Bahrag may be too light a turbo cost, considering you only really need to turbo once a duel anyway and certain Krana-Kal benefit from it
+		==> interesting additional condition: "If your opponent controls a card"
+		===> Works going second
+		===> but also when you need to dodge an Imperm real quick!
+		===> maybe make that face-up card?
 		
 		Not so sure about this name
 	time created: 2023-02-07 09:23:59
