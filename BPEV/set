@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.5.1
+	edition: Version 4.5.2
 	copyright: 
 card:
 	has styling: false
@@ -878,6 +878,10 @@ card:
 		=> but what about the solid sound objects?
 		=> should this maybe affect your field as well (since that is a canon downside of Kohrak-Kal's powers)?
 		==> why yes it should
+		=> actually might be one of those effects that can and should get away without an OPT
+		==> chaining it to itself accomplishes nothing extra and is limited by material count
+		==> chaining it after your opponent responded to the first activation (if you have enough material) is a legitimately useful expansion of the card's capabilities
+		==> doesn't push you towards making multiple copies because they would just negate each other anyway
 		
 		It might make sense to also have a "monsters on the field cannot activate their effects in response to this effect's activation"
 		=> makes it proactively usable vs quick effects (such as the Toa Nuva) and also strong going second into a board of monsters
@@ -887,7 +891,7 @@ card:
 		=> would need to be coupled with something like "this card cannot attack for the rest of this turn", otherwise you can just go and make Zeus from that position
 		==> note the parallel to regular Kohrak
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-11-05 10:21:55
+	time modified: 2023-11-24 00:01:15
 	card type: xyz monster
 	name: Bohrok Kohrak-Kal
 	attribute: water
@@ -899,7 +903,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (Quick Effect): You can detach 2 materials from this card; change all other monsters on the field to Defense Position, also negate their effects until the end of this turn. You can only use this effect of "Bohrok Kohrak-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (Quick Effect): You can detach 2 materials from this card; change all other monsters on the field to Defense Position, also negate their effects until the end of this turn.
 	attack: 2300
 	defense: 2000
 	rarity: common
