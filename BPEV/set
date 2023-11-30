@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.5.2
+	edition: Version 4.5.3
 	copyright: 
 card:
 	has styling: false
@@ -1236,17 +1236,19 @@ card:
 		===> but also when you need to dodge an Imperm real quick!
 		===> maybe make that face-up card?
 		=> might also be good to send off/put back the summoned monster after X period time so you can't get too ridiculously ahead while winning
+		==> opponent's (next) EP is the conservative option that still works, essentially never lets us have more than 1 'fornication Kal on our own turn while still allowing set up for opponent's turn
+		==> EP of your next turn is basically full freedom, you get to make stuff in advance for opponent's turn, keep the things you make on theirs, fully stock Lehvak-Kal, get the 3 for a Kaita off this one card, etc, etc
 		==> not currently doing that because it takes up too many words and it doesn't really matter how hard you win anyway
 		
 		Not so sure about this name
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-11-23 21:15:02
+	time modified: 2023-11-30 10:52:12
 	card type: trap card
 	name: Bohrok Kalifornication
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image15
-	rule text: If your opponent controls a face-up card, you can activate this card the turn it was Set, by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material. You can only use this effect of "Bohrok Kalifornication" once per turn.
+	rule text: If your opponent controls a face-up card, you can activate this card the turn it was Set, by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material, but return it to the Extra Deck during your opponent's End Phase. You can only use this effect of "Bohrok Kalifornication" once per turn.
 	gamecode: 10100345
 card:
 	has styling: false
