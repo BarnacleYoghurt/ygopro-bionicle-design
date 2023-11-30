@@ -850,8 +850,11 @@ card:
 		=> "at the end of the Damage Step, if this card battled" is standard and keeps the Zeusability and response limitation, we just sacrifice the Nest draw
 		==> but careful: can't detach while destroyed by battle!!!
 		==> maybe keep it at the start of the damage step and instead permit a full battle by not having to banish the monster you're battling
+		===> but non-targeting might be a bit too much, so let's dial that back
+		===> how about the face-down part?
+		====> out with it, having one random card in the archetype that banishes face-down feels kind of cancerous anyway
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-11-23 20:36:27
+	time modified: 2023-11-29 21:19:50
 	card type: xyz monster
 	name: Bohrok Pahrak-Kal
 	attribute: earth
@@ -863,7 +866,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. At the start of the Damage Step, if this card battles: You can detach 1 material from this card; choose 1 monster your opponent controls and banish all cards they control in its column, face-down. Then, if this effect banished exactly 1 card, inflict 1200 damage to your opponent. You can only use this effect of "Bohrok Pahrak-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. At the start of the Damage Step, if this card battles: You can detach 1 material from this card, then target 1 monster your opponent controls; banish all cards they control in its column. Then, if this effect banished exactly 1 card, inflict 1200 damage to your opponent. You can only use this effect of "Bohrok Pahrak-Kal" once per turn.
 	attack: 2400
 	defense: 1900
 	rarity: common
