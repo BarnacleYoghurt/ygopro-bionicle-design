@@ -1079,6 +1079,7 @@ card:
 		=> Battle protection based on original Ca-Kal
 		==> fieldwide because that was what made that card so good
 		===> or maybe that's too good in this case?
+		===> having it only on the one monster fits thematically - the "seeker" refuses to be defeated when it has picked up a signal
 		=> Extra draw per turn as ultimate payoff of having both queens
 		==> Problem: Soft OPT means it's stackable, might get out of hand
 		===> Prolly fine if it's not a quickie
@@ -1088,7 +1089,7 @@ card:
 		Yet another option: Literally "seek out" the Bahrag by providing another way to banish them from ED or GY as setup for Xa-Kal
 		=> it's just that the lore implications don't line up when the banishing is supposed to be their defeat
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-13 23:40:55
+	time modified: 2023-12-05 19:15:32
 	card type: link monster
 	name: Krana Ca-Kal, Seeker
 	attribute: dark
@@ -1103,7 +1104,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains these effects depending on the number of your "Bahrag" Monster Cards with different names that are banished or on the field.
-		<sym-auto>*</sym-auto>1+: "Bohrok" monsters you control cannot be destroyed by battle.
+		<sym-auto>*</sym-auto>1+: Cannot be destroyed by battle.
 		<sym-auto>*</sym-auto>2+: Once per turn: You can draw 1 card, then discard 1 card.
 	Link Marker Down: none
 	Link Marker DL: yes
