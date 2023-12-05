@@ -936,10 +936,11 @@ card:
 		==> That last point is nice because it was the base Lehvak's whole thing! 
 		=> maybe too much versatility here, so we could restrict the detach effect a bit by only letting it work from e.g. 4+ materials
 		==> Enough that you usually can't do it the turn you summon Lehvak-Kal, but if it lives for a turn you get there
+		===> actually should be 5+ because then you either need to use its own attach 3 times (your turn, opponent's turn, your turn) OR have at least 1 attach from elsewhere, and also you only have the chance to get there if you made it with 2 mats from the start - much more fair when the attach itself is already so good
 		==> By not being able to just detach 1 or 2, the refill from immediately attaching 1 again doesn't make this such a constanct menace
 		==> Could even upgrade to hit more than 1 card per material, but Number 91's 5 materials to destroy all cards (with no native attach effect) should remain unpowercreeped
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-11-30 12:02:50
+	time modified: 2023-12-05 19:10:00
 	card type: xyz monster
 	name: Bohrok Lehvak-Kal
 	attribute: wind
@@ -951,7 +952,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. (Quick Effect): You can target 1 other card you control or in either GY; attach it to this card as material. If this card has 4 or more materials: You can detach all of this card's materials, and if you do, destroy up to that many cards your opponent controls, then you can attach 1 of those destroyed cards to this card as material. You can only use each effect of "Bohrok Lehvak-Kal" once per turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. (Quick Effect): You can target 1 other card you control or in either GY; attach it to this card as material. If this card has 5 or more materials: You can detach all of this card's materials, and if you do, destroy up to that many cards your opponent controls, then you can attach 1 of those destroyed cards to this card as material. You can only use each effect of "Bohrok Lehvak-Kal" once per turn.
 	attack: 1900
 	defense: 2400
 	rarity: common
