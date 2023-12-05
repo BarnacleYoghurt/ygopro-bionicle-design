@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Beware the Swarm 
 	code: BBTS
 	language: EN
-	edition: Version 4.0.4
+	edition: Version 4.5.5
 	author: 
 	copyright: © 2014 THE LEGO GROUP
 card:
@@ -39,7 +39,7 @@ card:
 		{{Special Summon another Bohrok from Deck}}
 		{{Activate effect based on top card of opponent's GY}}
 	time created: 2015-02-10 19:06:17
-	time modified: 2019-12-08 16:46:24
+	time modified: 2023-12-05 19:20:13
 	card type: effect monster
 	name: Bohrok Gahlok
 	attribute: water
@@ -54,8 +54,8 @@ card:
 		FLIP: Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-down Defense Position, except "Bohrok Gahlok".
 		Once per turn: You can apply this effect, depending on the type of card on top of your opponent's GY. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.
 		<sym-auto>*</sym-auto>Monster: Target 1 card your opponent controls; destroy that target.
-		<sym-auto>*</sym-auto>Spell: Until the end of this turn, change the ATK of 1 face-up monster your opponent controls to 0, also negate its effects.
-		<sym-auto>*</sym-auto>Trap: Banish 1 random card from your opponent's hand.
+		<sym-auto>*</sym-auto>Spell: Negate the effects of 1 face-up monster your opponent controls, until the end of this turn.
+		<sym-auto>*</sym-auto>Trap: Banish 1 random card from your opponent's hand, until the End Phase.
 	attack: 1700
 	defense: 1600
 	gamecode: 10100202
