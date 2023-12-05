@@ -38,6 +38,8 @@ card:
 	notes:
 		{{Special Summon another Bohrok from Deck}}
 		{{Activate effect based on top card of opponent's GY}}
+		{{Return Gahlok to Deck}}
+		{{Return banished card to hand}}
 	time created: 2015-02-10 19:06:17
 	time modified: 2023-12-05 19:20:13
 	card type: effect monster
