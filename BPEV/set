@@ -1183,7 +1183,6 @@ card:
 	notes:
 		{{Special Summon Level 4 "Bohrok" monster from hand or GY}}
 		{{Look at opponent's cards}}
-		{{Look at cards in the hand?}}
 		
 		See in dark + through walls must be something to reveal face-downs or hand/deck
 		=> given that we can't really HOPT this, you can't do much hand fuckery, so is looking at face-downs (for free) really the best we can do?
@@ -1194,7 +1193,7 @@ card:
 		==> Option B: Look at hand with more restrictive timing, e.g. Standby Phase
 		==> Let's try A first, because it works in one bullet point and thus looks nicer in the text box
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-05 10:22:12
+	time modified: 2023-12-13 20:09:50
 	card type: link monster
 	name: Krana Bo-Kal, Visionary
 	attribute: dark
@@ -1209,7 +1208,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn: You can look at all Set cards your opponent controls, also you can look at random cards in their hand, up to the number of "Bohrok" monsters you control.
+		<sym-auto>*</sym-auto>Once per turn: You can look at all Set cards your opponent controls, also look at as many random cards in their hand as possible, up to the number of "Bohrok" monsters you control.
 	Link Marker Down: none
 	Link Marker Left: none
 	Link Marker Right: yes
