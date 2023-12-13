@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.5.5
+	edition: Version 4.5.6
 	copyright: 
 card:
 	has styling: false
@@ -885,6 +885,10 @@ card:
 		==> chaining it to itself accomplishes nothing extra and is limited by material count
 		==> chaining it after your opponent responded to the first activation (if you have enough material) is a legitimately useful expansion of the card's capabilities
 		==> doesn't push you towards making multiple copies because they would just negate each other anyway
+		==> Verdict after more thought and testing: Not exactly abusable, but with Bohrok it basically never comes up since you're capped at 2 initial materials, which means the only thing left to possibly benefit is unwanted shit with Rank-Ups or whatever
+		===> Silver Shield would allow for a scenario where you start at 2, attach a third with Kohrak-Kal itself, attach a  fourth with Silver Shield, and if your opponent negates at any point during the process they get boomed on (and if they don't, they get double boomed on)
+		===> but when we're already talking about a multi-card combo, Za-Kal in rotation is a relatively easy extra step that also provides the same protection from negate and destroy at least
+		===> also, non-OPT could potentially be a bit toxic given the effect's nature as a Zeus enabler - even if you stop it once, the next copy can just try again
 		
 		It might make sense to also have a "monsters on the field cannot activate their effects in response to this effect's activation"
 		=> makes it proactively usable vs quick effects (such as the Toa Nuva) and also strong going second into a board of monsters
@@ -894,7 +898,7 @@ card:
 		=> would need to be coupled with something like "this card cannot attack for the rest of this turn", otherwise you can just go and make Zeus from that position
 		==> note the parallel to regular Kohrak
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-11-24 00:01:15
+	time modified: 2023-12-13 20:49:04
 	card type: xyz monster
 	name: Bohrok Kohrak-Kal
 	attribute: water
@@ -906,7 +910,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		2 Level 4 "Bohrok" monsters
-		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (Quick Effect): You can detach 2 materials from this card; change all other monsters on the field to Defense Position, also negate their effects until the end of this turn.
+		Place materials detached from this card on the bottom of the Deck, instead of sending them to the GY. Once per turn: You can attach 1 "Krana" monster from your hand, field, or GY to this card as material. During the Main Phase (Quick Effect): You can detach 2 materials from this card; change all other monsters on the field to Defense Position, also negate their effects until the end of this turn. You can only use this effect of "Bohrok Kohrak-Kal" once per turn.
 	attack: 2300
 	defense: 2000
 	rarity: common
