@@ -672,18 +672,18 @@ card:
 		=> Can it/should it really be a RUM?
 		=> Actually it might be thematically fitting to just have this kind of thing on the Kanohi Nuva Kaita ...
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-06 23:29:11
+	time modified: 2023-12-17 11:01:52
 	card type: spell card
 	name: Rank-Up-Magic Protodermic Evolution
 	attribute: spell
-	level: <sym-auto>%</sym-auto>
+	level: <sym-auto>$</sym-auto>
 	image: image21
 	rule text:
 		(This card is always treated as a "Nuva" card.)
 		Activate 1 of these effects;
-		<sym-auto>*</sym-auto>Target 1 "Nuva" Fusion Monster you control; Special Summon, from your Extra Deck, 1 Rank 6 "Toa Mata" Xyz Monster, by using that target  as material, then you can attach 1 card from your hand or face-up field to the Summoned monster as material.. (This is treated as an Xyz Summon.)
+		<sym-auto>*</sym-auto>Target 1 "Nuva" Fusion Monster you control; Special Summon, from your Extra Deck, 1 Rank 6 "Toa Mata" Xyz Monster, by using that target  as material, then you can attach 1 card from your hand or face-up field to the Summoned monster as material. (This is treated as an Xyz Summon.)
 		<sym-auto>*</sym-auto>Target 1 Rank 6 "Toa" Xyz Monster you control; Special Summon, from your Extra Deck, 1 Rank 8 "Nuva" Xyz Monster, by using that target as material. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
-	gamecode: DRAFT10100329
+	gamecode: DRAFT10100304
 card:
 	has styling: false
 	notes:
@@ -1278,14 +1278,353 @@ card:
 		=> Advantage of Utiltiy as GY effect: Can do it without a turn of setup, which is useful w.r. to the aforementioned avoiding of monster negates
 		==> Also would be the proper priority considering the protections from Silver is what the card is about
 	time created: 2017-02-24 18:20:02
-	time modified: 2023-04-27 23:54:57
+	time modified: 2023-12-17 11:38:07
 	card type: trap card
 	name: Bohrok Silver Shield
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: 
 	rule text: Target 1 "Bohrok" Xyz Monster you control; attach 1 "Krana" monster from your hand, field, or GY to it as material. At the start of the Battle Phase, if you control a "Bohrok" Xyz Monster(s) that has a "Krana" Link Monster as material: You can banish this card from your GY; until the end of this turn, that monster(s) you control is unaffected by card effects, except its own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
+	gamecode: DRAFT10100357
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-10 11:20:35
+	time modified: 2023-12-17 10:59:58
+	card type: fusion monster
+	name: Bohrok-Kal Kaita Ja
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Bohrok Gahlok-Kal" + "Bohrok Kohrak-Kal" + "Bohrok Lehvak-Kal"
+		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. (Quick Effect): You can banish up to 3 "Bohrok" monsters from your GY, then target 1 monster in your opponent's GY, or on their field if you banished 2 or more; equip it to this card. If you banished 3, your opponent cannot activate cards or effects in response to this effect's activation. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Ja" once per turn.
+	attack: 2500
+	defense: 2900
+	gamecode: DRAFT10100349
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-10 11:20:35
+	time modified: 2023-12-17 10:59:50
+	card type: fusion monster
+	name: Bohrok-Kal Kaita Za
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Machine</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Bohrok Tahnok-Kal" + "Bohrok Nuhvok-Kal" + "Bohrok Pahrak-Kal"
+		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. You can banish up to 3 "Bohrok" monsters from your GY; until the end of this turn, this card gains 1000 ATK for each, also it can make up to that many attacks on monsters. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Za" once per turn.
+	attack: 3000
+	defense: 0
+	gamecode: DRAFT10100348
+card:
+	has styling: false
+	notes:
+		If Nuva Symbols become a sub-archetype, this could be an alternate target for half the Kanohi Nuva so the non-Trap ones aren't useless
+		=> should probably also do something that makes it useful on the opponent's turn, that's the whole advantage of being able to place face-up
+	time created: 2023-11-09 22:33:52
+	time modified: 2023-12-17 11:02:10
+	card type: spell card
+	name: Tales of the Nuva
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: 
+	rule text: When this card is activated: You can add 1 "Toa Mata" monster or 1 "Energized Protodermis" card from your Deck to your hand. If a "Nuva" Spell/Trap(s) is sent from the hand to your GY: You can target 1 of them; Set it to your field. If your opponent activates a monster effect on the field: You can send this card to the GY; Special Summon 1 of your "Energized Protodermis" or "Nuva" monsters that is banished or in your GY. You can only use each effect of "Tales of the Nuva" once per turn.
+	gamecode: DRAFT10100305
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-12-17 11:04:32
+	card type: xyz monster
+	name: Akamai, Toa Nuva Kaita of Valor
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image43
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 8 monsters
+		If this card is Xyz Summoned using a Level 8 "Toa" monster as material, your opponent cannot activate cards or effects until the end of the Battle Phase. If this card destroys an opponent's monster by battle: You can detach 1 material from this card; it can make a second attack in a row. During the Main Phase (Quick Effect): You can Tribute this card, then target "Nuva" Fusion Monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Akamai, Toa Nuva Kaita of Valor" once per turn.
+	attack: 3400
+	defense: 2400
+	rarity: common
+	gamecode: DRAFT10100325
+card:
+	has styling: false
+	notes: 
+	time created: 2014-12-08 15:30:26
+	time modified: 2023-12-17 11:04:45
+	card type: xyz monster
+	name: Wairuha, Toa Nuva Kaita of Wisdom
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image44
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text:
+		3 Level 8 monsters
+		When your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, banish that card, also, if the detached material was a Level 8 "Toa" Monster Card, draw 1 card. During the Main Phase (Quick Effect): You can Tribute this card, then target "Nuva" Fusion Monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Wairuha, Toa Nuva Kaita of Wisdom" once per turn.
+	attack: 3000
+	defense: 3000
+	rarity: common
+	gamecode: DRAFT10100326
+card:
+	has styling: false
+	notes: 
+	time created: 2017-03-24 11:14:28
+	time modified: 2023-12-17 11:09:39
+	card type: spell card
+	name: Great Kanohi Aki Nuva
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image45
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage.  Once per turn, while this card is equipped to a "Toa Nuva" Fusion Monster you control: You can Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
+	gamecode: DRAFT10100327
+card:
+	has styling: false
+	notes: 
+	time created: 2017-03-24 11:14:28
+	time modified: 2023-12-17 11:10:28
+	card type: spell card
+	name: Great Kanohi Rua Nuva
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image46
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it is unaffected by your opponent's card effects, also your opponent must keep their hand revealed.  Once per turn, while this card is equipped to a "Toa Nuva" Fusion Monster you control: You can Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
+	gamecode: DRAFT10100328
+card:
+	has styling: false
+	notes:
+		Making Bohrok-Kal blow themselves up, designed so it works even through maximum Silver protection (since it's their own effects that fuck them up)
+		=> does that bypass Silver's protection though? Or are the effects themselves protected from changes?
+	time created: 2017-01-26 23:40:52
+	time modified: 2023-12-17 11:17:10
+	card type: trap card
+	name: Nuva Overcharge
+	attribute: trap
+	level: <sym-auto>!</sym-auto>
+	image: 
+	rule text: If your opponent activates a monster effect on the field while you control a "Nuva" Fusion Monster, and there is a "Nuva" Continuous Spell on your field or in your GY: That effect becomes "banish this card". If this card is sent to the GY while you control a "Nuva" Fusion Monster: You can Set this card, but banish it when it leaves the field. You can only activate 1 "Nuva Overcharge" per turn. 
+	gamecode: DRAFT10100329
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-17 11:18:18
+	time modified: 2023-12-17 11:21:21
+	card type: effect monster
+	name: Lava Rat, Rahi
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If your "Rahi" monster battles an opponent's monster, before damage calculation: You can banish this card from your hand or field and 1 "Rahi" monster from your GY; destroy that opponent's monster. During your Standby Phase, if this card is currently banished: Special Summon this card. You can only use this effect of "Lava Rat, Rahi" once per Duel.
+	attack: 400
+	defense: 200
+	gamecode: DRAFT10100350
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-17 11:18:18
+	time modified: 2023-12-17 11:25:17
+	card type: effect monster
+	name: Makuta Fish, Rahi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Fish</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: (Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY; Special Summon 1 Aqua, Fish, or Sea Serpent "Rahi" Tuner from your Deck. If this card is destroyed by battle or card effect: You can make all monsters you currently control gain 500 ATK, until the end of this turn. You can only use each effect of "Makuta Fish, Rahi" once per turn.
+	attack: 600
+	defense: 500
+	gamecode: DRAFT10100351
+card:
+	has styling: false
+	notes: 
+	time created: 2017-01-26 23:40:52
+	time modified: 2023-12-17 11:28:23
+	card type: trap card
+	name: Rahi from the Depths
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: 
+	rule text: Target 1 "Rahi" monster you control and 1 face-up monster your opponent controls; that opponent's monster loses ATK/DEF equal to your monster's ATK, and if either its ATK or DEF became 0 by this effect, destroy it. You can banish this card from your GY; Special Summon 1 Aqua, Fish, or Sea Serpent "Rahi" monster from your GY. You can only use 1 "Rahi from the Depths" effect per turn, and only once that turn.
+	gamecode: DRAFT10100352
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-17 11:29:04
+	time modified: 2023-12-17 11:31:04
+	card type: synchro monster
+	name: Subterranean Worm Rahi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Dinosaur</word-list-ENrace>
+	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Rahi" Tuner + 1+ non-Tuner monsters
+		If a "Rahi" monster you control battles, inflict piercing battle damage. If this card is sent from the field to the GY: You can target 1 "Rahi" Tuner in your GY; Special Summon it. You can only use this effect of "Subterranean Worm Rahi" once per turn.
+	attack: 2700
+	defense: 1000
+	gamecode: DRAFT10100353
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-17 11:29:04
+	time modified: 2023-12-17 11:38:15
+	card type: fusion monster
+	name: Rahi Nui, Vengeful Chimera
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Dinosaur</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		3+ "Rahi" monsters with different Types
+		This card's Type is also treated as the original Types of each of its materials. "Rahi" monsters you control that share a Type with this card cannot be destroyed by card effects. During your Main Phase: You can Special Summon 1 "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
+	attack: 3800
+	defense: 2200
 	gamecode: DRAFT10100355
+card:
+	has styling: false
+	notes: Tribute a monster for Lair of Darkness synergy ;)
+	time created: 2023-12-17 11:34:54
+	time modified: 2023-12-17 11:37:57
+	card type: spell card
+	name: Place of Shadow
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: 
+	rule text: You can Tribute 1 monster; Special Summon 1 "Rahi" Normal Monster from your hand, Deck, or GY, and if you do, it becomes DARK. If this card is sent to the GY: You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use 1 "Place of Shadow" effect per turn, and only once that turn.
+	gamecode: DRAFT10100354
+card:
+	has styling: false
+	notes: 
+	time created: 2023-12-17 11:38:39
+	time modified: 2023-12-17 11:43:00
+	card type: spell card
+	name: Exo Autonomy
+	attribute: spell
+	level: <sym-auto>^</sym-auto>
+	image: 
+	rule text: Special Summon 1 "Exo-Toa" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase. During your End Phase, if this card is in the GY because it was sent there this turn: You can banish this card from your GY; Set 1 of your "Exo Armaments" that is banished or in your Deck or GY, and if you do, you can add 1 "Toa" monster from your Deck to your hand. You can only activate 1 "Exo Autonomy" per turn.
+	gamecode: DRAFT10100356
+card:
+	has styling: false
+	notes: 
+	time created: 2017-01-25 23:59:07
+	time modified: 2023-12-17 11:44:48
+	card type: spell card
+	name: Legendary Kanohi Vahi, Mask of Time
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: 
+	rule text:
+		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. During your Standby Phase: Flip a coin; if the result is tails, halve the equipped monster's ATK, then take damage equal to its ATK and destroy this card if the equipped monster's ATK is 0. If the result is heads, add 1 "Vahi" card from your Deck to your hand, except an Equip Spell. If this card leaves the field: Skip your opponent's next Battle Phase.
+		Once per turn, during either player's turn, you can activate 1 of these effects.
+		<sym-auto>*</sym-auto>The next time a card(s) is added to your hand, draw 1 card.
+		<sym-auto>*</sym-auto>The next time a card(s) you control would be destroyed, it is not destroyed, but that card(s) you control is destroyed during your next End Phase.
+	gamecode: DRAFT10100358
+card:
+	has styling: false
+	notes: 
+	time created: 2017-01-26 23:40:52
+	time modified: 2023-12-17 11:45:26
+	card type: spell card
+	name: Vahi Freeze
+	attribute: spell
+	level: <sym-auto>$</sym-auto>
+	image: 
+	rule text: If you control a face-up "Legendary Kanohi Vahi, Mask of Time": Target 1 monster on the field; while you control a face-up "Legendary Kanohi Vahi, Mask of Time", that target's effect(s) is negated and it cannot attack.
+	gamecode: DRAFT10100359
+card:
+	has styling: false
+	notes:
+		Going for the vibe of a non-archetypal lore card with generic utility, so this is Warrior support
+		=> "higher Level" or "equal or higher Level"?`
+		=> only Summon "Matoran"`? allow tributing from hand?
+		
+		GY effect might be funny too
+		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
+	time created: 2023-12-09 18:03:01
+	time modified: 2023-12-17 11:45:46
+	card type: spell card
+	name: Naming Day
+	attribute: spell
+	level: <sym-auto>^</sym-auto>
+	image: 
+	rule text: Tribute 1 Warrior monster; Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same Attribute, but a different name and a higher Level than the Tributed monster. You can banish this card and 1 monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
+	gamecode: DRAFT10100360
+card:
+	has styling: false
+	notes:
+		Joke version that combines all the arrows, match winner because it's obviously not meant to be played seriously
+		
+		Distribute 72 downloads of the expansion with this included as NFTs to imitate the real-life collectible, lmao
+		=> better don't, that sounds stupid
+	time created: 2017-02-24 18:15:41
+	time modified: 2023-12-17 11:47:54
+	card type: link monster
+	name: Sterling Silver Krana-Kal
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: Cannot be Link Summoned. Must be Special Summoned (from your Extra Deck) at the start of the Battle Phase while you control a "Bohrok" Xyz Monster by banishing 8 "Krana" Link Monsters with different names from your Extra Deck, field, GY, and/or attached as Xyz Materials. "Bohrok" monsters you control are unaffected by other card effects, except their own, also if they reduce your opponent's LP to 0 by a direct attack, you win the match.
+	Link Marker Up: yes
+	Link Marker UL: yes
+	Link Marker UR: yes
+	Link Marker Down: yes
+	Link Marker DL: yes
+	Link Marker DR: yes
+	Link Marker Left: yes
+	Link Marker Right: yes
+	attack: 0
+	defense: 0
+	link number: 8
+	gamecode: DRAFT10100361
 version control:
 	type: none
 apprentice code: 
