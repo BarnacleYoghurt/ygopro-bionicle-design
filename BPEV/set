@@ -1278,11 +1278,11 @@ card:
 		=> Advantage of Utiltiy as GY effect: Can do it without a turn of setup, which is useful w.r. to the aforementioned avoiding of monster negates
 		==> Also would be the proper priority considering the protections from Silver is what the card is about
 	time created: 2017-02-24 18:20:02
-	time modified: 2023-12-17 11:38:07
-	card type: trap card
+	time modified: 2023-12-27 11:31:04
+	card type: spell card
 	name: Bohrok Silver Shield
-	attribute: trap
-	level: <sym-auto>^</sym-auto>
+	attribute: spell
+	level: <sym-auto>$</sym-auto>
 	image: 
 	rule text: Target 1 "Bohrok" Xyz Monster you control; attach 1 "Krana" monster from your hand, field, or GY to it as material. At the start of the Battle Phase, if you control a "Bohrok" Xyz Monster(s) that has a "Krana" Link Monster as material: You can banish this card from your GY; until the end of this turn, that monster(s) you control is unaffected by card effects, except its own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
 	gamecode: DRAFT10100357
@@ -1290,12 +1290,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2023-12-10 11:20:35
-	time modified: 2023-12-17 10:59:58
+	time modified: 2024-01-07 11:53:52
 	card type: fusion monster
 	name: Bohrok-Kal Kaita Ja
 	attribute: light
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image48
 	type 1: <word-list-ENrace>Machine</word-list-ENrace>
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1312,12 +1312,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2023-12-10 11:20:35
-	time modified: 2023-12-17 10:59:50
+	time modified: 2024-01-07 11:53:49
 	card type: fusion monster
 	name: Bohrok-Kal Kaita Za
 	attribute: light
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image44
 	type 1: <word-list-ENrace>Machine</word-list-ENrace>
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1348,12 +1348,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-12-17 11:04:32
+	time modified: 2024-01-07 11:52:52
 	card type: xyz monster
 	name: Akamai, Toa Nuva Kaita of Valor
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image43
+	image: image47
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1370,12 +1370,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2014-12-08 15:30:26
-	time modified: 2023-12-17 11:04:45
+	time modified: 2024-01-07 11:52:57
 	card type: xyz monster
 	name: Wairuha, Toa Nuva Kaita of Wisdom
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image44
+	image: image43
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1450,12 +1450,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2023-12-17 11:18:18
-	time modified: 2023-12-17 11:25:17
+	time modified: 2024-01-07 11:53:28
 	card type: effect monster
 	name: Makuta Fish, Rahi
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image50
 	type 1: <word-list-ENrace>Fish</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1470,24 +1470,24 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-01-26 23:40:52
-	time modified: 2023-12-17 11:28:23
+	time modified: 2024-01-07 11:53:08
 	card type: trap card
 	name: Rahi from the Depths
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
-	image: 
+	image: image49
 	rule text: Target 1 "Rahi" monster you control and 1 face-up monster your opponent controls; that opponent's monster loses ATK/DEF equal to your monster's ATK, and if either its ATK or DEF became 0 by this effect, destroy it. You can banish this card from your GY; Special Summon 1 Aqua, Fish, or Sea Serpent "Rahi" monster from your GY. You can only use 1 "Rahi from the Depths" effect per turn, and only once that turn.
 	gamecode: DRAFT10100352
 card:
 	has styling: false
 	notes: 
 	time created: 2023-12-17 11:29:04
-	time modified: 2023-12-17 11:31:04
+	time modified: 2024-01-07 11:53:31
 	card type: synchro monster
 	name: Subterranean Worm Rahi
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image51
 	type 1: <word-list-ENrace>Dinosaur</word-list-ENrace>
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1504,12 +1504,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2023-12-17 11:29:04
-	time modified: 2023-12-17 11:38:15
+	time modified: 2024-01-07 11:58:52
 	card type: fusion monster
 	name: Rahi Nui, Vengeful Chimera
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image52
 	type 1: <word-list-ENrace>Dinosaur</word-list-ENrace>
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1518,7 +1518,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		3+ "Rahi" monsters with different Types
-		This card's Type is also treated as the original Types of each of its materials. "Rahi" monsters you control that share a Type with this card cannot be destroyed by card effects. During your Main Phase: You can Special Summon 1 "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
+		Must be Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above materials, including a DARK monster. This card's Type is also treated as the original Types of each of its materials. "Rahi" monsters you control that share a Type with this card cannot be destroyed by card effects. During your Main Phase: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
 	attack: 3800
 	defense: 2200
 	gamecode: DRAFT10100355
