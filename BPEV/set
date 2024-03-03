@@ -672,14 +672,13 @@ card:
 		=> Can it/should it really be a RUM?
 		=> Actually it might be thematically fitting to just have this kind of thing on the Kanohi Nuva Kaita ...
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-12-17 11:01:52
+	time modified: 2024-03-03 16:45:04
 	card type: spell card
-	name: Rank-Up-Magic Protodermic Evolution
+	name: Nuva Rank-Up-Magic Protodermic Evolution
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image21
 	rule text:
-		(This card is always treated as a "Nuva" card.)
 		Activate 1 of these effects;
 		<sym-auto>*</sym-auto>Target 1 "Nuva" Fusion Monster you control; Special Summon, from your Extra Deck, 1 Rank 6 "Toa Mata" Xyz Monster, by using that target  as material, then you can attach 1 card from your hand or face-up field to the Summoned monster as material. (This is treated as an Xyz Summon.)
 		<sym-auto>*</sym-auto>Target 1 Rank 6 "Toa" Xyz Monster you control; Special Summon, from your Extra Deck, 1 Rank 8 "Nuva" Xyz Monster, by using that target as material. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
@@ -1351,7 +1350,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-01-07 11:52:52
+	time modified: 2024-03-03 18:02:35
 	card type: xyz monster
 	name: Akamai, Toa Nuva Kaita of Valor
 	attribute: fire
@@ -1364,16 +1363,16 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		If this card is Xyz Summoned using a Level 8 "Toa" monster as material, your opponent cannot activate cards or effects until the end of the Battle Phase. If this card destroys an opponent's monster by battle: You can detach 1 material from this card; it can make a second attack in a row. During the Main Phase (Quick Effect): You can Tribute this card, then target "Nuva" Fusion Monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Akamai, Toa Nuva Kaita of Valor" once per turn.
+		If this card is Xyz Summoned during your turn using a Level 8 "Toa" monster as material, your opponent cannot activate cards or effects until the end of the Battle Phase this turn. If this card destroys an opponent's monster by battle: You can detach 1 material from this card; destroy 1 Spell/Trap on the field. During the Main Phase (Quick Effect): You can Tribute this card, then target "Nuva" Fusion Monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Akamai, Toa Nuva Kaita of Valor" once per turn.
 	attack: 3400
 	defense: 2400
 	rarity: common
 	gamecode: DRAFT10100325
 card:
 	has styling: false
-	notes: 
+	notes: Would be nice to have some kind of "Wisdom Game" again, but space is tight with the floating effect, so it's just a good efficient negate
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-01-07 11:52:57
+	time modified: 2024-03-03 17:53:19
 	card type: xyz monster
 	name: Wairuha, Toa Nuva Kaita of Wisdom
 	attribute: wind
@@ -1386,7 +1385,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		When your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, banish that card, also, if the detached material was a Level 8 "Toa" Monster Card, draw 1 card. During the Main Phase (Quick Effect): You can Tribute this card, then target "Nuva" Fusion Monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Wairuha, Toa Nuva Kaita of Wisdom" once per turn.
+		Once per turn, when your opponent activates a card or effect while this card has a Level 8 "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, banish that card. During the Main Phase (Quick Effect): You can Tribute this card, then target "Nuva" Fusion Monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Wairuha, Toa Nuva Kaita of Wisdom" once per turn.
 	attack: 3000
 	defense: 3000
 	rarity: common
