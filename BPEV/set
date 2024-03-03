@@ -1335,14 +1335,17 @@ card:
 	notes:
 		If Nuva Symbols become a sub-archetype, this could be an alternate target for half the Kanohi Nuva so the non-Trap ones aren't useless
 		=> should probably also do something that makes it useful on the opponent's turn, that's the whole advantage of being able to place face-up
+		==> A: Special Summon Nuva/EP (to make more Nuva) from GY or banished after opponent does something
+		==> B: Return Nuva to ED to swap for another one after opponent does something
+		===> this one has the advantage of also helping you recycle, but it's more words
 	time created: 2023-11-09 22:33:52
-	time modified: 2023-12-17 11:02:10
+	time modified: 2024-03-03 16:09:26
 	card type: spell card
 	name: Tales of the Nuva
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: 
-	rule text: When this card is activated: You can add 1 "Toa Mata" monster or 1 "Energized Protodermis" card from your Deck to your hand. If a "Nuva" Spell/Trap(s) is sent from the hand to your GY: You can target 1 of them; Set it to your field. If your opponent activates a monster effect on the field: You can send this card to the GY; Special Summon 1 of your "Energized Protodermis" or "Nuva" monsters that is banished or in your GY. You can only use each effect of "Tales of the Nuva" once per turn.
+	rule text: When this card is activated: You can add 1 "Energized Protodermis" card from your Deck to your hand. If a "Nuva" Spell/Trap(s) is sent from the hand to your GY: You can target 1 of them; Set it to your field. If your opponent activates a monster effect: You can send this card to the GY, then target 1 "Nuva" Fusion Monster you control or in your GY; return it to the Extra Deck, and if you do, you can Special Summon 1 "Nuva" Fusion Monster with a different name from your Extra Deck. You can only use each effect of "Tales of the Nuva" once per turn.
 	gamecode: DRAFT10100305
 card:
 	has styling: false
@@ -1417,6 +1420,7 @@ card:
 	notes:
 		Making Bohrok-Kal blow themselves up, designed so it works even through maximum Silver protection (since it's their own effects that fuck them up)
 		=> does that bypass Silver's protection though? Or are the effects themselves protected from changes?
+		=> Observation on MD: Rewrites DO seemingly work through at least "unaffected by activated effects" (Crystal Clear Wing vs Gossip Shadow)
 	time created: 2017-01-26 23:40:52
 	time modified: 2023-12-17 11:17:10
 	card type: trap card
