@@ -671,17 +671,15 @@ card:
 		=> attach extra card from hand/field so you can even enable 2-mat effects at cost of advantage
 		=> Can it/should it really be a RUM?
 		=> Actually it might be thematically fitting to just have this kind of thing on the Kanohi Nuva Kaita ...
+		=> with some clever phrasing and generification, we can do everything we want in one effect ... and while we're at it, let's have some fun by allowing access to the R4/R6/R8/R10 Warrior pool ;)
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-03 16:45:04
+	time modified: 2024-03-10 17:11:51
 	card type: spell card
 	name: Nuva Rank-Up-Magic Protodermic Evolution
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image21
-	rule text:
-		Activate 1 of these effects;
-		<sym-auto>*</sym-auto>Target 1 "Nuva" Fusion Monster you control; Special Summon, from your Extra Deck, 1 Rank 6 "Toa Mata" Xyz Monster, by using that target  as material, then you can attach 1 card from your hand or face-up field to the Summoned monster as material. (This is treated as an Xyz Summon.)
-		<sym-auto>*</sym-auto>Target 1 Rank 6 "Toa" Xyz Monster you control; Special Summon, from your Extra Deck, 1 Rank 8 "Nuva" Xyz Monster, by using that target as material. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
+	rule text: Target 1 "Toa" monster you control; Special Summon, from your Extra Deck, 1 Warrior Xyz Monster whose Rank is 2 higher than that target's Rank or 2 lower than that target's Level, by using it as material, and if you do, you can attach 1 other card from your hand or face-up field to the Summoned monster as material, except this card. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
 	gamecode: DRAFT10100304
 card:
 	has styling: false
