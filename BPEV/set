@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.5.6
+	edition: Version 4.6.0
 	copyright: 
 card:
 	has styling: false
@@ -673,13 +673,14 @@ card:
 		=> Actually it might be thematically fitting to just have this kind of thing on the Kanohi Nuva Kaita ...
 		=> with some clever phrasing and generification, we can do everything we want in one effect ... and while we're at it, let's have some fun by allowing access to the R4/R6/R8/R10 Warrior pool ;)
 		==> only issue: this lets you go L8 Nuva => R6 Kaita, rather than just the combinations - let's see if that matters
+		==> maybe some drawback for summoning non-Toa (e.g. banish at end of turn)
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-12 20:45:11
+	time modified: 2024-03-26 10:10:27
 	card type: spell card
 	name: Nuva Rank-Up-Magic Protodermic Evolution
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
-	image: image21
+	image: image45
 	rule text: During the Main Phase: Target 1 "Toa" monster you control; Special Summon, from your Extra Deck, 1 Warrior Xyz Monster whose Rank is 2 higher than that target's Rank or 2 lower than that target's Level, by using it as material, and if you do, you can attach 1 other card from your hand or face-up field to the Summoned monster as material, except this card. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
 	gamecode: 10100304
 card:
@@ -1347,7 +1348,15 @@ card:
 	gamecode: 10100305
 card:
 	has styling: false
-	notes: 
+	notes:
+		Already feeling like this floating effect won't work, so here's a different idea
+		=> - floating
+		=> + Detach 1; add 1 "Nuva" Spell/Trap from Deck or GY to hand.
+		==> This provides us with some benefit even when using no Toa, and lets us get away with no floating because you get e.g. a Tales to make up for your lost monsters
+		==> also lets us consistently have the Kanohi for the Kaita, which makes them a lot more powerful
+		=> Rest stays the same, except maybe make the pop on attack declaration (and have it target, easier that way)
+		==> should effect be fully available when using any Toa, for max compatibility with the RUM?
+		=> pretty sure that's also less words, yay
 	time created: 2014-12-08 15:30:26
 	time modified: 2024-03-12 20:45:31
 	card type: xyz monster
@@ -1369,7 +1378,12 @@ card:
 	gamecode: 10100325
 card:
 	has styling: false
-	notes: Would be nice to have some kind of "Wisdom Game" again, but space is tight with the floating effect, so it's just a good efficient negate
+	notes:
+		Would be nice to have some kind of "Wisdom Game" again, but space is tight with the floating effect, so it's just a good efficient negate
+		=> replacing the floating with a proactive search as on Akamai frees up some space
+		=> Wisdom game idea: QE target face-up card and declare card type, excavate 2 from opp's deck (or 1 deck + 1 hand?). Do (1+#matches) of: negate target, banish target, draw 1.
+		=> Optionally could also look at top X of opponent's Deck on summon to give you a "Wisdom" advantage and provide some non-search effect if there's no Toa material, just like Akamai always has the S/T pop
+		=> Maybe still a bit too long and convoluted, but we'll get there
 	time created: 2014-12-08 15:30:26
 	time modified: 2024-03-12 20:45:36
 	card type: xyz monster
@@ -1391,7 +1405,9 @@ card:
 	gamecode: 10100326
 card:
 	has styling: false
-	notes: 
+	notes:
+		Same Xyz Helper effect as base forms (but with Nuva from ED) is kinda lame and boring, instead we could do something simpler
+		=> "If the equipped monster has a Level, you can treat it as Level 6 or 8 for the Xyz Summon of a "Toa" monster."
 	time created: 2017-03-24 11:14:28
 	time modified: 2024-03-12 20:45:42
 	card type: spell card
