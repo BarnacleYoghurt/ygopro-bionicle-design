@@ -667,6 +667,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Attach material?}}
+		
 		Idea is to have a Nuva-searchable card that lets you bridge a single Nuva into a Mata Combination (hence enabling all kinds of plays), while also acting as a rankup for a reasonable way to make Toa Nuva Kaita
 		=> attach extra card from hand/field so you can even enable 2-mat effects at cost of advantage
 		=> Can it/should it really be a RUM?
@@ -1287,7 +1289,9 @@ card:
 	gamecode: DRAFT10100357
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Equip opponent's monster}}
+		{{Special Summon 1 "Bohrok" Xyz Monster}}
 	time created: 2023-12-10 11:20:35
 	time modified: 2024-03-12 20:46:14
 	card type: fusion monster
@@ -1309,7 +1313,9 @@ card:
 	gamecode: 10100349
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Gain ATK and attacks}}
+		{{Special Summon 1 "Bohrok" Xyz Monster}}
 	time created: 2023-12-10 11:20:35
 	time modified: 2024-03-12 20:46:04
 	card type: fusion monster
@@ -1332,6 +1338,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Set 1 "Nuva" Spell/Trap}}
+		{{Return 1 "Toa Nuva" monster to Deck}}
+		{{Add 1 "Energized Protodermis" card from your Deck to your hand?}}
+		
 		If Nuva Symbols become a sub-archetype, this could be an alternate target for half the Kanohi Nuva so the non-Trap ones aren't useless
 		=> should probably also do something that makes it useful on the opponent's turn, that's the whole advantage of being able to place face-up
 		==> A: Special Summon Nuva/EP (to make more Nuva) from GY or banished after opponent does something
@@ -1349,6 +1359,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Destroy 1 Spell/Trap on the field}}
+		{{Special Summon Level 8 "Toa" monsters}}
+		{{Affected by "Akamai, Toa Nuva Kaita of Valor": Cannot activate cards or effects}}
+		
 		Already feeling like this floating effect won't work, so here's a different idea
 		=> - floating
 		=> + Detach 1; add 1 "Nuva" Spell/Trap from Deck or GY to hand.
@@ -1379,6 +1393,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Negate the activation}}
+		{{Special Summon Level 8 "Toa" monsters}}
+		
 		Would be nice to have some kind of "Wisdom Game" again, but space is tight with the floating effect, so it's just a good efficient negate
 		=> replacing the floating with a proactive search as on Akamai frees up some space
 		=> Wisdom game idea: QE target face-up card and declare card type, excavate 2 from opp's deck (or 1 deck + 1 hand?). Do (1+#matches) of: negate target, banish target, draw 1.
@@ -1406,6 +1423,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck}}
+		
 		Same Xyz Helper effect as base forms (but with Nuva from ED) is kinda lame and boring, instead we could do something simpler
 		=> "If the equipped monster has a Level, you can treat it as Level 6 or 8 for the Xyz Summon of a "Toa" monster."
 	time created: 2017-03-24 11:14:28
@@ -1419,7 +1438,7 @@ card:
 	gamecode: 10100327
 card:
 	has styling: false
-	notes: 
+	notes: {{Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck}}
 	time created: 2017-03-24 11:14:28
 	time modified: 2024-03-12 20:45:47
 	card type: spell card
