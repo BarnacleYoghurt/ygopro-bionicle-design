@@ -1360,7 +1360,7 @@ card:
 	has styling: false
 	notes:
 		{{Destroy 1 Spell/Trap on the field}}
-		{{Special Summon Level 8 "Toa" monsters}}
+		{{Add "Nuva" Spell/Trap to hand}}
 		{{Affected by "Akamai, Toa Nuva Kaita of Valor": Cannot activate cards or effects}}
 		
 		Already feeling like this floating effect won't work, so here's a different idea
@@ -1372,7 +1372,7 @@ card:
 		==> should effect be fully available when using any Toa, for max compatibility with the RUM?
 		=> pretty sure that's also less words, yay
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-03-12 20:45:31
+	time modified: 2024-04-09 12:33:07
 	card type: xyz monster
 	name: Akamai, Toa Nuva Kaita of Valor
 	attribute: fire
@@ -1385,7 +1385,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		If this card is Xyz Summoned during your turn using a Level 8 "Toa" monster as material, your opponent cannot activate cards or effects until the end of the Battle Phase this turn. If this card destroys an opponent's monster by battle: You can detach 1 material from this card; destroy 1 Spell/Trap on the field. During the Main Phase (Quick Effect): You can Tribute this card, then target Level 8 "Toa" monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Akamai, Toa Nuva Kaita of Valor" once per turn.
+		If this card is Xyz Summoned during your turn using a "Toa" monster as material, your opponent cannot activate cards or effects until the end of the Battle Phase this turn. If this card declares an attack: You can detach 1 material from this card, then target 1 Spell/Trap on the field; destroy it. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use this effect of "Akamai, Toa Nuva Kaita of Valor" once per turn.
 	attack: 3400
 	defense: 2400
 	rarity: common
@@ -1393,8 +1393,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Look at up to 5 cards from the top of each player's Deck}}
 		{{Negate the activation}}
-		{{Special Summon Level 8 "Toa" monsters}}
+		{{Add "Nuva" Spell/Trap to hand}}
 		
 		Would be nice to have some kind of "Wisdom Game" again, but space is tight with the floating effect, so it's just a good efficient negate
 		=> replacing the floating with a proactive search as on Akamai frees up some space
@@ -1402,7 +1403,7 @@ card:
 		=> Optionally could also look at top X of opponent's Deck on summon to give you a "Wisdom" advantage and provide some non-search effect if there's no Toa material, just like Akamai always has the S/T pop
 		=> Maybe still a bit too long and convoluted, but we'll get there
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-03-12 20:45:36
+	time modified: 2024-04-09 21:37:48
 	card type: xyz monster
 	name: Wairuha, Toa Nuva Kaita of Wisdom
 	attribute: wind
@@ -1415,7 +1416,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		Once per turn, when your opponent activates a card or effect while this card has a Level 8 "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, banish that card. During the Main Phase (Quick Effect): You can Tribute this card, then target Level 8 "Toa" monsters in your GY, up to the number of materials this card had; Special Summon them. You can only Special Summon "Wairuha, Toa Nuva Kaita of Wisdom" once per turn.
+		If this card is Special Summoned: You can look at up to 5 cards from the top of each player's Deck. When your opponent activates a card or effect while this card has a "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, banish that card. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use each effect of "Wairuha, Toa Nuva Kaita of Widsom" once per turn.
 	attack: 3000
 	defense: 3000
 	rarity: common
