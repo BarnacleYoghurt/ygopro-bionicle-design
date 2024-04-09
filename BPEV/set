@@ -1423,30 +1423,41 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck}}
+		{{Change name and Level}}
 		
 		Same Xyz Helper effect as base forms (but with Nuva from ED) is kinda lame and boring, instead we could do something simpler
 		=> "If the equipped monster has a Level, you can treat it as Level 6 or 8 for the Xyz Summon of a "Toa" monster."
+		=> or make it copy name and Level of a Mata/Nuva in Deck and then Xyz, so you can use random stuff as second material for anything
+		==> Rejected - too long
+		==> but without that it literally doesn't work for any of the Mata Xyz ...
+		==> can we maybe get away with just changing the properties and no insta-Xyz? Or is there some bullshit enabled by keeping the monster around in disguise?
+		===> All the Nuva support I guess, but eh, fair enough with the extra hoop you have to jump
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-12 20:45:42
+	time modified: 2024-04-09 11:02:46
 	card type: spell card
 	name: Great Kanohi Aki Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image55
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage.  Once per turn, while this card is equipped to a "Toa Nuva" Fusion Monster you control: You can Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage. While this card is equipped to a monster: You can reveal 1 "Toa" monster in your Deck or Extra Deck, then target 1 monster you control with a Level; its Level and name become the same as the revealed monster (until the end of this turn), then destroy this card.
 	gamecode: 10100327
 card:
 	has styling: false
-	notes: {{Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck}}
+	notes:
+		{{Add 1 "Nuva" Normal of Quick-Play Spell from your Deck to your hand}}
+		
+		Durendal-style wording for search: "While this card is equipped to a monster: You can add 1 "Nuva" Normal or Quick-Play Spell from your Deck to your hand, then destroy this card. You can only use this effect of "Great Kanohi Rua Nuva" once per turn."
+		=> Pro: Has precedent, guards against any potential weird cases of the card being on the field as a non-equip, works even through destruction protection
+		=> Contra: Slightly more words, awkward to implement on Aki Nuva (because there's no real action to go before the "then") and having them differ feels wrong
+		==> Hauteclere does also have the "no real action" and doesn't care, tho
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-12 20:45:47
+	time modified: 2024-04-09 10:14:27
 	card type: spell card
 	name: Great Kanohi Rua Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image57
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it is unaffected by your opponent's card effects, also your opponent must keep their hand revealed.  Once per turn, while this card is equipped to a "Toa Nuva" Fusion Monster you control: You can Special Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck, then, immediately after this effect resolves, Xyz Summon 1 "Toa" Xyz Monster using monsters you control, including that Special Summoned monster.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it is unaffected by your opponent's card effects, also your opponent must keep their hand revealed. While this card is equipped to a monster: You can add 1 "Nuva" Normal or Quick-Play Spell from your Deck to your hand, then destroy this card. You can only use this effect of "Great Kanohi Rua Nuva" once per turn.
 	gamecode: 10100328
 card:
 	has styling: false
