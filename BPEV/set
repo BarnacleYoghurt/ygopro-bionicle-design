@@ -1341,6 +1341,7 @@ card:
 		{{Set 1 "Nuva" Spell/Trap}}
 		{{Return 1 "Toa Nuva" monster to Deck}}
 		{{Add 1 "Energized Protodermis" card from your Deck to your hand?}}
+		{{Special Summon 1 "Toa Nuva" Fusion Monster?}}
 		
 		If Nuva Symbols become a sub-archetype, this could be an alternate target for half the Kanohi Nuva so the non-Trap ones aren't useless
 		=> should probably also do something that makes it useful on the opponent's turn, that's the whole advantage of being able to place face-up
