@@ -1394,17 +1394,25 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Look at up to 5 cards from the top of each player's Deck}}
 		{{Negate the activation}}
 		{{Add "Nuva" Spell/Trap to hand}}
+		{{Banish both that card and the top card of your opponent's Deck}}
+		{{Banish both that card and the top card of your Deck}}
+		{{Do not banish}}
 		
 		Would be nice to have some kind of "Wisdom Game" again, but space is tight with the floating effect, so it's just a good efficient negate
 		=> replacing the floating with a proactive search as on Akamai frees up some space
 		=> Wisdom game idea: QE target face-up card and declare card type, excavate 2 from opp's deck (or 1 deck + 1 hand?). Do (1+#matches) of: negate target, banish target, draw 1.
 		=> Optionally could also look at top X of opponent's Deck on summon to give you a "Wisdom" advantage and provide some non-search effect if there's no Toa material, just like Akamai always has the S/T pop
 		=> Maybe still a bit too long and convoluted, but we'll get there
+		==> on further thought, having it not be strictly as response is a bit off regarding the Kal Kaita Ja interaction, so maybe we should keep the original idea and integrate just a bit of wisdom after all
+		==> For example: Optional banish of negated card + top of either Deck, draw 1 if the card types differ (requiring them to match would be backwards because monsters are both the best to banish after negating and the largest part of most decks!)
+		===> this has the side benefit that we can definitely always negate even if banishing is offline
+		===> Wisdom included in the form of having to decide which Deck you banish from to get the best shot at a draw
+		==> sadly the topdeck reveal does not fit in this way, but that's kinda annoying to resolve in gameplay anyway
+		==> different change on the side: Shared HOPT between search and negate (compare Chixiao), so a negate actually has a chance to stop you from becoming invincible by searching the Rua Nuva
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-04-09 21:37:48
+	time modified: 2024-04-11 00:04:46
 	card type: xyz monster
 	name: Wairuha, Toa Nuva Kaita of Wisdom
 	attribute: wind
@@ -1417,7 +1425,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		If this card is Special Summoned: You can look at up to 5 cards from the top of each player's Deck. When your opponent activates a card or effect while this card has a "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, banish that card. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use each effect of "Wairuha, Toa Nuva Kaita of Widsom" once per turn.
+		When your opponent activates a card or effect while this card has a "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, you can banish both that card and the top card of either player's Deck. Then, if you banished 2 different card types (Monster, Spell, Trap), draw 1 card. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use 1 "Wairuha, Toa Nuva Kaita of Wisdom" effect per turn, and only once that turn.
 	attack: 3000
 	defense: 3000
 	rarity: common
