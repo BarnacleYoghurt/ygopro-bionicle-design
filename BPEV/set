@@ -676,14 +676,18 @@ card:
 		=> with some clever phrasing and generification, we can do everything we want in one effect ... and while we're at it, let's have some fun by allowing access to the R4/R6/R8/R10 Warrior pool ;)
 		==> only issue: this lets you go L8 Nuva => R6 Kaita, rather than just the combinations - let's see if that matters
 		==> maybe some drawback for summoning non-Toa (e.g. banish at end of turn)
+		
+		Careful: If Aki Nuva can change names, it + this + any monster gives access to the whole Toa Xyz pool sans Nuva Kaita, and if we ever make a L10 Toa (e.g. Nui Stone Tuyet) those are suddenly on the table too
+		=> countermeasure: "in its original name"
+		=> Toads aren't Toa because I say so, but just so this phrasing doesn't cause any confusion, let's slap a Warrior restriction on there as well
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-26 10:10:27
+	time modified: 2024-04-14 14:45:36
 	card type: spell card
 	name: Nuva Rank-Up-Magic Protodermic Evolution
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image45
-	rule text: During the Main Phase: Target 1 "Toa" monster you control; Special Summon, from your Extra Deck, 1 Warrior Xyz Monster whose Rank is 2 higher than that target's Rank or 2 lower than that target's Level, by using it as material, and if you do, you can attach 1 other card from your hand or face-up field to the Summoned monster as material, except this card. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
+	rule text: During the Main Phase: Target 1 Warrior monster you control with "Toa" in its original name; Special Summon, from your Extra Deck, 1 Warrior Xyz Monster whose Rank is 2 higher than that target's Rank or 2 lower than that target's Level, by using it as material, and if you do, you can attach 1 other card from your hand or face-up field to the Summoned monster as material, except this card. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
 	gamecode: 10100304
 card:
 	has styling: false
