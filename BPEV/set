@@ -1246,6 +1246,9 @@ card:
 		===> Works going second
 		===> but also when you need to dodge an Imperm real quick!
 		===> maybe make that face-up card?
+		==> actually having to run the Bahrag specifically kind of screws fusion builds with the extra tight ED space ...
+		===> Solution: "by banishing 2 Level 8 or higher Bohrok monsters with different names from your Extra Deck" (lore is still satisfied by certain Krana-Kal only interacting with banished Bahrag)
+		===> on the other hand, the turbo might not actually be THAT important ...
 		=> might also be good to send off/put back the summoned monster after X period time so you can't get too ridiculously ahead while winning
 		==> opponent's (next) EP is the conservative option that still works, essentially never lets us have more than 1 'fornication Kal on our own turn while still allowing set up for opponent's turn
 		==> EP of your next turn is basically full freedom, you get to make stuff in advance for opponent's turn, keep the things you make on theirs, fully stock Lehvak-Kal, get the 3 for a Kaita off this one card, etc, etc
@@ -1296,8 +1299,21 @@ card:
 	notes:
 		{{Equip opponent's monster}}
 		{{Special Summon 1 "Bohrok" Xyz Monster}}
+		
+		Given the difficulty of summoning this in the first place, needing to banish 3 for the full effect kinda sucks
+		=> screws you out of revival if the materials didn't have any Bohrok attached, which is quite likely
+		=> Swarm Fusion is always 1 draw no matter how much gets banished, so no need to having anything >1 for that synergy
+		=> Option A: "(Quick Effect): You can target 1 monster your opponent controls or in their GY, also you can banish 1 "Bohrok" monster from your GY; equip that target to this card. If you banished a monster at activation, your opponent cannot activate cards or effects in response to this effect's activation."
+		==> not significantly shorter
+		==> no precedent for optional costs on effects (only cards)
+		=> Option B: "... You can banish up to 3 "Bohrok" cards ..."
+		==> subtle difference, but still works with Swarm Fusion and is much less harmful
+		=> Option C: "(Quick Effect): You can banish 1 "Bohrok" monster from your GY, then target 1 monster your opponent controls or in their GY; equip it to this card. Your opponent cannot activate cards or effects in response to this effect's activation."
+		==> actually is a few words shorter
+		==> quite the buff, but probably deserved because, again, this is hard to summon
+		==> actually let's put B in there as well, the fusion spell is asking for it
 	time created: 2023-12-10 11:20:35
-	time modified: 2024-03-12 20:46:14
+	time modified: 2024-04-22 18:55:51
 	card type: fusion monster
 	name: Bohrok-Kal Kaita Ja
 	attribute: light
@@ -1311,7 +1327,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Bohrok Gahlok-Kal" + "Bohrok Kohrak-Kal" + "Bohrok Lehvak-Kal"
-		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. (Quick Effect): You can banish up to 3 "Bohrok" monsters from your GY, then target 1 monster in your opponent's GY, or on their field if you banished 2 or more; equip it to this card. If you banished 3, your opponent cannot activate cards or effects in response to this effect's activation. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Ja" once per turn.
+		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. (Quick Effect): You can banish 1 "Bohrok" card from your GY, then target 1 monster your opponent controls or in their GY; equip it to this card. Your opponent cannot activate cards or effects in response to this effect's activation. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Ja" once per turn.
 	attack: 2500
 	defense: 2900
 	gamecode: 10100349
@@ -1321,7 +1337,7 @@ card:
 		{{Gain ATK and attacks}}
 		{{Special Summon 1 "Bohrok" Xyz Monster}}
 	time created: 2023-12-10 11:20:35
-	time modified: 2024-03-12 20:46:04
+	time modified: 2024-04-22 19:00:01
 	card type: fusion monster
 	name: Bohrok-Kal Kaita Za
 	attribute: light
@@ -1335,7 +1351,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Bohrok Tahnok-Kal" + "Bohrok Nuhvok-Kal" + "Bohrok Pahrak-Kal"
-		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. You can banish up to 3 "Bohrok" monsters from your GY; until the end of this turn, this card gains 1000 ATK for each, also it can make up to that many attacks on monsters. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Za" once per turn.
+		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. You can banish up to 3 "Bohrok" cards from your GY; until the end of this turn, this card gains 1000 ATK for each, also it can make up to that many attacks on monsters during each Battle Phase this turn. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Za" once per turn.
 	attack: 3000
 	defense: 0
 	gamecode: 10100348
