@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.6.3
+	edition: Version 4.6.4
 	copyright: 
 card:
 	has styling: false
@@ -1380,13 +1380,13 @@ card:
 		=> in this case, both the on-field effects require a finite resource: The Set has to target the sent Spell/Trap (so using it multiple times off 1 trigger only helps for very luck mass mills), and the tagout has to shuffle back a Toa Nuva
 		==> ergo, stacking them only leads to plusses in very rare cases and we should be fine doing the "normal" thing here!
 	time created: 2023-11-09 22:33:52
-	time modified: 2024-04-22 21:23:59
+	time modified: 2024-04-28 17:14:19
 	card type: spell card
 	name: Tales of the Nuva
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image53
-	rule text: When this card is activated: You can add 1 "Energized Protodermis" card from your Deck to your hand. Once per turn, if a "Nuva" Spell/Trap(s) is sent from the hand and/or Deck to your GY: You can target 1 of them; Set it to your field. If your opponent activates a monster effect: You can send this card to the GY, then target 1 "Toa Nuva" monster you control or in your GY; shuffle it into the Deck, and if you do, you can Special Summon 1 "Toa Nuva" Fusion Monster with a different name from your Extra Deck. You can only activate 1 "Tales of the Nuva" per turn.
+	rule text: When this card is activated: You can add 1 "Energized Protodermis" card from your Deck to your hand. If a "Nuva" Spell/Trap(s) is sent from the hand and/or Deck to your GY: You can target 1 of them; Set it to your field. If your opponent activates a monster effect: You can send this card to the GY, then target 1 "Toa Nuva" monster you control or in your GY; shuffle it into the Deck, and if you do, you can Special Summon 1 "Toa Nuva" Fusion Monster with a different name from your Extra Deck. You can only use each effect of "Tales of the Nuva" once per turn.
 	gamecode: 10100305
 card:
 	has styling: false
