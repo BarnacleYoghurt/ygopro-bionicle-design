@@ -1372,9 +1372,11 @@ card:
 		Once per turn activation vs once per turn each?
 		=> the former is more abusable with Kanohi Nuva searches and such
 		=> but the latter is almost unprecedented on continuous spells with on-activation effects (only Dark Magical Circle), and works in a confusing way where the activation is HOPT anyway but negated activations also count towards the limit
+		==> Actually, upon further research: HOPT activation clauses on specifically Continuous Spells/Traps that can be placed face-up by other cards also only exist on exactly Virtual World Gate Xuanwu, and that has an additional HOPT on the effect too ... so clearly that's also a source of confusion that is preferrably avoided
+		==> Also, with the soft OPT Nuva Cube also working with this, there's a possibility of just recycling 1 copy up to 3 times, which doesn't seem good
+		==> may have to revert this change after all, or spend more words on an extra effect HOPT ...
 		=> in this case, both the on-field effects require a finite resource: The Set has to target the sent Spell/Trap (so using it multiple times off 1 trigger only helps for very luck mass mills), and the tagout has to shuffle back a Toa Nuva
 		==> ergo, stacking them only leads to plusses in very rare cases and we should be fine doing the "normal" thing here!
-
 	time created: 2023-11-09 22:33:52
 	time modified: 2024-04-22 21:23:59
 	card type: spell card
@@ -1387,9 +1389,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Destroy 1 Spell/Trap on the field}}
 		{{Add "Nuva" Spell/Trap to hand}}
-		{{Affected by "Akamai, Toa Nuva Kaita of Valor": Cannot activate cards or effects}}
+		{{Affected by "Akamai, Toa Nuva Kaita of Valor": Cannot activate cards or effects, except during the Main Phase 2 and End Phase}}
 		
 		Already feeling like this floating effect won't work, so here's a different idea
 		=> - floating
@@ -1398,9 +1399,11 @@ card:
 		==> also lets us consistently have the Kanohi for the Kaita, which makes them a lot more powerful
 		=> Rest stays the same, except maybe make the pop on attack declaration (and have it target, easier that way)
 		==> should effect be fully available when using any Toa, for max compatibility with the RUM?
+		==> the pop is actually kind of irrelevant since you're probably going to OTK via Aki Nuva anyways, and can make Zeus to deal with backrow even if not (caveat: at that point it's stoppable)
+		==> the way it takes advantage of the lock is cute, but overall probably better to cut it and stay at 2 effects
 		=> pretty sure that's also less words, yay
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-04-09 12:33:07
+	time modified: 2024-04-28 15:24:11
 	card type: xyz monster
 	name: Akamai, Toa Nuva Kaita of Valor
 	attribute: fire
@@ -1413,7 +1416,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		If this card is Xyz Summoned during your turn using a "Toa" monster as material, your opponent cannot activate cards or effects until the end of the Battle Phase this turn. If this card declares an attack: You can detach 1 material from this card, then target 1 Spell/Trap on the field; destroy it. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use this effect of "Akamai, Toa Nuva Kaita of Valor" once per turn.
+		After this card was Xyz Summoned during your turn using a "Toa" monster as material, your opponent cannot activate cards or effects for the rest of that turn, except during the Main Phase 2 and End Phase. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use this effect of "Akamai, Toa Nuva Kaita of Valor" once per turn.
 	attack: 3400
 	defense: 2400
 	rarity: common
