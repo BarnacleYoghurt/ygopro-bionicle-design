@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.6.4
+	edition: Version 4.6.5
 	copyright: 
 card:
 	has styling: false
@@ -797,19 +797,21 @@ card:
 		=> Basically makes all your Bohrok Stratos on SS
 		=> Targeting on only 1 effect should work since you choose at activation
 		=> Checks for control rather thab among the summoned monsters because phrasing the latter is a pain in the ass
+		==> oh shit I figured it out finally: "If the Summon is an Xyz Summon"! (see Dimension Slice). Side benefit: No longer completely bonkers with Kalifornication
+		==> is a smidgen shorter as well
 		=> Shame this needs bullet points, but the effect is still relatively short
 		
 		Soft OPT might be a bit gross now that Kalifornication exists as a good search target, even with the hard limit on activations
 		=> just give the effect a hard OPT and allow summoning from hand multiple times?
 	time created: 2015-04-13 11:25:06
-	time modified: 2023-11-13 23:42:08
+	time modified: 2024-05-01 13:31:00
 	card type: spell card
 	name: Bohrok-Kal Strategy
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image25
 	rule text:
-		When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. If a "Bohrok" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if you control a "Bohrok" Xyz Monster, you can activate both, in sequence;
+		When this card is activated: You can Special Summon 1 "Bohrok" monster from your hand. If a "Bohrok" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if the Summon is an Xyz Summon, you can activate both, in sequence;
 		<sym-auto>*</sym-auto>Target 1 other Spell/Trap on the field; destroy it.
 		<sym-auto>*</sym-auto>Add 1 "Bohrok" Spell/Trap from your Deck to your hand, except "Bohrok-Kal Strategy".
 		You can only use this effect of "Bohrok-Kal Strategy" once per turn.
