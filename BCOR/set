@@ -29,9 +29,14 @@ styling:
 card:
 	stylesheet: series10
 	has styling: false
-	notes: {{Destroy this card and Special Summon 1 "Rahi" monster}}
+	notes:
+		{{Special Summon 1 Reptile "Rahi" monster from your Spell & Trap Zone}}
+		
+		Overhauled Reptile Rahi Gimmick: Jumping between back and front row!
+		=> this one lets you jump forward when the time to hunt comes
+		=> old gimmick with Level/Type matches had to be cut for length, we'll just have to focus on mechanical synergies instead
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 20:01:50
+	time modified: 2024-07-17 18:03:12
 	extra data:
 		yugioh-standard-extra: card frame: legendary dragons
 	card type: normal monster
@@ -48,19 +53,25 @@ card:
 	number: BCOR-EN006
 	rule text: <i-flavor>The first thing to remember about Tarakava is that even if you can't see them, they are always there.</i-flavor>
 	pendulum: medium
-	pendulum text: While you have a Level 6 Reptile "Rahi" Pendulum Monster Card in your other Pendulum Zone, your opponent's cards and effects cannot be activated in response to the Pendulum Summon of a "Rahi" monster. When an opponent's monster declares a direct attack: You can destroy this card, and if you do, Special Summon 1 face-up "Rahi" Pendulum Monster from your Extra Deck.
-	pendulum scale 1: 3
-	pendulum scale 2: 3
+	pendulum text: Once per turn, when an attack is declared involving an opponent's monster: You can target 1 Reptile "Rahi" Monster Card in your Spell <sym-auto>&</sym-auto> Trap Zone; Special Summon it, and if you do, destroy that opponent's monster.
+	pendulum scale 1: 1
+	pendulum scale 2: 1
 	attack: 2600
 	defense: 1200
 	rarity: common
-	gamecode: 10100101
+	gamecode: DRAFT10100101
 card:
 	stylesheet: standard
 	has styling: false
-	notes: 
+	notes:
+		{{Special Summon 1 Beast or Winged Beast "Rahi" monster}}
+		
+		Overhauled Beast Rahi Gimmick: Board Building and Beatdown with Big Bosses!
+		=> also they eat/destroy each other a lot for their effects, like Dinosaurs or Memento
+		=> Kane-Ra takes advantage of that action, with a hint of the old "loner" effect in how it doesn't let you bring out duplicates and the buff it applies
+		==> synergy with Muaka is that you'd have the Muaka destroy something else to fuel its effect, which also represents the way the Kane-Ra's horns keep it safe
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 16:22:22
+	time modified: 2024-07-17 17:45:33
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -77,19 +88,25 @@ card:
 	number: BCOR-EN001
 	rule text: <i-flavor>Surprisingly, the Kane-Ra Bull is not a herd animal. Unlike some beasts, it does not require others of its kind for protection.</i-flavor>
 	pendulum: medium
-	pendulum text: While you have a Level 7 Beast "Rahi" Pendulum Monster Card in your other Pendulum Zone, your opponent's cards and effects cannot be activated in response to the Pendulum Summon of a "Rahi" monster. While you control exactly 1 "Rahi" monster (and no other face-up monsters), that monster gains 1000 ATK and cannot be destroyed by card effects.
-	pendulum scale 1: 3
-	pendulum scale 2: 3
+	pendulum text: Once per turn, if a monster(s) in your possession is destroyed by battle or card effect: You can destroy 1 card in your Pendulum Zone, then Special Summon 1 Beast or Winged Beast "Rahi" monster from your hand or GY, with a different name from the cards you currently control, and if you do, it gains 1000 ATK until the end of this turn.
+	pendulum scale 1: 1
+	pendulum scale 2: 1
 	attack: 2600
 	defense: 2300
 	rarity: common
-	gamecode: 10100102
+	gamecode: DRAFT10100102
 card:
 	stylesheet: standard
 	has styling: false
-	notes: {{Add "Rahi" Pendulum Monster to hand and destroy card in Pendulum Zone}}
+	notes:
+		{{Destroy 1 face-up monster}}
+		
+		Overhauled Insect Rahi Gimmick: Splashable Synchro Glue + Insect-locked Swarming engine!
+		=> the big ones belong to the latter category
+		=> triggers off all the swarming you do (including on the opponent's turn) to either stringer-tail at the opponent's field or call allies
+		==> and I guess it goes crazy in the mirror match, so that's nice
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-06 23:26:08
+	time modified: 2024-07-17 17:55:17
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -106,18 +123,22 @@ card:
 	number: BCOR-EN003
 	rule text: <i-flavor>Nui-Jaga commonly hunt in packs, which helps to make up for the fact that they are not very fast. One of the creatures will drive prey forward, usually into a canyon, where others wait to strike. Once the target is surrounded, the Nui-Jaga will call to each other. Their cries have been compared to the sound of glass breaking.</i-flavor>
 	pendulum: medium
-	pendulum text: While you have a Level 5 Insect "Rahi" Pendulum Monster Card in your other Pendulum Zone, cards in your Pendulum Zones cannot be destroyed by your opponent's card effects. Once per turn: You can add 1 face-up "Rahi" Pendulum Monster in your Extra Deck to your hand, then destroy 1 card in your Pendulum Zone.
+	pendulum text: If an Insect "Rahi" monster(s) is Special Summoned to your field (except during the Damage Step): You can target 1 face-up monster on the field; destroy it, and if it was an Insect "Rahi" monster, you can add 1 Insect "Rahi" monster with a different name from your Deck to your hand. You can only use this effect of "Nui-Jaga, Scorpion Rahi" once per turn.
 	pendulum scale 1: 8
 	pendulum scale 2: 8
 	attack: 2300
 	defense: 700
 	rarity: common
-	gamecode: 10100103
+	gamecode: DRAFT10100103
 card:
 	has styling: false
-	notes: {{Gain LP equal to destroyed monster's ATK}}
+	notes:
+		{{Destroy 1 other "Rahi" Monster Card and add 1 Beast or Winged Beast "Rahi" monster}}
+		
+		Our apex predator and main proactive engine piece
+		=> consumes the other Rahi and carries more fodder to its lair
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-06 22:40:32
+	time modified: 2024-07-17 17:58:10
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -134,18 +155,22 @@ card:
 	number: BCOR-EN002
 	rule text: <i-flavor>This Rahi relies primarily on its claws when hunting. Sinking them into its prey, it forces the unfortunate victim to the ground and then finishes the job with its teeth. The Muaka will then carry its kill off to a nearby lair.</i-flavor>
 	pendulum: medium
-	pendulum text: While you have a Level 7 Beast "Rahi" Pendulum Monster Card in your other Pendulum Zone, cards in your Pendulum Zones cannot be destroyed by your opponent's card effects. If a "Rahi" monster you control destroys an opponent's monster by battle: Gain LP equal to the destroyed monster's original ATK.
+	pendulum text: During your Main Phase: You can destroy 1 other "Rahi" Monster Card in your hand or face-up field, and if you do, add 1 Beast or Winged Beast "Rahi" monster from your Deck to your hand, except "Muaka, Tiger Rahi".  You can only use this effect of "Muaka, Tiger Rahi" once per turn.
 	pendulum scale 1: 8
 	pendulum scale 2: 8
 	attack: 2800
 	defense: 1900
 	rarity: common
-	gamecode: 10100104
+	gamecode: DRAFT10100104
 card:
 	has styling: false
-	notes: {{Special Summon "Rahi" monster from Deck}}
+	notes:
+		{{Special Summon 1 Insect "Rahi" monster from your Deck}}
+		
+		Swarms Insects from Deck, but locks you
+		=> this includes the various Tuners, and Nui-Jaga can turn it into a search
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 09:37:52
+	time modified: 2024-07-17 17:59:22
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -162,20 +187,26 @@ card:
 	number: BCOR-EN004
 	rule text: <i-flavor>A harsh buzz fills the air...a rustle of wings...a dark shape flying out of the sun...the warning signs of a Nui-Rama attack.</i-flavor>
 	pendulum: medium
-	pendulum text: While you have a Level 5 Insect "Rahi" Pendulum Monster Card in your other Pendulum Zone, your opponent's cards and effects cannot be activated in response to the Pendulum Summon of a "Rahi" monster. You can target 1 "Rahi" monster you control; Special Summon 1 "Rahi" monster with the same Type and a lower or equal Level from your Deck, but it cannot attack this turn. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
-	pendulum scale 1: 3
-	pendulum scale 2: 3
+	pendulum text: You can target 1 face-up monster you control; Special Summon 1 Insect "Rahi" monster with a lower or equal Level from your Deck, also you cannot Special Summon monsters for the rest of this turn, except Insect monsters. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
+	pendulum scale 1: 1
+	pendulum scale 2: 1
 	attack: 1800
 	defense: 1700
 	rarity: common
-	gamecode: 10100105
+	gamecode: DRAFT10100105
 card:
 	has styling: false
 	notes:
-		{{Gain 800 ATK}}
-		{{Return this card to your hand}}
+		{{Add 1 "Rahi" Normal Monster from your Deck to your hand}}
+		{{Special Summon this card}}
+		
+		Boss monster focused on the Normal Pendulums
+		=> additional searcher just for them
+		=> comes back from the GY if you have one of them on the field, being big and generally hard to out
+		=> gets a continuous boost form scales and other backrow (the towers)
+		=> designed in such a way that making a Toa Kaita does not clear it automatically!
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-05 13:45:22
+	time modified: 2024-07-17 18:09:35
 	extra data:
 		yugioh-standard-extra: card frame: effect monster
 	card type: effect monster
@@ -188,17 +219,23 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN007
-	rule text: Cannot be targeted or destroyed by your opponent's card effects. Once per turn, if a Spell/Trap Card is activated: This card gains 800 ATK until the end of this turn. During your Standby Phase: Return this Special Summoned card to your hand.
+	rule text: Gains 400 ATK/DEF for each Spell/Trap you control. You can only use each of the following effects of "Manas, Monstrous Crab Rahi" once per turn. You can Tribute this card from your hand or field; add 1 "Rahi" Normal Monster from your Deck to your hand. During your opponent's turn, if you control a "Rahi" Normal Monster Card (Quick Effect): You can Special Summon this card from your GY, and if you do, it is unaffected by other monsters' effects this turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3200
 	defense: 2600
 	rarity: common
-	gamecode: 10100106
+	gamecode: DRAFT10100106
 card:
 	has styling: false
-	notes: {{Reduce Level of "Rahi" monster and Summon another copy}}
+	notes:
+		{{Reduce Level of "Rahi" monster and Special Summon another copy}}
+		
+		Same idea as before, but
+		=> works even with Lv2, because why not really
+		=> works from hand too, so you don't have to jump through hoops to set it up
+		=> has a hard TWICE per turn - you get some sweet Tuner recursion without risking any bullshit loops
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 15:57:28
+	time modified: 2024-07-17 18:09:56
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -212,18 +249,22 @@ card:
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN021
-	rule text: <i-flavor></i>You can banish this card from your GY, then target 1 Level 3 or higher "Rahi" monster you control; reduce that target's Level by 1, then Special Summon 1 "Fikou, Spider Rahi" from your hand or Deck. You can only use this effect of "Fikou, Spider Rahi" once per turn.<i></i-flavor>
+	number: BCOR-EN022
+	rule text: <i-flavor></i>You can banish this card from your hand or GY, then target 1 Level 2 or higher "Rahi" monster you control; reduce that target's Level by 1, then Special Summon 1 "Fikou, Spider Rahi" from your hand or Deck. You can only use this effect of "Fikou, Spider Rahi" up to twice per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 600
 	defense: 400
 	rarity: common
-	gamecode: 10100107
+	gamecode: DRAFT10100107
 card:
 	has styling: false
-	notes: {{Place monster in Pendulum Zone}}
+	notes:
+		{{Grant effect to Reptile "Rahi" monster}}
+		
+		The Tarakava variant that helps Reptiles go into hiding in the backrow
+		=> Grants a Quick Effect to monsters on Summon so the Pendulum Effect doesn't have to be quick
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 20:01:46
+	time modified: 2024-07-17 18:12:52
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -240,21 +281,27 @@ card:
 	number: BCOR-EN005
 	rule text: <i-flavor>Sand Tarakava are slightly smaller than their Tarakava relatives. Their hunting method is to hide under the sand and wait for unsuspecting prey to come near.</i-flavor>
 	pendulum: medium
-	pendulum text: While you have a Level 6 Reptile "Rahi" Pendulum Monster Card in your other Pendulum Zone, cards in your Pendulum Zones cannot be destroyed by your opponent's card effects. Once per turn (Quick Effect): You can target 1 "Rahi" Pendulum Monster you control; place that target in your Pendulum Zone.
+	pendulum text:
+		Once per Chain, if a Reptile "Rahi" monster(s) is Special Summoned to your field: You can target 1 of those monsters; it gains this effect.
+		<sym-auto>*</sym-auto>Once per turn (Quick Effect): You can place this card face-up in your Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell, or if it is a Pendulum Monster, you can place it in your Pendulum Zone instead.
 	pendulum scale 1: 8
 	pendulum scale 2: 8
 	attack: 2300
 	defense: 1800
 	rarity: common
-	gamecode: 10100108
+	gamecode: DRAFT10100108
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Place "Rahi" monster from Extra Deck in Pendulum Zone}}
-		{{Opponent cannot activate effects during Battle Phase}}
+		{{Destroy 1 other Beast or Winged Beast "Rahi" Monster Card and Special Summon this card}}
+		{{Prevents effects during battle (heritable)}}
+		{{Prevents effects during battle}}
+		
+		Still retains the pattern of summoning itself and granting a bonus to Synchros, but
+		=> Self-SS has a thematic cost (kicking the shit out of other Rahi) rather than a generic condition, allowing it to simultaneously play a role in the combo
+		=> Bonus effect is heritable, but only for one generation and only to Rahi
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:04:29
+	time modified: 2024-07-17 18:22:44
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -270,24 +317,27 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN011
 	rule text:
-		<i-flavor></i>A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		●Your opponent's cards and effects cannot be activated during the Battle Phase.<i></i-flavor>
+		<i-flavor></i>A Synchro Monster Summoned using this card as material gains these effects.
+		● If it battles, your opponent's cards and effects cannot be activated until the end of the Damage Step.
+		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.<i></i-flavor>
 	pendulum: medium
-	pendulum text: If a card in your Pendulum Zone is destroyed: You can place 1 face-up "Rahi" Pendulum Monster from your Extra Deck in your Pendulum Zone. You can only use this effect of "Fusa, Kangaroo Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: During your Main Phase: You can destroy 1 other Beast or Winged Beast "Rahi" Monster Card in your hand or face-up field, and if you do, Special Summon this card. You can only use this effect of "Fusa, Kangaroo Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1600
 	defense: 1300
 	rarity: common
-	gamecode: 10100109
+	gamecode: DRAFT10100109
 card:
 	has styling: false
 	notes:
-		{{Destroy Spell/Trap cards}}
-		{{Face-up}}
-		{{Face-down}}
+		{{Change opponent's monster to attack position and negate its effects}}
+		
+		Beatdown-focused Synchro Boss
+		=> gets big all on its own, even without activating an effect
+		=> grabs opponent's monsters and strips them of all defenses to bite their heads off in battle
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 16:08:53
+	time modified: 2024-07-17 18:27:25
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -301,20 +351,27 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN038
+	number: BCOR-EN037
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		At the start of the Battle Phase: You can destroy all face-up or all face-down Spell/Trap Cards on the field, then this card gains 500 ATK for each of your cards destroyed this way, until the end of this turn. You can only use this effect of "Kuma-Nui, Rat Rahi" once per turn.
+		Gains 500 ATK for each other "Rahi" card you control. If this card battles an opponent's monster, at the start of the Damage Step: You can activate this effect; change that opponent's monster to Attack Position, also negate its effects until the end of this turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3000
 	defense: 2500
 	rarity: common
-	gamecode: 10100110
+	gamecode: DRAFT10100110
 card:
 	has styling: false
-	notes: {{Excavate to take control or Special Summon}}
+	notes:
+		{{Add "Rahi" Spell/Trap to Deck or send it to GY}}
+		{{Special Summon 1 Level 2 or lower "Rahi" Tuner from your hand or Deck}}
+		
+		Splashable Spell/Trap searcher
+		=> can go to hand or GY to access both modes
+		=> in particular, you can dump Hive Showdown to take control of an opponent's monster, preserving the flavor from ye olden times
+		=> can then also tribute off that monster (or any other, or itself to defend from Imperm) to bring out a Tuner for even more utility
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-06 23:35:58
+	time modified: 2024-07-17 18:31:04
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -328,22 +385,26 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN041
+	number: BCOR-EN040
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		Once per turn: You can target 1 face-up monster your opponent controls; excavate cards from the top of your Deck until you excavate a "Rahi" monster, then, if that monster's ATK is higher than the target's, send all excavated cards to the GY and take control of the target until the End Phase. Otherwise, Special Summon that monster and shuffle the remaining cards into the Deck.
+		If this card is Special Summoned: You can take 1 "Rahi" Spell/Trap from your Deck, and either add it to your hand or send it to the GY. During the Main Phase (Quick Effect): You can Tribute 1 monster; Special Summon 1 Level 2 or lower "Rahi" Tuner from your hand or Deck, but negate its effects. You can only use each effect of "Nui-Kopen, Wasp Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2100
 	defense: 2000
 	rarity: common
-	gamecode: 10100111
+	gamecode: DRAFT10100111
 card:
 	has styling: false
 	notes:
-		{{Draw 1 card}}
-		{{Add 1 "Rahi" monster from your Deck to your hand}}
+		{{Send 1 Beast or Winged Beast "Rahi" monster from your Deck to the GY}}
+		{{Special Summon 1 Level 4 or lower "Rahi" monster from your GY}}
+		
+		Mid-combo Beast Synchro that is also generic for e.g. Le-Koro
+		=> mills (Winged) Beast Rahi, to access e.g. Kewa or Ussal
+		=> upon further use as material or destruction fodder, can bring back a Rahi, perhaps the one it sent
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 22:45:18
+	time modified: 2024-07-17 18:33:14
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -357,20 +418,25 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN044
+	number: BCOR-EN043
 	rule text:
-		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		If this card is Synchro Summoned: Draw 1 card. If this card is sent from the field to the GY: Add 1 "Rahi" monster from your Deck to your hand. You can only use each effect of "Gukko-Kahu, Hawk Rahi" once per turn.
+		1 Tuner + 1+ non-Tuner monsters
+		If this card is Special Summoned: You can send 1 Beast or Winged Beast "Rahi" monster from your Deck to the GY. If this card is sent from the field to the GY: You can target 1 Level 4 or lower "Rahi" monster in your GY; Special Summon it. You can only use each effect of "Gukko-Kahu, Hawk Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2500
 	defense: 1000
 	rarity: common
-	gamecode: 10100112
+	gamecode: DRAFT10100112
 card:
 	has styling: false
-	notes: {{Lose 1000 ATK and shuffle monster into Deck}}
+	notes:
+		{{Lose ATK and shuffle cards into the Deck}}
+		
+		On-summon effect designed to inflict massive damage to the boardstate whenever it comes out from the backrow
+		=> preserves the idea of the old one, without needing to be loopable
+		=> also if you put it in the backrow (which it has no way of doing itself), it's just blanket protection
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-08 09:17:11
+	time modified: 2024-07-17 18:33:37
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -384,22 +450,27 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Reptile</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN043
+	number: BCOR-EN042
 	rule text:
 		<i-flavor></i>1 "Rahi" Tuner + 1+ non-Tuner monsters
-		You can target 1 monster your opponent controls; this card loses 1000 ATK, and if it does, shuffle that target into the Deck. You can only Special Summon "Tarakava-Nui, Lizard King Rahi(s)" once per turn.<i></i-flavor>
+		If this card is Special Summoned: You can target up to 2 cards your opponent controls; this card loses exactly 1000 ATK for each targeted card, and if it does, shuffle them into the Deck. You can only use this effect of "Tarakava-Nui, Lizard King Rahi" once per turn. While this card is a Continuous Spell, "Rahi" cards you control cannot be destroyed by your opponent's card effects.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2900
 	defense: 0
 	rarity: common
-	gamecode: 10100113
+	gamecode: DRAFT10100113
 card:
 	has styling: false
 	notes:
-		{{Change own level}}
 		{{Synchro Summon with material from face-up Extra Deck}}
+		{{Shuffle banished monster into Deck and Special Summon this card}}
+		
+		Beast Synchro Tuner that helps you mix up those heritable effects
+		=> can still do the summon with ED Pendulums, but only the proper Types
+		=> Level Change is now limited to only that case, on the field you can do adjustments using multiple monsters and such anyway
+		=> added endurance-focused recursion effect, worded generically so it also works in Po-Koro (which can now also make this card!)
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 22:40:07
+	time modified: 2024-07-17 18:39:09
 	extra data:
 		yugioh-standard-extra:
 			card frame: synchro monster
@@ -414,23 +485,26 @@ card:
 	type 3: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
-	number: BCOR-EN045
+	number: BCOR-EN044
 	rule text:
-		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		When this card is Synchro Summoned: You can choose a number from 1 to 4; reduce this card's Level by that number, then take damage equal to that number x 300. When using this Synchro Summoned card as a Synchro Material, you can use 1 face-up "Rahi" Pendulum Monster in your Extra Deck (and no other monsters) as the other Synchro Material.
+		1 Tuner + 1+ non-Tuner monsters
+		If this card would be used as Synchro Material, 1 face-up Beast or Winged Beast Pendulum Monster in your Extra Deck (and no other monsters) can be used as the other material. If you do this, you can treat this card as any Level from 1 to 5 for that Synchro Summon. If this card is in your GY: You can target 1 of your banished monsters; shuffle it into the Deck, and if you do, Special Summon this card. You can only Special Summmon "Dikapi, Ostrich Rahi(s)" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1000
 	defense: 1650
 	rarity: common
-	gamecode: 10100114
+	gamecode: DRAFT10100114
 card:
 	has styling: false
 	notes:
 		{{Attempt to take control}}
 		{{Send 1 card from your hand or field to the Graveyard?}}
 		{{Skip normal draw to add this card to your hand}}
+		
+		Overhaul: Just a slight simplification and shortening, as well as adjusting to new Kanohi mechanics.
+		=> struggle drawback now remains on your field as well, because at the end of the day the victim is still being controlled against its will
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 10:07:14
+	time modified: 2024-07-17 18:40:45
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -447,20 +521,22 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN049
-	rule text: Destroy all other "Kanohi" Equip Spell Cards equipped to the monster equipped with this card. During your opponent's Standby Phase, if they control the equipped monster: Your opponent can send 1 card from their hand or field to the GY, except the equipped monster; otherwise, take control of the equipped monster. While your opponent controls the equipped monster, it cannot declare an attack unless your opponent sends 1 card from their hand or field to the GY. During your Draw Phase, if your opponent controls a face-up monster and this card is in your GY, instead of conducting your normal draw: You can add this card to your hand. 
+	rule text: Destroy all other cards equipped to the equipped monster. The equipped monster cannot declare an attack or activate its effects unless its controller sends 1 card from their hand or field to the GY. During your opponent's Standby Phase, if they control the equipped monster: Your opponent can send 1 other card from their hand or field to the GY; otherwise, take control of the equipped monster. During your Draw Phase, if your opponent controls a face-up monster and this card is in your GY, instead of conducting your normal draw: You can add this card to your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100115
+	gamecode: DRAFT10100115
 card:
 	has styling: false
 	notes:
 		{{Tribute monsters to Ritual Summon}}
 		{{Return 1 "Kanohi" Equip Spell Card to deck to Ritual Summon}}
 		{{Banish this card and 1 Level 3 or higher monster from your Graveyard to Ritual Summon}}
+		
+		Yes, this one does not change in the overhaul.
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 23:40:36
+	time modified: 2024-07-17 18:41:11
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -477,7 +553,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN048
-	rule text: This card is used to Ritual Summon "The Makuta". You must also Tribute monsters from your hand or field whose total Levels equal 2 or more, OR place 1 "Kanohi" Equip Spell Card from the field or either GY on the bottom of the Deck. You can banish this card and 1 Level 3 or higher monster from your GY; Special Summon 1 "The Makuta" from your GY. (This Special Summon is treated as a Ritual Summon.)
+	rule text: This card is used to Ritual Summon "The Makuta". You must also Tribute monsters from your hand or field whose total Levels equal 2 or more, or place 1 "Kanohi" Equip Spell Card from the field or either GY on the bottom of the Deck. You can banish this card and 1 Level 3 or higher monster from your GY; Special Summon 1 "The Makuta" from your GY. (This Special Summon is treated as a Ritual Summon.)
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
@@ -493,8 +569,13 @@ card:
 		Since Rahi's GY focus is due to being controlled by Makuta, maybe make him help unite their nature as pendulum monsters with that (e.g. sending Rahi from ED to GY). Also, it might make sense to reduce the GY focus on Rahi in general a bit and only leave it on those with some sort of special Makuta connection, so there's a reference point for Rahi in their natural environment.
 		=> The big ones that were Makuta's main force in 2001 could also have GY-related Pendulum Effects
 		=> OTOH: All Rahi have a Makuta connection since they're made by them, and GY effects on pendulums are just a play on GY effects on Spells
+		=> actual changes:
+		==> Mandatory Ritual Summon removed
+		==> On-Summon adjusted to new official Toa starline, but only Special Summoned so the regular ones can theoretically actually have their final boss fight
+		==> in a perfectly on-theme world, it would be ED monsters, but then we don't get to have fun with Kaijus
+		==> self-Tribute now adds any Rahi card (so it's another S/T searcher) and then summons potentially anything from hand, which gives us a bunch of cool side utility
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-08 09:55:36
+	time modified: 2024-07-17 18:43:10
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -508,21 +589,26 @@ card:
 	type 2: <word-list-ENeffect>Ritual</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Ritual</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN036
-	rule text: <i-flavor></i>You can Ritual Summon this card with "I am Nothing". Must be Ritual Summoned, and cannot be Special Summoned by other ways. If this card is Ritual Summoned: Return all Special Summoned Level/Rank 5 or higher monsters on the field to the hand. You can Tribute this card; Special Summon 1 "Rahi" monster from your hand, Deck, or GY whose Level is less than or equal to the number of monsters in your GY. You can only use this effect of "The Makuta" once per turn.<i></i-flavor>
+	number: BCOR-EN035
+	rule text: <i-flavor></i>You can Ritual Summon this card with "I am Nothing". If this card is Ritual Summoned: You can return all Special Summoned monsters on the field with 2000 or more ATK to the hand. You can Tribute this card; add 1 "Rahi" card from your Deck or GY to your hand, then you can Special Summon 1 monster from your hand whose Level is less than or equal to the number of monsters in your GY. You can only use this effect of "The Makuta" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1500
 	defense: 1500
 	rarity: common
-	gamecode: 10100117
+	gamecode: DRAFT10100117
 card:
 	has styling: false
 	notes:
-		{{Send from Deck to Graveyard to increase Level/Rank of opponent's monsters}}
+		{{Add 1 "Makuta" Ritual Monster or 1 Ritual Spell to hand?}}
+		{{Send from Deck to Graveyard to make ATK of opponent's monsters 2000}}
 		{{Destroy S/T to add to hand}}
-		{{Add Ritual Monster/Spell to hand?}}
+		
+		Overhaul: Mainly to reduce text length, because that was a bit too much.
+		=> anti-negation removed because preventing interaction is a bit lame (but would be nicely villainous!)
+		=> mill effect adapted to new Makuta and conditioned on opponent having monsters so it doesn't require a lock
+		==> fixing ATK at 2000 could also be used to make monsters smaller, so that's neat
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-05 14:25:26
+	time modified: 2024-07-17 18:46:57
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -539,20 +625,29 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN050
-	rule text: When this card is activated: You can add 1 "Makuta" Ritual Monster or 1 Ritual Spell Card from your Deck to your hand. Once per turn: You can send up to 4 cards from the top of your Deck to the GY, and if you do, increase the Level/Rank of all Special Summoned monsters your opponent controls by 1 for each, until the end of this turn. You cannot Special Summon monsters the turn you activate this effect, except "Makuta" monsters.  Summons of "Makuta" monsters and the activation of their effects cannot be negated. If this card is in your GY: You can destroy 1 Spell/Trap Card you control, and if you do, add this card to your hand, but it cannot be activated for the rest of this turn.
+	rule text: When this card is activated: You can add 1 "Makuta" Ritual Monster or 1 Ritual Spell from your Deck to your hand. You can send cards from the top of your Deck to the GY, equal to the number of Special Summoned monsters your opponent controls; the ATK of all Special Summoned monsters your opponent currently controls become 2000, until the end of this turn. If this card is in your GY: You can destroy 1 Spell/Trap you control, and if you do, add this card to your hand. You can only activate 1 "Mangaia, Lair of Makuta" per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100118
+	gamecode: DRAFT10100118
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Double battle damage}}
-		{{Special Summons a "Rahi" monster from the Deck when it inflicts damage}}
+		{{Place banished monster on bottom of deck and destroy a card}}
+		{{Banish to gain ATK and add}}
+		{{Move to Extra Deck or Pendulum Zone}}
+		{{Add to Extra Deck face-up}}
+		{{Place in Pendulum Zone}}
+		
+		Overhauled Fish/Aqua/Sea Serpent Rahi gimmick: Disruption and removal from small monsters coupled with a banishment-based resource loop!
+		=> this is one of your offensive scales, giving you an extra pop whenever the disruptions banish for cost
+		=> all the scales recycle themselves to Pend Zone or ED if banished, to keep the loop going
+		==> unique cost for each, here it has to nomnom another card
+		=> Takea is also our starter, using some banishes as cost for search (which may also set up your scales) and getting big off them for niche scenarios
+		==> would be nice if the deck works without the search, because boy are those a lot of words
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:10:18
+	time modified: 2024-07-17 21:10:07
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -566,27 +661,31 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN016
-	rule text:
-		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>If this card inflicts battle damage to your opponent: Special Summon 1 "Rahi" monster from your Deck with ATK less than or equal to half the damage inflicted, but it cannot attack this turn.
+	number: BCOR-EN015
+	rule text: If this card is Normal or Special Summoned: You can banish up to 2 "Rahi" Monster Cards from your hand and/or field; this card gains 600 ATK for each, until the end of this turn, also you can add 1 Fish, Sea Serpent, or Aqua "Rahi" monster from your Deck to your hand, except "Takea, Shark Rahi". If this card is banished: You can  destroy 1 card you control, and if you do. add this card to your Extra Deck face-up or place it in your Pendulum Zone. You can only use this effect of "Takea, Shark Rahi" once per turn.
 	pendulum: medium
-	pendulum text: At the start of the Damage Step, if a "Rahi" monster you control battles: You can double any battle damage your opponent takes from that battle. You can only use this effect of "Takea, Shark Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: If your Fish, Sea Serpent, and/or Aqua "Rahi" monster(s) is banished: You can target 1 of those monsters and 1 face-up card your opponent controls; place the first target on the bottom of the Deck, and if you do, destroy the second target. You can only use this effect of "Takea, Shark Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1800
 	defense: 900
 	rarity: common
-	gamecode: 10100119
+	gamecode: DRAFT10100119
 card:
 	stylesheet: series10
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Draw 1 card}}
-		{{Deals 300 damage when a card or effect resolves}}
+		{{Inflict damage}}
+		{{Special Summon 1 Reptile "Rahi" Synchro Monster}}
+		{{Place 1 Reptile "Rahi" monster from your GY or face-up Extra Deck in your Spell & Trap Zone}}
+		
+		The only effect monster we have in the Reptiles for a good while, so it does everything
+		=> inflicts damage because Venom and to give our hit-and-run strategy a (slow) additional win condition
+		=> cheats out Synchros because we don't have Tuners
+		=> Poplars Reptiles into the backrow so e.g. Ranama has something to destroy without losing the scales
+		==> easily the most optional part, if we want to save words
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 20:13:47
+	time modified: 2024-07-18 01:04:41
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -600,56 +699,59 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Reptile</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN025
-	rule text:
-		<i-flavor></i>A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		● Each time your opponent activates a card or effect, inflict 300 damage to your opponent immediately after it resolves.<i></i-flavor>
+	number: BCOR-EN024
+	rule text: <i-flavor></i>You can target up to 2 "Rahi" Monster Cards you control; destroy them, and if you do, Special Summon 1 Reptile "Rahi" Synchro Monster from your Extra Deck whose Level is less than or equal to the total Levels of the destroyed monsters (this is treated as a Synchro Summon), then place it face-up in your Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell. If this card is destroyed: You can place 1 Reptile "Rahi" monster from your GY or face-up Extra Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell. You can only use each effect of "Bog Snake, Rahi" once per turn.<i></i-flavor>
 	pendulum: medium
-	pendulum text: If your opponent takes effect damage: Draw 1 card. You can only use this effect of "Bog Snake, Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: If a "Rahi" monster(s) is Special Summoned to your field: You can inflict 800 damage to your opponent, and if you do, destroy this card. You can only use this effect of "Bog Snake, Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1500
 	defense: 1500
 	rarity: common
-	gamecode: 10100120
+	gamecode: DRAFT10100120
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Add "Rahi" Tuner monster from Deck to hand}}
-		{{Negates Trap activations}}
+		{{Add "Rahi" monster(s) to hand}}
+		{{Destroy this card}}
+		
+		Doesn't belong in any Type, so generic searcher to bridge combos it is
+		=> in particular, it gets you Tuner access in Types that don't have it but can put out a bunch of Lv3s (like Beasts)
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 22:58:26
+	time modified: 2024-07-17 22:18:29
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
-	card type: effect monster
+	card type: xyz monster
 	name: Hikaki, Dragon Rahi
 	attribute: fire
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image22
 	type 1: <word-list-ENrace>Dragon</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Dragon</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN015
+	number: BCOR-EN047
 	rule text:
-		<i-flavor></i>A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		● When a Trap Card is activated (Quick Effect): You can shuffle 1 face-up "Rahi" Pendulum Monster from your Extra Deck into the Deck; negate the activation, and if you do, destroy that card.<i></i-flavor>
-	pendulum: medium
-	pendulum text: When a "Rahi" monster(s) is Special Summoned: You can add 1 "Rahi" Tuner from your Deck to your hand. You can only use this effect of "Hikaki, Dragon Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
-	pendulum scale 1: 5
-	pendulum scale 2: 5
+		2 + Level 3 monsters
+		If this card is Xyz Summoned using a "Rahi" monster as material: You can detach up to 2 materials from this card; add that many "Rahi" monsters (1 Tuner and/or 1 non-Tuner) from your Deck to your hand. If you do, you cannot Special Summon for the rest of this turn, except monsters with the same original Type as the added monster(s). You can only use this effect of "Hikaki, Dragon Rahi" once per turn. If the last material(s) is detached from this card: Destroy this card.
+	pendulum: none
+	pendulum text: 
+	pendulum scale 1: 
+	pendulum scale 2: 
 	attack: 1900
 	defense: 700
 	rarity: common
-	gamecode: 10100121
+	gamecode: DRAFT10100121
 card:
 	has styling: false
-	notes: {{Banish self and 1 "Rahi" monster in the Graveyard to banish Spell/Trap card}}
+	notes:
+		{{Special Summon this card}}
+		
+		Insects are Synchro glue, so the former Tuner handtraps have been nerfed a bit and instead also put themselves on the field
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 23:06:51
+	time modified: 2024-07-17 22:25:13
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -657,27 +759,31 @@ card:
 	card type: effect monster
 	name: Hoto, Firebug Rahi
 	attribute: fire
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto>
 	image: image23
 	type 1: <word-list-ENrace>Insect</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN022
-	rule text: <i-flavor></i>(Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY, then target 1 Spell/Trap your opponent controls; banish that target. Your opponent cannot activate the targeted card in response to this effect's activation. You can only use this effect of "Hoto, Firebug Rahi" once per turn.<i></i-flavor>
+	number: BCOR-EN023
+	rule text: If this card is in your hand (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card, and if you do, you can destroy 1 Spell/Trap your opponent controls. You can only use this effect of "Hoto, Firebug Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 600
 	defense: 300
 	rarity: common
-	gamecode: 10100122
+	gamecode: DRAFT10100122
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Special Summon Level 4 or lower "Rahi" monster from Extra Deck}}
-		{{Special Summons a "Rahi" monster with a lower level when destroyed by effect}}
+		{{Special Summon this card}}
+		{{Place 1 "Rahi" Pendulum Monster from your GY or face-up Extra Deck in your Pendulum Zone}}
+		
+		Trades, trades, trades
+		=> if something gets destroyed, bring this out instead
+		=> if you use it as material, put something in the Pendulum Zone instead
+		==> is that actually useful tho?
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 23:12:17
+	time modified: 2024-07-17 22:48:19
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -691,26 +797,32 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN032
+	number: BCOR-EN031
 	rule text:
-		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto><i-flavor></i>If this card is destroyed by a card effect and sent to the GY: Target 1 "Rahi" monster in your GY with a lower Level than this card; Special Summon it.<i></i-flavor>
+		A Synchro Monster Summoned using this card as material gains these effects.
+		● If it is Synchro Summoned: You can place 1 "Rahi" Pendulum Monster from your GY or face-up Extra Deck in your Pendulum Zone.
+		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.
 	pendulum: medium
-	pendulum text: If a card in your Pendulum Zone is destroyed: You can Special Summon 1 face-up Level 4 or lower "Rahi" Pendulum Monster from your Extra Deck. You can only use this effect of "Husi, Ostrich Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: If a Beast or Winged Beast "Rahi" Monster Card you control is destroyed by card effect (except during the Damage Step): You can Special Summon this card. You can only use this effect of "Husi, Ostrich Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1700
 	defense: 1100
 	rarity: common
-	gamecode: 10100123
+	gamecode: DRAFT10100123
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Add Rahi" Pendulum Monster from Deck to hand}}
-		{{Negates monster effect activations}}
+		{{Reduce ATK/DEF}}
+		{{Add Insect "Rahi" monster from Deck to hand}}
+		{{Special Summon this card}}
+		
+		The only "mid-size" Insect for now
+		=> Scale 6 so it can get out Nui-Rama/Nui-Jaga
+		=> Pendulum effect does whatever, painful stingers I guess
+		=> mainly it's an Insect-locking starter that gets you a Tuner, sets itself up as cost for the Special Summon, and then comes back
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 16:00:51
+	time modified: 2024-07-17 23:50:07
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -725,25 +837,28 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN019
-	rule text:
-		<i-flavor></i>A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>When a monster effect is activated (Quick Effect): You can shuffle 1 face-up "Rahi" Pendulum Monster from your Extra Deck into the Deck; negate the activation, and if you do, destroy that monster if its ATK is lower than the ATK of the monster you shuffled into the Deck.<i></i-flavor>
+	rule text: <i-flavor></i>If a face-up Spell/Trap is on the field (Quick Effect): You can Tribute this card; add 1 Insect "Rahi" monster from your Deck to your hand, except "Kofo-Jaga, Scorpion Rahi", also you cannot Special Summon for the rest of this turn, except Insect monsters. If this card is banished while you control a "Rahi" Tuner: You can Special Summon this card. You can only use each effect of "Kofo-Jaga, Scorpion Rahi" once per turn.<i></i-flavor>
 	pendulum: medium
-	pendulum text: When a "Rahi" monster is Normal Summoned: You can add 1 "Rahi" Pendulum Monster from your Deck to your hand. You can only use this effect of "Kofo-Jaga, Scorpion Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
-	pendulum scale 1: 5
-	pendulum scale 2: 5
+	pendulum text: If a monster(s) is Normal or Special Summoned, except during the Damage Step: You can destroy this card, and if you do, for the rest of this turn, all monsters your opponent controls lose 1000 ATK/DEF.
+	pendulum scale 1: 6
+	pendulum scale 2: 6
 	attack: 1300
 	defense: 1900
 	rarity: common
-	gamecode: 10100124
+	gamecode: DRAFT10100124
 card:
 	has styling: false
 	notes:
 		{{Special Summon from Pendulum Zone}}
 		{{Destroy 1 card your opponent controls}}
 		{{Destroys the monster that destroys it by battle and inflicts damage}}
+		
+		Defensive scale to go with Takea
+		=> ensures you keep those handtraps in rotation, if they weren't shuffled back that is
+		=> monster effect from hand has it "viciously defend its territory", somwhat protecting the setup from e.g. Raigeki
+		=> comes back from banishment, but burns you with its poisonous skin after you touch it
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:06:45
+	time modified: 2024-07-17 23:51:43
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -758,22 +873,25 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN008
-	rule text:
-		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>If <i-flavor></i>this card is destroyed by battle: Destroy the monster that destroyed it, and if you do, inflict damage to your opponent equal to that monster's original ATK.<i></i-flavor>
+	rule text: </i>During the Main Phase, if your opponent activates a card or effect while this card is in your hand (Quick Effect): You can target 1 Fish, Sea Serpent, or Aqua "Rahi" monster you control; return it to the hand, and if you do, Special Summon this card in Defense Position. If this card is banished: You can add this card to your Extra Deck face-up or place it in your Pendulum Zone, then take 1000 damage. You can only use each effect of "Makika, Toad Rahi" once per turn.<i>
 	pendulum: medium
-	pendulum text: If a card in your Pendulum Zone is destroyed: You can target 1 card your opponent controls; destroy that target. You can only use this effect of "Makika, Toad Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
-	pendulum scale 1: 5
-	pendulum scale 2: 5
+	pendulum text: During the End Phase: You can target 1 of your banished Fish, Sea Serpent, or Aqua "Rahi" monsters, except "Makika, Toad Rahi"; add it to your hand. You can only use this effect of "Makika, Toad Rahi" once per turn.
+	pendulum scale 1: 1
+	pendulum scale 2: 1
 	attack: 600
 	defense: 2100
 	rarity: common
-	gamecode: 10100125
+	gamecode: DRAFT10100125
 card:
 	has styling: false
-	notes: {{Banish self and 1 "Rahi" monster in the Graveyard to destroy monster}}
+	notes:
+		{{Destroy 1 monster your opponent controls}}
+		
+		One of the small disruptions utilized by the Fish/Aqua/Sea Serpent deck
+		=> same cost as the Insect Tuners or the old handtraps, but also works more efficiently if it's openly on the field
+		=> no HOPT because they're in swarms and we want to loop
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 10:13:47
+	time modified: 2024-07-18 00:25:15
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -788,23 +906,28 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN017
-	rule text: <i-flavor></i>(Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY; destroy 1 monster your opponent controls. You can only use this effect of "Ruki, Fish Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>(Quick Effect): You can banish both this card from your hand and 1 "Rahi" monster in your GY or face-up Extra Deck, or banish this face-up card you control; destroy 1 monster your opponent controls.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 700
 	defense: 100
 	rarity: common
-	gamecode: 10100126
+	gamecode: DRAFT10100126
 card:
 	has styling: false
-	notes: {{Banish self and 1 "Rahi" monster in the Graveyard to change battle positions}}
+	notes:
+		{{Change the battle positions of all face-up monsters}}
+		
+		"Slow and harmless", but still a disruption
+		=> it flies, so targeting protection as bonus
+		=> actually let's do destruction protection too - maybe that's enough to force the battle effect to be relevant
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 21:56:26
+	time modified: 2024-07-21 08:18:55
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: effect monster
-	name: Shore Turtle, Rahi
+	name: Shore Turtle, Shelled Rahi
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image28
@@ -813,20 +936,25 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN009
-	rule text: <i-flavor></i>When a monster declares an attack: You can banish this card from your hand or field and 1 "Rahi" monster from your GY; change the battle positions of all face-up monsters. You can only use this effect of "Shore Turtle, Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>Your opponent cannot target Fish, Sea Serpent, and Aqua "Rahi" monsters you control with card effects, also they cannot be destroyed by your opponent's card effects. When a monster declares an attack: You can banish both this card from your hand and 1 "Rahi" monster in your GY or face-up Extra Deck, or banish this face-up card you control; change all monsters on the field to Defense Position.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 0
 	defense: 1200
 	rarity: common
-	gamecode: 10100127
+	gamecode: DRAFT10100127
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Add "Rahi" Pendulum Monster to Extra Deck}}
-		{{Negates Spell activations}}
+		{{Special Summon this card and add 1 Beast or Winged Beast "Rahi" Pendulum Monster to Extra Deck}}
+		{{Negates cards or effects (heritable)}}
+		{{Negates cards or effects}}
+		{{Add to Extra Deck?}}
+		
+		Taku is smaller than Kewa, so this ended up being a Lv3 with Lv4 mechanics
+		=> Special Summon on empty field and put something in Extra, much like diving into the open waters and fetching a fish to your nest
+		=> and since it's the only survivor of the negate trio, let's just make it grant an omni
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-08 08:40:42
+	time modified: 2024-07-18 01:42:46
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -834,33 +962,37 @@ card:
 	card type: effect monster
 	name: Taku, Duck Rahi
 	attribute: wind
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image29
 	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN035
+	number: BCOR-EN034
 	rule text:
-		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		● When a Spell Card is activated (Quick Effect): You can shuffle 1 face-up "Rahi" Pendulum Monster from your Extra Deck into the Deck; negate the activation, and if you do, destroy that card.
+		A Synchro Monster Summoned using this card as material gains these effects.
+		● Once per turn, when a card or effect is activated (Quick Effect): You can shuffle 1 face-up "Rahi" Pendulum Monster from your Extra Deck into the Deck; negate the activation, and if you do, destroy that card.
+		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.
 	pendulum: medium
-	pendulum text: During your End Phase: You can add 1 "Rahi" Pendulum Monster from your Deck to your Extra Deck face-up. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: If you control no monsters: You can Special Summon this card, and if you do, add 1 Beast or Winged Beast "Rahi" Pendulum Monster from your Deck to your Extra Deck face-up, except "Taku, Duck Rahi". You can only use this effect of "Taku, Duck Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1400
 	defense: 1700
 	rarity: common
-	gamecode: 10100128
+	gamecode: DRAFT10100128
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Add "Rahi" Pendulum Monster from Graveyard to hand}}
-		{{Can increase ATK when battling by drawing a "Rahi" monster}}
-		{{Discard drawn monster to raise ATK?}}
+		{{Destroy 1 "Rahi" monster and Special Summon this card}}
+		{{Send 1 "Rahi" monster from your Deck or Extra Deck to the GY}}
+		{{Can attack all monsters (heritable)}}
+		{{Can attack all monsters}}
+		
+		Charge forward, crash through a monster in its path, and then unstoppably continue to mill
+		=> costly SS condition and going-second grant effect, so it gets an on-summon effect
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-09 15:44:27
+	time modified: 2024-07-20 18:07:11
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -876,25 +1008,31 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN014
 	rule text:
-		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>If this card attacks or is attacked: Draw 1 card and reveal it, then if it was a "Rahi" monster, you can discard it, and if you do, this card gains ATK equal to half the discarded monster's ATK until the end of this turn.
+		If this card is Normal or Special Summoned: You can send 1 Beast or Winged Beast "Rahi" monster from your Deck or face-up Extra Deck to the GY. You can only use this effect of "Vako, Rhino Rahi" once per turn. A Synchro Monster Summoned using this card as material gains these effects.
+		● This card can attack all monsters your opponent controls, once each.
+		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.
 	pendulum: medium
-	pendulum text: Once per turn, if a "Rahi" monster you control destroys an opponent's monster by battle: You can add 1 "Rahi" Pendulum Monster from your GY to your hand. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: During your Main Phase: You can destroy 1 "Rahi" monster you control, and if you do, Special Summon this card. You can only use this effect of "Vako, Rhino Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1900
 	defense: 700
 	rarity: common
-	gamecode: 10100129
+	gamecode: DRAFT10100129
 card:
 	has styling: false
 	notes:
-		{{Allow Pendulum Summon from Graveyard}}
-		{{Special Summon 1 Level 4 or lower EARTH monster from your Graveyard}}
-		{{Special Summon 1 Level 3 or lower "Rahi" monster from your Graveyard}}
+		{{Allow Pendulum Summon from GY}}
+		{{Special Summon 1 Level 4 or lower EARTH monster from your GY}}
+		{{Banish 1 "Rahi" monster to draw 1 card}}
 		{{Pendulum Summon including GY}}
+		
+		Useful tunneler
+		=> digs monsters out of the GY via Pendulum Summon (or something, I just like this gimmick)
+		=> aids both Onu-Koro and many of its Rahi Type-mates
+		=> helps you dig into your deck and recover resources if banished
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-08 10:19:55
+	time modified: 2024-07-20 18:10:59
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -909,22 +1047,25 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN013
-	rule text: If this card is sent to the GY: You can Special Summon 1 Level 4 or lower EARTH monster from your GY, except this card. If this card is banished: You can Special Summon 1 Level 3 or lower "Rahi" monster from your GY. You can only use 1 "Ussal, Crab Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can Special Summon 1 other Level 4 or lower EARTH monster from your GY. If this card is banished: You can target 1 Beast or Winged Beast "Rahi" monster in your GY; banish it, and if you do, draw 1 card. You can only use 1 "Ussal, Crab Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: Once per turn: You can reduce the Pendulum Scale of the card in your other Pendulum Zone by 1 until the End Phase; this turn, while this card is in your Pendulum Zone, you can also Pendulum Summon "Rahi" Pendulum Monsters from your GY, but monsters Summoned this way are destroyed during the End Phase.
+	pendulum text: Once per turn: You can activate this effect; this turn, if you Pendulum Summon while this card and another "Rahi" monster are in your Pendulum Zones, you can also Pendulum Summon up to 1 Beast or Winged Beast "Rahi" monster from your GY.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1000
 	defense: 1000
 	rarity: common
-	gamecode: 10100130
+	gamecode: DRAFT10100130
 card:
 	has styling: false
 	notes:
-		{{Send 1 "Rahi" monster from your Deck to the Graveyard to raise ATK}}
+		{{Send 1 "Rahi" monster from your Deck to the GY to raise ATK}}
 		{{Banish this card to destroy 1 card on the field}}
+		
+		Hard to make Level-wise, but a voracious pest once it's out
+		=> one day, the locust swarms may return ... in the Standby Phase
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 15:48:01
+	time modified: 2024-07-20 18:16:05
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -938,48 +1079,53 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN040
+	number: BCOR-EN039
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		When this card is Synchro Summoned: You can send 1 "Rahi" monster from your Deck to the GY; this card gains 500 ATK. You can banish this card until the End Phase of your next turn; destroy 1 card on the field.  You can only use this effect of "Kirikori-Nui, Locust Rahi" once per turn.
+		When this card is Synchro Summoned: You can send 1 "Rahi" card from your Deck to the GY; this card gains 500 ATK. You can banish this card until the Standby Phase of your next turn; destroy 1 card on the field.  You can only use this effect of "Kirikori-Nui, Locust Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1400
 	defense: 1000
 	rarity: common
-	gamecode: 10100131
+	gamecode: DRAFT10100131
 card:
 	has styling: false
-	notes: {{Banish self and 1 "Rahi" monster in the Graveyard to negate monster effect}}
+	notes: {{Special Summon this card}}
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 16:19:30
+	time modified: 2024-07-20 22:13:53
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: effect monster
-	name: Lightning Bug, Rahi
+	name: Electric Bug, Zapping Rahi
 	attribute: light
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto>
 	image: image33
 	type 1: <word-list-ENrace>Insect</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN023
-	rule text: <i-flavor></i>(Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY; negate the effects of 1 face-up monster on the field until the end of this turn. You can only use this effect of "Lightning Bug, Rahi" once per turn.<i></i-flavor>
+	number: BCOR-EN021
+	rule text: <i-flavor></i>If this card is in your hand (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card, and if you do, you can negate the effects of 1 face-up monster your opponent controls, until the end of this turn. You can only use this effect of "Electric Bug, Zapping Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 600
 	defense: 300
 	rarity: common
-	gamecode: 10100132
+	gamecode: DRAFT10100132
 card:
 	has styling: false
 	notes:
-		{{Send "Rahi" from Extra Deck to Graveyard}}
-		{{Add 1 Level 3 or lower "Rahi" monster from your Deck to your hand}}
-		{{Add 1 of your banished Level 3 or lower "Rahi" monsters to your hand}}
+		{{Change Levels}}
+		{{Add 1 "Rahi" monster from your Deck to your hand}}
+		{{Add 1 of your banished "Rahi" cards to your hand}}
+		
+		Helps you access additional resources, because stonks
+		=> can either clear itself from Pend Zone or get something in the ED to the GY in order to adjust Levels for Xyz/Synchro plays
+		=> searches if it goes to GY itself
+		=> recycles banished cards straight to hand on subsequent turns
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 23:12:49
+	time modified: 2024-07-20 18:24:59
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -994,28 +1140,34 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN012
-	rule text: <i-flavor></i>If this card is sent to the GY: You can add 1 Level 3 or lower "Rahi" monster from your Deck to your hand. If this card is banished: You can add 1 of your banished Level 3 or lower "Rahi" monsters that was not banished this turn to your hand. You can only use 1 "Mahi, Goat Rahi" effect per turn, and only once that turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is sent to the GY: You can add 1 Beast or Winged Beast "Rahi" monster from your Deck to your hand, except "Mahi, Goat Rahi". If this card is banished: You can target 1 of your banished "Rahi" cards that was not banished this turn; add it to your hand. You can only use 1 "Mahi, Goat Rahi" effect per turn, and only once that turn.<i></i-flavor>
 	pendulum: medium
-	pendulum text: (Quick Effect): You can send 1 face-up "Rahi" Pendulum Monster from your Extra Deck to the GY, then destroy this card. You can only use this effect of "Mahi, Goat Rahi" once per turn.
+	pendulum text: You can target up to 2 "Rahi" monsters you control; destroy 1 Beast or Winged Beast Monster Card in your Pendulum Zone or face-up Extra Deck, and if you do, increase or decrease the targeted monsters' Levels by 1.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 700
 	defense: 1500
 	rarity: common
-	gamecode: 10100133
+	gamecode: DRAFT10100133
 card:
 	has styling: false
 	notes:
-		{{Destroy Spell/Trap cards}}
-		{{Add 1 Level 4 or lower "Rahi" monster from your Graveyard to your hand}}
+		{{Destroy or negate monsters}}
+		{{Add 1 Level 4 or lower "Rahi" monster from your GY or face-up Extra Deck to your hand}}
+		{{Destroy them}}
+		{{Negate their effects}}
+		
+		Herd animal that reacts to danger, with references to Gali and Pohatu
+		=> kind of a disruption, more so if it has Taku inside
+		=> soft once per turn so a herd actually works properly!
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-05 14:47:09
+	time modified: 2024-07-20 18:31:53
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: synchro monster
-	name: Mata Nui Cow, Rahi
+	name: Mata Nui Cow, Bovine Rahi
 	attribute: earth
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image36
@@ -1023,23 +1175,25 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN039
+	number: BCOR-EN038
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		When this card is Synchro Summoned: You can destroy Spell/Trap Cards on the field, up to the number of "Rahi" monsters you control. If this card is sent from the field to the GY: Add 1 Level 4 or lower "Rahi" monster from your GY to your hand.
+		Once per turn, if a monster(s) is Special Summoned to your opponent's field (except during the Damage Step): You can target 1 of those monsters and 1 Beast or Winged Beast monster you control; either destroy them or negate their effects. Once per turn, during the End Phase, if this card is in the GY because this Synchro Summoned card was sent there from the field this turn: You can add 1 Level 4 or lower "Rahi" monster from your GY or face-up Extra Deck to your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1800
 	defense: 2400
 	rarity: common
-	gamecode: 10100134
+	gamecode: DRAFT10100134
 card:
 	has styling: false
 	notes:
 		{{Banish "Rahi" monster to change Pendulum Scale}}
 		{{Shuffle 1 of your banished "Rahi" monsters into the deck}}
 		{{Special Summon 1 Level 3 or lower "Rahi" monster from your hand}}
+		
+		Still missing good ideas for this one, so it does more or less what it used to do
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-06 22:23:38
+	time modified: 2024-07-20 18:33:00
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1053,27 +1207,32 @@ card:
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN034
-	rule text: If this card is sent to the GY: You can shuffle 1 of your banished "Rahi" cards into the deck. If this card is banished: You can Special Summon 1 Level 3 or lower "Rahi" monster from your hand. You can only use 1 "Moa, Bird Rahi" effect per turn, and only once that turn.
+	number: BCOR-EN033
+	rule text: If this card is sent to the GY: You can Special Summon 1 Level 4 or lower Beast or Winged Beast "Rahi" monster from your hand. If this card is banished: You can target 1 of your banished "Rahi" cards; place it on the bottom of your Deck. You can only use 1 "Moa, Bird Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: You can banish 1 "Rahi" Pendulum Monster from your Deck; this card's Pendulum Scale becomes the same as that monster's, and if it does, destroy this card during the End Phase. You can only use this effect of "Moa, Bird Rahi" once per turn.
+	pendulum text: During your Main Phase: You can banish 1 Beast or Winged Beast "Rahi" monster from your Deck, and if you do, destroy this card.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1300
 	defense: 600
 	rarity: common
-	gamecode: 10100135
+	gamecode: DRAFT10100135
 card:
 	has styling: false
-	notes: {{Banish this card and 1 card your opponent controls}}
+	notes:
+		{{Banish this card and 1 card your opponent controls}}
+		
+		Smol S:P-at-home boss monster for the Reptile gimmick
+		=> when something moves too close to the Lava, it grabs it and drags it down
+		=> then when it finishes eating it returns to lurking
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 10:08:21
+	time modified: 2024-07-20 18:36:46
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: synchro monster
-	name: Ranama, Magma Toad Rahi
+	name: Ranama, Lava Lurker Rahi
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image37
@@ -1081,15 +1240,15 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Reptile</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN042
+	number: BCOR-EN041
 	rule text:
-		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		You can target 1 card your opponent controls; banish both that target and this card until the End Phase of your next turn. You can only use this effect of "Ranama, Magma Toad Rahi" once per turn.
+		<i-flavor></i>1 "Rahi" Tuner + 1+ non-Tuner monsters
+		When your opponent activates a card or effect (Quick Effect): You can target up to 2 face-up monsters on the field, including this card; place them face-up in their owners' Spell <sym-auto>&</sym-auto> Trap Zones as Continuous Spells. You can only use this effect of "Ranama, Lava Lurker Rahi" once per turn. Once per turn, during the Standby Phase, if this card is a Continuous Spell: You can destroy 1 other Monster Card in a Spell <sym-auto>&</sym-auto> Trap Zone, and if you do, Special Summon this card.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2200
 	defense: 600
 	rarity: common
-	gamecode: 10100136
+	gamecode: DRAFT10100136
 card:
 	has styling: false
 	notes: {{Special Summon 1 EARTH monster from Graveyard}}
@@ -1109,7 +1268,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	number: BCOR-EN061
+	number: BCOR-EN062
 	rule text: When an EARTH monster you control is targeted for an attack: Special Summon this card in Defense Position as an Effect Monster (Rock/EARTH/Level 4/ATK 1300/DEF 2000). (This card is NOT treated as a Trap Card.) During the turn this card was Summoned this way, while it is face-up on the field, your opponent cannot target EARTH monsters you control for attacks, except this one. If this card is sent from the field to the GY: Special Summon 1 EARTH monster from your GY in face-up Defense Position. If you control a face-up Field Spell Card, you can activate this card from your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
@@ -1136,7 +1295,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	number: BCOR-EN060
+	number: BCOR-EN061
 	rule text: When an opponent's monster declares an attack: Negate the attack, and if you do, Special Summon 1 "Rahi Overlord Token" (Fiend/EARTH/Level 2/ATK 1000/DEF 1000). During your Standby Phase, if you control no monsters: You can banish this card from your GY; Special Summon 1 "Rahi Overlord Token".  If you control a face-up Field Spell Card, you can activate this card from your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
@@ -1145,9 +1304,13 @@ card:
 	gamecode: 10100138
 card:
 	has styling: false
-	notes: 
+	notes:
+		A surprise Rahi pops out and eats whatever just moved
+		=> also the Drifts do not affect it
+		=> best to just get a big guy for the pop, as on-summon effects won't work anyway
+		=> could also negate responses to Synchro effects from the GY, that fits the theme
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 23:42:05
+	time modified: 2024-07-20 18:38:31
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1163,18 +1326,24 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace><></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	number: BCOR-EN063
-	rule text: When your opponent Summons a monster(s), except during the Damage Step: Special Summon 1 "Rahi" monster whose Level is less than or equal to the highest Level among those monsters from your hand or Deck. Cards and effects cannot be activated in response to this Summon. You can only activate 1 "Encounter in the Drifts" per turn.
+	number: BCOR-EN064
+	rule text:
+		(This card is always treated as a "Rahi" card.)
+		When a monster your opponent controls activates its effect, except during the Damage Step: Special Summon 1 "Rahi" monster from your hand, Deck, or GY, and if you do, and its ATK is higher than that opponent's monster's, destroy that opponent's monster. Neither player can activate cards or effects when that monster is Special Summoned.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100139
+	gamecode: DRAFT10100139
 card:
 	has styling: false
-	notes: {{Banish card on the field}}
+	notes:
+		{{Destroy or banish a card}}
+		{{Banish it?}}
+		
+		Mutual destruction, but it also goes through protection
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 11:22:38
+	time modified: 2024-07-20 18:42:23
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1189,20 +1358,23 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN052
-	rule text: Destroy any number of other "Rahi" cards you control, and if you do, destroy the same number of cards your opponent controls. You can banish this card and 1 "Rahi" monster from your GY, then target 1 card on the field; banish it. You can only use 1 "Devastation of the Rahi" effect per turn, and only once that turn.
+	rule text: Destroy any number of other "Rahi" cards you control, and if you do, send the same number of cards your opponent controls to the GY. You can banish this card and 1 "Rahi" monster from your GY, then target 1 card on the field; destroy it, or if you control a "Rahi" Synchro Monster, you can banish it instead. You can only use 1 "Devastation of the Rahi" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100140
+	gamecode: DRAFT10100140
 card:
 	has styling: false
 	notes:
-		{{Flip summoned monster face-down}}
-		{{Destroy this card}}
-		{{Banish "Siege of the Rahi" from grave to negate destruction?}}
+		{{Draw 1 card}}
+		{{Change 1 face-up monster on the field to face-down Defense Position}}
+		{{Banish "Siege of the Rahi" instead?}}
+		
+		Your large Rahi suppress the opponent and your small Rahi gather supplies as you lay Siege
+		=> banish from field for protection as well, so you can clear backrow if needed
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 23:11:09
+	time modified: 2024-07-20 18:46:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1217,20 +1389,25 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN056
-	rule text: Once per turn, when your opponent Normal or Special Summons a Level 4 or lower monster(s): You can change 1 of those monsters to face-down Defense Position. During your End Phase, if you do not control a Level 5 or higher "Rahi" monster: Destroy this card. If a Level 5 or higher "Rahi" monster you control would be destroyed, you can banish this card from your GY instead.
+	rule text:
+		If a "Rahi" monster(s) is Normal or Special Summoned to your field, except during the Damage Step: You can activate 1 of these effects, based on the Level of that monster(s).
+		<sym-auto>*</sym-auto>4 or lower: Draw 1 card. <sym-auto>*</sym-auto>5 or higher: Change 1 face-up monster on the field to face-down Defense Position.
+		If a Level 5 or higher "Rahi" monster you control would be destroyed by battle or card effect, you can banish this card from your field or GY instead. You can only use each effect of "Siege of the Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100141
+	gamecode: DRAFT10100141
 card:
 	has styling: false
 	notes:
-		{{Place Comet Counter}}
-		{{Take control of opponent's monsters}}
-		{{Remove counters and inflict damage}}
+		{{Take control of all monsters your opponent controls with a Comet Counter}}
+		
+		Gradually infects the field, causing debilitating symptoms and laying the groundwork for mind control
+		=> note that the Comet Counter debuffs are linked to the card itself, so if it gets removed or you banish it to steal, those monsters are free to attack!
+		=> thanks Ghoti Fury for that banish cost wording
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:05:33
+	time modified: 2024-07-20 18:52:19
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1244,18 +1421,22 @@ card:
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
-	number: BCOR-EN062
-	rule text: Once per turn, before damage calculation, when a "Rahi" monster you control battles an opponent's monster: You can place 1 Comet Counter on that opponent's monster, and if you do, it cannot be destroyed by this battle. During the End Phase: Take control of all monsters with Comet Counters your opponent controls. If this face-up card leaves the field: Remove all Comet Counters on the field and inflict 400 damage to your opponent for each, then return control of all face-up monsters on the field to the owner.
+	number: BCOR-EN063
+	rule text: You can only control 1 "Infection of the Rahi". Each time a monster your opponent controls activates its effect while you control a "Rahi" Monster Card, place 1 Comet Counter on that opponent's monster (max. 1) after that effect resolves. Monsters with a Comet Counter cannot attack, also each time 1 leaves the field, inflict 400 damage to its owner. During your Battle Phase or your opponent's Main Phase: You can banish this card from your GY or your face-up Spell <sym-auto>&</sym-auto> Trap Zone; take control of all monsters your opponent controls with a Comet Counter, until the end of this turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100142
+	gamecode: DRAFT10100142
 card:
 	has styling: false
-	notes: {{Special Summon 1 "Rahi" monster from your Graveyard}}
+	notes:
+		{{Special Summon 1 "Rahi" monster from your GY}}
+		
+		Type-based search and recycling tool
+		=> has a double add geared to set up the Normal Pendulum pairs, but you can also use it as a regular search, or as a double search with effect monsters if you're willing to lose a card (to remain neutral)
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 10:02:04
+	time modified: 2024-07-21 09:06:58
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1264,23 +1445,26 @@ card:
 	name: Rahi Swarm
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
-	image: image44
+	image: image63
 	type 1: <word-list-ENrace></word-list-ENrace>
 	type 2: <word-list-ENeffect></word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN055
-	rule text: If your opponent controls a monster and you control no monsters: Add 2 "Rahi" monsters with the same Type, but different names, from your Deck to your hand. For the rest of this turn, your opponent takes no damage. You can banish this card from your GY; Special Summon 1 "Rahi" monster from your GY, but it cannot attack, also it is destroyed during the End Phase. You can only use 1 "Rahi Swarm" effect per turn, and only once that turn.
+	rule text: Add up to 2 "Rahi" monsters with the same Type from your Deck to your hand, then, if you added 2 monsters including an Effect Monster, banish 1 card from your hand, face-down. You can banish this card from your GY, then target 1 "Rahi" monster in your GY with the same Type as a "Rahi" Monster Card you control; Special Summon it. You can only use 1 "Rahi Swarm" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100143
+	gamecode: DRAFT10100143
 card:
 	has styling: false
-	notes: {{Return banished card and draw}}
+	notes:
+		{{Return banished card and draw}}
+		
+		Reinforcements for an established field, reinforcements in grind games
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-08 10:08:05
+	time modified: 2024-07-20 18:58:25
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1295,12 +1479,12 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN058
-	rule text: During the End Phase of the turn this card was activated, draw 1 card for each "Rahi" card banished to activate its own effect this turn. If you have 2 or less cards in your hand and this card is in your GY: You can shuffle this card and 1 of your banished "Rahi" cards into the Deck, then draw 1 card. You can only use 1 "The Ussalry Arrives" effect per turn, and only once that turn.
+	rule text: If you control a "Rahi" monster: You can Special Summon 1 "Rahi" Pendulum Monster from your Pendulum Zone or face-up from your Extra Deck, but banish it during the End Phase. During your Main Phase: You can shuffle this card and 1 of your banished "Rahi" cards into the Deck, then draw 1 card. You can only use 1 "The Ussalry Arrives" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100144
+	gamecode: DRAFT10100144
 card:
 	has styling: false
 	notes: 
@@ -1319,7 +1503,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN046
+	number: BCOR-EN045
 	rule text: Summoned with "The Island's Dark Tyrant".
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1000
@@ -1344,7 +1528,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN028
+	number: BCOR-EN027
 	rule text: W<i-flavor></i>hile your opponent controls a face-up monster, Level 4 or lower FIRE Warrior monsters you control gain 400 ATK for each "Matoran" monster you control. At the start of the Damage Step, if this card attacks, you can: Immediately after this effect resolves, Normal Summon 1 Warrior monster. You can only control 1 face-up "Matoran Guard Captain Jala".<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 800
@@ -1378,7 +1562,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN026
+	number: BCOR-EN025
 	rule text: <i-flavor></i>Other "Matoran" monsters you control cannot be destroyed by card effects. You can only use each of the following effects of "Matoran Assistant Hahli" once per turn. During the Main Phase (Quick Effect): You can inflict 400 damage to your opponent. If a WATER "Matoran" monster(s), except "Matoran Assistant Hahli", is sent to your GY, while this card is in your GY (except during the Damage Step): You can Special Summon this card, but banish it during the End Phase.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 400
@@ -1413,7 +1597,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN030
+	number: BCOR-EN029
 	rule text: When this card is Normal Summoned: You can target 1 of your banished EARTH monsters; place it on the bottom of the Deck, then you can reveal any number of "Matoran" monsters in your hand, and if you do, gain 500 LP for each. <i-flavor></i>During your Main Phase: You can Special Summon 1 Level 4 or lower Beast "Rahi" monster from your hand or GY, but banish it when it leaves the field. You can only use each effect of "Matoran Racer Onepu" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 700
@@ -1455,7 +1639,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN027
+	number: BCOR-EN026
 	rule text: If your opponent controls a monster, you can Special Summon this card (from your hand) in Attack Position to your zone in a column with no monsters. You can only Special Summon "Matoran Champion Huki" once per turn this way. Once per turn: You can target 1 face-up monster your opponent controls in the same column as a "Matoran" monster you control; until the end of this turn, this card gains ATK equal to that target's current ATK, but it cannot attack directly.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 800
@@ -1486,7 +1670,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	number: BCOR-EN031
+	number: BCOR-EN030
 	rule text: <i-flavor></i>If this card was Normal Summoned or flipped face-up this turn: You can Tribute this card; Special Summon up to 2 Level 2 "Matoran" monsters from your GY, except "Matoran Translator Matoro". When a monster(s) you control is flipped face-down, while this card is in your GY: You can banish this card; change those face-down monsters to face-up Defense Position. You can only use each effect of "Matoran Translator Matoro" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 300
@@ -1513,7 +1697,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN029
+	number: BCOR-EN028
 	rule text: If this card is Normal or Special Summoned: You can send 1 Winged Beast "Rahi" monster from your hand or Deck to the GY, and if you do, this card can attack your opponent directly this turn. You can only use this effect of "Matoran Pilot Kongu" once per turn. When this card inflicts battle damage to your opponent: You can banish 1 WIND monster from your GY, then target 1 face-up monster your opponent controls with DEF less than or equal to that banished monster's ATK; destroy it.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 800
@@ -1522,9 +1706,12 @@ card:
 	gamecode: 10100150
 card:
 	has styling: false
-	notes: {{Take control of Level 4 or lower monster Summoned this turn}}
+	notes:
+		{{Take control of 1 monster your opponent controls}}
+		
+		Lore gimmick way to steal monsters, with a more practical GY version (searchable via Nui-Kopen)
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-07 10:13:36
+	time modified: 2024-07-20 19:02:28
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1539,20 +1726,25 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN054
-	rule text: If your opponent controls 2 or more monsters with 2000 or more ATK and you control no monsters with 2000 or more ATK: Take control of the monster your opponent controls with the highest original ATK (your choice, if tied). During your opponent's Main Phase (Quick Effect): You can banish this card from your GY, then target 1 Level 4 or lower monster your opponent controls that was Summoned this turn; take control of it until the End Phase. You can only use this effect of "Rahi Hive Showdown" once per turn.
+	rule text: If your opponent controls 2 or more monsters with 2000 or more ATK: Take control of the monster your opponent controls with the highest original ATK (your choice, if tied). If you control a "Rahi" Synchro Monster: You can banish this card from your GY, then target 1 monster your opponent controls; take control of it until the end of this turn. You can only use 1 "Rahi Hive Showdown" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
 	rarity: common
-	gamecode: 10100151
+	gamecode: DRAFT10100151
 card:
 	has styling: false
 	notes:
-		{{Add WIND monster to hand}}
-		{{Special Summon 1 Level 4 or lower WIND monster from your Graveyard}}
-		{{Add "Rahi" card to hand}}
+		{{Send "Rahi" to GY and destroy Spell/Trap}}
+		{{Special Summon 1 Level 4 or lower WIND monster from your GY}}
+		{{Add "Rahi" monster to hand}}
+		
+		Similar to Ussal, but Lv4 (because bigger than Taku) and WIND
+		=> scavenges the hand/ED to carry in and drop boulders
+		=> WIND revival for Le-Koro synergy
+		=> if banished, scavenge in the other direction
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-04 15:39:17
+	time modified: 2024-07-20 22:10:02
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1560,47 +1752,51 @@ card:
 	card type: effect monster
 	name: Kewa, Vulture Rahi
 	attribute: wind
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image62
 	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN033
-	rule text: If this card is sent to the GY: You can Special Summon 1 Level 4 or lower WIND monster from your GY, except this card. If this card is banished: You can add 1 "Rahi" card from your GY to your hand. You can only use 1 "Kewa, Vulture Rahi" effect per turn, and only once that turn.
+	number: BCOR-EN032
+	rule text: If this card is sent to the GY: You can Special Summon other 1 Level 4 or lower WIND monster from your GY. If this card is banished: You can add 1 Beast or Winged Beast "Rahi" monster from your GY or face-up from your Extra Deck to your hand, except "Kewa, Vulture Rahi". You can only use 1 "Kewa, Vulture Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: If you control no other cards: You can add 1 WIND monster from your Deck to your hand, except "Kewa, Vulture Rahi", and if you do, destroy this card during the End Phase. You can only use this effect of "Kewa, Vulture Rahi" once per turn.
+	pendulum text: You can target 1 Spell/Trap on the field; send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up from your Extra Deck to the GY, and if you do, destroy that target. You can only use this effect of "Kewa, Vulture Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1400
 	defense: 400
 	rarity: common
-	gamecode: 10100152
+	gamecode: DRAFT10100152
 card:
 	has styling: false
-	notes: {{Banish self and 1 "Rahi" monster in the Graveyard to make monster unaffected}}
+	notes:
+		{{Special Summon this card}}
+		
+		Pesky hopper from Ga-Wahi, so bonus effect works a little like Nokama
+		=> thanks Odin for the wording
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 10:17:28
+	time modified: 2024-07-20 22:14:08
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: effect monster
-	name: Cliff Bug, Rahi
+	name: Cliff Bug, Hopper Rahi
 	attribute: water
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto>
 	image: image21
 	type 1: <word-list-ENrace>Insect</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN020
-	rule text: <i-flavor></i>When your opponent activates a card or effect (Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY, then target 1 card on the field; it is unaffected by the effects of cards with the same card type (Monster, Spell, or Trap) as the card your opponent activated, until the end of this turn. You can only use this effect of "Cliff Bug, Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is in your hand (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card, and if you do, you can make 1 face-up monster you control be unaffected by Spell/Trap effects until the end of this turn. You can only use this effect of "Cliff Bug, Hopper Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 500
 	defense: 500
 	rarity: common
-	gamecode: 10100153
+	gamecode: DRAFT10100153
 card:
 	has styling: false
 	notes: 
@@ -1660,34 +1856,36 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Send "Rahi" to Graveyard to lower ATK}}
-		{{Special Summon 1 Level 4 or lower WATER monster from your  Graveyard}}
-		{{Discard 1 "Rahi" monster to destroy 1 monster with 2000 or less ATK}}
+		{{Set this card}}
+		{{Special Summon this card?}}
+		
+		If I can't be a Rahi or an Elemental I'll be a Trap Hole, fuck you
+		=> I wonder if anyone would bother playing this in Traptrix ...
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-03 11:04:02
+	time modified: 2024-07-20 22:32:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
-	card type: effect monster
-	name: Daikau, Floral Rahi
-	attribute: water
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	card type: trap card
+	name: Daikau Trap Hole
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
 	image: image56
 	type 1: <word-list-ENrace>Plant</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Plant</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN024
-	rule text: <i-flavor></i>If this card is sent to the GY: You can Special Summon 1 Level 4 or lower WATER monster from your GY, except this card. If this card is banished: You can discard 1 "Rahi" card, then target 1 monster with 2000 or less ATK on the field; destroy it. You can only use 1 "Daikau, Floral Rahi" effect per turn, and only once that turn.<i></i-flavor>
-	pendulum: medium
+	number: BCOR-EN060
+	rule text: <i-flavor></i>When a monster with 2000 or less ATK activates its effect on the field: You can destroy that monster, and if it was Normal or Special Summoned this turn, you can Special Summon this card as a Normal Monster (Plant/WATER/Level 4/ATK 1800/DEF 0). (This card is NOT treated as a Trap.) If this card is in your GY: You can banish 1 Insect or Plant monster you control; Set this card. You can only use this effect of "Daikau Trap Hole" once per turn.<i></i-flavor>
+	pendulum: none
 	pendulum text: You can send 1 "Rahi" Pendulum Monster from your Deck to the GY; all monsters your opponent currently controls lose ATK equal to that monster's ATK, until the end of this turn. You can only use this effect of "Daikau, Floral Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1500
 	defense: 300
 	rarity: common
-	gamecode: 10100156
+	gamecode: DRAFT10100156
 card:
 	has styling: false
 	notes:
@@ -1724,12 +1922,16 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Banish and draw again}}
-		{{Place 1 "Rahi" card from Deck on top of your Deck}}
-		{{Draw 1 card}}
-		{{Select card to place on top of deck}}
+		{{Destroy this card and make ATK 0}}
+		{{Send "Rahi" monster to GY and draw}}
+		{{Special Summon 1 Level 4 or lower "Rahi" monster from your hand}}
+		
+		Annoying jungle creature and source of Matau's staff's name
+		=> an effect to make a monster's ATK 0, matching Matau
+		=> random utility draw effect (similar to Ussal's banish trigger)
+		=> random utility SS from hand effect (same as Moa's GY trigger - let's see where that works better)
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-02 23:39:51
+	time modified: 2024-07-20 22:45:23
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1744,15 +1946,15 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN010
-	rule text: If this card is sent to the GY: You can place 1 "Rahi" card in your Deck on top of your Deck. If this card is banished: You can draw 1 card. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up from your Extra Deck to the GY, and if you do, draw 1 card. If this card is banished: You can Special Summon 1 Level 4 or lower "Rahi" monster from your hand. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: Once per turn, if you draw a card(s), except during your Draw Phase: You can banish that card(s); draw 1 more card.
+	pendulum text: If your Beast or Winged Beast "Rahi" monster battles an opponent's monster, before damage calculation: You can destroy this card, and if you do, make that opponent's monster's ATK 0, until the end of this turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1200
 	defense: 700
 	rarity: common
-	gamecode: 10100159
+	gamecode: DRAFT10100159
 card:
 	has styling: false
 	notes:
@@ -1785,9 +1987,16 @@ card:
 	gamecode: 10100160
 card:
 	has styling: false
-	notes: {{Special Summon Material from hand or Graveyard}}
+	notes:
+		{{Special Summon any number of Fish, Aqua, and/or Sea Serpent "Rahi" monsters}}
+		
+		The underwater Rahi don't make Synchros easily, but if they ever did, this would be a convenient one
+		=> Control switch immunity is just for Order of Mata Nui lore
+		=> ATK/DEF loss disintegration ray allows you to hit over stuff that effect-based removal may not be able to overcome
+		=> quick tagout sets off banish triggers on the Pendulum Scales and lets you rebuild the field of disruptions after the job in battle is done
+		==> can also get back 1 (one) Manas, for what it's worth
 	time created: 2015-02-01 11:32:26
-	time modified: 2021-06-05 12:13:50
+	time modified: 2024-07-20 22:36:46
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1801,15 +2010,15 @@ card:
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	number: BCOR-EN037
+	number: BCOR-EN036
 	rule text:
-		1 "Rahi" Tuner + 1+ non-Tuner "Rahi" monsters
-		Control of this card cannot switch. The ATK of all face-up monsters your opponent controls is halved during their Battle Phase only. When this card that was Synchro Summoned using exactly 1 non-Tuner monster as material leaves the field: Special Summon that non-Tuner monster from your GY. This card that was Synchro Summoned using 2 or more non-Tuner monsters as material cannot be targeted or destroyed by your opponent's card effects.
+		1+ "Rahi" Tuners + 1+ non-Tuner "Rahi" monsters
+		Control of this card cannot switch. Monsters your opponent controls lose 2000 ATK/DEF. (Quick Effect): You can banish this card; Special Summon any number of Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your GY and/or banishment, whose total Levels equal 10 or less. You can only use this effect of "Mana Ko, Guardian Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3500
 	defense: 2800
 	rarity: common
-	gamecode: 10100157
+	gamecode: DRAFT10100157
 card:
 	has styling: false
 	notes:
@@ -1824,12 +2033,12 @@ card:
 		==> unless it's a continuous "if this card would be banished by a "Red Star" card's effect, add it to your hand instead"!
 		==> or just has "this effect cannot be negated" on the self-add, the "and if you do" would then make it so Prophecy just stays in the GY
 	time created: 2024-01-15 22:51:41
-	time modified: 2024-03-02 23:08:40
+	time modified: 2024-07-21 09:31:31
 	card type: spell card
 	name: Red Star of Prophecy
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
-	image: 
+	image: image66
 	rule text: Banish 1 Spell/Trap from your hand, Deck, or GY. When a card, or the effect of a card, with the same name as a card in your banishment that was banished by "Red Star of Prophecy" resolves while this card is in your GY, negate that effect, then shuffle this card into the Deck. You can only use this effect of "Red Star of Prophecy" once per turn.
 	gamecode: DRAFT10100161
 card:
@@ -1842,12 +2051,12 @@ card:
 		Or as a Trap monster?
 		=> bit many effects for that
 	time created: 2023-04-30 17:16:44
-	time modified: 2024-03-03 15:49:00
+	time modified: 2024-07-21 09:56:30
 	card type: effect monster
 	name: Shadow Toa
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image64
 	type 1: <word-list-ENrace>Illusion</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -1859,6 +2068,59 @@ card:
 	defense: 0
 	link number: <sym-auto>?</sym-auto><sym-auto>?</sym-auto>
 	gamecode: DRAFT10100162
+card:
+	has styling: false
+	notes:
+		Concept: A way to get more Level modulation out of a Fikou (but also works with other Rahi Tuners)
+		=> maybe we put the secondary S/T search here?
+		=> or a way to recycle itself?
+	time created: 2024-06-29 19:08:14
+	time modified: 2024-07-21 09:59:09
+	card type: link monster
+	name: Fikou-Nui, Tarantula Rahi
+	attribute: earth
+	image: image35
+	type 1: <word-list-ENrace>Insect</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 Level 2 or lower "Rahi" monster
+		You can Tribute this card; Special Summon 1 Level 4 or lower "Rahi" monster from your hand or GY, and if you do, you can increase or decrease its Level by 1.
+	Link Marker UR: yes
+	Link Marker DL: none
+	attack: 1000
+	link number: 1
+	gamecode: DRAFT10100163
+card:
+	has styling: false
+	notes:
+		Easily accessible quick effect for Ga-Koro synergy, banishes self for Rahi synergy
+		=> optional discard allows it to work as an actual disruption and also offers a way to set up the GY for Ruki & co on turn 0
+	time created: 2015-02-01 11:32:26
+	time modified: 2024-07-21 09:10:21
+	extra data:
+		yugioh-standard-extra:
+			card frame: effect monster
+			attribute: earth
+	card type: effect monster
+	name: Lightfish, Luminescent Rahi
+	attribute: water
+	level: <sym-auto>*</sym-auto>
+	image: image44
+	type 1: <word-list-ENrace>Fish</word-list-ENrace>
+	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	number: BCOR-EN016
+	rule text: <i-flavor></i>While face-up on the field, this card becomes LIGHT. (Quick Effect): You can banish this card from your hand or GY, then target 1 face-up monster on the field; it loses 400 ATK/DEF until the end of this turn, then you can discard 1 card, and if you do, players cannot activate that monster's effects on the field this turn.<i></i-flavor>
+	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
+	attack: 700
+	defense: 100
+	rarity: common
+	gamecode: DRAFT10100164
 version control:
 	type: none
 apprentice code: 
