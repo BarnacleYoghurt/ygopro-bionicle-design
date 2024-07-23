@@ -724,11 +724,17 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Destroy Keras to boost ATK}}
-		{{Make Level 4 or lower monster unaffected by S/T}}
-		{{Destroy Set card}}
+		{{Special Summon 1 of those monsters}}
+		{{Destroy that Defense Position monster, and if you do, banish this card}}
+		
+		Helps Ga-Koro against the Bohrok, but also works in underwater Rahi dot dek
+		=> very powerful recycling effect for banish costs, but does destroy itself and doesn't come back if banished as a tradeoff (also won't work with non-WATER Rahi!)
+		=> can SS from hand if you feed it Fish, possibly triggering one of your other scales
+		=> help against the Bohrok is summarized in one handy effect to destroy face-downs (and stuff changed to defense by Shore Turtle) when attacked by anything smol, like a Matoran or a lil Rahi fish
+		==> banish self so we don't *gasp* powercreep Drillroid
+		=> Lack of explicit references to Rahi is a little odd ...
 	time created: 2016-03-01 14:00:26
-	time modified: 2019-12-08 23:25:19
+	time modified: 2024-07-21 18:18:36
 	card type: effect monster
 	name: Keras, Crab Rahi
 	attribute: water
@@ -739,23 +745,29 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BBTS-EN002
-	rule text: If this card is sent to the GY: You can target 1 Level 4 or lower monster on the field; that target is unaffected by Spell/Trap effects until the end of this turn. If this card is banished: You can target 1 Set card on the field; destroy it. You can only use 1 "Keras, Crab Rahi" effect per turn, and only once that turn.
+	rule text: You can Special Summon this card (from your hand) by banishing 1 Fish, Sea Serpent, or Aqua monster from your GY. You can only Special Summon "Keras, Crab Rahi" once per turn this way. Before damage calculation, if a Level 4 or lower monster you control attacks a Defense Position monster: You can destroy that Defense Position monster, and if you do, banish this card.
 	pendulum: medium
-	pendulum text: At the start of the Damage Step, if a monster you control with 1000 or less ATK battles an opponent's monster: You can destroy this card, and if you do, that monster you control gains 1400 ATK until the end of this turn. You can only use this effect of "Keras, Crab Rahi" once per turn.
-	pendulum scale 1: 2
-	pendulum scale 2: 2
+	pendulum text: If a Level 4 or lower WATER monster(s) is banished from your field, GY, and/or face-up Extra Deck, except during the Damage Step: You can target 1 of those monsters; Special Summon it, and if you do, destroy this card. You can only use this effect of "Keras, Crab Rahi" once per turn.
+	pendulum scale 1: 1
+	pendulum scale 2: 1
 	attack: 1400
 	defense: 500
-	gamecode: 10100241
+	gamecode: DRAFT10100241
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Apply effect based on new battle position}}
-		{{Change battle position of 2 monsters}}
-		{{Change battle position of another monster?}}
+		{{Make this card's Pendulum Scale 1}}
+		{{Add 1 banished Fish, Sea Serpent, or Aqua "Rahi" monster to hand}}
+		{{Move to Extra Deck or Pendulum Zone}}
+		{{Add to Extra Deck face-up}}
+		{{Place in Pendulum Zone}}
+		
+		We have that whole thing with offensive/defensive scales, so how about letting this be both?
+		=> that said, the actual PE is mostly offensive
+		==> based on the trait of being fast "in the water" (where all the Fish and so on are)
+		=> stats and on-summon recovery could be seen as the defensive aspect
 	time created: 2016-03-01 14:00:26
-	time modified: 2019-12-22 09:06:55
+	time modified: 2024-07-23 21:40:29
 	card type: effect monster
 	name: Waikiru, Walrus Rahi
 	attribute: water
@@ -766,28 +778,30 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BBTS-EN003
-	rule text:
-		<i-flavor></i>A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn (Quick Effect): You can change the battle position of up to 2 face-up monsters on the field that have the same battle position.<i></i-flavor>
+	rule text: If this card is Normal or Special Summoned: You can target 1 of your banished Fish, Sea Serpent, or Aqua "Rahi" monsters; add it to your hand. If this card is banished: You can add this card to your Extra Deck face-up or place it in your Pendulum Zone, and if you do, banish 1 card from your GY. You can only use each effect of "Waikiru, Walrus Rahi" once per turn.
 	pendulum: medium
-	pendulum text:
-		When the battle position of a face-up monster(s) you control is changed: You can apply this effect until the end of this turn, depending on that monster's new battle position.
-		<sym-auto>*</sym-auto> Attack Position: It gains ATK equal to its Level/Rank x 200.
-		<sym-auto>*</sym-auto> Defense Position: It cannot be destroyed by battle or card effects.
-		You can only use this effect of "Waikiru, Walrus Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone.
+	pendulum text: If you control a Level 4 "Rahi" Monster Card in your other Pendulum Zone: You can make this card's Pendulum Scale become 1, until the end of this turn. If all face-up monsters you control are Fish, Sea Serpent, and Aqua monsters, "Rahi" monsters you control can attack directly.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
-	attack: 1800
-	defense: 1000
-	gamecode: 10100237
+	attack: 1000
+	defense: 1800
+	gamecode: DRAFT10100237
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Add Rahi from Deck or GY}}
-		{{Heals and redeals effect damage once per turn}}
+		{{Destroy "Ghekula, Amphibious Rahi" instead?}}
+		{{Return monster to Deck}}
+		{{Move to Extra Deck or Pendulum Zone}}
+		{{Add to Extra Deck face-up}}
+		{{Place in Pendulum Zone}}
+		
+		Oops, you harmed the Ghekula
+		=> accidentally, by attempting to destroy a different card (Bog Snake!)
+		==> bit unfortunate that it counters the Bog Snake more than the other way around, considering that one's supposed to be the predator here
+		=> now you're getting hit by bad luck and losing a card (from the hand, if banishment is set up properly!)
+		=> sending from hand to GY for self-recovery is just the logical counterpart to that
 	time created: 2016-03-01 14:00:26
-	time modified: 2021-06-11 11:48:01
+	time modified: 2024-07-23 22:16:15
 	card type: effect monster
 	name: Ghekula, Amphibious Rahi
 	attribute: water
@@ -798,16 +812,14 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BBTS-EN001
-	rule text:
-		A Synchro Monster that was Summoned using this card as Synchro Material gains this effect.
-		<sym-auto>*</sym-auto>Once per turn, if you take effect damage: Gain LP equal to the damage you took, and if you do, inflict the same amount of damage to your opponent.
+	rule text: If this card is destroyed: You can target 1 monster in your opponent's GY or 1 of your banished Fish, Sea Serpent, or Aqua "Rahi" monsters; place it on the bottom of the Deck, and if you returned it to your Deck, banish 1 random card from your opponent's hand. If this card is banished: You can add this card to your Extra Deck face-up or place it in your Pendulum Zone, and if you do, send 1 card from your hand to the GY. You can only use each effect of "Ghekula, Amphibious Rahi" once per turn.
 	pendulum: medium
-	pendulum text: During your Main Phase: You can add 1 "Rahi" Pendulum Monster from your Deck or GY to your hand, except "Ghekula, Amphibious Rahi", and if you do, take damage equal to its original ATK. You can only use this effect of "Ghekula, Amphibious Rahi" once per turn. If you control no monsters: You can Special Summon this card from your Pendulum Zone. 
+	pendulum text: If another card(s) on the field would be destroyed by card effect while you control a Fish, Sea Serpent, or Aqua "Rahi" Monster Card, except "Ghekula, Amphibious Rahi", you can destroy this card instead.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
-	attack: 1550
+	attack: 1400
 	defense: 1400
-	gamecode: 10100238
+	gamecode: DRAFT10100238
 card:
 	has styling: false
 	notes: {{Shuffle banished cards into Deck to draw}}
@@ -825,10 +837,15 @@ card:
 	has styling: false
 	notes:
 		{{Set monster on fire}}
-		{{Special Summon 1 Level 4 or lower FIRE monster from GY}}
-		{{Add Infernavika to Extra Deck}}
+		{{Destroy 1 "Rahi" monster you control and 1 card your opponent controls}}
+		{{Add 1 of your banished Beast or Winged Beast "Rahi" monster to your Extra Deck face-up}}
+		
+		Bit of an odd FIRE synergy, to maybe set up the Firebird theme for way later
+		=> Pendulum Effect is thematically so neat I don't want to change it, but it doesn't do much ...
+		=> GY effect is designed to go with Hikaki detach (also FIRE) - before it self-destructs, you get to pop an opponent's card!
+		=> Banish effect opened up to also get other Rahi if needed
 	time created: 2015-02-01 11:32:26
-	time modified: 2019-12-08 23:24:51
+	time modified: 2024-07-22 23:58:50
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -845,7 +862,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN025
-	rule text: If this card is sent to the GY: You can Special Summon 1 Level 4 or lower FIRE monster from your GY, except this card. If this card is banished: You can banish the top card of your Deck; add this card to your Extra Deck face-up. You can only use 1 "Infernavika, Lava Bird Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can target 1 "Rahi" monster you control and 1 card your opponent controls; destroy them. If this card is banished: You can banish the top card of your Deck; add 1 of your banished Beast or Winged Beast "Rahi" monsters to your Extra Deck face-up. You can only use 1 "Infernavika, Lava Bird Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: Once per turn, at the start of the Battle Phase: You can target 1 face-up monster you control; this turn, when that target battles an opponent's monster, destroy both monsters at the start of the Damage Step, except FIRE monsters.
 	pendulum scale 1: 2
@@ -853,12 +870,17 @@ card:
 	attack: 1100
 	defense: 800
 	rarity: common
-	gamecode: 10100235
+	gamecode: DRAFT10100235
 card:
 	has styling: false
-	notes: {{Banish self and 1 Rahi in GY to reduce ATK}}
+	notes:
+		{{Special Summon this card from your hand}}
+		{{Make monsters lose ATK}}
+		
+		Native Tuner for Beasts that may let you squeeze in a Taku negate just under Nib
+		=> scattering for confusion is now a BP GY effect, with no OPT so multiple copies can scatter separately for increased effect
 	time created: 2015-02-01 11:32:26
-	time modified: 2019-12-08 23:24:57
+	time modified: 2024-07-21 11:18:01
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -875,7 +897,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN027
-	rule text: (Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY; monsters your opponent controls lose 500 ATK for each of your banished "Rahi" monsters, until the end of this turn.
+	rule text: If a Beast or Winged Beast "Rahi" monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand, then, immediately after this effect resolves, Synchro Summon 1 "Rahi" Synchro Monsters using monsters you control. You can only use this effect of "Pokawi, Flightless Bird Rahi" once per turn. During the Battle Phase (Quick Effect): You can banish this card from your GY; all monsters your opponent controls lose 500 ATK for each of your banished "Rahi" monsters, until the end of this turn.
 	pendulum: none
 	pendulum text: Once per turn, during either player's turn, when a "Rahi" monster you control is destroyed by a card effect: You can add 1 monster with the same name as the destroyed monster from your Deck to your hand.
 	pendulum scale 1: 2
@@ -883,7 +905,7 @@ card:
 	attack: 300
 	defense: 600
 	rarity: common
-	gamecode: 10100236
+	gamecode: DRAFT10100236
 card:
 	has styling: false
 	notes:
@@ -1110,8 +1132,13 @@ card:
 	notes:
 		{{Return banished Rahi to GY}}
 		{{Destroy Hapaka instead?}}
+		
+		Similar ideas of protection and shepherding as before, but shuffled around a bit
+		=> self-SS is in Pendulum Effect like on other Beasts, and relatively inexpensive too
+		=> protection is a monster effect so it can work more or less anywhere
+		=> returning something to the "herd" on banish is too perfect to leave, but it's now Type-locked and gets conveniently triggered by the protection
 	time created: 2016-03-01 14:00:26
-	time modified: 2019-12-08 23:25:10
+	time modified: 2024-07-23 11:52:31
 	card type: effect monster
 	name: Hapaka, Shepherd Rahi
 	attribute: water
@@ -1123,21 +1150,26 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN004
-	rule text: If you do not control "Hapaka, Shepherd Rahi", you can Special Summon this card (from your hand or GY) by changing 1 Level 4 or lower "Rahi" monster you control to Defense Position. If Summoned this way, banish this card when it leaves the field. If this card is banished: You can return 1 of your banished "Rahi" monsters to your GY, except "Hapaka, Shepherd Rahi". You can only use this effect of "Hapaka, Shepherd Rahi" once per turn.
+	rule text: If a "Rahi" monster(s) you control would be destroyed by battle or card effect, you can banish this card from your hand, Monster Zone, or GY instead. If this card is banished: You can return 1 of your banished Beast or Winged Beast "Rahi" monsters to your GY, except "Hapaka, Shepherd Rahi". You can only use each effect of "Hapaka, Shepherd Rahi" once per turn.
 	pendulum: medium
-	pendulum text: "Rahi" monsters you control gain 700 DEF. If a "Rahi" monster(s) you control would be destroyed, you can destroy this card instead.
+	pendulum text: "Rahi" monsters you control gain 700 DEF. You can target 1 Level 4 or lower Beast or Winged Beast "Rahi" monster you control; Special Summon this card, and if you do, change that monster to Defense Position. You can only use this effect of "Hapaka, Shepherd Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1200
 	defense: 1400
-	gamecode: 10100239
+	gamecode: DRAFT10100239
 card:
 	has styling: false
-	notes: {{Banish self and 1 Rahi in GY to banish}}
+	notes:
+		{{Special Summon 1 Beast or Winged Beast "Rahi" monster}}
+		{{Banish 1 card from either GY?}}
+		
+		Native Tuner that's also a Normal Summon, let's see if that makes sense
+		=> bonus when opponent has big monsters is for "mocking predators" lore
 	time created: 2016-03-01 14:00:26
-	time modified: 2019-12-08 23:25:14
+	time modified: 2024-07-22 00:04:34
 	card type: effect monster
-	name: Mata Nui Fishing Bird, Rahi
+	name: Mata Nui Fishing Bird, Swooping Rahi
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image46
@@ -1148,14 +1180,14 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN026
-	rule text: <i-flavor></i>(Quick Effect): You can banish this card from your hand or field and 1 "Rahi" monster from your GY, then target 1 card your opponent controls; banish it until the End Phase, and if it was a face-up monster with 2000 or more ATK on the field, banish 1 random card from your opponent's hand face-down. You can only use this effect of "Mata Nui Fishing Bird, Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can target 1 Beast or Winged Beast "Rahi" monster in your GY or banishment; Special Summon it, also if your opponent controls a monster with 2000 or more ATK, you can banish 1 card from either GY. You can only use this effect of "Mata Nui Fishing Bird, Swooping Rahi" once per turn.<i></i-flavor>
 	pendulum: none
 	pendulum text: During either player's turn: You can banish 1 monster from either player's Graveyard, and if you do, destroy this card. You can only use this effect of "Mata Nui Fishing Bird, Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 500
 	defense: 400
-	gamecode: 10100240
+	gamecode: DRAFT10100240
 card:
 	has styling: false
 	notes: 
