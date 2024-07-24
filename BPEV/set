@@ -1526,10 +1526,12 @@ card:
 		=> battle effect = set yourself on fire for protection and survive
 		
 		Placeholder image until I build my own :)
+		
+		lmao the stats say 4(00) / 20(0)
 	time created: 2023-12-17 11:18:18
-	time modified: 2024-07-24 17:28:18
+	time modified: 2024-07-24 18:08:37
 	card type: effect monster
-	name: Lava Rat, Rahi
+	name: Lava Rat, Blazing Rahi
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image21
@@ -1539,7 +1541,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If you control a Beast, Beast-Warrior, or Winged Beast "Rahi" monster: You can Special Summon this card from your hand, and if you do, reduce the Levels of all other monsters you control by 1. At the start of the Damage Step, if your "Rahi" monster battles an opponent's monster: You can banish this card from the GY; destroy that opponent's monster. You can only use each effect of "Lava Rat, Rahi" once per turn.
+	rule text: If you control a Beast, Beast-Warrior, or Winged Beast "Rahi" monster: You can Special Summon this card from your hand, and if you do, reduce the Levels of all other monsters you control by 1. At the start of the Damage Step, if your "Rahi" monster battles an opponent's monster: You can banish this card from the GY; destroy that opponent's monster. You can only use each effect of "Lava Rat, Blazing Rahi" once per turn.
 	attack: 400
 	defense: 200
 	gamecode: DRAFT10100350
