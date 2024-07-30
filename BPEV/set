@@ -1678,31 +1678,41 @@ card:
 	gamecode: DRAFT10100356
 card:
 	has styling: false
-	notes: 
+	notes:
+		Might need to be more solidly good if we actually want it to be playable ...
+		=> Drawback: "The equipped monster cannot attack or activate its effects" - that way it can be an asset going second
+		=> OPT Vahi search if equipped to a Toa or Makuta, no coin-flipping needed
+		=> if we want to be fancy, could have the time-breaking when removed use a die roll to determine the phase and skip it for both players for the rest of the duel (would have to be a OPD effect then)
+		==> or skip 1 (or N=roll) Draw Phase(s), for some real "time has stopped" shit
+		=> built-in accel/slow effects seem good if there's space, just shouldn't be a quick
+		==> space doesn't look good, here's what they would have been in the latest version
+		"
+		* Once per turn, if you draw a card(s), except during the Draw Phase: You can draw 1 card.
+		* Once per turn, if a card(s) you control would be destroyed by battle or card effect, you can destroy that card(s) during the End Phase instead."
 	time created: 2017-01-25 23:59:07
-	time modified: 2023-12-17 11:44:48
+	time modified: 2024-07-30 12:17:36
 	card type: spell card
 	name: Legendary Kanohi Vahi, Mask of Time
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: 
-	rule text:
-		If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. During your Standby Phase: Flip a coin; if the result is tails, halve the equipped monster's ATK, then take damage equal to its ATK and destroy this card if the equipped monster's ATK is 0. If the result is heads, add 1 "Vahi" card from your Deck to your hand, except an Equip Spell. If this card leaves the field: Skip your opponent's next Battle Phase.
-		Once per turn, during either player's turn, you can activate 1 of these effects.
-		<sym-auto>*</sym-auto>The next time a card(s) is added to your hand, draw 1 card.
-		<sym-auto>*</sym-auto>The next time a card(s) you control would be destroyed, it is not destroyed, but that card(s) you control is destroyed during your next End Phase.
+	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
 	gamecode: DRAFT10100358
 card:
 	has styling: false
 	notes: 
 	time created: 2017-01-26 23:40:52
-	time modified: 2023-12-17 11:45:26
+	time modified: 2024-07-30 12:14:36
 	card type: spell card
 	name: Vahi Freeze
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: 
-	rule text: If you control a face-up "Legendary Kanohi Vahi, Mask of Time": Target 1 monster on the field; while you control a face-up "Legendary Kanohi Vahi, Mask of Time", that target's effect(s) is negated and it cannot attack.
+	rule text:
+		Activate 1 of these effects;
+		<sym-auto>*</sym-auto>Add 1<sym-auto>^</sym-auto>"Vahi" Equip Spell from your Deck or GY to your hand.
+		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell, target 1 face-up card on the field; until the end of this turn, its effects are negated, also it cannot be destroyed by card effects.
+		You can only activate 1 "Vahi Freeze" per turn.
 	gamecode: DRAFT10100359
 card:
 	has styling: false
