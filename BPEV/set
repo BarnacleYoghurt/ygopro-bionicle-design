@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.6.5
+	edition: Version 4.7.0
 	copyright: 
 card:
 	has styling: false
@@ -1521,6 +1521,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card}}
+		{{Destroy that opponent's monster}}
+		
 		Another native Beast Tuner, ft. Level adjustment
 		=> the Levels go down because of the heat I guess
 		=> battle effect = set yourself on fire for protection and survive
@@ -1529,7 +1532,7 @@ card:
 		
 		lmao the stats say 4(00) / 20(0)
 	time created: 2023-12-17 11:18:18
-	time modified: 2024-07-24 18:08:37
+	time modified: 2024-07-31 13:26:42
 	card type: effect monster
 	name: Lava Rat, Blazing Rahi
 	attribute: fire
@@ -1541,21 +1544,25 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If you control a Beast, Beast-Warrior, or Winged Beast "Rahi" monster: You can Special Summon this card from your hand, and if you do, reduce the Levels of all other monsters you control by 1. At the start of the Damage Step, if your "Rahi" monster battles an opponent's monster: You can banish this card from the GY; destroy that opponent's monster. You can only use each effect of "Lava Rat, Blazing Rahi" once per turn.
+	rule text: If you control a Beast or Winged Beast "Rahi" monster: You can Special Summon this card from your hand, and if you do, reduce the Levels of all other monsters you control by 1. At the start of the Damage Step, if your "Rahi" monster battles an opponent's monster: You can banish this card from the GY; destroy that opponent's monster. You can only use each effect of "Lava Rat, Blazing Rahi" once per turn.
 	attack: 400
 	defense: 200
-	gamecode: DRAFT10100350
+	gamecode: 10100350
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card}}
+		{{Synchro Summon using Fish, Sea Serpent, and/or Aqua monsters you control}}
+		
 		Bigger counterpart to the Ruki, but what I really want here is a way to quick-synchro
 		=> from hand with same cost as usual
+		==> cost is only to get on field, Synchro is its own effect!
 		=> Level 3 and modular Tuner/non-Tuner, I think that gives the most flexibility
 		=> text length doesn't really allow more, so the reference to Nokama's trident shall remain limited to the sum of the stats
 		=> name abbreviated to avoid having an archetype clause for Makuta :)
 		==> it may get it back if it turns out all Makuta support only deals with Fiends/Rituals, but I don't want to worry about that right now
 	time created: 2023-12-17 11:18:18
-	time modified: 2024-07-24 17:25:37
+	time modified: 2024-07-31 13:28:29
 	card type: effect monster
 	name: MKT Fish, Biting Rahi
 	attribute: dark
@@ -1567,33 +1574,39 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: During your opponent's Main Phase (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card from your hand, and if you do, immediately after this effect resolves, Synchro Summon 1 Synchro Monster using Fish, Sea Serpent, and/or Aqua monsters you control, including this card. You can only use this effect of "MKT Fish, Biting Rahi" once per turn. If this card you control would be used as Synchro material for a "Rahi" monster, you can treat it as a non-Tuner.
+	rule text: If this card you control would be used as Synchro Material, you can treat it as a non-Tuner. You can only use each of the following effects of "MKT Fish, Biting Rahi" once per turn. (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card from your hand. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Synchro Summon using Fish, Sea Serpent, and/or Aqua monsters you control, including this card.
 	attack: 900
 	defense: 300
-	gamecode: DRAFT10100351
+	gamecode: 10100351
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" monster}}
+		{{Destroy it?}}
+		
 		Restrained and possibly crushed by the Temple Squid's tentacles
 		=> very gimmicky way to just have a Trap that pops a face-up monster (sometimes)
+		==> maybe only target your monsters and then let you destroy a monster with 0 ATK or DEF after the reduction, so it can be non-targeting removal at least?
 		=> technically generic on the field, but shouldn't be good enough to run unless you can also use the revival effect in the GY
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-07-24 17:34:23
+	time modified: 2024-07-31 13:28:37
 	card type: trap card
 	name: Rahi from the Depths
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image49
 	rule text: Target any number of "Rahi" monsters you control and 1 face-up monster your opponent controls; that opponent's monster loses ATK/DEF equal to the total ATK of those monsters you control, then you can destroy it if its ATK or DEF is 0. You can banish this card from your GY; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" monster from your GY or banishment. You can only use 1 "Rahi from the Depths" effect per turn, and only once that turn.
-	gamecode: DRAFT10100352
+	gamecode: 10100352
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 "Rahi" Tuner from your GY}}
+		
 		Main point of this one is Rahi Nui access via Extra Deck
 		=> piercing = steel-rending tentacles
 		=> brings back a Tuner so you can start climbing with what the Rahi Nui gets on summon
 	time created: 2023-12-17 11:29:04
-	time modified: 2024-01-07 11:53:31
+	time modified: 2024-07-31 13:28:50
 	card type: synchro monster
 	name: Subterranean Worm Rahi
 	attribute: dark
@@ -1610,10 +1623,12 @@ card:
 		If a "Rahi" monster you control battles, inflict piercing battle damage. If this card is sent from the field to the GY: You can target 1 "Rahi" Tuner in your GY; Special Summon it. You can only use this effect of "Subterranean Worm Rahi" once per turn.
 	attack: 2700
 	defense: 1000
-	gamecode: DRAFT10100353
+	gamecode: 10100353
 card:
 	has styling: false
 	notes:
+		{{Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck}}
+		
 		Big amalgamated monstrosity, in the style of a boss fight that summons the previous bosses (because for some reason that feels right)
 		=> contact fusion with DARKs, to give those a special role and have Place of Shadow synergy
 		=> chimeric nature represented by altering its own Type, and therefore what it can summon
@@ -1623,7 +1638,7 @@ card:
 		
 		Placeholder image (though a damn nice one) until I finish the build and take a good picture
 	time created: 2023-12-17 11:29:04
-	time modified: 2024-07-24 17:57:07
+	time modified: 2024-07-31 13:37:31
 	card type: fusion monster
 	name: Rahi Nui, Vengeful Chimera
 	attribute: dark
@@ -1637,24 +1652,28 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		3+ "Rahi" monsters with different names
-		Must be Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above materials, including a DARK monster. This card's Type is also treated as the original Types of each of its materials. If this card is Special Summoned, or your opponent Special Summons a monster from the Extra Deck: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack until your next End Phase. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
+		Must be Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards, including a DARK monster. This card's Type is also treated as the original Types of the materials used for its Summon. If this card is Special Summoned, or your opponent Special Summons a monster from the Extra Deck: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
 	attack: 3800
 	defense: 2200
-	gamecode: DRAFT10100355
+	gamecode: 10100355
 card:
 	has styling: false
 	notes:
+		{{Add or Special Summon 1 "Rahi" Normal Monster}}
+		{{Fusion Summon 1 "Rahi" Fusion Monster}}
+		
 		One of the primary means of Rahi Nui access
 		=> gets one of the proper materials and makes it DARK for you
 		==> can also add to hand if you want the Pendulum Effect instead
 		==> Tribute a monster for Lair of Darkness synergy ;)
 		=> if sent to the GY, just do a real Fusion Summon
 		==> generic like Memento Fusion, so you can maybe do Chimera shenanigans or something by sending at the right time
+		==> now you can't you dumbass, Chimera needs a material from the hand
 		=> also it's both Rahi and Makuta, just for the lulz
 		
 		Art is preliminary until I can find/generate something that actually looks remotely right
 	time created: 2023-12-17 11:34:54
-	time modified: 2024-07-24 17:54:02
+	time modified: 2024-07-31 13:29:05
 	card type: spell card
 	name: Place of Shadow
 	attribute: spell
@@ -1662,8 +1681,8 @@ card:
 	image: image46
 	rule text:
 		(This card is always treated as a  "Rahi" and "Makuta" card.)
-		You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY: You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck, including a "Rahi" monster. You can only use 1 "Place of Shadow" effect per turn, and only once that turn.
-	gamecode: DRAFT10100354
+		You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY: You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use each effect of "Place of Shadow" once per turn.
+	gamecode: 10100354
 card:
 	has styling: false
 	notes: 
