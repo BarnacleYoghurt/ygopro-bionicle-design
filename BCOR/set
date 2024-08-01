@@ -100,6 +100,7 @@ card:
 	has styling: false
 	notes:
 		{{Destroy 1 face-up monster}}
+		{{Add 1 Insect "Rahi" monster with a different name to your hand?}}
 		
 		Overhauled Insect Rahi Gimmick: Splashable Synchro Glue + Insect-locked Swarming engine!
 		=> the big ones belong to the latter category
@@ -166,6 +167,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon 1 Insect "Rahi" monster from your Deck}}
+		{{Affected by "Nui Rama, Fly Rahi": Cannot Special Summon, except Insect monsters}}
 		
 		Swarms Insects from Deck, but locks you
 		=> this includes the various Tuners, and Nui-Jaga can turn it into a search
@@ -261,7 +263,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Can place itself in Spell/Trap/Pendulum Zone}}
+		{{Move to Spell/Trap/Pendulum Zone}}
+		{{Place it in your Pendulum Zone?}}
 		
 		The Tarakava variant that helps Reptiles go into hiding in the backrow
 		=> Grants a Quick Effect to monsters on Summon so the Pendulum Effect doesn't have to be quick
@@ -1886,7 +1889,7 @@ card:
 		If I can't be a Rahi or an Elemental I'll be a Trap Hole, fuck you
 		=> I wonder if anyone would bother playing this in Traptrix ...
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:17:15
+	time modified: 2024-08-01 09:00:51
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1906,8 +1909,8 @@ card:
 	pendulum text: You can send 1 "Rahi" Pendulum Monster from your Deck to the GY; all monsters your opponent currently controls lose ATK equal to that monster's ATK, until the end of this turn. You can only use this effect of "Daikau, Floral Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
-	attack: 1500
-	defense: 300
+	attack: 
+	defense: 
 	rarity: common
 	gamecode: 10100156
 card:
