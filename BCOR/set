@@ -862,9 +862,11 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon from Pendulum Zone}}
-		{{Destroy 1 card your opponent controls}}
-		{{Destroys the monster that destroys it by battle and inflicts damage}}
+		{{Add 1 of your banished Fish, Sea Serpent, or Aqua "Rahi" monsters to your hand}}
+		{{Special Summon this card}}
+		{{Move to Extra Deck or Pendulum Zone}}
+		{{Add to Extra Deck face-up}}
+		{{Place in Pendulum Zone}}
 		
 		Defensive scale to go with Takea
 		=> ensures you keep those handtraps in rotation, if they weren't shuffled back that is
@@ -872,7 +874,7 @@ card:
 		==> want to use this proactively as well for later scenarios with Makuta Fish and such
 		=> comes back from banishment, but burns you with its poisonous skin after you touch it
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:09:32
+	time modified: 2024-08-04 17:28:42
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -880,7 +882,7 @@ card:
 	card type: effect monster
 	name: Makika, Toad Rahi
 	attribute: earth
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image12
 	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
