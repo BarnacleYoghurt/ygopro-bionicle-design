@@ -1324,6 +1324,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Banish 1 "Rahi" monster you control until the End Phase}}
+		{{Destroy 1 monster your opponent controls?}}
+		
 		A surprise Rahi pops out and eats whatever just moved
 		=> also the Drifts do not affect it
 		==> actually might not need the effect restriction to have that flavor - the ATK and destruction check happens before the Drifts apply, so the main job has already been done!
@@ -1457,6 +1460,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon 1 "Rahi" monster from your GY}}
+		{{Add another monster with the same Type?}}
 		
 		Type-based search and recycling tool
 		=> has a double add geared to set up the Normal Pendulum pairs, but you can also use it as a regular search, or as a double search with effect monsters if you're willing to lose a card (to remain neutral)
