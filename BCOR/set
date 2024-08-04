@@ -1522,7 +1522,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-02-01 11:32:26
-	time modified: 2017-02-18 23:52:12
+	time modified: 2024-08-04 18:35:04
 	extra data:
 		yugioh-standard-extra:
 			card frame: token monster
@@ -1542,7 +1542,7 @@ card:
 	attack: 1000
 	defense: 1000
 	rarity: common
-	gamecode: 10100161
+	gamecode: 10110138
 card:
 	has styling: false
 	notes: {{Normal Summon 1 Warrior monster}}
