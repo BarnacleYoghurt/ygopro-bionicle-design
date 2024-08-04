@@ -719,8 +719,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Add "Rahi" monster(s) to hand}}
-		{{Destroy this card}}
+		{{Add 1 "Rahi" monster from your Deck to your hand}}
+		{{Destroy 1 face-up card on the field}}
 		
 		Doesn't belong in any Type, so generic searcher to bridge combos it is
 		=> in particular, it gets you Tuner access in Types that don't have it but can put out a bunch of Lv3s (like Beasts)
