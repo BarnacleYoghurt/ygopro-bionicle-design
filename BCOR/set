@@ -505,8 +505,8 @@ card:
 	has styling: false
 	notes:
 		{{Attempt to take control}}
-		{{Send 1 card from your hand or field to the Graveyard?}}
 		{{Skip normal draw to add this card to your hand}}
+		{{Send 1 card from your hand or field to the Graveyard?}}
 		
 		Overhaul: Just a slight simplification and shortening, as well as adjusting to new Kanohi mechanics.
 		=> struggle drawback now remains on your field as well, because at the end of the day the victim is still being controlled against its will
@@ -570,7 +570,8 @@ card:
 	has styling: false
 	notes:
 		{{Return Special Summoned monsters to hand}}
-		{{Special Summon 1 "Rahi" monster from hand, Deck, or Graveyard}}
+		{{Add 1 "Rahi" card from your Deck or GY to your hand}}
+		{{Special Summon a monster?}}
 		
 		Idea for V2:
 		Since Rahi's GY focus is due to being controlled by Makuta, maybe make him help unite their nature as pendulum monsters with that (e.g. sending Rahi from ED to GY). Also, it might make sense to reduce the GY focus on Rahi in general a bit and only leave it on those with some sort of special Makuta connection, so there's a reference point for Rahi in their natural environment.
@@ -607,9 +608,9 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Add 1 "Makuta" Ritual Monster or 1 Ritual Spell to hand?}}
 		{{Send from Deck to Graveyard to make ATK of opponent's monsters 2000}}
 		{{Destroy S/T to add to hand}}
+		{{Add 1 "Makuta" Ritual Monster or 1 Ritual Spell to hand?}}
 		
 		Overhaul: Mainly to reduce text length, because that was a bit too much.
 		=> anti-negation removed because preventing interaction is a bit lame (but would be nicely villainous!)
