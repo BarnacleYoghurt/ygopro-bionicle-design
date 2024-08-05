@@ -342,6 +342,7 @@ card:
 		Beatdown-focused Synchro Boss
 		=> gets big all on its own, even without activating an effect
 		=> grabs opponent's monsters and strips them of all defenses to bite their heads off in battle
+		=> could also make sense to flip monsters face-down e.g. at the start of the battle phase (big rat scary), but is anything short of a Silvera copy even that useful?
 	time created: 2015-02-01 11:32:26
 	time modified: 2024-07-31 13:05:03
 	extra data:
@@ -760,6 +761,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon this card}}
+		{{Destroy 1 Spell/Trap your opponent controls?}}
 		
 		Insects are Synchro glue, so the former Tuner handtraps have been nerfed a bit and instead also put themselves on the field
 	time created: 2015-02-01 11:32:26
@@ -828,6 +830,7 @@ card:
 		{{Reduce ATK/DEF}}
 		{{Add Insect "Rahi" monster from Deck to hand}}
 		{{Special Summon this card}}
+		{{Affected by "Kofo-Jaga, Scorpion Rahi": Cannot activate non-Insect monster effects}}
 		
 		The only "mid-size" Insect for now
 		=> Scale 6 so it can get out Nui-Rama/Nui-Jaga
@@ -1110,7 +1113,9 @@ card:
 	gamecode: 10100131
 card:
 	has styling: false
-	notes: {{Special Summon this card}}
+	notes:
+		{{Special Summon this card}}
+		{{Negate the effects of 1 face-up monster your opponent controls?}}
 	time created: 2015-02-01 11:32:26
 	time modified: 2024-07-31 13:11:03
 	extra data:
@@ -1805,6 +1810,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon this card}}
+		{{Make 1 monster unaffected by Spell/Trap effects?}}
 		
 		Pesky hopper from Ga-Wahi, so bonus effect works a little like Nokama
 		=> thanks Odin for the wording
@@ -2108,10 +2114,14 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon 1 Level 4 or lower "Rahi" monster from your hand or GY}}
+		{{Increase its Level by 1}}
+		{{Decrease its Level by 1}}
+		{{Do not change Level}}
 		
 		Concept: A way to get more Level modulation out of a Fikou (but also works with other Rahi Tuners)
 		=> maybe we put the secondary S/T search here?
 		=> or a way to recycle itself?
+		==> "If this card is Link Summoned: You can add 1 "Rahi" monster from your GY or banishment to your hand, then place 1 card from your hand on the bottom of the Deck" - recycles others, also self if you play 2, no additional plusses but also doesn't cost you a card if you return stuff to the extra deck, length still reasonable even with HOPT
 	time created: 2024-06-29 19:08:14
 	time modified: 2024-07-31 13:19:19
 	card type: link monster
