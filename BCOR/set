@@ -2071,6 +2071,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Banished by "Red Star of Prophecies"}}
+		... this isn't displayed while banished, but let's put it here just in case
+		
 		Concept: Middle point between anime and game Gold Sarc, lets you set up a "prophecy" of a card and negate it if it comes to pass, but also banishes face-up so the rare S/T that likes to be banished can benefit.
 		... such as all the other Red Star cards that do stuff like add themselves to your hand if banished :)
 		> Red Star of Ignition (Inika)
@@ -2081,14 +2084,17 @@ card:
 		=> could easily counteract those by making the negate mandatory on all effects with the same name, but then the archetype also doesn't work
 		==> unless it's a continuous "if this card would be banished by a "Red Star" card's effect, add it to your hand instead"!
 		==> or just has "this effect cannot be negated" on the self-add, the "and if you do" would then make it so Prophecy just stays in the GY
+		
+		Last-Minute rename to "Prophecies" because "Prophecy" (with the "of" even!) is technically an archetype
+		=> also makes sense because banishing multiple with this does stack
 	time created: 2024-01-15 22:51:41
-	time modified: 2024-07-31 13:18:11
+	time modified: 2024-08-06 20:30:47
 	card type: spell card
-	name: Red Star of Prophecy
+	name: Red Star of Prophecies
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image66
-	rule text: Banish 1 Spell/Trap from your hand, Deck, or GY. When a card, or the effect of a card, with the same name as a card in your banishment that was banished by "Red Star of Prophecy" resolves while this card is in your GY, negate that effect, then shuffle this card into the Deck. You can only use this effect of "Red Star of Prophecy" once per turn.
+	rule text: Banish 1 Spell/Trap from your hand, Deck, or GY. When a card, or the effect of a card, with the same name as a card in your banishment that was banished by "Red Star of Prophecies" resolves while this card is in your GY, negate that effect, then shuffle this card into the Deck. You can only use this effect of "Red Star of Prophecies" once per turn.
 	gamecode: 10100161
 card:
 	has styling: false
