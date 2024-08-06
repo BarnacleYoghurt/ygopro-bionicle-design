@@ -876,9 +876,10 @@ card:
 		=> ensures you keep those handtraps in rotation, if they weren't shuffled back that is
 		=> monster effect from hand has it "viciously defend its territory", somwhat protecting the setup from e.g. Raigeki
 		==> want to use this proactively as well for later scenarios with Makuta Fish and such
+		==> probably doesn't need to be "during the main phase" only
 		=> comes back from banishment, but burns you with its poisonous skin after you touch it
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-04 17:28:42
+	time modified: 2024-08-06 09:50:06
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -893,7 +894,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN008
-	rule text: </i>During the Main Phase (Quick Effect): You can target 1 Fish, Sea Serpent, or Aqua "Rahi" monster you control; return it to the hand, and if you do, Special Summon this card in Defense Position. If this card is banished: You can add this card to your Extra Deck face-up or place it in your Pendulum Zone, then take 1000 damage. You can only use each effect of "Makika, Toad Rahi" once per turn.<i>
+	rule text: <i-flavor></i>During the Main Phase, if this card is in your hand (Quick Effect): You can target 1 Fish, Sea Serpent, or Aqua "Rahi" monster you control; return it to the hand, and if you do, Special Summon this card in Defense Position. If this card is banished: You can add this card to your Extra Deck face-up or place it in your Pendulum Zone, then take 1000 damage. You can only use each effect of "Makika, Toad Rahi" once per turn.<i></i-flavor>
 	pendulum: medium
 	pendulum text: During the End Phase: You can target 1 of your banished Fish, Sea Serpent, or Aqua "Rahi" monsters, except "Makika, Toad Rahi"; add it to your hand. You can only use this effect of "Makika, Toad Rahi" once per turn.
 	pendulum scale 1: 1
@@ -911,6 +912,7 @@ card:
 		=> same cost as the Insect Tuners or the old handtraps, but also works more efficiently if it's openly on the field
 		=> no HOPT because they're in swarms and we want to loop
 		=> might need to do something else, but I'm not sure yet what ...
+		==> something sealife-specific, because right now it's 100% generic (even outside Rahi if on the field!)
 	time created: 2015-02-01 11:32:26
 	time modified: 2024-07-31 13:09:57
 	extra data:
@@ -943,7 +945,7 @@ card:
 		=> could also have something like discarding in Standby to give lingering protection, that could setup turn zero plays ...
 		==> impossible with the word count unless the cost is simplified, though
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:10:11
+	time modified: 2024-08-06 10:47:24
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -958,7 +960,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN009
-	rule text: <i-flavor></i>Your opponent cannot target Fish, Sea Serpent, and/or Aqua "Rahi" Monster Cards you control with card effects. If your opponent activates a card or effect: You can banish both this card from your hand and 1 "Rahi" monster in your GY or face-up Extra Deck, or banish this face-up card you control; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" Tuner from your Deck, except "Shore Turtle, Shelled Rahi". You can only use each effect of "Shore Turtle, Shelled Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>Your opponent cannot target Fish, Sea Serpent, and/or Aqua "Rahi" Monster Cards you control with card effects. If your opponent activates a card or effect: You can banish both this card from your hand and 1 "Rahi" monster in your GY or face-up Extra Deck, or banish this face-up card you control; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" Tuner from your Deck, except "Shore Turtle, Shelled Rahi". You can only use this effect of "Shore Turtle, Shelled Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 0
 	defense: 1200
