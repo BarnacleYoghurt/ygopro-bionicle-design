@@ -307,7 +307,7 @@ card:
 		=> Self-SS has a thematic cost (kicking the shit out of other Rahi) rather than a generic condition, allowing it to simultaneously play a role in the combo
 		=> Bonus effect is heritable, but only for one generation and only to Rahi
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:04:50
+	time modified: 2024-08-06 14:43:18
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -324,7 +324,7 @@ card:
 	number: BCOR-EN011
 	rule text:
 		<i-flavor></i>A Synchro Monster Summoned using this card as material gains these effects.
-		● If it battles, your opponent's cards and effects cannot be activated until the end of the Damage Step.
+		● If it battles, your opponent cannot activate cards or effects until the end of the Damage Step.
 		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.<i></i-flavor>
 	pendulum: medium
 	pendulum text: During your Main Phase: You can destroy 1 other Beast or Winged Beast "Rahi" Monster Card in your hand or face-up field, and if you do, Special Summon this card. You can only use this effect of "Fusa, Kangaroo Rahi" once per turn.
@@ -972,7 +972,7 @@ card:
 		{{Special Summon this card and add 1 Beast or Winged Beast "Rahi" Pendulum Monster to Extra Deck}}
 		{{Negates cards or effects (heritable)}}
 		{{Negates cards or effects}}
-		{{Add to Extra Deck?}}
+		{{Add to Extra Deck}}
 		
 		Taku is smaller than Kewa, so this ended up being a Lv3 with Lv4 mechanics
 		=> Special Summon on empty field and put something in Extra, much like diving into the open waters and fetching a fish to your nest
@@ -1051,6 +1051,7 @@ card:
 		{{Special Summon 1 Level 4 or lower EARTH monster from your GY}}
 		{{Banish 1 "Rahi" monster to draw 1 card}}
 		{{Pendulum Summon including GY}}
+		{{Effect to Pendulum Summon from GY has been applied}}
 		
 		Useful tunneler
 		=> digs monsters out of the GY via Pendulum Summon (or something, I just like this gimmick)
@@ -1147,9 +1148,12 @@ card:
 		{{Change Levels}}
 		{{Add 1 "Rahi" monster from your Deck to your hand}}
 		{{Add 1 of your banished "Rahi" cards to your hand}}
+		{{Increase by 1}}
+		{{Decrease by 1}}
 		
 		Helps you access additional resources, because stonks
 		=> can either clear itself from Pend Zone or get something in the ED to the GY in order to adjust Levels for Xyz/Synchro plays
+		==> this is missing an OPT, since it doesn't necessarily destroy itself
 		=> searches if it goes to GY itself
 		=> recycles banished cards straight to hand on subsequent turns
 	time created: 2015-02-01 11:32:26
@@ -1215,11 +1219,12 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Banish "Rahi" monster to change Pendulum Scale}}
-		{{Shuffle 1 of your banished "Rahi" monsters into the deck}}
-		{{Special Summon 1 Level 3 or lower "Rahi" monster from your hand}}
+		{{Banish 1 Beast or Winged Beast "Rahi" monster from your Deck}}
+		{{Special Summon 1 Level 4 or lower Beast or Winged Beast "Rahi" monster from your hand}}
+		{{Place 1 of your banished "Rahi" card on the bottom of your Deck}}
 		
 		Still missing good ideas for this one, so it does more or less what it used to do
+		=> nothing here prevents the useless cycle of "Moa banish Moa, Moa put back Moa"
 	time created: 2015-02-01 11:32:26
 	time modified: 2024-07-31 13:13:07
 	extra data:
@@ -1785,7 +1790,7 @@ card:
 		=> WIND revival for Le-Koro synergy
 		=> if banished, scavenge in the other direction
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:16:20
+	time modified: 2024-08-06 15:52:13
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1802,7 +1807,7 @@ card:
 	number: BCOR-EN032
 	rule text: If this card is sent to the GY: You can Special Summon 1 other Level 4 or lower WIND monster from your GY, but negate its effects. If this card is banished: You can add 1 Beast or Winged Beast "Rahi" monster from your GY or face-up Extra Deck to your hand, except "Kewa, Vulture Rahi". You can only use 1 "Kewa, Vulture Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: You can target 1 Spell/Trap on the field; send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up from your Extra Deck to the GY, and if you do, destroy that target. You can only use this effect of "Kewa, Vulture Rahi" once per turn.
+	pendulum text: You can target 1 Spell/Trap on the field; send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up Extra Deck to the GY, and if you do, destroy that target. You can only use this effect of "Kewa, Vulture Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1400
@@ -1972,8 +1977,9 @@ card:
 		=> an effect to make a monster's ATK 0, matching Matau
 		=> random utility draw effect (similar to Ussal's banish trigger)
 		=> random utility SS from hand effect (same as Moa's GY trigger - let's see where that works better)
+		=> maybe needs "except Brakas" in some of those so it's not randomly splashable
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:17:57
+	time modified: 2024-08-06 13:50:51
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1988,7 +1994,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN010
-	rule text: If this card is sent to the GY: You can send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up from your Extra Deck to the GY, and if you do, draw 1 card. If this card is banished: You can Special Summon 1 Level 4 or lower "Rahi" monster from your hand. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up Extra Deck to the GY, and if you do, draw 1 card. If this card is banished: You can Special Summon 1 Level 4 or lower "Rahi" monster from your hand. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: If your Beast or Winged Beast "Rahi" monster battles an opponent's monster, before damage calculation: You can destroy this card, and if you do, make that opponent's monster's ATK 0, until the end of this turn.
 	pendulum scale 1: 2
