@@ -1528,8 +1528,6 @@ card:
 		=> the Levels go down because of the heat I guess
 		=> battle effect = set yourself on fire for protection and survive
 		
-		Placeholder image until I build my own :)
-		
 		lmao the stats say 4(00) / 20(0)
 	time created: 2023-12-17 11:18:18
 	time modified: 2024-08-11 13:32:20
@@ -1638,7 +1636,7 @@ card:
 		
 		Placeholder image (though a damn nice one) until I finish the build and take a good picture
 	time created: 2023-12-17 11:29:04
-	time modified: 2024-07-31 13:37:31
+	time modified: 2024-08-11 18:22:22
 	card type: fusion monster
 	name: Rahi Nui, Vengeful Chimera
 	attribute: dark
@@ -1652,7 +1650,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		3+ "Rahi" monsters with different names
-		Must be Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards, including a DARK monster. This card's Type is also treated as the original Types of the materials used for its Summon. If this card is Special Summoned, or your opponent Special Summons a monster from the Extra Deck: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
+		Must be Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards, including a DARK monster. This card's Type is also treated as the original Types of the materials used for its Summon. If this card is Special Summoned, or your opponent Special Summons a monster(s) from the Extra Deck: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
 	attack: 3800
 	defense: 2200
 	gamecode: 10100355
@@ -1661,6 +1659,8 @@ card:
 	notes:
 		{{Add or Special Summon 1 "Rahi" Normal Monster}}
 		{{Fusion Summon 1 "Rahi" Fusion Monster}}
+		{{Add to hand or Special Summon}}
+		{{Special Summon it}}
 		
 		One of the primary means of Rahi Nui access
 		=> gets one of the proper materials and makes it DARK for you
@@ -1670,18 +1670,16 @@ card:
 		==> generic like Memento Fusion, so you can maybe do Chimera shenanigans or something by sending at the right time
 		==> now you can't you dumbass, Chimera needs a material from the hand
 		=> also it's both Rahi and Makuta, just for the lulz
-		
-		Art is preliminary until I can find/generate something that actually looks remotely right
 	time created: 2023-12-17 11:34:54
-	time modified: 2024-08-11 14:12:41
+	time modified: 2024-08-11 15:30:30
 	card type: spell card
 	name: Place of Shadow
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image21
 	rule text:
-		(This card is always treated as a  "Rahi" and "Makuta" card.)
-		You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY: You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use each effect of "Place of Shadow" once per turn.
+		(This card is always treated as a "Rahi" and "Makuta" card.)
+		You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY (except during the Damage Step): You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use each effect of "Place of Shadow" once per turn.
 	gamecode: 10100354
 card:
 	has styling: false
