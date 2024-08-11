@@ -770,16 +770,18 @@ card:
 		==> has the offensive stats to also charge if that should be necessary
 		=> might want super HOPT on this?
 	time created: 2016-03-01 14:00:26
-	time modified: 2024-07-31 13:23:05
+	time modified: 2024-08-10 18:01:40
 	card type: synchro monster
 	name: Waikiru, Walrus Rahi
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image42
 	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
-	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
+	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
-	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN040
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
@@ -794,7 +796,6 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Destroy "Ghekula, Amphibious Rahi" instead?}}
 		{{Return monster to Deck}}
 		{{Move to Extra Deck or Pendulum Zone}}
 		{{Add to Extra Deck face-up}}
@@ -844,14 +845,15 @@ card:
 	notes:
 		{{Set monster on fire}}
 		{{Destroy 1 "Rahi" monster you control and 1 card your opponent controls}}
-		{{Add 1 of your banished Beast or Winged Beast "Rahi" monster to your Extra Deck face-up}}
+		{{Add 1 of your banished Beast or Winged Beast "Rahi" Pendulum Monsters to your Extra Deck face-up}}
+		{{Add to Extra Deck}}
 		
 		Bit of an odd FIRE synergy, to maybe set up the Firebird theme for way later
 		=> Pendulum Effect is thematically so neat I don't want to change it, but it doesn't do much ...
 		=> GY effect is designed to go with Hikaki detach (also FIRE) - before it self-destructs, you get to pop an opponent's card!
 		=> Banish effect opened up to also get other Rahi if needed
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:22:20
+	time modified: 2024-08-10 23:45:25
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -868,7 +870,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN024
-	rule text: If this card is sent to the GY: You can target 1 "Rahi" monster you control and 1 card your opponent controls; destroy them. If this card is banished: You can banish the top card of your Deck; add 1 of your banished Beast or Winged Beast "Rahi" monsters to your Extra Deck face-up. You can only use 1 "Infernavika, Lava Bird Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can target 1 "Rahi" monster you control and 1 card your opponent controls; destroy them. If this card is banished: You can banish the top card of your Deck; add 1 of your banished Beast or Winged Beast "Rahi" Pendulum Monsters to your Extra Deck face-up. You can only use 1 "Infernavika, Lava Bird Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: Once per turn, at the start of the Battle Phase: You can target 1 face-up monster you control; this turn, when that target battles an opponent's monster, destroy both monsters at the start of the Damage Step, except FIRE monsters.
 	pendulum scale 1: 2
@@ -886,7 +888,7 @@ card:
 		Native Tuner for Beasts that may let you squeeze in a Taku negate just under Nib
 		=> scattering for confusion is now a BP GY effect, with no OPT so multiple copies can scatter separately for increased effect
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:22:38
+	time modified: 2024-08-11 10:29:42
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -903,7 +905,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN026
-	rule text: If a Beast or Winged Beast "Rahi" monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand, then, immediately after this effect resolves, Synchro Summon 1 "Rahi" Synchro Monster using monsters you control. You can only use this effect of "Pokawi, Flightless Bird Rahi" once per turn. During the Battle Phase (Quick Effect): You can banish this card from your GY; all monsters your opponent controls lose 500 ATK for each of your banished "Rahi" monsters, until the end of this turn.
+	rule text: If a Beast or Winged Beast "Rahi" monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand, then, immediately after this effect resolves, Synchro Summon 1 "Rahi" Synchro Monster using monsters you control. You can only use this effect of "Pokawi, Flightless Bird Rahi" once per turn. During the Battle Phase (Quick Effect): You can banish this card from your GY; all monsters your opponent currently controls lose 500 ATK for each of your banished "Rahi" monsters, until the end of this turn.
 	pendulum: none
 	pendulum text: Once per turn, during either player's turn, when a "Rahi" monster you control is destroyed by a card effect: You can add 1 monster with the same name as the destroyed monster from your Deck to your hand.
 	pendulum scale 1: 2
@@ -1138,7 +1140,6 @@ card:
 	notes:
 		{{Special Summon this card}}
 		{{Return up to 2 of your banished "Rahi" monsters to your GY}}
-		{{Banish "Hapaka, Shepherd Rahi" instead?}}
 		
 		Similar ideas of protection and shepherding as before, but shuffled around a bit
 		=> self-SS is in Pendulum Effect like on other Beasts, and relatively inexpensive too
