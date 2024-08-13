@@ -477,7 +477,7 @@ card:
 		=> Level Change is now limited to only that case, on the field you can do adjustments using multiple monsters and such anyway
 		=> added endurance-focused recursion effect, worded generically so it also works in Po-Koro (which can now also make this card!)
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:06:00
+	time modified: 2024-08-13 15:46:09
 	extra data:
 		yugioh-standard-extra:
 			card frame: synchro monster
@@ -495,7 +495,7 @@ card:
 	number: BCOR-EN044
 	rule text:
 		1 Tuner + 1+ non-Tuner monsters
-		If this card would be used as Synchro Material for a "Rahi" monster, 1 face-up Beast or Winged Beast Pendulum Monster in your Extra Deck (and no other monsters) can be used as the other material. If you do this, you can treat this card as any Level from 1 to 5 for that Synchro Summon. If this card is in your GY: You can target 1 of your banished monsters; shuffle it into the Deck, and if you do, Special Summon this card. You can only Special Summmon "Dikapi, Ostrich Rahi(s)" once per turn.
+		If this card would be used as Synchro Material for a "Rahi" monster, 1 face-up Beast or Winged Beast Pendulum Monster in your Extra Deck (and no other monsters) can be used as the other material. If you do this, you can treat this card as any Level from 1 to 5 for that Synchro Summon. If this card is in your GY: You can target 1 of your banished monsters; shuffle it into the Deck, and if you do, Special Summon this card. You can only Special Summon "Dikapi, Ostrich Rahi(s)" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1000
 	defense: 1650
