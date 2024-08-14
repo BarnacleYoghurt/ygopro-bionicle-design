@@ -1482,8 +1482,10 @@ card:
 		
 		Type-based search and recycling tool
 		=> has a double add geared to set up the Normal Pendulum pairs, but you can also use it as a regular search, or as a double search with effect monsters if you're willing to lose a card (to remain neutral)
+		=> SS from GY is limited by Level so you can't just keep bringin back your Synchros unless you have other high-Level monsters
+		==> it targets the Monster Card you control instead of the monster in the GY mainly for wording reasons - two different conditions on an only indirectly specified card is  easily scriptable, but probably confusing
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:15:24
+	time modified: 2024-08-15 00:17:24
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1498,7 +1500,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN055
-	rule text: Add up to 2 "Rahi" monsters with the same Type from your Deck to your hand, then, if you added 2 monsters including an Effect Monster, banish 1 card from your hand, face-down. You can banish this card from your GY, then target 1 "Rahi" monster in your GY with the same Type as a "Rahi" Monster Card you control; Special Summon it. You can only use 1 "Rahi Swarm" effect per turn, and only once that turn.
+	rule text: Add up to 2 "Rahi" monsters with the same Type from your Deck to your hand, then, if you added 2 monsters including an Effect Monster, banish 1 card from your hand, face-down. You can banish this card from your GY, then target 1 face-up Monster Card you control; Special Summon 1 "Rahi" monster with the same Type and an equal or lower Level from your GY. You can only use 1 "Rahi Swarm" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
