@@ -655,7 +655,7 @@ card:
 		==> worded so the Synchros can dodge out of it!
 		=> Takea is also our starter, using some banishes as cost for search (which may also set up your scales)
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:07:45
+	time modified: 2024-08-14 23:32:52
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -672,7 +672,7 @@ card:
 	number: BCOR-EN015
 	rule text: If this card is Normal or Special Summoned: You can banish up to 2 "Rahi" Monster Cards from your hand and/or field; add that many Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your Deck to your hand, except "Takea, Shark Rahi". If this card is banished: You can target 1 card you control; destroy that card, also, after that, add this card to your Extra Deck face-up or place it in your Pendulum Zone. You can only use each effect of "Takea, Shark Rahi" once per turn.
 	pendulum: medium
-	pendulum text: If your Fish, Sea Serpent, and/or Aqua "Rahi" monster(s) is banished: You can target 1 of those monsters and 1 face-up card your opponent controls; place the first target on the bottom of the Deck, and if you do, destroy the second target. You can only use this effect of "Takea, Shark Rahi" once per turn.
+	pendulum text: If your Fish, Sea Serpent, and/or Aqua "Rahi" monster(s) is banished: You can target 1 of those monsters and 1 card your opponent controls; place the first target on the bottom of the Deck, and if you do, destroy the second target. You can only use this effect of "Takea, Shark Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1800
