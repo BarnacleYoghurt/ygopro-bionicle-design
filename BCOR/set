@@ -1095,7 +1095,7 @@ card:
 		=> one day, the locust swarms may return ... in the Standby Phase
 		=> they're voracious in swarms, so no HOPT on the destruction effect!
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:10:54
+	time modified: 2024-08-15 00:02:44
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1112,7 +1112,7 @@ card:
 	number: BCOR-EN039
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		If this card is Special Summoned: You can send 1 "Rahi" card from your Deck to the GY; this card gains 500 ATK. You can only use this effect of "Kirikori-Nui, Locust Rahi" once per turn. You can banish this card until the Standby Phase of your next turn; destroy 1 card on the field.
+		If this card is Synchro Summoned: You can send 1 "Rahi" card from your Deck to the GY; this card gains 500 ATK. You can only use this effect of "Kirikori-Nui, Locust Rahi" once per turn. You can banish this card until the Standby Phase of your next turn; destroy 1 card on the field.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1400
 	defense: 1000
