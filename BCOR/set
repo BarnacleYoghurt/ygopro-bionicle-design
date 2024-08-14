@@ -208,7 +208,7 @@ card:
 		=> gets a continuous boost form scales and other backrow (the towers)
 		=> designed in such a way that making a Toa Kaita does not clear it automatically!
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:03:18
+	time modified: 2024-08-14 23:14:09
 	extra data:
 		yugioh-standard-extra: card frame: effect monster
 	card type: effect monster
@@ -221,7 +221,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN007
-	rule text: Gains 400 ATK/DEF for each Spell/Trap you control. You can only use each of the following effects of "Manas, Monstrous Crab Rahi" once per turn. You can Tribute this card from your hand or field; add 1 "Rahi" Normal Monster from your Deck to your hand. During your opponent's turn, if you control a "Rahi" Normal Monster Card (Quick Effect): You can Special Summon this card from your GY, and if you do, it is unaffected by other monsters' effects this turn.
+	rule text: Gains 400 ATK/DEF for each face-up Spell/Trap you control. You can only use each of the following effects of "Manas, Monstrous Crab Rahi" once per turn. You can discard this card; add 1 "Rahi" Normal Monster from your Deck to your hand. During your opponent's turn, if you control a "Rahi" Normal Monster Card (Quick Effect): You can Special Summon this card from your GY, and if you do, it is unaffected by other monsters' effects, also return it to the hand during the End Phase.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3200
 	defense: 2600
