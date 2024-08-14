@@ -236,10 +236,9 @@ card:
 		=> works even with Lv2, because why not really
 		=> works from hand too, so you don't have to jump through hoops to set it up
 		=> has a hard TWICE per turn - you get some sweet Tuner recursion without risking any bullshit loops
-		
-		Possibly split the summon and the getting another copy, so it's not entirely stopped by Ash? (and each could be HOPT)
+		==> never mind, that still feels like bullshit - let's see if we end up really missing the second Fikou anywhere
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:03:49
+	time modified: 2024-08-14 23:16:45
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -254,7 +253,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN022
-	rule text: <i-flavor></i>You can banish this card from your hand or GY, then target 1 Level 2 or higher "Rahi" monster you control; reduce that target's Level by 1, then Special Summon 1 "Fikou, Spider Rahi" from your hand or Deck. You can only use this effect of "Fikou, Spider Rahi" up to twice per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is in your hand or GY: You can target 1 Level 2 or higher "Rahi" monster you control; reduce that target's Level by 1, and if you do, banish this card, then Special Summon 1 "Fikou, Spider Rahi" from your hand or Deck. You can only use this effect of "Fikou, Spider Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 600
 	defense: 400
