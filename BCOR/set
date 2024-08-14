@@ -837,8 +837,9 @@ card:
 		=> Pendulum effect does whatever, painful stingers I guess
 		=> mainly it's an Insect-locking starter that gets you a Tuner, sets itself up as cost for the Special Summon, and then comes back
 		==> Insect lock for effects, not summons, so we can still use it in Reptiles!
+		==> also on the Summon rather than the search, to avoid having to lock yourself too early because of the Spell/Trap condition
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:09:18
+	time modified: 2024-08-14 23:38:17
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -853,7 +854,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN019
-	rule text: <i-flavor></i>If a face-up Spell/Trap is on the field (Quick Effect): You can Tribute this card; add 1 Insect "Rahi" monster from your Deck to your hand, except "Kofo-Jaga, Scorpion Rahi", also you cannot activate non-Insect monster effects for the rest of this turn. If this card is banished while you control a "Rahi" Tuner: You can Special Summon this card. You can only use each effect of "Kofo-Jaga, Scorpion Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If a face-up Spell/Trap is on the field (Quick Effect): You can Tribute this card; add 1 Insect "Rahi" monster from your Deck to your hand, except "Kofo-Jaga, Scorpion Rahi". If this card is banished while you control a "Rahi" Tuner: You can Special Summon this card, also you cannot activate non-Insect monster effects for the rest of this turn. You can only use each effect of "Kofo-Jaga, Scorpion Rahi" once per turn.<i></i-flavor>
 	pendulum: medium
 	pendulum text: If a monster(s) is Normal or Special Summoned, except during the Damage Step: You can destroy this card, and if you do, for the rest of this turn, all monsters your opponent controls lose 1000 ATK/DEF.
 	pendulum scale 1: 6
