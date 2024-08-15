@@ -1984,7 +1984,7 @@ card:
 		=> random utility SS from hand effect (same as Moa's GY trigger - let's see where that works better)
 		=> maybe needs "except Brakas" in some of those so it's not randomly splashable
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-06 13:50:51
+	time modified: 2024-08-15 07:51:19
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1999,7 +1999,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN010
-	rule text: If this card is sent to the GY: You can send 1 Beast or Winged Beast "Rahi" monster from your hand or face-up Extra Deck to the GY, and if you do, draw 1 card. If this card is banished: You can Special Summon 1 Level 4 or lower "Rahi" monster from your hand. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can send 1 Beast or Winged Beast "Rahi" monster from your hand to the GY, and if you do, draw 1 card. If this card is banished: You can Special Summon 1 Level 4 or lower "Rahi" monster from your hand. You can only use 1 "Brakas, Monkey Rahi" effect per turn, and only once that turn.
 	pendulum: medium
 	pendulum text: If your Beast or Winged Beast "Rahi" monster battles an opponent's monster, before damage calculation: You can destroy this card, and if you do, make that opponent's monster's ATK 0, until the end of this turn.
 	pendulum scale 1: 2
