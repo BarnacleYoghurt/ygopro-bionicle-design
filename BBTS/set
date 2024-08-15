@@ -1143,11 +1143,12 @@ card:
 		
 		Similar ideas of protection and shepherding as before, but shuffled around a bit
 		=> self-SS is in Pendulum Effect like on other Beasts, and relatively inexpensive too
+		==> too inexpensive it feels like, so let's rephrase that in a way that doesn't put more on the field, but is at the same time more flexible
 		=> protection is a monster effect so it can work more or less anywhere
 		=> returning something to the "herd" on banish is too perfect to leave, but it's now Type-locked and gets conveniently triggered by the protection
 		==> actually without the Type lock this is super neat in Rahi Nui, so let's put that restriction on the protection instead
 	time created: 2016-03-01 14:00:26
-	time modified: 2024-07-31 13:24:00
+	time modified: 2024-08-15 08:07:41
 	card type: effect monster
 	name: Hapaka, Shepherd Rahi
 	attribute: water
@@ -1159,9 +1160,9 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN003
-	rule text: If a Beast or Winged Beast "Rahi" monster(s) you control would be destroyed by battle or card effect, you can banish this card from your hand, Monster Zone, or GY instead. If this card is banished: You can return up to 2 of your banished "Rahi" monsters to your GY, except "Hapaka, Shepherd Rahi". You can only use each effect of "Hapaka, Shepherd Rahi" once per turn.
+	rule text: If a Beast or Winged Beast "Rahi" monster(s) you control would be destroyed by battle or card effect, you can banish this card from your hand, Monster Zone, or GY instead. If this card is banished: You can return 1 of your banished "Rahi" monsters to your GY, except "Hapaka, Shepherd Rahi". You can only use each effect of "Hapaka, Shepherd Rahi" once per turn.
 	pendulum: medium
-	pendulum text: "Rahi" monsters you control gain 700 DEF. You can target 1 Level 4 or lower Beast or Winged Beast "Rahi" monster you control; Special Summon this card, and if you do, change that monster to Defense Position. You can only use this effect of "Hapaka, Shepherd Rahi" once per turn.
+	pendulum text: You can target 1 Level 4 or lower Beast or Winged Beast "Rahi" monster you control; return both it and this card to the hand, then Special Summon 1 Level 4 or lower "Rahi" monster from your hand in Defense Position. You can only use this effect of "Hapaka, Shepherd Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1200
