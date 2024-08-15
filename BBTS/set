@@ -1138,8 +1138,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon this card}}
-		{{Return up to 2 of your banished "Rahi" monsters to your GY}}
+		{{Return a monster to the hand, then Special Summon}}
+		{{Return 1 of your banished "Rahi" monsters to your GY}}
 		
 		Similar ideas of protection and shepherding as before, but shuffled around a bit
 		=> self-SS is in Pendulum Effect like on other Beasts, and relatively inexpensive too
