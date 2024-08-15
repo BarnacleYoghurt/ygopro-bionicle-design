@@ -1549,18 +1549,19 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon this card}}
 		{{Synchro Summon using Fish, Sea Serpent, and/or Aqua monsters you control}}
 		
 		Bigger counterpart to the Ruki, but what I really want here is a way to quick-synchro
 		=> from hand with same cost as usual
 		==> cost is only to get on field, Synchro is its own effect!
+		===> but wait, that just makes it a Lv3 version of the Insects, with the same splashability ...
+		===> let's try it without a self-SS for now (Shore Turtle can get it too!), if that doesn't feel like enough the free space could be used for either "SS from hand if you control a F/S/A Rahi" or "if banished, banish from opponent's GY"
 		=> Level 3 and modular Tuner/non-Tuner, I think that gives the most flexibility
 		=> text length doesn't really allow more, so the reference to Nokama's trident shall remain limited to the sum of the stats
 		=> name abbreviated to avoid having an archetype clause for Makuta :)
 		==> it may get it back if it turns out all Makuta support only deals with Fiends/Rituals, but I don't want to worry about that right now
 	time created: 2023-12-17 11:18:18
-	time modified: 2024-07-31 13:28:29
+	time modified: 2024-08-15 08:22:37
 	card type: effect monster
 	name: MKT Fish, Biting Rahi
 	attribute: dark
@@ -1572,7 +1573,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card you control would be used as Synchro Material, you can treat it as a non-Tuner. You can only use each of the following effects of "MKT Fish, Biting Rahi" once per turn. (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card from your hand. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Synchro Summon using Fish, Sea Serpent, and/or Aqua monsters you control, including this card.
+	rule text: If this card you control would be used as Synchro Material, you can treat it as a non-Tuner. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Synchro Summon using Fish, Sea Serpent, and/or Aqua monsters you control, including this card. You can only use this effect of "MKT Fish, Biting Rahi" once per turn.
 	attack: 900
 	defense: 300
 	gamecode: 10100351
