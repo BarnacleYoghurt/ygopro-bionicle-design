@@ -2142,8 +2142,9 @@ card:
 		=> maybe we put the secondary S/T search here?
 		=> or a way to recycle itself?
 		==> "If this card is Link Summoned: You can add 1 "Rahi" monster from your GY or banishment to your hand, then place 1 card from your hand on the bottom of the Deck" - recycles others, also self if you play 2, no additional plusses but also doesn't cost you a card if you return stuff to the extra deck, length still reasonable even with HOPT
+		===> let's try it
 	time created: 2024-06-29 19:08:14
-	time modified: 2024-07-31 13:19:19
+	time modified: 2024-08-15 07:56:23
 	card type: link monster
 	name: Fikou-Nui, Tarantula Rahi
 	attribute: earth
@@ -2156,7 +2157,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 Level 2 or lower "Rahi" monster
-		You can Tribute this card; Special Summon 1 Level 4 or lower "Rahi" monster from your hand or GY, and if you do, you can increase or decrease its Level by 1.
+		If this card is Link Summoned: You can target 1 "Rahi" monster in your GY or banishment; add it to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of "Fikou-Nui, Tarantula Rahi" once per turn. You can Tribute this card; Special Summon 1 Level 4 or lower "Rahi" monster from your hand or GY, and if you do, you can increase or decrease its Level by 1.
 	Link Marker UR: yes
 	Link Marker DL: none
 	attack: 1000
