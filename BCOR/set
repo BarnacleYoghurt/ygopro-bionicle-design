@@ -916,7 +916,7 @@ card:
 		==> new concept has a search effect that can also provide ED setup, but only with on-Type Pendulums so the association remains intact
 		=> no HOPT because they're in swarms and we want to loop
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-14 23:47:29
+	time modified: 2024-08-18 15:46:37
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -931,7 +931,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN017
-	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can add 1 Fish, Sea Serpent, or Aqua "Rahi" Pendulum Monster from your Deck to your hand, then you can add 1 Pendulum Monster from your hand to your Extra Deck face-up. You can only use this effect of "Ruki, Fish Rahi" once per turn. (Quick Effect): You can banish both this card from your hand and 1 "Rahi" monster in your GY or face-up Extra Deck; destroy 1 monster your opponent controls.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can add 1 Fish, Sea Serpent, or Aqua "Rahi" Pendulum Monster from your Deck to your hand, then you can add 1 Pendulum Monster from your hand to your Extra Deck face-up. You can only use this effect of "Ruki, Fish Rahi" once per turn. (Quick Effect): You can banish both this card from your hand or field and 1 "Rahi" monster in your GY or face-up Extra Deck; destroy 1 monster your opponent controls.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 700
 	defense: 100
@@ -2133,6 +2133,7 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add 1 "Rahi" monster from your GY or banishment to your hand}}
 		{{Special Summon 1 Level 4 or lower "Rahi" monster from your hand or GY}}
 		{{Increase its Level by 1}}
 		{{Decrease its Level by 1}}
