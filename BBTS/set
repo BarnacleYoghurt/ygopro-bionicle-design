@@ -770,12 +770,12 @@ card:
 		==> has the offensive stats to also charge if that should be necessary
 		=> might want super HOPT on this?
 	time created: 2016-03-01 14:00:26
-	time modified: 2024-08-15 07:59:26
+	time modified: 2024-08-20 18:56:18
 	card type: synchro monster
 	name: Waikiru, Walrus Rahi
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image42
+	image: image57
 	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -853,7 +853,7 @@ card:
 		=> GY effect is designed to go with Hikaki detach (also FIRE) - before it self-destructs, you get to pop an opponent's card!
 		=> Banish effect opened up to also get other Rahi if needed
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-10 23:45:25
+	time modified: 2024-08-20 19:01:05
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -862,7 +862,7 @@ card:
 	name: Infernavika, Lava Bird Rahi
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image40
+	image: image42
 	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
