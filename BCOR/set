@@ -956,9 +956,11 @@ card:
 		=> it flies, so targeting protection as bonus
 		==> making it WIND for the same reason is kinda cute because it gives us Waikiru access with the Taketomborg we might already play for Hikaki
 		=> does not have the double-banish cost even from hand because being purely reactive and delayed is already a real drawback, so no need to use up resources we need for a Ruki or Makuta Fish just to get them out
+		==> on further thought, combined with the new Ruki that makes this a guaranteed turn 0 1-card combo for a non-targeting pop and a Makika recycle in the End Phase (coming out to at least +1 even without counting what the opponent loses), so let's demand another card after all - but from hand or field, so as to not compete
+		==> the hidden upside is that this lets us set a scale before using Ruki, so if the field is somehow non-empty we could even get the Takea pop!
 		==> can now also summon itself, so you can effectively get it from hand to field and turn on the protection this way
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-14 23:55:47
+	time modified: 2024-08-21 20:55:01
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -973,7 +975,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN009
-	rule text: <i-flavor></i>Your opponent cannot target Fish, Sea Serpent, and/or Aqua "Rahi" Monster Cards you control with card effects. If your opponent activates a card or effect: You can banish this card from your hand or field; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" Tuner from your Deck. You can only use this effect of "Shore Turtle, Shelled Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>Your opponent cannot target Fish, Sea Serpent, and/or Aqua "Rahi" Monster Cards you control with card effects. If your opponent activates a card or effect: You can banish 2 "Rahi" cards from your hand and/or face-up field, including this card; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" Tuner from your Deck. You can only use this effect of "Shore Turtle, Shelled Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 0
 	defense: 1200
