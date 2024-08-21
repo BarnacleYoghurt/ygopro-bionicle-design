@@ -794,7 +794,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon this card}}
+		{{Place 1 Beast or Winged Beast "Rahi" Pendulum Monster in your Pendulum Zone}}
 		{{Place 1 "Rahi" Pendulum Monster from your GY or face-up Extra Deck in your Pendulum Zone}}
 		
 		Trades, trades, trades
@@ -1198,7 +1198,7 @@ card:
 	has styling: false
 	notes:
 		{{Destroy or negate 1 of those monsters}}
-		{{Add 1 Level 4 or lower "Rahi" monster from your GY or face-up Extra Deck to your hand}}
+		{{Add 1 Beast or Winged Beast "Rahi" monster from your GY or face-up Extra Deck to your hand}}
 		{{Destroy it}}
 		{{Negate its effects}}
 		
@@ -1206,7 +1206,7 @@ card:
 		=> kind of a disruption, more so if it has Taku inside
 		=> soft once per turn so a herd actually works properly!
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:12:46
+	time modified: 2024-08-21 18:29:11
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1223,7 +1223,7 @@ card:
 	number: BCOR-EN038
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		Once per turn, if a monster(s) is Special Summoned to your opponent's field (except during the Damage Step): You can target 1 of those monsters; either destroy it or negate its effects. Once per turn, during the End Phase, if this card is in the GY because this Synchro Summoned card was sent there from the field this turn: You can add 1 Level 4 or lower "Rahi" monster from your GY or face-up Extra Deck to your hand.
+		Once per turn, if a monster(s) is Special Summoned to your opponent's field (except during the Damage Step): You can target 1 of those monsters; either destroy it or negate its effects. Once per turn, during the End Phase, if this card is in the GY because this Synchro Summoned card was sent there from the field this turn: You can add 1 Beast or Winged Beast "Rahi" monster from your GY or face-up Extra Deck to your hand.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 1800
 	defense: 2400
