@@ -1232,21 +1232,24 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Treat 1 Level 4 or lower monster as a Tuner}}
 		{{Banish 1 Beast or Winged Beast "Rahi" monster from your Deck}}
-		{{Special Summon 1 Level 4 or lower Beast or Winged Beast "Rahi" monster from your hand}}
 		{{Place 1 of your banished "Rahi" card on the bottom of your Deck}}
 		
-		Still missing good ideas for this one, so it does more or less what it used to do
-		=> nothing here prevents the useless cycle of "Moa banish Moa, Moa put back Moa"
+		We have very little information on this one, but I think I got something
+		=> Pendulum Effect is a bit of generic utility meant mainly for Po-Koro, where you'd use it on a Sculpture Token - mirroring the "stuck behind two rocks" situation from QftT, including banishing itself for the "stuck" part
+		==> attribute changed to EARTH for proper Po-Koro synergy
+		==> in early Beast Rahi, this gives us another way to alleviate the lack of in-Type Tuners
+		=> Monster effects are just general stuff for the Rahi toolbox, similar to what it did before
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:13:07
+	time modified: 2024-08-21 18:59:35
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
 			attribute: earth
 	card type: effect monster
 	name: Moa, Bird Rahi
-	attribute: wind
+	attribute: earth
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image38
 	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
@@ -1254,9 +1257,9 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN033
-	rule text: If this card is sent to the GY: You can Special Summon 1 Level 4 or lower Beast or Winged Beast "Rahi" monster from your hand. If this card is banished: You can target 1 of your banished "Rahi" cards; place it on the bottom of your Deck. You can only use 1 "Moa, Bird Rahi" effect per turn, and only once that turn.
+	rule text: If this card is sent to the GY: You can banish 1 Beast or Winged Beast "Rahi" monster from your Deck. If this card is banished: You can target 1 of your banished "Rahi" cards, except "Moa, Bird Rahi"; place it on the bottom of your Deck. You can only use 1 "Moa, Bird Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: During your Main Phase: You can banish 1 Beast or Winged Beast "Rahi" monster from your Deck, and if you do, destroy this card.
+	pendulum text: You can target 1 face-up Level 4 or lower monster you control; treat it as a Tuner until the end of this turn, also banish this card. You can only use this effect of "Moa, Bird Rahi" once per turn.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1300
