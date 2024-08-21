@@ -1775,7 +1775,7 @@ card:
 		
 		Lore gimmick way to steal monsters, with a more practical GY version (searchable via Nui-Kopen)
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:16:15
+	time modified: 2024-08-21 19:05:38
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1790,7 +1790,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN054
-	rule text: If your opponent controls 2 or more monsters with 2000 or more ATK: Take control of the monster your opponent controls with the highest original ATK (your choice, if tied). If you control a "Rahi" Synchro Monster: You can banish this card from your GY, then target 1 monster your opponent controls; take control of it until the end of this turn. You can only use 1 "Rahi Hive Showdown" effect per turn, and only once that turn.
+	rule text: If your opponent controls 2 or more monsters with 2000 or more ATK: Take control of the monster your opponent controls with the highest original ATK (your choice, if tied). If you control a "Rahi" Synchro Monster: You can banish this card from your GY, then target 1 monster your opponent controls; take control of it until the End Phase, but it cannot declare an attack. You can only use 1 "Rahi Hive Showdown" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
