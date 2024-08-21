@@ -843,11 +843,14 @@ card:
 		The only "mid-size" Insect for now
 		=> Scale 6 so it can get out Nui-Rama/Nui-Jaga
 		=> Pendulum effect does whatever, painful stingers I guess
+		==> tweaked a bit so it's more tailored for anti-Manas use - since it's not a monster effect, they are affected, and since it's not OPT, two of them together bring it down to 1000 original ATK (enough for a third to attack over!)
+		==> ATK also slightly reduced so the numbers work out more cleanly for that
 		=> mainly it's an Insect-locking starter that gets you a Tuner, sets itself up as cost for the Special Summon, and then comes back
 		==> Insect lock for effects, not summons, so we can still use it in Reptiles!
 		==> also on the Summon rather than the search, to avoid having to lock yourself too early because of the Spell/Trap condition
+		==> inherently does Lv+1, because not being able to access any Insect Synchros with the main combo would be dumb
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-14 23:38:17
+	time modified: 2024-08-21 18:17:57
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -862,12 +865,12 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN019
-	rule text: <i-flavor></i>If a face-up Spell/Trap is on the field (Quick Effect): You can Tribute this card; add 1 Insect "Rahi" monster from your Deck to your hand, except "Kofo-Jaga, Scorpion Rahi". If this card is banished while you control a "Rahi" Tuner: You can Special Summon this card, also you cannot activate non-Insect monster effects for the rest of this turn. You can only use each effect of "Kofo-Jaga, Scorpion Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If a face-up Spell/Trap is on the field (Quick Effect): You can Tribute this card; add 1 Insect "Rahi" monster from your Deck to your hand, except "Kofo-Jaga, Scorpion Rahi". If this card is banished while you control a "Rahi" Tuner: You can Special Summon this card, and if you do, increase its Level by 1, also you cannot activate non-Insect monster effects for the rest of this turn. You can only use each effect of "Kofo-Jaga, Scorpion Rahi" once per turn.<i></i-flavor>
 	pendulum: medium
-	pendulum text: If a monster(s) is Normal or Special Summoned, except during the Damage Step: You can destroy this card, and if you do, for the rest of this turn, all monsters your opponent controls lose 1000 ATK/DEF.
+	pendulum text: If your opponent Special Summons a monster(s) (except during the Damage Step): You can destroy this card, and if you do, that monster(s) loses 1200 ATK/DEF, until the end of this turn.
 	pendulum scale 1: 6
 	pendulum scale 2: 6
-	attack: 1300
+	attack: 1200
 	defense: 1900
 	rarity: common
 	gamecode: 10100124
