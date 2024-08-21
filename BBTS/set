@@ -850,10 +850,12 @@ card:
 		
 		Bit of an odd FIRE synergy, to maybe set up the Firebird theme for way later
 		=> Pendulum Effect is thematically so neat I don't want to change it, but it doesn't do much ...
+		==> you know what, let's lean further into the fire theming and just make it bonus burn if they touch our monsters (no actual FIRE required)
+		==> wanted to make it continuous 200 for each attack or targeting effect, but we don't have any precedent for continuous post-battle damage ...
 		=> GY effect is designed to go with Hikaki detach (also FIRE) - before it self-destructs, you get to pop an opponent's card!
 		=> Banish effect opened up to also get other Rahi if needed
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-20 19:01:05
+	time modified: 2024-08-22 00:08:02
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -872,7 +874,7 @@ card:
 	number: BBTS-EN024
 	rule text: If this card is sent to the GY: You can target 1 "Rahi" monster you control and 1 card your opponent controls; destroy them. If this card is banished: You can banish the top card of your Deck; add 1 of your banished Beast or Winged Beast "Rahi" Pendulum Monsters to your Extra Deck face-up. You can only use 1 "Infernavika, Lava Bird Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: Once per turn, at the start of the Battle Phase: You can target 1 face-up monster you control; this turn, when that target battles an opponent's monster, destroy both monsters at the start of the Damage Step, except FIRE monsters.
+	pendulum text: Once per turn, at the end of the Damage Step, if your Beast or Winged Beast "Rahi" monster battled: You can inflict 600 damage to your opponent. Each time your opponent activates a card or effect that targets a Beast or Winged Beast "Rahi" monster you control, inflict 200 damage to them immediately after it resolves.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1100
