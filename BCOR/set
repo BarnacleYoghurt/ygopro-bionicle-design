@@ -799,10 +799,13 @@ card:
 		
 		Trades, trades, trades
 		=> if something gets destroyed, bring this out instead
+		==> updated because we don't really need more Special Summons and this never came up
+		==> instead, it now mirrors the granted effect but with different locations
+		==> themed after Metru Nui moving Husi to the Archives to protect them from Muaka (it sees the Muaka activated and non-destructively retreats while other prey takes the spot)
 		=> if you use it as material, put something in the Pendulum Zone instead
 		==> is that actually useful tho?
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:09:02
+	time modified: 2024-08-21 17:51:16
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -822,7 +825,7 @@ card:
 		● If it is Synchro Summoned: You can place 1 "Rahi" Pendulum Monster from your GY or face-up Extra Deck in your Pendulum Zone.
 		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.
 	pendulum: medium
-	pendulum text: If a Beast or Winged Beast "Rahi" Monster Card you control is destroyed by card effect (except during the Damage Step): You can Special Summon this card. You can only use this effect of "Husi, Ostrich Rahi" once per turn.
+	pendulum text: If a "Rahi" card is activated in your other Pendulum Zone: You can target 1 Beast or Winged Beast "Rahi" Pendulum Monster in your GY or banishment; add this card to your Extra Deck face-up, then place the targeted monster in your Pendulum Zone. You can only use this  effect of "Husi, Ostrich Rahi" once per turn.
 	pendulum scale 1: 5
 	pendulum scale 2: 5
 	attack: 1700
