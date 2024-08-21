@@ -770,7 +770,7 @@ card:
 		==> has the offensive stats to also charge if that should be necessary
 		=> might want super HOPT on this?
 	time created: 2016-03-01 14:00:26
-	time modified: 2024-08-20 18:56:18
+	time modified: 2024-08-22 00:14:16
 	card type: synchro monster
 	name: Waikiru, Walrus Rahi
 	attribute: water
@@ -785,7 +785,7 @@ card:
 	number: BBTS-EN040
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		If this card is Special Summoned: You can banish 1 Fish, Sea Serpent, or Aqua "Rahi" monster from your Deck. (Quick Effect): You can banish this card; Special Summon up to 2 Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your GY and/or banishment, whose total Levels equal 4 or less. You can only use each effect of "Waikiru, Walrus Rahi" once per turn.
+		If this card is Special Summoned: You can banish 1 Fish, Sea Serpent, or Aqua "Rahi" monster from your Deck. (Quick Effect): You can banish this card; Special Summon up to 2 Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your GY and/or banishment, whose total Levels equal 4 or less. You can only use 1 "Waikiru, Walrus Rahi" effect per turn, and only once that turn.
 	pendulum: none
 	pendulum text: 
 	pendulum scale 1: 
