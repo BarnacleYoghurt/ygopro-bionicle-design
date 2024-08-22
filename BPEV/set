@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.7.1
+	edition: Version 4.7.2
 	copyright: 
 card:
 	has styling: false
