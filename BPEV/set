@@ -1521,16 +1521,17 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon this card}}
+		{{Reduce Levels and ATK}}
 		{{Destroy that opponent's monster}}
 		
 		Another native Beast Tuner, ft. Level adjustment
 		=> the Levels go down because of the heat I guess
+		==> we don't seem to need another Special Summon and that should mostly be the domain of Insect Tuners, so might be fine to have that just be an on-field gimmick
 		=> battle effect = set yourself on fire for protection and survive
 		
 		lmao the stats say 4(00) / 20(0)
 	time created: 2023-12-17 11:18:18
-	time modified: 2024-08-11 13:32:20
+	time modified: 2024-08-22 09:17:54
 	card type: effect monster
 	name: Lava Rat, Blazing Rahi
 	attribute: fire
@@ -1542,7 +1543,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If you control a Beast or Winged Beast "Rahi" monster: You can Special Summon this card from your hand, and if you do, reduce the Levels of all other monsters you control by 1. At the start of the Damage Step, if your "Rahi" monster battles an opponent's monster: You can banish this card from the GY; destroy that opponent's monster. You can only use each effect of "Lava Rat, Blazing Rahi" once per turn.
+	rule text: Once per turn: You can reduce the Levels of all other monsters currently on the field by 1, also they lose 500 ATK. At the start of the Damage Step, if your "Rahi" monster battles an opponent's monster: You can banish this card from the GY; destroy that opponent's monster. You can only use this effect of "Lava Rat, Blazing Rahi" once per turn.
 	attack: 400
 	defense: 200
 	gamecode: 10100350
