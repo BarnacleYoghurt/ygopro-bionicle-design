@@ -843,7 +843,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Set monster on fire}}
+		{{Inflict 600 damage to your opponent}}
 		{{Destroy 1 "Rahi" monster you control and 1 card your opponent controls}}
 		{{Add 1 of your banished Beast or Winged Beast "Rahi" Pendulum Monsters to your Extra Deck face-up}}
 		{{Add to Extra Deck}}
