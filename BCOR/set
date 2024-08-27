@@ -172,7 +172,7 @@ card:
 		Swarms Insects from Deck, but locks you
 		=> this includes the various Tuners, and Nui-Jaga can turn it into a search
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:03:09
+	time modified: 2024-08-28 00:04:15
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -189,7 +189,7 @@ card:
 	number: BCOR-EN004
 	rule text: <i-flavor>A harsh buzz fills the air...a rustle of wings...a dark shape flying out of the sun...the warning signs of a Nui-Rama attack.</i-flavor>
 	pendulum: medium
-	pendulum text: You can target 1 face-up monster you control; Special Summon 1 Insect "Rahi" monster with a lower or equal Level from your Deck, also you cannot Special Summon monsters for the rest of this turn, except Insect monsters. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
+	pendulum text: You can target 1 face-up monster you control; Special Summon 1 Insect "Rahi" monster with a lower or equal Level from your Deck in Defense Position, also you cannot Special Summon monsters for the rest of this turn, except Insect monsters. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	pendulum scale 1: 1
 	pendulum scale 2: 1
 	attack: 1800
