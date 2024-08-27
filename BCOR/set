@@ -268,8 +268,9 @@ card:
 		The Tarakava variant that helps Reptiles go into hiding in the backrow
 		=> Grants a Quick Effect to monsters on Summon so the Pendulum Effect doesn't have to be quick
 		==> correction: continuously grants it in the column, that's easier to follow
+		===> okay I keep clogging this, so let's provide two options and hope it's enough
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:03:57
+	time modified: 2024-08-28 00:11:37
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -287,7 +288,7 @@ card:
 	rule text: <i-flavor>Sand Tarakava are slightly smaller than their Tarakava relatives. Their hunting method is to hide under the sand and wait for unsuspecting prey to come near.</i-flavor>
 	pendulum: medium
 	pendulum text:
-		Reptile "Rahi" monsters you control in this card's column gain this effect.
+		Reptile "Rahi" monsters in your leftmost or rightmost Main Monster Zone gain this effect.
 		<sym-auto>*</sym-auto>Once per turn (Quick Effect): You can place this card face-up in your Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell, or if it is a Pendulum Monster, you can place it in your Pendulum Zone instead.
 	pendulum scale 1: 8
 	pendulum scale 2: 8
