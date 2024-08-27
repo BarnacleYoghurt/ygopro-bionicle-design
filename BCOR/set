@@ -36,7 +36,7 @@ card:
 		=> this one lets you jump forward when the time to hunt comes
 		=> old gimmick with Level/Type matches had to be cut for length, we'll just have to focus on mechanical synergies instead
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-20 19:58:21
+	time modified: 2024-08-27 23:59:48
 	extra data:
 		yugioh-standard-extra: card frame: legendary dragons
 	card type: normal monster
@@ -53,7 +53,7 @@ card:
 	number: BCOR-EN006
 	rule text: <i-flavor>The first thing to remember about Tarakava is that even if you can't see them, they are always there.</i-flavor>
 	pendulum: medium
-	pendulum text: Once per turn, when an attack is declared involving an opponent's monster: You can target 1 Reptile "Rahi" Monster Card in your Spell <sym-auto>&</sym-auto> Trap Zone; Special Summon it (but it cannot attack directly this turn), and if you do, destroy that opponent's monster.
+	pendulum text: When an attack is declared involving an opponent's monster: You can target 1 Reptile "Rahi" Monster Card in your Spell <sym-auto>&</sym-auto> Trap Zone; Special Summon it (but it cannot attack directly this turn), and if you do, destroy that opponent's monster. You can only use this effect of "Tarakava, Lizard Rahi" once per turn.
 	pendulum scale 1: 1
 	pendulum scale 2: 1
 	attack: 2600
