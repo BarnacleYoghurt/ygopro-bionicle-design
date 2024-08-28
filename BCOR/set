@@ -345,7 +345,7 @@ card:
 		=> grabs opponent's monsters and strips them of all defenses to bite their heads off in battle
 		=> could also make sense to flip monsters face-down e.g. at the start of the battle phase (big rat scary), but is anything short of a Silvera copy even that useful?
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:05:03
+	time modified: 2024-08-28 07:17:48
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -362,7 +362,7 @@ card:
 	number: BCOR-EN037
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		Gains 500 ATK for each other "Rahi" card you control. If this card battles an opponent's monster, at the start of the Damage Step: You can activate this effect; change that opponent's monster to Attack Position, also negate its effects until the end of this turn.
+		Gains 300 ATK for each other "Rahi" card you control. If this card battles an opponent's monster, at the start of the Damage Step: You can activate this effect; change that opponent's monster to Attack Position, also negate its effects until the end of this turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3000
 	defense: 2500
