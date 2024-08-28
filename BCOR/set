@@ -927,9 +927,11 @@ card:
 		=> same cost as the Insect Tuners or the old handtraps, but also works more efficiently if it's openly on the field
 		==> turns out that's stupid because then e.g. Encounter in the Drifts can just get this to always have a destruction
 		==> new concept has a search effect that can also provide ED setup, but only with on-Type Pendulums so the association remains intact
+		===> make that GY setup instead of ED setup, otherwise we'd need to run inconveniently many Pendulums to actually reliably use it as a search - also this way we can get rid of ded shifters :^)
+		===> "discard" vs "send to GY" - both work even if the GY isn't available, main reason to not use discard here is because Dark World synergy doesn't seem right
 		=> no HOPT because they're in swarms and we want to loop
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-21 18:21:45
+	time modified: 2024-08-28 18:05:44
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -944,7 +946,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN017
-	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can add 1 Fish, Sea Serpent, or Aqua "Rahi" Pendulum Monster from your Deck to your hand, then add 1 Pendulum Monster from your hand to your Extra Deck face-up. You can only use this effect of "Ruki, Fish Rahi" once per turn. (Quick Effect): You can banish both this card from your hand or field and 1 "Rahi" monster in your GY or face-up Extra Deck; destroy 1 monster your opponent controls.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can add 1 Fish, Sea Serpent, or Aqua "Rahi" Pendulum Monster from your Deck to your hand, then send 1 card from your hand to the GY. You can only use this effect of "Ruki, Fish Rahi" once per turn. (Quick Effect): You can banish both this card from your hand or field and 1 "Rahi" monster in your GY or face-up Extra Deck; destroy 1 monster your opponent controls.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 700
 	defense: 100
