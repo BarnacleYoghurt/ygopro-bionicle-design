@@ -445,7 +445,7 @@ card:
 		=> preserves the idea of the old one, without needing to be loopable
 		=> also if you put it in the backrow (which it has no way of doing itself), it's just blanket protection
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-20 20:05:38
+	time modified: 2024-08-28 17:45:42
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -462,7 +462,7 @@ card:
 	number: BCOR-EN042
 	rule text:
 		<i-flavor></i>1 "Rahi" Tuner + 1+ non-Tuner monsters
-		If this card is Special Summoned, except during your Main Phase: You can target up to 2 cards your opponent controls; this card loses exactly 1000 ATK for each targeted card, and if it does, shuffle them into the Deck. You can only use this effect of "Tarakava-Nui, Lizard King Rahi" once per turn. While this card is a Continuous Spell, "Rahi" cards you control cannot be destroyed by your opponent's card effects.<i></i-flavor>
+		If this card is Special Summoned: You can target up to 2 cards your opponent controls; this card loses exactly 1000 ATK for each targeted card, and if it does, shuffle them into the Deck. You can only use this effect of "Tarakava-Nui, Lizard King Rahi" once per turn. Loses 1000 ATK during your Main Phase only. While this card is a Continuous Spell, "Rahi" cards you control cannot be destroyed by your opponent's card effects.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2900
 	defense: 0
