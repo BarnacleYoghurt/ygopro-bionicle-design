@@ -1441,7 +1441,7 @@ card:
 		Your large Rahi suppress the opponent and your small Rahi gather supplies as you lay Siege
 		=> banish from field for protection as well, so you can clear backrow if needed
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:14:45
+	time modified: 2024-08-28 18:19:02
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1457,7 +1457,7 @@ card:
 	monster type: <word-list-ENrace></word-list-ENrace><word-list-ENeffect></word-list-ENeffect><word-list-ENeffect></word-list-ENeffect>
 	number: BCOR-EN056
 	rule text:
-		If a "Rahi" monster(s) is Normal or Special Summoned to your field, except during the Damage Step: You can activate 1 of these effects, based on the Level of that monster(s).
+		If a "Rahi" monster(s) is Normal or Special Summoned to your field, except during the Damage Step: You can activate 1 of these effects, based on the Level of that monster(s) on the field;
 		<sym-auto>*</sym-auto>4 or lower: Draw 1 card. <sym-auto>*</sym-auto>5 or higher: Change 1 face-up monster on the field to face-down Defense Position.
 		If a Level 5 or higher "Rahi" monster you control would be destroyed by battle or card effect, you can banish this card from your field or GY instead. You can only use each effect of "Siege of the Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
