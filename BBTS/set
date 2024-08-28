@@ -1179,7 +1179,7 @@ card:
 		Native Tuner that's also a Normal Summon, let's see if that makes sense
 		=> bonus when opponent has big monsters is for "mocking predators" lore
 	time created: 2016-03-01 14:00:26
-	time modified: 2024-07-31 13:25:12
+	time modified: 2024-08-28 18:36:41
 	card type: effect monster
 	name: Mata Nui Fishing Bird, Swooping Rahi
 	attribute: wind
@@ -1192,7 +1192,7 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	number: BBTS-EN025
-	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can target 1 Level 4 or lower Beast or Winged Beast "Rahi" monster in your GY or banishment; Special Summon it, but negate its effects, also if your opponent controls a monster with 2000 or more ATK, you can banish 1 card from either GY. You can only use this effect of "Mata Nui Fishing Bird, Swooping Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is Normal or Special Summoned: You can target 1 Level 4 or lower Beast or Winged Beast "Rahi" monster in your GY; Special Summon it, but negate its effects, also if your opponent controls a monster with 2000 or more ATK, you can banish 1 card from either GY. You can only use this effect of "Mata Nui Fishing Bird, Swooping Rahi" once per turn.<i></i-flavor>
 	pendulum: none
 	pendulum text: During either player's turn: You can banish 1 monster from either player's Graveyard, and if you do, destroy this card. You can only use this effect of "Mata Nui Fishing Bird, Rahi" once per turn.
 	pendulum scale 1: 2
