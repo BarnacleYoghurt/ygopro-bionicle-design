@@ -300,14 +300,15 @@ card:
 	has styling: false
 	notes:
 		{{Destroy 1 other Beast or Winged Beast "Rahi" Monster Card and Special Summon this card}}
-		{{Prevents effects during battle (heritable)}}
-		{{Prevents effects during battle}}
+		{{Make this card able to attack again}}
+		{{Bonus attack (heritable)}}
+		{{Bonus attack}}
 		
 		Still retains the pattern of summoning itself and granting a bonus to Synchros, but
 		=> Self-SS has a thematic cost (kicking the shit out of other Rahi) rather than a generic condition, allowing it to simultaneously play a role in the combo
 		=> Bonus effect is heritable, but only for one generation and only to Rahi
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-06 14:43:18
+	time modified: 2024-08-28 07:13:20
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -324,7 +325,7 @@ card:
 	number: BCOR-EN011
 	rule text:
 		<i-flavor></i>A Synchro Monster Summoned using this card as material gains these effects.
-		● If it battles, your opponent cannot activate cards or effects until the end of the Damage Step.
+		● Once per turn, at the end of the Damage Step, if this card attacked an opponent's monster: You can activate this effect; this card can attack again in a row.
 		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.<i></i-flavor>
 	pendulum: medium
 	pendulum text: During your Main Phase: You can destroy 1 other Beast or Winged Beast "Rahi" Monster Card in your hand or face-up field, and if you do, Special Summon this card. You can only use this effect of "Fusa, Kangaroo Rahi" once per turn.
@@ -1027,13 +1028,13 @@ card:
 	notes:
 		{{Destroy 1 "Rahi" monster and Special Summon this card}}
 		{{Send 1 "Rahi" monster from your Deck or Extra Deck to the GY}}
-		{{Can attack all monsters (heritable)}}
-		{{Can attack all monsters}}
+		{{Prevents effects during battle (heritable)}}
+		{{Prevents effects during battle}}
 		
 		Charge forward, crash through a monster in its path, and then unstoppably continue to mill
 		=> costly SS condition and going-second grant effect, so it gets an on-summon effect
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:10:27
+	time modified: 2024-08-28 07:15:04
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1050,7 +1051,7 @@ card:
 	number: BCOR-EN014
 	rule text:
 		If this card is Normal or Special Summoned: You can send 1 Beast or Winged Beast "Rahi" monster from your Deck or face-up Extra Deck to the GY. You can only use this effect of "Vako, Rhino Rahi" once per turn. A Synchro Monster Summoned using this card as material gains these effects.
-		● This card can attack all monsters your opponent controls, once each.
+		●  If it battles, your opponent cannot activate cards or effects until the end of the Damage Step.
 		● A "Rahi" Synchro Monster Summoned using this card as material gains the above effect.
 	pendulum: medium
 	pendulum text: During your Main Phase: You can destroy 1 "Rahi" monster you control, and if you do, Special Summon this card. You can only use this effect of "Vako, Rhino Rahi" once per turn.
