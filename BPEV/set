@@ -1674,7 +1674,7 @@ card:
 		==> now you can't you dumbass, Chimera needs a material from the hand
 		=> also it's both Rahi and Makuta, just for the lulz
 	time created: 2023-12-17 11:34:54
-	time modified: 2024-08-11 15:30:30
+	time modified: 2024-08-28 23:58:41
 	card type: spell card
 	name: Place of Shadow
 	attribute: spell
@@ -1682,7 +1682,7 @@ card:
 	image: image21
 	rule text:
 		(This card is always treated as a "Rahi" and "Makuta" card.)
-		You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY (except during the Damage Step): You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use each effect of "Place of Shadow" once per turn.
+		Once per turn: You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY (except during the Damage Step): You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use this effect of "Place of Shadow" once per turn.
 	gamecode: 10100354
 card:
 	has styling: false
