@@ -1075,10 +1075,11 @@ card:
 		
 		Useful tunneler
 		=> digs monsters out of the GY via Pendulum Summon (or something, I just like this gimmick)
+		==> just so that has some kind of cost if you're doing it every turn, let's put a Onu-Koro style LP cost on there
 		=> aids both Onu-Koro and many of its Rahi Type-mates
 		=> helps you dig into your deck and recover resources if banished
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:10:35
+	time modified: 2024-08-28 18:11:44
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1095,7 +1096,7 @@ card:
 	number: BCOR-EN013
 	rule text: If this card is sent to the GY: You can Special Summon 1 other Level 4 or lower EARTH monster from your GY, but negate its effects. If this card is banished: You can target 1 Beast or Winged Beast "Rahi" monster in your GY; banish it, and if you do, draw 1 card. You can only use 1 "Ussal, Crab Rahi" effect per turn, and only once that turn.
 	pendulum: medium
-	pendulum text: Once per turn: You can activate this effect; this turn, if you Pendulum Summon while this card and another "Rahi" monster are in your Pendulum Zones, you can also Pendulum Summon up to 1 Beast or Winged Beast "Rahi" monster from your GY.
+	pendulum text: Once per turn: You can pay 1000 LP; this turn, if you Pendulum Summon while this card and another "Rahi" monster are in your Pendulum Zones, you can also Pendulum Summon up to 1 Beast or Winged Beast "Rahi" monster from your GY.
 	pendulum scale 1: 2
 	pendulum scale 2: 2
 	attack: 1000
