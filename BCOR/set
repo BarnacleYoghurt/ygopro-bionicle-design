@@ -658,7 +658,7 @@ card:
 		==> worded so the Synchros can dodge out of it!
 		=> Takea is also our starter, using some banishes as cost for search (which may also set up your scales)
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-14 23:32:52
+	time modified: 2024-08-28 17:56:12
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -673,7 +673,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fish</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN015
-	rule text: If this card is Normal or Special Summoned: You can banish up to 2 "Rahi" Monster Cards from your hand and/or field; add that many Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your Deck to your hand, except "Takea, Shark Rahi". If this card is banished: You can target 1 card you control; destroy that card, also, after that, add this card to your Extra Deck face-up or place it in your Pendulum Zone. You can only use each effect of "Takea, Shark Rahi" once per turn.
+	rule text: If this card is Normal or Special Summoned: You can banish up to 2 "Rahi" Monster Cards from your hand and/or field; add that many Fish, Sea Serpent, and/or Aqua "Rahi" monsters with different names from your Deck to your hand, except "Takea, Shark Rahi". If this card is banished: You can target 1 card you control; destroy that card, also, after that, add this card to your Extra Deck face-up or place it in your Pendulum Zone. You can only use each effect of "Takea, Shark Rahi" once per turn.
 	pendulum: medium
 	pendulum text: If your Fish, Sea Serpent, and/or Aqua "Rahi" monster(s) is banished: You can target 1 of those monsters and 1 card your opponent controls; place the first target on the bottom of the Deck, and if you do, destroy the second target. You can only use this effect of "Takea, Shark Rahi" once per turn.
 	pendulum scale 1: 5
