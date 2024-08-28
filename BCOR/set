@@ -413,7 +413,7 @@ card:
 		=> mills (Winged) Beast Rahi, to access e.g. Kewa or Ussal
 		=> upon further use as material or destruction fodder, can bring back a Rahi, perhaps the one it sent
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:05:35
+	time modified: 2024-08-28 07:22:42
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -430,7 +430,7 @@ card:
 	number: BCOR-EN043
 	rule text:
 		1 Tuner + 1+ non-Tuner monsters
-		If this card is Special Summoned: You can send 1 Beast or Winged Beast "Rahi" monster from your Deck to the GY. If this card is sent from the field to the GY: You can target 1 Level 4 or lower "Rahi" monster in your GY; Special Summon it. You can only use each effect of "Gukko-Kahu, Hawk Rahi" once per turn.
+		If this card is Special Summoned: You can send 1 Beast or Winged Beast "Rahi" monster from your Deck to the GY. If this Synchro Summoned card is sent from the field to the GY: You can target 1 Level 4 or lower "Rahi" monster in your GY; Special Summon it. You can only use each effect of "Gukko-Kahu, Hawk Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2500
 	defense: 1000
