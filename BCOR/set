@@ -378,8 +378,9 @@ card:
 		=> can go to hand or GY to access both modes
 		=> in particular, you can dump Hive Showdown to take control of an opponent's monster, preserving the flavor from ye olden times
 		=> can then also tribute off that monster (or any other, or itself to defend from Imperm) to bring out a Tuner for even more utility
+		==> we mainly use that to dodge Imperm, so it really doesn't need to be something that gets another thing out of the Deck - usually there'll be a Rahi Tuner in the GY after making this!
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:05:18
+	time modified: 2024-08-28 07:20:05
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -396,7 +397,7 @@ card:
 	number: BCOR-EN040
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		If this card is Special Summoned: You can take 1 "Rahi" Spell/Trap from your Deck, and either add it to your hand or send it to the GY. During the Main Phase (Quick Effect): You can Tribute 1 monster; Special Summon 1 Level 2 or lower "Rahi" Tuner from your hand or Deck, but negate its effects. You can only use each effect of "Nui-Kopen, Wasp Rahi" once per turn.
+		If this card is Special Summoned: You can take 1 "Rahi" Spell/Trap from your Deck, and either add it to your hand or send it to the GY. During the Main Phase (Quick Effect): You can Tribute 1 monster; Special Summon 1 Level 2 or lower "Rahi" Tuner from your hand or GY, but negate its effects. You can only use each effect of "Nui-Kopen, Wasp Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2100
 	defense: 2000
