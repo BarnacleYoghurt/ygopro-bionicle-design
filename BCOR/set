@@ -300,7 +300,7 @@ card:
 	has styling: false
 	notes:
 		{{Destroy 1 other Beast or Winged Beast "Rahi" Monster Card and Special Summon this card}}
-		{{Make this card able to attack again}}
+		{{Attack again in a row}}
 		{{Bonus attack (heritable)}}
 		{{Bonus attack}}
 		
@@ -372,7 +372,7 @@ card:
 	has styling: false
 	notes:
 		{{Add "Rahi" Spell/Trap to Deck or send it to GY}}
-		{{Special Summon 1 Level 2 or lower "Rahi" Tuner from your hand or Deck}}
+		{{Special Summon 1 Level 2 or lower "Rahi" Tuner from your hand or GY}}
 		
 		Splashable Spell/Trap searcher
 		=> can go to hand or GY to access both modes
