@@ -308,7 +308,7 @@ card:
 		=> Self-SS has a thematic cost (kicking the shit out of other Rahi) rather than a generic condition, allowing it to simultaneously play a role in the combo
 		=> Bonus effect is heritable, but only for one generation and only to Rahi
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-28 07:13:20
+	time modified: 2024-08-29 09:55:07
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -658,7 +658,7 @@ card:
 		==> worded so the Synchros can dodge out of it!
 		=> Takea is also our starter, using some banishes as cost for search (which may also set up your scales)
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-28 17:56:12
+	time modified: 2024-08-29 10:55:49
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -667,7 +667,7 @@ card:
 	name: Takea, Shark Rahi
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image20
+	image: image26
 	type 1: <word-list-ENrace>Fish</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -701,7 +701,7 @@ card:
 		==> easily the most optional part, if we want to save words
 		==> not that optional it turns out, this is what secures the Ranama comes out in the most minimal version of the combo
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-20 20:18:34
+	time modified: 2024-08-29 10:08:03
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -710,7 +710,7 @@ card:
 	name: Bog Snake, Venomous Rahi
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image26
+	image: image28
 	type 1: <word-list-ENrace>Reptile</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -966,7 +966,7 @@ card:
 		==> the hidden upside is that this lets us set a scale before using Ruki, so if the field is somehow non-empty we could even get the Takea pop!
 		==> can now also summon itself, so you can effectively get it from hand to field and turn on the protection this way
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-21 20:55:01
+	time modified: 2024-08-29 09:41:49
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -975,7 +975,7 @@ card:
 	name: Shore Turtle, Shelled Rahi
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image28
+	image: image12
 	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
 	type 2: <word-list-ENeffect>Tuner</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -1938,7 +1938,7 @@ card:
 		If I can't be a Rahi or an Elemental I'll be a Trap Hole, fuck you
 		=> I wonder if anyone would bother playing this in Traptrix ...
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-01 09:00:51
+	time modified: 2024-08-29 12:04:33
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1947,7 +1947,7 @@ card:
 	name: Daikau Trap Hole
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
-	image: image56
+	image: image20
 	type 1: <word-list-ENrace>Plant</word-list-ENrace>
 	type 2: <word-list-ENeffect>Pendulum</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -2074,7 +2074,7 @@ card:
 		=> quick tagout sets off banish triggers on the Pendulum Scales and lets you rebuild the field of disruptions after the job in battle is done
 		==> can also get back 1 (one) Manas, for what it's worth
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:17:34
+	time modified: 2024-08-29 14:15:59
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -2083,7 +2083,7 @@ card:
 	name: Mana Ko, Guardian Rahi
 	attribute: light
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image57
+	image: image56
 	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
