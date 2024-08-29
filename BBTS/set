@@ -737,8 +737,10 @@ card:
 		=> might still want some way to get this from banished?
 		==> maybe instead of SS from hand, use the Fish/Sea Serpent/Aqua banish as the drawback there?
 		==> banish from hand/field/GY so it isn't strictly worse than Ghekula
+		==> rejected - now that it's searchable with Ruki, the SS from hand is good Waikiru access
+		==> but the Pendulum Effect now works "even during the Damage Step", so it can actually get another copy of itself back if the battle effect is used
 	time created: 2016-03-01 14:00:26
-	time modified: 2024-07-31 13:25:18
+	time modified: 2024-08-29 08:04:59
 	card type: effect monster
 	name: Keras, Crab Rahi
 	attribute: water
@@ -751,7 +753,7 @@ card:
 	number: BBTS-EN002
 	rule text: You can Special Summon this card (from your hand) by banishing 1 Fish, Sea Serpent, or Aqua monster from your GY. You can only Special Summon "Keras, Crab Rahi" once per turn this way. Before damage calculation, if a Level 4 or lower monster you control attacks a Defense Position monster: You can destroy that Defense Position monster, and if you do, banish 1 "Rahi" monster you control.
 	pendulum: medium
-	pendulum text: If a Level 4 or lower WATER monster(s) is banished from your field, GY, and/or face-up Extra Deck, except during the Damage Step: You can target 1 of those monsters; Special Summon it, and if you do, destroy this card. You can only use this effect of "Keras, Crab Rahi" once per turn.
+	pendulum text: If a Level 4 or lower WATER monster(s) is banished from your field, GY, and/or face-up Extra Deck, even during the Damage Step: You can target 1 of those monsters; Special Summon it, and if you do, destroy this card. You can only use this effect of "Keras, Crab Rahi" once per turn.
 	pendulum scale 1: 1
 	pendulum scale 2: 1
 	attack: 1400
