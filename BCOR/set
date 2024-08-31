@@ -2071,10 +2071,14 @@ card:
 		=> Control switch immunity is just for Order of Mata Nui lore
 		=> Fieldwide protection because it do be guarding
 		=> ATK/DEF loss disintegration ray allows you to hit over stuff that effect-based removal may not be able to overcome
+		==> akchually it isn't disintegration, while Legacy of Evil does use that word, the rest of the scene makes clear it's just explosive blasts, as the guidebooks say
+		==> so doesn't really make sense to have this effect
 		=> quick tagout sets off banish triggers on the Pendulum Scales and lets you rebuild the field of disruptions after the job in battle is done
 		==> can also get back 1 (one) Manas, for what it's worth
+		==> v4.7.3: after removing the "disintegration" effect, we also roll the explosion stuff in here, by basically making this an even more lethal (banishing) Ruki with upsides
+		===> banish is mandatory so a hypothetical use case where your opponent is on zero cards forces you to lose one of your own in exchange for all the monsters you get
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-29 14:15:59
+	time modified: 2024-08-31 20:20:49
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -2091,7 +2095,7 @@ card:
 	number: BCOR-EN036
 	rule text:
 		1+ "Rahi" Tuners + 1+ non-Tuner "Rahi" monsters
-		Control of this card cannot switch. Other cards you control cannot be destroyed by your opponent's card effects. Monsters your opponent controls lose 2000 ATK/DEF. (Quick Effect): You can banish this card; Special Summon any number of Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your GY and/or banishment, whose total Levels equal 10 or less. You can only use this effect of "Mana Ko, Guardian Rahi" once per turn.
+		Control of this card cannot switch. Other cards you control cannot be destroyed by your opponent's card effects. (Quick Effect): You can banish this card; Special Summon any number of Fish, Sea Serpent, and/or Aqua "Rahi" monsters from your GY and/or banishment, whose total Levels equal 10 or less, and if you do, banish 1 card on the field. You can only use this effect of "Mana Ko, Guardian Rahi" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 3500
 	defense: 2800
