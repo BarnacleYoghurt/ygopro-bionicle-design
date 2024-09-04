@@ -1640,12 +1640,12 @@ card:
 		
 		Placeholder image (though a damn nice one) until I finish the build and take a good picture
 	time created: 2023-12-17 11:29:04
-	time modified: 2024-08-20 19:03:29
+	time modified: 2024-09-04 17:54:29
 	card type: fusion monster
 	name: Rahi Nui, Vengeful Chimera
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image56
+	image: image51
 	type 1: <word-list-ENrace>Dinosaur</word-list-ENrace>
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
