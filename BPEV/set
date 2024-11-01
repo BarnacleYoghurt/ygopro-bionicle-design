@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.7.3
+	edition: Version 4.8.0
 	copyright: 
 card:
 	has styling: false
@@ -1277,6 +1277,8 @@ card:
 		=> implied condition #2: Bohrok-Kal with Krana-Kal, as the Krana-Kal is what turns silver
 		=> How far should the protection go? Just effects or also tributing, fusing, etc?
 		==> Should Silver Shield itself be SS4?
+		==> not limiting it to protection from activated effects should be relevant in the BP specifically, as it gets around continuous in-battle negates and may even work against lingering attack restrictions (e.g. S:P)
+		==> protect the materials as well?
 		=> If Silver Krana-Kal ends up being a monster of its own, that would also need to be involved in this effect somehow
 		
 		Usage B (Utility): Additional way to attach Krana, in case the OPT on each Bohrok-Kal isn't enough
@@ -1288,14 +1290,14 @@ card:
 		=> Advantage of Utiltiy as GY effect: Can do it without a turn of setup, which is useful w.r. to the aforementioned avoiding of monster negates
 		==> Also would be the proper priority considering the protections from Silver is what the card is about
 	time created: 2017-02-24 18:20:02
-	time modified: 2023-12-27 11:31:04
+	time modified: 2024-11-01 14:52:12
 	card type: spell card
 	name: Bohrok Silver Shield
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
-	image: 
+	image: image52
 	rule text: Target 1 "Bohrok" Xyz Monster you control; attach 1 "Krana" monster from your hand, field, or GY to it as material. At the start of the Battle Phase, if you control a "Bohrok" Xyz Monster(s) that has a "Krana" Link Monster as material: You can banish this card from your GY; until the end of this turn, that monster(s) you control is unaffected by card effects, except its own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
-	gamecode: DRAFT10100357
+	gamecode: 10100357
 card:
 	has styling: false
 	notes:
@@ -1509,15 +1511,23 @@ card:
 		Making Bohrok-Kal blow themselves up, designed so it works even through maximum Silver protection (since it's their own effects that fuck them up)
 		=> does that bypass Silver's protection though? Or are the effects themselves protected from changes?
 		=> Observation on MD: Rewrites DO seemingly work through at least "unaffected by activated effects" (Crystal Clear Wing vs Gossip Shadow)
+		=> (Retracted, but not replaced) ruling confirms this: https://db.ygoresources.com/qa#20904
+		
+		Sets itself from the GY in addition to what Tales already does
+		=> lets you get this one for free from Nuva searches even without Tales
+		=> makes it recycle itself (once) if set the normal way
+		=> probably can't have this without a HOPT, since it is technically a +1
+		==> might be fine if it's EP only (but that needs a soft OPT per convention)
+		=> alternatively could have it chain to Nuva effect activations in the GY - that would also be a way to make resetting multiple copies harder
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-03-10 18:12:38
+	time modified: 2024-11-01 14:46:37
 	card type: trap card
 	name: Nuva Overcharge
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
-	image: 
-	rule text: If your opponent activates a monster effect on the field while you control a "Toa Nuva" monster, and there is a "Nuva" Continuous Spell on your field or in your GY: That effect becomes "banish this card". If this card is sent to the GY while you control a "Toa Nuva" monster: You can Set this card, but banish it when it leaves the field. You can only activate 1 "Nuva Overcharge" per turn. 
-	gamecode: DRAFT10100329
+	image: image61
+	rule text: If your opponent activates a monster effect on the field while you control a "Toa Nuva" monster, and there is a "Nuva" Continuous Spell/Trap on your field or in your GY: That effect becomes "banish this card". During the End Phase, if this card is in your GY and you control a "Toa Nuva" monster: You can Set this card, but banish it when it leaves the field. You can only use each effect of "Nuva Overcharge" once per turn.
+	gamecode: 10100329
 card:
 	has styling: false
 	notes:
@@ -1687,72 +1697,82 @@ card:
 	gamecode: 10100354
 card:
 	has styling: false
-	notes: 
+	notes:
+		Special Summons an Exo-Toa as an autonomous battlebot.
+		
+		EP effect mirrors Exo-Toa, but does the whole setup including getting a Toa ready and potentially reusing spent Armaments
+		=> this one, however, is Ashable as a result!
 	time created: 2023-12-17 11:38:39
-	time modified: 2024-03-12 19:04:52
+	time modified: 2024-11-01 14:58:08
 	card type: spell card
 	name: Exo Autonomy
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
-	image: image52
-	rule text: Special Summon 1 "Exo-Toa" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase. During your End Phase, if this card is in the GY because it was sent there this turn: You can banish this card from your GY; Set 1 of your "Exo Armaments" that is banished or in your Deck or GY, and if you do, you can add 1 "Toa" monster from your Deck to your hand. You can only activate 1 "Exo Autonomy" per turn.
-	gamecode: DRAFT10100356
+	image: image56
+	rule text: Special Summon 1 "Exo-Toa" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase. Once per turn, during your End Phase, if this card is in the GY because it was sent there this turn: You can banish this card; add 1 "Toa" monster from your Deck to your hand, then you can Set 1 "Exo Armaments" from your Deck, GY, or banishment. You can only activate 1 "Exo Autonomy" per turn.
+	gamecode: 10100356
 card:
 	has styling: false
 	notes:
 		Might need to be more solidly good if we actually want it to be playable ...
 		=> Drawback: "The equipped monster cannot attack or activate its effects" - that way it can be an asset going second
+		==> let's also add opponent-only targeting protection (precedent: Raptinus) as an extra bit, helps establish that the monster is less a monster and more a terminal for the temporal powers flowing through the mask
 		=> OPT Vahi search if equipped to a Toa or Makuta, no coin-flipping needed
 		=> if we want to be fancy, could have the time-breaking when removed use a die roll to determine the phase and skip it for both players for the rest of the duel (would have to be a OPD effect then)
 		==> or skip 1 (or N=roll) Draw Phase(s), for some real "time has stopped" shit
+		===> as thematically cool as that is, skipping the Battle Phase is MUCH more convenient for the likely case where it gets blown up during opponent's MP1
 		=> built-in accel/slow effects seem good if there's space, just shouldn't be a quick
 		==> space doesn't look good, here's what they would have been in the latest version
 		"
 		* Once per turn, if you draw a card(s), except during the Draw Phase: You can draw 1 card.
 		* Once per turn, if a card(s) you control would be destroyed by battle or card effect, you can destroy that card(s) during the End Phase instead."
 	time created: 2017-01-25 23:59:07
-	time modified: 2024-07-30 12:17:36
+	time modified: 2024-11-01 14:53:11
 	card type: spell card
 	name: Legendary Kanohi Vahi, Mask of Time
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: 
-	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
-	gamecode: DRAFT10100358
+	image: image62
+	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects, also your opponent cannot target it with card effects. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
+	gamecode: 10100358
 card:
 	has styling: false
 	notes: 
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-07-30 12:14:36
+	time modified: 2024-11-01 14:53:45
 	card type: spell card
 	name: Vahi Freeze
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
-	image: 
+	image: image63
 	rule text:
 		Activate 1 of these effects;
 		<sym-auto>*</sym-auto>Add 1<sym-auto>^</sym-auto>"Vahi" Equip Spell from your Deck or GY to your hand.
-		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell, target 1 face-up card on the field; until the end of this turn, its effects are negated, also it cannot be destroyed by card effects.
+		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell: Target 1 face-up card on the field; until the end of this turn, its effects are negated, also it is unaffected by other card effects. 
 		You can only activate 1 "Vahi Freeze" per turn.
-	gamecode: DRAFT10100359
+	gamecode: 10100359
 card:
 	has styling: false
 	notes:
 		Going for the vibe of a non-archetypal lore card with generic utility, so this is Warrior support
 		=> "higher Level" or "equal or higher Level"?`
 		=> only Summon "Matoran"`? allow tributing from hand?
+		==> keep it generic for the vibes, so no super good hand-to-field trade
+		==> also not a quickplay to avoid giving Warriors a generic dodge
+		===> then again, it would be generic only for =Lv3 as long as you have a matching higher-Level monster available ...
+		==> but don't tribute for cost, being minus into negation would make this unplayable without any of those other advantages
 		
 		GY effect might be funny too
 		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
 	time created: 2023-12-09 18:03:01
-	time modified: 2023-12-17 11:45:46
+	time modified: 2024-11-01 14:57:02
 	card type: spell card
 	name: Naming Day
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
-	image: 
-	rule text: Tribute 1 Warrior monster; Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same Attribute, but a different name and a higher Level than the Tributed monster. You can banish this card and 1 monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
-	gamecode: DRAFT10100360
+	image: image58
+	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same Attribute, but a different name and a higher Level than the Tributed monster. During your Main Phase: You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
+	gamecode: 10100360
 card:
 	has styling: false
 	notes:
