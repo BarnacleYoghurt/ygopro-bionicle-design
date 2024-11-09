@@ -1269,6 +1269,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Deploy the Silver Shield}}
+		
 		Usage A (Lore): Make the Bohrok-Kal impervious to outside harm in "the final moments" before their triumph
 		=> implied condition #1: Must be in the said final moments
 		==> Timing at start of BP, since Xa-Kal also triggers in battle?
@@ -1280,6 +1282,7 @@ card:
 		==> not limiting it to protection from activated effects should be relevant in the BP specifically, as it gets around continuous in-battle negates and may even work against lingering attack restrictions (e.g. S:P)
 		==> protect the materials as well?
 		=> If Silver Krana-Kal ends up being a monster of its own, that would also need to be involved in this effect somehow
+		=> should this only affect those with Krana attached at resolution, or also linger to later attachments? (e.g. Lehvak-Kal in BP)
 		
 		Usage B (Utility): Additional way to attach Krana, in case the OPT on each Bohrok-Kal isn't enough
 		=> Also lets you do it without running into monster negates
@@ -1508,6 +1511,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Set this card}}
+		
+		
 		Making Bohrok-Kal blow themselves up, designed so it works even through maximum Silver protection (since it's their own effects that fuck them up)
 		=> does that bypass Silver's protection though? Or are the effects themselves protected from changes?
 		=> Observation on MD: Rewrites DO seemingly work through at least "unaffected by activated effects" (Crystal Clear Wing vs Gossip Shadow)
@@ -1698,6 +1704,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add 1 "Toa" monster from your Deck to your hand}}
+		{{Set 1 "Exo Armaments"?}}
+		
 		Special Summons an Exo-Toa as an autonomous battlebot.
 		
 		EP effect mirrors Exo-Toa, but does the whole setup including getting a Toa ready and potentially reusing spent Armaments
@@ -1714,6 +1723,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add 1 "Vahi" card to your hand}}
+		{{Skip Battle Phases}}
+		
+		
 		Might need to be more solidly good if we actually want it to be playable ...
 		=> Drawback: "The equipped monster cannot attack or activate its effects" - that way it can be an asset going second
 		==> let's also add opponent-only targeting protection (precedent: Raptinus) as an extra bit, helps establish that the monster is less a monster and more a terminal for the temporal powers flowing through the mask
@@ -1737,9 +1750,11 @@ card:
 	gamecode: 10100358
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Add 1 "Vahi" Equip Spell to your hand}}
+		{{Freeze a face-up card}}
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-11-01 14:53:45
+	time modified: 2024-11-09 19:11:34
 	card type: spell card
 	name: Vahi Freeze
 	attribute: spell
@@ -1747,13 +1762,15 @@ card:
 	image: image63
 	rule text:
 		Activate 1 of these effects;
-		<sym-auto>*</sym-auto>Add 1<sym-auto>^</sym-auto>"Vahi" Equip Spell from your Deck or GY to your hand.
+		<sym-auto>*</sym-auto>Add 1 "Vahi" Equip Spell from your Deck or GY to your hand.
 		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell: Target 1 face-up card on the field; until the end of this turn, its effects are negated, also it is unaffected by other card effects. 
 		You can only activate 1 "Vahi Freeze" per turn.
 	gamecode: 10100359
 card:
 	has styling: false
 	notes:
+		{{Change name}}
+		
 		Going for the vibe of a non-archetypal lore card with generic utility, so this is Warrior support
 		=> "higher Level" or "equal or higher Level"?`
 		=> only Summon "Matoran"`? allow tributing from hand?
