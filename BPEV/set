@@ -1283,6 +1283,7 @@ card:
 		==> protect the materials as well?
 		=> If Silver Krana-Kal ends up being a monster of its own, that would also need to be involved in this effect somehow
 		=> should this only affect those with Krana attached at resolution, or also linger to later attachments? (e.g. Lehvak-Kal in BP)
+		==> v4.8.1: lingering is the way, wording clarified in that direction
 		
 		Usage B (Utility): Additional way to attach Krana, in case the OPT on each Bohrok-Kal isn't enough
 		=> Also lets you do it without running into monster negates
@@ -1293,13 +1294,13 @@ card:
 		=> Advantage of Utiltiy as GY effect: Can do it without a turn of setup, which is useful w.r. to the aforementioned avoiding of monster negates
 		==> Also would be the proper priority considering the protections from Silver is what the card is about
 	time created: 2017-02-24 18:20:02
-	time modified: 2024-11-01 14:52:12
+	time modified: 2024-11-20 07:58:26
 	card type: spell card
 	name: Bohrok Silver Shield
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image52
-	rule text: Target 1 "Bohrok" Xyz Monster you control; attach 1 "Krana" monster from your hand, field, or GY to it as material. At the start of the Battle Phase, if you control a "Bohrok" Xyz Monster(s) that has a "Krana" Link Monster as material: You can banish this card from your GY; until the end of this turn, that monster(s) you control is unaffected by card effects, except its own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
+	rule text: Target 1 "Bohrok" Xyz Monster you control; attach 1 "Krana" monster from your hand, field, or GY to it as material. At the start of the Battle Phase: You can banish this card from your GY; until the end of this turn, "Bohrok" Xyz Monsters you control with a "Krana" Link Monster as material are unaffected by card effects, except their own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
 	gamecode: 10100357
 card:
 	has styling: false
@@ -1753,6 +1754,16 @@ card:
 	notes:
 		{{Add 1 "Vahi" Equip Spell to your hand}}
 		{{Freeze a face-up card}}
+		
+		We could still topically squeeze in the "speed-up" bonus draw effect here (would be good for efficiency), but it takes some trickery
+		=> to be topical with "Freeze", it needs to skip your next Draw Phase
+		=> we therefore want to do it every time the card is activated, so we get 2 draws per DP skipped
+		=> however, we don't want it as part of the activation effects, both because that would be duplicated text and because it makes the negate/protect Ashable
+		=> so ... "If this face-up card is sent from the field to the GY: You can draw 1 card, and if you do, skip your next Draw Phase."
+		==> this is a trigger timing that exists, but only on continuous cards
+		==> because the only time a Normal/Quick-Play Spell is sent from the field while face-up is after it was activated, so no one in their right mind would trigger there
+		==> except it solves all of our issues right here perfectly!
+		==> bonus points: technically doesn't need to be HOPT because the activation HOPT takes care of it, and you get to draw even if the activation effect is stopped
 	time created: 2017-01-26 23:40:52
 	time modified: 2024-11-09 19:11:34
 	card type: spell card
@@ -1782,12 +1793,12 @@ card:
 		GY effect might be funny too
 		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
 	time created: 2023-12-09 18:03:01
-	time modified: 2024-11-01 14:57:02
+	time modified: 2024-11-17 16:15:08
 	card type: spell card
 	name: Naming Day
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
-	image: image58
+	image: image64
 	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same Attribute, but a different name and a higher Level than the Tributed monster. During your Main Phase: You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
 	gamecode: 10100360
 card:
