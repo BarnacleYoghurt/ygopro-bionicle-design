@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Beware the Swarm 
 	code: BBTS
 	language: EN
-	edition: Version 4.7.3
+	edition: Version 4.8.1
 	author: 
 	copyright: © 2014 THE LEGO GROUP
 card:
@@ -704,7 +704,7 @@ card:
 		{{Unequip Exo-Toa}}
 		{{Set Exo Armaments from Deck}}
 	time created: 2016-02-26 09:34:19
-	time modified: 2019-12-08 23:26:18
+	time modified: 2024-11-20 08:25:34
 	card type: effect monster
 	name: Exo-Toa
 	attribute: light
@@ -717,7 +717,7 @@ card:
 	number: BBTS-EN017
 	rule text:
 		(This card is not treated as a "Toa" card.)
-		If all monsters you control are Normal Summoned "Toa" monsters (min. 1), you can Special Summon this card (from your hand). Once per turn, you can either: Target 1 "Toa" monster you control; equip this card to that target, OR: Unequip this card and Special Summon it. A monster equipped with this card gains 2000 ATK, also its effects are negated and its name becomes "Exo-Toa". If the equipped monster would be destroyed by battle or card effect, destroy this card instead. During the End Phase, if this card is in the GY because it was sent there this turn: Set 1 "Exo Armaments" directly from your Deck. You can only use this effect of "Exo-Toa" once per turn.
+		If all monsters you control are Normal Summoned "Toa" monsters (min. 1), you can Special Summon this card (from your hand). Once per turn, you can either: Target 1 "Toa" monster you control; equip this card to that target, OR: Unequip this card and Special Summon it. A monster equipped with this card gains 2000 ATK, also its effects are negated and its name becomes "Exo-Toa". If the equipped monster would be destroyed by battle or card effect, destroy this card instead. During the End Phase, if this card is in the GY because it was sent there this turn: Set 1 "Exo Armaments" from your Deck. You can only use this effect of "Exo-Toa" once per turn.
 	attack: 2000
 	defense: 2000
 	gamecode: 10100250
@@ -1287,8 +1287,11 @@ card:
 		{{Disable opponent's cards when Exo-Toa battles}}
 		{{Protect Exo-Toa}}
 		{{Destroy 1 card in same column as Exo-Toa}}
+		
+		v4.8.1: To condense text and make this slightly more reasonable by modern Trap standards, drop both the SS lock on activation and the turn delay on the GY effect
+		=> it still takes a Toa from hand, that's more than enough restriction tbqh
 	time created: 2019-05-05 07:03:19
-	time modified: 2019-12-08 23:26:24
+	time modified: 2024-11-20 08:22:08
 	card type: trap card
 	name: Exo Armaments
 	attribute: trap
@@ -1296,9 +1299,9 @@ card:
 	image: image52
 	number: BBTS-EN053
 	rule text:
-		Special Summon 1 "Toa" monster from your hand, then equip 1 "Exo-Toa" from your Deck or GY to it, also you cannot Special Summon for the rest of this turn. If you control a face-up "Exo-Toa", except the turn this card was sent to the GY: You can banish this card from your GY, then activate 1 of these effects;
+		Special Summon 1 "Toa" monster from your hand, then equip 1 "Exo-Toa" from your Deck or GY to it. If you control "Exo-Toa": You can banish this card from your GY, then activate 1 of these effects;
 		<sym-auto>*</sym-auto>This turn, if an "Exo-Toa" you control battles, your opponent cannot activate cards or effects until the end of the Damage Step.
-		<sym-auto>*</sym-auto>This turn, "Exo-Toa" you control cannot be targeted or destroyed by your opponent's card effects.
+		<sym-auto>*</sym-auto>This turn, "Exo-Toa" you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
 		<sym-auto>*</sym-auto>Target 1 "Exo-Toa" you control; destroy 1 other card in the same column as that target.
 		You can only use this effect of "Exo Armaments" once per turn.
 	gamecode: 10100251
