@@ -1741,13 +1741,13 @@ card:
 		* Once per turn, if you draw a card(s), except during the Draw Phase: You can draw 1 card.
 		* Once per turn, if a card(s) you control would be destroyed by battle or card effect, you can destroy that card(s) during the End Phase instead."
 	time created: 2017-01-25 23:59:07
-	time modified: 2024-11-01 14:53:11
+	time modified: 2024-11-20 08:01:27
 	card type: spell card
 	name: Legendary Kanohi Vahi, Mask of Time
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image62
-	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects, also your opponent cannot target it with card effects. Once per turn, if this card is equipped to a "Toa" or "Makuta" monster: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
+	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects, also your opponent cannot target it with card effects. Once per turn, while this card is equipped to a "Toa" or "Makuta" monster: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
 	gamecode: 10100358
 card:
 	has styling: false
@@ -1789,17 +1789,18 @@ card:
 		==> also not a quickplay to avoid giving Warriors a generic dodge
 		===> then again, it would be generic only for =Lv3 as long as you have a matching higher-Level monster available ...
 		==> but don't tribute for cost, being minus into negation would make this unplayable without any of those other advantages
+		=> v4.8.1: spam "original" on all the properties, otherwise you wouldn't be able to correctly upgrade a disguised Takua!
 		
 		GY effect might be funny too
 		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
 	time created: 2023-12-09 18:03:01
-	time modified: 2024-11-17 16:15:08
+	time modified: 2024-11-20 08:14:36
 	card type: spell card
 	name: Naming Day
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image64
-	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same Attribute, but a different name and a higher Level than the Tributed monster. During your Main Phase: You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
+	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same original Attribute, but a different original name and a higher original Level than the Tributed monster. During your Main Phase: You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
 	gamecode: 10100360
 card:
 	has styling: false
