@@ -1287,6 +1287,10 @@ card:
 		
 		Usage B (Utility): Additional way to attach Krana, in case the OPT on each Bohrok-Kal isn't enough
 		=> Also lets you do it without running into monster negates
+		=> testing shows it's kind of inconvenient that this card does nothing unless you already have an Xyz, so here's an idea that actually lets it fill a niche even in simplified gamestates while doing more or less the same thing for utility
+		==> "Target 1 "Krana" Link Monster in your GY; either Special Summon it, or attach it to a "Bohrok" Xyz Monster you control as material."
+		==> however, this only really works well with the sideways-pointing ones, up only gets an EMZ this way and down is completely screwed ...
+		==> could alternatively target any Krana in field or GY and return instead of SS
 		
 		Which one of these should be the main and which one the GY effect?
 		=> Advantage of Lore as GY effect: Not reliant on having the card Set at just the moment when it can actually be used
@@ -1794,13 +1798,13 @@ card:
 		GY effect might be funny too
 		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
 	time created: 2023-12-09 18:03:01
-	time modified: 2024-11-20 08:14:36
+	time modified: 2024-11-23 19:40:12
 	card type: spell card
 	name: Naming Day
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image64
-	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same original Attribute, but a different original name and a higher original Level than the Tributed monster. During your Main Phase: You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
+	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same original Attribute, but a different original name and a higher original Level than the Tributed monster. You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
 	gamecode: 10100360
 card:
 	has styling: false
