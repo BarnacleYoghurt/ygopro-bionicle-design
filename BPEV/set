@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.8.1
+	edition: Version 4.8.2
 	copyright: 
 card:
 	has styling: false
@@ -1270,6 +1270,8 @@ card:
 	has styling: false
 	notes:
 		{{Deploy the Silver Shield}}
+		{{Return it to the hand}}
+		{{Attach it as material}}
 		
 		Usage A (Lore): Make the Bohrok-Kal impervious to outside harm in "the final moments" before their triumph
 		=> implied condition #1: Must be in the said final moments
@@ -1758,6 +1760,7 @@ card:
 	notes:
 		{{Add 1 "Vahi" Equip Spell to your hand}}
 		{{Freeze a face-up card}}
+		{{Draw 1 card, but skip your next Draw Phase}}
 		
 		We could still topically squeeze in the "speed-up" bonus draw effect here (would be good for efficiency), but it takes some trickery
 		=> to be topical with "Freeze", it needs to skip your next Draw Phase
