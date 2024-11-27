@@ -1768,8 +1768,9 @@ card:
 		==> because the only time a Normal/Quick-Play Spell is sent from the field while face-up is after it was activated, so no one in their right mind would trigger there
 		==> except it solves all of our issues right here perfectly!
 		==> bonus points: technically doesn't need to be HOPT because the activation HOPT takes care of it, and you get to draw even if the activation effect is stopped
+		==> upon further thought, it's probably safer and saner to just put the HOPT on the draw effect exclusively - that way we can also search and freeze in the same turn, which might come up
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-11-09 19:11:34
+	time modified: 2024-11-27 19:47:55
 	card type: spell card
 	name: Vahi Freeze
 	attribute: spell
@@ -1778,8 +1779,8 @@ card:
 	rule text:
 		Activate 1 of these effects;
 		<sym-auto>*</sym-auto>Add 1 "Vahi" Equip Spell from your Deck or GY to your hand.
-		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell: Target 1 face-up card on the field; until the end of this turn, its effects are negated, also it is unaffected by other card effects. 
-		You can only activate 1 "Vahi Freeze" per turn.
+		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell: Target 1 face-up card on the field; until the end of this turn, its effects are negated, also it cannot be destroyed, or banished, by card effects.
+		If this card is sent from the field to the GY: You can draw 1 card, but skip your next Draw Phase. You can only use this effect of "Vahi Freeze" once per turn.
 	gamecode: 10100359
 card:
 	has styling: false
