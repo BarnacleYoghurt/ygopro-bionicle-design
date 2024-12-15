@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.8.2
+	edition: Version 4.8.3
 	copyright: 
 card:
 	has styling: false
@@ -1805,14 +1805,15 @@ card:
 		
 		GY effect might be funny too
 		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
+		=> actually let's make it last through the opponent's turn, bit more room for shenanigans that way
 	time created: 2023-12-09 18:03:01
-	time modified: 2024-11-23 19:40:12
+	time modified: 2024-12-15 19:22:26
 	card type: spell card
 	name: Naming Day
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image64
-	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same original Attribute, but a different original name and a higher original Level than the Tributed monster. You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of this turn. You can only activate 1 "Naming Day" per turn.
+	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same original Attribute, but a different original name and a higher original Level than the Tributed monster. You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name is treated as the banished monster's, until the end of your opponent's turn. You can only activate 1 "Naming Day" per turn.
 	gamecode: 10100360
 card:
 	has styling: false
