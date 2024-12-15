@@ -1738,6 +1738,10 @@ card:
 		=> Drawback: "The equipped monster cannot attack or activate its effects" - that way it can be an asset going second
 		==> let's also add opponent-only targeting protection (precedent: Raptinus) as an extra bit, helps establish that the monster is less a monster and more a terminal for the temporal powers flowing through the mask
 		=> OPT Vahi search if equipped to a Toa or Makuta, no coin-flipping needed
+		==> unfortunately the math on this doesn't quite work out - the goal is to use Vahi powers every turn, both the opponent's and our own, but we can only search half that much!
+		===> could be fixed by searching in each End Phase (with an option to set), but that cuts off immediate access going 2nd
+		===> could be fixed by forcibly replacing the equip target's effect with a Toa/Makuta-locked quick effect to search, but that's convoluted and raises further questions (e.g. what about Normal Monsters?) 
+		===> will have to let that simmer until the final release, for now just limit it to your own Toa/Makuta because that seems reasonable
 		=> if we want to be fancy, could have the time-breaking when removed use a die roll to determine the phase and skip it for both players for the rest of the duel (would have to be a OPD effect then)
 		==> or skip 1 (or N=roll) Draw Phase(s), for some real "time has stopped" shit
 		===> as thematically cool as that is, skipping the Battle Phase is MUCH more convenient for the likely case where it gets blown up during opponent's MP1
@@ -1747,13 +1751,13 @@ card:
 		* Once per turn, if you draw a card(s), except during the Draw Phase: You can draw 1 card.
 		* Once per turn, if a card(s) you control would be destroyed by battle or card effect, you can destroy that card(s) during the End Phase instead."
 	time created: 2017-01-25 23:59:07
-	time modified: 2024-11-20 08:01:27
+	time modified: 2024-12-15 18:47:03
 	card type: spell card
 	name: Legendary Kanohi Vahi, Mask of Time
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image62
-	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects, also your opponent cannot target it with card effects. Once per turn, while this card is equipped to a "Toa" or "Makuta" monster: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
+	rule text: You can only control 1 "Vahi" Equip Spell. If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. The equipped monster cannot attack or activate its effects, also your opponent cannot target it with card effects. Once per turn, while this card is equipped to a "Toa" or "Makuta" monster you control: You can add 1 "Vahi" card from your Deck or GY to your hand, except an Equip Spell. If this card is destroyed or banished by your opponent's card effect: Both players skip their next Battle Phase.
 	gamecode: 10100358
 card:
 	has styling: false
