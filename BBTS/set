@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Beware the Swarm 
 	code: BBTS
 	language: EN
-	edition: Version 4.8.1
+	edition: Version 4.8.3
 	author: 
 	copyright: © 2014 THE LEGO GROUP
 card:
@@ -1290,8 +1290,9 @@ card:
 		
 		v4.8.1: To condense text and make this slightly more reasonable by modern Trap standards, drop both the SS lock on activation and the turn delay on the GY effect
 		=> it still takes a Toa from hand, that's more than enough restriction tbqh
+		=> v4.8.3: Add back the main intent of the SS lock by making the Exo-Toa unable to activate and summon itself that turn - probably not too necessary, but nicely mirrors the Autonomy restriction
 	time created: 2019-05-05 07:03:19
-	time modified: 2024-11-20 08:22:08
+	time modified: 2024-12-15 19:32:52
 	card type: trap card
 	name: Exo Armaments
 	attribute: trap
@@ -1299,7 +1300,7 @@ card:
 	image: image52
 	number: BBTS-EN053
 	rule text:
-		Special Summon 1 "Toa" monster from your hand, then equip 1 "Exo-Toa" from your Deck or GY to it. If you control "Exo-Toa": You can banish this card from your GY, then activate 1 of these effects;
+		Special Summon 1 "Toa" monster from your hand, then equip 1 "Exo-Toa" from your Deck or GY to it, but that Equip Card cannot activate its effects this turn. If you control "Exo-Toa": You can banish this card from your GY, then activate 1 of these effects;
 		<sym-auto>*</sym-auto>This turn, if an "Exo-Toa" you control battles, your opponent cannot activate cards or effects until the end of the Damage Step.
 		<sym-auto>*</sym-auto>This turn, "Exo-Toa" you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.
 		<sym-auto>*</sym-auto>Target 1 "Exo-Toa" you control; destroy 1 other card in the same column as that target.
