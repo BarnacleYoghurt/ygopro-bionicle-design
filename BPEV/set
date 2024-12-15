@@ -1719,13 +1719,13 @@ card:
 		EP effect mirrors Exo-Toa, but does the whole setup including getting a Toa ready and potentially reusing spent Armaments
 		=> this one, however, is Ashable as a result!
 	time created: 2023-12-17 11:38:39
-	time modified: 2024-11-01 14:58:08
+	time modified: 2024-12-15 18:15:06
 	card type: spell card
 	name: Exo Autonomy
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image56
-	rule text: Special Summon 1 "Exo-Toa" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase. Once per turn, during your End Phase, if this card is in the GY because it was sent there this turn: You can banish this card; add 1 "Toa" monster from your Deck to your hand, then you can Set 1 "Exo Armaments" from your Deck, GY, or banishment. You can only activate 1 "Exo Autonomy" per turn.
+	rule text: Special Summon 1 "Exo-Toa" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase. During your End Phase: You can banish this card from your GY and shuffle 1 "Exo-Toa" from your GY or banishment into the Deck; add 1 "Toa" monster from your Deck to your hand, then you can Set 1 "Exo Armaments" from your Deck, GY, or banishment. You can only activate 1 "Exo Autonomy" per turn.
 	gamecode: 10100356
 card:
 	has styling: false
