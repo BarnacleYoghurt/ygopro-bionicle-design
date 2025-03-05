@@ -152,13 +152,13 @@ card:
 		==> if we just demand "Nuva" monsters in general, it would also work with Takanuva, so that's wrong (also "Nuva" Fusion Monsters might be a problem in its own right regarding Takutanuva)
 		=> perhaps the only future-proof solution is making "Toa Nuva" a separate archetype after all, and then just never make support for "Nuva" monsters to keep things simple
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-10 18:01:10
+	time modified: 2025-03-05 20:23:06
 	card type: spell card
 	name: Great Kanohi Pakari Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image1
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Toa Nuva" monster, all monsters you currently control gain 600 ATK until the end of your opponent's turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage. If this card is sent to the GY, and you have not activated a "Kanohi" Equip Spell effect in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Toa Nuva" monster, all monsters you currently control gain 600 ATK until the end of your opponent's turn.
 	gamecode: 10100314
 card:
 	has styling: false
@@ -325,13 +325,13 @@ card:
 		
 		Should battle protection also extend to face-down monsters?
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-10 17:59:24
+	time modified: 2025-03-05 20:11:55
 	card type: spell card
 	name: Great Kanohi Hau Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image2
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Toa Nuva" Monster, the face-up monsters you currently control cannot be destroyed by battle this turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving it. If this card is sent to the GY, and you have not activated a "Kanohi" Equip Spell effect in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Toa Nuva" Monster, all face-up monsters you currently control cannot be destroyed by battle this turn.
 	gamecode: 10100312
 card:
 	has styling: false
@@ -395,13 +395,13 @@ card:
 	has styling: false
 	notes: {{Place "Nuva" Continuous Spell from Deck}}
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-10 18:00:35
+	time modified: 2025-03-05 20:17:33
 	card type: spell card
 	name: Great Kanohi Kaukau Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image22
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Toa Nuva" monster, the face-up monsters you currently control cannot be destroyed by card effects this turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it is unaffected by your opponent's card effects, unless they target it. If this card is sent to the GY, and you have not activated a "Kanohi" Equip Spell effect in the GY this turn: You can banish 1 monster from your GY; place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone, also if you control a "Toa Nuva" monster, all face-up monsters you currently control cannot be destroyed by card effects this turn.
 	gamecode: 10100313
 card:
 	has styling: false
@@ -532,7 +532,7 @@ card:
 		===> not too long assuming we sacrifice the battle position change, which you probably don't need when you can summon in defense anyway
 		====> now if we also tossed the HOPT on the search effect, we could even cut that entire clause here as well by just making the banish soft once per turn/once while face-up ...
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-08-09 23:39:56
+	time modified: 2025-03-05 17:58:11
 	card type: fusion monster
 	name: Toa Nuva Kopaka
 	attribute: water
@@ -544,7 +544,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Kopaka" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. Once per turn, during the Main Phase, if you control no other monsters (Quick Effect): You can target 1 monster your opponent controls; banish it. While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters for attacks, also your opponent cannot target other cards you control with card effects.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. Once per turn, during the Main Phase, if you control no other monsters (Quick Effect): You can target 1 monster your opponent controls; banish it. While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters you control for attacks, also your opponent cannot target other cards you control with card effects.
 	attack: 2400
 	defense: 2900
 	rarity: common
@@ -640,13 +640,13 @@ card:
 		==> even has precedent in the form of Cyberdark Edge (and Dark Artist lmao)
 		==> probably the most fitting way to have the monsters "phase" through and hit while not entirely solid
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-10 18:01:48
+	time modified: 2025-03-05 23:40:31
 	card type: spell card
 	name: Great Kanohi Kakama Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image35
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it can attack all monsters your opponent controls, once each. it. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Toa Nuva" monster, the monsters you currently control can attack directly this turn, but if they do so using this effect, their ATK is halved during damage calculation only.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" monster, it can attack all monsters your opponent controls, once each. If this card is sent to the GY, and you have not activated a "Kanohi" Equip Spell effect in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap from your Deck, also if you control a "Toa Nuva" monster, all face-up monsters you currently control can attack directly this turn, but when they do so using this effect, their ATK is halved during damage calculation only.
 	gamecode: 10100315
 card:
 	has styling: false
