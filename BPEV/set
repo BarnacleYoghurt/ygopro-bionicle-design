@@ -35,19 +35,24 @@ card:
 	has styling: false
 	notes:
 		{{Fusion Summon}}
-		{{Send 1 monster on the field to the GY}}
+		{{Send 1 Special Summoned monster on the field to the GY}}
 		
 		SS from hand going 2nd so the NS remains usable for something else
 		Fuse by dumping a monster from your hand into the Pool
 		If forcibly used as material by another fusion effect, that transformation goes against Destiny, and so the Energized Protodermis will exhibit destructive properties (but not necessarily aimed at the summoned monster)
 		=> might be good to restrict this to Special Summoned monsters only, so it's a bit more of a drawback
+		=> would it make sense for this to not be HOPT, so it's truly mandatory?
+		==> cannot recall a case where that would have come up one way or another
+		==> thought experiment: Shaddoll Fusion send Chamber, trigger send, Invocation banish Chamber, trigger send again - this does feel a bit inappropriate
+		==> on the other hand: it's a buff exclusively going second, and a drawback going first, so correct design direction; plus it really does not come up either way
+		==> fuck it, let's do it, best case someone breaks it and I can put it back with a proper reason
 		
 		Has to be a Tube (TODO: Better word?) because the monster "descends" into it like the Toa Mata after the Bahrag (and it happens suddenly on summon, too)
 		=> Would Pool then be something involving multiple monsters at once (i.e. Takutanuva)?
 		=> Technically, going by the novel version, the tubes do lead into a pool ... but in the comic, the EP is directly inside the tubes instead, and this is still during the Hapka books so the comics might actually be more canon in this case
 		==> Comic uses the word "chamber" at one point, we can probably go with that
 	time created: 2015-02-09 21:42:05
-	time modified: 2022-10-14 23:19:58
+	time modified: 2025-03-05 13:49:24
 	card type: effect monster
 	name: Energized Protodermis Chamber
 	attribute: light
@@ -57,7 +62,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If only your opponent controls a monster, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck using this card and 1 monster in your hand as material. If this card is used as material for a Fusion Summon, except by its own effect: Target 1 Special Summoned monster on the field; send it to the GY. You can only use this effect of "Energized Protodermis Chamber" once per turn.
+	rule text: If only your opponent controls a monster, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck, using this card you control and 1 monster from your hand as material. If this card is used as material for a Fusion Summon, except by its own effect: Target 1 Special Summoned monster on the field; send it to the GY.
 	attack: 0
 	defense: 0
 	gamecode: 10100301
