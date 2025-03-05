@@ -605,8 +605,10 @@ card:
 		Potential buff to compensate for relatively niche S/T removal: SS a Rock "Fragment Token" (under certain conditions?) to natively build up more pops and trigger Granite Tenacity
 		=> "if your opponent controls more monsters than you do" - simple, limits it to a catchup mechanic in terms of monster count, but somewhat infringes on Matau's copyright
 		=> "if you destroyed a face-up card(s)" - makes some sense with how the continuous ones would be the ones to leave fragments, rewards popping cards that were already chained in response, but it's a bit weird how you also get the bonus for randomly popping Normal S/T while they resolve
+		
+		Since the pops are non-targeting, it is important to not have them work on your own cards, because then clever removal chaining could force you to destroy your own Nuva Symbol!
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-08-09 23:42:59
+	time modified: 2025-03-05 17:44:43
 	card type: fusion monster
 	name: Toa Nuva Pohatu
 	attribute: earth
@@ -618,7 +620,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Pohatu" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can destroy Spells/Traps your opponent controls, up to the number of Rock monsters you control +1. You can only use this effect of "Toa Nuva Pohatu" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can destroy 1 Spell/Trap your opponent controls, or up to 2 if you control a Rock monster. You can only use this effect of "Toa Nuva Pohatu" once per turn.
 	attack: 2800
 	defense: 2100
 	rarity: common
