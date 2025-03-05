@@ -228,7 +228,7 @@ card:
 		====> Solution 2: Using an "also" conjunction might make it so we don't need to SS for a legal activation
 		====> Actually, it seems like Springans Interluder works as long as the "preliminary" action of returning an Xyz is possible, so maybe the options don't need to be fully resolvable anyway?
 	time created: 2022-08-30 21:10:36
-	time modified: 2022-10-06 23:45:37
+	time modified: 2025-03-05 14:47:48
 	card type: spell card
 	name: Energized Protodermis Destiny
 	attribute: spell
@@ -237,7 +237,7 @@ card:
 	rule text:
 		Target 1 face-up monster you control; Special Summon 1 "Energized Protodermis Token" (Aqua/LIGHT/Level 2/ATK 0/DEF 0), then apply 1 of these effects.
 		<sym-auto>*</sym-auto>Send the targeted monster to the GY, and if you do, you can destroy that Token and Special Summon 1 "Energized Protodermis" monster from your Deck.
-		<sym-auto>*</sym-auto>Fusion Summon 1 Fusion Monster that mentions an "Energized Protodermis" monster as material from your Extra Deck in Defense Position, using only that Token and the targeted monster as Fusion Material.
+		<sym-auto>*</sym-auto>Fusion Summon 1 Fusion Monster that mentions an "Energized Protodermis" monster as material from your Extra Deck in Defense Position, using only that Token and the targeted monster as material.
 		You can only activate 1 "Energized Protodermis Destiny" per turn.
 	gamecode: 10100302
 card:
@@ -254,7 +254,7 @@ card:
 		=> Albion/Lubellion do only certain Level ranges
 		=> Could explicitly require it to list an EP monster as material, Legacy of a HERO does the same thing where it just needs to be the archetype, not a specific card
 	time created: 2022-08-31 18:37:28
-	time modified: 2022-12-13 23:07:11
+	time modified: 2025-03-05 15:07:56
 	card type: fusion monster
 	name: Energized Protodermis Flow
 	attribute: light
@@ -268,7 +268,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 "Energized Protodermis" monsters
-		If this Fusion Summoned card is sent to the GY: Look at your opponent's Extra Deck and send 1 monster from it to the GY. During your Main Phase: You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 Fusion Materials mentioned on it from your GY, including this card. You can only use each effect of "Energized Protodermis Flow" once per turn.
+		If this Fusion Summoned card is sent to the GY: Look at your opponent's Extra Deck and send 1 monster from it to the GY. If this card is in your GY: You can Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing 2 Fusion Materials mentioned on it from your GY, including this card. You can only use each effect of "Energized Protodermis Flow" once per turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100303
@@ -686,13 +686,13 @@ card:
 		=> countermeasure: "in its original name"
 		=> Toads aren't Toa because I say so, but just so this phrasing doesn't cause any confusion, let's slap a Warrior restriction on there as well
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-04-14 14:45:36
+	time modified: 2025-03-05 16:32:44
 	card type: spell card
 	name: Nuva Rank-Up-Magic Protodermic Evolution
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image45
-	rule text: During the Main Phase: Target 1 Warrior monster you control with "Toa" in its original name; Special Summon, from your Extra Deck, 1 Warrior Xyz Monster whose Rank is 2 higher than that target's Rank or 2 lower than that target's Level, by using it as material, and if you do, you can attach 1 other card from your hand or face-up field to the Summoned monster as material, except this card. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
+	rule text: During the Main Phase: Target 1 Warrior monster you control with "Toa" in its original name; Special Summon from your Extra Deck, 1 Warrior Xyz Monster whose Rank is 2 higher than that target's Rank or 2 lower than that target's Level, by using it as material, and if you do, you can attach 1 card from your hand or face-up field to the Summoned monster as material, except this card. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.)
 	gamecode: 10100304
 card:
 	has styling: false
@@ -1399,7 +1399,7 @@ card:
 		=> in this case, both the on-field effects require a finite resource: The Set has to target the sent Spell/Trap (so using it multiple times off 1 trigger only helps for very luck mass mills), and the tagout has to shuffle back a Toa Nuva
 		==> ergo, stacking them only leads to plusses in very rare cases and we should be fine doing the "normal" thing here!
 	time created: 2023-11-09 22:33:52
-	time modified: 2024-04-28 17:14:19
+	time modified: 2025-03-05 16:28:29
 	card type: spell card
 	name: Tales of the Nuva
 	attribute: spell
