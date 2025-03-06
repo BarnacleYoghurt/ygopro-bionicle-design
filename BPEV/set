@@ -103,7 +103,7 @@ card:
 	notes:
 		{{Add a card to hand}}
 		{{Draw 1 card}}
-		{{Negate a "Nuva" Fusion Monster and banish card from hand}}
+		{{Negate a "Toa Nuva" monster and banish card from hand}}
 		{{Reveal "Toa Mata Onua"?}}
 		
 		Effect structure for Nuva Symbols:
@@ -123,13 +123,13 @@ card:
 		==> 4.0.2: Let's see if a mandatory -1 is too much of a drawback, would be the logical opposition to draw 1 after all
 		==> 4.1.3: No longer need the exact Toa Nuva to gain the benefit, so therefore the punish can now hit all of them as well (also this way there's no edge case with Toa Nuva in the S/T zone)
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-10 18:05:47
+	time modified: 2025-03-06 10:27:29
 	card type: spell card
 	name: Nuva Symbol of Deep Wisdom
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image6
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Onua" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Toa Nuva" monster you control activates its effect: You can pay 1000 LP; draw 1 card. You can only use each of the preceding effects of "Nuva Symbol of Deep Wisdom" once per turn. If this card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, banish 1 card from your hand face-down.
+	rule text: You can shuffle this card you control into the Deck; either add 1 "Toa Mata Onua" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Toa Nuva" monster you control activates its effect: You can pay 1000 LP; draw 1 card. You can only use each of the preceding effects of "Nuva Symbol of Deep Wisdom" once per turn. If this face-up card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, banish 1 card from your hand face-down.
 	gamecode: 10100320
 card:
 	has styling: false
@@ -304,19 +304,21 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Negate a "Nuva" Fusion Monster and skip Battle Phase}}
+		{{Negate a "Toa Nuva" monster and skip Battle Phase}}
 		{{Reveal "Toa Mata Tahu"?}}
 		
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
 		=> same drawback would even make sense in that case
+		
+		Would be nice to also have the effect negate during battle here since Akamai Nuva lost it, but I don't think it can fit
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-10 18:03:16
+	time modified: 2025-03-06 09:27:12
 	card type: spell card
 	name: Nuva Symbol of Burning Courage
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image13
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Tahu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. If your "Toa Nuva" monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
+	rule text: You can shuffle this card you control into the Deck; either add 1 "Toa Mata Tahu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. You can only use this effect of "Nuva Symbol of Burning Courage" once per turn. If your "Toa Nuva" monster battles, your opponent cannot activate cards or effects until the end of the Damage Step. If this face-up card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, skip the Battle Phase of your next turn.
 	gamecode: 10100318
 card:
 	has styling: false
@@ -380,16 +382,16 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Negate a "Nuva" Fusion Monster}}
+		{{Negate a "Toa Nuva" monster}}
 		{{Reveal "Toa Mata Gali"?}}
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-10 18:04:36
+	time modified: 2025-03-06 09:28:14
 	card type: spell card
 	name: Nuva Symbol of Flowing Harmony
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image23
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Gali" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. When a card or effect activated by your opponent in response to your "Toa Nuva" monster's effect activation resolves, you can negate that effect, and if you do, destroy that card. You can only use each of the preceding effects of "Nuva Symbol of Flowing Harmony" once per turn. If this card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects. You cannot activate monster effects in response to this effect's activation.
+	rule text: You can shuffle this card you control into the Deck; either add 1 "Toa Mata Gali" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. When a card or effect activated by your opponent in response to your "Toa Nuva" monster's effect activation resolves, you can negate that effect, and if you do, destroy that card. You can only use each of the preceding effects of "Nuva Symbol of Flowing Harmony" once per turn. If this face-up card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects. You cannot activate monster effects in response to this effect's activation.
 	gamecode: 10100319
 card:
 	has styling: false
@@ -453,7 +455,7 @@ card:
 	notes:
 		{{Add a card to hand}}
 		{{Special Summon 1 Level 8 or lower monster from your GY}}
-		{{Negate a "Nuva" Fusion Monster and lock yourself}}
+		{{Negate a "Toa Nuva" monster and lock yourself}}
 		{{Reveal "Toa Mata Lewa"?}}
 		{{Affected by "Nuva Symbol of Soaring Vitality": Cannot Special Summon}}
 		
@@ -471,13 +473,13 @@ card:
 		=> v4.2.4: Being able to freely bring back banished monsters as well makes it a bit too easy to play fast and loose with Kanohi costs, and if we absolutely needed to summon from banished, Quest for the Masks and Nuva Cube (the later more in theory) do provide ways to do that
 		==> also it hasn't come up in testing and it probably won't hurt to cut this text down a bit
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-10 18:08:57
+	time modified: 2025-03-06 10:25:13
 	card type: spell card
 	name: Nuva Symbol of Soaring Vitality
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image16
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a face-up "Toa Nuva" monster you control leaves the field by card effect (except during the Damage Step): You can target 1 Level 8 or lower monster in your GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
+	rule text: You can shuffle this card you control into the Deck; either add 1 "Toa Mata Lewa" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a face-up "Toa Nuva" monster(s) you control leaves the field by card effect: You can target 1 Level 8 or lower monster in your GY; Special Summon it. You can only use each of the preceding effects of "Nuva Symbol of Soaring Vitality" once per turn. If this face-up card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, you cannot Special Summon for the rest of this turn.
 	gamecode: 10100323
 card:
 	has styling: false
@@ -576,8 +578,8 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Banish 1 card}}
-		{{Negate a "Nuva" Fusion Monster and let opponent add banished card}}
+		{{Banish 1 card from your opponent's hand or field}}
+		{{Negate a "Toa Nuva" monster and let opponent add banished card}}
 		{{Reveal "Toa Mata Kopaka"?}}
 		{{Banish 1 card your opponent controls}}
 		{{Banish 1 random card from your opponent's hand}}
@@ -593,13 +595,13 @@ card:
 		"If a "Nuva" Fusion Monster you control leaves the field because of your opponent's card: You can banish 1 card your opponent controls."
 		=> also a floating effect, but this one reimplements Kopaka Mata's banish, for the case where Kopaka Nuva gets removed to get rid of his massive protection
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-10 18:08:36
+	time modified: 2025-03-06 10:13:08
 	card type: spell card
 	name: Nuva Symbol of Frigid Serenity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image14
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a "Toa Nuva" monster you control leaves the field because of an opponent's card: You can banish 1 card from your opponent's hand (at random) or their field. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, and if you do, your opponent can add 1 of their banished cards to their hand.
+	rule text: You can shuffle this card you control into the Deck; either add 1 "Toa Mata Kopaka" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a face-up "Toa Nuva" monster(s) you control leaves the field because of an opponent's card: You can banish 1 card from your opponent's hand (at random) or their field. You can only use each of the preceding effects of "Nuva Symbol of Frigid Serenity" once per turn. If this face-up card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, then your opponent can add 1 of their banished cards to their hand.
 	gamecode: 10100322
 card:
 	has styling: false
@@ -657,8 +659,8 @@ card:
 	has styling: false
 	notes:
 		{{Add a card to hand}}
-		{{Special Summon}}
-		{{Negate a "Nuva" Fusion Monster and Tribute}}
+		{{Special Summon 1 Level 4 or lower monster}}
+		{{Negate a "Toa Nuva" monster and Tribute}}
 		{{Reveal "Toa Mata Pohatu"?}}
 		
 		Instead of SP, could also be triggered e.g. by a Summon happening
@@ -668,13 +670,13 @@ card:
 		=> feels like only Special Summon is enough, especially if Pohatu gains native token-making
 		==> in exchange for that nerf we could also downgrade the punish a bit and make it "Tribute 1 other monster" or "1 non-Fusion monster", since lorewise the negated Toa Nuva kind of has to stay around
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-03-10 18:07:42
+	time modified: 2025-03-06 10:27:22
 	card type: spell card
 	name: Nuva Symbol of Granite Tenacity
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image12
-	rule text: You can shuffle this card you control into the Deck; add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a monster(s) is Special Summoned, and you control a "Toa Nuva" monster (except during the Damage Step): You can Special Summon 1 Level 4 or lower monster from your hand or GY. You can only use each of the preceding effects of "Nuva Symbol of Granite Tenacity" once per turn. If this card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, then Tribute 1 other monster.
+	rule text: You can shuffle this card you control into the Deck; either add 1 "Toa Mata Pohatu" from your Deck to your hand, or reveal it in your hand and add 1 "Energized Protodermis" card instead. If a monster(s) is Special Summoned, and you control a "Toa Nuva" monster: You can Special Summon 1 Level 4 or lower monster from your hand or GY. You can only use each of the preceding effects of "Nuva Symbol of Granite Tenacity" once per turn. If this face-up card leaves the field: Target 1 "Toa Nuva" monster you control; negate its effects, then Tribute 1 other monster.
 	gamecode: 10100321
 card:
 	has styling: false
