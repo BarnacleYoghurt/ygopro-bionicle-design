@@ -553,19 +553,24 @@ card:
 	has styling: false
 	notes:
 		{{Set "Nuva" Trap from Deck}}
+		{{Banish 1 random card from your opponent's hand?}}
 		
 		This one is really tricky because a) it already had two effects originally and b) how do you AoE a hand reveal???
 		=> perhaps by making it a lingering reveal as long as anyone is there to see
 		==> or just look once, effectively the same and much easier to understad
 		=> could also disregard the AoE theming a bit and instead put the banish from base Akaku here (presumably for a random card, but still only until end of turn)
+		==> this actually is probably the more balanced option, a full hand reveal is too strong going first compared to the other options; even this version would be the most reliable turn 1 benefit you can get out of the Trap searchers
+		==> also you can still get the reveal now if you combo with Tales :)
+		==> Bo-Kal style reveal/banish that auto-scales with number of Toa Nuva would also be fitting, but the phrasing that just werks looks so convoluted
+		==> must be optional so you can get a Trap even vs an empty hand!
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-03-10 18:02:17
+	time modified: 2025-03-06 08:35:34
 	card type: spell card
 	name: Great Kanohi Akaku Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image24
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While equipped to a "Toa Nuva" monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated any "Kanohi" Equip Spell effects in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap directly from your Deck, also if you control a "Toa Nuva" monster, look at your opponent's hand.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. While this card is equipped to a "Toa Nuva" monster you control, your opponent must keep their hand revealed. If this card is sent to the GY, and you have not activated a "Kanohi" Equip Spell effect in the GY this turn: You can banish 1 monster from your GY; Set 1 "Nuva" Trap from your Deck, also if you control a "Toa Nuva" monster, you can banish 1 random card from your opponent's hand, until the End Phase.
 	gamecode: 10100316
 card:
 	has styling: false
