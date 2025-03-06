@@ -505,14 +505,14 @@ card:
 		==> upon further reflection, getting Nuva Symbols into your own GY is generally so bad for you that a way to turn that into a benefit doesn't sound totally unfair, so why not go with "either GY" after all?
 		=> Also watch out for Ashable effect components in the optional things, wouldn't want a life-saving shuffle to be negated just because it could theoretically add something to hand
 	time created: 2015-04-13 11:25:06
-	time modified: 2022-12-12 22:42:54
+	time modified: 2025-03-06 11:48:30
 	card type: trap card
 	name: Nuva Cube
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image18
 	rule text:
-		While you control a "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can target up to 6 "Nuva" Continuous Spells with different names on your field and/or in any GY(s); shuffle them into the Deck, then you can apply any of these effect(s), in sequence, based on the number shuffled.
+		While you control a "Nuva" Continuous Spell, your opponent cannot target this card with card effects. Once per turn: You can target up to 6 "Nuva" Continuous Spells with different names on your field and/or in any GY(s); shuffle them into the Deck, then you can apply any of the following effect(s), in sequence, based on the number shuffled.
 		<sym-auto>*</sym-auto>1+: Place 1 "Nuva" Continuous Spell from your Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone.
 		<sym-auto>*</sym-auto>3+: Negate the effects of 1 other face-up Spell/Trap on the field until the end of this turn.
 		<sym-auto>*</sym-auto>6: Special Summon up to 2 of your banished monsters.
