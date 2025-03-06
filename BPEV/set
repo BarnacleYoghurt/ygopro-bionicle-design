@@ -1432,6 +1432,13 @@ card:
 		==> the pop is actually kind of irrelevant since you're probably going to OTK via Aki Nuva anyways, and can make Zeus to deal with backrow even if not (caveat: at that point it's stoppable)
 		==> the way it takes advantage of the lock is cute, but overall probably better to cut it and stay at 2 effects
 		=> pretty sure that's also less words, yay
+		
+		It feels somewhat degenerate to get this unrespondable lock and then just keep playing, so maybe for the sake of sticking to the intended unga bunga use case, it should also come with a restriction on yourself
+		=> cannot Special Summon (except Toa?), that way you're still free to search Aki Nuva and get punching
+		==> locking the activation of other monsters' effects would also work
+		=> formatting: either move "for the rest of that turn, except during the MP2 and EP" before BOTH restrictions, or something like:
+		"After this card was Xyz Summoned during your turn using a "Toa" monster as material, apply the following effects for the rest of that turn, except during the Main Phase 2 or End Phase.
+		* Your opponent cannot activate cards or effects. * You cannot Special Summon monsters. "
 	time created: 2014-12-08 15:30:26
 	time modified: 2024-04-28 15:24:11
 	card type: xyz monster
@@ -1471,6 +1478,16 @@ card:
 		===> Wisdom included in the form of having to decide which Deck you banish from to get the best shot at a draw
 		==> sadly the topdeck reveal does not fit in this way, but that's kinda annoying to resolve in gameplay anyway
 		==> different change on the side: Shared HOPT between search and negate (compare Chixiao), so a negate actually has a chance to stop you from becoming invincible by searching the Rua Nuva
+		===> actually kind of overbalanced in hindsight, considering you need to put in a fair share of effort to get there and it's "only" a single negate even if your opponent can't out it in advance
+		===> could do a middle ground where it's once each but not in the same chain, but I don't think it's even worth the extra words
+		
+		Mismatch between the Kaita: Akamai gets his full effect if summoned with a Toa, Wairuha needs to keep one attached to access the effect!
+		=> however, Xyz are actually pretty consistent with caring about their currently attached materials for bonus effects, so this would be an odd change
+		=> viewed another way, Akamai's effect is hard limited to the summon turn, so Wairuha having a constant requirement to maintain it does make sense
+		
+		Having the draw as part of the negate makes the whole thing Ashable
+		=> may not be a problem since Rua Nuva stops Ash anyway
+		=> alternative would be a trigger like "If 2 or more cards with different card types (Monster, Spell, Trap) are banished at the same time: You can draw 1 card", but again, words.
 	time created: 2014-12-08 15:30:26
 	time modified: 2024-04-11 00:04:46
 	card type: xyz monster
