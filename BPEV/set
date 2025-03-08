@@ -719,13 +719,13 @@ card:
 		=> Downside 1: Can't logically add from GY with this approach
 		=> Downside 2: Actually takes more words in PSCT ...
 	time created: 2023-02-07 09:23:59
-	time modified: 2024-03-10 18:09:28
+	time modified: 2025-03-08 19:20:33
 	card type: trap card
 	name: Nuva Emergence
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image34
-	rule text: Fusion Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck, by shuffling the Fusion Materials listed on it into the Deck, from among your hand, GY and/or face-up banished cards. If your opponent controls a monster, you can also banish 1 monster from your Deck as Fusion Material. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
+	rule text: Fusion Summon 1 "Toa Nuva" Fusion Monster from your Extra Deck, by shuffling its materials from your hand, GY, and/or banishment into the Deck. If your opponent controls a monster, you can also banish up to 1 monster from your Deck as material. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, except "Nuva Emergence", then discard 1 card. You can only use each effect of "Nuva Emergence" once per turn.
 	gamecode: 10100330
 card:
 	has styling: false
@@ -1522,13 +1522,13 @@ card:
 		==> can we maybe get away with just changing the properties and no insta-Xyz? Or is there some bullshit enabled by keeping the monster around in disguise?
 		===> All the Nuva support I guess, but eh, fair enough with the extra hoop you have to jump
 	time created: 2017-03-24 11:14:28
-	time modified: 2024-04-09 11:02:46
+	time modified: 2025-03-08 18:46:23
 	card type: spell card
 	name: Great Kanohi Aki Nuva
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image55
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage. While this card is equipped to a monster: You can reveal 1 "Toa" monster in your Deck or Extra Deck, then target 1 monster you control with a Level; its Level and name become the same as the revealed monster (until the end of this turn), then destroy this card.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a "Toa Nuva" Xyz Monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage. While this card is equipped to a monster: You can reveal 1 "Toa" monster from your Deck or Extra Deck, then target 1 face-up monster you control that has a Level; its Level and name become the same as the revealed monster (until the end of this turn), then destroy this card.
 	gamecode: 10100327
 card:
 	has styling: false
@@ -1566,13 +1566,13 @@ card:
 		==> might be fine if it's EP only (but that needs a soft OPT per convention)
 		=> alternatively could have it chain to Nuva effect activations in the GY - that would also be a way to make resetting multiple copies harder
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-11-01 14:46:37
+	time modified: 2025-03-08 19:06:50
 	card type: trap card
 	name: Nuva Overcharge
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
 	image: image61
-	rule text: If your opponent activates a monster effect on the field while you control a "Toa Nuva" monster, and there is a "Nuva" Continuous Spell/Trap on your field or in your GY: That effect becomes "banish this card". During the End Phase, if this card is in your GY and you control a "Toa Nuva" monster: You can Set this card, but banish it when it leaves the field. You can only use each effect of "Nuva Overcharge" once per turn.
+	rule text: When your opponent activates a monster effect on the field, while you control a "Toa Nuva" monster and have a "Nuva" Continuous Spell/Trap on your field or in your GY: The activated effect becomes "banish this card". During the End Phase, if this card is in your GY and you control a "Toa Nuva" monster: You can Set this card, but banish it when it leaves the field. You can only use each effect of "Nuva Overcharge" once per turn.
 	gamecode: 10100329
 card:
 	has styling: false
