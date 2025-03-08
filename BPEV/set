@@ -1463,8 +1463,8 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Negate the activation}}
 		{{Add "Nuva" Spell/Trap to hand}}
+		{{Negate the activation}}
 		{{Banish both that card and the top card of your opponent's Deck}}
 		{{Banish both that card and the top card of your Deck}}
 		{{Do not banish}}
@@ -1491,7 +1491,7 @@ card:
 		=> may not be a problem since Rua Nuva stops Ash anyway
 		=> alternative would be a trigger like "If 2 or more cards with different card types (Monster, Spell, Trap) are banished at the same time: You can draw 1 card", but again, words.
 	time created: 2014-12-08 15:30:26
-	time modified: 2024-04-11 00:04:46
+	time modified: 2025-03-08 18:05:44
 	card type: xyz monster
 	name: Wairuha, Toa Nuva Kaita of Wisdom
 	attribute: wind
@@ -1504,7 +1504,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		3 Level 8 monsters
-		When your opponent activates a card or effect while this card has a "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, you can banish both that card and the top card of either player's Deck. Then, if you banished 2 different card types (Monster, Spell, Trap), draw 1 card. You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. You can only use 1 "Wairuha, Toa Nuva Kaita of Wisdom" effect per turn, and only once that turn.
+		You can detach 1 material from this card; add 1 "Nuva" Spell/Trap from your Deck or GY to your hand. When your opponent activates a card or effect while this card has a "Toa" monster as material (Quick Effect): You can detach 1 material from this card; negate the activation, then you can banish both that card and the top card of either player's Deck, and if you banished 2 different card types (Monster, Spell, Trap), draw 1 card. You can only use each effect of "Wairuha, Toa Nuva Kaita of Wisdom" once per turn.
 	attack: 3000
 	defense: 3000
 	rarity: common
