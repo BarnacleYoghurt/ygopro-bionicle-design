@@ -172,8 +172,9 @@ card:
 		v4.3.2: Also allow SS face-down, so you can e.g. get a Strategy search and still try to turn on the flip engine
 		=> what's the ruling for leave-field redirects on face-downs?
 		==> Galaxy Mirror Sage offers precedent, but has no explicit ruling - guess we just follow that script and assume whatever RESETS_REDIRECT does is right
+		=> side note, shuffling when leaving the field seemingly isn't a thing, maybe because it's annoying in paper - no reason not to comply with the standard here
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-06 01:07:20
+	time modified: 2025-03-09 19:58:40
 	card type: link monster
 	name: Krana Ja-Kal, Tracker
 	attribute: dark
@@ -187,7 +188,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but place it on the bottom of the Deck when it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
 		<sym-auto>*</sym-auto>Once per turn: You can declare 1 card name; until the end of your opponent's turn, "Bohrok" cards and Set cards you control are unaffected by the effects of cards with that original name.
 	Link Marker Down: none
 	Link Marker Left: yes
@@ -1219,7 +1220,7 @@ card:
 		==> Option B: Look at hand with more restrictive timing, e.g. Standby Phase
 		==> Let's try A first, because it works in one bullet point and thus looks nicer in the text box
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-12-13 20:09:50
+	time modified: 2025-03-09 19:58:36
 	card type: link monster
 	name: Krana Bo-Kal, Visionary
 	attribute: dark
@@ -1233,7 +1234,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but shuffle it into the Deck if it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		Cannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 "Bohrok" monster from your hand or GY in face-up or face-down Defense Position, but place it on the bottom of the Deck when it leaves the field. A "Bohrok" Xyz Monster that has this card as material gains this effect.
 		<sym-auto>*</sym-auto>Once per turn: You can look at all Set cards your opponent controls, also look at as many random cards in their hand as possible, up to the number of "Bohrok" monsters you control.
 	Link Marker Down: none
 	Link Marker Left: none
