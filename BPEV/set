@@ -992,7 +992,7 @@ card:
 		Oof, long text ...
 		=> Oh well, LORE
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-05 10:21:57
+	time modified: 2025-03-09 17:46:24
 	card type: link monster
 	name: Krana Xa-Kal, Liberator
 	attribute: dark
@@ -1006,7 +1006,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, by using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
 		<sym-auto>*</sym-auto>If this card inflicts battle damage to your opponent: You can place up to 2 of your banished "Bahrag" Pendulum Monsters in your Pendulum Zone(s), then you can add 1 "As It Was in the Before-Time" from your Deck or GY to your hand.
 	Link Marker Down: yes
 	Link Marker Left: none
@@ -1016,7 +1016,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Negate the activation}}
+		{{Negate the activation, and if you do, destroy that card}}
 		{{Clean it all. It must be cleaned.}}
 		
 		Telepathy + sensing emotions => continuous destruction replacement
@@ -1031,7 +1031,7 @@ card:
 		==> kinda sucks because all the other Krana-Kal that resemble their original incarnations so far have managed to keep clearly related effects
 		=> Could also add the draw from base Za in there somewhere, but it's questionable because detaching isn't a minus that needs to be balanced like shuffling back a monster was
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-10 09:03:37
+	time modified: 2025-03-09 17:56:34
 	card type: link monster
 	name: Krana Za-Kal, Overseer
 	attribute: dark
@@ -1058,7 +1058,7 @@ card:
 	notes:
 		{{Special Summon "Bohrok" Xyz Monster}}
 		{{Banish this card}}
-		{{Add 1 "Bohrok" card to your hand?}}
+		{{Add 1 "Bohrok" card from your GY to your hand?}}
 		
 		Speed off the field and "transport" a card from the GY back to hand in the process
 		=> one of the few ways you can actually get stuff from under a Bohrok-Kal into the GY if you need to
@@ -1066,7 +1066,7 @@ card:
 		==> should it maybe be optional?
 		===> yeah, and also once per turn
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-04-01 23:33:52
+	time modified: 2025-03-09 17:56:26
 	card type: link monster
 	name: Krana Vu-Kal, Transporter
 	attribute: dark
@@ -1080,7 +1080,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, by using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains this effect.
 		<sym-auto>*</sym-auto>Once per turn (Quick Effect): You can banish this card until the End Phase, and if you do, you can add 1 "Bohrok" card from your GY to your hand.
 	Link Marker Down: none
 	Link Marker DR: yes
@@ -1092,7 +1092,7 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon "Bohrok" Xyz Monster}}
-		{{Draw 1 card}}
+		{{Draw 1 card, then discard 1 card}}
 		
 		Oof, long text again ...
 		
@@ -1114,7 +1114,7 @@ card:
 		Yet another option: Literally "seek out" the Bahrag by providing another way to banish them from ED or GY as setup for Xa-Kal
 		=> it's just that the lore implications don't line up when the banishing is supposed to be their defeat
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-12-05 19:15:32
+	time modified: 2025-03-09 18:08:29
 	card type: link monster
 	name: Krana Ca-Kal, Seeker
 	attribute: dark
@@ -1128,9 +1128,8 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Bohrok" or "Krana" monster
-		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon from your Extra Deck 1 "Bohrok" Xyz Monster using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains these effects depending on the number of your "Bahrag" Monster Cards with different names that are banished or on the field.
-		<sym-auto>*</sym-auto>1+: Cannot be destroyed by battle.
-		<sym-auto>*</sym-auto>2+: Once per turn: You can draw 1 card, then discard 1 card.
+		Cannot be used as Link Material. Once per turn: You can target 1 Level 4 "Bohrok" monster this card points to; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, by using that target as material. (This is treated as an Xyz Summon.) A "Bohrok" Xyz Monster that has this card as material gains these effects based on the number of "Bahrag" Monster Cards with different names in your field and banishment.
+		<sym-auto>*</sym-auto>1+: Cannot be destroyed by battle. <sym-auto>*</sym-auto>2+: Once per turn: You can draw 1 card, then discard 1 card.
 	Link Marker Down: none
 	Link Marker DL: yes
 	Link Marker DR: none
