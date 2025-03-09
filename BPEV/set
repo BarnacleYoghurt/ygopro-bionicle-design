@@ -1146,8 +1146,10 @@ card:
 		=> not damage-limited like base Yo because that limitation was maybe always too strict
 		=> what about sensing stress points and underground movement?
 		==> the latter is nicely represented by blocking responses in battle, which also has convenient synergy with Pahrak-Kal
+		==> last minute observation: cannot block Spell/Trap effects, or else this insulates the Bahrag awakening against Nuva Overcharge!
+		===> leaving it at just monster effects still keeps the benefit of making Xa-Kal and Pahrak-Kal immune to monster negates, everything else can be supplied by Silver Shield
 	time created: 2016-02-08 14:41:42
-	time modified: 2023-11-20 20:29:27
+	time modified: 2025-03-09 19:00:04
 	card type: link monster
 	name: Krana Yo-Kal, Excavator
 	attribute: dark
@@ -1162,7 +1164,7 @@ card:
 	rule text:
 		1 "Bohrok" or "Krana" monster
 		Cannot be used as Link Material. If an opponent's monster this card points to battles a "Bohrok" monster, that opponent's monster's ATK/DEF become 0 during the Damage Step only. A "Bohrok" Xyz Monster that has this card as material gains this effect.
-		<sym-auto>*</sym-auto>This card can attack directly, also if it attacks, your opponent cannot activate cards or effects until the end of the Damage Step.
+		<sym-auto>*</sym-auto>This card can attack directly, also if it attacks, your opponent cannot activate monster effects until the end of the Damage Step.
 	Link Marker UL: yes
 	Link Marker UR: none
 	Link Marker Down: none
