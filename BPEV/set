@@ -81,7 +81,7 @@ card:
 		==> if equipping anything from the field is too powerful after all, a stylish way to nerf it would be only equipping monsters in the same or an adjacent column (see Scareclaws for wording) - limiting the range of the magnets
 		===> wording is quite tricky (if we follow the Scareclaw precedent and only take adjacent, not adjacent column) - double "to it"!
 	time created: 2014-12-08 15:30:26
-	time modified: 2025-03-09 15:11:37
+	time modified: 2025-03-09 20:02:15
 	card type: xyz monster
 	name: Bohrok Gahlok-Kal
 	attribute: water
@@ -745,7 +745,7 @@ card:
 		===> Quick Raigeki still feels kinda busted compared to what's available IRL, so maybe we should hard limit it to 2000 ATK (i.e. the sub-Toa range)
 		===> having an attack lock also feels a bit redundant with Gahlok, but the overall effects are different enough, so let's keep it for now
 	time created: 2014-12-08 15:30:26
-	time modified: 2025-03-09 14:51:58
+	time modified: 2025-03-09 20:02:11
 	card type: xyz monster
 	name: Bohrok Tahnok-Kal
 	attribute: fire
@@ -779,7 +779,7 @@ card:
 		=> unfortunately we don't really have any representation of the scene with Matoro getting supergravity'd this way
 		=> v4.3.1: Upon further inspection, this is kind of better non-targeting removal than Gahlok-Kal, so some downside is warranted - let's see if requiring a detach of 2+ is enough (since that way the Krana-Kal attaching can't keep up)
 	time created: 2014-12-08 15:30:26
-	time modified: 2025-03-09 16:01:20
+	time modified: 2025-03-09 20:02:18
 	card type: xyz monster
 	name: Bohrok Nuhvok-Kal
 	attribute: earth
@@ -876,7 +876,7 @@ card:
 		===> how about the face-down part?
 		====> out with it, having one random card in the archetype that banishes face-down feels kind of cancerous anyway
 	time created: 2014-12-08 15:30:26
-	time modified: 2025-03-09 16:22:15
+	time modified: 2025-03-09 20:02:21
 	card type: xyz monster
 	name: Bohrok Pahrak-Kal
 	attribute: earth
@@ -920,7 +920,7 @@ card:
 		=> would need to be coupled with something like "this card cannot attack for the rest of this turn", otherwise you can just go and make Zeus from that position
 		==> note the parallel to regular Kohrak
 	time created: 2014-12-08 15:30:26
-	time modified: 2025-03-09 16:36:37
+	time modified: 2025-03-09 20:02:23
 	card type: xyz monster
 	name: Bohrok Kohrak-Kal
 	attribute: water
@@ -966,7 +966,7 @@ card:
 		==> By not being able to just detach 1 or 2, the refill from immediately attaching 1 again doesn't make this such a constanct menace
 		==> Could even upgrade to hit more than 1 card per material, but Number 91's 5 materials to destroy all cards (with no native attach effect) should remain unpowercreeped
 	time created: 2014-12-08 15:30:26
-	time modified: 2025-03-09 16:57:16
+	time modified: 2025-03-09 20:02:29
 	card type: xyz monster
 	name: Bohrok Lehvak-Kal
 	attribute: wind
@@ -993,7 +993,7 @@ card:
 		Oof, long text ...
 		=> Oh well, LORE
 	time created: 2016-02-08 14:41:42
-	time modified: 2025-03-09 17:46:24
+	time modified: 2025-03-09 20:02:35
 	card type: link monster
 	name: Krana Xa-Kal, Liberator
 	attribute: dark
@@ -1032,7 +1032,7 @@ card:
 		==> kinda sucks because all the other Krana-Kal that resemble their original incarnations so far have managed to keep clearly related effects
 		=> Could also add the draw from base Za in there somewhere, but it's questionable because detaching isn't a minus that needs to be balanced like shuffling back a monster was
 	time created: 2016-02-08 14:41:42
-	time modified: 2025-03-09 17:56:34
+	time modified: 2025-03-09 20:02:46
 	card type: link monster
 	name: Krana Za-Kal, Overseer
 	attribute: dark
@@ -1067,7 +1067,7 @@ card:
 		==> should it maybe be optional?
 		===> yeah, and also once per turn
 	time created: 2016-02-08 14:41:42
-	time modified: 2025-03-09 17:56:26
+	time modified: 2025-03-09 20:02:50
 	card type: link monster
 	name: Krana Vu-Kal, Transporter
 	attribute: dark
@@ -1115,7 +1115,7 @@ card:
 		Yet another option: Literally "seek out" the Bahrag by providing another way to banish them from ED or GY as setup for Xa-Kal
 		=> it's just that the lore implications don't line up when the banishing is supposed to be their defeat
 	time created: 2016-02-08 14:41:42
-	time modified: 2025-03-09 18:08:29
+	time modified: 2025-03-09 20:03:03
 	card type: link monster
 	name: Krana Ca-Kal, Seeker
 	attribute: dark
@@ -1150,7 +1150,7 @@ card:
 		==> last minute observation: cannot block Spell/Trap effects, or else this insulates the Bahrag awakening against Nuva Overcharge!
 		===> leaving it at just monster effects still keeps the benefit of making Xa-Kal and Pahrak-Kal immune to monster negates, everything else can be supplied by Silver Shield
 	time created: 2016-02-08 14:41:42
-	time modified: 2025-03-09 19:00:04
+	time modified: 2025-03-09 20:03:07
 	card type: link monster
 	name: Krana Yo-Kal, Excavator
 	attribute: dark
