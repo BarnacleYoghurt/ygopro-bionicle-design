@@ -819,7 +819,7 @@ card:
 		Soft OPT might be a bit gross now that Kalifornication exists as a good search target, even with the hard limit on activations
 		=> just give the effect a hard OPT and allow summoning from hand multiple times?
 	time created: 2015-04-13 11:25:06
-	time modified: 2024-05-01 13:31:00
+	time modified: 2025-03-10 15:07:40
 	card type: spell card
 	name: Bohrok-Kal Strategy
 	attribute: spell
@@ -839,15 +839,15 @@ card:
 		v4.3.1:
 		=> Only S/T Card or monster effect to match general omninegate counter trap paradigm
 		=> Make condition either all face-down or anything as long as you have a (face-up) Bohrok, so making Krana-Kal won't turn off your negate
-		==> use of "only" ok?
+		==> use of "only" ok? - should be fine, see Martha
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-04-24 09:24:54
+	time modified: 2025-03-10 13:32:39
 	card type: trap card
 	name: Bohrok Counterattack
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
 	image: image40
-	rule text: When your opponent activates a Spell/Trap Card, or monster effect, while you control a "Bohrok" monster or only face-down monsters (min. 1): Send 1 "Krana" monster from your Deck or Extra Deck to the GY; negate the activation, and if you do, you can attach that card to 1 "Bohrok" Xyz Monster you control as material.
+	rule text: When your opponent activates a Spell/Trap Card, or monster effect, while you control a "Bohrok" monster or only face-down monsters (min. 1): Send 1 "Krana" monster from your Deck or Extra Deck to the GY; negate the activation, then you can attach that card to 1 "Bohrok" Xyz Monster you control as material.
 	gamecode: 10100346
 card:
 	has styling: false
@@ -1264,6 +1264,8 @@ card:
 		===> Works going second
 		===> but also when you need to dodge an Imperm real quick!
 		===> maybe make that face-up card?
+		===> last minute observation: having both a condition and a cost on the turbo looks kind of paranoid, especially now that the summons are temporary ....
+		====> clever change would be only having the condition on activation and letting the Bahrag be banished as an alternate cost for the effect, but too late to change that now - maybe in a legacy update
 		==> actually having to run the Bahrag specifically kind of screws fusion builds with the extra tight ED space ...
 		===> Solution: "by banishing 2 Level 8 or higher Bohrok monsters with different names from your Extra Deck" (lore is still satisfied by certain Krana-Kal only interacting with banished Bahrag)
 		===> on the other hand, the turbo might not actually be THAT important ...
@@ -1274,13 +1276,13 @@ card:
 		
 		Not so sure about this name
 	time created: 2023-02-07 09:23:59
-	time modified: 2023-11-30 10:52:12
+	time modified: 2025-03-10 11:44:45
 	card type: trap card
 	name: Bohrok Kalifornication
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
 	image: image15
-	rule text: If your opponent controls a face-up card, you can activate this card the turn it was Set, by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monster(s) to it as material, but return it to the Extra Deck during your opponent's End Phase. You can only use this effect of "Bohrok Kalifornication" once per turn.
+	rule text: If your opponent controls a face-up card, you can activate this card the turn it was Set, by banishing 2 "Bahrag" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 "Bohrok" or "Krana" card from your hand or face-up field to the GY, then target up to 2 "Bohrok" monsters in your GY; Special Summon 1 "Bohrok" Xyz Monster from your Extra Deck, and if you do, attach the targeted monsters to it as material, but return it to the Extra Deck during your opponent's End Phase. You can only use this effect of "Bohrok Kalifornication" once per turn.
 	gamecode: 10100345
 card:
 	has styling: false
@@ -1369,7 +1371,7 @@ card:
 		{{Gain ATK and attacks}}
 		{{Special Summon 1 "Bohrok" Xyz Monster}}
 	time created: 2023-12-10 11:20:35
-	time modified: 2024-04-22 19:00:01
+	time modified: 2025-03-10 23:40:53
 	card type: fusion monster
 	name: Bohrok-Kal Kaita Za
 	attribute: light
@@ -1383,7 +1385,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Bohrok Tahnok-Kal" + "Bohrok Nuhvok-Kal" + "Bohrok Pahrak-Kal"
-		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. You can banish up to 3 "Bohrok" cards from your GY; until the end of this turn, this card gains 1000 ATK for each, also it can make up to that many attacks on monsters during each Battle Phase this turn. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Za" once per turn.
+		Must first be either Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards. You can banish up to 3 "Bohrok" cards from your GY; until the end of this turn, this card gains 1000 ATK for each, also it can make up to that many attacks on monsters during each Battle Phase this turn. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Za" once per turn.
 	attack: 3000
 	defense: 0
 	gamecode: 10100348
