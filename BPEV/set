@@ -1342,12 +1342,14 @@ card:
 		==> subtle difference, but still works with Swarm Fusion and is much less harmful
 		==> upon further consideration, let's go with just B after all, plus the tweak of working on your own cards so you can dodge stuff much like Lehvak-Kal and maybe even equip a Krana from the GY
 		==> unfortunately the proper wording for modular targeting is verbose as hell, so this just barely fits in a reasonable character count
+		===> actually doesn't fit at all if you also properly write out the summoning condition, fuck it, back to C
 		=> Option C: "(Quick Effect): You can banish 1 "Bohrok" monster from your GY, then target 1 monster your opponent controls or in their GY; equip it to this card. Your opponent cannot activate cards or effects in response to this effect's activation."
 		==> actually is a few words shorter
 		==> quite the buff, but probably deserved because, again, this is hard to summon
+		===> slight downgrade in exchange: only target face-up monsters; perfectly fine for the intended use case of forcing removal through negates
 		==> actually let's put B in there as well, the fusion spell is asking for it
 	time created: 2023-12-10 11:20:35
-	time modified: 2024-04-28 17:05:55
+	time modified: 2025-03-11 08:48:52
 	card type: fusion monster
 	name: Bohrok-Kal Kaita Ja
 	attribute: light
@@ -1361,7 +1363,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Machine</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Bohrok Gahlok-Kal" + "Bohrok Kohrak-Kal" + "Bohrok Lehvak-Kal"
-		Must first be Fusion Summoned, or Special Summoned by Tributing the above cards you control. (Quick Effect): You can banish up to 3 "Bohrok" cards from your GY, then target 1 monster in either GY, or if you banished 2 or more, you can target 1 monster on the field instead; equip it to this card. If you banished 3 cards to activate this effect, your opponent cannot activate cards or effects in response. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Ja" once per turn.
+		Must first be either Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards. (Quick Effect): You can banish 1 "Bohrok" card from your GY, then target 1 other face-up monster on the field or in either GY; equip it to this card. Your opponent cannot activate cards or effects in response to this effect's activation. If this card is sent to the GY: You can target 1 "Bohrok" Xyz Monster in your GY; Special Summon it, and if you do, attach this card to it as material. You can only use each effect of "Bohrok-Kal Kaita Ja" once per turn.
 	attack: 2500
 	defense: 2900
 	gamecode: 10100349
