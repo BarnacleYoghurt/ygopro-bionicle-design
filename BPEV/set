@@ -1672,7 +1672,7 @@ card:
 		=> piercing = steel-rending tentacles
 		=> brings back a Tuner so you can start climbing with what the Rahi Nui gets on summon
 	time created: 2023-12-17 11:29:04
-	time modified: 2024-08-11 14:14:00
+	time modified: 2025-03-11 23:47:06
 	card type: synchro monster
 	name: Subterranean Worm Rahi
 	attribute: dark
@@ -1686,7 +1686,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Rahi" Tuner + 1+ non-Tuner monsters
-		If a "Rahi" monster you control battles, inflict piercing battle damage. If this card is sent from the field to the GY: You can target 1 "Rahi" Tuner in your GY; Special Summon it. You can only use this effect of "Subterranean Worm Rahi" once per turn.
+		If your "Rahi" monster attacks a Defense Position monster, inflict piercing battle damage. If this card is sent from the field to the GY: You can target 1 "Rahi" Tuner in your GY; Special Summon it. You can only use this effect of "Subterranean Worm Rahi" once per turn.
 	attack: 2700
 	defense: 1000
 	gamecode: 10100353
@@ -1701,10 +1701,8 @@ card:
 		=> summons when it first comes out (for convenience) and when your opponent summons from the ED (which is where, say, a Turaga would come from)
 		==> locks itself out of attacking because it got stuck in the wall in its rage
 		=> Ideally there'd be protection for Rahi with the same Type here as well, but alas, word count
-		
-		Placeholder image (though a damn nice one) until I finish the build and take a good picture
 	time created: 2023-12-17 11:29:04
-	time modified: 2024-09-04 17:54:29
+	time modified: 2025-03-11 23:47:01
 	card type: fusion monster
 	name: Rahi Nui, Vengeful Chimera
 	attribute: dark
@@ -1718,7 +1716,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Dinosaur</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		3+ "Rahi" monsters with different names
-		Must be Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards, including a DARK monster. This card's Type is also treated as the original Types of the materials used for its Summon. If this card is Special Summoned, or your opponent Special Summons a monster(s) from the Extra Deck: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
+		Must be either Fusion Summoned, or Special Summoned from your Extra Deck by Tributing the above cards, including a DARK monster. This card's Type is also treated as the original Types of the materials used for its Summon. If this card is Special Summoned, or your opponent Special Summons a monster(s) from the Extra Deck: You can Special Summon 1 Level 10 or lower "Rahi" monster from your Extra Deck that shares a Type with this card, also this card cannot attack for the rest of this turn. You can only use this effect of "Rahi Nui, Vengeful Chimera" once per turn.
 	attack: 3800
 	defense: 2200
 	gamecode: 10100355
@@ -1739,7 +1737,7 @@ card:
 		==> now you can't you dumbass, Chimera needs a material from the hand
 		=> also it's both Rahi and Makuta, just for the lulz
 	time created: 2023-12-17 11:34:54
-	time modified: 2024-08-28 23:58:41
+	time modified: 2025-03-11 23:47:11
 	card type: spell card
 	name: Place of Shadow
 	attribute: spell
@@ -1747,7 +1745,7 @@ card:
 	image: image21
 	rule text:
 		(This card is always treated as a "Rahi" and "Makuta" card.)
-		Once per turn: You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it, it becomes DARK. If this card is sent to the GY (except during the Damage Step): You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing materials from your field, GY, and/or face-up Extra Deck. You can only use this effect of "Place of Shadow" once per turn.
+		Once per turn: You can Tribute 1 monster; take 1 "Rahi" Normal Monster from your Deck or GY, and either add it to your hand or Special Summon it. If you Special Summon it with this effect, it becomes DARK. If this card is sent to the GY (except during the Damage Step): You can Fusion Summon 1 "Rahi" Fusion Monster from your Extra Deck, by banishing its materials from your field, GY, and/or face-up Extra Deck. You can only use this effect of "Place of Shadow" once per turn.
 	gamecode: 10100354
 card:
 	has styling: false
