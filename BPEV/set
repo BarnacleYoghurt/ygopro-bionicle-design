@@ -1645,21 +1645,23 @@ card:
 	has styling: false
 	notes:
 		{{Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" monster}}
-		{{Destroy 1 monster with 0 ATK or DEF?}}
+		{{Destroy 1 monster with 0 ATK?}}
 		
 		Restrained and possibly crushed by the Temple Squid's tentacles
 		=> very gimmicky way to just have a Trap that pops a face-up monster (sometimes)
 		==> maybe only target your monsters and then let you destroy a monster with 0 ATK or DEF after the reduction, so it can be non-targeting removal at least?
 		==> basically an underwater clone of Encounter in the Drifts as far as destruction goes, with various upsides to make up for not being a Counter and not Special Summoning from Deck
+		==>ATK _or_ DEF doesn't feel right when you just get to pop a big thing that happens to have low DEF, so ATK and DEF would probably be nicer
+		===> but that fails against Links (can't make Phantom of Yubel with Acute Cerberus!), so I guess only option left is to consider ATK and nothing else
 		=> technically generic on the field, but shouldn't be good enough to run unless you can also use the revival effect in the GY
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-08-29 00:31:07
+	time modified: 2025-03-11 14:45:03
 	card type: trap card
 	name: Rahi from the Depths
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image49
-	rule text: Target any number of "Rahi" monsters you control; all monsters your opponent currently controls lose ATK/DEF equal to the total ATK of those monsters you control (until the end of this turn), then you can destroy 1 monster your opponent controls with 0 ATK or DEF. You can banish this card from your GY; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" monster from your GY or banishment, but its ATK/DEF become 0. You can only use 1 "Rahi from the Depths" effect per turn, and only once that turn.
+	rule text: Target any number of "Rahi" monsters you control; all monsters your opponent currently controls lose ATK/DEF equal to the total ATK of those monsters you control (until the end of this turn), then you can destroy 1 monster your opponent controls with 0 ATK. You can banish this card from your GY; Special Summon 1 Fish, Sea Serpent, or Aqua "Rahi" monster from your GY or banishment, but its ATK/DEF become 0. You can only use 1 "Rahi from the Depths" effect per turn, and only once that turn.
 	gamecode: 10100352
 card:
 	has styling: false
