@@ -1784,13 +1784,15 @@ card:
 		=> if we want to be fancy, could have the time-breaking when removed use a die roll to determine the phase and skip it for both players for the rest of the duel (would have to be a OPD effect then)
 		==> or skip 1 (or N=roll) Draw Phase(s), for some real "time has stopped" shit
 		===> as thematically cool as that is, skipping the Battle Phase is MUCH more convenient for the likely case where it gets blown up during opponent's MP1
+		==> I think we might have to let go of that effect entirely, it just makes putting the card on the field feel not worth it because if it gets removed, not only are its powers offline, but also it backfires on you pretty heavily - after you already invested all the setup into it
+		===> in a way the restrictions on the equip target could be seen as representative of "really needing to avoid losing control so time doesn't break"
 		=> built-in accel/slow effects seem good if there's space, just shouldn't be a quick
 		==> space doesn't look good, here's what they would have been in the latest version
 		"
 		* Once per turn, if you draw a card(s), except during the Draw Phase: You can draw 1 card.
 		* Once per turn, if a card(s) you control would be destroyed by battle or card effect, you can destroy that card(s) during the End Phase instead."
 	time created: 2017-01-25 23:59:07
-	time modified: 2024-12-15 18:47:03
+	time modified: 2025-03-13 00:24:51
 	card type: spell card
 	name: Legendary Kanohi Vahi, Mask of Time
 	attribute: spell
@@ -1815,6 +1817,15 @@ card:
 		==> except it solves all of our issues right here perfectly!
 		==> bonus points: technically doesn't need to be HOPT because the activation HOPT takes care of it, and you get to draw even if the activation effect is stopped
 		==> upon further thought, it's probably safer and saner to just put the HOPT on the draw effect exclusively - that way we can also search and freeze in the same turn, which might come up
+		=> actually: a draw is nice and all, but what's mainly missing with the current search setup is a way to actually keep the Freeze available every turn, both yours and opponent's - so maybe that should get this slot?
+		==> also consider that this problem will get worse when there are more search targets
+		==> solution could be quite simple: "If this card is sent from the field to the GY: You can Set it, but skip your next Draw Phase."
+		===> then recycling with the Vahi itself would be a way to get it back if you don't want to lose your DP
+		
+		Search effect could be rephrased to also allow taking off an equipped Vahi (thus unlocking the monster), which is something we are missing at the moment
+		=> the trick is to do Tailor of the Fickle along with search-as-equip
+		==> "Target 1 face-up monster on the field; equip that target with 1 "Vahi" Equip Spell from your hand, GY, or face-up field that can equip to it."
+		=> should probably also change the condition for the negate to "If you control a monster equipped with a "Vahi" Equip Spell", so you don't get full power while also having an opponent's monster under lock
 	time created: 2017-01-26 23:40:52
 	time modified: 2024-11-27 19:47:55
 	card type: spell card
