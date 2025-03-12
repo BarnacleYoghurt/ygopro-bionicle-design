@@ -1318,13 +1318,13 @@ card:
 		=> Advantage of Utiltiy as GY effect: Can do it without a turn of setup, which is useful w.r. to the aforementioned avoiding of monster negates
 		==> Also would be the proper priority considering the protections from Silver is what the card is about
 	time created: 2017-02-24 18:20:02
-	time modified: 2024-11-27 18:42:44
+	time modified: 2025-03-12 19:54:15
 	card type: spell card
 	name: Bohrok Silver Shield
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image52
-	rule text: Target 1 "Krana" monster you control or in your GY; return it to the hand or attach it to a "Bohrok" Xyz Monster you control as material. At the start of the Battle Phase: You can banish this card from your GY; until the end of this turn, "Bohrok" Xyz Monsters you control with a "Krana" Link Monster as material are unaffected by card effects, except their own. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
+	rule text: Target 1 "Krana" monster you control or in your GY; either return it to the hand or attach it to a "Bohrok" Xyz Monster you control as material. At the start of the Battle Phase: You can banish this card from your GY; until the end of this turn, "Bohrok" Xyz Monsters you control are unaffected by card effects, except their own, while they have a "Krana" Link Monster as material. Neither player can activate cards or effects in response to this effect's activation. You can only use each effect of "Bohrok Silver Shield" once per turn.
 	gamecode: 10100357
 card:
 	has styling: false
