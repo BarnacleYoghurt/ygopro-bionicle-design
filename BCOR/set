@@ -70,8 +70,10 @@ card:
 		=> also they eat/destroy each other a lot for their effects, like Dinosaurs or Memento
 		=> Kane-Ra takes advantage of that action, with a hint of the old "loner" effect in how it doesn't let you bring out duplicates and the buff it applies
 		==> synergy with Muaka is that you'd have the Muaka destroy something else to fuel its effect, which also represents the way the Kane-Ra's horns keep it safe
+		=> actually the full extent of Muaka synergy (setup both Beast scales, Muaka pop a monster in hand to search, Kane-Ra SS whatever was searched) feels a bit too free for my taste, so let's give that trigger condition the more standard limitation to monsters you control
+		==> still allows for all the same plays, just need to invest an extra summon one way or the other
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:01:59
+	time modified: 2025-03-15 20:11:04
 	extra data:
 		yugioh-standard-extra: card frame: super sayian
 	card type: normal monster
@@ -88,7 +90,7 @@ card:
 	number: BCOR-EN001
 	rule text: <i-flavor>Surprisingly, the Kane-Ra Bull is not a herd animal. Unlike some beasts, it does not require others of its kind for protection.</i-flavor>
 	pendulum: medium
-	pendulum text: Once per turn, if a monster(s) in your possession is destroyed by battle or card effect: You can destroy 1 card in your Pendulum Zone, then Special Summon 1 Beast or Winged Beast "Rahi" monster from your hand or GY, with a different name from the cards you currently control, and if you do, it gains 1000 ATK until the end of this turn.
+	pendulum text: Once per turn, if a monster(s) you control is destroyed by battle or card effect: You can destroy 1 card in your Pendulum Zone, then Special Summon 1 Beast or Winged Beast "Rahi" monster from your hand or GY, with a different name from the cards you currently control, and if you do, it gains 1000 ATK until the end of this turn.
 	pendulum scale 1: 1
 	pendulum scale 2: 1
 	attack: 2600
