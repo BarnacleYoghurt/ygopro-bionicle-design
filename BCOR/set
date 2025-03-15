@@ -1291,8 +1291,9 @@ card:
 		Smol S:P-at-home boss monster for the Reptile gimmick
 		=> when something moves too close to the Lava, it grabs it and drags it down
 		=> then when it finishes eating it returns to lurking
+		=> can also get stuff from your GY, just so you can use this to put other Reptile Synchros into ambush position (now that Bog Snake can no longer do so)
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-09-04 18:12:42
+	time modified: 2025-03-16 00:38:33
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1309,7 +1310,7 @@ card:
 	number: BCOR-EN041
 	rule text:
 		<i-flavor></i>1 "Rahi" Tuner + 1+ non-Tuner monsters
-		When your opponent activates a card or effect (Quick Effect): You can target 2 face-up monsters on the field, including this card; place them face-up in their owners' Spell <sym-auto>&</sym-auto> Trap Zones as Continuous Spells. You can only use this effect of "Ranama, Lava Lurker Rahi" once per turn. Once per turn, during the Standby Phase, if this card is a Continuous Spell: You can destroy 1 other Monster Card in a Spell <sym-auto>&</sym-auto> Trap Zone, and if you do, Special Summon this card.<i></i-flavor>
+		When your opponent activates a card or effect (Quick Effect): You can target this card you control and 1 other face-up monster on the field or in your GY; place them face-up in their owners' Spell <sym-auto>&</sym-auto> Trap Zones as Continuous Spells. You can only use this effect of "Ranama, Lava Lurker Rahi" once per turn. Once per turn, during the Standby Phase, if this card is a Continuous Spell: You can destroy 1 other Monster Card in a Spell <sym-auto>&</sym-auto> Trap Zone, and if you do, Special Summon this card.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 2200
 	defense: 600
