@@ -690,7 +690,8 @@ card:
 	notes:
 		{{Special Summon 1 Reptile "Rahi" Synchro Monster}}
 		{{Inflict damage}}
-		{{Place 1 Reptile "Rahi" monster from your GY or face-up Extra Deck in your Spell & Trap Zone}}
+		{{Place 1 face-up Reptile "Rahi" Pendulum Monster from your Extra Deck in your Pendulum Zone}}
+		{{Affected by "Bog Snake, Venomous Rahi": Cannot activate its effects}}
 		
 		The only effect monster we have in the Reptiles for a good while, so it does everything
 		=> inflicts damage because Venom and to give our hit-and-run strategy a (slow) additional win condition
@@ -702,8 +703,10 @@ card:
 		=> Poplars Reptiles into the backrow so e.g. Ranama has something to destroy without losing the scales
 		==> easily the most optional part, if we want to save words
 		==> not that optional it turns out, this is what secures the Ranama comes out in the most minimal version of the combo
+		==> if Ranama can fetch stuff from your own GY, this could also place straight into the Pendulum Zone, which would give us a way to recover scales
+		===> Rush Duel style self-effect lock to prevent looping its own Pendulum Effect!
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-08-29 10:08:03
+	time modified: 2025-03-16 00:27:00
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -718,7 +721,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Reptile</word-list-ENrace><sep> / </sep><word-list-ENeffect>Pendulum</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN024
-	rule text: <i-flavor></i>If this card declares an attack: You can inflict 300 damage to your opponent for each Monster Card in your Spell <sym-auto>&</sym-auto> Trap Zone. If this card is destroyed: You can place 1 Reptile "Rahi" monster from your GY or face-up Extra Deck face-up in your Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell. You can only use each effect of "Bog Snake, Venomous Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card declares an attack: You can inflict 300 damage to your opponent for each Monster Card in your Spell <sym-auto>&</sym-auto> Trap Zone. If this card is destroyed: You can place 1 face-up Reptile "Rahi" Pendulum Monster from your Extra Deck in your Pendulum Zone, also you cannot activate the effects of "Bog Snake, Venomous Rahi" for the rest of this turn.<i></i-flavor>
 	pendulum: medium
 	pendulum text: Once per turn: You can destroy up to 2 "Rahi" Monster Cards you control, and if you do, Special Summon 1 Reptile "Rahi" Synchro Monster from your Extra Deck whose Level is less than or equal to their total Levels (this is treated as a Synchro Summon), then place it face-up in your Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell.
 	pendulum scale 1: 5
