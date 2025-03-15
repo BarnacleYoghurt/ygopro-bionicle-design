@@ -1802,9 +1802,10 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Add 1 "Vahi" Equip Spell to your hand}}
+		{{Equip 1 "Vahi" Equip Spell to a monster}}
 		{{Freeze a face-up card}}
-		{{Draw 1 card, but skip your next Draw Phase}}
+		{{Set this card, and if you do, skip your next Draw Phase}}
+		{{Cannot be destroyed, or banished, by card effects}}
 		
 		We could still topically squeeze in the "speed-up" bonus draw effect here (would be good for efficiency), but it takes some trickery
 		=> to be topical with "Freeze", it needs to skip your next Draw Phase
@@ -1826,7 +1827,7 @@ card:
 		==> "Target 1 face-up monster on the field; equip that target with 1 "Vahi" Equip Spell from your hand, GY, or face-up field that can equip to it."
 		=> should probably also change the condition for the negate to "If you control a monster equipped with a "Vahi" Equip Spell", so you don't get full power while also having an opponent's monster under lock
 	time created: 2017-01-26 23:40:52
-	time modified: 2024-11-27 19:47:55
+	time modified: 2025-03-15 19:09:15
 	card type: spell card
 	name: Vahi Freeze
 	attribute: spell
@@ -1834,9 +1835,9 @@ card:
 	image: image63
 	rule text:
 		Activate 1 of these effects;
-		<sym-auto>*</sym-auto>Add 1 "Vahi" Equip Spell from your Deck or GY to your hand.
-		<sym-auto>*</sym-auto>If you control a "Vahi" Equip Spell: Target 1 face-up card on the field; until the end of this turn, its effects are negated, also it cannot be destroyed, or banished, by card effects.
-		If this card is sent from the field to the GY: You can draw 1 card, but skip your next Draw Phase. You can only use this effect of "Vahi Freeze" once per turn.
+		<sym-auto>*</sym-auto>Target 1 face-up monster on the field; equip it with 1 "Vahi" Equip Spell from your Deck, GY, or face-up field that can equip to it.
+		<sym-auto>*</sym-auto>If you control a monster equipped with a "Vahi" Equip Spell: Target 1 face-up card on the field; until the end of this turn, its effects are negated, also it cannot be destroyed, or banished, by card effects.
+		If this card is sent from the field to the GY: You can Set it, and if you do, skip your next Draw Phase. You can only use this effect of "Vahi Freeze" once per turn.
 	gamecode: 10100359
 card:
 	has styling: false
