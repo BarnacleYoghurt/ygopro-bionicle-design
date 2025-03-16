@@ -1152,8 +1152,12 @@ card:
 	notes:
 		{{Special Summon this card}}
 		{{Negate the effects of 1 face-up monster your opponent controls?}}
+		
+		Only negate monsters that activated this turn, so it's a bit harder to proactively negate protection
+		=> awkward phrasing ("this turn, until the end of this turn"), but it is what it is
+		=> another approach would be simply "negate the activated effects", but all precedent for that applies to names and not a single card ...
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:11:03
+	time modified: 2025-03-16 10:04:11
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1168,7 +1172,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Insect</word-list-ENrace><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	number: BCOR-EN021
-	rule text: <i-flavor></i>If this card is in your hand (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card, and if you do, you can negate the effects of 1 face-up monster your opponent controls, until the end of this turn. You can only use this effect of "Electric Bug, Zapping Rahi" once per turn.<i></i-flavor>
+	rule text: <i-flavor></i>If this card is in your hand (Quick Effect): You can banish 1 "Rahi" monster from your GY or face-up Extra Deck; Special Summon this card, and if you do, you can negate the effects of 1 face-up monster your opponent controls that has activated its effect on the field this turn, until the end of this turn. You can only use this effect of "Electric Bug, Zapping Rahi" once per turn.<i></i-flavor>
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 600
 	defense: 300
