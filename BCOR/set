@@ -1393,7 +1393,7 @@ card:
 		=> Wording is noticeably nicer (due to not repeating "that opponent's monster") if we just make it an optional destruction of anything small enough
 		==> but that's annoying to resolve, so let's go with a slightly novel wording instead
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-09-04 18:27:27
+	time modified: 2025-03-16 11:02:28
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1412,7 +1412,7 @@ card:
 	number: BCOR-EN064
 	rule text:
 		(This card is always treated as a "Rahi" card.)
-		When a monster your opponent controls activates its effect, except during the Damage Step: Special Summon 1 "Rahi" monster from your hand, Deck, or GY, then destroy that opponent's monster if your monster's ATK is higher. You can banish this card from your GY, then target 1 "Rahi" monster you control; banish it until the End Phase. You can only use each effect of "Encounter in the Drifts" once per turn.
+		When a monster your opponent controls activates its effect: Special Summon 1 "Rahi" monster from your hand, Deck, or GY, then destroy that opponent's monster if your monster's ATK is higher. You can banish this card from your GY, then target 1 "Rahi" monster you control; banish it until the End Phase. You can only use each effect of "Encounter in the Drifts" once per turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
