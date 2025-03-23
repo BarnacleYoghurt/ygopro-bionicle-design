@@ -307,6 +307,7 @@ card:
 		{{Add a card to hand}}
 		{{Negate a "Toa Nuva" monster and skip Battle Phase}}
 		{{Reveal "Toa Mata Tahu"?}}
+		{{Affected by "Nuva Symbol of Burning Courage": Skip the Battle Phase of their next turn}}
 		
 		Alternatively, it could allow the Toa Nuva to use their Quick Effects during the Battle Phase in addition to the Main Phase
 		=> same drawback would even make sense in that case
@@ -1806,6 +1807,8 @@ card:
 		{{Freeze a face-up card}}
 		{{Set this card, and if you do, skip your next Draw Phase}}
 		{{Cannot be destroyed, or banished, by card effects}}
+		{{Affected by "Vahi Freeze": Skip their next Draw Phase}}
+		
 		
 		We could still topically squeeze in the "speed-up" bonus draw effect here (would be good for efficiency), but it takes some trickery
 		=> to be topical with "Freeze", it needs to skip your next Draw Phase
