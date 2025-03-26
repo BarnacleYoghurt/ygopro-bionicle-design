@@ -1516,6 +1516,7 @@ card:
 	notes:
 		{{Special Summon 1 "Rahi" monster from your GY}}
 		{{Add another monster with the same Type?}}
+		{{Affected by "Rahi Swarm": Cannot Pendulum Summon, except "Rahi" monsters}}
 		
 		Type-based search and recycling tool
 		=> has a double add geared to set up the Normal Pendulum pairs, but you can also use it as a regular search, or as a double search with effect monsters if you're willing to lose a card (to remain neutral)
