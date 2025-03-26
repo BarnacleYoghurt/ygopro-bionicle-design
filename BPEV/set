@@ -1876,19 +1876,19 @@ card:
 		Distribute 72 downloads of the expansion with this included as NFTs to imitate the real-life collectible, lmao
 		=> better don't, that sounds stupid
 	time created: 2017-02-24 18:15:41
-	time modified: 2025-03-02 16:38:20
+	time modified: 2025-03-25 22:50:55
 	card type: link monster
 	name: Sterling Silver Krana-Kal
 	attribute: light
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image58
 	type 1: <word-list-ENrace>Zombie</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: Cannot be Link Summoned. Must be Special Summoned (from your Extra Deck) by banishing 8 Link-1 "Krana" monsters with different names from your field, GY, Extra Deck, and/or your Xyz Monsters' attached materials, while you control a "Bohrok" Xyz Monster. "Bohrok" monsters you control are unaffected by card effects, except their own, also if they attack your opponent directly and reduce their LP to 0, you win the Match.
+	rule text: Cannot be Link Summoned. Must be Special Summoned (from your Extra Deck) by banishing 8 Link-1 "Krana" monsters with different names from your field, GY, Extra Deck, and/or your Xyz Monsters' attached materials, while you control a "Bohrok" Xyz Monster. "Bohrok" monsters you control are unaffected by card effects, except their own. If your "Bohrok" monster this card points to attacks your opponent directly and reduces their LP to 0, you win the Match.
 	Link Marker Up: yes
 	Link Marker UL: yes
 	Link Marker UR: yes
@@ -1900,7 +1900,7 @@ card:
 	attack: 0
 	defense: 0
 	link number: 8
-	gamecode: DRAFT10100361
+	gamecode: APRIL10100361
 version control:
 	type: none
 apprentice code: 
