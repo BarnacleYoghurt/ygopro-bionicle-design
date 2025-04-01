@@ -1289,7 +1289,6 @@ card:
 	has styling: false
 	notes:
 		{{Deploy the Silver Shield}}
-		{{Return it to the hand}}
 		{{Attach it as material}}
 		
 		Usage A (Lore): Make the Bohrok-Kal impervious to outside harm in "the final moments" before their triumph
@@ -1752,6 +1751,7 @@ card:
 	has styling: false
 	notes:
 		{{Add 1 "Toa" monster from your Deck to your hand}}
+		{{Will be destroyed during the End Phase}}
 		{{Set 1 "Exo Armaments"?}}
 		
 		Special Summons an Exo-Toa as an autonomous battlebot.
