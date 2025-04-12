@@ -4,7 +4,7 @@ stylesheet: series10
 set info:
 	title: Bionicle - Protodermic Evolution
 	code: BPEV
-	edition: Version 4.8.4
+	edition: Version 4.8.5
 	copyright: 
 card:
 	has styling: false
@@ -1855,18 +1855,22 @@ card:
 		===> then again, it would be generic only for =Lv3 as long as you have a matching higher-Level monster available ...
 		==> but don't tribute for cost, being minus into negation would make this unplayable without any of those other advantages
 		=> v4.8.1: spam "original" on all the properties, otherwise you wouldn't be able to correctly upgrade a disguised Takua!
+		=>v4.8.5: actually, it's a bad idea to limit this to Level 4 - it makes deckbuilding awkward since Naming Day won't be able to do anything by Tributing the Level 4 targets, and since both Level 4 monsters you'd like on the field and unsearchable Spells that help you achieve this are things you'd run at 3, this combination is not unlikely
+		==> in particular, it would already come up next set with the Avohkii archetype!
+		==> solution: work more like Transmodify, or reverse Minimalian, for Warriors exclusively - everything new this allows is also kinda based
+		==> side note, there's no need for a different name condition when we already require different original Levels ...
 		
 		GY effect might be funny too
 		=> you can make your boss monster a CC Matoran so it can attack after doing a combo with Taipu
 		=> actually let's make it last through the opponent's turn, bit more room for shenanigans that way
 	time created: 2023-12-09 18:03:01
-	time modified: 2025-03-15 19:45:05
+	time modified: 2025-04-12 18:59:59
 	card type: spell card
 	name: Naming Day
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image64
-	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Level 4 or lower Warrior monster from your hand or Deck, with the same original Attribute, but a different original name and a higher original Level than the Tributed monster. You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name becomes the banished monster's name, until the end of your opponent's turn. You can only activate 1 "Naming Day" per turn.
+	rule text: Target 1 Warrior monster you control; Tribute it, and if you do, Special Summon 1 Warrior monster from your hand or Deck with the same original Attribute that the Tributed monster had on the field, but 1 or 2 Levels higher than its original Level. You can banish this card and 1 Warrior monster from your GY, then target 1 face-up monster you control; its name becomes the banished monster's name, until the end of your opponent's turn. You can only activate 1 "Naming Day" per turn.
 	gamecode: 10100360
 card:
 	has styling: false
