@@ -418,7 +418,7 @@ card:
 		=> or should it be only non-targeting? Also depends on what the Nuva Symbol does
 		=> Actually let's keep the Mata setup, that shit was rad
 	time created: 2015-02-09 20:57:11
-	time modified: 2023-08-06 21:56:52
+	time modified: 2025-04-12 18:22:41
 	card type: fusion monster
 	name: Toa Nuva Lewa
 	attribute: wind
@@ -430,7 +430,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
 	rule text:
 		"Toa Mata Lewa" + 1 "Energized Protodermis" monster
-		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, then, if it was a monster you controlled, you can return 1 additional monster on the field to the hand. You can only use this effect of "Toa Nuva Lewa" once per turn.
+		If this card is Fusion Summoned: You can add 1 "Nuva" Spell/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, also, after that, if it left your field by this effect, you can return 1 additional monster on the field to the hand. You can only use this effect of "Toa Nuva Lewa" once per turn.
 	attack: 2600
 	defense: 2300
 	rarity: common
