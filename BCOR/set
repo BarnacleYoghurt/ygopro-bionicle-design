@@ -1552,7 +1552,7 @@ card:
 		
 		Reinforcements for an established field, reinforcements in grind games
 	time created: 2015-02-01 11:32:26
-	time modified: 2024-07-31 13:16:02
+	time modified: 2025-05-06 08:11:31
 	extra data:
 		yugioh-standard-extra:
 			card frame: effect monster
@@ -1569,7 +1569,7 @@ card:
 	number: BCOR-EN058
 	rule text:
 		(This card is always treated as a "Rahi" and "Matoran" card.)
-		Target 1 face-up monster you control; Special Summon 1 "Rahi" Pendulum Monster Card with the same Type or Attribute from your Pendulum Zone, GY, or face-up Extra Deck, but banish it during the End Phase. During your Main Phase: You can shuffle this card and 1 of your banished "Rahi" cards into the Deck, then draw 1 card. You can only use 1 "The Ussalry Arrives" effect per turn, and only once that turn.
+		Target 1 face-up monster you control; Special Summon 1 "Rahi" Pendulum Monster Card with the same Type or Attribute from your Pendulum Zone, GY, or face-up Extra Deck, but banish it during the End Phase. During your Main Phase, if this card is in your GY: You can shuffle this card and 1 of your banished "Rahi" cards into the Deck, then draw 1 card. You can only use 1 "The Ussalry Arrives" effect per turn, and only once that turn.
 	pendulum text: When you Special Summon a "Rahi" monster(s): You can select 1 of those monster(s); Special Summon 1 "Rahi" monster with the same Type and Level from your hand or Graveyard. You can only use this effect of "Nui-Rama, Fly Rahi" once per turn.
 	attack: 
 	defense: 
