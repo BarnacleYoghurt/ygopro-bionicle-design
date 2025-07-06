@@ -1,0 +1,1092 @@
+﻿mse version: 0.3.8
+game: yugioh
+stylesheet: series10
+set info:
+	title: Bionicle - Mask of Light
+	code: BMOL
+	language: EN
+	edition: 1st Edition
+	copyright: © 2014 THE LEGO GROUP
+card:
+	has styling: false
+	notes:
+		Originally:
+		Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. If this card is attacked by an opponent's monster, return that monster to the bottom of the deck at the end of the Damage Step.
+		
+		Updated with some additional effects to facilitate more proactive play, but might be too cluttered so a few of those should go on support cards
+		=> in light of recent developments, we probably can't avoid designing these around Yubel and related Fiend engines ...
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-06 11:46:04
+	card type: effect monster
+	name: Dreadful Kraata Za
+	attribute: dark
+	level: <sym-auto>*</sym-auto>
+	image: image12
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If this card is Normal or Special Summoned: You can send 1 "Kraata" card from your Deck to the GY. You can only use this effect of "Dreadful Kraata Za" once per turn. Cannot be destroyed by battle while in Attack Position. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to its Level x 800: You can shuffle that monster into the Deck, also increase this card's Level by 1.
+	attack: 0
+	defense: 0
+	gamecode: DRAFT10100431
+card:
+	has styling: false
+	notes:
+		{{Special Summon this card}}
+		{{Add 1 "Kraata" Spell/Trap from your Deck to your hand?}}
+		{{Affected by "Erosive Kraata Ul": Cannot Special Summon, except DARK Fiend monsters}}
+		
+		Kraata concept: Little 0/0s that spam themselves onto the field in Attack Position with a DARK Fiend lock (so as to also allow Makuta and Rahkshi), are indestructible by battle, and use their powers when battling an opponent's monster small enough for the Kraata's current Level
+		=> Level gain comes from various cards in the archetype
+		=> Extra Deck route with Rahkshi who can more freely wield the powers
+		=> key points: which powers combine with which roles in the swarming combo, where do the locks come in?
+		==> current concept is making the ones that act as removal in battle (Fear, Shattering) NS/SS starters, the ones with other offensive effects (Hunger, Poison) extenders that SS if you control a Kraata, and the support ones (Disintegration, Anger) hybrids that apply the DARK Fiend lock
+		==> this conveniently gives us one of each per group that appears in the movie!
+		=> yes, the battle part does overlap with Yubel a bit, we'll see if there's synergy
+		
+		Disintegration: Passively reduce opponent stats so your effects work at lower Levels
+		=> combo role is hybrid that gets you a Spell/Trap, though with the current design of the Field Spell at least that isn't quite enough to be a one card starter ...
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-06 11:41:41
+	card type: effect monster
+	name: Erosive Kraata Ul
+	attribute: dark
+	level: <sym-auto>*</sym-auto>
+	image: image8
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If you control no face-up monsters, except "Kraata" monsters: You can Special Summon this card from your hand in Attack Position, then you can add 1 "Kraata" Spell/Trap from your Deck to your hand, also you cannot Special Summon for ther rest of this turn, except DARK Fiend monsters. You can only use this effect of "Erosive Kraata Ul" once per turn. Cannot be destroyed by battle. Monsters your opponent controls lose ATK/DEF equal to this card's Level x 800.
+	attack: 0
+	defense: 0
+	gamecode: 10100432
+card:
+	has styling: false
+	notes:
+		Original:
+		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. Once per turn, when your opponent's monster attacks a "Kraata" monster you control: You gain LP equal to the attacking monster's ATK."
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-06 11:34:31
+	card type: effect monster
+	name: Starving Kraata Vo
+	attribute: dark
+	level: <sym-auto>*</sym-auto>
+	image: image9
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY in Attack Position, and if you do, increase the Level of all "Kraata" monsters you control by 1. You can only use this effect of "Starving Kraata Vo" once per turn. Cannot be destroyed by battle while in Attack Position. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x800: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
+	attack: 0
+	defense: 0
+	gamecode: DRAFT10100433
+card:
+	has styling: false
+	notes:
+		{{Add 1 "Kraata" monster from your Deck to your hand}}
+		{{Shatter opponent's monster}}
+		
+		Shattering: Blow up the monster, and everything around it
+		=> combo role: starter that simply adds another Kraata on summon - even if it gets negated and you have no extenders, at least there's kaboom
+		=> as one of your main "executives", it levels up on its own after each use of its power
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-03 00:21:43
+	card type: effect monster
+	name: Shattering Kraata Xi
+	attribute: dark
+	level: <sym-auto>*</sym-auto>
+	image: image10
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If this card is Normal or Special Summoned: You can add 1 "Kraata" monster from your Deck to your hand, except "Shattering Krata Xi". You can only use this effect of "Shattering Kraata Xi" once per turn. Cannot be destroyed by battle. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to this card's Level x 800: You can destroy that monster, then destroy all cards your opponent controls in its adjacent Monster Zones or Spell <sym-auto>&</sym-auto> Trap Zones, also increase this card's Level by 1.
+	attack: 0
+	defense: 0
+	gamecode: 10100434
+card:
+	has styling: false
+	notes:
+		Original:
+		"Cannot be destroyed by battle or targeted by your opponent's card effects. You take no battle damage from battles involving this card. Cannot be targeted for attacks while you control another "Kraata" monster. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. All monsters your opponent controls must attack, if able."
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-05 23:40:41
+	card type: effect monster
+	name: Divisive Kraata Cu
+	attribute: dark
+	level: <sym-auto>*</sym-auto>
+	image: image6
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: If you control no face-up monsters, except "Kraata" monsters: You can Special Summon this card from your hand in Attack Position, then you can Special Summon 1 "Kraata" monster from your hand or GY, except "Divisive Kraata Cu", also you cannot Special Summon for ther rest of this turn, except DARK Fiend monsters. You can only use this effect of "Divisive Kraata Cu" once per turn. Cannot be destroyed by battle. Your opponent's monsters with ATK less than or equal to this card's Level x 800 must attack, if able, also you choose the attack targets for attacks with those monsters.
+	attack: 0
+	defense: 0
+	gamecode: DRAFT10100435
+card:
+	has styling: false
+	notes:
+		Original:
+		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. If your opponent's monster attacks a "Kraata" monster you control, reduce the attacking monster's ATK by 200 x this card's level, then inflict the same amount of damage to your opponent. "
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-05 23:40:52
+	card type: effect monster
+	name: Toxic Kraata Ye
+	attribute: dark
+	level: <sym-auto>*</sym-auto>
+	image: image11
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: During the Main Phase, if you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand in Attack Position, then you can add 1 "Kraata" card from your GY to your hand. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle while in Attack Position. If this card battles an opponent's monster with ATK less than or equal to this card's Level x 800, that opponent's monster's effects are negated until the end of this turn.
+	attack: 0
+	defense: 0
+	gamecode: DRAFT10100436
+card:
+	has styling: false
+	notes:
+		If this was a Kraata, it would make extending combos a lot easier
+		=> not even unreasonable since it's just an evolved Kraata at this stage
+		=> however, the summoning shortcut and materials become kinda recursive at that point unless we waste more words to avoid that
+		=> or just make the Field Spell work with DARK Fiends generically, there we go
+		==> not quite, would also need certain SS requirements to tolerate it
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-05 20:16:50
+	card type: fusion monster
+	name: Rahkshi Armor
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image21
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Energized Protodermis" monster + 1 "Kraata" monster
+		Must be either Fusion Summoned, or Special Summoned by Tributing 1 "Kraata" monster while you control 2 or more "Kraata" monsters. Once per turn (Quick Effect): You can Fusion Summon 1 Fusion Monster using materials you control. If you Fusion Summoned this card, you can also use monsters in your hand as material.
+	attack: 0
+	defense: 2100
+	gamecode: DRAFT10100439
+card:
+	has styling: false
+	notes:
+		There are a lot of possible material clauses for these - canonically, it's 1 Kraata evolved into armor and 1 other Kraata of the same Type
+		=> 2x Kraata Za is too restrictive
+		=> Kraata Za + Rahkshi Armor hard requires access to Armor
+		=> Kraata Za + 1 Kraata is convenient, but clearly missing a step; also you wouldn't be able to use Rahkshi Armor if that's a card with e.g. a Fusion effect
+		=> Kraata Za + 1 Rahkshi lets us use the Armor and also repurpose other Rahkshi, but falsely suggests you can swap the Kraata between different armors
+		=> Kraata Za + 1 Level 4 or higher Fiend has some enticing benefits
+		==> can use Rahkshi Armor by making it a L4+ Fiend
+		==> can use another Kraata if it's been boosted enough
+		===> if it's the same Type as the power-granting one, its Level counts towards the ATK, so you get a reward for doing it correctly!
+		==> can use some generic stuff maybe (anything broken?)
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:42:14
+	card type: fusion monster
+	name: Turahk, Fear Rahkshi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image26
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Dreadful Kraata Za" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Dreadful Kraata Za" used as its Fusion Material x 600. You can target 1 monster your opponent controls; place it on the bottom of the Deck. You can only use this effect of "Turahk, Fear Rahkshi" once per turn.
+	attack: <sym-auto>?</sym-auto>
+	defense: 2100
+	gamecode: DRAFT10100441
+card:
+	has styling: false
+	notes: 
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:42:17
+	card type: fusion monster
+	name: Guurahk, Disintegration Rahkshi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image22
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Erosive Kraata Ul" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Erosive Kraata Ul" used as its Fusion Material x 600. (Quick Effect): You can activate 1 of these effects;
+		<sym-auto>*</sym-auto>All monsters your opponent currently controls lose 1000 ATK/DEF, and if their ATK and/or DEF becomes 0 by this effect, destroy them.
+		<sym-auto>*</sym-auto>Negate the effects of all face-up Spells/Traps currently on the field, until the end of this turn.
+		You can only use this effect of "Guurahk, Disintegration Rahkshi" once per turn.
+	attack: <sym-auto>?</sym-auto>
+	defense: 2100
+	gamecode: DRAFT10100442
+card:
+	has styling: false
+	notes: 
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:42:21
+	card type: fusion monster
+	name: Vorahk, Hunger Rahkshi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image27
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Starving Kraata Vo" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Starving Kraata Vo" used as its Fusion Material x 600. (Quick Effect): You can target 1 other face-up monster on the field; its ATK becomes 0, and if it does, you gain LP equal to its original ATK. You can only use this effect of "Vorahk, Hunger Rahkshi" once per turn.
+	attack: <sym-auto>?</sym-auto>
+	defense: 2100
+	gamecode: DRAFT10100443
+card:
+	has styling: false
+	notes: 
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:42:25
+	card type: fusion monster
+	name: Panrahk, Fragmentation Rahkshi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image25
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Shattering Kraata Xi" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Shattering Kraata Xi" used as its Fusion Material x 600. During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. You can only use this effect of "Panrahk, Fragmentation Rahkshi" once per turn.
+	attack: <sym-auto>?</sym-auto>
+	defense: 2100
+	gamecode: DRAFT10100444
+card:
+	has styling: false
+	notes: Targeting redirection is more topical to what Kurahk really does, but just taking control would have a much better words-to-practicality ratio
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:42:29
+	card type: fusion monster
+	name: Kurahk, Anger Rahkshi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image23
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Divisive Kraata Cu" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Divisive Kraata Cu" used as its Fusion Material x 600. If your opponent activates a card or effect that targets exactly 1 card on the field (and no other cards) (Quick Effect): You can target 1 other card on the field that would be an appropriate target; that card or effect now targets the new target. You can only use this effect of "Kurahk, Anger Rahkshi" once per turn.
+	attack: <sym-auto>?</sym-auto>
+	defense: 2100
+	gamecode: DRAFT10100445
+card:
+	has styling: false
+	notes: 
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:42:32
+	card type: fusion monster
+	name: Lerahk, Poison Rahkshi
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image24
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		"Toxic Kraata Ye" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Toxic Kraata Ye" used as its Fusion Material x 600. If your DARK Fiend monster battles an opponent's monster, that opponent's monster loses 800 ATK, also its effects are negated by this card, until the end of this turn. You can only use this effect of "Lerahk, Poison Rahkshi" once per turn.
+	attack: <sym-auto>?</sym-auto>
+	defense: 2100
+	gamecode: DRAFT10100446
+card:
+	has styling: false
+	notes: 
+	time created: 2015-05-17 17:54:52
+	time modified: 2025-07-01 20:41:59
+	card type: effect monster
+	name: Shadow Kraata
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image29
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
+	rule text: Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing "Kraata" monsters whose total Levels equal 7 or more. When Special Summoned this way: Target 1 of the Tributed monsters in your Graveyard; this card's name becomes that target's original name, also take control of as many monsters your opponent controls as possible, but they cannot attack.
+	attack: 0
+	defense: 0
+	gamecode: DRAFT10100437
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-25 09:05:58
+	time modified: 2025-07-01 20:44:23
+	card type: spell card
+	name: The Virtue of Unity
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image38
+	rule text: "Toa", "Matoran", and "Turaga" monsters you control gain 500 ATK for each other "Toa", "Matoran", or "Turaga" monster you control. If you control exactly 1 "Toa", "Matoran", or "Turaga" monster: You can Special Summon 1 "Toa", "Matoran", or "Turaga" monster from your hand or Graveyard.
+	gamecode: DRAFT10100460
+card:
+	has styling: false
+	notes: Which Kraata Power would be the GY effect for this one?
+	time created: 2016-02-25 09:12:43
+	time modified: 2025-07-01 20:42:09
+	card type: trap card
+	name: Makuta-Spawned Kraata
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: image30
+	rule text: If you control a face-up "Makuta" monster: Reduce its Level by up to 4; Special Summon 1 "Kraata" monster from your Deck in face-up Attack Position and increase its Level by the same amount.
+	gamecode: DRAFT10100440
+card:
+	has styling: false
+	notes: Daddy Konami why won't you let me trigger on normal draw too
+	time created: 2016-02-25 09:16:07
+	time modified: 2025-07-01 20:43:09
+	card type: ritual monster
+	name: Makuta, Lord of Shadows
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image14
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Ritual</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Ritual</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text: You can Ritual Summon this card with any "Makuta" Ritual Spell. If this card is added to your hand, except by drawing it for your normal draw: You can reveal this card; add 1 "Makuta" Spell/Trap from your Deck to your hand. You can send the top card of your Deck to the Graveyard, and if it was a "Makuta" card or a DARK monster, draw 1 card. You can only use each effect of "Makuta, Lord of Shadows" once per turn.
+	attack: 3300
+	defense: 3300
+	gamecode: DRAFT10100451
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-25 09:23:45
+	time modified: 2025-07-01 20:43:26
+	card type: spell card
+	name: Great Kanohi Kraahkan, Mask of Shadows
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image4
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a non-LIGHT "Makuta" monster, it is unaffected by the activated effects of LIGHT monsters, also it cannot be destroyed by battle with a LIGHT monster. If this card is sent to the GY: You can target 1 DARK monster you control; equip this card to that target. You can only use this effect of "Great Kanohi Avohkii, Mask of Light" once per turn.
+	gamecode: DRAFT10100452
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-25 09:23:45
+	time modified: 2025-07-06 12:27:58
+	card type: spell card
+	name: Great Kanohi Avohkii, Mask of Light
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image2
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a non-DARK "Toa" or "Makuta" monster, it is unaffected by the activated effects of DARK monsters, also it cannot be destroyed by battle with a DARK monster. If this card is sent to the GY: You can target 1 LIGHT monster you control; equip this card to that target. You can only use this effect of "Great Kanohi Avohkii, Mask of Light" once per turn.
+	gamecode: DRAFT10100455
+card:
+	has styling: false
+	notes:
+		{{Special Summon this card}}
+		{{Add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand}}
+		
+		Avohkii concept:
+		=> highly consistent engine, Jaller/Takua/Sealed Avohkii are all roughly equivalent starters that can sometimes also extend
+		=> initial payoff is Jaller, Takua, and an extra search
+		=> then the Extra Deck (Rahi mounts) let you get more value out of that while always looping back to Jaller + Takua
+		=> general gimmick of revealing the Avohkii to do stuff
+		
+		Jaller is the general searcher for everything EXCEPT Equip Spells - he's in charge of the quest, but not the one who finds the actual mask
+		=> simple SS from hand by revealing Avohkii (but only in Defense because he's fairly big)
+	time created: 2016-02-25 09:33:30
+	time modified: 2025-07-01 20:28:56
+	card type: effect monster
+	name: Matoran Jaller, Avohkii Herald
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image18
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text: If this card is in your hand: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card in Defense Position. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
+	attack: 1800
+	defense: 1200
+	gamecode: 10100401
+card:
+	has styling: false
+	notes:
+		{{Special Summon this card}}
+		{{Equip 1 "Avohkii" Equip Spell}}
+		
+		Takua is the one who finds the Avohkii, so he gets you the Equip Spells
+		=> can equip to any Avohkii monster because he passes it off to Jaller (and also because it makes him lose less hard to Ghost Ogre, Book of Moon, and so on)
+		=> slightly more convoluted SS procedure: Activate (that's), reveal (why), Special Summon (they call me), send to GY (the Chronicler!)
+		==> you get to keep the card if you already have another Avohkii-adjacent card present, so it's cheaper to extend than to start
+		==> the Poplar pattern would have been an alternative going into a similar direction, but that can't extend after getting stopped and unlike Snake-Eyes we don't have a lot of other options
+	time created: 2016-02-25 09:33:30
+	time modified: 2025-07-02 18:25:14
+	card type: effect monster
+	name: Matoran Takua, Avohkii Chronicler
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image49
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If this card is in your hand: You can reveal 1 other card in your hand; Special Summon this card in Defense Position, then send the revealed card to the GY unless you control 2 or more cards that mention "Great Kanohi Avohkii". During your Main Phase: You can equip 1 "Avohkii" Equip Spell from your hand, Deck, or GY to 1 "Avohkii" monster you control. You can only use each effect of "Matoran Takua, Avohkii Chronicler" once per turn.
+	attack: 1500
+	defense: 1500
+	gamecode: 10100402
+card:
+	has styling: false
+	notes:
+		New idea: GY effects of Makuta S/T should be based on the many Kraata powers, so you can sort of emulate the Makuta having all of those.
+		=> perhaps this one should have a Darkness-related power based on the name?
+		==> tried one related to flipping face-down
+		=> Also take into account what powers were involved in the events surrounding the card art
+	time created: 2016-02-25 12:11:16
+	time modified: 2025-07-01 20:43:04
+	card type: spell card
+	name: Makuta's Shadow
+	attribute: spell
+	level: <sym-auto>#</sym-auto>
+	image: image13
+	rule text: Ritual Summon 1 "Makuta" Ritual Monster from your hand, by Tributing monsters from your hand and/or field whose total Levels equal or exceed its Level. If a monster(s) is Normal or Special Summoned face-up while you control a "Makuta" monster (except during the Damage Step): You can banish this card from your GY; change that monster(s) to face-down Defense Position. You can only use this effect of "Makuta's Shadow" once per turn.
+	gamecode: DRAFT10100450
+card:
+	has styling: false
+	notes:
+		With this, you can recycle almost everything using Emergence, as long as you have a Toa Nuva in the GY already
+		=> effects are kind of whatever, floats back into Emergence to truly close the loop
+		=> maybe some Avohkii synergy since this is part of the journey?
+	time created: 2016-02-25 12:30:33
+	time modified: 2025-07-06 12:27:48
+	card type: fusion monster
+	name: Toa Nuva United
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image20
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1+ "Toa Nuva" monster(s) + 1 non-DARK monster
+		Gains 1000 ATK/DEF for each "Toa Nuva" monster used as Fusion Material. Cards you control cannot be destroyed by your opponent's card effects. If this card is sent to the GY: You can target 1 "Nuva" Spell/Trap in your GY or banishment; Set it. You can only use this effect of "Toa Nuva United" once per turn.
+	attack: 2000
+	defense: 2000
+	gamecode: DRAFT10100454
+card:
+	has styling: false
+	notes:
+		{{Return 1 Warrior monster to the hand and Special Summon this card}}
+		{{Add 1 "The Principle" card from your Deck to your hand}}
+		
+		Protagonist card for the MNOG2 side of the set
+		=> simple searcher for Principles, meant to be splashable in -Koro decks
+		==> of course, being WATER slightly limits that, but what can you do
+		=> gradually grows (in ATK) as she accumulates Principles throughout her journey
+		==> also counts banished, using the Skills does not take away growth!
+		=> SS by bouncing a Warrior, in a rough reference to taking Kotu's spot on the Kolhii team
+		==> Quick Effect for Ga-Koro synergy, also lets it be used to dodge stuff
+	time created: 2016-02-25 09:33:30
+	time modified: 2025-01-11 17:46:31
+	card type: effect monster
+	name: Matoran Chronicler Hahli
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image16
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text: Gains 300 ATK for each "The Principle" card with a different name in your GY and/or banishment. You can only use each of the following effects of "Matoran Chronicler Hahli" once per turn. If this card is in you hand (Quick Effect): You can target 1 Warrior monster you control, except "Matoran Chronicler Hahli"; return it to the hand/Extra Deck, and if you do, Special Summon this card. If this card is Normal or Special Summoned: You can add 1 "The Principle" card from your Deck to your hand.
+	attack: 1400
+	defense: 1400
+	gamecode: 10100408
+card:
+	has styling: false
+	notes: 
+	time created: 2017-01-31 20:07:12
+	time modified: 2025-07-05 18:46:05
+	card type: spell card
+	name: The Principle Of Courage
+	attribute: spell
+	level: <sym-auto>$</sym-auto>
+	image: image39
+	rule text: During damage calculation, if your FIRE or Warrior monster battles an opponent's monster: You can make your battling monster gain ATK equal to that opponent's monster's original ATK until the end of this turn, also if you control another monster with the same Attribute, it cannot be destroyed by card effects this turn. During your Main Phase: You can banish this card from your GY, then target 1 "Matoran", "Toa", or "Turaga" monster you control; it gains 1000 ATK until the end of your opponent's turn. You can unly use 1 "The Principle of Courage" effect per turn, and only once that turn.
+	gamecode: DRAFT10100410
+card:
+	has styling: false
+	notes:
+		{{Let your monster attack again}}
+		
+		Principles: Single-use Spell/Traps resembling the principle-based Koro effects
+		=> work with monsters of the appropriate Attribute or Warriors, so Hahli + Principle is a working splash in everything with Matoran
+		=> GY effecs represent the matching Kolhii skill and work with the entire Matoran evolution line
+		=> arguably makes more sense to swap the target pools since you don't see a lot of Turaga playing Kolhii and the Principles apply to the entire Matoran society, but not sure how well that would work for splashability
+		
+		Principle of Purity: Prevent outside intereference in your plays
+		=> targeted negate of monster effect that also hits one of your own, but if it's a Quick Effect you can chain it so Ga-Matoran have an advantage
+		==> unless, of course, the thing you're negating was a response to your Ga-Matoran effect, so this might be a bit of a wonky approach to the intended use case
+		==> generally negating responses risks being a bit toxic in a turn 1 combo, and conflicts with Ga-Koro not allowing those responses in the first place
+		==> would make sense to be able to target any opponent's card, but then it's kinda just Drillbeam ...
+		=> destruction after negation is tied to a variant of Ga-Koro's GY purity condition, so we have that interpretation included as well
+	time created: 2017-01-31 20:07:12
+	time modified: 2025-07-06 08:15:05
+	card type: spell card
+	name: The Principle Of Purity
+	attribute: trap
+	level: <sym-auto>$</sym-auto>
+	image: image33
+	rule text: Target 1 WATER or Warrior monster you control and 1 face-up monster your opponent controls; negate their effects until the end of this turn, and if you do, and all monsters in your GY are the same Attribute (min. 1), destroy that opponent's monster. At the end of the Damage Step, if your "Matoran", "Toa", or "Turaga" monster attacked: You can banish this card from your GY; it can make another attack in a row. You can only use 1 "The Principle of Purity" effect per turn, and only once that turn.
+	gamecode: 10100413
+card:
+	has styling: false
+	notes: 
+	time created: 2017-01-31 20:07:12
+	time modified: 2025-07-05 19:02:30
+	card type: trap card
+	name: The Principle Of Prosperity
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: image34
+	rule text: You can target up to 3 EARTH and/or Warrior monsters in your GY; shuffle them into your Deck, then draw cards equal to the number shuffled. You can banish this card from your GY, then target 1 "Matoran", "Toa", or "Turaga" monster you control; banish it until the End Phase, then you can shuffle up to 3 cards from your GY and/or banishment into the Deck, and if you do, gain 600 LP for each card shuffled. You can only use each effect of "The Principle of Prosperity" once per turn.
+	gamecode: DRAFT10100416
+card:
+	has styling: false
+	notes:
+		Initial:
+		"This turn, when your opponent Normal or Special Summons a monster while you control a "Matoran" monster: Gain LP equal to that opponent's monster's ATK. You can only activate 1 "The Principle of Peace" per turn."
+		=> still based on ancient Ko-Koro, ew
+	time created: 2017-01-31 20:07:12
+	time modified: 2025-07-05 19:02:50
+	card type: trap card
+	name: The Principle Of Peace
+	attribute: trap
+	level: <sym-auto>!</sym-auto>
+	image: image35
+	rule text: If your opponent activates a card or effect, while you control a WATER or Warrior monster and have not activated any monster effects this turn: Negate the activation, and if you do, place that card on the bottom of the Deck. If a card(s) you control would be destroyed by battle or card effect, while you control a "Matoran", "Toa" or "Turaga" monster, you can banish this card from your GY instead. You can only use each effect of "The Principle of Peace" once per turn.
+	gamecode: DRAFT10100422
+card:
+	has styling: false
+	notes:
+		One-shot version of the main village gimmick for the Attribute, with Kolhii Skill adjacent GY effect compression for the Matoran line
+		=> in this case, Strategy, to plan ahead
+	time created: 2017-01-31 20:07:12
+	time modified: 2025-07-05 18:56:30
+	card type: spell card
+	name: The Principle Of Creation
+	attribute: spell
+	level: <sym-auto>^</sym-auto>
+	image: image40
+	rule text: Banish up to 3 EARTH and/or Warrior monsters from your GY; Special Summon that many "Sculpture Tokens" (Rock/EARTH/Level 1/ATK 0/DEF 0), also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except EARTH and/or Warrior monsters. During the End Phase, if you control a "Matoran", "Toa", or "Turaga" monster: You can banish this card from your GY; place 1 card from your Deck on top of your Deck. You can only activate 1 "The Principle of Creation" per turn.
+	gamecode: DRAFT10100419
+card:
+	has styling: false
+	notes:
+		Initial (Continuous):
+		"Once per turn: You can target 1 face-up "Matoran" monster you control; Special Summon 1 monster with a lower level from your hand."
+		=> ew, also based on ancient Le-Koro
+	time created: 2017-01-31 20:07:12
+	time modified: 2025-07-05 19:08:18
+	card type: spell card
+	name: The Principle Of Faith
+	attribute: spell
+	level: <sym-auto>^</sym-auto>
+	image: image36
+	rule text: Target 1 WIND or Warrior monster you control that has a Level; negate its effects (if any) and make its ATK 0, and if you do, add 1 monster with the same Type or Attribute, but a different name and an equal or lower Level from your Deck to your hand. You can banish this card from your GY; this turn, your opponent cannot activate cards or effects when your "Matoran", "Toa", or "Turaga" monster attacks. You can only activate 1 "The Principle of Faith" per turn.
+	gamecode: DRAFT10100425
+card:
+	has styling: false
+	notes:
+		NS Jaller => +1 (Warrior)
+		SS Takua => +2 (LIGHT Warrior)
+		Jaller + Taku -> Takanuva => +4 (Level 7 LIGHT Warrior Tuner/Avohkii-equipped(?))
+		=> If Jaller searched Takua and Takua equipped Avohkii, you're down to 4 cards in hand at this point, and your field is Takanuva + the Avohkii that re-equipped itself
+		=> therefore, draw 1; up to draw 5 if you used up the rest of your hand somehow, draw 6 if you choose not to equip Avohkii - maybe too easy?
+		==> could also have the draw "During the Standby Phase"
+		=> The Tuner condition is a bit random, but otherwise the math on the canon combo falls short ...
+		
+		Missing an Avohkii mention ...
+	time created: 2017-02-24 20:08:42
+	time modified: 2025-07-06 12:02:32
+	card type: spell card
+	name: A Seventh Star
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image37
+	rule text:
+		Each time a monster(s) is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
+		<sym-auto>*</sym-auto>Warrior<sym-auto>*</sym-auto>LIGHT<sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>Tuner
+		You can send this card with 7 or more counters to the GY; draw until you have 7 total cards in your hand and field. You can only use this effect of "A Seventh Star" once per turn.
+	gamecode: DRAFT10100407
+card:
+	has styling: false
+	notes: 
+	time created: 2017-02-25 23:19:12
+	time modified: 2025-07-06 12:28:27
+	card type: synchro monster
+	name: Toa Takanuva & Ussanui
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image41
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text:
+		"Takanuva, Toa of Light" + 1 0r more non-Tuner monsters
+		This card is treated as a "Toa Nuva" card while in the Graveyard. When this card battles, your opponent's cards and effects cannot be activated until the end of the Damage Step. Once per turn: You can shuffle 1 monster in each player's Graveyard into the Deck, then this card gains 1000 ATK for each DARK monster shuffled into the Deck this way, until the end of this turn.
+	attack: 2600
+	defense: 2600
+	gamecode: DRAFT10100457
+card:
+	has styling: false
+	notes: 
+	time created: 2017-02-25 23:19:12
+	time modified: 2025-07-06 12:28:19
+	card type: synchro monster
+	name: Takanuva, Toa of Light
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image31
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Tuner</word-list-ENeffect>
+	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
+	edition: 1st Edition
+	rule text:
+		1 LIGHT Tuner + 1+ non-Tuner monsters
+		For this card's Synchro Summon, you can treat 1 Level 4 monster equipped with "Great Kanohi Avohkii" as a Level 3, 4, or 5 Tuner. This card is treated as a "Toa Nuva" monster while in the GY. During the turn this card was Special Summoned (Quick Effect): You can activate 1 of these effects;
+		<sym-auto>*</sym-auto>Banish all Set cards your opponent controls. <sym-auto>*</sym-auto>Banish 1 DARK monster your opponent controls.
+		You can only use this effect of "Takanuva, Toa of Light" once per turn.
+	attack: 2300
+	defense: 1600
+	gamecode: DRAFT10100456
+card:
+	has styling: false
+	notes:
+		Old concept:
+		ATK 4800/DEF 4100
+		1 "Energized Protodermis" monster + 1 DARK "Makuta" monster + 1 LIGHT "Toa" monster
+		Must be Fusion Summoned, and cannot be Special Summoned by other ways. While on the field or in the Graveyard, this card is also DARK-Attribute. Unaffected by Spell/Trap effects. LIGHT and DARK monsters your opponent controls cannot activate their effects. When this card leaves the field: You can Special Summon 1 LIGHT or DARK monster from your Graveyard.
+		
+		New concept:
+		Very WIP, but basically let it be generic at base and just become more and more powerful as you use more of the correct materials.
+	time created: 2017-02-25 23:33:13
+	time modified: 2025-07-06 12:28:55
+	card type: fusion monster
+	name: Light and Shadow - Takutanuva
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image32
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text:
+		1 "Energized Protodermis" monster + 1 DARK monster + 1 LIGHT monster
+		While on the field or in the GY, this card is also DARK. Gains these effects depending on what was among its materials. <soft-line><sym-auto>*</sym-auto>Warrior monster: Gains ATK/DEF equal to its materials' total ATK/DEF. <soft-line><sym-auto>*</sym-auto>Fiend monster: Once per turn (Quick Effect): You can target 1 other card on the field; destroy it. <soft-line><sym-auto>*</sym-auto>Synchro Monster: Once per turn: You can Special Summon 1 of your Level 4 or lower monsters that is banished or in your GY. <soft-line><sym-auto>*</sym-auto>Ritual Monster: Unaffected by Spell/Trap effects.</soft-line></soft-line></soft-line></soft-line>
+	attack: 2000
+	defense: 2000
+	gamecode: DRAFT10100459
+card:
+	has styling: false
+	notes:
+		Makuta + Takanuva (falling in), then fuse them into Takutanuva
+		
+		What about the destructive half of EP?
+	time created: 2017-03-04 12:08:54
+	time modified: 2025-07-06 12:28:35
+	card type: link monster
+	name: Energized Protodermis Pool
+	attribute: light
+	level: 
+	image: image1
+	type 1: <word-list-ENrace>Aqua</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 Effect Monsters with different Types and Attributes
+		If this card is Link Summoned: You can Fusion Summon 1 Fusion Monster from your Extra Deck by banishing materials from your field and/or either GY, including this card and 1 other monster in your possession. You can only use this effect of "Energized Protodermis Pool" once per turn.
+	Link Marker Up: none
+	Link Marker UL: yes
+	Link Marker Down: none
+	Link Marker DL: none
+	Link Marker DR: yes
+	attack: 0
+	link number: 2
+	gamecode: DRAFT10100458
+card:
+	has styling: false
+	notes:
+		{{Add 1 "Kraata" monster from your Deck or GY to your hand}}
+		{{Special Summon 1 "Kraata" monster from GY or banishment}}
+		
+		Kraata Field Spell, possibly the main Ul search target
+		=> centrally takes care of Level growth by giving everything +1 each time a Kraata effect (including all searches, self-summons, and battle stuff) resolves
+		=> searches or gets you back a Kraata when you summon a DARK Fiend, so it's not quite a starter but does give you a big boost if you get going
+		=> GY effect because it's a Makuta-related card, and to represent the actual "Stasis Breach"
+	time created: 2018-02-09 20:10:58
+	time modified: 2025-07-05 23:39:30
+	card type: spell card
+	name: Kraata Stasis Breach
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image7
+	rule text: Each time you activate a "Kraata" monster effect, increase the Level of all "Kraata" monsters you control by 1 immediately after it resolves. You can only use each of the following effects of "Kraata Stasis Breach" once per turn. If a DARK Fiend monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can add 1 "Kraata" monster from your Deck or GY to your hand, with a different name from the cards you control. If this card is sent to the GY: You can target 1 "Kraata" monster in your GY or banishment; Special Summon it in Attack Position.
+	gamecode: 10100438
+card:
+	has styling: false
+	notes: Big consistency booster for all the -Koro decks!
+	time created: 2019-07-29 10:47:06
+	time modified: 2025-07-01 20:40:09
+	card type: spell card
+	name: Kolhii Field
+	attribute: spell
+	level: <sym-auto>%</sym-auto>
+	image: image5
+	rule text: When this card is activated: You can place from your Deck in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a Warrior monster you control. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, also you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
+	gamecode: DRAFT10100409
+card:
+	has styling: false
+	notes:
+		First effect sets up material for Ka
+		=> but primarily it applies protection/dodging so as to enable detaching a material and then bringing it back with the optional part
+		=> also combos with Ka since it's a Quick Effect that reveals
+		Second effect is Pewku coming back after Ka crashes
+		=> would be even more fitting if it happens on summon of an Avohkii monster, but mucho texto
+	time created: 2022-12-01 20:16:06
+	time modified: 2025-07-01 20:36:20
+	card type: xyz monster
+	name: Pewku, Avohkii-Bearing Rahi
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image54
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 Level 4 monsters
+		During the Main Phase (Quick Effect): You can detach 1 material from this card; for the rest of this turn, your opponent cannot target "Avohkii" cards you control with card effects, then you can reveal 1 "Great Kanohi Avohkii" in your hand, and if you do, Special Summon 1 Level 4 "Avohkii" monster from your hand or GY. If this card is in your GY: You can target 1 non-Xyz "Avohkii" monster you control; Special Summon this card, and if you do, attach that monster to it as material. You can only use each effect of "Pewku, Avohkii-Bearing Rahi" once per turn.
+	attack: 1500
+	defense: 2500
+	gamecode: DRAFT10100405
+card:
+	has styling: false
+	notes:
+		Yeah this is probably too many effects
+		=> maybe do away with the draw and have the destruction trigger alternatively work with something Rahi do?
+	time created: 2022-12-01 20:16:06
+	time modified: 2025-07-01 20:36:25
+	card type: link monster
+	name: Ka, Avohkii-Bearing Rahi
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image17
+	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 Effect Monsters with different Attributes
+		If this card is Special Summoned: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand; draw 1 card. If you reveal "Great Kanohi Avohkii(s)" in your hand (except during the Damage Step) : You can target 2 cards on the field, including a card you control; destroy them. If this card is destroyed by battle or card effect: You can Special Summon up to 2 Level 4 "Avohkii" monsters with different names from your GY in Defense Position. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
+	Link Marker DL: yes
+	Link Marker DR: yes
+	attack: 1900
+	defense: 1200
+	link number: 2
+	gamecode: DRAFT10100406
+card:
+	has styling: false
+	notes:
+		Fusion target for Po-Koro
+		=> can be made with actual monsters to spawn Tokens without getting locked out of anything else
+		=> or with the Tokens to get Tuner access
+		=> or with Instant Fusion (which is why it isn't always a Tuner, best card of 2017 has to remain relevant after all (or is the different level enough for that?)
+		=> comes back if banished by Po-Koro or stuff like Kanohi, to again enable easy Tuner access
+		=> Balancing issue: Super poly is a thing and the materials are very generic ...
+		==> Could make it 2 Level 4 or lower EARTH monsters so it doesn't work on bosses, but then you also can't use your own Links to go into it
+		=> no built-in summoning procedure because you can use e.g. Proxy F anyway
+		
+		Lore-wise, this slot could also cover Bour for the Principles stuff
+		=> Maybe "Po-Matoran Master Carvers" for archetype inclusion
+	time created: 2023-11-05 10:45:49
+	time modified: 2025-07-01 20:40:53
+	card type: fusion monster
+	name: Po-Matoran Master Carvers
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image15
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 EARTH monsters
+		Treated as a Tuner while you control "Po-Koro, Village of Stone". If this card is banished from your GY to activate a Spell Card or effect: You can Special Summon this card, but banish it when it leaves the field.
+	attack: 1500
+	defense: 1500
+	gamecode: DRAFT10100420
+card:
+	has styling: false
+	notes:
+		Native Synchro for Po-Koro
+		=> extends protection by making non-destruction removal harder, surviving boardwipes so it can be traded for them, and coming back in the end phase even if you do so
+		=> probably needs something more, but space ...
+		==> searching Po-Koro would be thematic
+		==> special summoning something when it's summoned would fit mechanically as an extender and also recovery when it comes back
+	time created: 2023-11-05 10:55:00
+	time modified: 2025-07-01 20:40:57
+	card type: synchro monster
+	name: Path of Prophecies
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image19
+	type 1: <word-list-ENrace>Rock</word-list-ENrace>
+	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Rock</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 Tuner + 1+ non-Tuner monsters
+		Cannot be destroyed by card effects. Your opponent cannot target non-Rock monsters you control with card effects. During the End Phase, if this card is currently banished, and was banished this turn: You can Special Summon this card in Defense Position. You can only use this effect of "Path of Prophecy" once per turn.
+	attack: 0
+	defense: 3000
+	gamecode: DRAFT10100421
+card:
+	has styling: false
+	notes:
+		{{Add 1  "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand}}
+		
+		The form of the Avohkii that acts as a main engine piece
+		=> unsealed form won't appear until the final payoffs with Takanuva and such
+		=> treats itself as Avohkii in hand so the archetype's gimmick works
+		=> bounces itself for a monster search so you can reveal it later in the combo, but does take a card out of your hand so you don't get a repeatable +1 every turn
+		==> still a +1 as far as hand advantage goes, but -1 on the field due to self-bounce
+		==> can also search the real Avohkii as if "unsealing" itself, the lore-friendly idea being that you then send the Sealed form to the GY
+		===> overall it might be smoother and more practical to instead have the ignition search be only monsters and have the Avohkii search happen if it's destroyed by a card effect, so your opponent popping it preemptively doesn't rob you of your reveal target; but that:
+		====> takes more words
+		====> gives it an entire effect to exclusively search a card that at present does not exist
+		====> we'll decide after some more testing
+
+	time created: 2016-02-25 09:23:45
+	time modified: 2025-07-02 17:49:47
+	card type: spell card
+	name: Avohkii, Sealed Mask of Light
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image43
+	rule text: This card's name becomes "Great Kanohi Avohkii" while in your hand. While this card is equipped to a monster: You can return this card to the hand; add 1 "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand, and if you do, send 1 card from your hand to the GY. You can only use this effect of "Avohkii, Sealed Mask of Light" once per turn.
+	gamecode: 10100403
+card:
+	has styling: false
+	notes: Or something like that, basically a disruptive Spell/Trap payoff for Avohkii combos
+	time created: 2016-02-25 12:30:33
+	time modified: 2025-07-01 20:36:14
+	card type: trap card
+	name: Light of the Avohkii
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: image44
+	rule text: (When you activate this card, you can also reveal 1 "Avohkii" Equip Spell in your hand.) Target 1 "Avohkii" card you control and 1 face-up card your opponent controls; destroy them, then, if you revealed an "Avohkii" Equip Spell in your hand at activation, destroy 1 card your opponent controls. You can banish this card from your GY; Special Summon 1 monster that mentions "Great Kanohi Avohikii" from your hand or GY. You can only  use each effect of "Light of the Avohkii" once per turn.
+	gamecode: DRAFT10100404
+card:
+	has styling: false
+	notes:
+		A bit of a special -Koro Field Spell
+		=> List all the non-DARK Attributes (on a negative effect) for universal searchability with Kolhii Field
+		=> search other Field Spells to represent moving on to Metru Nui?
+		=> a battle effect that's kind of inverse of Ta-Koro's while representing the evacuation and giving you the opportunity to get rid of this card before its drawback applies if your opponent decides to battle
+	time created: 2016-02-25 12:30:33
+	time modified: 2025-07-01 20:41:03
+	card type: spell card
+	name: The Fall of Ta-Koro
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: image45
+	rule text: Once per turn, during your opponent's End Phase: Return as many FIRE, WATER, EARTH, WIND, and/or LIGHT monsters you control to the hand as possible, then destroy all monsters you control. At the start of the Damage Step, if 2 monsters battle: You can return both battling monsters to the hand, then send 1 card from your hand or face-up field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	gamecode: DRAFT10100428
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-25 12:30:33
+	time modified: 2025-07-01 20:41:23
+	card type: trap card
+	name: Washed and Chilled
+	attribute: trap
+	level: <sym-auto>^</sym-auto>
+	image: image47
+	rule text: Banish all monsters on the field (until the End Phase), then you can discard 1 WATER monster or reveal 1 "Great Kanohi Avohkii" in your hand, and if you do, Special Summon 1 of your banished monsters. You can only activate 1 "Washed and Chilled" per turn.
+	gamecode: DRAFT10100430
+card:
+	has styling: false
+	notes: Counterpart to Toa Seal maybe
+	time created: 2016-02-25 12:30:33
+	time modified: 2025-07-01 20:42:58
+	card type: spell card
+	name: Toa Healing
+	attribute: spell
+	level: <sym-auto>$</sym-auto>
+	image: image42
+	rule text: 
+	gamecode: DRAFT10100449
+card:
+	has styling: false
+	notes: 
+	time created: 2024-12-02 18:11:07
+	time modified: 2025-07-01 20:42:36
+	card type: xyz monster
+	name: Rahkshi Kaita Za
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image50
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		3 Level 8 DARK Fiend monsters
+		Your opponent cannot target DARK monsters you control for attacks or with card effects. Once per turn, if a monster your opponent controls activates its effect (Quick Effect): You can detach 1 material from this card; negate that effect, and if you do, halve that monster's ATK/DEF.
+	attack: 3200
+	defense: 2400
+	gamecode: DRAFT10100447
+card:
+	has styling: false
+	notes: 
+	time created: 2024-12-02 18:11:07
+	time modified: 2025-07-01 20:42:39
+	card type: xyz monster
+	name: Rahkshi Kaita Vo
+	attribute: dark
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image52
+	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		3 Level 8 DARK Fiend monsters
+		Once per turn: You can target 1 other monster on the field; attach it to this card as material. During the Main Phase (Quick Effect): You can detach 1 material from this card, then target 1 card your opponent controls; destroy it. You can only use this effect of "Rahkshi Kaita Vo" once per turn.
+	attack: 2400
+	defense: 3200
+	gamecode: DRAFT10100448
+card:
+	has styling: false
+	notes:
+		THE LINK-2 THAT SEARCHES THE CONTINUOUS SPELL THAT SEARCHES THE FIELD SPELL
+		=> needs Attribute-changing so Kolhii Field works properly (also you get to pick which village the champions are from)
+		==> continuous phrasing needs to handle multi-Attribute stuff, could also just target a Warrior on summon and copy it
+		=> direct attack is based on Kolhii gameplay (see also: Huki)
+	time created: 2022-12-01 20:16:06
+	time modified: 2025-07-01 20:40:26
+	card type: link monster
+	name: Matoran Kolhii Champions
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image51
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 monsters with the same Attribute, including a Warrior monster
+		This Link Summoned card's Attribute becomes the shared Attribute(s) of its materials. Can attack directly if your opponent controls no monsters in its column. You can send 1 card from your hand or field to the GY; add 1 "Kolhii Field" from your Deck to your hand. You can only use this effect of "Matoran Kolhii Champions" once per turn.
+	Link Marker Up: yes
+	Link Marker UR: none
+	Link Marker Down: yes
+	Link Marker DL: none
+	Link Marker DR: none
+	attack: 1200
+	defense: 1200
+	link number: 2
+	gamecode: DRAFT10100415
+card:
+	has styling: false
+	notes:
+		Additional Avohkii Main Deck search target that actually likes getting sent to the GY
+		=> Rahi synergy?
+	time created: 2024-12-02 18:09:15
+	time modified: 2025-07-06 12:13:40
+	card type: effect monster
+	name: Graalok, Avohkii-Ambushing Rahi
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image3
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: During the Main Phase, if this card is in your GY (Quick Effect): You can reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field in Attack Position. You can only use this effect of "Graalok, Avohkii-Ambushing Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
+	attack: 2800
+	defense: 1600
+	gamecode: DRAFT10100429
+card:
+	has styling: false
+	notes:
+		It's a special place ...
+		=> combo-starting field spell, if you can find your way to an Avohkii in hand
+		=> makes you plus off the many reveal effects
+		==> warning: having this trigger of reveals in general may mean you'd also draw every time you search an Avohkii :/
+	time created: 2025-04-14 07:31:26
+	time modified: 2025-07-06 12:17:28
+	card type: spell card
+	name: Kini-Nui, Awaiting the Avohkii
+	attribute: spell
+	level: <sym-auto>&</sym-auto>
+	image: 
+	rule text: When this card is activated: You can Set 1 "Great Kanohi Avohkii", or 1 Spell/Trap that mentions it, from your Deck or GY, but you cannot activate it this turn unless you reveal 1 "Great Kanohi Avohkii" in your hand. If you reveal "Great Kanohi Avohkii(s)" in your hand (except during the Damage Step): You can draw 1 card. You can only use each effect of "Kini-Nui, Awaiting the Avohkii" once per turn.
+	gamecode: DRAFT10100453
+version control:
+	type: none
+apprentice code: 
