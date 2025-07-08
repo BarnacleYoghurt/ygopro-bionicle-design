@@ -482,9 +482,11 @@ card:
 	notes:
 		With this, you can recycle almost everything using Emergence, as long as you have a Toa Nuva in the GY already
 		=> effects are kind of whatever, floats back into Emergence to truly close the loop
+		==> does DEF loss work for own destruction replacement? (probably not ...)
 		=> maybe some Avohkii synergy since this is part of the journey?
+		=> novel "materials in your possesion" clause so there's no incidental Super Poly bullshit either in or against the Toa Nuva deck!
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-06 12:27:48
+	time modified: 2025-07-08 23:15:04
 	card type: fusion monster
 	name: Toa Nuva United
 	attribute: light
@@ -498,7 +500,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1+ "Toa Nuva" monster(s) + 1 non-DARK monster
-		Gains 1000 ATK/DEF for each "Toa Nuva" monster used as Fusion Material. Cards you control cannot be destroyed by your opponent's card effects. If this card is sent to the GY: You can target 1 "Nuva" Spell/Trap in your GY or banishment; Set it. You can only use this effect of "Toa Nuva United" once per turn.
+		Must be Fusion Summoned using materials in your possession. Gains 1000 ATK/DEF for each "Toa Nuva" monster used as material. If a card(s) you control would be destroyed by battle or card effect, you can make this card lose 1000 DEF instead. If this card is sent to the GY: You can target 1 "Nuva" Spell/Trap in your GY or banishment; Set it. You can only use this effect of "Toa Nuva United" once per turn.
 	attack: 2000
 	defense: 2000
 	gamecode: DRAFT10100454
@@ -552,6 +554,7 @@ card:
 		=> work with monsters of the appropriate Attribute or Warriors, so Hahli + Principle is a working splash in everything with Matoran
 		=> GY effecs represent the matching Kolhii skill and work with the entire Matoran evolution line
 		=> arguably makes more sense to swap the target pools since you don't see a lot of Turaga playing Kolhii and the Principles apply to the entire Matoran society, but not sure how well that would work for splashability
+		==> should be fine since either way at least works with Hahli, and in general the principle effects are things that are good to use with the archetypal lower-tier monsters rather than any generic Extra Deck bosses they might be making
 		
 		Principle of Purity: Prevent outside intereference in your plays
 		=> targeted negate of monster effect that also hits one of your own, but if it's a Quick Effect you can chain it so Ga-Matoran have an advantage
@@ -560,12 +563,12 @@ card:
 		==> would make sense to be able to target any opponent's card, but then it's kinda just Drillbeam ...
 		=> destruction after negation is tied to a variant of Ga-Koro's GY purity condition, so we have that interpretation included as well
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-06 08:15:05
+	time modified: 2025-07-08 20:37:33
 	card type: spell card
 	name: The Principle Of Purity
-	attribute: trap
+	attribute: spell
 	level: <sym-auto>$</sym-auto>
-	image: image33
+	image: image46
 	rule text: Target 1 WATER or Warrior monster you control and 1 face-up monster your opponent controls; negate their effects until the end of this turn, and if you do, and all monsters in your GY are the same Attribute (min. 1), destroy that opponent's monster. At the end of the Damage Step, if your "Matoran", "Toa", or "Turaga" monster attacked: You can banish this card from your GY; it can make another attack in a row. You can only use 1 "The Principle of Purity" effect per turn, and only once that turn.
 	gamecode: 10100413
 card:
@@ -1086,6 +1089,26 @@ card:
 	image: 
 	rule text: When this card is activated: You can Set 1 "Great Kanohi Avohkii", or 1 Spell/Trap that mentions it, from your Deck or GY, but you cannot activate it this turn unless you reveal 1 "Great Kanohi Avohkii" in your hand. If you reveal "Great Kanohi Avohkii(s)" in your hand (except during the Damage Step): You can draw 1 card. You can only use each effect of "Kini-Nui, Awaiting the Avohkii" once per turn.
 	gamecode: DRAFT10100453
+card:
+	has styling: false
+	notes: 
+	time created: 2016-02-25 09:23:45
+	time modified: 2025-07-06 20:21:29
+	card type: token monster
+	name: Great Kanohi Avohkii
+	attribute: light
+	level: <sym-auto>*</sym-auto>
+	image: image28
+	type 1: <word-list-ENrace>Fairy</word-list-ENrace>
+	type 2: <word-list-ENeffect>Token</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Fairy</word-list-ENrace><sep> / </sep><word-list-ENeffect>Token</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: This card serves as a name placeholder in the database until the Avohkii has been found; if you are seeing it in-game, something has gone wrong.
+	attack: 0
+	defense: 0
+	gamecode: 10100455
 version control:
 	type: none
 apprentice code: 
