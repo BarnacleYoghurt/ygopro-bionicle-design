@@ -48,17 +48,17 @@ card:
 		Disintegration: Passively reduce opponent stats so your effects work at lower Levels
 		=> combo role is hybrid that gets you a Spell/Trap, though with the current design of the Field Spell at least that isn't quite enough to be a one card starter ...
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-06 11:41:41
+	time modified: 2025-07-13 17:11:14
 	card type: effect monster
 	name: Erosive Kraata Ul
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
-	image: image8
+	image: image33
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control no face-up monsters, except "Kraata" monsters: You can Special Summon this card from your hand in Attack Position, then you can add 1 "Kraata" Spell/Trap from your Deck to your hand, also you cannot Special Summon for ther rest of this turn, except DARK Fiend monsters. You can only use this effect of "Erosive Kraata Ul" once per turn. Cannot be destroyed by battle. Monsters your opponent controls lose ATK/DEF equal to this card's Level x 800.
+	rule text: If you control no face-up monsters, except "Kraata" monsters: You can Special Summon this card from your hand in Attack Position, then you can add 1 "Kraata" Spell/Trap from your Deck to your hand, also you cannot Special Summon for the rest of this turn, except DARK Fiend monsters. You can only use this effect of "Erosive Kraata Ul" once per turn. Cannot be destroyed by battle. Monsters your opponent controls lose ATK/DEF equal to this card's Level x 800.
 	attack: 0
 	defense: 0
 	gamecode: 10100432
@@ -92,9 +92,9 @@ card:
 		=> combo role: starter that simply adds another Kraata on summon - even if it gets negated and you have no extenders, at least there's kaboom
 		=> as one of your main "executives", it levels up on its own after each use of its power
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-03 00:21:43
+	time modified: 2025-07-13 17:51:26
 	card type: effect monster
-	name: Shattering Kraata Xi
+	name: Explosive Kraata Xi
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
 	image: image10
@@ -102,7 +102,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal or Special Summoned: You can add 1 "Kraata" monster from your Deck to your hand, except "Shattering Krata Xi". You can only use this effect of "Shattering Kraata Xi" once per turn. Cannot be destroyed by battle. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to this card's Level x 800: You can destroy that monster, then destroy all cards your opponent controls in its adjacent Monster Zones or Spell <sym-auto>&</sym-auto> Trap Zones, also increase this card's Level by 1.
+	rule text: If this card is Normal or Special Summoned: You can add 1 "Kraata" monster from your Deck to your hand, except "Explosive Kraata Xi". You can only use this effect of "Explosive Kraata Xi" once per turn. Cannot be destroyed by battle. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to this card's Level x 800: You can destroy that monster, then destroy all cards your opponent controls in its adjacent Monster Zones or Spell <sym-auto>&</sym-auto> Trap Zones, also increase this card's Level by 1.
 	attack: 0
 	defense: 0
 	gamecode: 10100434
@@ -915,12 +915,12 @@ card:
 		====> gives it an entire effect to exclusively search a card that at present does not exist
 		====> we'll decide after some more testing
 	time created: 2016-02-25 09:23:45
-	time modified: 2025-07-02 17:49:47
+	time modified: 2025-07-13 17:50:58
 	card type: spell card
 	name: Avohkii, Sealed Mask of Light
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image43
+	image: image8
 	rule text: This card's name becomes "Great Kanohi Avohkii" while in your hand. While this card is equipped to a monster: You can return this card to the hand; add 1 "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand, and if you do, send 1 card from your hand to the GY. You can only use this effect of "Avohkii, Sealed Mask of Light" once per turn.
 	gamecode: 10100403
 card:
