@@ -350,15 +350,26 @@ card:
 	gamecode: DRAFT10100462
 card:
 	has styling: false
-	notes: Which Kraata Power would be the GY effect for this one?
+	notes:
+		Spawns a fresh stage 1 Kraata from your Makuta, or just buffs the Kraata you already have
+		=> 800 ATK reduction in the non-Makuta case is purely so you can activate it in the Damage Step for surprise Kraata triggers
+		
+		Which Kraata Power would be the GY effect for this one?
+		=> there aren't really any directly related to the Kraata creation process, so I guess we have to go with the general vibe of "ripping chunks of yourself out?"
+		==> Shapeshifting, Quick Healing, and Invulnerability come to mind
+		==> Invulnerability is the simplest and shortest, so let's go with that for now (even though it's also the least good fit)
 	time created: 2016-02-25 09:12:43
-	time modified: 2025-07-01 20:42:09
+	time modified: 2025-07-14 00:01:22
 	card type: trap card
 	name: Makuta-Spawned Kraata
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image30
-	rule text: If you control a face-up "Makuta" monster: Reduce its Level by up to 4; Special Summon 1 "Kraata" monster from your Deck in face-up Attack Position and increase its Level by the same amount.
+	rule text:
+		Target 1 face-up monster on the field, then activate the appropriate effect, based on what that monster is;
+		<sym-auto>*</sym-auto>"Makuta" monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
+		<sym-auto>*</sym-auto>Other: It loses 800 ATK until the end of this turn, also increase the Level of all "Kraata" monsters you control by 1.
+		If a DARK Fiend monster(s) you control would be destroyed by a card effect, you can banish this card from your GY instead. You can only use each effect of "Makuta-spawned Kraata" once per turn.
 	gamecode: DRAFT10100440
 card:
 	has styling: false
