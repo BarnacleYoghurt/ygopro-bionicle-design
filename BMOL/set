@@ -16,7 +16,7 @@ card:
 		Updated with some additional effects to facilitate more proactive play, but might be too cluttered so a few of those should go on support cards
 		=> in light of recent developments, we probably can't avoid designing these around Yubel and related Fiend engines ...
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-06 11:46:04
+	time modified: 2025-07-16 23:56:13
 	card type: effect monster
 	name: Dreadful Kraata Za
 	attribute: dark
@@ -26,7 +26,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal or Special Summoned: You can send 1 "Kraata" card from your Deck to the GY. You can only use this effect of "Dreadful Kraata Za" once per turn. Cannot be destroyed by battle while in Attack Position. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to its Level x 800: You can shuffle that monster into the Deck, also increase this card's Level by 1.
+	rule text: If this card is Normal or Special Summoned: You can send 1 "Kraata" card from your Deck to the GY. You can only use this effect of "Dreadful Kraata Za" once per turn. Cannot be destroyed by battle. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to this card's Level x800: You can shuffle that monster into the Deck, also increase this card's Level by 1.
 	attack: 0
 	defense: 0
 	gamecode: DRAFT10100431
@@ -47,8 +47,15 @@ card:
 		
 		Disintegration: Passively reduce opponent stats so your effects work at lower Levels
 		=> combo role is hybrid that gets you a Spell/Trap, though with the current design of the Field Spell at least that isn't quite enough to be a one card starter ...
+		
+		Some practical considerations:
+		=> condition for SS should allow for non-Kraata since you want a bit of splashability with the Field Spell search, and don't want to be screwed by the existence of Rahkshi and Makuta
+		==> therefore, make it a DARK Fiend limitation, to align with the lock
+		=> also the lock should not prevent Energized Protodermis Destiny from working once we get the Rahkshi Armor, so we're being a bit unusual and only restriciting Effect Monsters (so the Token is still fine!)
+		=> forcing SS in Attack Position is kind of a waste of words, since Yubel can already do the invincible blocker thing way better, there's plenty of outside ways to SS these in Defense, and the fact that we want to attack for proactive removal means there's incentive to put them in Attack as well
+		==> then again, that last point doesn't apply to the passive ones, so maybe they alone should be Attack Position only after all?
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-13 17:11:14
+	time modified: 2025-07-16 20:37:19
 	card type: effect monster
 	name: Erosive Kraata Ul
 	attribute: dark
@@ -58,7 +65,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control no face-up monsters, except "Kraata" monsters: You can Special Summon this card from your hand in Attack Position, then you can add 1 "Kraata" Spell/Trap from your Deck to your hand, also you cannot Special Summon for the rest of this turn, except DARK Fiend monsters. You can only use this effect of "Erosive Kraata Ul" once per turn. Cannot be destroyed by battle. Monsters your opponent controls lose ATK/DEF equal to this card's Level x 800.
+	rule text: If you control no face-up monsters, except DARK Fiend monsters: You can Special Summon this card from your hand, then you can add 1 "Kraata" Spell/Trap from your Deck to your hand, also you cannot Special Summon Effect Monsters for the rest of this turn, except DARK Fiend monsters. You can only use this effect of "Erosive Kraata Ul" once per turn. Cannot be destroyed by battle. Monsters your opponent controls lose ATK/DEF equal to this card's Level x 800.
 	attack: 0
 	defense: 0
 	gamecode: 10100432
@@ -68,7 +75,7 @@ card:
 		Original:
 		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. Once per turn, when your opponent's monster attacks a "Kraata" monster you control: You gain LP equal to the attacking monster's ATK."
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-06 11:34:31
+	time modified: 2025-07-16 22:19:44
 	card type: effect monster
 	name: Starving Kraata Vo
 	attribute: dark
@@ -78,7 +85,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY in Attack Position, and if you do, increase the Level of all "Kraata" monsters you control by 1. You can only use this effect of "Starving Kraata Vo" once per turn. Cannot be destroyed by battle while in Attack Position. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x800: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
+	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY, and if you do, increase the Level of all "Kraata" monsters you control by 1. You can only use this effect of "Starving Kraata Vo" once per turn. Cannot be destroyed by battle. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x800: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
 	attack: 0
 	defense: 0
 	gamecode: DRAFT10100433
@@ -112,7 +119,7 @@ card:
 		Original:
 		"Cannot be destroyed by battle or targeted by your opponent's card effects. You take no battle damage from battles involving this card. Cannot be targeted for attacks while you control another "Kraata" monster. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. All monsters your opponent controls must attack, if able."
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-05 23:40:41
+	time modified: 2025-07-16 23:53:28
 	card type: effect monster
 	name: Divisive Kraata Cu
 	attribute: dark
@@ -122,7 +129,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control no face-up monsters, except "Kraata" monsters: You can Special Summon this card from your hand in Attack Position, then you can Special Summon 1 "Kraata" monster from your hand or GY, except "Divisive Kraata Cu", also you cannot Special Summon for ther rest of this turn, except DARK Fiend monsters. You can only use this effect of "Divisive Kraata Cu" once per turn. Cannot be destroyed by battle. Your opponent's monsters with ATK less than or equal to this card's Level x 800 must attack, if able, also you choose the attack targets for attacks with those monsters.
+	rule text: If you control no face-up monsters, except DARK Fiend monsters: You can Special Summon this card from your hand, then you can add 1 "Kraata" card from your GY or banishment to your hand, also you cannot Special Summon Effect Monsters for ther rest of this turn, except DARK Fiend monsters. You can only use this effect of "Divisive Kraata Cu" once per turn. Cannot be destroyed by battle. Your opponent's monsters with ATK less than or equal to this card's Level x800 must attack, if able, also you choose the attack targets for attacks with those monsters.
 	attack: 0
 	defense: 0
 	gamecode: DRAFT10100435
@@ -132,7 +139,7 @@ card:
 		Original:
 		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. If your opponent's monster attacks a "Kraata" monster you control, reduce the attacking monster's ATK by 200 x this card's level, then inflict the same amount of damage to your opponent. "
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-05 23:40:52
+	time modified: 2025-07-16 23:55:04
 	card type: effect monster
 	name: Toxic Kraata Ye
 	attribute: dark
@@ -142,7 +149,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: During the Main Phase, if you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand in Attack Position, then you can add 1 "Kraata" card from your GY to your hand. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle while in Attack Position. If this card battles an opponent's monster with ATK less than or equal to this card's Level x 800, that opponent's monster's effects are negated until the end of this turn.
+	rule text: During the Main Phase, if you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can Special Summon 1 "Kraata" monster from your hand or GY, except "Toxic Kraata Ye". You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. If this card battles an opponent's monster with ATK less than or equal to this card's Level x 800, that opponent's monster's effects are negated until the end of this turn.
 	attack: 0
 	defense: 0
 	gamecode: DRAFT10100436
