@@ -567,27 +567,30 @@ card:
 	has styling: false
 	notes:
 		{{Let your monster attack again}}
+		{{Destroy that opponent's card?}}
 		
 		Principles: Single-use Spell/Traps resembling the principle-based Koro effects
 		=> work with monsters of the appropriate Attribute or Warriors, so Hahli + Principle is a working splash in everything with Matoran
 		=> GY effecs represent the matching Kolhii skill and work with the entire Matoran evolution line
 		=> arguably makes more sense to swap the target pools since you don't see a lot of Turaga playing Kolhii and the Principles apply to the entire Matoran society, but not sure how well that would work for splashability
 		==> should be fine since either way at least works with Hahli, and in general the principle effects are things that are good to use with the archetypal lower-tier monsters rather than any generic Extra Deck bosses they might be making
+		==> However, a double attack for any WATER or Warrior is maybe too quickly game-ending, will have to watch out for that
 		
 		Principle of Purity: Prevent outside intereference in your plays
 		=> targeted negate of monster effect that also hits one of your own, but if it's a Quick Effect you can chain it so Ga-Matoran have an advantage
 		==> unless, of course, the thing you're negating was a response to your Ga-Matoran effect, so this might be a bit of a wonky approach to the intended use case
 		==> generally negating responses risks being a bit toxic in a turn 1 combo, and conflicts with Ga-Koro not allowing those responses in the first place
 		==> would make sense to be able to target any opponent's card, but then it's kinda just Drillbeam ...
+		===> eh, distinct enough since we do have to target our own monster too
 		=> destruction after negation is tied to a variant of Ga-Koro's GY purity condition, so we have that interpretation included as well
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-08 20:37:33
+	time modified: 2025-07-17 00:04:31
 	card type: spell card
 	name: The Principle Of Purity
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image46
-	rule text: Target 1 WATER or Warrior monster you control and 1 face-up monster your opponent controls; negate their effects until the end of this turn, and if you do, and all monsters in your GY are the same Attribute (min. 1), destroy that opponent's monster. At the end of the Damage Step, if your "Matoran", "Toa", or "Turaga" monster attacked: You can banish this card from your GY; it can make another attack in a row. You can only use 1 "The Principle of Purity" effect per turn, and only once that turn.
+	rule text: Target 1 "Matoran", "Toa", or "Turaga" monster you control and 1 face-up card your opponent controls; negate their effects until the end of this turn, then, if all monsters in your GY are the same Attribute (min. 1), you can destroy that opponent's card. At the end of the Damage Step, if your WATER or Warrior monster attacked: You can banish this card from your GY; it can make a second attack in a row. You can only use each effect of "The Principle of Purity" once per turn.
 	gamecode: 10100413
 card:
 	has styling: false
