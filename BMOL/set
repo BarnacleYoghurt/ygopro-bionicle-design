@@ -817,13 +817,18 @@ card:
 card:
 	has styling: false
 	notes:
-		First effect sets up material for Ka
+		One approach: Quick Effect detach that revives one of the guys
 		=> but primarily it applies protection/dodging so as to enable detaching a material and then bringing it back with the optional part
 		=> also combos with Ka since it's a Quick Effect that reveals
-		Second effect is Pewku coming back after Ka crashes
+		Another: Spell/Trap searcher plus destruction protection
+		=> ensures we get to the backrow even in lines that need Jaller searching Takua
+		=> counters the obvious counterplay of destroying the Sealed Avohkii when you try to search with it
+		==> this is minor enough that we could probably cut it if we don't want 3 effects and all these words
+		GY effect is Pewku coming back after Ka crashes
 		=> would be even more fitting if it happens on summon of an Avohkii monster, but mucho texto
+		==> the S/T search approach DOES have room for that!
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-07-01 20:36:20
+	time modified: 2025-07-20 20:26:36
 	card type: xyz monster
 	name: Pewku, Avohkii-Bearing Rahi
 	attribute: earth
@@ -837,7 +842,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 Level 4 monsters
-		During the Main Phase (Quick Effect): You can detach 1 material from this card; for the rest of this turn, your opponent cannot target "Avohkii" cards you control with card effects, then you can reveal 1 "Great Kanohi Avohkii" in your hand, and if you do, Special Summon 1 Level 4 "Avohkii" monster from your hand or GY. If this card is in your GY: You can target 1 non-Xyz "Avohkii" monster you control; Special Summon this card, and if you do, attach that monster to it as material. You can only use each effect of "Pewku, Avohkii-Bearing Rahi" once per turn.
+		You can detach 1 material from this card; Set 1 Spell/Trap from your Deck that mentions "Great Kanohi Avohkii", except an Equip Spell. If a card(s) you control would be destroyed by a card effect, you can detach 1 material from this card instead. If a Level 4 "Avohkii" monster(s) is Special Summoned to your field, while this card is in the GY (except during the Damage Step): You can target 1 of them; Special Summon this card, and if you do, attach that monster to it as material. You can only use each effect of "Pewku, Avohkii-Bearing Rahi" once per turn.
 	attack: 1500
 	defense: 2500
 	gamecode: DRAFT10100405
@@ -846,8 +851,9 @@ card:
 	notes:
 		Yeah this is probably too many effects
 		=> maybe do away with the draw and have the destruction trigger alternatively work with something Rahi do?
+		=> note on the reveal trigger: we probably need the "to activate ..." stipulation, otherwise it arguably has to trigger off the reveal after searching
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-07-01 20:36:25
+	time modified: 2025-07-20 20:28:26
 	card type: link monster
 	name: Ka, Avohkii-Bearing Rahi
 	attribute: wind
@@ -861,7 +867,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 Effect Monsters with different Attributes
-		If this card is Special Summoned: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand; draw 1 card. If you reveal "Great Kanohi Avohkii(s)" in your hand (except during the Damage Step) : You can target 2 cards on the field, including a card you control; destroy them. If this card is destroyed by battle or card effect: You can Special Summon up to 2 Level 4 "Avohkii" monsters with different names from your GY in Defense Position. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
+		If this card is Special Summoned: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand; draw 1 card. If you reveal "Great Kanohi Avohkii(s)" in your hand to activate a card or effect (except during the Damage Step): You can target 2 cards on the field, including a card you control; destroy them. If this card is destroyed by battle or card effect: You can Special Summon up to 2 Level 4 "Avohkii" monsters with different names from your GY in Defense Position. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
 	Link Marker DL: yes
 	Link Marker DR: yes
 	attack: 1900
@@ -944,12 +950,12 @@ card:
 		====> gives it an entire effect to exclusively search a card that at present does not exist
 		====> we'll decide after some more testing
 	time created: 2016-02-25 09:23:45
-	time modified: 2025-07-20 15:44:44
+	time modified: 2025-07-20 17:51:24
 	card type: spell card
 	name: Avohkii, Sealed Mask of Light
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image48
+	image: image55
 	rule text: This card's name becomes "Great Kanohi Avohkii" while in your hand. While this card is equipped to a monster: You can return this card to the hand; add 1 "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand, and if you do, send 1 card from your hand to the GY. You can only use this effect of "Avohkii, Sealed Mask of Light" once per turn.
 	gamecode: 10100403
 card:
