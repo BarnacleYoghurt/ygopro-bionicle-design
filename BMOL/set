@@ -806,13 +806,13 @@ card:
 	has styling: false
 	notes: Big consistency booster for all the -Koro decks!
 	time created: 2019-07-29 10:47:06
-	time modified: 2025-07-01 20:40:09
+	time modified: 2025-07-22 19:43:14
 	card type: spell card
 	name: Kolhii Field
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image5
-	rule text: When this card is activated: You can place from your Deck in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a Warrior monster you control. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, also you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
+	rule text: When this card is activated: You can place from your Deck in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a monster on the field. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, but you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
 	gamecode: DRAFT10100409
 card:
 	has styling: false
@@ -1091,10 +1091,12 @@ card:
 	notes:
 		Additional Avohkii Main Deck search target that actually likes getting sent to the GY
 		=> Rahi synergy?
+		==> maybe with a slightly more expensive cost
+		=> letting it work from hand as well provides a turn 0 play, but is that something we'd like to have in this form?
 	time created: 2024-12-02 18:09:15
-	time modified: 2025-07-06 12:13:40
+	time modified: 2025-07-22 20:00:21
 	card type: effect monster
-	name: Graalok, Avohkii-Ambushing Rahi
+	name: Graalok, Ash Bear Rahi
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image3
@@ -1104,7 +1106,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: During the Main Phase, if this card is in your GY (Quick Effect): You can reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field in Attack Position. You can only use this effect of "Graalok, Avohkii-Ambushing Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
+	rule text: During the Main Phase, if this card is in your hand or GY (Quick Effect): You can either Tribute 1 Beast or Winged Beast "Rahi" Pendulum Monster from your hand or field, or reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field in Attack Position. You can only use this effect of "Graalok, Ash Bear Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
 	attack: 2800
 	defense: 1600
 	gamecode: DRAFT10100429
@@ -1164,15 +1166,16 @@ card:
 	notes:
 		A Normal Spell that gets you into the monsters, for use with Kini-Nui and Pewku
 		=> the SS if you already have a Level 4 is to represent the "Rejoining" scene, but may synergize too well with Jaller specifically
+		==> reconsidered: this should not be a generic add from deck because that leaves hardly any way to prevent R4->Pewku->Takua->Avohkii lines in arbitrary decks (that can even be done if the NS has been used!); instead, it only adds back (REjoining), with the search as a bonus for using it as an extender
 		=> likewise, adding itself back so you can rebuild your board is here for "could have, but didn't" (and so there's an Avohkii mention)
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-13 18:10:36
+	time modified: 2025-07-22 08:05:48
 	card type: spell card
 	name: Avohkii Rejoining
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image43
-	rule text: Add 1 "Avohkii" monster from your Deck to your hand, then, if you control a Level 4 "Avohkii" monster, you can Special Summon 1 Level 4 "Avohkii" monster from your hand, with a different name from the cards you control. If an "Avohkii" monster you control leaves the field because of your opponent's card, while this card is in your GY: You can reveal 1 "Great Kanohi Avohkii" in your hand; add this card to your hand. You can only use each effect of of "Avohkii Rejoining" once per turn.
+	rule text: Add 1 "Avohkii" monster from your GY or banishment to your hand, with a different name from the cards you control, or if you control a Level 4 "Avohkii" monster, you can add it from your Deck instead. If an "Avohkii" monster you control leaves the field because of your opponent's card, while this card is in your GY: You can reveal 1 "Great Kanohi Avohkii" in your hand; add this card to your hand. You can only use each effect of of "Avohkii Rejoining" once per turn.
 	gamecode: DRAFT10100450
 card:
 	has styling: false
