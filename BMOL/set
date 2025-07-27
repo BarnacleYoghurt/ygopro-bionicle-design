@@ -429,25 +429,14 @@ card:
 	gamecode: DRAFT10100457
 card:
 	has styling: false
-	notes:
-		{{Special Summon this card}}
-		{{Add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand}}
-		
-		Avohkii concept:
-		=> highly consistent engine, Jaller/Takua/Sealed Avohkii are all roughly equivalent starters that can sometimes also extend
-		=> initial payoff is Jaller, Takua, and an extra search
-		=> then the Extra Deck (Rahi mounts) let you get more value out of that while always looping back to Jaller + Takua
-		=> general gimmick of revealing the Avohkii to do stuff
-		
-		Jaller is the general searcher for everything EXCEPT Equip Spells - he's in charge of the quest, but not the one who finds the actual mask
-		=> simple SS from hand by revealing Avohkii (but only in Defense because he's fairly big)
+	notes: [[Alias:10100401]]
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-01 20:28:56
+	time modified: 2025-07-27 14:54:19
 	card type: effect monster
 	name: Matoran Jaller, Avohkii Herald
 	attribute: fire
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image18
+	image: image33
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -456,7 +445,7 @@ card:
 	rule text: If this card is in your hand: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card in Defense Position. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
 	attack: 1800
 	defense: 1200
-	gamecode: 10100401
+	gamecode: 11100401
 card:
 	has styling: false
 	notes:
@@ -1200,6 +1189,68 @@ card:
 	attack: 1700
 	defense: 1500
 	gamecode: DRAFT10100414
+card:
+	has styling: false
+	notes:
+		{{Special Summon this card}}
+		{{Add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand}}
+		
+		Avohkii concept:
+		=> highly consistent engine, Jaller/Takua/Sealed Avohkii are all roughly equivalent starters that can sometimes also extend
+		=> initial payoff is Jaller, Takua, and an extra search
+		=> then the Extra Deck (Rahi mounts) let you get more value out of that while always looping back to Jaller + Takua
+		=> general gimmick of revealing the Avohkii to do stuff
+		
+		Jaller is the general searcher for everything EXCEPT Equip Spells - he's in charge of the quest, but not the one who finds the actual mask
+		=> simple SS from hand by revealing Avohkii (but only in Defense because he's fairly big)
+	time created: 2016-02-25 09:33:30
+	time modified: 2025-07-01 20:28:56
+	card type: effect monster
+	name: Matoran Jaller, Avohkii Herald
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image10
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
+	rule text: If this card is in your hand: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card in Defense Position. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
+	attack: 1800
+	defense: 1200
+	gamecode: 10100401
+card:
+	has styling: false
+	notes: [[Alias:10100402]]
+	time created: 2016-02-25 09:33:30
+	time modified: 2025-07-27 14:54:51
+	card type: effect monster
+	name: Matoran Takua, Avohkii Chronicler
+	attribute: light
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image56
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If this card is in your hand: You can reveal 1 other card in your hand; Special Summon this card in Defense Position, then send the revealed card to the GY unless you control 2 or more cards that mention "Great Kanohi Avohkii". During your Main Phase: You can equip 1 "Avohkii" Equip Spell from your hand, Deck, or GY to 1 "Avohkii" monster you control. You can only use each effect of "Matoran Takua, Avohkii Chronicler" once per turn.
+	attack: 1500
+	defense: 1500
+	gamecode: 11100402
+card:
+	has styling: false
+	notes: [[Alias:10100403]]
+	time created: 2016-02-25 09:23:45
+	time modified: 2025-07-27 14:55:10
+	card type: spell card
+	name: Avohkii, Sealed Mask of Light
+	attribute: spell
+	level: <sym-auto>+</sym-auto>
+	image: image57
+	rule text: This card's name becomes "Great Kanohi Avohkii" while in your hand. While this card is equipped to a monster: You can return this card to the hand; add 1 "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand, and if you do, send 1 card from your hand to the GY. You can only use this effect of "Avohkii, Sealed Mask of Light" once per turn.
+	gamecode: 11100403
 version control:
 	type: none
 apprentice code: 
