@@ -61,12 +61,12 @@ card:
 		=> forcing SS in Attack Position is kind of a waste of words, since Yubel can already do the invincible blocker thing way better, there's plenty of outside ways to SS these in Defense, and the fact that we want to attack for proactive removal means there's incentive to put them in Attack as well
 		==> then again, that last point doesn't apply to the passive ones, so maybe they alone should be Attack Position only after all?
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-20 17:20:12
+	time modified: 2025-07-27 11:05:03
 	card type: effect monster
 	name: Erosive Kraata Ul
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
-	image: image33
+	image: image55
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -105,12 +105,12 @@ card:
 		=> combo role: starter that simply adds another Kraata on summon - even if it gets negated and you have no extenders, at least there's kaboom
 		=> as one of your main "executives", it levels up on its own after each use of its power
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-19 19:04:35
+	time modified: 2025-07-27 14:40:29
 	card type: effect monster
 	name: Explosive Kraata Xi
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
-	image: image10
+	image: image8
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -950,12 +950,12 @@ card:
 		====> gives it an entire effect to exclusively search a card that at present does not exist
 		====> we'll decide after some more testing
 	time created: 2016-02-25 09:23:45
-	time modified: 2025-07-20 17:51:24
+	time modified: 2025-07-27 10:09:15
 	card type: spell card
 	name: Avohkii, Sealed Mask of Light
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
-	image: image55
+	image: image48
 	rule text: This card's name becomes "Great Kanohi Avohkii" while in your hand. While this card is equipped to a monster: You can return this card to the hand; add 1 "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand, and if you do, send 1 card from your hand to the GY. You can only use this effect of "Avohkii, Sealed Mask of Light" once per turn.
 	gamecode: 10100403
 card:
@@ -1169,14 +1169,14 @@ card:
 		==> reconsidered: this should not be a generic add from deck because that leaves hardly any way to prevent R4->Pewku->Takua->Avohkii lines in arbitrary decks (that can even be done if the NS has been used!); instead, it only adds back (REjoining), with the search as a bonus for using it as an extender
 		=> likewise, adding itself back so you can rebuild your board is here for "could have, but didn't" (and so there's an Avohkii mention)
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-22 08:05:48
+	time modified: 2025-07-24 00:19:24
 	card type: spell card
 	name: Avohkii Rejoining
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image43
 	rule text: Add 1 "Avohkii" monster from your GY or banishment to your hand, with a different name from the cards you control, or if you control a Level 4 "Avohkii" monster, you can add it from your Deck instead. If an "Avohkii" monster you control leaves the field because of your opponent's card, while this card is in your GY: You can reveal 1 "Great Kanohi Avohkii" in your hand; add this card to your hand. You can only use each effect of of "Avohkii Rejoining" once per turn.
-	gamecode: DRAFT10100450
+	gamecode: DRAFT10100451
 card:
 	has styling: false
 	notes:
