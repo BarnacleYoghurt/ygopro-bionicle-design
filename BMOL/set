@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.0.1
+	edition: Version 5.0.2
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -431,7 +431,7 @@ card:
 	has styling: false
 	notes: [[Alias:10100401]]
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-27 14:54:19
+	time modified: 2025-07-30 07:56:56
 	card type: effect monster
 	name: Matoran Jaller, Avohkii Herald
 	attribute: fire
@@ -442,7 +442,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	rule text: If this card is in your hand: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card in Defense Position. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
+	rule text: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
 	attack: 1800
 	defense: 1200
 	gamecode: 11100401
@@ -457,8 +457,10 @@ card:
 		=> slightly more convoluted SS procedure: Activate (that's), reveal (why), Special Summon (they call me), send to GY (the Chronicler!)
 		==> you get to keep the card if you already have another Avohkii-adjacent card present, so it's cheaper to extend than to start
 		==> the Poplar pattern would have been an alternative going into a similar direction, but that can't extend after getting stopped and unlike Snake-Eyes we don't have a lot of other options
+		==> upon rewatching, this actually isn't the right rythm ("they call" and "me" are separate!), but if you leave out the activation (or include it if you have the setup to not send) it still fits "be, right, there"
+		==> arguably makes more sense for this to just be a regular SS if you control an Avohkii card anyway, because with this starter you can actually get something else from the Jaller search, so using the NS is justified - but let's leave that question open for the next version, when we have more Avohkii cards
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-02 18:25:14
+	time modified: 2025-07-30 07:57:29
 	card type: effect monster
 	name: Matoran Takua, Avohkii Chronicler
 	attribute: light
@@ -470,7 +472,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card is in your hand: You can reveal 1 other card in your hand; Special Summon this card in Defense Position, then send the revealed card to the GY unless you control 2 or more cards that mention "Great Kanohi Avohkii". During your Main Phase: You can equip 1 "Avohkii" Equip Spell from your hand, Deck, or GY to 1 "Avohkii" monster you control. You can only use each effect of "Matoran Takua, Avohkii Chronicler" once per turn.
+	rule text: You can reveal 1 other card in your hand; Special Summon this card from your hand, then send the revealed card to the GY unless you control 2 or more cards that mention "Great Kanohi Avohkii". During your Main Phase: You can equip 1 "Avohkii" Equip Spell from your hand, Deck, or GY to 1 "Avohkii" monster you control. You can only use each effect of "Matoran Takua, Avohkii Chronicler" once per turn.
 	attack: 1500
 	defense: 1500
 	gamecode: 10100402
@@ -1205,7 +1207,7 @@ card:
 		Jaller is the general searcher for everything EXCEPT Equip Spells - he's in charge of the quest, but not the one who finds the actual mask
 		=> simple SS from hand by revealing Avohkii (but only in Defense because he's fairly big)
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-01 20:28:56
+	time modified: 2025-07-30 07:56:16
 	card type: effect monster
 	name: Matoran Jaller, Avohkii Herald
 	attribute: fire
@@ -1216,7 +1218,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	rule text: If this card is in your hand: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card in Defense Position. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
+	rule text: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
 	attack: 1800
 	defense: 1200
 	gamecode: 10100401
@@ -1224,7 +1226,7 @@ card:
 	has styling: false
 	notes: [[Alias:10100402]]
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-27 14:54:51
+	time modified: 2025-07-30 08:03:04
 	card type: effect monster
 	name: Matoran Takua, Avohkii Chronicler
 	attribute: light
@@ -1236,7 +1238,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card is in your hand: You can reveal 1 other card in your hand; Special Summon this card in Defense Position, then send the revealed card to the GY unless you control 2 or more cards that mention "Great Kanohi Avohkii". During your Main Phase: You can equip 1 "Avohkii" Equip Spell from your hand, Deck, or GY to 1 "Avohkii" monster you control. You can only use each effect of "Matoran Takua, Avohkii Chronicler" once per turn.
+	rule text: You can reveal 1 other card in your hand; Special Summon this card from your hand, then send the revealed card to the GY unless you control 2 or more cards that mention "Great Kanohi Avohkii". During your Main Phase: You can equip 1 "Avohkii" Equip Spell from your hand, Deck, or GY to 1 "Avohkii" monster you control. You can only use each effect of "Matoran Takua, Avohkii Chronicler" once per turn.
 	attack: 1500
 	defense: 1500
 	gamecode: 11100402
