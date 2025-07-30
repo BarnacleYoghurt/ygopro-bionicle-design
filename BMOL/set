@@ -550,13 +550,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-17 00:08:15
+	time modified: 2025-07-28 00:00:19
 	card type: spell card
 	name: The Principle Of Courage
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image39
-	rule text: During damage calculation, if your "Toa", "Matoran", or "Turaga" monster battles an opponent's monster: You can make your battling monster gain ATK equal to that opponent's monster's original ATK until the end of this turn. During your Main Phase: You can banish this card from your GY, then target 1 FIRE or Warrior monster you control; until the end of your opponent's turn, it gains 1000 ATK, also it cannot be destroyed by your opponent's card effects. You can unly use each effect of "The Principle of Courage" once per turn.
+	rule text: During damage calculation, if your "Toa", "Matoran", or "Turaga" monster battles an opponent's monster: You can make your battling monster gain ATK equal to that opponent's monster's original ATK until the end of this turn. During your Main Phase: You can banish this card from your GY, then target 1 Warrior monster you control; until the end of your opponent's turn, it gains 1200 ATK, also it cannot be destroyed by your opponent's card effects. You can unly use each effect of "The Principle of Courage" once per turn.
 	gamecode: DRAFT10100410
 card:
 	has styling: false
@@ -570,6 +570,7 @@ card:
 		=> arguably makes more sense to swap the target pools since you don't see a lot of Turaga playing Kolhii and the Principles apply to the entire Matoran society, but not sure how well that would work for splashability
 		==> should be fine since either way at least works with Hahli, and in general the principle effects are things that are good to use with the archetypal lower-tier monsters rather than any generic Extra Deck bosses they might be making
 		==> However, a double attack for any WATER or Warrior is maybe too quickly game-ending, will have to watch out for that
+		===> make it only Warriors, that matches with other Kolhii cards
 		
 		Principle of Purity: Prevent outside intereference in your plays
 		=> targeted negate of monster effect that also hits one of your own, but if it's a Quick Effect you can chain it so Ga-Matoran have an advantage
@@ -579,25 +580,25 @@ card:
 		===> eh, distinct enough since we do have to target our own monster too
 		=> destruction after negation is tied to a variant of Ga-Koro's GY purity condition, so we have that interpretation included as well
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-17 00:04:31
+	time modified: 2025-07-27 23:59:00
 	card type: spell card
 	name: The Principle Of Purity
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image46
-	rule text: Target 1 "Matoran", "Toa", or "Turaga" monster you control and 1 face-up card your opponent controls; negate their effects until the end of this turn, then, if all monsters in your GY are the same Attribute (min. 1), you can destroy that opponent's card. At the end of the Damage Step, if your WATER or Warrior monster attacked: You can banish this card from your GY; it can make a second attack in a row. You can only use each effect of "The Principle of Purity" once per turn.
+	rule text: Target 1 "Matoran", "Toa", or "Turaga" monster you control and 1 face-up card your opponent controls; negate their effects until the end of this turn, then, if all monsters in your GY are the same Attribute (min. 1), you can destroy that opponent's card. At the end of the Damage Step, if your Warrior monster attacked: You can banish this card from your GY; it can make a second attack in a row. You can only use each effect of "The Principle of Purity" once per turn.
 	gamecode: 10100413
 card:
 	has styling: false
 	notes: 
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-17 00:09:01
+	time modified: 2025-07-28 00:01:53
 	card type: trap card
 	name: The Principle Of Prosperity
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image34
-	rule text: You can target up to 3 "Toa", "Matoran", and/or "Turaga" monsters in your GY; shuffle them into your Deck, then draw cards equal to the number shuffled. You can banish this card from your GY, then target 1 EARTH or Warrior monster you control; banish it until the End Phase, then you can shuffle up to 3 cards from your GY and/or banishment into the Deck, and if you do, gain 600 LP for each card shuffled. You can only use each effect of "The Principle of Prosperity" once per turn.
+	rule text: You can target up to 3 "Toa", "Matoran", and/or "Turaga" monsters in your GY; shuffle them into your Deck, then draw cards equal to the number shuffled. You can banish this card from your GY, then target 1 Warrior monster you control; banish it until the End Phase, then you can shuffle up to 3 monsters from your GY and/or banishment into the Deck, and if you do, gain 600 LP for each card shuffled. You can only use each effect of "The Principle of Prosperity" once per turn.
 	gamecode: DRAFT10100416
 card:
 	has styling: false
@@ -606,13 +607,13 @@ card:
 		"This turn, when your opponent Normal or Special Summons a monster while you control a "Matoran" monster: Gain LP equal to that opponent's monster's ATK. You can only activate 1 "The Principle of Peace" per turn."
 		=> still based on ancient Ko-Koro, ew
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-17 00:10:43
+	time modified: 2025-07-28 00:02:42
 	card type: trap card
 	name: The Principle Of Peace
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
 	image: image35
-	rule text: If your opponent activates a card or effect, while you control a "Toa", "Matoran", or "Turaga" monster and have not activated any monster effects this turn: Negate the activation, and if you do, place that card on the bottom of the Deck. If a card(s) you control would be destroyed by battle or card effect, while you control a WATER or Warrior monster, you can banish this card from your GY instead. You can only use each effect of "The Principle of Peace" once per turn.
+	rule text: If your opponent activates a card or effect, while you control a "Toa", "Matoran", or "Turaga" monster and have not activated any monster effects this turn: Negate the activation, and if you do, place that card on the bottom of the Deck. If a card(s) you control would be destroyed by battle or card effect, while you control a Warrior monster, you can banish this card from your GY instead. You can only use each effect of "The Principle of Peace" once per turn.
 	gamecode: DRAFT10100422
 card:
 	has styling: false
@@ -620,13 +621,13 @@ card:
 		One-shot version of the main village gimmick for the Attribute, with Kolhii Skill adjacent GY effect compression for the Matoran line
 		=> in this case, Strategy, to plan ahead
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-17 00:09:55
+	time modified: 2025-07-28 00:02:17
 	card type: spell card
 	name: The Principle Of Creation
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image40
-	rule text: Banish up to 3 "Toa", "Matoran", and/or "Turaga" monsters from your GY; Special Summon that many "Sculpture Tokens" (Rock/EARTH/Level 1/ATK 0/DEF 0), also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except EARTH and/or Warrior monsters. During the End Phase, if you control an EARTH or Warrior monster: You can banish this card from your GY; place 1 card from your Deck on top of your Deck. You can only activate 1 "The Principle of Creation" per turn.
+	rule text: Banish up to 3 "Toa", "Matoran", and/or "Turaga" monsters from your GY; Special Summon that many "Sculpture Tokens" (Rock/EARTH/Level 1/ATK 0/DEF 0), also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except EARTH and/or Warrior monsters. During the End Phase, if you control a Warrior monster: You can banish this card from your GY; place 1 card from your Deck on top of your Deck. You can only activate 1 "The Principle of Creation" per turn.
 	gamecode: DRAFT10100419
 card:
 	has styling: false
@@ -637,13 +638,13 @@ card:
 		
 		this might be too generic a searcher, it can find various handtraps for example
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-17 00:12:31
+	time modified: 2025-07-28 00:02:51
 	card type: spell card
 	name: The Principle Of Faith
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image36
-	rule text: Target 1 "Toa", "Matoran", or "Turaga" monster you control; negate its effects (if any) and make its ATK 0, and if you do, add 1 monster with the same Type or Attribute, but a different name and equal or lower original ATK from your Deck to your hand. You can banish this card from your GY; this turn, your opponent cannot activate cards or effects when your WIND or Warrior monster attacks. You can only activate 1 "The Principle of Faith" per turn.
+	rule text: Target 1 "Toa", "Matoran", or "Turaga" monster you control; negate its effects (if any) and make its ATK 0, and if you do, add 1 monster with the same Type or Attribute, but a different name and equal or lower original ATK from your Deck to your hand. You can banish this card from your GY; this turn, your opponent cannot activate cards or effects when your Warrior monster attacks. You can only activate 1 "The Principle of Faith" per turn.
 	gamecode: DRAFT10100425
 card:
 	has styling: false
