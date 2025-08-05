@@ -386,11 +386,14 @@ card:
 	gamecode: DRAFT10100440
 card:
 	has styling: false
-	notes: Daddy Konami why won't you let me trigger on normal draw too
+	notes:
+		Daddy Konami why won't you let me trigger on normal draw too
+		
+		Maybe consider synergey with the Shadow GY effect, e.g. piercing damage
 	time created: 2016-02-25 09:16:07
-	time modified: 2025-07-13 17:58:04
+	time modified: 2025-08-05 20:23:38
 	card type: ritual monster
-	name: Makuta, Lord of Shadows
+	name: Makuta, Master of Shadows
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image14
@@ -399,7 +402,7 @@ card:
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Ritual</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	rule text: You can Ritual Summon this card with any "Makuta" Ritual Spell. If this card is added to your hand, except by drawing it for your normal draw: You can reveal this card; add 1 "Makuta" Spell/Trap from your Deck to your hand. You can send the top card of your Deck to the Graveyard, and if it was a "Makuta" card or a DARK monster, draw 1 card. You can only use each effect of "Makuta, Lord of Shadows" once per turn.
+	rule text: You can Ritual Summon this card with "Makuta's Shadow". If this card is added to your hand, except by drawing it for your normal draw: You can reveal this card; add 1 "Makuta" Spell/Trap from your Deck to your hand. During your Main Phase: You can send the top card of your Deck to the Graveyard, and if it was a "Makuta" card or a DARK monster, draw 1 card. You can only use each effect of "Makuta, Master of Shadows" once per turn.
 	attack: 3300
 	defense: 3300
 	gamecode: DRAFT10100453
@@ -407,25 +410,25 @@ card:
 	has styling: false
 	notes: 
 	time created: 2016-02-25 09:23:45
-	time modified: 2025-07-13 17:58:00
+	time modified: 2025-08-05 20:26:05
 	card type: spell card
-	name: Great Kanohi Kraahkan, Mask of Shadows
+	name: Great Kanohi Kraahkan
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image4
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a non-LIGHT "Makuta" monster, it is unaffected by the activated effects of LIGHT monsters, also it cannot be destroyed by battle with a LIGHT monster. If this card is sent to the GY: You can target 1 DARK monster you control; equip this card to that target. You can only use this effect of "Great Kanohi Avohkii, Mask of Light" once per turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a non-LIGHT "Makuta" monster, it is unaffected by the activated effects of LIGHT monsters, also it cannot be destroyed by battle with a LIGHT monster. If this card is sent to the GY: You can target 1 DARK monster on the field; equip this card to that target. You can only use this effect of "Great Kanohi Kraahkan" once per turn.
 	gamecode: DRAFT10100454
 card:
 	has styling: false
 	notes: 
 	time created: 2016-02-25 09:23:45
-	time modified: 2025-07-13 17:57:41
+	time modified: 2025-08-05 20:26:16
 	card type: spell card
-	name: Great Kanohi Avohkii, Mask of Light
+	name: Great Kanohi Avohkii
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image2
-	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a non-DARK "Toa" or "Makuta" monster, it is unaffected by the activated effects of DARK monsters, also it cannot be destroyed by battle with a DARK monster. If this card is sent to the GY: You can target 1 LIGHT monster you control; equip this card to that target. You can only use this effect of "Great Kanohi Avohkii, Mask of Light" once per turn.
+	rule text: If another "Kanohi" Equip Spell becomes equipped to the equipped monster, destroy this card. If the equipped monster is a non-DARK "Toa" monster, it is unaffected by the activated effects of DARK monsters, also it cannot be destroyed by battle with a DARK monster. If this card is sent to the GY: You can target 1 LIGHT monster on the field; equip this card to that target. You can only use this effect of "Great Kanohi Avohkii" once per turn.
 	gamecode: DRAFT10100457
 card:
 	has styling: false
@@ -484,13 +487,13 @@ card:
 		==> tried one related to flipping face-down
 		=> Also take into account what powers were involved in the events surrounding the card art
 	time created: 2016-02-25 12:11:16
-	time modified: 2025-07-13 17:58:11
+	time modified: 2025-08-05 20:20:20
 	card type: spell card
 	name: Makuta's Shadow
 	attribute: spell
 	level: <sym-auto>#</sym-auto>
 	image: image13
-	rule text: Ritual Summon 1 "Makuta" Ritual Monster from your hand, by Tributing monsters from your hand and/or field whose total Levels equal or exceed its Level. If a monster(s) is Normal or Special Summoned face-up while you control a "Makuta" monster (except during the Damage Step): You can banish this card from your GY; change that monster(s) to face-down Defense Position. You can only use this effect of "Makuta's Shadow" once per turn.
+	rule text: This card can be used to Ritual Summon any "Makuta" Ritual Monster. You must also Tribute monsters from your hand or field whose total Levels equal or exceed its Level, or if Ritual Summoning "Makuta, Master of Shadows" this way, you can Tribute 1 monster on either field equipped with "Great Kanohi Kraahkan" instead. If a monster(s) is Normal or Special Summoned face-up while you control a "Makuta" monster (except during the Damage Step): You can banish this card from your GY; change that monster(s) to face-down Defense Position. You can only use this effect of "Makuta's Shadow" once per turn.
 	gamecode: DRAFT10100452
 card:
 	has styling: false
