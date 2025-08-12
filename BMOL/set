@@ -61,12 +61,12 @@ card:
 		=> forcing SS in Attack Position is kind of a waste of words, since Yubel can already do the invincible blocker thing way better, there's plenty of outside ways to SS these in Defense, and the fact that we want to attack for proactive removal means there's incentive to put them in Attack as well
 		==> then again, that last point doesn't apply to the passive ones, so maybe they alone should be Attack Position only after all?
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-27 11:05:03
+	time modified: 2025-08-12 18:15:58
 	card type: effect monster
 	name: Erosive Kraata Ul
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
-	image: image55
+	image: image18
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -105,12 +105,12 @@ card:
 		=> combo role: starter that simply adds another Kraata on summon - even if it gets negated and you have no extenders, at least there's kaboom
 		=> as one of your main "executives", it levels up on its own after each use of its power
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-27 14:40:29
+	time modified: 2025-08-12 18:10:11
 	card type: effect monster
 	name: Explosive Kraata Xi
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
-	image: image8
+	image: image58
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -787,6 +787,7 @@ card:
 		Kraata Field Spell, possibly the main Ul search target
 		=> centrally takes care of Level growth by giving everything +1 each time a Kraata effect (including all searches, self-summons, and battle stuff) resolves
 		=> searches or gets you back a Kraata when you summon a DARK Fiend, so it's not quite a starter but does give you a big boost if you get going
+		==> consider making it add only from Deck and require different name from GY as well (to encourage playing a full set of Kraata/Rahkshi), but for now it stays like this so combos with Xi and Ul actually have a chance to access the search
 		=> GY effect because it's a Makuta-related card, and to represent the actual "Stasis Breach"
 	time created: 2018-02-09 20:10:58
 	time modified: 2025-07-05 23:39:30
