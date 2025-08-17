@@ -663,6 +663,11 @@ card:
 		=> The Tuner condition is a bit random, but otherwise the math on the canon combo falls short ...
 		
 		Missing an Avohkii mention ...
+		=> we could have it only count monsters with Avohkii mentions so it's a bit less generic
+		==> "Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place 1 counter pm tjos card, also place 1 additional counter for each of the following that applies to at least 1 of those monsters."
+		==> Taking Warrior out of the bonus categories would then still get us the same math
+		==> speaking of "less generic", "Seventh" is a searchable archetype, might need to change the name
+		=> alternatively, it could have some Avohkii-related protection clause so it gets value even if you're not early enough to hit 7 counters
 	time created: 2017-02-24 20:08:42
 	time modified: 2025-07-06 12:02:32
 	card type: spell card
@@ -677,13 +682,19 @@ card:
 	gamecode: DRAFT10100407
 card:
 	has styling: false
-	notes: 
+	notes:
+		Use your opponent's DARK monsters (Rahkshi) as material for the craft
+		=> since we're modulating the Level this could have any number of stars >7, but 11 also allows making it with the Avohkii squad the normal way (but do we want that?)
+		
+		Changes the location (banishing everything on the field) and sets up the final showdown (SS 1 from GY each)
+		
+		Does this also need an Avohkii mention?
 	time created: 2017-02-25 23:19:12
-	time modified: 2025-07-13 17:57:31
+	time modified: 2025-08-17 20:32:43
 	card type: synchro monster
 	name: Toa Takanuva & Ussanui
 	attribute: light
-	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
 	image: image41
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Synchro</word-list-ENeffect>
@@ -691,16 +702,22 @@ card:
 	type 4: <word-list-ENeffect>Effect</word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
-		"Takanuva, Toa of Light" + 1 0r more non-Tuner monsters
-		This card is treated as a "Toa Nuva" card while in the Graveyard. When this card battles, your opponent's cards and effects cannot be activated until the end of the Damage Step. Once per turn: You can shuffle 1 monster in each player's Graveyard into the Deck, then this card gains 1000 ATK for each DARK monster shuffled into the Deck this way, until the end of this turn.
+		"Takanuva, Toa of Light" + 1+ non-Tuner monsters
+		For this card's Synchro Summon, you can use 1 DARK monster your opponent controls as material, as if you controlled it. When you do, treat it as a Level 4 non-Tuner. If this card is Special Summoned: You can banish all cards on the field, then each player can Special Summon 1 monster from their GY. You can only Special Summon "Toa Takanuva <sym-auto>&</sym-auto> Ussanui(s)" once per turn.
 	attack: 2600
 	defense: 2600
 	gamecode: DRAFT10100459
 card:
 	has styling: false
-	notes: 
+	notes:
+		Older drafts had a "treated as Toa Nuva in GY" clause, but that takes up a lot of space for a tiny lore nod that does not achieve anything substantial
+		
+		Maybe some kind of floating effect for the revival at the end of the movie, though that makes Ussanui's gimmick a bit redundant
+		=> If this card is in your GY: You can Special Summon this card to your Main Monster Zone adjacent to 2 Warrior monsters with different Attributes.
+		==> Hahli and Jaller, but also works with Jaller and Takua
+		==> should probably be once per Duel, and for space reasons make the main effect a soft once per turn in that case
 	time created: 2017-02-25 23:19:12
-	time modified: 2025-07-13 17:57:36
+	time modified: 2025-08-17 20:34:31
 	card type: synchro monster
 	name: Takanuva, Toa of Light
 	attribute: light
@@ -714,7 +731,7 @@ card:
 	edition: 1st Edition
 	rule text:
 		1 LIGHT Tuner + 1+ non-Tuner monsters
-		For this card's Synchro Summon, you can treat 1 Level 4 monster equipped with "Great Kanohi Avohkii" as a Level 3, 4, or 5 Tuner. This card is treated as a "Toa Nuva" monster while in the GY. During the turn this card was Special Summoned (Quick Effect): You can activate 1 of these effects;
+		For this card's Synchro Summon, you can treat 1 monster equipped with "Great Kanohi Avohkii" as a Level 3 Tuner. During the turn this card was Special Summoned (Quick Effect): You can activate 1 of these effects;
 		<sym-auto>*</sym-auto>Banish all Set cards your opponent controls. <sym-auto>*</sym-auto>Banish 1 DARK monster your opponent controls.
 		You can only use this effect of "Takanuva, Toa of Light" once per turn.
 	attack: 2300
@@ -752,10 +769,14 @@ card:
 	has styling: false
 	notes:
 		Makuta + Takanuva (falling in), then fuse them into Takutanuva
+		=> vulnerable to Ghost Ogre, would be fixable by just requiring you to use any "Energized Protodermis Pool", but the phrasing for that is unwieldy
+		==> [...], including "Energized Protodermis Pool" and 1 other monster (that are (both?)?) in your possession.
 		
 		What about the destructive half of EP?
+		=> GY banish, condition is being sent/banished by a foreign card effect so Maliss can't abuse it too hard (it is a Link ...)
+		==> maybe just banish face-down so you really can't use it to trigger your own shit (but then it also hits harder if used against the opponent's GY)
 	time created: 2017-03-04 12:08:54
-	time modified: 2025-07-13 17:57:18
+	time modified: 2025-08-17 17:48:44
 	card type: link monster
 	name: Energized Protodermis Pool
 	attribute: light
@@ -769,7 +790,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Aqua</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 Effect Monsters with different Types and Attributes
-		If this card is Link Summoned: You can Fusion Summon 1 Fusion Monster from your Extra Deck by banishing materials from your field and/or either GY, including this card and 1 other monster in your possession. You can only use this effect of "Energized Protodermis Pool" once per turn.
+		If this card is Link Summoned: You can Fusion Summon 1 Fusion Monster from your Extra Deck by banishing materials from your field and/or either GY, including this card and 1 other monster in your possession. You can only use this effect of "Energized Protodermis Pool" once per turn. If this card you control is sent to the GY or banished by a card effect, except its own: Target 2 cards in any GY(s); banish them.
 	Link Marker Up: none
 	Link Marker UL: yes
 	Link Marker Down: none
@@ -1179,8 +1200,13 @@ card:
 		Secures occupied Nokama zone, can be disruption/removal if used against opponent's monster in the proper zone (but then opponent also gets Marka!)
 		=> would be nice to have some kind of Purity-like effect, too ...
 		==> battle effect block with the same condition, but if the other effect is versatile enough we may rather want to save the space
+		=> actually, what we really need in Ga-Koro is a good starter, playing Takua just to reliably make Nokama is not a good state of affairs
+		==> so let's summon Ga-Matoran directly from the Deck, with a WATER monster discard cost so it's unsuitable for use in Ko-Koro
+		==> of course, we might be hitting a point where there are too many WATER discard costs, but we'll see
+		==> could be daring and make the targets all WATER Warriors (below X threshold?), but that includes some scary ones like Reinoheart ...
+
 	time created: 2025-07-19 19:55:02
-	time modified: 2025-07-20 15:42:31
+	time modified: 2025-08-17 18:34:59
 	card type: effect monster
 	name: Matoran Shipwright Marka
 	attribute: water
@@ -1192,7 +1218,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card attacks while all monsters in your GY are WATER (min. 1), your opponent cannot activate cards or effects until the end of the Damage Step. If this card is in your hand or GY (Quick Effect): You can choose 1 Main Monster Zone your WATER Link Monster points to; if there is a monster in that Zone, banish it (until the End Phase), also, after that, Special Summon this card to that Zone, but banish it when it leaves the field. You can only use this effect of "Matoran Shipwright Marka" once per turn.
+	rule text: If this card is Normal Summoned: You can send 1 WATER monster from your hand to the GY; Special Summon 1 WATER "Matoran" monster from your Deck, except "Matoran Shipwright Marka". If this card is in your hand or GY (Quick Effect): You can choose 1 Main Monster Zone your WATER Link Monster points to; if there is a monster in that Zone, banish it (until the End Phase), also, after that, Special Summon this card to that Zone, but banish it when it leaves the field. You can only use each effect of "Matoran Shipwright Marka" once per turn.
 	attack: 1700
 	defense: 1500
 	gamecode: DRAFT10100414
@@ -1258,6 +1284,121 @@ card:
 	image: image57
 	rule text: This card's name becomes "Great Kanohi Avohkii" while in your hand. While this card is equipped to a monster: You can return this card to the hand; add 1 "Great Kanohi Avohkii" or 1 monster that mentions it from your Deck to your hand, and if you do, send 1 card from your hand to the GY. You can only use this effect of "Avohkii, Sealed Mask of Light" once per turn.
 	gamecode: 11100403
+card:
+	has styling: false
+	notes:
+		SS condition is based on Courage, since he's the one who explains it
+		=> in fact, that's the only lore we have to go on
+		=> could also make this a trigger effect involving battle destruction or something, but then it doesn't help with setup
+		==> what if: SS during Main Phase (or Battle Phase?) as Quick Effect, and Fusion Summon when a monster attacks?
+		
+		On field, just makes Ta-Matoran Guards during BP
+	time created: 2025-08-17 17:54:20
+	time modified: 2025-08-17 18:22:43
+	card type: effect monster
+	name: Matoran Farmer Aft
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If your opponent controls a monster with the highest ATK on the field (even if it's tied), you can Special Summon this card (from your hand). You can only Special Summon "Matoran Farmer Aft" once per turn this way. During the Battle Phase (Quick Effect): You can Fusion Summon 1 FIRE Fusion Monster, using monsters from your hand or field as material. You can only use this effect of "Matoran Farmer Aft" once per turn.
+	attack: 1700
+	defense: 200
+	gamecode: DRAFT10100411
+card:
+	has styling: false
+	notes:
+		Fuse your monsters after they attacked in order to attack some more
+		=> gets lots of attacks, let's be daring and even allow direct ones since this is meant to be the final nail in the OTK coffin
+		=> provides infinite Ta-Koro fodder (remember: remove the HOPT on that one!), but doesn't let you keep it past the Battle Phase, so better use it
+		==> of course, a Quick-Play Spell (e.g. Courage) can also be fired before it expires
+		==> however, buff stacking might actually become a problem with non-HOPT Ta-Koro and a native multi-attacker (fix the buff to original ATK + boost maybe)?
+	time created: 2025-08-17 17:54:20
+	time modified: 2025-08-17 18:26:11
+	card type: fusion monster
+	name: Brave Ta-Matoran Guards
+	attribute: fire
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 "Matoran" monster + 1+ FIRE Warrior monsters
+		During the turn this card was Fusion Summoned, it can attack a number of times each Battle Phase, up to the number of materials used for it. If this card is Fusion Summoned during the Battle Phase: You can draw cards equal to the number of monsters your opponent controls and keep them revealed, but discard those revealed cards at the end of the Battle Phase. You can only use this effect of "Brave Ta-Matoran Guards" once per turn.
+	attack: 2000
+	defense: 2000
+	gamecode: DRAFT10100412
+card:
+	has styling: false
+	notes:
+		The Normal Summon that gets us to Kantai
+		=> maybe a bit too generic?
+	time created: 2025-08-17 18:39:54
+	time modified: 2025-08-17 18:43:57
+	card type: effect monster
+	name: Matoran Trapper Toudo
+	attribute: water
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If this card is Normal Summoned or flipped face-up: You can excavate the top 3 cards of your Deck, and if you do, you can Set 1 excavated Trap, also shuffle the rest into the Deck.
+	attack: 1200
+	defense: 1800
+	gamecode: DRAFT10100423
+card:
+	has styling: false
+	notes:
+		So secluded he's a Trap Card
+		=> adds resistance to Spells/Traps to your lockdown board
+		=> can be fast-tracked as Nuju material if you're out in the drifts far from all non-WATER activities
+		==> or maybe that should be reserved for going second somehow?
+		=> might need some means of GY recovery, but maybe Toudo can handle that
+	time created: 2025-08-17 18:44:16
+	time modified: 2025-08-17 18:53:22
+	card type: trap card
+	name: Matoran Hermit Kantai
+	attribute: trap
+	level: <sym-auto>%</sym-auto>
+	image: 
+	rule text:
+		Special Summon this card as an Effect Monster (Warrior/WATER/Level 4/ATK 1000/DEF 2000) with the following effect. (This card is also still a Trap.)
+		<sym-auto>*</sym-auto>If all face-up monsters you control are WATER, negate the first Spell/Trap effect activated by your opponent each turn.
+		If you did not activate any non-WATER monster effects this turn, you can activate this card the turn it was Set. You can only activate 1 "Matoran Hermit Kantai" per turn.
+	gamecode: DRAFT10100424
+card:
+	has styling: false
+	notes: Poplars & gets Makani back
+	time created: 2025-08-17 18:39:54
+	time modified: 2025-08-17 18:58:39
+	card type: effect monster
+	name: Matoran Musician Sanso
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: 
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If this card is added to your hand, except by drawing it: You can Special Summon this card. If this card is Normal or Special Summoned: You can target 1 WIND Warrior monster in your GY or banishment, except "Matoran Musician Sanso"; add it to your hand. You can only use each effect of "Matoran Musician Sanso" once per turn.
+	attack: 1300
+	defense: 1600
+	gamecode: DRAFT10100426
 version control:
 	type: none
 apprentice code: 
