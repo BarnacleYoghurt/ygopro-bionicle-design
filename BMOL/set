@@ -1063,15 +1063,18 @@ card:
 	gamecode: 10100430
 card:
 	has styling: false
-	notes: Counterpart to Toa Seal maybe
+	notes: Lock target up, then bring it back fresh and healed to its owner's field if the required number of Toa is available (plus utility mode)
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-13 17:58:15
+	time modified: 2025-11-09 11:41:35
 	card type: spell card
 	name: Toa Healing
 	attribute: spell
 	level: <sym-auto>$</sym-auto>
 	image: image42
-	rule text: 
+	rule text:
+		Activate 1 of these effects (but you can only use each effect of "Toa Healing" once per turn);
+		<sym-auto>*</sym-auto>Set 1 "Toa" Spell/Trap from your Deck or GY.
+		<sym-auto>*</sym-auto>If you control a "Toa" monster: Target 1 face-up monster on the field; place it in its owner's Spell <sym-auto>&</sym-auto> Trap Zone as a Continuous Spell, then if you have 3 or more "Toa" Monster Cards with different names in your face-up field and/or GY, you can Special Summon 1 Monster Card from your Spell <sym-auto>&</sym-auto> Trap Zone.
 	gamecode: DRAFT10100450
 card:
 	has styling: false
@@ -1184,15 +1187,18 @@ card:
 		It's a special place ...
 		=> combo-starting field spell, if you can find your way to an Avohkii in hand
 		=> makes you plus off the many reveal effects
+		==> perhaps even better from a lore perspective: on reveal or equip, revive (because Jaller died at Kini-Nui) and make something from the ED (because that's how Takanuva) appears
+		===> unfortunately comes out to a whole lot of words for a Spell
 		==> warning: having this trigger of reveals in general may mean you'd also draw every time you search an Avohkii :/
+		===> could be only when it's the cost of a monster effect, but that stipulation adds words
 	time created: 2025-04-14 07:31:26
-	time modified: 2025-07-13 17:57:53
+	time modified: 2025-11-09 11:46:26
 	card type: spell card
 	name: Kini-Nui, Awaiting the Avohkii
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: 
-	rule text: When this card is activated: You can Set 1 "Great Kanohi Avohkii", or 1 Spell/Trap that mentions it, from your Deck or GY, but you cannot activate it this turn unless you reveal 1 "Great Kanohi Avohkii" in your hand. If you reveal "Great Kanohi Avohkii(s)" in your hand (except during the Damage Step): You can draw 1 card. You can only use each effect of "Kini-Nui, Awaiting the Avohkii" once per turn.
+	rule text: When this card is activated: You can Set 1 "Great Kanohi Avohkii", or 1 Spell/Trap that mentions it, from your Deck or GY, but you cannot activate it this turn unless you reveal 1 "Great Kanohi Avohkii" in your hand. If you reveal "Great Kanohi Avohkii(s)" in your hand to activate a monster effect, or it becomes equipped to a monster you control (except during the Damage Step): You can target 1 "Avohkii" monster in your GY; Special Summon it, then, immediately after this effect resolves, Synchro, Xyz, or Link Summon 1 monster that mentions "Great Kanohi Avohkii". You can only use each effect of "Kini-Nui, Awaiting the Avohkii" once per turn.
 	gamecode: DRAFT10100455
 card:
 	has styling: false
