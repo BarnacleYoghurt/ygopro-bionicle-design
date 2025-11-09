@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.0.2
+	edition: Version 5.1.0
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -654,32 +654,44 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Draw until you have 7 total cards in your hand and field}}
+		
 		NS Jaller => +1 (Warrior)
 		SS Takua => +2 (LIGHT Warrior)
-		Jaller + Taku -> Takanuva => +4 (Level 7 LIGHT Warrior Tuner/Avohkii-equipped(?))
+		Jaller + Takua -> Takanuva => +4 (Level 7 LIGHT Warrior ED monster)
 		=> If Jaller searched Takua and Takua equipped Avohkii, you're down to 4 cards in hand at this point, and your field is Takanuva + the Avohkii that re-equipped itself
 		=> therefore, draw 1; up to draw 5 if you used up the rest of your hand somehow, draw 6 if you choose not to equip Avohkii - maybe too easy?
 		==> could also have the draw "During the Standby Phase"
-		=> The Tuner condition is a bit random, but otherwise the math on the canon combo falls short ...
+		=> Final condition is ED monster so it works with all the Rahi party members, could also be Tuner for Takanuva hinting but either way it feels a bit odd
 		
-		Missing an Avohkii mention ...
-		=> we could have it only count monsters with Avohkii mentions so it's a bit less generic
-		==> "Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place 1 counter pm tjos card, also place 1 additional counter for each of the following that applies to at least 1 of those monsters."
-		==> Taking Warrior out of the bonus categories would then still get us the same math
-		==> speaking of "less generic", "Seventh" is a searchable archetype, might need to change the name
-		=> alternatively, it could have some Avohkii-related protection clause so it gets value even if you're not early enough to hit 7 counters
+		Meanwhile, for the initial wave:
+		NS Jaller => +1 (Warrior)
+		SS Takua => +2 (LIGHT Warrior)
+		SS Pewku => +1
+		SS backup Jaller or Graalok => +1
+		SS Ka => +1
+		=> so we end 1 short and need to stack more in opponent's turn, really might need some other effect ...
+		=> with a revive on activation, we get there even off Pewku by using Graalok to make Ka float and bringing back Pewku for an extra counter!
+		==> ironically, opening with it before you have something to revive ends up with fewer counters unless you have a spare extender, since you can't do the back half of the sequence
+		
+		Limited to Avohkii mentioners a) so it's not totally splashable (though I suspect it's too slow to be justifiable as an unsearchable card anyway) and b) so it has an Avohkii mention itself
+		=> could also cover the latter by having some additional effect so it gets value without needing to fill up everything (however, words)
+		==> Idea 1: Once per turn, if a card(s) you control, that is "Great Kanohi Avohkii" or mentions it, would be destroyed by card effect, you can remove 1 counter from this card instead.
+		==> Idea 2: When this card is activated: You can Special Summon 1 "Avohkii" monster from your hand or GY (this one makes it extra good with Pewku, but has like zero lore justification)
+		
+		Note: Searchable by Seventh Ascension, but who cares, I'm not bastardizing muh movie quote
 	time created: 2017-02-24 20:08:42
-	time modified: 2025-07-06 12:02:32
+	time modified: 2025-11-09 11:08:40
 	card type: spell card
 	name: A Seventh Star
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image37
 	rule text:
-		Each time a monster(s) is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
-		<sym-auto>*</sym-auto>Warrior<sym-auto>*</sym-auto>LIGHT<sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>Tuner
-		You can send this card with 7 or more counters to the GY; draw until you have 7 total cards in your hand and field. You can only use this effect of "A Seventh Star" once per turn.
-	gamecode: DRAFT10100407
+		When this card is activated: You can target 1 "Avohkii" monster in your GY; Special Summon it, but negate its effects. Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
+		<sym-auto>*</sym-auto>Warrior<sym-auto>*</sym-auto>LIGHT<sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>began the Duel in the Extra Deck
+		During the End Phase: You can send this card with 7 or more counters to the GY; draw until you have 7 total cards in your hand and field. You can only activate 1 "A Seventh Star" per turn.
+	gamecode: 10100407
 card:
 	has styling: false
 	notes:
@@ -834,23 +846,24 @@ card:
 card:
 	has styling: false
 	notes:
-		One approach: Quick Effect detach that revives one of the guys
-		=> but primarily it applies protection/dodging so as to enable detaching a material and then bringing it back with the optional part
-		=> also combos with Ka since it's a Quick Effect that reveals
-		Another: Spell/Trap searcher plus destruction protection
-		=> ensures we get to the backrow even in lines that need Jaller searching Takua
-		=> counters the obvious counterplay of destroying the Sealed Avohkii when you try to search with it
-		==> this is minor enough that we could probably cut it if we don't want 3 effects and all these words
-		GY effect is Pewku coming back after Ka crashes
-		=> would be even more fitting if it happens on summon of an Avohkii monster, but mucho texto
-		==> the S/T search approach DOES have room for that!
+		{{Set 1 Spell/Trap from your Deck that mentions "Great Kanohi Avohkii"}}
+		{{Special Summon this card}}
+		{{Affected by "Pewku, Avohkii-Bearing Rahi": Cannot Special Summon from the Extra Deck, except monsters that mention "Great Kanohi Avohkii"}}
+		
+		The generic Rank 4 that gets us into Avohkii stuff
+		=> at least it will once Rejoining drops, for now it's just an extra backrow searcher so we can feel good about starting with Jaller
+		=> still has a lock attached for future-proofing
+		==> also there to make you go into Ka instead of Fiendsmithery, follow the lore dangit
+		=> GY effect is Pewku coming back after Ka crashes, complete with "sitting on top of" Takua :^)
+		
+		Optionally could also have a "detach 1 to protect" effect, but we don't really have space and there's, like, at least 2 Rank 4s that already do that
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-07-20 20:26:36
+	time modified: 2025-11-09 11:15:16
 	card type: xyz monster
 	name: Pewku, Avohkii-Bearing Rahi
 	attribute: earth
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image54
+	image: image59
 	type 1: <word-list-ENrace>Beast</word-list-ENrace>
 	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -859,23 +872,32 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 Level 4 monsters
-		You can detach 1 material from this card; Set 1 Spell/Trap from your Deck that mentions "Great Kanohi Avohkii", except an Equip Spell. If a card(s) you control would be destroyed by a card effect, you can detach 1 material from this card instead. If a Level 4 "Avohkii" monster(s) is Special Summoned to your field, while this card is in the GY (except during the Damage Step): You can target 1 of them; Special Summon this card, and if you do, attach that monster to it as material. You can only use each effect of "Pewku, Avohkii-Bearing Rahi" once per turn.
+		You can detach 1 material from this card; Set 1 Spell/Trap from your Deck that mentions "Great Kanohi Avohkii", except an Equip Spell, also you cannot Special Summon from the Extra Deck for the rest of this turn, except monsters that mention "Great Kanohi Avohkii". If a Level 4 "Avohkii" monster(s) is Special Summoned to your field, while this card is in the GY (except during the Damage Step): You can target 1 of them; Special Summon this card, and if you do, attach that monster to it as material. You can only use each effect of "Pewku, Avohkii-Bearing Rahi" once per turn.
 	attack: 1500
 	defense: 2500
-	gamecode: DRAFT10100405
+	gamecode: 10100405
 card:
 	has styling: false
 	notes:
-		Yeah this is probably too many effects
-		=> maybe do away with the draw and have the destruction trigger alternatively work with something Rahi do?
-		=> note on the reveal trigger: we probably need the "to activate ..." stipulation, otherwise it arguably has to trigger off the reveal after searching
+		{{Draw 1 card}}
+		{{Destroy up to 2 cards on the field, including a card you control}}
+		{{Special Summon 2 Level 4 "Avohkii" monsters from your GY}}
+		
+		The one you make with Pewku + leftover
+		=> on SS draw for going first, destroy for going second
+		==>secondary trigger so you can potentially do both by keeping it around
+		==> no conclusive ruling on whether or not the secondary trigger works in the damage step, but Edo implementations of Shuraig & co seem pretty explicit that it does
+		=> Big floating effect if it blows up (the crash)
+		==> floating into 2 justified by requiring Link Summon
+		==> however we can self-trigger this turn 1 with Graalok, so it might be a bit much advantage after all, let's see what testing says
+		=> at some point we had a on-reveal trigger in here, but it's unclear whether or not that would trigger off searches (is the card already in your hand when you reveal it?), and space is limited anyway
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-07-20 20:28:26
+	time modified: 2025-11-09 11:31:36
 	card type: link monster
 	name: Ka, Avohkii-Bearing Rahi
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image17
+	image: image60
 	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
 	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
@@ -884,13 +906,15 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 Effect Monsters with different Attributes
-		If this card is Special Summoned: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand; draw 1 card. If you reveal "Great Kanohi Avohkii(s)" in your hand to activate a card or effect (except during the Damage Step): You can target 2 cards on the field, including a card you control; destroy them. If this card is destroyed by battle or card effect: You can Special Summon up to 2 Level 4 "Avohkii" monsters with different names from your GY in Defense Position. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
+		If this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand, then activate 1 of these effects;
+		<sym-auto>*</sym-auto> Draw 1 card. <sym-auto>*</sym-auto> Destroy up to 2 cards on the field, including a card you control.
+		If this Link Summoned card is destroyed by battle or card effect: You can target up to 2 Level 4 "Avohkii" monsters with different names in your GY; Special Summon them. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
 	Link Marker DL: yes
 	Link Marker DR: yes
 	attack: 1900
 	defense: 1200
 	link number: 2
-	gamecode: DRAFT10100406
+	gamecode: 10100406
 card:
 	has styling: false
 	notes:
@@ -977,16 +1001,30 @@ card:
 	gamecode: 10100403
 card:
 	has styling: false
-	notes: Or something like that, basically a disruptive Spell/Trap payoff for Avohkii combos
+	notes:
+		{{Reveal "Great Kanohi Avohkii"?}}
+		{{Shuffle into the Deck}}
+		
+		Disruptive Spell/Trap payoff for Avohkii combos
+		=> since it's very on-theme for this to work by just having an Avohkii in hand, it doesn't require on-field setup, so the basic effect has to be a bit toned down (compared to, say, RR Glorious Bright)
+		==> base version: target is stunned by the light
+		==> plus version: fricken lasers (showing Avohkii = shaking Avohkii)
+		==> combination makes it so you can S E N D without worrying about direct floating
+		
+		Utility GY effect to give us a recycling option
+		=> also dodges GY removal thanks to being a trap
+		
+		Not really a movie quote, but kind of the title in reverse
+		=> most fitting direct quote would be "Trust in the Mask", though that sounds more like it would do something protective
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-01 20:36:14
+	time modified: 2025-11-09 11:07:36
 	card type: trap card
-	name: Light of the Avohkii
+	name: Light of the Mask
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image44
-	rule text: (When you activate this card, you can also reveal 1 "Avohkii" Equip Spell in your hand.) Target 1 "Avohkii" card you control and 1 face-up card your opponent controls; destroy them, then, if you revealed an "Avohkii" Equip Spell in your hand at activation, destroy 1 card your opponent controls. You can banish this card from your GY; Special Summon 1 monster that mentions "Great Kanohi Avohikii" from your hand or GY. You can only  use each effect of "Light of the Avohkii" once per turn.
-	gamecode: DRAFT10100404
+	rule text: Target 1 face-up card your opponent controls; for the rest of this turn, your opponent cannot activate cards, or the effects of cards, with the same original name as that target, also you can reveal 1 "Great Kanohi Avohkii" in your hand, and if you do, send that opponent's card to the GY. If this card is in your GY: You can target 1 "Avohkii" card in your GY; shuffle both it and this card into the Deck. You can only use each effect of "Light of the Mask" once per turn.
+	gamecode: 10100404
 card:
 	has styling: false
 	notes:
@@ -1005,16 +1043,24 @@ card:
 	gamecode: DRAFT10100428
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Discard 1 WATER monster to Special Summon}}
+		{{Reveal "Great Kanohi Avohkii" to Special Summon}}
+		{{Do not Special Summon}}
+		
+		Kind of a generic card based on a "cool" scene and line
+		=> the temp mass banish that was once considered for Kopaka Nuva
+		=> but since it's generic, limited by needing to target 1 of your own monsters
+		==> either target the one you're trying to protect and banish the bigger threats, or target the one doing the freezing and banish the smaller victims
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-01 20:41:23
+	time modified: 2025-11-09 11:09:44
 	card type: trap card
 	name: Washed and Chilled
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image47
-	rule text: Banish all monsters on the field (until the End Phase), then you can discard 1 WATER monster or reveal 1 "Great Kanohi Avohkii" in your hand, and if you do, Special Summon 1 of your banished monsters. You can only activate 1 "Washed and Chilled" per turn.
-	gamecode: DRAFT10100430
+	rule text: Target 1 face-up monster you control; banish (until the End Phase) either all monsters on the field with an equal or higher ATK or all monsters on the field with an equal or lower ATK than that monster, then you can discard 1 WATER monster or reveal 1 "Great Kanohi Avohkii" in your hand, and if you do, Special Summon 1 of your banished monsters. You can only activate 1 "Washed and Chilled" per turn.
+	gamecode: 10100430
 card:
 	has styling: false
 	notes: Counterpart to Toa Seal maybe
@@ -1106,12 +1152,17 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon by revealing "Great Kanohi Avohkii"}}
+		{{Special Summon by Tributing 1 Beast or Winged Beast "Rahi" Pendulum Monster}}
+		{{Return this card to the hand}}
+		
 		Additional Avohkii Main Deck search target that actually likes getting sent to the GY
 		=> Rahi synergy?
 		==> maybe with a slightly more expensive cost
 		=> letting it work from hand as well provides a turn 0 play, but is that something we'd like to have in this form?
+		==> actually might even want to remove the Beast/Winged Beast stipulation, just so it's more fair which Rahi get a turn 0 card
 	time created: 2024-12-02 18:09:15
-	time modified: 2025-07-22 20:00:21
+	time modified: 2025-11-09 11:26:08
 	card type: effect monster
 	name: Graalok, Ash Bear Rahi
 	attribute: wind
@@ -1123,10 +1174,10 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: During the Main Phase, if this card is in your hand or GY (Quick Effect): You can either Tribute 1 Beast or Winged Beast "Rahi" Pendulum Monster from your hand or field, or reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field in Attack Position. You can only use this effect of "Graalok, Ash Bear Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
+	rule text: During the Main Phase, if this card is in your hand or GY (Quick Effect): You can either Tribute 1 Beast or Winged Beast "Rahi" Pendulum Monster from your hand or field, or reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field in Attack Position, but if you Special Summoned it from your GY, place it on the bottom of the Deck when it leaves the field. You can only use this effect of "Graalok, Ash Bear Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
 	attack: 2800
 	defense: 1600
-	gamecode: DRAFT10100429
+	gamecode: 10100429
 card:
 	has styling: false
 	notes:
@@ -1204,7 +1255,6 @@ card:
 		==> so let's summon Ga-Matoran directly from the Deck, with a WATER monster discard cost so it's unsuitable for use in Ko-Koro
 		==> of course, we might be hitting a point where there are too many WATER discard costs, but we'll see
 		==> could be daring and make the targets all WATER Warriors (below X threshold?), but that includes some scary ones like Reinoheart ...
-
 	time created: 2025-07-19 19:55:02
 	time modified: 2025-08-17 18:34:59
 	card type: effect monster
@@ -1399,6 +1449,55 @@ card:
 	attack: 1300
 	defense: 1600
 	gamecode: DRAFT10100426
+card:
+	has styling: false
+	notes: [[Alias:10100405]]
+	time created: 2022-12-01 20:16:06
+	time modified: 2025-11-09 11:10:34
+	card type: xyz monster
+	name: Pewku, Avohkii-Bearing Rahi
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image8
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Xyz</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 Level 4 monsters
+		You can detach 1 material from this card; Set 1 Spell/Trap from your Deck that mentions "Great Kanohi Avohkii", except an Equip Spell, also you cannot Special Summon from the Extra Deck for the rest of this turn, except monsters that mention "Great Kanohi Avohkii". If a Level 4 "Avohkii" monster(s) is Special Summoned to your field, while this card is in the GY (except during the Damage Step): You can target 1 of them; Special Summon this card, and if you do, attach that monster to it as material. You can only use each effect of "Pewku, Avohkii-Bearing Rahi" once per turn.
+	attack: 1500
+	defense: 2500
+	gamecode: 11100405
+card:
+	has styling: false
+	notes: [[Alias:10100406]]
+	time created: 2022-12-01 20:16:06
+	time modified: 2025-11-09 11:10:51
+	card type: link monster
+	name: Ka, Avohkii-Bearing Rahi
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image55
+	type 1: <word-list-ENrace>Winged Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Link</word-list-ENeffect>
+	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		2 Effect Monsters with different Attributes
+		If this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand; activate 1 of these effects. 
+		<sym-auto>*</sym-auto> Draw 1 card. <sym-auto>*</sym-auto> Destroy up to 2 cards on the field, including a card you control.
+		If this Link Summoned card is destroyed by battle or card effect: You can target up to 2 Level 4 "Avohkii" monsters with different names in your GY; Special Summon them. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
+	Link Marker DL: yes
+	Link Marker DR: yes
+	attack: 1900
+	defense: 1200
+	link number: 2
+	gamecode: 11100406
 version control:
 	type: none
 apprentice code: 
