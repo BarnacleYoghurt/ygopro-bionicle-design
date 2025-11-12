@@ -655,6 +655,7 @@ card:
 	has styling: false
 	notes:
 		{{Draw until you have 7 total cards in your hand and field}}
+		{{Special Summon 1 "Avohkii" monster from your GY?}}
 		
 		NS Jaller => +1 (Warrior)
 		SS Takua => +2 (LIGHT Warrior)
@@ -681,7 +682,7 @@ card:
 		
 		Note: Searchable by Seventh Ascension, but who cares, I'm not bastardizing muh movie quote
 	time created: 2017-02-24 20:08:42
-	time modified: 2025-11-09 11:08:40
+	time modified: 2025-11-12 19:36:38
 	card type: spell card
 	name: A Seventh Star
 	attribute: spell
@@ -689,7 +690,7 @@ card:
 	image: image37
 	rule text:
 		When this card is activated: You can target 1 "Avohkii" monster in your GY; Special Summon it, but negate its effects. Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
-		<sym-auto>*</sym-auto>Warrior<sym-auto>*</sym-auto>LIGHT<sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>began the Duel in the Extra Deck
+		<sym-auto>*</sym-auto>Warrior <sym-auto>*</sym-auto>LIGHT <sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>began the Duel in the Extra Deck
 		During the End Phase: You can send this card with 7 or more counters to the GY; draw until you have 7 total cards in your hand and field. You can only activate 1 "A Seventh Star" per turn.
 	gamecode: 10100407
 card:
@@ -879,9 +880,10 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Activate 1 of these effects}}
+		{{Special Summon 2 Level 4 "Avohkii" monsters from your GY}}
 		{{Draw 1 card}}
 		{{Destroy up to 2 cards on the field, including a card you control}}
-		{{Special Summon 2 Level 4 "Avohkii" monsters from your GY}}
 		
 		The one you make with Pewku + leftover
 		=> on SS draw for going first, destroy for going second
@@ -1481,7 +1483,7 @@ card:
 	has styling: false
 	notes: [[Alias:10100406]]
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-11-09 11:10:51
+	time modified: 2025-11-13 00:16:59
 	card type: link monster
 	name: Ka, Avohkii-Bearing Rahi
 	attribute: wind
@@ -1495,7 +1497,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 Effect Monsters with different Attributes
-		If this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand; activate 1 of these effects. 
+		If this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand, then activate 1 of these effects;
 		<sym-auto>*</sym-auto> Draw 1 card. <sym-auto>*</sym-auto> Destroy up to 2 cards on the field, including a card you control.
 		If this Link Summoned card is destroyed by battle or card effect: You can target up to 2 Level 4 "Avohkii" monsters with different names in your GY; Special Summon them. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
 	Link Marker DL: yes
