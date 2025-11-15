@@ -1004,8 +1004,9 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Reveal "Great Kanohi Avohkii"?}}
 		{{Shuffle into the Deck}}
+		{{Reveal "Great Kanohi Avohkii"?}}
+		{{Affected by "Light of the Mask": Cannot activate cards or effects with the same name as the targeted card}}
 		
 		Disruptive Spell/Trap payoff for Avohkii combos
 		=> since it's very on-theme for this to work by just having an Avohkii in hand, it doesn't require on-field setup, so the basic effect has to be a bit toned down (compared to, say, RR Glorious Bright)
@@ -1046,6 +1047,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Banish monsters with equal or higher ATK}}
+		{{Banish monsters with equal or lower ATK}}
 		{{Discard 1 WATER monster to Special Summon}}
 		{{Reveal "Great Kanohi Avohkii" to Special Summon}}
 		{{Do not Special Summon}}
