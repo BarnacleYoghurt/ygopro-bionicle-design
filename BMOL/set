@@ -881,20 +881,21 @@ card:
 	has styling: false
 	notes:
 		{{Activate 1 of these effects}}
-		{{Special Summon 2 Level 4 "Avohkii" monsters from your GY}}
+		{{Special Summon up to 2 Level 4 "Avohkii" monsters from your GY}}
 		{{Draw 1 card}}
 		{{Destroy up to 2 cards on the field, including a card you control}}
 		
 		The one you make with Pewku + leftover
 		=> on SS draw for going first, destroy for going second
 		==>secondary trigger so you can potentially do both by keeping it around
-		==> no conclusive ruling on whether or not the secondary trigger works in the damage step, but Edo implementations of Shuraig & co seem pretty explicit that it does
+		===> no conclusive ruling on whether or not the secondary trigger works in the damage step, but Edo implementations of Shuraig & co seem pretty explicit that it does
+		===> 5.1.1: Nevermind the second trigger, the versatility from both effects is enough, we have a nice I:P line to set it up turn 1 (and maybe Kini-Nui), and in a Rahi deck the native revival can be used to re-trigger it too
 		=> Big floating effect if it blows up (the crash)
 		==> floating into 2 justified by requiring Link Summon
 		==> however we can self-trigger this turn 1 with Graalok, so it might be a bit much advantage after all, let's see what testing says
 		=> at some point we had a on-reveal trigger in here, but it's unclear whether or not that would trigger off searches (is the card already in your hand when you reveal it?), and space is limited anyway
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-11-09 11:31:36
+	time modified: 2025-11-19 20:22:49
 	card type: link monster
 	name: Ka, Avohkii-Bearing Rahi
 	attribute: wind
@@ -907,8 +908,8 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		2 Effect Monsters with different Attributes
-		If this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand, then activate 1 of these effects;
+		2 monsters with different Attributes
+		If this card is Special Summoned: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand, then activate 1 of these effects;
 		<sym-auto>*</sym-auto> Draw 1 card. <sym-auto>*</sym-auto> Destroy up to 2 cards on the field, including a card you control.
 		If this Link Summoned card is destroyed by battle or card effect: You can target up to 2 Level 4 "Avohkii" monsters with different names in your GY; Special Summon them. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
 	Link Marker DL: yes
