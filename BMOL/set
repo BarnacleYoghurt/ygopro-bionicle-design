@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.1.0
+	edition: Version 5.1.1
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -1494,7 +1494,7 @@ card:
 	has styling: false
 	notes: [[Alias:10100406]]
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-11-13 00:16:59
+	time modified: 2025-11-19 20:45:56
 	card type: link monster
 	name: Ka, Avohkii-Bearing Rahi
 	attribute: wind
@@ -1507,8 +1507,8 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Winged Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		2 Effect Monsters with different Attributes
-		If this card is Special Summoned, or a monster(s) is Special Summoned to your opponent's field: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand, then activate 1 of these effects;
+		2 monsters with different Attributes
+		If this card is Special Summoned: You can reveal 1 "Great Kanohi Avohkii" or 1 Beast or Winged Beast "Rahi" monster in your hand, then activate 1 of these effects;
 		<sym-auto>*</sym-auto> Draw 1 card. <sym-auto>*</sym-auto> Destroy up to 2 cards on the field, including a card you control.
 		If this Link Summoned card is destroyed by battle or card effect: You can target up to 2 Level 4 "Avohkii" monsters with different names in your GY; Special Summon them. You can only use each effect of "Ka, Avohkii-Bearing Rahi" once per turn.
 	Link Marker DL: yes
