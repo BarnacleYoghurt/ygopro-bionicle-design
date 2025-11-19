@@ -655,7 +655,7 @@ card:
 	has styling: false
 	notes:
 		{{Draw until you have 7 total cards in your hand and field}}
-		{{Special Summon 1 "Avohkii" monster from your GY?}}
+		{{Add 1 "Avohkii" card from your GY or banishment to your hand?}}
 		
 		NS Jaller => +1 (Warrior)
 		SS Takua => +2 (LIGHT Warrior)
@@ -679,17 +679,18 @@ card:
 		=> could also cover the latter by having some additional effect so it gets value without needing to fill up everything (however, words)
 		==> Idea 1: Once per turn, if a card(s) you control, that is "Great Kanohi Avohkii" or mentions it, would be destroyed by card effect, you can remove 1 counter from this card instead.
 		==> Idea 2: When this card is activated: You can Special Summon 1 "Avohkii" monster from your hand or GY (this one makes it extra good with Pewku, but has like zero lore justification)
+		===> 5.1.1: Refinement - just add back to hand (with a broader target pool), typically we have a spare summon that gets put to use this way
 		
 		Note: Searchable by Seventh Ascension, but who cares, I'm not bastardizing muh movie quote
 	time created: 2017-02-24 20:08:42
-	time modified: 2025-11-12 19:36:38
+	time modified: 2025-11-19 20:31:19
 	card type: spell card
 	name: A Seventh Star
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image37
 	rule text:
-		When this card is activated: You can target 1 "Avohkii" monster in your GY; Special Summon it, but negate its effects. Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
+		When this card is activated: You can target 1 "Avohkii" card in your GY or banishment; add it to your hand. Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
 		<sym-auto>*</sym-auto>Warrior <sym-auto>*</sym-auto>LIGHT <sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>began the Duel in the Extra Deck
 		During the End Phase: You can send this card with 7 or more counters to the GY; draw until you have 7 total cards in your hand and field. You can only activate 1 "A Seventh Star" per turn.
 	gamecode: 10100407
@@ -1247,15 +1248,21 @@ card:
 		A Normal Spell that gets you into the monsters, for use with Kini-Nui and Pewku
 		=> the SS if you already have a Level 4 is to represent the "Rejoining" scene, but may synergize too well with Jaller specifically
 		==> reconsidered: this should not be a generic add from deck because that leaves hardly any way to prevent R4->Pewku->Takua->Avohkii lines in arbitrary decks (that can even be done if the NS has been used!); instead, it only adds back (REjoining), with the search as a bonus for using it as an extender
+		==> re-reconsidered: adding spent cards back is already covered by ASS, so instead this is a cleverly conditioned SS from hand/GY/sometimes Deck - working as a starter with Pewku is fine and intended, the cutie locks us anyway
+		===> certainly still arguable if the SS from Deck when fully resolving is fair to have
 		=> likewise, adding itself back so you can rebuild your board is here for "could have, but didn't" (and so there's an Avohkii mention)
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-24 00:19:24
+	time modified: 2025-11-19 20:39:39
 	card type: spell card
 	name: Avohkii Rejoining
 	attribute: spell
 	level: <sym-auto>^</sym-auto>
 	image: image43
-	rule text: Add 1 "Avohkii" monster from your GY or banishment to your hand, with a different name from the cards you control, or if you control a Level 4 "Avohkii" monster, you can add it from your Deck instead. If an "Avohkii" monster you control leaves the field because of your opponent's card, while this card is in your GY: You can reveal 1 "Great Kanohi Avohkii" in your hand; add this card to your hand. You can only use each effect of of "Avohkii Rejoining" once per turn.
+	rule text:
+		Apply any of these effects, in sequence.
+		<sym-auto>*</sym-auto>If you control an "Avohkii" monster: Add 1 "Avohkii" monster from your Deck to your hand.
+		<sym-auto>*</sym-auto>Special Summon 1 "Avohkii" monster from your hand or GY, with a different name from the cards you control.
+		If an "Avohkii" monster you control leaves the field because of your opponent's card, while this card is in your GY: You can reveal 1 "Great Kanohi Avohkii" in your hand; add this card to your hand. You can only use each effect of of "Avohkii Rejoining" once per turn.
 	gamecode: DRAFT10100451
 card:
 	has styling: false
