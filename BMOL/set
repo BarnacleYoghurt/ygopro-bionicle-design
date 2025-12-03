@@ -664,6 +664,7 @@ card:
 		=> therefore, draw 1; up to draw 5 if you used up the rest of your hand somehow, draw 6 if you choose not to equip Avohkii - maybe too easy?
 		==> could also have the draw "During the Standby Phase"
 		=> Final condition is ED monster so it works with all the Rahi party members, could also be Tuner for Takanuva hinting but either way it feels a bit odd
+		==> 5.1.2 tweak: identify ED via "cannot be NS/Set" since the "began" is a TCG invention on a card that doesn't technically need it, and doesn't have a function to cleanly check for it
 		
 		Meanwhile, for the initial wave:
 		NS Jaller => +1 (Warrior)
@@ -683,15 +684,15 @@ card:
 		
 		Note: Searchable by Seventh Ascension, but who cares, I'm not bastardizing muh movie quote
 	time created: 2017-02-24 20:08:42
-	time modified: 2025-11-19 20:31:19
+	time modified: 2025-12-03 20:30:28
 	card type: spell card
 	name: A Seventh Star
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image37
 	rule text:
-		When this card is activated: You can target 1 "Avohkii" card in your GY or banishment; add it to your hand. Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned to your field, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
-		<sym-auto>*</sym-auto>Warrior <sym-auto>*</sym-auto>LIGHT <sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>began the Duel in the Extra Deck
+		When this card is activated: You can target 1 "Avohkii" card in your GY or banishment; add it to your hand. Each time a monster(s) that mentions "Great Kanohi Avohkii" is Normal or Special Summoned, place counters on this card equal to how many of the following apply to at least 1 of those monsters.
+		<sym-auto>*</sym-auto>Warrior <sym-auto>*</sym-auto>LIGHT <sym-auto>*</sym-auto>Level 7 or higher <sym-auto>*</sym-auto>cannot be Normal Summoned/Set
 		During the End Phase: You can send this card with 7 or more counters to the GY; draw until you have 7 total cards in your hand and field. You can only activate 1 "A Seventh Star" per turn.
 	gamecode: 10100407
 card:
