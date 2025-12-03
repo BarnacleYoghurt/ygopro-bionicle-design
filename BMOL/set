@@ -434,7 +434,7 @@ card:
 	has styling: false
 	notes: [[Alias:10100401]]
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-30 07:56:56
+	time modified: 2025-12-03 20:22:43
 	card type: effect monster
 	name: Matoran Jaller, Avohkii Herald
 	attribute: fire
@@ -445,7 +445,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	rule text: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
+	rule text: You can Special Summon this card (from your hand) by revealing "Great Kanohi Avohkii" in your hand. You can only Special Summon "Matoran Jaller, Avohkii Herald" once per turn this way. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use this effect of "Matoran Jaller, Avohkii Herald" once per turn.
 	attack: 1800
 	defense: 1200
 	gamecode: 11100401
@@ -1198,14 +1198,17 @@ card:
 		===> unfortunately comes out to a whole lot of words for a Spell
 		==> warning: having this trigger of reveals in general may mean you'd also draw every time you search an Avohkii :/
 		===> could be only when it's the cost of a monster effect, but that stipulation adds words
+		===> it's actually insane how nobody has a source for how the verification on add works exactly, but whatever, wiki says you reveal *before* adding, we'll take it
+		===> now the next problem is that in scripting, adding a card likely does trigger EVENT_CONFIRM :^)
+		===> but eh, it's not like anything actually adds the Avohkii from the Deck, so ...
 	time created: 2025-04-14 07:31:26
-	time modified: 2025-11-09 11:46:26
+	time modified: 2025-12-03 20:19:58
 	card type: spell card
 	name: Kini-Nui, Awaiting the Avohkii
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: 
-	rule text: When this card is activated: You can Set 1 "Great Kanohi Avohkii", or 1 Spell/Trap that mentions it, from your Deck or GY, but you cannot activate it this turn unless you reveal 1 "Great Kanohi Avohkii" in your hand. If you reveal "Great Kanohi Avohkii(s)" in your hand to activate a monster effect, or it becomes equipped to a monster you control (except during the Damage Step): You can target 1 "Avohkii" monster in your GY; Special Summon it, then, immediately after this effect resolves, Synchro, Xyz, or Link Summon 1 monster that mentions "Great Kanohi Avohkii". You can only use each effect of "Kini-Nui, Awaiting the Avohkii" once per turn.
+	rule text: When this card is activated: You can Set 1 "Great Kanohi Avohkii", or 1 Spell/Trap that mentions it, from your Deck or GY, but you cannot activate it this turn unless you reveal 1 "Great Kanohi Avohkii" in your hand. If you reveal "Great Kanohi Avohkii(s)" in your hand, or it becomes equipped to a monster you control (except during the Damage Step): You send this card to the GY, then target 1 "Avohkii" monster in your GY; Special Summon it, then, immediately after this effect resolves, Synchro, Xyz, or Link Summon 1 monster that mentions "Great Kanohi Avohkii". You can only use each effect of "Kini-Nui, Awaiting the Avohkii" once per turn.
 	gamecode: DRAFT10100455
 card:
 	has styling: false
@@ -1294,7 +1297,6 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Special Summon this card}}
 		{{Add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand}}
 		
 		Avohkii concept:
@@ -1306,7 +1308,7 @@ card:
 		Jaller is the general searcher for everything EXCEPT Equip Spells - he's in charge of the quest, but not the one who finds the actual mask
 		=> simple SS from hand by revealing Avohkii (but only in Defense because he's fairly big)
 	time created: 2016-02-25 09:33:30
-	time modified: 2025-07-30 07:56:16
+	time modified: 2025-12-03 19:37:32
 	card type: effect monster
 	name: Matoran Jaller, Avohkii Herald
 	attribute: fire
@@ -1317,7 +1319,7 @@ card:
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
-	rule text: You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use each effect of "Matoran Jaller, Avohkii Herald" once per turn.
+	rule text: You can Special Summon this card (from your hand) by revealing "Great Kanohi Avohkii" in your hand. You can only Special Summon "Matoran Jaller, Avohkii Herald" once per turn this way. If this card is Normal or Special Summoned: You can add 1 card that mentions "Great Kanohi Avohkii" from your Deck to your hand, except "Matoran Jaller, Avohkii Herald" or an Equip Spell. You can only use this effect of "Matoran Jaller, Avohkii Herald" once per turn.
 	attack: 1800
 	defense: 1200
 	gamecode: 10100401
