@@ -1185,12 +1185,12 @@ card:
 		=> ATK 2600: In gameplay, lets us get over the 2500 threshold; in lore, lines up with Lewa Nuva
 		=> DEF 1800: when Jaller jumps it from behind it survives to get snared and pulled back up (to your hand/deck)
 	time created: 2024-12-02 18:09:15
-	time modified: 2025-12-06 19:07:34
+	time modified: 2025-12-06 20:25:30
 	card type: effect monster
 	name: Graalok, Ash Bear Rahi
 	attribute: wind
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image3
+	image: image54
 	type 1: <word-list-ENrace>Beast</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -1532,6 +1532,26 @@ card:
 	defense: 1200
 	link number: 2
 	gamecode: 11100406
+card:
+	has styling: false
+	notes: [[Alias:10100429]]
+	time created: 2024-12-02 18:09:15
+	time modified: 2025-12-06 20:23:44
+	card type: effect monster
+	name: Graalok, Ash Bear Rahi
+	attribute: wind
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image17
+	type 1: <word-list-ENrace>Beast</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: During the Main Phase, if this card is in your hand or GY (Quick Effect): You can either Tribute 1 Beast or Winged Beast "Rahi" Pendulum Monster from your hand or field, or reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field, but if you Special Summoned it from your GY, place it on the bottom of the Deck when it leaves the field. You can only use this effect of "Graalok, Ash Bear Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
+	attack: 2600
+	defense: 1800
+	gamecode: 11100429
 version control:
 	type: none
 apprentice code: 
