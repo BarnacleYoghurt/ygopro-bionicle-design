@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.1.1
+	edition: Version 5.1.2
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -702,10 +702,13 @@ card:
 		=> since we're modulating the Level this could have any number of stars >7, but 11 also allows making it with the Avohkii squad the normal way (but do we want that?)
 		
 		Changes the location (banishing everything on the field) and sets up the final showdown (SS 1 from GY each)
+		=> making SS HOPT instead of the effect (because the SS condition is removal) means you can chain this multiple times, which may be confusing to resolve - so soft OPT/OPC?
 		
 		Does this also need an Avohkii mention?
+		=> yes because Pewku lock
+		=> maybe just have the Avohkii dodge the banish so it can float back?
 	time created: 2017-02-25 23:19:12
-	time modified: 2025-08-17 20:32:43
+	time modified: 2025-12-06 18:58:58
 	card type: synchro monster
 	name: Toa Takanuva & Ussanui
 	attribute: light
@@ -718,9 +721,9 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Synchro</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Tuner</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep>]<soft></soft></sep>
 	rule text:
 		"Takanuva, Toa of Light" + 1+ non-Tuner monsters
-		For this card's Synchro Summon, you can use 1 DARK monster your opponent controls as material, as if you controlled it. When you do, treat it as a Level 4 non-Tuner. If this card is Special Summoned: You can banish all cards on the field, then each player can Special Summon 1 monster from their GY. You can only Special Summon "Toa Takanuva <sym-auto>&</sym-auto> Ussanui(s)" once per turn.
-	attack: 2600
-	defense: 2600
+		For this card's Synchro Summon, you can use 1 DARK monster your opponent controls as material, as if you controlled it. When you do, treat it as a Level 4 non-Tuner. When your opponent activates a card or effect (Quick Effect): You can banish all cards on the field, except "Great Kanohi Avohkii", then each player can Special Summon 1 monster from their GY. You can only Special Summon "Toa Takanuva <sym-auto>&</sym-auto> Ussanui(s)" once per turn.
+	attack: 3100
+	defense: 2100
 	gamecode: DRAFT10100459
 card:
 	has styling: false
@@ -731,8 +734,10 @@ card:
 		=> If this card is in your GY: You can Special Summon this card to your Main Monster Zone adjacent to 2 Warrior monsters with different Attributes.
 		==> Hahli and Jaller, but also works with Jaller and Takua
 		==> should probably be once per Duel, and for space reasons make the main effect a soft once per turn in that case
+		
+		Protagonist stats!
 	time created: 2017-02-25 23:19:12
-	time modified: 2025-08-17 20:34:31
+	time modified: 2025-12-06 18:59:31
 	card type: synchro monster
 	name: Takanuva, Toa of Light
 	attribute: light
@@ -746,11 +751,9 @@ card:
 	edition: 1st Edition
 	rule text:
 		1 LIGHT Tuner + 1+ non-Tuner monsters
-		For this card's Synchro Summon, you can treat 1 monster equipped with "Great Kanohi Avohkii" as a Level 3 Tuner. During the turn this card was Special Summoned (Quick Effect): You can activate 1 of these effects;
-		<sym-auto>*</sym-auto>Banish all Set cards your opponent controls. <sym-auto>*</sym-auto>Banish 1 DARK monster your opponent controls.
-		You can only use this effect of "Takanuva, Toa of Light" once per turn.
-	attack: 2300
-	defense: 1600
+		For this card's Synchro Summon, you can treat 1 monster equipped with "Great Kanohi Avohkii" as a Level 3 Tuner. Once per turn, during the turn this card was Special Summoned (Quick Effect): You can banish 1 DARK monster and/or 1 Set card your opponent controls. You can reveal 1 "Great Kanohi Avohkii" in your hand; Special Summon this card from your GY to your Main Monster Zone adjacent to 2 Warrior monsters with different Attributes you control. You can only use this effect of "Takanuva, Toa of Light" once per Duel.
+	attack: 2500
+	defense: 1500
 	gamecode: DRAFT10100458
 card:
 	has styling: false
@@ -1177,8 +1180,12 @@ card:
 		==> maybe with a slightly more expensive cost
 		=> letting it work from hand as well provides a turn 0 play, but is that something we'd like to have in this form?
 		==> actually might even want to remove the Beast/Winged Beast stipulation, just so it's more fair which Rahi get a turn 0 card
+		
+		Coincidentally Baboon stats (I guess it protects the forest), but these values matter!
+		=> ATK 2600: In gameplay, lets us get over the 2500 threshold; in lore, lines up with Lewa Nuva
+		=> DEF 1800: when Jaller jumps it from behind it survives to get snared and pulled back up (to your hand/deck)
 	time created: 2024-12-02 18:09:15
-	time modified: 2025-11-09 11:26:08
+	time modified: 2025-12-06 19:07:34
 	card type: effect monster
 	name: Graalok, Ash Bear Rahi
 	attribute: wind
@@ -1190,9 +1197,9 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Beast</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: During the Main Phase, if this card is in your hand or GY (Quick Effect): You can either Tribute 1 Beast or Winged Beast "Rahi" Pendulum Monster from your hand or field, or reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field in Attack Position, but if you Special Summoned it from your GY, place it on the bottom of the Deck when it leaves the field. You can only use this effect of "Graalok, Ash Bear Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
-	attack: 2800
-	defense: 1600
+	rule text: During the Main Phase, if this card is in your hand or GY (Quick Effect): You can either Tribute 1 Beast or Winged Beast "Rahi" Pendulum Monster from your hand or field, or reveal 1 "Great Kanohi Avohkii" in your hand, then target 1 face-up card on the field; destroy it, and if you do, Special Summon this card to its controller's field, but if you Special Summoned it from your GY, place it on the bottom of the Deck when it leaves the field. You can only use this effect of "Graalok, Ash Bear Rahi" once per turn. At the end of the Damage Step, if this card battled: Return it to the hand.
+	attack: 2600
+	defense: 1800
 	gamecode: 10100429
 card:
 	has styling: false
