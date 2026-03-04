@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.1.2
+	edition: Version 5.2.0
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -81,7 +81,7 @@ card:
 		Original:
 		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. Once per turn, when your opponent's monster attacks a "Kraata" monster you control: You gain LP equal to the attacking monster's ATK."
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-19 19:05:49
+	time modified: 2026-03-04 19:06:42
 	card type: effect monster
 	name: Starving Kraata Vo
 	attribute: dark
@@ -91,7 +91,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY, and if you do, increase the Level of all "Kraata" monsters you control by 1. You can only use this effect of "Starving Kraata Vo" once per turn. Cannot be destroyed by battle. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x 600: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
+	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY, then you can Special Summon 1 "Kraata" monster from your hand or GY, except "Starving Kraata Vo". You can only use this effect of "Starving Kraata Vo" once per turn. Cannot be destroyed by battle. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x 600: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
 	attack: 0
 	defense: 0
 	gamecode: DRAFT10100433
@@ -142,10 +142,14 @@ card:
 card:
 	has styling: false
 	notes:
-		Original:
-		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. If your opponent's monster attacks a "Kraata" monster you control, reduce the attacking monster's ATK by 200 x this card's level, then inflict the same amount of damage to your opponent. "
+		{{Special Summon this card}}
+		{{Increase the Levels of all "Kraata" monsters you control by 1?}}
+		
+		Poison: Makes monsters too sick to use their effects
+		=> combo role: simple extender, but as a quick effect so you can plop it down as a surprise (goes especially well with Cu)
+		=> since the quick part eats up power budget, the bonus is just a Level boost, but that also helps the surprise aspect a bit
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-19 19:06:09
+	time modified: 2026-03-04 19:07:15
 	card type: effect monster
 	name: Toxic Kraata Ye
 	attribute: dark
@@ -155,20 +159,21 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: During the Main Phase, if you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can Special Summon 1 "Kraata" monster from your hand or GY, except "Toxic Kraata Ye". You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. If this card battles an opponent's monster with ATK less than or equal to this card's Level x 600, that opponent's monster's effects are negated until the end of this turn.
+	rule text: If you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can increase the Levels of all "Kraata" monsters you control by 1. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. If this card battles an opponent's monster with ATK less than or equal to this card's Level x 600, that opponent's monster's effects are negated until the end of this turn.
 	attack: 0
 	defense: 0
-	gamecode: DRAFT10100436
+	gamecode: 10100436
 card:
 	has styling: false
 	notes:
-		If this was a Kraata, it would make extending combos a lot easier
-		=> not even unreasonable since it's just an evolved Kraata at this stage
-		=> however, the summoning shortcut and materials become kinda recursive at that point unless we waste more words to avoid that
-		=> or just make the Field Spell work with DARK Fiends generically, there we go
-		==> not quite, would also need certain SS requirements to tolerate it
+		{{Fusion Summon}}
+		
+		The Fusion "Spell" that bridges Kraata to Rahkshi
+		=> can also pretend to be a Link-1 so you're not forced to jam in an EP engine
+		==> phrasing see Colossus
+		=> but using the canon materials is rewarded with a bonus advantage
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-05 20:16:50
+	time modified: 2026-03-04 20:08:10
 	card type: fusion monster
 	name: Rahkshi Armor
 	attribute: dark
@@ -182,10 +187,10 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Energized Protodermis" monster + 1 "Kraata" monster
-		Must be either Fusion Summoned, or Special Summoned by Tributing 1 "Kraata" monster while you control 2 or more "Kraata" monsters. Once per turn (Quick Effect): You can Fusion Summon 1 Fusion Monster using materials you control. If you Fusion Summoned this card, you can also use monsters in your hand as material.
+		Must be either Fusion Summoned, or Special Summoned while you control 2 or more "Kraata" monsters, by Tributing 1 of them. Once per turn (Quick Effect): You can Fusion Summon 1 Fusion Monster from your Extra Deck, using materials you control. If you Fusion Summoned this card, you can also use monsters in your hand as material.
 	attack: 0
 	defense: 2100
-	gamecode: DRAFT10100439
+	gamecode: 10100439
 card:
 	has styling: false
 	notes:
@@ -220,9 +225,21 @@ card:
 	gamecode: DRAFT10100441
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Make all monsters your opponent controls lose 1000 ATK/DEF}}
+		{{Negate the effects of all face-up Spells/Traps currently on the field}}
+		
+		Rahkshi concept: Fusion upgrades of Kraata that get a boss-tier version of the respective power without being limited by Level, but rely on the named material's Levels to get big ATK instead
+		=> Generic Level 4 or higher DARK Fiend as second material enables using Rahkshi Armor, but also other Rahkshi, Makuta, sufficiently leveled Kraata (using 2 correctly named ones as per canon makes the ATK stack!), Yubel, Edge Imp Chain (Patchwork says hi), ...
+		=> needing to gain ATK from the effect might be a problem for beatstick access, plus it's +20-ish words on every effect ...
+		==> a possible alternative would be having some kind of base ATK (2100?) and a) gaining just a tiny bit per Level or b) making the ATK gain the bonus for Fusion Summoning Rahkshi Armor (which would save the text on the Rahkshi)
+		
+		Disintegration as quick effect for disruption
+		=> can be used against either monsters or S/T
+		==> the former get weaker and fall apart if it goes too far (stacks between turns)
+		==> the latter are temporarily rendered non-functional
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-01 20:42:17
+	time modified: 2026-03-04 19:36:02
 	card type: fusion monster
 	name: Guurahk, Disintegration Rahkshi
 	attribute: dark
@@ -242,7 +259,7 @@ card:
 		You can only use this effect of "Guurahk, Disintegration Rahkshi" once per turn.
 	attack: <sym-auto>?</sym-auto>
 	defense: 2100
-	gamecode: DRAFT10100442
+	gamecode: 10100442
 card:
 	has styling: false
 	notes: 
@@ -267,9 +284,12 @@ card:
 	gamecode: DRAFT10100443
 card:
 	has styling: false
-	notes: 
+	notes:
+		{{Destroy 1 card your opponent controls}}
+		
+		Fragmentation as simple violent kaboom
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-01 20:42:25
+	time modified: 2026-03-04 19:54:13
 	card type: fusion monster
 	name: Panrahk, Fragmentation Rahkshi
 	attribute: dark
@@ -282,11 +302,11 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		"Shattering Kraata Xi" + 1 Level 4 or higher DARK Fiend monster
-		This card's original ATK is equal to the total Levels of "Shattering Kraata Xi" used as its Fusion Material x 600. During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. You can only use this effect of "Panrahk, Fragmentation Rahkshi" once per turn.
+		"Explosive Kraata Xi" + 1 Level 4 or higher DARK Fiend monster
+		This card's original ATK is equal to the total Levels of "Explosive Kraata Xi" used as its Fusion Material x 600. During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. You can only use this effect of "Panrahk, Fragmentation Rahkshi" once per turn.
 	attack: <sym-auto>?</sym-auto>
 	defense: 2100
-	gamecode: DRAFT10100444
+	gamecode: 10100444
 card:
 	has styling: false
 	notes: Targeting redirection is more topical to what Kurahk really does, but just taking control would have a much better words-to-practicality ratio
@@ -311,9 +331,11 @@ card:
 	gamecode: DRAFT10100445
 card:
 	has styling: false
-	notes: 
+	notes:
+		Poison as bigger, badder variant of its Kraata incarnation that works for all your monsters and also comes with an ATK reduction
+		=> sharing with the field is a bit at odds with Lerahk specifically requiring physical contact in lore, however
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-07-01 20:42:32
+	time modified: 2026-03-04 20:11:50
 	card type: fusion monster
 	name: Lerahk, Poison Rahkshi
 	attribute: dark
@@ -327,10 +349,10 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Toxic Kraata Ye" + 1 Level 4 or higher DARK Fiend monster
-		This card's original ATK is equal to the total Levels of "Toxic Kraata Ye" used as its Fusion Material x 600. If your DARK Fiend monster battles an opponent's monster, that opponent's monster loses 800 ATK, also its effects are negated by this card, until the end of this turn. You can only use this effect of "Lerahk, Poison Rahkshi" once per turn.
+		This card's original ATK is equal to the total Levels of "Toxic Kraata Ye" used as its Fusion Material x 600. If your DARK Fiend monster battles an opponent's monster, that opponent's monster loses 1200 ATK during that damage calculation only, also its effects are negated by this card, until the end of this turn. You can only use this effect of "Lerahk, Poison Rahkshi" once per turn.
 	attack: <sym-auto>?</sym-auto>
 	defense: 2100
-	gamecode: DRAFT10100446
+	gamecode: 10100446
 card:
 	has styling: false
 	notes: 
@@ -365,14 +387,14 @@ card:
 	has styling: false
 	notes:
 		Spawns a fresh stage 1 Kraata from your Makuta, or just buffs the Kraata you already have
-		=> 800 ATK reduction in the non-Makuta case is purely so you can activate it in the Damage Step for surprise Kraata triggers
+		=> 1200 ATK reduction in the non-Makuta case is purely so you can activate it in the Damage Step for surprise Kraata triggers
 		
 		Which Kraata Power would be the GY effect for this one?
 		=> there aren't really any directly related to the Kraata creation process, so I guess we have to go with the general vibe of "ripping chunks of yourself out?"
 		==> Shapeshifting, Quick Healing, and Invulnerability come to mind
 		==> Invulnerability is the simplest and shortest, so let's go with that for now (even though it's also the least good fit)
 	time created: 2016-02-25 09:12:43
-	time modified: 2025-07-19 19:06:34
+	time modified: 2026-03-04 19:34:48
 	card type: trap card
 	name: Makuta-Spawned Kraata
 	attribute: trap
@@ -383,7 +405,7 @@ card:
 		<sym-auto>*</sym-auto>"Makuta" monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
 		<sym-auto>*</sym-auto>Other: It loses 1200 ATK until the end of this turn, also increase the Level of all "Kraata" monsters you control by 1.
 		If a DARK Fiend monster(s) you control would be destroyed by a card effect, you can banish this card from your GY instead. You can only use each effect of "Makuta-spawned Kraata" once per turn.
-	gamecode: DRAFT10100440
+	gamecode: 10100440
 card:
 	has styling: false
 	notes:
@@ -1037,19 +1059,23 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Return monsters to the hand, then destroy all monsters you control}}
+		{{Return both battling monsters to the hand}}
+		{{Add 1 non-"Koro" Field Spell to your hand}}
+		
 		A bit of a special -Koro Field Spell
 		=> List all the non-DARK Attributes (on a negative effect) for universal searchability with Kolhii Field
-		=> search other Field Spells to represent moving on to Metru Nui?
 		=> a battle effect that's kind of inverse of Ta-Koro's while representing the evacuation and giving you the opportunity to get rid of this card before its drawback applies if your opponent decides to battle
+		=> search other Field Spells to represent moving on to Metru Nui
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-01 20:41:03
+	time modified: 2026-03-04 19:22:01
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image45
 	rule text: Once per turn, during your opponent's End Phase: Return as many FIRE, WATER, EARTH, WIND, and/or LIGHT monsters you control to the hand as possible, then destroy all monsters you control. At the start of the Damage Step, if 2 monsters battle: You can return both battling monsters to the hand, then send 1 card from your hand or face-up field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
-	gamecode: DRAFT10100428
+	gamecode: 10100428
 card:
 	has styling: false
 	notes:
@@ -1185,7 +1211,7 @@ card:
 		=> ATK 2600: In gameplay, lets us get over the 2500 threshold; in lore, lines up with Lewa Nuva
 		=> DEF 1800: when Jaller jumps it from behind it survives to get snared and pulled back up (to your hand/deck)
 	time created: 2024-12-02 18:09:15
-	time modified: 2025-12-06 20:25:30
+	time modified: 2025-12-14 17:04:36
 	card type: effect monster
 	name: Graalok, Ash Bear Rahi
 	attribute: wind
