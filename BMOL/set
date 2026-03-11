@@ -1122,7 +1122,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2024-12-02 18:11:07
-	time modified: 2025-07-01 20:42:36
+	time modified: 2026-03-11 21:12:22
 	card type: xyz monster
 	name: Rahkshi Kaita Za
 	attribute: dark
@@ -1135,8 +1135,8 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		3 Level 8 DARK Fiend monsters
-		Your opponent cannot target DARK monsters you control for attacks or with card effects. Once per turn, if a monster your opponent controls activates its effect (Quick Effect): You can detach 1 material from this card; negate that effect, and if you do, halve that monster's ATK/DEF.
+		2+ Level 8 DARK monsters
+		If this card is Xyz Summoned using 3 Level 8 "Rahkshi" monsters as material: You can banish all cards from your opponent's GY. You can detach 1 material from this card; until the end of the next turn, your opponent cannot target DARK Fiend monsters you control with card effects, also you can Special Summon 1 Level 8 or lower "Rahkshi" monster from your GY. You can only use this effect of "Rahkshi Kaita Za" once per turn.
 	attack: 3200
 	defense: 2400
 	gamecode: DRAFT10100447
@@ -1144,7 +1144,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2024-12-02 18:11:07
-	time modified: 2025-07-01 20:42:39
+	time modified: 2026-03-11 21:15:59
 	card type: xyz monster
 	name: Rahkshi Kaita Vo
 	attribute: dark
@@ -1157,8 +1157,8 @@ card:
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Xyz</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
-		3 Level 8 DARK Fiend monsters
-		Once per turn: You can target 1 other monster on the field; attach it to this card as material. During the Main Phase (Quick Effect): You can detach 1 material from this card, then target 1 card your opponent controls; destroy it. You can only use this effect of "Rahkshi Kaita Vo" once per turn.
+		2+ Level 8 DARK monsters
+		If this card is Xyz Summoned using 3 Level 8 "Rahkshi" monsters as material: You can destroy all cards your opponent controls. You can detach 1 material from this card;  until the end of the next turn, all monsters on the field lose 1200 ATK/DEF, except DARK Fiend monsters, also you can Special Summon 1 "Rahkshi" monster from your GY. You can only use this effect of "Rahkshi Kaita Vo" once per turn.
 	attack: 2400
 	defense: 3200
 	gamecode: DRAFT10100448
