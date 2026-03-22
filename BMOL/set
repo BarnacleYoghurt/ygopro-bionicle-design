@@ -149,7 +149,7 @@ card:
 		=> combo role: simple extender, but as a quick effect so you can plop it down as a surprise (goes especially well with Cu)
 		=> since the quick part eats up power budget, the bonus is just a Level boost, but that also helps the surprise aspect a bit
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-03-04 19:07:15
+	time modified: 2026-03-22 18:20:12
 	card type: effect monster
 	name: Toxic Kraata Ye
 	attribute: dark
@@ -159,7 +159,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can increase the Levels of all "Kraata" monsters you control by 1. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. If this card battles an opponent's monster with ATK less than or equal to this card's Level x 600, that opponent's monster's effects are negated until the end of this turn.
+	rule text: If you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can increase the Levels of all "Kraata" monsters you control by 1. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. If your DARK Fiend monster battles an opponent's monster with ATK less than or equal to this card's Level x 600, that opponent's monster's effects are negated until the end of the Damage Step.
 	attack: 0
 	defense: 0
 	gamecode: 10100436
@@ -289,6 +289,7 @@ card:
 	has styling: false
 	notes:
 		{{Destroy 1 card your opponent controls}}
+		{{Special Summon 1 "Kraata" monster from your GY}}
 		
 		Fragmentation as simple violent kaboom
 		
@@ -338,15 +339,21 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send 1 "Kraata" monster from your hand or Deck to the GY}}
+		
 		Poison as bigger, badder variant of its Kraata incarnation that works for all your monsters and also comes with an ATK reduction
 		=> sharing with the field is a bit at odds with Lerahk specifically requiring physical contact in lore, however
+		=> 5.1.2 - ATK reduction tentatively removed to simplify the wording and because we now have a decent base ATK stat (passive -1200 would effectively make Lerahk start at 3300, which seems a bit much)
+		
+		On summon: apply targeting protection (toxic fumes) with the bonus of getting a Kraata into rotation
+		=> the idea is that the non-starter Kraata Ye can still be used to bridge into the combo if you have fusion access - basically a native alternative to Aerial Eater
 		
 		Okay so this is apparently not as mechanically simple as I would have suspected:
 		=> ScareKash applies its continuous negate only as long as it itself remains on the field, much like continuous ATK reduction works from the originating card
 		=> this would be fine and all, except it's at odds with how Kraata Ye just applies a standard sticky negate until end of turn, like Magnificient Machine Angel
 		==> maybe the fix is to also make the Kraata Ye negate shared (but dependent on the card being around), but only to "Kraata"; something about poison spreading to the others or whatever
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-03-22 09:48:25
+	time modified: 2026-03-22 18:32:10
 	card type: fusion monster
 	name: Lerahk, Poison Rahkshi
 	attribute: dark
@@ -360,7 +367,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Toxic Kraata Ye" + 1 Level 4 or higher DARK Fiend monster
-		If your DARK Fiend monster battles an opponent's monster, that opponent's monster loses 1200 ATK during that damage calculation only, also its effects are negated by this card, until the end of this turn. You can only use this effect of "Lerahk, Poison Rahkshi" once per turn.
+		If this card is Fusion Summoned: You can send 1 "Kraata" monster from your hand or Deck to the GY, and if you do, for the rest of this turn, your opponent cannot target DARK Fiend monsters you control with card effects. You can only use this effect of "Lerahk, Poison Rahkshi" once per turn. If your DARK Fiend monster battles an opponent's monster, that opponent's monster's effects are negated until the end of this turn.
 	attack: 2100
 	defense: 2100
 	gamecode: 10100446
