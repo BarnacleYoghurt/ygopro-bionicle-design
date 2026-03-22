@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.2.0
+	edition: Version 5.2.1
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -104,8 +104,9 @@ card:
 		Shattering: Blow up the monster, and everything around it
 		=> combo role: starter that simply adds another Kraata on summon - even if it gets negated and you have no extenders, at least there's kaboom
 		=> as one of your main "executives", it levels up on its own after each use of its power
+		==> slight procedural improvement: apply the increase to any 1 Kraata you control, so it's no longer the only Level boost in the archetype that's lost to a negate
 	time created: 2015-05-17 17:54:52
-	time modified: 2025-08-12 18:10:11
+	time modified: 2026-03-22 20:17:48
 	card type: effect monster
 	name: Explosive Kraata Xi
 	attribute: dark
@@ -115,7 +116,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If this card is Normal or Special Summoned: You can add 1 "Kraata" monster from your Deck to your hand, except "Explosive Kraata Xi". You can only use this effect of "Explosive Kraata Xi" once per turn. Cannot be destroyed by battle. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to this card's Level x 600: You can destroy that monster, then destroy all cards your opponent controls in its adjacent Monster Zones or Spell <sym-auto>&</sym-auto> Trap Zones, also increase this card's Level by 1.
+	rule text: If this card is Normal or Special Summoned: You can add 1 "Kraata" monster from your Deck to your hand, except "Explosive Kraata Xi". You can only use this effect of "Explosive Kraata Xi" once per turn. Cannot be destroyed by battle. At the end of the Damage Step, if this card battled an opponent's monster with ATK less than or equal to this card's Level x 600: You can destroy that monster, then destroy all cards your opponent controls in its adjacent Monster Zones or Spell <sym-auto>&</sym-auto> Trap Zones, also increase the Level of 1 "Kraata" monster you control by 1.
 	attack: 0
 	defense: 0
 	gamecode: 10100434
