@@ -343,7 +343,7 @@ card:
 		
 		Poison as bigger, badder variant of its Kraata incarnation that works for all your monsters and also comes with an ATK reduction
 		=> sharing with the field is a bit at odds with Lerahk specifically requiring physical contact in lore, however
-		=> 5.1.2 - ATK reduction tentatively removed to simplify the wording and because we now have a decent base ATK stat (passive -1200 would effectively make Lerahk start at 3300, which seems a bit much)
+		=> 5.2.1 - ATK reduction tentatively removed to simplify the wording and because we now have a decent base ATK stat (passive -1200 would effectively make Lerahk start at 3300, which seems a bit much)
 		
 		On summon: apply targeting protection (toxic fumes) with the bonus of getting a Kraata into rotation
 		=> the idea is that the non-starter Kraata Ye can still be used to bridge into the combo if you have fusion access - basically a native alternative to Aerial Eater
@@ -406,13 +406,15 @@ card:
 	notes:
 		Spawns a fresh stage 1 Kraata from your Makuta, or just buffs the Kraata you already have
 		=> 1200 ATK reduction in the non-Makuta case is purely so you can activate it in the Damage Step for surprise Kraata triggers
+		==> 5.2.1 - buffed to making ATK 0, also Level boost affects whole field so that part can conditionally be disruption too
 		
 		Which Kraata Power would be the GY effect for this one?
 		=> there aren't really any directly related to the Kraata creation process, so I guess we have to go with the general vibe of "ripping chunks of yourself out?"
 		==> Shapeshifting, Quick Healing, and Invulnerability come to mind
 		==> Invulnerability is the simplest and shortest, so let's go with that for now (even though it's also the least good fit)
+		===> 5.2.1 - switched to a "quick healing" GY recycling effect so we have something to natively fill that niche (ideally there'd be some LP gain in there, but oh words)
 	time created: 2016-02-25 09:12:43
-	time modified: 2026-03-04 19:34:48
+	time modified: 2026-03-22 18:59:57
 	card type: trap card
 	name: Makuta-Spawned Kraata
 	attribute: trap
@@ -420,9 +422,9 @@ card:
 	image: image30
 	rule text:
 		Target 1 face-up monster on the field, then activate the appropriate effect, based on what that monster is;
-		<sym-auto>*</sym-auto>"Makuta" monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
-		<sym-auto>*</sym-auto>Other: It loses 1200 ATK until the end of this turn, also increase the Level of all "Kraata" monsters you control by 1.
-		If a DARK Fiend monster(s) you control would be destroyed by a card effect, you can banish this card from your GY instead. You can only use each effect of "Makuta-spawned Kraata" once per turn.
+		<sym-auto>*</sym-auto>Level 2 or higher "Makuta" monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
+		<sym-auto>*</sym-auto>Other: Make its ATK 0 until the end of this turn, also increase the Levels of all monsters currently on the field by 1.
+		If this card is in your GY: You can shuffle 3 DARK Fiend monsters from your GY into the Deck, and if you do, Set this card, but banish it when it leaves the field. You can only use each effect of "Makuta-Spawned Kraata" once per turn.
 	gamecode: 10100440
 card:
 	has styling: false
