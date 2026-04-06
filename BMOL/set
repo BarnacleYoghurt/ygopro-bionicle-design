@@ -246,9 +246,10 @@ card:
 		Disintegration as quick effect for disruption
 		=> can be used against either monsters or S/T
 		==> the former get weaker and fall apart if it goes too far (stacks between turns)
+		===> "becomes 0 by this effect" conflicts with the stat reduction of its own Kraata, so slightly different approach: "reverse Gingerbread House" - combined ATK/DEF ignores DEF for Links (see Nibiru) and can be used to mean the sum on a single monster (see Subterror Final Battle), so we postulate it works as intended
 		==> the latter are temporarily rendered non-functional
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-03-22 09:45:51
+	time modified: 2026-04-06 22:43:50
 	card type: fusion monster
 	name: Guurahk, Disintegration Rahkshi
 	attribute: dark
@@ -263,7 +264,7 @@ card:
 	rule text:
 		"Erosive Kraata Ul" + 1 Level 4 or higher DARK Fiend monster
 		(Quick Effect): You can activate 1 of these effects;
-		<sym-auto>*</sym-auto>All monsters your opponent currently controls lose 1000 ATK/DEF, and if their ATK and/or DEF becomes 0 by this effect, destroy them.
+		<sym-auto>*</sym-auto>Have as many face-up monsters your opponent controls as possible lose 1000 ATK/DEF, then send all monsters they control whose combined ATK/DEF is 0 to the GY.
 		<sym-auto>*</sym-auto>Negate the effects of all face-up Spells/Traps currently on the field, until the end of this turn.
 		You can only use this effect of "Guurahk, Disintegration Rahkshi" once per turn.
 	attack: 2100
