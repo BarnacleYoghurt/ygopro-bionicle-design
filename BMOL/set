@@ -420,6 +420,7 @@ card:
 		Spawns a fresh stage 1 Kraata from your Makuta, or just buffs the Kraata you already have
 		=> 1200 ATK reduction in the non-Makuta case is purely so you can activate it in the Damage Step for surprise Kraata triggers
 		==> 5.2.1 - buffed to making ATK 0, also Level boost affects whole field so that part can conditionally be disruption too
+		=> 5.2.2 - replaced Makuta case with generic DARK Fiend case, because otherwise we might not ever get to use that effect (I guess the Kraata are multiplying or something?)
 		
 		Which Kraata Power would be the GY effect for this one?
 		=> there aren't really any directly related to the Kraata creation process, so I guess we have to go with the general vibe of "ripping chunks of yourself out?"
@@ -427,17 +428,17 @@ card:
 		==> Invulnerability is the simplest and shortest, so let's go with that for now (even though it's also the least good fit)
 		===> 5.2.1 - switched to a "quick healing" GY recycling effect so we have something to natively fill that niche (ideally there'd be some LP gain in there, but oh words)
 	time created: 2016-02-25 09:12:43
-	time modified: 2026-03-22 18:59:57
+	time modified: 2026-04-07 15:54:16
 	card type: trap card
 	name: Makuta-Spawned Kraata
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
 	image: image30
 	rule text:
-		Target 1 face-up monster on the field, then activate the appropriate effect, based on what that monster is;
-		<sym-auto>*</sym-auto>Level 2 or higher "Makuta" monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
+		Target 1 face-up monster on the field, then activate the appropriate effect, based on what you targeted;
+		<sym-auto>*</sym-auto>Level 2 or higher DARK Fiend monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
 		<sym-auto>*</sym-auto>Other: Make its ATK 0 until the end of this turn, also increase the Levels of all monsters currently on the field by 1.
-		If this card is in your GY: You can shuffle 3 DARK Fiend monsters from your GY into the Deck, and if you do, Set this card, but banish it when it leaves the field. You can only use each effect of "Makuta-Spawned Kraata" once per turn.
+		If this card is in your GY: You can target 3 DARK Fiend monsters in your GY; shuffle them into the Deck, and if you do, Set this card, but banish it when it leaves the field. You can only use each effect of "Makuta-Spawned Kraata" once per turn
 	gamecode: 10100440
 card:
 	has styling: false
