@@ -172,11 +172,14 @@ card:
 		The Fusion "Spell" that bridges Kraata to Rahkshi
 		=> can also pretend to be a Link-1 so you're not forced to jam in an EP engine
 		==> phrasing see Colossus
+		==> however lately they have figured out the "from your Extra Deck" should be there (e.g. DMOD)
 		=> but using the canon materials is rewarded with a bonus advantage
 		==> 5.2.1: the advantage needed to be more serious since it's asking you to do a Fusion Summon just to get an intermediate step - so now it can re-use its material to actually get to the end result
 		=> 5.2.1: Since making Rahkshi ATK entirely conditional turns them ridiculously weeny, instead put a smaller Level-based boost on here; also no real need to be a quickie, the process is supposedly slow anyway, and we also don't need to make non-Fiends with this
+		=> doesn't strictly need to be a Quick Effect, but getting it negated on your turn feels really bad if it isn't
+		==> this does also allow us to quick fuse in our Battle Phase, which is unconventional, but on a fairly inaccessible Fusion Monster in a deck that struggles with damage output otherwise, it should be fine
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-02 12:24:50
+	time modified: 2026-04-07 15:43:33
 	card type: fusion monster
 	name: Rahkshi Armor
 	attribute: dark
@@ -190,7 +193,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		1 "Energized Protodermis" monster + 1 "Kraata" monster
-		Must be either Fusion Summoned, or Special Summoned while you control 2 or more face-up "Kraata" monsters, by Tributing 1 of them. Once per turn: You can Fusion Summon 1 Fiend Fusion Monster from your Extra Deck, using materials you control, and if you do, it gains ATK equal to the combined Levels the materials used had on the field x 100. If this card was Fusion Summoned, you can also shuffle up to 1 monster from your GY or banishment into the Deck as material.
+		Must be either Fusion Summoned, or Special Summoned (from your Extra Deck) while you control 2 or more face-up "Kraata" monsters, by Tributing 1 of them. Once per turn (Quick Effect): You can Fusion Summon 1 Fiend Fusion Monster from your Extra Deck, using materials you control, and if you do, it gains ATK equal to the combined Levels the materials used had on the field x 100. If this card was Fusion Summoned, you can also shuffle up to 1 monster from your GY or banishment into the Deck as material.
 	attack: 0
 	defense: 2100
 	gamecode: 10100439
