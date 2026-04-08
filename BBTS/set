@@ -1219,7 +1219,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-07-19 15:31:39
-	time modified: 2019-12-08 23:25:33
+	time modified: 2026-04-08 18:54:33
 	card type: fusion monster
 	name: Bohrok Servant
 	attribute: dark
@@ -1234,7 +1234,7 @@ card:
 	number: BBTS-EN039
 	rule text:
 		1 "Krana" monster + 1 monster owned by your opponent
-		Must be Special Summoned (from your Extra Deck) by banishing the above cards from your hand, field, and/or GY, and cannot be Special Summoned by other ways. (You do not use "Polymerization".) The original ATK/DEF of this card become equal to the original ATK/DEF of the monster owned by your opponent used for its Special Summon.
+		Must be Special Summoned (from your Extra Deck) by shuffling the above cards from your field, GY, and/or banishment into the Deck/Extra Deck. The original ATK/DEF of this card become equal to the original ATK/DEF of the monster owned by your opponent used for its Special Summon.
 	attack: <sym-auto>?</sym-auto>
 	defense: <sym-auto>?</sym-auto>
 	link number: 
