@@ -286,7 +286,7 @@ card:
 		{{Equip to Bohrok}}
 		{{Special Summon Bohrok from Deck}}
 	time created: 2016-02-08 14:41:42
-	time modified: 2022-08-19 08:29:06
+	time modified: 2026-04-07 20:36:22
 	card type: effect monster
 	name: Krana Ca, Clearance Worker
 	attribute: dark
@@ -298,7 +298,7 @@ card:
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Zombie</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep>
 	number: BBTS-EN028
-	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. While this card is equipped to a "Bohrok" monster, the first time a "Bohrok" monster you control would be destroyed by battle each turn, it is not destroyed. You can return this Normal Summoned/Set card to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.
+	rule text: Once per turn (Quick Effect): You can target 1 Level 4 or higher "Bohrok" monster you control; equip this card from your hand to that target. While this card is equipped to a "Bohrok" monster, the first time each "Bohrok" monster you control would be destroyed by battle each turn, it is not destroyed. You can return this Normal Summoned/Set card to the hand; Special Summon 1 Level 4 "Bohrok" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.
 	attack: 0
 	defense: 0
 	gamecode: 10100212
