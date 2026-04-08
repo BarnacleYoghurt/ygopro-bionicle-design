@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.2.1
+	edition: Version 5.2.2
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -237,7 +237,7 @@ card:
 card:
 	has styling: false
 	notes:
-		{{Make all monsters your opponent controls lose 1000 ATK/DEF}}
+		{{Make all monsters your opponent controls lose 1200 ATK/DEF}}
 		{{Negate the effects of all face-up Spells/Traps currently on the field}}
 		
 		Rahkshi concept: Fusion upgrades of Kraata that get a boss-tier version of the respective power without being limited by Level, but rely on the named material's Levels to get big ATK instead
