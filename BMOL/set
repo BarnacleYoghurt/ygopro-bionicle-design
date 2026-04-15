@@ -252,7 +252,7 @@ card:
 		===> "becomes 0 by this effect" conflicts with the stat reduction of its own Kraata, so slightly different approach: "reverse Gingerbread House" - combined ATK/DEF ignores DEF for Links (see Nibiru) and can be used to mean the sum on a single monster (see Subterror Final Battle), so we postulate it works as intended
 		==> the latter are temporarily rendered non-functional
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-07 15:40:49
+	time modified: 2026-04-12 00:05:14
 	card type: fusion monster
 	name: Guurahk, Disintegration Rahkshi
 	attribute: dark
@@ -267,7 +267,7 @@ card:
 	rule text:
 		"Erosive Kraata Ul" + 1 Level 4 or higher DARK Fiend monster
 		(Quick Effect): You can activate 1 of these effects;
-		<sym-auto>*</sym-auto>Have as many face-up monsters your opponent controls as possible lose 1200 ATK/DEF, then send all monsters they control whose combined ATK/DEF is 0 to the GY.
+		<sym-auto>*</sym-auto>Have as many face-up monsters your opponent controls as possible lose 1200 ATK/DEF, then send all face-up monsters they control to the GY, except monsters with more than 0 ATK or DEF.
 		<sym-auto>*</sym-auto>Negate the effects of all face-up Spells/Traps currently on the field, until the end of this turn.
 		You can only use this effect of "Guurahk, Disintegration Rahkshi" once per turn.
 	attack: 2100
