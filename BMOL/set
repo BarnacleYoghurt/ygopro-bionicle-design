@@ -80,8 +80,11 @@ card:
 	notes:
 		Original:
 		"Cannot be destroyed by battle or targeted by your opponent's card effects. During each of your Standby Phases: Increase this face-up Attack Position card's level by 1. Once per turn, when your opponent's monster attacks a "Kraata" monster you control: You gain LP equal to the attacking monster's ATK."
+		
+		It would be really nice to have Spell/Trap removal on the free slot on this one since we're otherwise missing it, but that's a bit busted on something that comes back from the GY ...
+		=> similarly "If only your opponent controls a monster" would be a banger alternative SS condition to go with that, but feels unjustifiably generic on something with battle protection
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-07 16:00:41
+	time modified: 2026-04-16 09:59:51
 	card type: effect monster
 	name: Famishing Kraata Vo
 	attribute: dark
@@ -91,7 +94,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY, then you can return 1 Spell/Trap on the field to the hand. You can only use this effect of Famishing Kraata Vo" once per turn. Cannot be destroyed by battle. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x 600: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
+	rule text: If you control a "Kraata" monster: You can Special Summon this card from your hand or GY, then you can destroy 1 card you control and 1 Spell/Trap on the field. You can only use this effect of "Famishing Kraata Vo" once per turn. Cannot be destroyed by battle. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x 600: You can make your opponent lose LP equal to their monster's ATK, and if they do, you gain that much LP.
 	attack: 0
 	defense: 0
 	gamecode: DRAFT10100433
@@ -145,12 +148,15 @@ card:
 	notes:
 		{{Special Summon this card}}
 		{{Increase the Levels of all "Kraata" monsters you control by 1?}}
+		{{Negate that opponent's monster's effects}}
 		
 		Poison: Makes monsters too sick to use their effects
 		=> combo role: simple extender, but as a quick effect so you can plop it down as a surprise (goes especially well with Cu)
 		=> since the quick part eats up power budget, the bonus is just a Level boost, but that also helps the surprise aspect a bit
+		=> 5.2.3 - permanent negation via activated effect, for lingering poison (but no longer shared since then it would probably need a OPT)
+		==> also "half" of Ul stat loss, to match Lerahk and so you can intensify the poison through multiple battles
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-02 11:29:36
+	time modified: 2026-04-16 09:50:23
 	card type: effect monster
 	name: Toxic Kraata Ye
 	attribute: dark
@@ -160,7 +166,7 @@ card:
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><sep>]<soft></soft></sep>
-	rule text: If you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can increase the Levels of all "Kraata" monsters you control by 1. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. If your DARK Fiend monster battles an opponent's monster with ATK less than or equal to this card's Level x 600, that opponent's monster's effects are negated until the end of the Damage Step.
+	rule text: If you control a "Kraata" monster (Quick Effect): You can Special Summon this card from your hand, then you can increase the Levels of all "Kraata" monsters you control by 1. You can only use this effect of "Toxic Kraata Ye" once per turn. Cannot be destroyed by battle. At the start of the Damage Step, if this card battles an opponent's monster with ATK less than or equal to this card's Level x 600: You can negate that opponent's monster's effects, also it loses 300 ATK/DEF.
 	attack: 0
 	defense: 0
 	gamecode: 10100436
