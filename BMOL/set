@@ -1110,16 +1110,17 @@ card:
 		
 		A bit of a special -Koro Field Spell
 		=> List all the non-DARK Attributes (on a negative effect) for universal searchability with Kolhii Field
+		==> realistically this probably can just affect both sides of the field, at least then there's some reason for your opponent to care about it
 		=> a battle effect that's kind of inverse of Ta-Koro's while representing the evacuation and giving you the opportunity to get rid of this card before its drawback applies if your opponent decides to battle
 		=> search other Field Spells to represent moving on to Metru Nui
 	time created: 2016-02-25 12:30:33
-	time modified: 2026-04-02 12:31:36
+	time modified: 2026-04-16 10:06:13
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image62
-	rule text: Once per turn, during your opponent's End Phase: Return as many FIRE, WATER, EARTH, WIND, and/or LIGHT monsters you control to the hand as possible, then destroy all monsters you control. At the start of the Damage Step, if 2 monsters battle: You can return both battling monsters to the hand, then send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, then send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 10100428
 card:
 	has styling: false
@@ -1649,13 +1650,13 @@ card:
 	has styling: false
 	notes: [[Alias:10100428]]
 	time created: 2016-02-25 12:30:33
-	time modified: 2026-04-02 12:31:16
+	time modified: 2026-04-16 10:08:45
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image21
-	rule text: Once per turn, during your opponent's End Phase: Return as many FIRE, WATER, EARTH, WIND, and/or LIGHT monsters you control to the hand as possible, then destroy all monsters you control. At the start of the Damage Step, if 2 monsters battle: You can return both battling monsters to the hand, then send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, then send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 11100428
 version control:
 	type: none
