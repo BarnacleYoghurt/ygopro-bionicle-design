@@ -156,12 +156,12 @@ card:
 		=> 5.2.3 - permanent negation via activated effect, for lingering poison (but no longer shared since then it would probably need a OPT)
 		==> also "half" of Ul stat loss, to match Lerahk and so you can intensify the poison through multiple battles
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-16 09:50:23
+	time modified: 2026-04-22 20:03:45
 	card type: effect monster
 	name: Toxic Kraata Ye
 	attribute: dark
 	level: <sym-auto>*</sym-auto>
-	image: image3
+	image: image63
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
@@ -185,12 +185,12 @@ card:
 		=> doesn't strictly need to be a Quick Effect, but getting it negated on your turn feels really bad if it isn't
 		==> this does also allow us to quick fuse in our Battle Phase, which is unconventional, but on a fairly inaccessible Fusion Monster in a deck that struggles with damage output otherwise, it should be fine
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-07 15:43:33
+	time modified: 2026-04-22 19:35:49
 	card type: fusion monster
 	name: Rahkshi Armor
 	attribute: dark
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: image11
+	image: image45
 	type 1: <word-list-ENrace>Fiend</word-list-ENrace>
 	type 2: <word-list-ENeffect>Fusion</word-list-ENeffect>
 	type 3: <word-list-ENeffect>Effect</word-list-ENeffect>
