@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.2.2
+	edition: Version 5.2.3
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -312,8 +312,11 @@ card:
 		If it itself gets kaboom'd, a "fragment" appears
 		=> makes it work as an efficient way of baiting negate-and-destroy effects
 		=> can also get a second fragment for free if you have one in hand
+		=> 5.2.3 - make this trigger from removal in general, so we can at least theoretically do something about Nib
+		==> drawback is that the standard wordings don't let it trigger off self-destruction, but since we aren't allowing that with its own destruction effect we don't really need it
+		==> "standard wording" here means approximately a million different ones with subtle ruling differences that exist, we picked the most compact and straightforward one that covers just about everything, with restriction to having been Fusion Summoned for good measure
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-06 22:46:38
+	time modified: 2026-04-22 20:41:44
 	card type: fusion monster
 	name: Panrahk, Fragmentation Rahkshi
 	attribute: dark
@@ -327,7 +330,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Explosive Kraata Xi" + 1 Level 4 or higher DARK Fiend monster
-		During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. If this card is destroyed: You can Special Summon up to 1 "Kraata" monster each from your hand and/or GY. You can only use each effect of "Panrahk, Fragmentation Rahkshi" once per turn.
+		During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. If this face-up Fusion Summoned card in its owner's control leaves the field because of an opponent's card: You can Special Summon up to 1 "Kraata" monster each from your hand and/or GY. You can only use each effect of "Panrahk, Fragmentation Rahkshi" once per turn.
 	attack: 2100
 	defense: 2100
 	gamecode: 10100444
@@ -1111,22 +1114,24 @@ card:
 	has styling: false
 	notes:
 		{{Return monsters to the hand, then destroy all monsters you control}}
-		{{Return both battling monsters to the hand}}
+		{{Return the battling monsters to the hand}}
 		{{Add 1 non-"Koro" Field Spell to your hand}}
 		
 		A bit of a special -Koro Field Spell
 		=> List all the non-DARK Attributes (on a negative effect) for universal searchability with Kolhii Field
 		==> realistically this probably can just affect both sides of the field, at least then there's some reason for your opponent to care about it
+		==> "then" means you do need to bounce at least 1 to destroy!
 		=> a battle effect that's kind of inverse of Ta-Koro's while representing the evacuation and giving you the opportunity to get rid of this card before its drawback applies if your opponent decides to battle
+		==> note the use of "also, after that", so the "cost" doesn't need to concern itself with whether or not anything was successfully bounced
 		=> search other Field Spells to represent moving on to Metru Nui
 	time created: 2016-02-25 12:30:33
-	time modified: 2026-04-16 10:06:13
+	time modified: 2026-04-22 20:49:02
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image62
-	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, then send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 10100428
 card:
 	has styling: false
@@ -1656,13 +1661,13 @@ card:
 	has styling: false
 	notes: [[Alias:10100428]]
 	time created: 2016-02-25 12:30:33
-	time modified: 2026-04-16 10:08:45
+	time modified: 2026-04-22 20:52:30
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image21
-	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, then send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 11100428
 version control:
 	type: none
