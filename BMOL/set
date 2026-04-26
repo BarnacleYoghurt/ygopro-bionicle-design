@@ -442,7 +442,7 @@ card:
 		==> Invulnerability is the simplest and shortest, so let's go with that for now (even though it's also the least good fit)
 		===> 5.2.1 - switched to a "quick healing" GY recycling effect so we have something to natively fill that niche (ideally there'd be some LP gain in there, but oh words)
 	time created: 2016-02-25 09:12:43
-	time modified: 2026-04-08 19:34:37
+	time modified: 2026-04-26 19:41:08
 	card type: trap card
 	name: Makuta-Spawned Kraata
 	attribute: trap
@@ -451,8 +451,8 @@ card:
 	rule text:
 		Target 1 face-up monster on the field, then activate the appropriate effect, based on what you targeted;
 		<sym-auto>*</sym-auto>Level 2 or higher DARK Fiend monster: Reduce its Level by 1, and if you do, Special Summon 1 "Kraata" monster from your Deck or GY.
-		<sym-auto>*</sym-auto>Other: Its ATK becomes 0 until the end of this turn, also increase the Levels of all monsters currently on the field by 1.
-		If this card is in your GY: You can target 3 DARK Fiend monsters in your GY; shuffle them into the Deck, and if you do, Set this card, but banish it when it leaves the field. You can only use each effect of "Makuta-Spawned Kraata" once per turn
+		<sym-auto>*</sym-auto>Other: Change its ATK to 0, also increase the Levels of all monsters currently on the field by 1.
+		If this card is in your GY: You can target 3 DARK Fiend monsters in your GY; shuffle them into the Deck, and if you do, Set this card, but banish it when it leaves the field. You can only use each effect of "Makuta-Spawned Kraata" once per turn.
 	gamecode: 10100440
 card:
 	has styling: false
