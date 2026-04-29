@@ -315,8 +315,9 @@ card:
 		=> 5.2.3 - make this trigger from removal in general, so we can at least theoretically do something about Nib
 		==> drawback is that the standard wordings don't let it trigger off self-destruction, but since we aren't allowing that with its own destruction effect we don't really need it
 		==> "standard wording" here means approximately a million different ones with subtle ruling differences that exist, we picked the most compact and straightforward one that covers just about everything, with restriction to having been Fusion Summoned for good measure
+		===> screw that, it's so convoluted, and we're going to regret not having a self-destruction trigger if the Vo drops in its current form - so let's just use the Fossil clause, or maybe Iron Hans
 	time created: 2015-05-17 17:54:52
-	time modified: 2026-04-22 20:41:44
+	time modified: 2026-04-29 16:55:08
 	card type: fusion monster
 	name: Panrahk, Fragmentation Rahkshi
 	attribute: dark
@@ -330,7 +331,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Fiend</word-list-ENrace><sep> / </sep><word-list-ENeffect>Fusion</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		"Explosive Kraata Xi" + 1 Level 4 or higher DARK Fiend monster
-		During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. If this face-up Fusion Summoned card in its owner's control leaves the field because of an opponent's card: You can Special Summon up to 1 "Kraata" monster each from your hand and/or GY. You can only use each effect of "Panrahk, Fragmentation Rahkshi" once per turn.
+		During your Main Phase: You can destroy 1 card your opponent controls, and if it was a monster, inflict damage to your opponent equal to its original ATK. If this card on the field is destroyed by battle or sent to the GY by a card effect: You can Special Summon up to 1 "Kraata" monster each from your hand and/or GY. You can only use each effect of "Panrahk, Fragmentation Rahkshi" once per turn.
 	attack: 2100
 	defense: 2100
 	gamecode: 10100444
