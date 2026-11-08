@@ -5,7 +5,7 @@ set info:
 	title: Bionicle - Mask of Light
 	code: BMOL
 	language: EN
-	edition: Version 5.2.4
+	edition: Version 5.3.0
 	copyright: © 2014 THE LEGO GROUP
 card:
 	has styling: false
@@ -675,31 +675,39 @@ card:
 	gamecode: 10100413
 card:
 	has styling: false
-	notes: 
+	notes:
+		Principle of Prosperity: Reward work with resources
+		=> main effect directly gives a draw in exchange for the proof of work in the GY, cheekily written so it doubles as GY control since this is a Trap after all
+		==> maybe just monsters instead of any cards? (Keldo/Mudora tho ...)
+		=> Stamina GY effect helps your Warriors dodge while recycling even more and giving you LP in return - ensures you can keep fighting next turn too
+		=> both are also a way to put any non-EARTH monsters you may run back into rotation, activation effect even does S/T
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-28 00:01:53
+	time modified: 2026-11-04 18:44:47
 	card type: trap card
 	name: The Principle Of Prosperity
 	attribute: trap
 	level: <sym-auto>^</sym-auto>
-	image: image34
-	rule text: You can target up to 3 "Toa", "Matoran", and/or "Turaga" monsters in your GY; shuffle them into your Deck, then draw cards equal to the number shuffled. You can banish this card from your GY, then target 1 Warrior monster you control; banish it until the End Phase, then you can shuffle up to 3 monsters from your GY and/or banishment into the Deck, and if you do, gain 600 LP for each card shuffled. You can only use each effect of "The Principle of Prosperity" once per turn.
-	gamecode: DRAFT10100416
+	image: image11
+	rule text: You can target up to 3 cards in any GY(s), including a "Toa", "Matoran", or "Turaga" monster; shuffle them into the Deck, then draw 1 card. You can banish this card from your GY, then target 1 Warrior monster you control; banish it until the End Phase, then you can shuffle up to 3 monsters from your GY and/or banishment into the Deck, and if you do, gain 600 LP for each card shuffled. You can only use each effect of "The Principle of Prosperity" once per turn.
+	gamecode: 10100416
 card:
 	has styling: false
 	notes:
-		Initial:
-		"This turn, when your opponent Normal or Special Summons a monster while you control a "Matoran" monster: Gain LP equal to that opponent's monster's ATK. You can only activate 1 "The Principle of Peace" per turn."
-		=> still based on ancient Ko-Koro, ew
+		Principle of Peace: Can't hurt me under the non-aggression pact
+		=> le omni-negate Counter Trap with the same condition as Ko-Koro's main floodgate
+		==> actually already the experimental new condition, "resolved" instead of "activated", so you can in theory negate your own accidental activation with this
+		==> Spell/Trap negate isn't quite in line with the principle, but technically should be what we need more with the floodgate on?
+		===> then again, Kantai does cover S/T activations, so maybe this would be good against monster effects off the field...
+		=> Willpower as simple global destruction replacement from GY
 	time created: 2017-01-31 20:07:12
-	time modified: 2025-07-28 00:02:42
+	time modified: 2026-11-08 01:26:02
 	card type: trap card
 	name: The Principle Of Peace
 	attribute: trap
 	level: <sym-auto>!</sym-auto>
-	image: image35
-	rule text: If your opponent activates a card or effect, while you control a "Toa", "Matoran", or "Turaga" monster and have not activated any monster effects this turn: Negate the activation, and if you do, place that card on the bottom of the Deck. If a card(s) you control would be destroyed by battle or card effect, while you control a Warrior monster, you can banish this card from your GY instead. You can only use each effect of "The Principle of Peace" once per turn.
-	gamecode: DRAFT10100422
+	image: image66
+	rule text: When a Spell/Trap Card, or monster effect, is activated while you control a "Toa", "Matoran", or "Turaga" monster and have not resolved any monster effects this turn: Negate the activation, and if you do, place that card on the bottom of the Deck. If a card(s) you control would be destroyed by battle or card effect, while you control a Warrior monster, you can banish this card from your GY instead. You can only use each effect of "The Principle of Peace" once per turn.
+	gamecode: 10100422
 card:
 	has styling: false
 	notes:
@@ -919,16 +927,22 @@ card:
 	gamecode: 10100438
 card:
 	has styling: false
-	notes: Big consistency booster for all the -Koro decks!
+	notes:
+		Big consistency booster for all the -Koro decks!
+		=> lets you run minimal bricky Field Spells, because you can recycle from GY too
+		==> no need to make this HOPT, Field Spells replace each other
+		=> effectively sets up a Koro + Matoran combination if you have any way to get into the correct attribute
+		==> would open up some lovely synergies if the Matoran search worked with any Field Spell, but the Attribute tags are only on the custom ones unfortunately
+		==> if you run Fall of Ta-Koro, any non-DARK monster on the field is sufficient!
 	time created: 2019-07-29 10:47:06
-	time modified: 2025-07-22 19:43:14
+	time modified: 2026-11-04 17:45:56
 	card type: spell card
 	name: Kolhii Field
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image5
-	rule text: When this card is activated: You can place from your Deck in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a monster on the field. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, but you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
-	gamecode: DRAFT10100409
+	rule text: When this card is activated: You can place from your Deck or GY in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a monster on the field. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, also you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
+	gamecode: 10100409
 card:
 	has styling: false
 	notes:
@@ -1228,10 +1242,16 @@ card:
 	notes:
 		THE LINK-2 THAT SEARCHES THE CONTINUOUS SPELL THAT SEARCHES THE FIELD SPELL
 		=> needs Attribute-changing so Kolhii Field works properly (also you get to pick which village the champions are from)
+		==> TODO: Art variants for every village :^)
 		==> continuous phrasing needs to handle multi-Attribute stuff, could also just target a Warrior on summon and copy it
 		=> direct attack is based on Kolhii gameplay (see also: Huki)
+		=> search can be done in some subtly different ways depending on what fits best
+		==> (Current) Ignition: add 2, send 1 - less impactful to negate, preserves our resources, but does not guarantee getting something in the GY for decks that want it
+		==> Ignition: send 1; add 2 - enormous negate-me button, may legitimately be too risky in Koro decks that can not spare cards ... but dodge/GY setup as cost
+		==> Trigger on SS: Add 2 - most efficient, may be too much without a lock (compare Krosea, BW Berformet), but technically a Link-2 is inherently a minus ...
+		===> Kolhii Field does plus (and lock) itself, so let's see how it adds up in practice
 	time created: 2022-12-01 20:16:06
-	time modified: 2025-07-13 18:22:52
+	time modified: 2026-11-04 17:54:29
 	card type: link monster
 	name: Matoran Kolhii Champions
 	attribute: water
@@ -1245,7 +1265,7 @@ card:
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Link</word-list-ENeffect><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
 	rule text:
 		2 monsters with the same Attribute, including a Warrior monster
-		This Link Summoned card's Attribute becomes the shared Attribute(s) of its materials. Can attack directly if your opponent controls no monsters in its column. You can send 1 card from your hand or field to the GY; add 1 "Kolhii Field" and/or 1 "Kolhii Stick" from your Deck to your hand. You can only use this effect of "Matoran Kolhii Champions" once per turn.
+		This card's Attribute becomes the shared Attribute(s) of the materials used for its Link Summon. Can attack directly if your opponent controls no monsters in its column. During the Main Phase: You can add 1 "Kolhii Field" and/or 1 "Kolhii Stick" from your Deck to your hand, then send 1 card from your hand or field to the GY. You can only use this effect of "Matoran Kolhii Champions" once per turn.
 	Link Marker Up: yes
 	Link Marker UR: none
 	Link Marker Down: yes
@@ -1254,7 +1274,7 @@ card:
 	attack: 1200
 	defense: 1200
 	link number: 2
-	gamecode: DRAFT10100415
+	gamecode: 10100415
 card:
 	has styling: false
 	notes:
@@ -1335,16 +1355,16 @@ card:
 	notes:
 		Free search off Champions, for some funsies
 		=> boosts ATK (hammer end) and gives protection (scoop end)
-		=> straight shot to wipe out column (Takua's move), sets up direct attack for Champions
+		=> straight shot to wipe out column (Takua's move), sets up direct attack for Champions (via replay)
 	time created: 2016-02-25 12:30:33
-	time modified: 2025-07-13 18:20:31
+	time modified: 2026-11-04 18:02:57
 	card type: spell card
 	name: Kolhii Stick
 	attribute: spell
 	level: <sym-auto>+</sym-auto>
 	image: image53
 	rule text: Equip only to a Warrior monster. The equipped monster gains 600 ATK, also the first time each turn it would be destroyed by battle or card effect, it is not destroyed. If the equipped monster declares an attack: You can destroy all other cards in its column. You can only use this effect of "Kolhii Stick" once per turn.
-	gamecode: DRAFT10100449
+	gamecode: 10100449
 card:
 	has styling: false
 	notes:
@@ -1370,30 +1390,30 @@ card:
 card:
 	has styling: false
 	notes:
-		Secures occupied Nokama zone, can be disruption/removal if used against opponent's monster in the proper zone (but then opponent also gets Marka!)
-		=> would be nice to have some kind of Purity-like effect, too ...
-		==> battle effect block with the same condition, but if the other effect is versatile enough we may rather want to save the space
-		=> actually, what we really need in Ga-Koro is a good starter, playing Takua just to reliably make Nokama is not a good state of affairs
-		==> so let's summon Ga-Matoran directly from the Deck, with a WATER monster discard cost so it's unsuitable for use in Ko-Koro
-		==> of course, we might be hitting a point where there are too many WATER discard costs, but we'll see
-		==> could be daring and make the targets all WATER Warriors (below X threshold?), but that includes some scary ones like Reinoheart ...
+		In-archetype 1-card Nokama and potential turn 0 play
+		=> doubly ensures occupied Nokama zones (or forces an opponent's monster out of it) as a bonus
+		=> WATER monster discard has generic synergy, but also can trigger our own Nixie or Kotu, and reduces unwanted compatibility with Ko-Koro
+		
+		Initially considered version (no turn 0 play but disruption, kind of):
+		"You can discard 1 WATER monster; Special Summon 1 WATER "Matoran" monster from your Deck, except "Matoran Shipwright Marka". If this card is in your hand or GY (Quick Effect): You can choose 1 Main Monster Zone your WATER Link Monster points to; if there is a monster in that Zone, banish it (until the End Phase), also, after that, Special Summon this card to that Zone, but banish it when it leaves the field. You can only use each effect of "Matoran Shipwright Marka" once per turn."
+		=> that second effect might still resurface (hah) on that Boat Xyz or whatever
 	time created: 2025-07-19 19:55:02
-	time modified: 2025-08-17 18:34:59
+	time modified: 2026-11-04 18:27:49
 	card type: effect monster
 	name: Matoran Shipwright Marka
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image3
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card is Normal Summoned: You can send 1 WATER monster from your hand to the GY; Special Summon 1 WATER "Matoran" monster from your Deck, except "Matoran Shipwright Marka". If this card is in your hand or GY (Quick Effect): You can choose 1 Main Monster Zone your WATER Link Monster points to; if there is a monster in that Zone, banish it (until the End Phase), also, after that, Special Summon this card to that Zone, but banish it when it leaves the field. You can only use each effect of "Matoran Shipwright Marka" once per turn.
+	rule text: If a monster(s) is Special Summoned to your opponent's field (except during the Damage Step): You can Special Summon this card from your hand, then you can move 1 monster on the field to another Main Monster Zone. (Quick Effect): You can discard 1 WATER monster; Special Summon 1 WATER "Matoran" monster from your Deck in Defense Position, but return it to the hand during the End Phase of this turn. You can only use each effect of "Matoran Shipwright Marka" once per turn.
 	attack: 1700
 	defense: 1500
-	gamecode: DRAFT10100414
+	gamecode: 10100414
 card:
 	has styling: false
 	notes:
@@ -1512,44 +1532,46 @@ card:
 	has styling: false
 	notes:
 		The Normal Summon that gets us to Kantai
-		=> maybe a bit too generic?
+		=> specifically, dumps a Matoran *card* into the GY, then sets a Trap from there, which just so happens to be a way to get Kantai straight from Deck to field
+		=> when you make Nuju from that setup, you can immediately get either Toudou or Kantai back
 	time created: 2025-08-17 18:39:54
-	time modified: 2025-08-17 18:43:57
+	time modified: 2026-11-07 22:39:43
 	card type: effect monster
 	name: Matoran Trapper Toudo
 	attribute: water
 	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
-	image: 
+	image: image64
 	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
 	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
 	type 3: <word-list-ENeffect></word-list-ENeffect>
 	type 4: <word-list-ENeffect></word-list-ENeffect>
 	type 5: <word-list-ENeffect></word-list-ENeffect>
 	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
-	rule text: If this card is Normal Summoned or flipped face-up: You can excavate the top 3 cards of your Deck, and if you do, you can Set 1 excavated Trap, also shuffle the rest into the Deck.
+	rule text: If this card is Normal Summoned or flipped face-up: You can send 1 "Matoran" card from your Deck to the GY, then you can Set 1 Trap from your GY. If this card is sent from the field to the GY: You can target 1 Trap in your GY; Set either it or this card, and shuffle the other into your Deck. You can only use each effect of "Matoran Trapper Toudo" once per turn.
 	attack: 1200
 	defense: 1800
-	gamecode: DRAFT10100423
+	gamecode: 10100423
 card:
 	has styling: false
 	notes:
 		So secluded he's a Trap Card
-		=> adds resistance to Spells/Traps to your lockdown board
-		=> can be fast-tracked as Nuju material if you're out in the drifts far from all non-WATER activities
-		==> or maybe that should be reserved for going second somehow?
-		=> might need some means of GY recovery, but maybe Toudo can handle that
+		=> fast-tracked activation condition as an easy way to get a second Nuju material without activating any monster effects
+		=> adds continuous Spell/Trap negation to your lockdown board
+		==> if we can afford it, this should really require another WATER monster so it isn't just a semi-generic floodgate...
+		
+		I'd love to have some kind of extra normal summon on here, but it's awkward to fit on a trap monster
 	time created: 2025-08-17 18:44:16
-	time modified: 2025-08-17 18:53:22
+	time modified: 2026-11-07 22:56:27
 	card type: trap card
 	name: Matoran Hermit Kantai
 	attribute: trap
 	level: <sym-auto>%</sym-auto>
-	image: 
+	image: image35
 	rule text:
-		Special Summon this card as an Effect Monster (Warrior/WATER/Level 4/ATK 1000/DEF 2000) with the following effect. (This card is also still a Trap.)
+		If you did not activate any non-WATER monster effects this turn, you can activate this card the turn it was Set. Special Summon this card as an Effect Monster (Warrior/WATER/Level 4/ATK 1000/DEF 2000) with the following effects (this card is also still a Trap.)
 		<sym-auto>*</sym-auto>If all face-up monsters you control are WATER, negate the first Spell/Trap effect activated by your opponent each turn.
-		If you did not activate any non-WATER monster effects this turn, you can activate this card the turn it was Set. You can only activate 1 "Matoran Hermit Kantai" per turn.
-	gamecode: DRAFT10100424
+		You can only activate 1 "Matoran Hermit Kantai" per turn.
+	gamecode: 10100424
 card:
 	has styling: false
 	notes: Poplars & gets Makani back
@@ -1673,6 +1695,62 @@ card:
 	image: image21
 	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 11100428
+card:
+	has styling: false
+	notes:
+		Prospector: finds and identifies ore
+		=> first two effects are purely utility (gets on the field from Whenua search or Onu-Koro draw + adjusts Levels for Ussalry with topical LP gain bonus)
+		=> third is the flavor effect excavation to find a special thing
+		==> triggers off being sent to grave, so we have more things for a suboptimal Onu-Koro resolution or to dump with Midak
+		==> generically useful effect, so limited by scaling with number of Matoran et al you control ... not sure how that impacts usability though
+		===> maybe better as a fixed 3 if you control at least 1 relevant monster
+		===> could also scale with EARTH, but all Onu-Matoran so far at least mention the archetype in some capacity
+	time created: 2025-08-17 17:54:20
+	time modified: 2026-11-07 18:46:56
+	card type: effect monster
+	name: Matoran Prospector Azibo
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image34
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text: If this card is added from the Deck to your hand: You can reveal it; Special Summon it. You can target 1 Level 3 or higher monster you control; reduce its Level by up to 2, and if you do, gain 600 LP. If this card is sent to the GY: You can excavate cards from the top of your Deck, equal to the number of "Toa", "Matoran", and "Turaga" monsters you control, and if you do, you can Set 1 excavated Spell/Trap, also send the rest to the GY. You can only use each effect of "Matoran Prospector Azibo" once per turn.
+	attack: 1600
+	defense: 1400
+	gamecode: 10100417
+card:
+	has styling: false
+	notes:
+		Onu-Koro's military force as a minor boss monster
+		=> special Synchro condition so you can make it with e.g. Onepu + Ussal
+		=> passive beatdown buffs enabled by doing Onu-Koro LP shenanigans
+		=> Quick Effect pop that is paid by your hand and accumulated GY resources
+		==> fairly generic, but does take a discard, so that's ok?
+		
+		Maybe an EARTH lock somewhere to limit usability in Po-Koro?
+	time created: 2025-08-17 17:54:20
+	time modified: 2026-11-07 21:24:55
+	card type: synchro monster
+	name: Onu-Matoran Ussalry
+	attribute: earth
+	level: <sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto><sym-auto>*</sym-auto>
+	image: image65
+	type 1: <word-list-ENrace>Warrior</word-list-ENrace>
+	type 2: <word-list-ENeffect>Effect</word-list-ENeffect>
+	type 3: <word-list-ENeffect></word-list-ENeffect>
+	type 4: <word-list-ENeffect></word-list-ENeffect>
+	type 5: <word-list-ENeffect></word-list-ENeffect>
+	monster type: <prefix>[</prefix><word-list-ENrace>Warrior</word-list-ENrace><sep> / </sep><word-list-ENeffect>Effect</word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep-soft></sep-soft><word-list-ENeffect></word-list-ENeffect><sep>]<soft></soft></sep><word-list-ENeffect></word-list-ENeffect>
+	rule text:
+		1 Tuner + 1+ non-Tuners
+		For this card's Synchro Summon, you can treat 1 EARTH Warrior monster you control as a Tuner. While your LP are higher than your opponent's, your opponent's monsters lose ATK/DEF equal to the difference. If you paid LP this turn, this card can attack all monsters your opponent controls, once each. Once per turn (Quick Effect): You can discard 1 card; place 1 EARTH monster from your GY or banishment on the bottom of the Deck, then you can destroy 1 card your opponent controls.
+	attack: 2100
+	defense: 1500
+	gamecode: 10100418
 version control:
 	type: none
 apprentice code: 
