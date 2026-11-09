@@ -676,6 +676,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Banish 1 Warrior monster you control until the End Phase}}
+		
 		Principle of Prosperity: Reward work with resources
 		=> main effect directly gives a draw in exchange for the proof of work in the GY, cheekily written so it doubles as GY control since this is a Trap after all
 		==> maybe just monsters instead of any cards? (Keldo/Mudora tho ...)
@@ -928,6 +930,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add 1 "Matoran" monster from your Deck to your hand}}
+		{{Affected by "Kolhii Field": Cannot Special Summon, except Warrior monsters and/or with the added monster's Attribute}}
+		
 		Big consistency booster for all the -Koro decks!
 		=> lets you run minimal bricky Field Spells, because you can recycle from GY too
 		==> no need to make this HOPT, Field Spells replace each other
@@ -1143,13 +1148,13 @@ card:
 		==> note the use of "also, after that", so the "cost" doesn't need to concern itself with whether or not anything was successfully bounced
 		=> search other Field Spells to represent moving on to Metru Nui
 	time created: 2016-02-25 12:30:33
-	time modified: 2026-04-22 20:49:02
+	time modified: 2026-11-09 21:11:38
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image62
-	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand/Extra Deck as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 10100428
 card:
 	has styling: false
@@ -1240,6 +1245,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Add "Kolhii Field" and/or "Kolhii Stick"}}
+		
 		THE LINK-2 THAT SEARCHES THE CONTINUOUS SPELL THAT SEARCHES THE FIELD SPELL
 		=> needs Attribute-changing so Kolhii Field works properly (also you get to pick which village the champions are from)
 		==> TODO: Art variants for every village :^)
@@ -1353,6 +1360,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Destroy all other cards in the equipped monster's column}}
+		
 		Free search off Champions, for some funsies
 		=> boosts ATK (hammer end) and gives protection (scoop end)
 		=> straight shot to wipe out column (Takua's move), sets up direct attack for Champions (via replay)
@@ -1390,6 +1399,9 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card}}
+		{{Special Summon 1 WATER "Matoran" monster from your Deck}}
+		
 		In-archetype 1-card Nokama and potential turn 0 play
 		=> doubly ensures occupied Nokama zones (or forces an opponent's monster out of it) as a bonus
 		=> WATER monster discard has generic synergy, but also can trigger our own Nixie or Kotu, and reduces unwanted compatibility with Ko-Koro
@@ -1531,6 +1543,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Send 1 "Matoran" card from your Deck to the GY}}
+		
 		The Normal Summon that gets us to Kantai
 		=> specifically, dumps a Matoran *card* into the GY, then sets a Trap from there, which just so happens to be a way to get Kantai straight from Deck to field
 		=> when you make Nuju from that setup, you can immediately get either Toudou or Kantai back
@@ -1687,17 +1701,21 @@ card:
 	has styling: false
 	notes: [[Alias:10100428]]
 	time created: 2016-02-25 12:30:33
-	time modified: 2026-04-22 20:52:30
+	time modified: 2026-11-09 21:10:22
 	card type: spell card
 	name: The Fall of Ta-Koro
 	attribute: spell
 	level: <sym-auto>&</sym-auto>
 	image: image21
-	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
+	rule text: Once per turn, during your opponent's End Phase: Return as many LIGHT, EARTH, WATER, FIRE, and/or WIND monsters you control to the hand/Extra Deck as possible, then destroy all monsters on the field. At the start of the Damage Step, if 2 monsters battle: You can return them to the hand, also, after that, send 1 card from your hand or field to the GY. If this card is sent from the Field Zone to the GY: You can add 1 non-"-Koro" Field Spell from your Deck or GY to your hand. You can only use this effect of "The Fall of Ta-Koro" once per turn.
 	gamecode: 11100428
 card:
 	has styling: false
 	notes:
+		{{Special Summon this card}}
+		{{Reduce Level}}
+		{{Excavate cards from the top of your Deck}}
+		
 		Prospector: finds and identifies ore
 		=> first two effects are purely utility (gets on the field from Whenua search or Onu-Koro draw + adjusts Levels for Ussalry with topical LP gain bonus)
 		=> third is the flavor effect excavation to find a special thing
@@ -1725,6 +1743,8 @@ card:
 card:
 	has styling: false
 	notes:
+		{{Place 1 EARTH monster from your GY or banishment on the bottom of the Deck}}
+		
 		Onu-Koro's military force as a minor boss monster
 		=> special Synchro condition so you can make it with e.g. Onepu + Ussal
 		=> passive beatdown buffs enabled by doing Onu-Koro LP shenanigans
