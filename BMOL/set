@@ -940,13 +940,13 @@ card:
 		==> would open up some lovely synergies if the Matoran search worked with any Field Spell, but the Attribute tags are only on the custom ones unfortunately
 		==> if you run Fall of Ta-Koro, any non-DARK monster on the field is sufficient!
 	time created: 2019-07-29 10:47:06
-	time modified: 2026-11-04 17:45:56
+	time modified: 2026-11-11 19:10:22
 	card type: spell card
 	name: Kolhii Field
 	attribute: spell
 	level: <sym-auto>%</sym-auto>
 	image: image5
-	rule text: When this card is activated: You can place from your Deck or GY in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a monster on the field. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, also you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
+	rule text: When this card is activated: You can place from your Deck or GY in your Field Zone, 1 "-Koro" Field Spell that mentions the Attribute of a monster on the field. During the Main Phase: You can add from your Deck to your hand, 1 "Matoran" monster whose Attribute is mentioned on a "-Koro" card in your Field Zone, but you cannot Special Summon for the rest of this turn, except Warrior monsters and/or monsters with that Attribute. You can only use this effect of "Kolhii Field" once per turn.
 	gamecode: 10100409
 card:
 	has styling: false
